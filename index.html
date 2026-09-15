@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gündem Takip — Brüksel Hukuk Merkezi</title>
+<meta name="description" content="Brüksel Hukuk Merkezi'nin izlediği 350 hukuki kaynağın otomatik taranmasıyla oluşan günlük gelişmeler akışı.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <div class="brand">
+        <b>Gündem Takip</b>
+        <span>Brüksel Hukuk Merkezi · otomatik kaynak taraması</span>
+      </div>
+      <div class="status" id="status"><span class="dot"></span><span id="statusText">yükleniyor…</span></div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-view="gundem" aria-selected="true">Gündem</button>
+      <button role="tab" data-view="kaynaklar" aria-selected="false">Kaynaklar</button>
+      <button role="tab" data-view="arsiv" aria-selected="false">Arşiv</button>
+      <button role="tab" data-view="hakkinda" aria-selected="false">Nasıl çalışır</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- GÜNDEM -->
+  <section id="view-gundem">
+    <div class="stats" id="stats"></div>
+    <div class="filters">
+      <div class="frow">
+        <input type="search" id="q" placeholder="Başlık, kaynak veya terim ara…" autocomplete="off">
+        <select id="tema"><option value="">Tüm temalar</option></select>
+        <select id="oncelik">
+          <option value="">Tüm öncelikler</option>
+          <option>Kritik</option><option>Yüksek</option><option>Orta</option><option>Düşük</option>
+        </select>
+        <select id="sirala">
+          <option value="tarih">En yeni</option>
+          <option value="puan">Önem sırası</option>
+        </select>
+      </div>
+      <div class="frow" id="bolgeChips">
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+    <div id="feed"></div>
+  </section>
+
+  <!-- KAYNAKLAR -->
+  <section id="view-kaynaklar" hidden>
+    <p class="note">İzleme envanterindeki tüm kaynaklar. <b>RSS</b> etiketi taşıyanlar otomatik taranır; taşımayanlar plana göre elle kontrol edilir.</p>
+    <div class="filters">
+      <div class="frow">
+        <input type="search" id="sq" placeholder="Kaynak adı, kategori veya anahtar terim…" autocomplete="off">
+        <select id="sbolge"><option value="">Tüm bölgeler</option></select>
+        <select id="skategori"><option value="">Tüm kategoriler</option></select>
+        <select id="ssiklik"><option value="">Tüm tarama sıklıkları</option></select>
+        <select id="srss"><option value="">Akış durumu: tümü</option><option value="var">Yalnız RSS var</option><option value="yok">Yalnız RSS yok</option></select>
+        <span class="count" id="scount"></span>
+      </div>
+    </div>
+    <div class="srcgrid" id="srcgrid"></div>
+  </section>
+
+  <!-- ARŞİV -->
+  <section id="view-arsiv" hidden>
+    <p class="note">Her tarama, o güne ait gelişmeleri günlük dosyalara kaydeder. Bir gün seçildiğinde o günün kaydı yüklenir.</p>
+    <div class="filters"><div class="frow"><select id="gun"></select><span class="count" id="acount"></span></div></div>
+    <div id="arsivFeed"></div>
+  </section>
+
+  <!-- HAKKINDA -->
+  <section id="view-hakkinda" hidden>
+    <div class="stats" id="stats2"></div>
+    <h2 style="margin:18px 0 10px">Nasıl çalışır?</h2>
+    <p class="note" style="border-left-color:var(--tr)">Bu site statiktir; tarama GitHub Actions üzerinde çalışan bir görevle yapılır, sonuçlar JSON olarak depoya yazılır ve sayfa bu dosyaları okur. Sunucu, veritabanı veya abonelik gerektirmez.</p>
+    <ol style="max-width:70ch;color:var(--ink-2)">
+      <li><b>Kaynak envanteri:</b> BHM izleme merkezi dosyasındaki kaynaklar <code>data/sources.json</code> içine aktarılır.</li>
+      <li><b>Akış keşfi:</b> Tarayıcı her kaynağın adresinde RSS/Atom akışı arar (sayfa içi <code>link rel=alternate</code> etiketi ve yaygın <code>/feed</code>, <code>/rss</code> kalıpları). Bulunanlar <code>data/feeds.json</code> içinde saklanır, süresi geçtikçe yeniden doğrulanır.</li>
+      <li><b>Tarama:</b> Bulunan akışlar paralel çekilir, son <span id="pencere">21</span> günün öğeleri ayrıştırılır, bağlantıya göre tekilleştirilir.</li>
+      <li><b>Önem sıralaması:</b> Kaynağın önceliği, birincil/ikincil kanıt değeri, uyarı terimi eşleşmeleri ve tazelik puanlanır.</li>
+      <li><b>Yayın:</b> <code>data/latest.json</code> ve <code>data/archive/YYYY-AA-GG.json</code> güncellenir, depoya işlenir ve GitHub Pages yayınlanır.</li>
+    </ol>
+    <p class="muted" style="max-width:70ch">Kanıt standardı: akış başlıkları yalnızca işarettir. Dosyaya girecek her gelişme birincil kaynakta (karar metni, resmî yayın, tebliğ) doğrulanmalıdır. Tarih bilgisi vermeyen akışlarda öğe tarihi tarama anına göre tahmin edilir ve kartta belirtilir.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">Brüksel Hukuk Merkezi · Gündem Takip · veriler <span id="footTime" class="mono">—</span> tarihli taramadan. Kaynak envanteri: <span id="footSrc">—</span> kaynak, <span id="footFeed">—</span> otomatik akış.</div></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

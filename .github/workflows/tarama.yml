@@ -1,0 +1,70 @@
+name: Kaynak taramasi
+
+on:
+  schedule:
+    - cron: "0 5,11,17 * * *"   # UTC — TR saatiyle 08:00, 14:00, 20:00
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: "Bu turda kac kaynak icin yeni RSS akisi aransin"
+        default: "120"
+  push:
+    paths:
+      - "scripts/**"
+      - "data/sources.json"
+      - ".github/workflows/tarama.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tarama
+  cancel-in-progress: false
+
+jobs:
+  tara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kaynaklari tara
+        run: python3 scripts/collect.py --discover ${{ github.event.inputs.discover || '120' }} --workers 16
+
+      - name: Sonuclari isle
+        run: |
+          git config user.name "gundem-bot"
+          git config user.email "actions@github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Degisiklik yok."
+          else
+            git commit -m "veri: tarama $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+        continue-on-error: true
+        id: pages
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pages.outcome == 'success'
+        with:
+          path: .
+    outputs:
+      pages: ${{ steps.pages.outcome }}
+
+  yayinla:
+    needs: tara
+    if: needs.tara.outputs.pages == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deploy
