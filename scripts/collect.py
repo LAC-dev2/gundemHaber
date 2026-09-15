@@ -38,6 +38,52 @@ MAX_PER_FEED = 25
 CANDIDATES = ("/feed/", "/rss", "/feed", "/rss.xml", "/atom.xml", "/index.xml",
               "/?feed=rss2", "/en/rss", "/feeds/posts/default", "/news/rss",
               "/rss/", "/en/feed/")
+# Elle dogrulanmis kurumsal akislar (otomatik kesif bu adresleri bulamiyor)
+SEED_FEEDS = (
+    "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
+    "https://fra.europa.eu/en/rss.xml",
+    "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+    "https://edri.org/feed/",
+    "https://ecre.org/feed/",
+    "https://verfassungsblog.de/feed/",
+    "https://strasbourgobservers.com/feed/",
+    "https://www.statewatch.org/feed/",
+    "https://www.article19.org/feed/",
+    "https://www.frontlinedefenders.org/en/rss.xml",
+    "https://cpj.org/feed/",
+    "https://www.hrw.org/rss/news",
+    "https://www.amnesty.org/en/rss/",
+    "https://www.icj.org/feed/",
+    "https://www.icc-cpi.int/rss.xml",
+    "https://www.lawyersforlawyers.org/en/feed/",
+    "https://www.tihv.org.tr/feed/",
+    "https://www.evrensel.net/rss/haber.xml",
+    "https://turkishminute.com/feed/",
+    "https://www.nordicmonitor.com/feed/",
+    "https://tr724.com/feed/",
+    "https://boldmedya.com/feed/",
+)
+# RSS yayini olmayan kaynaklar icin alan adina kilitli haber aramasi
+NEWS_BASE = "https://news.google.com/rss/search?q={q}&hl=tr&gl=TR&ceid=TR:tr"
+NEWS_PRIORITIES = ("Kritik", "Yüksek")
+NEWS_FREQUENCIES = ("Günlük", "Haftalık")
+
+
+def source_terms(src: dict) -> list[str]:
+    """Kaynagin anahtar terimlerini listeler."""
+    raw = re.split(r"[,;/]", (src.get("anahtar") or ""))
+    return [t.strip() for t in raw if len(t.strip()) > 4][:4]
+
+
+def news_url(src: dict, domain: str) -> str:
+    """Alan adina kilitli, kaynagin anahtar terimleriyle daraltilmis arama."""
+    terms = source_terms(src)
+    query = f"site:{domain}"
+    if terms:
+        joined = " OR ".join(f'"{t}"' if " " in t else t for t in terms)
+        query += f" ({joined})"
+    return NEWS_BASE.format(q=urllib.parse.quote(query))
+
 RECHECK_FOUND_DAYS = 30   # bulunan akis ne kadar sonra yeniden dogrulanir
 RECHECK_NONE_DAYS = 21    # bulunamayan kaynak ne kadar sonra yeniden aranir
 
@@ -117,6 +163,11 @@ def parse_date(raw: str) -> datetime | None:
     raw = (raw or "").strip()
     if not raw:
         return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except ValueError:
+        pass
     raw = re.sub(r"\s+", " ", raw).replace("GMT", "+0000").replace("UTC", "+0000")
     raw = re.sub(r"([+-]\d{2}):(\d{2})$", r"\1\2", raw)
     for fmt in DATE_FORMATS:
@@ -183,14 +234,21 @@ def parse_feed(body: bytes) -> list[dict]:
 PRIORITY_WEIGHT = {"Kritik": 30, "Yüksek": 20, "Orta": 10, "Düşük": 4}
 
 
+def word_pattern(term: str) -> re.Pattern:
+    """Terimi sozcuk siniriyla arar (ornek: 'sayi' -> 'Sayin' eslesmez)."""
+    return re.compile(r"(?<!\w)" + re.escape(term.lower()) + r"\w{0,4}(?!\w)")
+
+
 def build_matcher(terms: list[str]):
-    uniq = sorted({t.strip().lower() for t in terms if len(t.strip()) > 3},
+    uniq = sorted({t.strip().lower() for t in terms if len(t.strip()) > 4},
                   key=len, reverse=True)
+    pats = [(t, word_pattern(t)) for t in uniq]
+
     def match(text: str) -> list[str]:
         low = text.lower()
         hits = []
-        for term in uniq:
-            if term in low:
+        for term, pat in pats:
+            if pat.search(low):
                 hits.append(term)
                 if len(hits) == 5:
                     break
@@ -202,6 +260,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--discover", type=int, default=90,
                     help="bu turda en fazla kac kaynak icin akis aramasi yapilsin")
+    ap.add_argument("--news", type=int, default=140,
+                    help="RSS yayini olmayan kac kaynak icin haber aramasi yapilsin (0 = kapali)")
     ap.add_argument("--workers", type=int, default=12)
     args = ap.parse_args()
 
@@ -235,38 +295,62 @@ def main() -> int:
                               "checked": NOW.isoformat(timespec="seconds")}
 
     # 2) kaynak -> akis eslesmesi -----------------------------------------
-    jobs: list[tuple[dict, str]] = []
+    seed_by_host = {urllib.parse.urlparse(f).netloc.replace("www.", ""): f for f in SEED_FEEDS}
+    jobs: list[tuple[dict, str, str]] = []
+    feed_urls: set[str] = set()
+    news_used = 0
     for src in sources:
-        seen = set()
+        seen: set[str] = set()
+        hosts = {urllib.parse.urlparse(u).netloc.replace("www.", "")
+                 for u in (src.get("links") or []) if u.startswith("http")}
+        hosts.discard("www.google.com")
+        hosts.discard("google.com")
+        hosts.discard("x.com")
         for url in (src.get("links") or [])[:2]:
             feed = (cache.get(url) or {}).get("feed")
             if feed and feed not in seen:
                 seen.add(feed)
-                jobs.append((src, feed))
+                jobs.append((src, feed, "akış"))
+        for host in hosts:
+            feed = seed_by_host.get(host)
+            if feed and feed not in seen:
+                seen.add(feed)
+                jobs.append((src, feed, "akış"))
+        feed_urls |= seen
+        if (not seen and hosts and news_used < args.news
+                and src.get("oncelik") in NEWS_PRIORITIES
+                and src.get("siklik") in NEWS_FREQUENCIES):
+            news_used += 1
+            jobs.append((src, news_url(src, sorted(hosts)[0]), "arama"))
 
-    print(f"taranacak akis: {len(jobs)}")
+    print(f"taranacak akis: {sum(1 for j in jobs if j[2] == 'akış')} | "
+          f"haber aramasi: {news_used}")
 
     def pull(job):
-        src, feed = job
+        src, feed, kind = job
         try:
             _, body = fetch(feed)
-            return src, feed, parse_feed(body), None
+            return src, feed, kind, parse_feed(body), None
         except Exception as exc:  # akis hatasi taramayi durdurmaz
-            return src, feed, [], f"{type(exc).__name__}"
+            return src, feed, kind, [], f"{type(exc).__name__}"
 
     match = build_matcher(meta.get("alertTerms", []))
     cutoff = NOW - timedelta(days=WINDOW_DAYS)
     items: dict[str, dict] = {}
     errors = 0
     active_feeds = 0
+    active_news = 0
 
     with cf.ThreadPoolExecutor(args.workers) as ex:
-        for src, feed, entries, err in ex.map(pull, jobs):
+        for src, feed, kind, entries, err in ex.map(pull, jobs):
             if err:
                 errors += 1
                 continue
             if entries:
-                active_feeds += 1
+                if kind == "akış":
+                    active_feeds += 1
+                else:
+                    active_news += 1
             for it in entries:
                 published = parse_date(it["d"]) or NOW
                 if published < cutoff:
@@ -275,8 +359,24 @@ def main() -> int:
                     published = NOW
                 url = it["u"] or feed
                 key = re.sub(r"[?#].*$", "", url) or it["t"]
-                terms = match(f"{it['t']} {it['s']} {src.get('anahtar','')}")
+                summary = it["s"]
+                if summary[:40] and summary.lower().startswith(it["t"][:40].lower()):
+                    summary = summary[len(it["t"]):].lstrip(" -–—:·|").strip()
+                blob = f"{it['t']} {summary}"
+                low = blob.lower()
+                terms = match(blob)
+                for extra in source_terms(src):
+                    if word_pattern(extra).search(low) and extra.lower() not in terms:
+                        terms.append(extra.lower())
+                terms = terms[:5]
+                # Genel haber kaynaklari ve arama sonuclarinda konu ilgisi zorunlu:
+                # kurum/izleme akislarinin tamami ilgilidir, genel basinin degil.
+                general = ("Haber" in (src.get("tur") or "")
+                           or src.get("kategori") in ("Haber", "Basın özgürlüğü"))
+                if not terms and (kind == "arama" or general):
+                    continue
                 score = (PRIORITY_WEIGHT.get(src.get("oncelik", ""), 8)
+                         + (0 if kind == "akış" else -8)
                          + 6 * len(terms)
                          + (12 if src.get("kanit", "").startswith("Birincil") else 0)
                          - min((NOW - published).days, 21))
@@ -284,9 +384,9 @@ def main() -> int:
                     "id": src["id"], "kaynak": src["ad"], "bolge": src.get("bolge", ""),
                     "kategori": src.get("kategori", ""), "oncelik": src.get("oncelik", ""),
                     "kanit": src.get("kanit", ""), "tur": src.get("tur", ""),
-                    "baslik": it["t"], "url": url, "ozet": it["s"],
+                    "baslik": it["t"], "url": url, "ozet": summary,
                     "tarih": published.astimezone(timezone.utc).isoformat(timespec="minutes"),
-                    "tahmini": it["nd"], "terimler": terms, "puan": score,
+                    "tahmini": it["nd"], "terimler": terms, "puan": score, "tip": kind,
                 }
                 prev = items.get(key)
                 if prev is None or row["puan"] > prev["puan"]:
@@ -299,14 +399,16 @@ def main() -> int:
     for r in rows:
         by_region[r["bolge"]] = by_region.get(r["bolge"], 0) + 1
     today = NOW.date().isoformat()
-    feeds_known = sum(1 for e in cache.values() if e.get("feed"))
+    feeds_known = len(feed_urls)
 
     latest = {
         "olusturma": NOW.isoformat(timespec="seconds"),
         "istatistik": {
             "kaynak": len(sources),
             "akisBulunan": feeds_known,
-            "akisTaranan": len(jobs),
+            "akisTaranan": sum(1 for j in jobs if j[2] == "akış"),
+            "aramaKaynak": news_used,
+            "aramaVeriVeren": active_news,
             "akisVeriVeren": active_feeds,
             "akisHata": errors,
             "haber": len(rows),

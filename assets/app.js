@@ -30,6 +30,7 @@ function card(it) {
       <span>${esc(it.bolge)}${it.kategori ? ' · ' + esc(it.kategori) : ''}</span>
       ${it.oncelik ? `<span class="tag ${prCls}">${esc(it.oncelik)}</span>` : ''}
       ${it.kanit ? `<span class="tag${it.kanit.startsWith('Birincil') ? ' birincil' : ''}">${esc(it.kanit)}</span>` : ''}
+      ${it.tip === 'arama' ? '<span class="tag arama" title="Kaynağın RSS yayını yok; alan adına kilitli haber aramasıyla bulundu">arama</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
     <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.baslik)}</a></h3>
@@ -65,10 +66,12 @@ function filtered() {
   const q = slug($('#q').value.trim());
   const themeId = $('#tema').value;
   const pr = $('#oncelik').value;
+  const tip = $('#tip').value;
   const theme = state.themes.find((t) => t.id === themeId);
   let rows = state.items.filter((it) => {
     if (state.region && it.bolge !== state.region) return false;
     if (pr && it.oncelik !== pr) return false;
+    if (tip && (it.tip || 'akış') !== tip) return false;
     if (theme && !(theme.kategoriler || []).includes(it.kategori)) return false;
     if (q) {
       const hay = slug(`${it.baslik} ${it.kaynak} ${it.ozet} ${it.kategori} ${(it.terimler || []).join(' ')}`);
@@ -90,7 +93,8 @@ function statTiles(s) {
   const t = [
     ['bugün', s.bugun ?? 0, 'yeni gelişme'],
     [`son ${s.pencereGun || 21} gün`, s.haber ?? 0, 'toplam kayıt'],
-    ['otomatik akış', `${s.akisVeriVeren ?? 0}/${s.akisTaranan ?? 0}`, 'veri veren / taranan'],
+    ['otomatik akış', `${s.akisVeriVeren ?? 0}/${s.akisTaranan ?? 0}`, 'veri veren / taranan RSS'],
+    ['haber aramaları', `${s.aramaVeriVeren ?? 0}/${s.aramaKaynak ?? 0}`, 'RSS yayını olmayan kaynak'],
     ['kaynak envanteri', s.kaynak ?? 0, 'izlenen kaynak'],
     ['bölge dağılımı', Object.keys(s.bolge || {}).length, Object.entries(s.bolge || {}).map(([k, v]) => `${k} ${v}`).join(' · ') || '—'],
   ];
@@ -119,10 +123,12 @@ function drawSources() {
   $('#scount').textContent = `${rows.length} kaynak`;
   $('#srcgrid').innerHTML = rows.map((x) => {
     const f = feedOf(x);
-    const n = state.items.filter((i) => i.id === x.id).length;
+    const rows = state.items.filter((i) => i.id === x.id);
+    const n = rows.length;
+    const mode = f ? 'RSS' : rows.some((r) => r.tip === 'arama') ? 'arama' : 'elle';
     return `<div class="srccard" style="--c:${RC[x.bolge] || 'var(--petrol)'}">
       <div class="meta"><span>${esc(x.bolge)} · ${esc(x.kategori)}</span>
-        <span class="rss${f ? '' : ' no'}">${f ? 'RSS' : 'elle'}</span>
+        <span class="rss${mode === 'RSS' ? '' : mode === 'arama' ? ' ara' : ' no'}">${mode}</span>
         ${n ? `<span class="tag">${n} kayıt</span>` : ''}</div>
       <h3>${esc(x.ad)}</h3>
       <div class="meta"><span class="tag">${esc(x.tur || '')}</span><span class="tag">${esc(x.siklik || '')}</span><span class="tag ${slug(x.oncelik || '') === 'kritik' ? 'kritik' : slug(x.oncelik || '') === 'yuksek' ? 'yuksek' : ''}">${esc(x.oncelik || '')}</span></div>
@@ -191,7 +197,7 @@ async function drawArchive() {
   fillSelect($('#ssiklik'), state.sources.map((s) => s.siklik), 'Tüm tarama sıklıkları');
   $('#gun').innerHTML = (index || []).slice().reverse().map((d) => `<option>${esc(d)}</option>`).join('');
 
-  ['#q', '#tema', '#oncelik', '#sirala'].forEach((s) => $(s).addEventListener('input', () => { state.shown = PAGE; draw(); }));
+  ['#q', '#tema', '#oncelik', '#tip', '#sirala'].forEach((s) => $(s).addEventListener('input', () => { state.shown = PAGE; draw(); }));
   ['#sq', '#sbolge', '#skategori', '#ssiklik', '#srss'].forEach((s) => $(s).addEventListener('input', drawSources));
   $('#gun').addEventListener('change', drawArchive);
 

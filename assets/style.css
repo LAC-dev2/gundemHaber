@@ -105,3 +105,6 @@ footer{border-top:1px solid var(--rule);margin-top:40px;padding:22px 0 40px;font
   .tag.kritik{color:#F0A091}.tag.yuksek{color:#E6BE76}
   .card h3 a{color:var(--ink)}
 }
+.tag.arama{border-color:rgba(109,75,176,.35);background:rgba(109,75,176,.09);color:#5b3d97}
+@media (prefers-color-scheme:dark){.tag.arama{color:#BBA6E8}}
+.rss.ara{border-color:rgba(109,75,176,.35);background:rgba(109,75,176,.09);color:#5b3d97}
