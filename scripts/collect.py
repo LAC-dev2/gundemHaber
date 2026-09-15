@@ -152,6 +152,29 @@ def clean(raw: str, limit: int = 320) -> str:
     return txt[:limit].rstrip() + ("…" if len(txt) > limit else "")
 
 
+# Akis ozetlerinin basina takilan arayuz/CMS kaliplari
+NOISE_PREFIXES = re.compile(
+    r"^(?:click to expand|image|language\s+english|summary|press release"
+    r"|read more|lire la suite|share this|type\s|page blocks)\b[\s:–—-]*", re.I)
+BYLINE_ONLY = re.compile(r"^[\w.\-' ]{1,40},?\s*\d{1,2}[/.]\d{1,2}[/.]\d{2,4}"
+                         r"(?:\s*[-–]\s*\d{1,2}[:.]\d{2})?\s*$")
+
+
+def tidy_summary(text: str, title: str) -> str:
+    """Ozetten baslik tekrarini, CMS kaliplarini ve yalin imza satirlarini ayiklar."""
+    out = text.strip()
+    if out[:40] and out.lower().startswith(title[:40].lower()):
+        out = out[len(title):].lstrip(" -–—:·|").strip()
+    for _ in range(4):
+        trimmed = NOISE_PREFIXES.sub("", out).strip()
+        if trimmed == out:
+            break
+        out = trimmed
+    if BYLINE_ONLY.match(out) or len(out) < 25:
+        return ""
+    return out
+
+
 DATE_FORMATS = ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z",
                 "%d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M %z",
                 "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ",
@@ -177,6 +200,30 @@ def parse_date(raw: str) -> datetime | None:
         except ValueError:
             continue
     return None
+
+
+JUNK_TITLE = re.compile(r"^[\d\W_]+$")
+
+
+FOLD = str.maketrans("çğıöşüâîûÇĞİÖŞÜÂÎÛ", "cgiosuaiucgiosuaiu")
+
+
+def fold(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", text.translate(FOLD).lower())
+
+
+def useful_title(title: str, source_name: str = "") -> bool:
+    """Numara, dosya kimligi ve yalnizca kaynak adini tekrarlayan basliklari ayiklar."""
+    if len(title) < 12 or JUNK_TITLE.match(title):
+        return False
+    core = fold(title)
+    return bool(core) and core not in fold(source_name)
+
+
+def strip_publisher(title: str) -> str:
+    """Google News basliklarindaki ' - Yayin adi' kuyrugunu atar."""
+    head, sep, tail = title.rpartition(" - ")
+    return head.strip() if sep and len(tail) < 40 and head.strip() else title
 
 
 def parse_feed(body: bytes) -> list[dict]:
@@ -352,6 +399,10 @@ def main() -> int:
                 else:
                     active_news += 1
             for it in entries:
+                if kind == "arama":
+                    it["t"] = strip_publisher(it["t"])
+                if not useful_title(it["t"], src["ad"]):
+                    continue
                 published = parse_date(it["d"]) or NOW
                 if published < cutoff:
                     continue
@@ -359,9 +410,7 @@ def main() -> int:
                     published = NOW
                 url = it["u"] or feed
                 key = re.sub(r"[?#].*$", "", url) or it["t"]
-                summary = it["s"]
-                if summary[:40] and summary.lower().startswith(it["t"][:40].lower()):
-                    summary = summary[len(it["t"]):].lstrip(" -–—:·|").strip()
+                summary = tidy_summary(it["s"], it["t"])
                 blob = f"{it['t']} {summary}"
                 low = blob.lower()
                 terms = match(blob)

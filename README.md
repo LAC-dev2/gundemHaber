@@ -12,7 +12,8 @@ gelişmeleri tek bir sayfada toplayan statik site.
 ## Dosya düzeni
 
 ```
-index.html                  arayüz (Gündem / Kaynaklar / Arşiv / Nasıl çalışır)
+index.html                  yayın sayfası (manşet + günün özeti + bölge blokları,
+                            ardından tüm akış) ve Kaynaklar / Arşiv / Nasıl çalışır
 assets/style.css            BHM görsel kimliğiyle uyumlu stil
 assets/app.js               filtreler, akış ve arşiv görünümü
 scripts/import_sources.py   BHM HTML dosyasından kaynak envanterini aktarır
@@ -47,6 +48,28 @@ Kaynak envanteri güncellendiğinde:
 ```bash
 python3 scripts/import_sources.py /yol/bhm-kaynak-izleme-merkezi.html
 ```
+
+## Kendi alan adında yayınlamak
+
+Site tamamen statiktir; herhangi bir statik barındırmaya konabilir.
+
+**GitHub Pages + kendi alan adı** (en kısa yol, ek maliyet yok):
+
+1. Depo köküne alan adını içeren tek satırlık bir `CNAME` dosyası ekle
+   (örnek içerik: `gundem.brukselhukukmerkezi.com`).
+2. Alan adı sağlayıcısında DNS kaydı:
+   * Alt alan adı için (`gundem.` gibi): `CNAME` → `lac-dev2.github.io`
+   * Kök alan adı için: `A` kayıtları → `185.199.108.153`, `185.199.109.153`,
+     `185.199.110.153`, `185.199.111.153`
+3. **Settings → Pages → Custom domain** alanına aynı adı yaz ve
+   *Enforce HTTPS* işaretle (sertifika birkaç dakikada verilir).
+
+**Cloudflare Pages** alternatifi: depoyu bağla, derleme komutu yok, çıktı
+dizini kök (`/`). Tarama görevi yine GitHub Actions'ta çalışır; Cloudflare
+her veri işlemesinde yeniden yayınlar.
+
+Arama motorları ve paylaşım kartları için `index.html` içindeki
+`<meta name="description">` ile başlığı kendi diline göre düzenleyebilirsin.
 
 ## Tarama mantığı
 

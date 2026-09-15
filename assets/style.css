@@ -125,3 +125,62 @@ footer{border-top:1px solid var(--rule);margin-top:40px;padding:22px 0 40px;font
 }
 .tag.arama{border-color:rgba(109,75,176,.35);background:rgba(109,75,176,.09);color:var(--ink-plum)}
 .rss.ara{border-color:rgba(109,75,176,.35);background:rgba(109,75,176,.09);color:var(--ink-plum)}
+
+/* ---------------------------------------------------- yayın düzeni: manşet */
+.lead{display:grid;grid-template-columns:minmax(0,1fr) 322px;gap:34px;padding:26px 0 6px;align-items:start}
+.lead-main{min-width:0}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.74rem;text-transform:uppercase;letter-spacing:.13em;color:var(--ink-2)}
+.eyebrow .pin{width:8px;height:8px;border-radius:50%;background:var(--c,var(--petrol))}
+.eyebrow .sep{color:var(--ink-3)}
+.manset h2{font-size:clamp(1.75rem,3.4vw,2.6rem);line-height:1.1;margin:12px 0 10px;text-wrap:balance}
+.manset h2 a{color:var(--ink);text-decoration:none}
+.manset h2 a:hover{color:var(--hot)}
+.manset>p{font-size:1.04rem;color:var(--ink-2);max-width:62ch;margin:0 0 14px}
+.byline{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:.8rem;color:var(--ink-3);padding-top:12px;border-top:1px solid var(--rule)}
+.byline b{color:var(--ink);font-weight:600;font-size:.86rem}
+.lead-second{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:22px;padding-top:20px;border-top:3px double var(--rule)}
+.ikincil{display:flex;flex-direction:column;gap:7px;text-decoration:none;border-left:3px solid var(--c,var(--petrol));padding:2px 0 2px 13px}
+.ikincil b{font-family:var(--serif);font-weight:500;font-size:1rem;line-height:1.28;color:var(--ink)}
+.ikincil:hover b{color:var(--hot)}
+.ikincil .src{font-size:.76rem;color:var(--ink-3)}
+
+/* özet paneli */
+.ozet{background:var(--surface-2);border:1px solid var(--rule);border-top:4px solid var(--petrol);border-radius:4px;padding:16px 18px 18px}
+.ozet-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:.76rem;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-2);padding-bottom:12px;border-bottom:1px solid var(--rule-soft)}
+.ozet-head .mono{text-transform:none;letter-spacing:0;color:var(--ink-3)}
+.ozet-say{display:grid;grid-template-columns:1fr 1fr;gap:2px 14px;margin:14px 0 4px}
+.ozet-say div{display:flex;align-items:baseline;gap:7px}
+.ozet-say b{font-family:var(--serif);font-size:1.55rem;font-variant-numeric:tabular-nums;line-height:1.2}
+.ozet-say span{font-size:.78rem;color:var(--ink-3)}
+.ozet-blok{margin-top:18px}
+.ozet-blok h4{font-family:var(--sans);font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2);margin:0 0 9px}
+.term-btn{display:inline-flex;align-items:center;gap:7px;background:rgba(14,124,155,.08);border:1px solid transparent;border-radius:999px;padding:3px 10px;cursor:pointer;font-size:.78rem;color:var(--deep)}
+.term-btn:hover{border-color:var(--petrol)}
+.term-btn .mono{color:var(--ink-3);font-size:.72rem}
+.ozet-list{list-style:none;margin:0;padding:0;counter-reset:s}
+.ozet-list li{display:flex;justify-content:space-between;gap:10px;font-size:.85rem;padding:5px 0;border-bottom:1px dotted var(--rule-soft);color:var(--ink-2)}
+.ozet-list li:last-child{border-bottom:0}
+.ozet-list .mono{color:var(--ink-3)}
+.ozet-not{font-size:.76rem;color:var(--ink-3);margin:16px 0 0;padding-top:12px;border-top:1px solid var(--rule-soft)}
+
+/* bölge blokları */
+.bolge{padding:26px 0 4px;border-top:1px solid var(--rule)}
+.bolge-head{display:flex;align-items:baseline;gap:14px;margin-bottom:14px}
+.bolge-head h3{font-size:1.32rem;position:relative;padding-left:14px}
+.bolge-head h3::before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:4px;background:var(--c,var(--petrol))}
+.link{background:none;border:0;padding:0;cursor:pointer;font-size:.8rem;color:var(--deep);margin-left:auto}
+.link:hover{color:var(--hot);text-decoration:underline}
+.bolge-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}
+.card.sm{box-shadow:none;border-left-width:3px}
+.card.sm h3{font-size:1rem}
+.card.sm p{font-size:.84rem}
+
+/* akış başlığı */
+.sec-head{display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline;padding:34px 0 4px;border-top:1px solid var(--rule);margin-top:26px}
+.sec-head h2{font-size:1.5rem}
+.sec-head p{font-size:.86rem;color:var(--ink-2);margin:0;max-width:58ch}
+
+@media (max-width:900px){
+  .lead{grid-template-columns:1fr;gap:26px}
+  .ozet-say{grid-template-columns:1fr 1fr}
+}

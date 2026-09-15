@@ -16,7 +16,7 @@
     <div class="bar">
       <div class="brand">
         <b>Gündem Takip</b>
-        <span>Brüksel Hukuk Merkezi · otomatik kaynak taraması</span>
+        <span>Brüksel Hukuk Merkezi · hukuki gelişmeler, kaynağından</span>
       </div>
       <div class="status" id="status"><span class="dot"></span><span id="statusText">yükleniyor…</span></div>
     </div>
@@ -32,7 +32,13 @@
 <main class="wrap">
   <!-- GÜNDEM -->
   <section id="view-gundem">
-    <div class="stats" id="stats"></div>
+    <div class="lead" id="lead"></div>
+    <div id="bolgeBloklari"></div>
+
+    <div class="sec-head" id="akisBasi">
+      <h2>Tüm akış</h2>
+      <p>Son <span id="pencere2">21</span> günün bütün kayıtları. Bölge, tema, öncelik ve kayıt türüne göre süzülebilir.</p>
+    </div>
     <div class="filters">
       <div class="frow">
         <input type="search" id="q" placeholder="Başlık, kaynak veya terim ara…" autocomplete="off">
@@ -83,7 +89,7 @@
 
   <!-- HAKKINDA -->
   <section id="view-hakkinda" hidden>
-    <div class="stats" id="stats2"></div>
+    <div class="stats" id="stats"></div>
     <h2 style="margin:18px 0 10px">Nasıl çalışır?</h2>
     <p class="note" style="border-left-color:var(--tr)">Bu site statiktir; tarama GitHub Actions üzerinde çalışan bir görevle yapılır, sonuçlar JSON olarak depoya yazılır ve sayfa bu dosyaları okur. Sunucu, veritabanı veya abonelik gerektirmez.</p>
     <ol style="max-width:70ch;color:var(--ink-2)">

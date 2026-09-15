@@ -5,7 +5,7 @@ const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
 
-const state = { items: [], sources: [], feeds: {}, themes: [], stats: {}, shown: PAGE, region: '' };
+const state = { items: [], sources: [], feeds: {}, themes: [], stats: {}, shown: PAGE, region: '', lead: new Set() };
 
 const dayFmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', weekday: 'long' });
 const timeFmt = new Intl.DateTimeFormat('tr-TR', { hour: '2-digit', minute: '2-digit' });
@@ -59,6 +59,113 @@ function renderFeed(el, rows, limit) {
     ? `<button class="more" id="more">Daha fazla göster (${rows.length - limit} gelişme daha)</button>` : '');
   const more = $('#more', el);
   if (more) more.onclick = () => { state.shown += PAGE * 2; draw(); };
+}
+
+
+/* ------------------------------------------------------- manşet ve özet */
+const DAY = 864e5;
+
+function recent(days) {
+  const t = Date.now() - days * DAY;
+  return state.items.filter((i) => new Date(i.tarih).getTime() >= t);
+}
+
+function leadCard(it) {
+  const d = new Date(it.tarih);
+  return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+    <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
+    <h2><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.baslik)}</a></h2>
+    ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
+    <div class="byline"><b>${esc(it.kaynak)}</b><span>${esc(it.kanit || '')}</span>
+      <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}</span></div>
+  </article>`;
+}
+
+function secondCard(it) {
+  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">
+    <span class="eyebrow"><span class="pin"></span>${esc(it.bolge)}</span>
+    <b>${esc(it.baslik)}</b>
+    <span class="src">${esc(it.kaynak)}</span></a>`;
+}
+
+function renderLead() {
+  const pool = (recent(2).length >= 6 ? recent(2) : recent(5))
+    .slice().sort((a, b) => b.puan - a.puan);
+  if (!pool.length) { $('#lead').innerHTML = `<div class="empty">Henüz tarama kaydı yok.</div>`; return; }
+
+  const today = new Date().toISOString().slice(0, 10);
+  const day = state.items.filter((i) => i.tarih.slice(0, 10) === today);
+  const scope = day.length ? day : recent(2);
+  const termCount = new Map();
+  scope.forEach((i) => (i.terimler || []).forEach((t) => termCount.set(t, (termCount.get(t) || 0) + 1)));
+  const topTerms = [...termCount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 7);
+  const srcCount = new Map();
+  scope.forEach((i) => srcCount.set(i.kaynak, (srcCount.get(i.kaynak) || 0) + 1));
+  const topSrc = [...srcCount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5);
+  const critical = scope.filter((i) => i.oncelik === 'Kritik').length;
+
+  $('#lead').innerHTML = `
+    <div class="lead-main">
+      ${leadCard(pool[0])}
+      <div class="lead-second">${pool.slice(1, 4).map(secondCard).join('')}</div>
+    </div>
+    <aside class="ozet">
+      <div class="ozet-head">${day.length ? 'Bugünün özeti' : 'Son iki günün özeti'}
+        <span class="mono">${esc(new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long' }).format(new Date()))}</span></div>
+      <div class="ozet-say">
+        <div><b>${scope.length}</b><span>başlık</span></div>
+        <div><b>${new Set(scope.map((i) => i.id)).size}</b><span>kaynak</span></div>
+        <div><b>${new Set(scope.map((i) => i.bolge)).size}</b><span>bölge</span></div>
+        <div><b>${critical}</b><span>kritik kaynak</span></div>
+      </div>
+      ${topTerms.length ? `<div class="ozet-blok"><h4>Öne çıkan konular</h4>
+        <div class="terms">${topTerms.map(([t, n]) => `<button class="term-btn" data-term="${esc(t)}"><b>${esc(t)}</b><span class="mono">${n}</span></button>`).join('')}</div></div>` : ''}
+      ${topSrc.length ? `<div class="ozet-blok"><h4>En çok kayıt veren kaynaklar</h4>
+        <ol class="ozet-list">${topSrc.map(([k, n]) => `<li>${esc(k)}<span class="mono">${n}</span></li>`).join('')}</ol></div>` : ''}
+      <p class="ozet-not">Başlıklar kaynağın kendi yayınından alınır; dosyaya girecek gelişme birincil kaynakta doğrulanır.</p>
+    </aside>`;
+
+  state.lead = new Set(pool.slice(0, 4).map((i) => i.url));
+
+  $('#lead').querySelectorAll('.term-btn').forEach((b) => b.addEventListener('click', () => {
+    $('#q').value = b.dataset.term;
+    state.shown = PAGE;
+    draw();
+    $('#akisBasi').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+}
+
+/* -------------------------------------------------------- bölge blokları */
+function renderRegions() {
+  const order = ['Türkiye', 'Belçika', 'Avrupa', 'Dünya'];
+  const html = order.map((r) => {
+    const rows = state.items.filter((i) => i.bolge === r && !state.lead.has(i.url))
+      .slice().sort((a, b) => b.puan - a.puan).slice(0, 3);
+    if (!rows.length) return '';
+    return `<section class="bolge" style="--c:${RC[r]}">
+      <div class="bolge-head"><h3>${esc(r)}</h3>
+        <button class="link" data-region="${esc(r)}">bu bölgenin tamamı →</button></div>
+      <div class="bolge-grid">${rows.map((it) => `<article class="card sm" style="--c:${RC[r]}">
+        <div class="meta"><span class="src">${esc(it.kaynak)}</span>
+          <span>${esc(it.kategori || '')}</span>
+          ${it.oncelik === 'Kritik' ? '<span class="tag kritik">Kritik</span>' : ''}
+          <span class="mono muted">${dayShort(it.tarih)}</span></div>
+        <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.baslik)}</a></h3>
+        ${it.ozet ? `<p>${esc(it.ozet.slice(0, 150))}${it.ozet.length > 150 ? '…' : ''}</p>` : ''}
+      </article>`).join('')}</div>
+    </section>`;
+  }).join('');
+  $('#bolgeBloklari').innerHTML = html;
+  $('#bolgeBloklari').querySelectorAll('.link').forEach((b) => b.addEventListener('click', () => {
+    const chip = $(`#bolgeChips .chip[data-r="${b.dataset.region}"]`);
+    if (chip) chip.click();
+    $('#akisBasi').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+}
+
+function dayShort(iso) {
+  const d = new Date(iso);
+  return isNaN(d) ? '' : new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'short' }).format(d);
 }
 
 /* ---------------------------------------------------------------- gündem */
@@ -176,8 +283,10 @@ async function drawArchive() {
   $('#footTime').textContent = ts ? fullFmt.format(ts) : '—';
   $('#footSrc').textContent = state.stats.kaynak ?? state.sources.length;
   $('#footFeed').textContent = state.stats.akisVeriVeren ?? 0;
-  $('#stats').innerHTML = $('#stats2').innerHTML = statTiles(state.stats);
-  $('#pencere').textContent = state.stats.pencereGun || 21;
+  $('#stats').innerHTML = statTiles(state.stats);
+  $('#pencere').textContent = $('#pencere2').textContent = state.stats.pencereGun || 21;
+  renderLead();
+  renderRegions();
 
   // bölge çipleri
   const regions = Object.keys(RC).filter((r) => state.sources.some((s) => s.bolge === r));
