@@ -1,7 +1,7 @@
 /* BHM Gündem Takip — statik arayüz (bağımlılıksız) */
 const RC = { 'Türkiye': 'var(--tr)', 'Belçika': 'var(--be)', 'Avrupa': 'var(--eu)', 'Dünya': 'var(--dn)', 'Kurumsal': 'var(--kr)' };
 const PAGE = 60;
-const SURUM = 'sürüm 4 · görsel önde';   // arayüz sürümü: eski kopyayı ayırt etmek için
+const SURUM = 'sürüm 5 · dosya düzeni';   // arayüz sürümü: eski kopyayı ayırt etmek için
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
@@ -41,8 +41,12 @@ function dosyaKaydet(it, on) {
   if (!$('#view-dosyam').hidden) drawDosyam();
 }
 
-function yildiz(it) {
+function yildiz(it, dugme) {
   const on = !!state.dosya[it.k];
+  if (dugme) {
+    return `<button class="btn yildiz yildiz-btn" data-k="${esc(it.k)}" aria-pressed="${on}"
+      title="${on ? 'Dosyamdan çıkar' : 'Dosyama ekle'}">${on ? '★ Dosyamda' : '☆ Dosyama ekle'}</button>`;
+  }
   return `<button class="yildiz" data-k="${esc(it.k)}" aria-pressed="${on}"
     title="${on ? 'Dosyamdan çıkar' : 'Dosyama ekle'}">${on ? '★' : '☆'}</button>`;
 }
@@ -72,12 +76,24 @@ async function getJSON(path, fallback) {
 }
 
 /* ---------------------------------------------------------------- kartlar */
-const ONERR = "if(this.dataset.remote&&this.src!==this.dataset.remote){this.src=this.dataset.remote}else{this.closest('figure,div,a')?.remove()}";
+/* Görsel yüklenemezse: önce kaynağın sunucusu, o da olmazsa kaynak amblemi.
+   Böylece ızgarada boş sütun kalmaz. */
+window.gorselHata = function (img) {
+  if (img.dataset.remote && img.src !== img.dataset.remote) { img.src = img.dataset.remote; return; }
+  const box = img.closest('.gorsel, .manset-img');
+  if (box) {
+    box.classList.add('plaka');
+    box.innerHTML = `<span>${img.dataset.plaka || '·'}</span>`;
+    return;
+  }
+  img.closest('figure')?.remove();
+};
 
 function imgTag(it) {
   const local = it.yerel ? esc(it.yerel) : '';
   const remote = it.gorsel ? esc(it.gorsel) : '';
-  return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}" onerror="${ONERR}">`;
+  return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}"
+    data-plaka="${esc(bashafler(it.kaynak))}" onerror="window.gorselHata(this)">`;
 }
 
 /* Kaynak amblemi: adın baş harfleri, bölge renginde. Görseli olmayan
@@ -111,13 +127,17 @@ function card(it) {
       ${it.tam ? '<span class="tag" title="Tam metin yerel olarak indirildi">tam metin</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
       ${yeniMi(it) ? '<span class="tag yeni">yeni</span>' : ''}
-      ${yildiz(it)}
     </div>
     <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
     ${(it.ek || []).length ? `<p class="ayrica"><span>aynı gelişme</span> ${it.ek.map((x) =>
       `<a href="${ic(x)}">${esc(x.kaynak)}</a>`).join('<i>·</i>')}</p>` : ''}
     ${(it.terimler || []).length ? `<div class="terms">${it.terimler.map((t) => `<b>${esc(t)}</b>`).join('')}</div>` : ''}
+    <div class="eylemler">
+      <a class="btn ana" href="${ic(it)}">Kaydı aç</a>
+      <a class="btn" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Kaynakta oku ↗</a>
+      ${yildiz(it, true)}
+    </div>
     </div>
   </article>`;
 }
@@ -156,7 +176,7 @@ function recent(days) {
 function leadCard(it) {
   const d = new Date(it.tarih);
   return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
-    ${(it.gorsel || it.yerel) ? `<a class="manset-img" href="${ic(it)}">${imgTag(it)}</a>` : ''}
+    ${(it.gorsel || it.yerel) ? `<a class="manset-img" href="${ic(it)}" style="--c:${RC[it.bolge] || 'var(--accent-2)'}">${imgTag(it)}</a>` : ''}
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
     <h2><a href="${ic(it)}">${esc(it.baslik)}</a></h2>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
@@ -235,6 +255,7 @@ function renderRegions() {
       <span class="mono">${dayShort(it.tarih)}</span></div>`;
     return `<section class="bolge" style="--c:${RC[r]}">
       <div class="rule-head"><h3>${esc(r)}</h3>
+        <span class="mono">${state.items.filter((i) => i.bolge === r).length} kayıt</span>
         <button class="link" data-region="${esc(r)}">bölgenin tamamı →</button></div>
       <div class="bolge-lead">
         <a class="gorsel-bag" href="${ic(first)}" tabindex="-1" aria-hidden="true">${gorselAlani(first, 'gorsel buyuk')}</a>

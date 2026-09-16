@@ -16,13 +16,17 @@ async function getJSON(path, fallback) {
   } catch (e) { return fallback; }
 }
 
+window.gorselHata = window.gorselHata || function (img) {
+  if (img.dataset.remote && img.src !== img.dataset.remote) { img.src = img.dataset.remote; return; }
+  img.closest('figure')?.remove();
+};
+
 function imgTag(it, extra = '') {
   // yerel aynayı dene, yoksa kaynağın sunucusuna düş, o da olmazsa kaldır
   const local = it.yerel ? esc(it.yerel) : '';
   const remote = it.gorsel ? esc(it.gorsel) : '';
   return `<img src="${local || remote}" alt="" loading="lazy" ${extra}
-    data-remote="${remote}"
-    onerror="if(this.dataset.remote&&this.src!==this.dataset.remote){this.src=this.dataset.remote}else{this.closest('figure,div,a')?.remove()}">`;
+    data-remote="${remote}" onerror="window.gorselHata(this)">`;
 }
 
 function picture(it) {
