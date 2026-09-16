@@ -82,7 +82,8 @@ def loop(opts: argparse.Namespace) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Gundem Takip yerel uygulamasi")
-    ap.add_argument("--port", type=int, default=8000)
+    ap.add_argument("--port", type=int, default=8000,
+                    help="0 verilirse bos bir portu isletim sistemi secer")
     ap.add_argument("--no-scan", dest="scan", action="store_false",
                     help="baslangicta tarama yapmadan yalnizca sun")
     ap.add_argument("--every", type=int, default=0,
@@ -118,7 +119,7 @@ def main() -> int:
         try:
             server = ThreadingHTTPServer(("127.0.0.1", candidate),
                                          partial(Handler, directory=str(ROOT)))
-            port = candidate
+            port = server.server_address[1]   # --port 0 ise isletim sistemi secer
             break
         except OSError as exc:
             if exc.errno not in (48, 98, 10048):     # adres kullanimda
