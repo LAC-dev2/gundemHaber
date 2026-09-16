@@ -118,6 +118,19 @@ Arama motorları ve paylaşım kartları için `index.html` içindeki
 4. **Yayın** — `data/latest.json` ve o güne ait arşiv dosyası güncellenir,
    değişiklik varsa işlenir ve Pages yeniden yayınlanır.
 
+## Veri çakışması
+
+Zamanlanmış tarama da, yerel tarama da aynı veri dosyalarını yazar; ikisi
+birbirinden habersiz çalıştığında `git pull` sırasında `data/latest.json` ve
+günlük arşiv dosyasında çakışma çıkar. Bu dosyalar türetilmiştir, elle
+birleştirilmez:
+
+```bash
+git checkout --theirs data/     # kendi taramanı koru
+# ya da
+git checkout --ours data/ && python3 scripts/collect.py   # uzaktakini al, yeniden tara
+```
+
 ## Görseller ve haber sayfası
 
 Her kayıt için site içinde bir sayfa üretilir: `haber.html?k=<anahtar>`. Anahtar,
