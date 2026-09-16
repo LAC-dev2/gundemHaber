@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures as cf
+import hashlib
 import html
 import json
 import re
@@ -214,7 +215,7 @@ def fold(text: str) -> str:
 
 def useful_title(title: str, source_name: str = "") -> bool:
     """Numara, dosya kimligi ve yalnizca kaynak adini tekrarlayan basliklari ayiklar."""
-    if len(title) < 12 or JUNK_TITLE.match(title):
+    if len(title) < 12 or JUNK_TITLE.match(title) or URLISH_TITLE.search(title):
         return False
     core = fold(title)
     return bool(core) and core not in fold(source_name)
@@ -224,6 +225,73 @@ def strip_publisher(title: str) -> str:
     """Google News basliklarindaki ' - Yayin adi' kuyrugunu atar."""
     head, sep, tail = title.rpartition(" - ")
     return head.strip() if sep and len(tail) < 40 and head.strip() else title
+
+
+IMG_IN_HTML = re.compile(rb"""<img[^>]+src=["']([^"']+)""", re.I)
+OG_IMAGE = re.compile(
+    rb"""<meta[^>]+(?:property|name)=["'](?:og:image(?::secure_url)?|twitter:image)["'][^>]*>""",
+    re.I)
+CONTENT_ATTR = re.compile(rb"""(?:content|value)=["']([^"']+)""", re.I)
+
+
+# Logo, paylasim karti ve yer tutucu gorselleri haber gorseli sayilmaz
+IMG_BLOCK = re.compile(r"(?:logo|favicon|avatar|sprite|placeholder|no-?image"
+                       r"|meta-facebook|default[-_.]|og[-_]default)", re.I)
+URLISH_TITLE = re.compile(r"[\w-]+\.(?:gov|com|org|net|edu|info|be|tr|eu|nl|fr|de)"
+                          r"(?:\.[a-z]{2})?/?\s*$", re.I)
+
+
+def usable_image(url: str) -> str:
+    if not url or IMG_BLOCK.search(urllib.parse.urlparse(url).path):
+        return ""
+    return url
+
+
+def item_key(url: str) -> str:
+    """Haber sayfasi icin kalici kayit anahtari."""
+    return hashlib.sha1(url.encode("utf-8", "replace")).hexdigest()[:10]
+
+
+def pick_media(node, fields: dict, link: str) -> str:
+    """Akis ogesinden gorsel adresi cikarir (enclosure, media:*, gomulu img)."""
+    def local(tag: str) -> str:
+        return tag.rsplit("}", 1)[-1].lower()
+    for child in node.iter():
+        name = local(child.tag)
+        if name not in ("enclosure", "thumbnail", "content", "image"):
+            continue
+        url = child.attrib.get("url") or child.attrib.get("href")
+        kind = (child.attrib.get("type", "") + child.attrib.get("medium", "")).lower()
+        if url and ("image" in kind or not kind or name == "thumbnail"):
+            if re.search(r"\.(?:jpe?g|png|webp|gif|avif)(?:[?#]|$)", url, re.I) or "image" in kind:
+                return usable_image(urllib.parse.urljoin(link, url))
+    for key in ("encoded", "content", "description", "summary"):
+        raw = (fields.get(key) or "").encode("utf-8", "replace")
+        m = IMG_IN_HTML.search(raw)
+        if m:
+            found = usable_image(urllib.parse.urljoin(
+                link, html.unescape(m.group(1).decode("utf-8", "replace"))))
+            if found:
+                return found
+    return ""
+
+
+def fetch_og_image(url: str) -> str:
+    """Haber sayfasindan og:image / twitter:image adresini okur."""
+    try:
+        _, body = fetch(url, 300_000, DISCOVER_TIMEOUT)
+    except Exception:
+        return ""
+    m = OG_IMAGE.search(body)
+    if not m:
+        return ""
+    c = CONTENT_ATTR.search(m.group(0))
+    if not c:
+        return ""
+    src = html.unescape(c.group(1).decode("utf-8", "replace")).strip()
+    if not src or src.startswith("data:"):
+        return ""
+    return usable_image(urllib.parse.urljoin(url, src))
 
 
 def parse_feed(body: bytes) -> list[dict]:
@@ -266,6 +334,7 @@ def parse_feed(body: bytes) -> list[dict]:
             if dt:
                 break
         out.append({
+            "g": pick_media(node, fields, link or ""),
             "t": title,
             "u": (link or "").strip(),
             "s": summary,
@@ -309,6 +378,8 @@ def main() -> int:
                     help="bu turda en fazla kac kaynak icin akis aramasi yapilsin")
     ap.add_argument("--news", type=int, default=140,
                     help="RSS yayini olmayan kac kaynak icin haber aramasi yapilsin (0 = kapali)")
+    ap.add_argument("--images", type=int, default=90,
+                    help="gorseli olmayan kac kayit icin sayfanin og:image'i cekilsin")
     ap.add_argument("--workers", type=int, default=12)
     args = ap.parse_args()
 
@@ -436,6 +507,7 @@ def main() -> int:
                     "baslik": it["t"], "url": url, "ozet": summary,
                     "tarih": published.astimezone(timezone.utc).isoformat(timespec="minutes"),
                     "tahmini": it["nd"], "terimler": terms, "puan": score, "tip": kind,
+                    "k": item_key(url), "gorsel": it.get("g", ""),
                 }
                 prev = items.get(key)
                 if prev is None or row["puan"] > prev["puan"]:
@@ -443,7 +515,32 @@ def main() -> int:
 
     rows = sorted(items.values(), key=lambda r: (r["tarih"], r["puan"]), reverse=True)[:MAX_ITEMS]
 
-    # 3) cikti -------------------------------------------------------------
+    # 3) gorsel tamamlama: akista gorsel yoksa sayfanin og:image'i ---------
+    img_path = DATA / "images.json"
+    imgs = json.loads(img_path.read_text(encoding="utf-8")) if img_path.exists() else {}
+    missing = sorted([r for r in rows if not r["gorsel"]], key=lambda r: -r["puan"])
+    todo_img = []
+    for row in missing:
+        hit = imgs.get(row["url"])
+        if hit is None:
+            todo_img.append(row)
+        else:
+            row["gorsel"] = usable_image(hit.get("img") or "")
+    todo_img = todo_img[: max(args.images, 0)]
+    if todo_img:
+        with cf.ThreadPoolExecutor(args.workers) as ex:
+            found = list(ex.map(fetch_og_image, [r["url"] for r in todo_img]))
+        for row, img in zip(todo_img, found):
+            imgs[row["url"]] = {"img": img, "checked": NOW.isoformat(timespec="seconds")}
+            row["gorsel"] = img
+    # onbellegi buyutmemek icin en eski kayitlari at
+    if len(imgs) > 4000:
+        kept = sorted(imgs.items(), key=lambda kv: kv[1].get("checked", ""), reverse=True)[:3000]
+        imgs = dict(kept)
+    img_path.write_text(json.dumps(imgs, ensure_ascii=False, indent=0, sort_keys=True),
+                        encoding="utf-8")
+
+    # 4) cikti -------------------------------------------------------------
     by_region: dict[str, int] = {}
     for r in rows:
         by_region[r["bolge"]] = by_region.get(r["bolge"], 0) + 1
@@ -461,6 +558,7 @@ def main() -> int:
             "akisVeriVeren": active_feeds,
             "akisHata": errors,
             "haber": len(rows),
+            "gorselli": sum(1 for r in rows if r["gorsel"]),
             "bugun": sum(1 for r in rows if r["tarih"][:10] == today),
             "bolge": by_region,
             "pencereGun": WINDOW_DAYS,
@@ -491,7 +589,8 @@ def main() -> int:
     (DATA / "archive-index.json").write_text(json.dumps(index), encoding="utf-8")
 
     print(f"akis veri veren: {active_feeds}/{len(jobs)} (hata {errors}) | "
-          f"haber {len(rows)} | bugun {latest['istatistik']['bugun']}")
+          f"haber {len(rows)} | gorselli {latest['istatistik']['gorselli']} | "
+          f"bugun {latest['istatistik']['bugun']}")
     return 0
 
 

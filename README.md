@@ -14,12 +14,16 @@ gelişmeleri tek bir sayfada toplayan statik site.
 ```
 index.html                  yayın sayfası (manşet + günün özeti + bölge blokları,
                             ardından tüm akış) ve Kaynaklar / Arşiv / Nasıl çalışır
+haber.html                  tek kayıt sayfası (?k=<anahtar>): künye, görsel, özet,
+                            kaynağa bağlantı, "bu kaynak neden izleniyor", ilgili kayıtlar
+assets/haber.js             haber sayfasının görünümü
 assets/style.css            BHM görsel kimliğiyle uyumlu stil
 assets/app.js               filtreler, akış ve arşiv görünümü
 scripts/import_sources.py   BHM HTML dosyasından kaynak envanterini aktarır
 scripts/collect.py          RSS/Atom keşfi + tarama + puanlama
 data/sources.json           350 kaynak, temalar, sosyal hesaplar, uyarı terimleri
 data/feeds.json             keşfedilen akış adresleri (önbellek)
+data/images.json            sayfa görselleri (og:image) için önbellek
 data/latest.json            son 21 günün gelişmeleri + istatistikler
 data/archive/YYYY-AA-GG.json  günlük arşiv kayıtları
 .github/workflows/tarama.yml  zamanlanmış tarama ve Pages yayını
@@ -84,6 +88,29 @@ Arama motorları ve paylaşım kartları için `index.html` içindeki
    sıralaması bu puanı kullanır.
 4. **Yayın** — `data/latest.json` ve o güne ait arşiv dosyası güncellenir,
    değişiklik varsa işlenir ve Pages yeniden yayınlanır.
+
+## Görseller ve haber sayfası
+
+Her kayıt için site içinde bir sayfa üretilir: `haber.html?k=<anahtar>`. Anahtar,
+kaydın bağlantısından türetilen kalıcı bir özettir; sayfa `data/latest.json`
+içinden o kaydı bulup gösterir. Sayfada başlık, künye (kaynak, kanıt değeri,
+öncelik, kaydın akıştan mı aramadan mı geldiği), kaynağın kendi özeti, birincil
+kaynağa giden buton, envanterden gelen "bu kaynak neden izleniyor" bloğu ve
+ilgili kayıtlar yer alır. Tam metin çoğaltılmaz; okuma kaynakta sürer.
+
+Görseller üç kademede bulunur:
+
+1. Akışın kendi görseli (`enclosure`, `media:content`, `media:thumbnail` veya
+   özet içindeki ilk `img`) — ek istek gerektirmez.
+2. Yoksa haber sayfasının `og:image` / `twitter:image` etiketi; sonuç
+   `data/images.json` önbelleğine yazılır, aynı bağlantı bir daha çekilmez.
+   Her turda en fazla `--images` kadar yeni kayıt için denenir (öntanımlı 90).
+3. Logo, paylaşım kartı ve yer tutucu dosyaları (`logo`, `meta-facebook`,
+   `placeholder`, `favicon`…) görsel sayılmaz.
+
+Görseller kaynağın sunucusundan gösterilir (kopyalanmaz), altına kaynak adı
+yazılır ve yüklenemezse kart tipografik hâline döner. Kaynak sıcak bağlantıya
+kapalıysa görsel sessizce düşer, yerinde boşluk kalmaz.
 
 ## Kanıt standardı
 

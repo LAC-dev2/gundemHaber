@@ -20,11 +20,19 @@ async function getJSON(path, fallback) {
 }
 
 /* ---------------------------------------------------------------- kartlar */
+function thumb(it, cls = 'thumb') {
+  return it.gorsel
+    ? `<div class="${cls}"><img src="${esc(it.gorsel)}" alt="" loading="lazy" onerror="this.closest('div').remove()"></div>`
+    : '';
+}
+
 function card(it) {
   const pr = slug(it.oncelik || '');
   const prCls = pr === 'kritik' ? 'kritik' : pr === 'yuksek' ? 'yuksek' : '';
   const d = new Date(it.tarih);
-  return `<article class="card" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+  return `<article class="card${it.gorsel ? ' has-img' : ''}" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+    ${thumb(it)}
+    <div class="govde">
     <div class="meta">
       <span class="src">${esc(it.kaynak)}</span>
       <span>${esc(it.bolge)}${it.kategori ? ' · ' + esc(it.kategori) : ''}</span>
@@ -33,9 +41,10 @@ function card(it) {
       ${it.tip === 'arama' ? '<span class="tag arama" title="Kaynağın RSS yayını yok; alan adına kilitli haber aramasıyla bulundu">arama</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
-    <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.baslik)}</a></h3>
+    <h3><a href="haber.html?k=${esc(it.k)}">${esc(it.baslik)}</a></h3>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
     ${(it.terimler || []).length ? `<div class="terms">${it.terimler.map((t) => `<b>${esc(t)}</b>`).join('')}</div>` : ''}
+    </div>
   </article>`;
 }
 
@@ -73,16 +82,18 @@ function recent(days) {
 function leadCard(it) {
   const d = new Date(it.tarih);
   return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+    ${it.gorsel ? `<a class="manset-img" href="haber.html?k=${esc(it.k)}"><img src="${esc(it.gorsel)}" alt="" onerror="this.closest('a').remove()"></a>` : ''}
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
-    <h2><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.baslik)}</a></h2>
+    <h2><a href="haber.html?k=${esc(it.k)}">${esc(it.baslik)}</a></h2>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
     <div class="byline"><b>${esc(it.kaynak)}</b><span>${esc(it.kanit || '')}</span>
-      <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}</span></div>
+      <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}</span>
+      <a class="ext" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">kaynakta oku ↗</a></div>
   </article>`;
 }
 
 function secondCard(it) {
-  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">
+  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="haber.html?k=${esc(it.k)}">
     <span class="eyebrow"><span class="pin"></span>${esc(it.bolge)}</span>
     <b>${esc(it.baslik)}</b>
     <span class="src">${esc(it.kaynak)}</span></a>`;
@@ -145,13 +156,16 @@ function renderRegions() {
     return `<section class="bolge" style="--c:${RC[r]}">
       <div class="bolge-head"><h3>${esc(r)}</h3>
         <button class="link" data-region="${esc(r)}">bu bölgenin tamamı →</button></div>
-      <div class="bolge-grid">${rows.map((it) => `<article class="card sm" style="--c:${RC[r]}">
+      <div class="bolge-grid">${rows.map((it) => `<article class="card sm${it.gorsel ? ' has-img' : ''}" style="--c:${RC[r]}">
+        ${thumb(it, 'thumb wide')}
+        <div class="govde">
         <div class="meta"><span class="src">${esc(it.kaynak)}</span>
           <span>${esc(it.kategori || '')}</span>
           ${it.oncelik === 'Kritik' ? '<span class="tag kritik">Kritik</span>' : ''}
           <span class="mono muted">${dayShort(it.tarih)}</span></div>
-        <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.baslik)}</a></h3>
+        <h3><a href="haber.html?k=${esc(it.k)}">${esc(it.baslik)}</a></h3>
         ${it.ozet ? `<p>${esc(it.ozet.slice(0, 150))}${it.ozet.length > 150 ? '…' : ''}</p>` : ''}
+        </div>
       </article>`).join('')}</div>
     </section>`;
   }).join('');
@@ -318,6 +332,14 @@ async function drawArchive() {
     if (b.dataset.view === 'arsiv') drawArchive();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
+
+  const params = new URLSearchParams(location.search);
+  if (params.get('q')) $('#q').value = params.get('q');
+  const hash = location.hash.replace('#', '');
+  if (['kaynaklar', 'arsiv', 'hakkinda'].includes(hash)) {
+    const tab = document.querySelector(`nav.tabs button[data-view="${hash}"]`);
+    if (tab) tab.click();
+  }
 
   draw();
 })();

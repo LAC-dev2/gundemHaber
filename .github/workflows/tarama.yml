@@ -34,7 +34,10 @@ jobs:
           python-version: "3.12"
 
       - name: Kaynaklari tara
-        run: python3 scripts/collect.py --discover ${{ github.event.inputs.discover || '120' }} --workers 16
+        run: |
+          python3 scripts/collect.py \
+            --discover ${{ github.event.inputs.discover || '120' }} \
+            --news 140 --images 90 --workers 16
 
       - name: Sonuclari isle
         run: |

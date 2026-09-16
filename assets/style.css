@@ -184,3 +184,47 @@ footer{border-top:1px solid var(--rule);margin-top:40px;padding:22px 0 40px;font
   .lead{grid-template-columns:1fr;gap:26px}
   .ozet-say{grid-template-columns:1fr 1fr}
 }
+
+/* ------------------------------------------------------------- görseller */
+.manset-img{display:block;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:var(--surface);aspect-ratio:16/9;margin-bottom:16px}
+.manset-img img{width:100%;height:100%;object-fit:cover;display:block}
+.card.has-img{display:grid;grid-template-columns:104px minmax(0,1fr);gap:14px;align-items:start}
+.card.has-img .thumb{width:104px;aspect-ratio:1/1;border-radius:3px;overflow:hidden;background:var(--surface);border:1px solid var(--rule-soft)}
+.card.sm.has-img{grid-template-columns:1fr;gap:11px}
+.card.sm.has-img .thumb.wide{width:100%;aspect-ratio:16/9}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.govde{min-width:0}
+.ext{font-size:.76rem;margin-left:auto}
+
+/* ------------------------------------------------------------ haber sayfası */
+
+.yazi{max-width:76ch;padding:30px 0 10px}
+.yazi h1{font-size:clamp(1.9rem,4vw,2.85rem);line-height:1.08;margin:12px 0 14px;text-wrap:balance}
+.kunye{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:.8rem;color:var(--ink-3);padding-bottom:18px;border-bottom:1px solid var(--rule)}
+.kunye b{font-size:.92rem;color:var(--ink)}
+.hero-img{margin:22px 0 6px;padding:0}
+.hero-img img{width:100%;max-height:440px;object-fit:cover;border:1px solid var(--rule);border-radius:3px;display:block;background:var(--surface)}
+.hero-img figcaption{font-size:.75rem;color:var(--ink-3);padding-top:7px}
+.ozet-metin{font-family:var(--serif);font-size:1.18rem;line-height:1.6;color:var(--ink);margin:22px 0 14px}
+.kaynak-not{font-size:.8rem;color:var(--ink-3);border-left:3px solid var(--rule);padding-left:12px;margin:0 0 20px}
+.git{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;font-size:.9rem;font-weight:500;padding:11px 20px;border-radius:3px}
+.git:hover{background:var(--hot);color:#fff}
+.yazi-terms{margin:26px 0 0}
+.yazi-terms a{text-decoration:none}
+.yazi-terms b{display:inline-block;transition:border-color .1s}
+.yazi-terms a:hover b{background:rgba(14,124,155,.2)}
+.neden,.ilgili{margin-top:34px;padding-top:22px;border-top:1px solid var(--rule)}
+.neden h3,.ilgili h3{font-size:1.12rem;margin-bottom:12px}
+.neden p{color:var(--ink-2);max-width:62ch}
+.neden dl{display:grid;gap:1px;margin:16px 0 14px;font-size:.86rem}
+.neden dl div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;padding:7px 0;border-bottom:1px dotted var(--rule-soft)}
+.neden dt{color:var(--ink-3)}
+.neden dd{margin:0;color:var(--ink-2)}
+.neden .links{display:flex;flex-wrap:wrap;gap:14px;font-size:.82rem}
+nav.tabs a{padding:11px 14px;font-size:.9rem;color:var(--ink-2);text-decoration:none;border-bottom:3px solid transparent}
+nav.tabs a:hover{color:var(--hot)}
+@media (max-width:560px){
+  .card.has-img{grid-template-columns:76px minmax(0,1fr);gap:11px}
+  .card.has-img .thumb{width:76px}
+  .neden dl div{grid-template-columns:1fr;gap:2px}
+}
