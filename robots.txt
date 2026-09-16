@@ -1,0 +1,3 @@
+# Gündem Takip — izleme kaydı, arama motorlarında dizinlenmesi istenmez.
+User-agent: *
+Disallow: /

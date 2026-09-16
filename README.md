@@ -38,18 +38,35 @@ manifest.webmanifest        "Ana Ekrana Ekle" için uygulama tanımı
 
 ## Yayın
 
-Site GitHub Pages üzerinde yayınlanır:
-**https://lac-dev2.github.io/gundemHaber/**
+Depo şu an **özel**. İki yayın yolu var ve ikisi erişim bakımından farklı:
 
-Tarama iş akışı `actions/configure-pages` adımında `enablement: true` ile
-çalıştığı için Pages'i kendisi açar; elle ayar gerekmez. Yayın, deponun
-varsayılan dalından yapılır (bu depoda `claude/trusting-ritchie-qqutwf`;
-zamanlanmış görevler de yalnızca varsayılan dalda çalışır).
+### A) GitHub Pages — herkese açık
 
-İlk yayın için: **Actions → Kaynak taraması → Run workflow**. Sonrası
-kendiliğinden: günde üç kez tarar, veriyi depoya işler, Pages'i günceller.
+* Depo **genel (public)** yapılırsa ücretsiz çalışır. GitHub Pro ile özel
+  depodan da yayınlanabilir, ama **site yine herkese açıktır**; siteye erişim
+  denetimi yalnızca GitHub Enterprise Cloud'da var.
+* Adres: `https://lac-dev2.github.io/gundemHaber/`
+* Açılışı: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+  Bunu depo yöneticisi yapar; iş akışının belirteci Pages'i kendisi açamıyor
+  (`Resource not accessible by integration`). Ardından
+  **Actions → Kaynak taraması → Run workflow**.
+* Sonucu: kaynak envanteri, izleme gerekçeleri, uyarı terimleri ve toplanan
+  metinler herkesin görebileceği hâle gelir.
 
-Depo ayarlarında gereken tek şey **Settings → Actions → General → Workflow
+### B) Cloudflare Pages + Access — girişle korumalı
+
+* Depo **özel kalır**. Cloudflare Pages depoyu bağlar (derleme komutu yok,
+  çıktı dizini kök), Cloudflare Access ücretsiz katmanda 50 kullanıcıya kadar
+  e-posta doğrulamalı giriş koyar. Yani yalnızca izin verdiğin adresler görür.
+* Tarama yine GitHub Actions'ta çalışır; her veri işlemesinde Cloudflare
+  yeniden yayınlar.
+* İzleme masasının kendi envanterini açmak istemiyorsan doğru yol budur.
+
+Her iki durumda `robots.txt` ve `_headers` dosyaları arama motorlarına
+"dizinleme" demez (`noindex, nofollow`) — ama bu erişim denetimi değildir,
+yalnızca dizinlenmeyi engeller.
+
+Depo ayarlarında gereken diğer şey **Settings → Actions → General → Workflow
 permissions: Read and write** (tarama sonucunu depoya işlemek için) — bu
 depoda zaten açık.
 
