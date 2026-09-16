@@ -5,8 +5,9 @@ const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
 
-const ic = (it) => it.k ? `haber.html?k=${encodeURIComponent(it.k)}`
-  : `${it.url}" target="_blank" rel="noopener noreferrer`;
+const ic = (it) => !it.k ? `${it.url}" target="_blank" rel="noopener noreferrer`
+  : window.__VERI__ ? `#k=${encodeURIComponent(it.k)}`
+  : `haber.html?k=${encodeURIComponent(it.k)}`;
 
 const state = { items: [], sources: [], feeds: {}, themes: [], stats: {}, shown: PAGE, region: '', lead: new Set() };
 
@@ -15,6 +16,7 @@ const timeFmt = new Intl.DateTimeFormat('tr-TR', { hour: '2-digit', minute: '2-d
 const fullFmt = new Intl.DateTimeFormat('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 
 async function getJSON(path, fallback) {
+  if (window.__VERI__) return window.__VERI__[path] ?? fallback;   // paket kipi
   try {
     const r = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' });
     if (!r.ok) throw new Error(r.status);
@@ -343,6 +345,23 @@ async function drawArchive() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
 
+  // paket kipi: #k=<anahtar> ile kayıt sayfası aynı dosyada açılır
+  const VIEWS = ['gundem', 'kaynaklar', 'arsiv', 'hakkinda'];
+  function route() {
+    const m = location.hash.match(/^#k=(.+)$/);
+    const box = $('#view-haber');
+    VIEWS.forEach((v) => { $('#view-' + v).hidden = !!m || v !== 'gundem'; });
+    box.hidden = !m;
+    document.querySelectorAll('nav.tabs button').forEach((b) => b.setAttribute('aria-selected', String(!m && b.dataset.view === 'gundem')));
+    if (m) {
+      window.renderHaber(box, decodeURIComponent(m[1]));
+      window.scrollTo({ top: 0 });
+    } else {
+      document.title = 'Gündem Takip — Brüksel Hukuk Merkezi';
+    }
+  }
+  window.addEventListener('hashchange', route);
+
   const params = new URLSearchParams(location.search);
   if (params.get('q')) $('#q').value = params.get('q');
   const hash = location.hash.replace('#', '');
@@ -352,4 +371,5 @@ async function drawArchive() {
   }
 
   draw();
+  if (location.hash.startsWith('#k=')) route();
 })();

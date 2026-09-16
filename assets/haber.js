@@ -1,4 +1,6 @@
-/* Gündem Takip — tek kayıt (haber) sayfası */
+/* Gündem Takip — tek kayıt (haber) görünümü.
+   Hem haber.html sayfası hem de tek dosyalık paket bunu kullanır. */
+(function () {
 const RC = { 'Türkiye': 'var(--tr)', 'Belçika': 'var(--be)', 'Avrupa': 'var(--eu)', 'Dünya': 'var(--dn)', 'Kurumsal': 'var(--kr)' };
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -6,6 +8,7 @@ const fullFmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long'
 const dayFmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'short' });
 
 async function getJSON(path, fallback) {
+  if (window.__VERI__) return window.__VERI__[path] ?? fallback;   // paket kipi
   try {
     const r = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' });
     if (!r.ok) throw new Error(r.status);
@@ -39,14 +42,16 @@ function fullText(page) {
     ${body}</div>`;
 }
 
+const haberLink = (k) => window.__VERI__ ? `#k=${encodeURIComponent(k)}`
+  : `haber.html?k=${encodeURIComponent(k)}`;
+
 function relatedCard(it) {
-  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="haber.html?k=${esc(it.k)}">
+  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="${haberLink(it.k)}">
     <span class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(dayFmt.format(new Date(it.tarih)))}</span>
     <b>${esc(it.baslik)}</b><span class="src">${esc(it.kaynak)}</span></a>`;
 }
 
-(async function init() {
-  const key = new URLSearchParams(location.search).get('k');
+async function renderHaber(box, key) {
   const [latest, meta, page] = await Promise.all([
     getJSON('data/latest.json', { haberler: [] }),
     getJSON('data/sources.json', { sources: [] }),
@@ -56,7 +61,7 @@ function relatedCard(it) {
   const it = items.find((x) => x.k === key);
 
   if (!it) {
-    $('#haber').innerHTML = `<div class="empty">Bu kayıt güncel tarama penceresinde bulunamadı.
+    box.innerHTML = `<div class="empty">Bu kayıt güncel tarama penceresinde bulunamadı.
       Kayıtlar son ${latest.istatistik ? latest.istatistik.pencereGun : 21} günü kapsar; daha eskisi için
       <a href="index.html">arşive</a> bakabilirsin.</div>`;
     return;
@@ -65,13 +70,14 @@ function relatedCard(it) {
   const src = (meta.sources || []).find((s) => s.id === it.id) || {};
   const d = new Date(it.tarih);
   document.title = `${it.baslik} — Gündem Takip`;
-  $('#statusText').textContent = `${it.kaynak} · ${isNaN(d) ? '' : dayFmt.format(d)}`;
+  const st = $('#statusText');
+  if (st) st.textContent = `${it.kaynak} · ${isNaN(d) ? '' : dayFmt.format(d)}`;
 
   const sameSource = items.filter((x) => x.id === it.id && x.k !== it.k).slice(0, 3);
   const sameTerm = items.filter((x) => x.k !== it.k && x.id !== it.id
     && (x.terimler || []).some((t) => (it.terimler || []).includes(t))).slice(0, 3);
 
-  $('#haber').innerHTML = `
+  box.innerHTML = `
   <article class="yazi" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}${it.kategori ? `<span class="sep">/</span>${esc(it.kategori)}` : ''}</div>
     <h1>${esc(it.baslik)}</h1>
@@ -108,4 +114,11 @@ function relatedCard(it) {
     ${sameTerm.length ? `<section class="ilgili"><h3>Aynı konuda diğer kaynaklar</h3>
       <div class="lead-second" style="border:0;margin:0;padding:0">${sameTerm.map(relatedCard).join('')}</div></section>` : ''}
   </article>`;
+}
+
+window.renderHaber = renderHaber;
+
+// Kendi sayfası (haber.html) olarak açıldıysa doğrudan çiz
+const own = document.getElementById('haber');
+if (own) renderHaber(own, new URLSearchParams(location.search).get('k'));
 })();

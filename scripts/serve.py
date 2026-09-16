@@ -23,6 +23,10 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
+if sys.version_info < (3, 9):
+    raise SystemExit("Bu uygulama Python 3.9 veya uzerini gerektirir. "
+                     f"Kurulu surum: {sys.version.split()[0]}")
+
 ROOT = Path(__file__).resolve().parent.parent
 COLLECT = ROOT / "scripts" / "collect.py"
 LATEST = ROOT / "data" / "latest.json"

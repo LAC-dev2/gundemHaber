@@ -27,6 +27,13 @@ data/images.json            sayfa görselleri (og:image) için önbellek
 data/latest.json            son 21 günün gelişmeleri + istatistikler
 data/archive/YYYY-AA-GG.json  günlük arşiv kayıtları
 .github/workflows/tarama.yml  zamanlanmış tarama ve Pages yayını
+scripts/serve.py            yerel uygulama (tara + sun + tarayıcıda aç)
+scripts/extract.py          haber sayfasından okunabilir tam metin çıkarma
+scripts/paketle.py          paylaşım paketleri (tek dosyalık HTML, zip)
+scripts/ikon.py             uygulama ikonları (PNG/SVG üretici)
+Baslat.bat / .command / .sh çift tıklamayla çalıştırma
+OKUBENI.md                  alıcıya verilecek kurulum anlatımı
+manifest.webmanifest        "Ana Ekrana Ekle" için uygulama tanımı
 ```
 
 ## Kurulum (tek seferlik)
@@ -117,6 +124,29 @@ Arama motorları ve paylaşım kartları için `index.html` içindeki
    sıralaması bu puanı kullanır.
 4. **Yayın** — `data/latest.json` ve o güne ait arşiv dosyası güncellenir,
    değişiklik varsa işlenir ve Pages yeniden yayınlanır.
+
+## Başkasıyla paylaşmak
+
+Alıcının ne yapacağına göre üç yol var; ayrıntılı, alıcıya verilebilecek
+anlatım `OKUBENI.md` içinde.
+
+```bash
+python3 scripts/paketle.py           # dist/gundem-takip-<tarih>.html  (tek dosya)
+python3 scripts/paketle.py --zip     # dist/gundem-takip-<tarih>.zip   (çalıştırılabilir)
+```
+
+1. **Tek dosyalık HTML** — stil, betik, veri, tam metinler ve küçük görseller
+   tek bir `.html` dosyasına gömülür. Çift tıkla açılır, kurulum ve internet
+   gerektirmez, `#k=<anahtar>` ile kayıt sayfaları da aynı dosyada çalışır.
+   iPhone/iPad için en kolay yol: Dosyalar'dan dokun, Safari'de açılır.
+   Anlık kopyadır, kendini yenilemez.
+2. **Çalıştırılabilir zip** — kod + güncel veri + başlatıcılar. `Baslat.bat`
+   (Windows), `Baslat.command` (macOS), `baslat.sh` (Linux) çift tıklamayla
+   tarama yapıp yerel sunucuyu açar; Python yoksa ne yapılacağını söyler.
+   iOS'ta çalışmaz.
+3. **Yayın adresi** — GitHub Pages; hiç kurulum gerekmez, telefonda da açılır,
+   kendini günde üç kez günceller. `manifest.webmanifest` ve ikonlar eklendiği
+   için Safari'de "Ana Ekrana Ekle" ile uygulama gibi durur.
 
 ## Veri çakışması
 

@@ -5,3 +5,6 @@ __pycache__/
 # yerel uygulama çıktıları (her makinede yeniden üretilir)
 data/pages/
 data/img/
+
+# paylaşım paketleri (yeniden üretilebilir)
+dist/

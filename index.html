@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Gündem Takip — Brüksel Hukuk Merkezi</title>
 <meta name="description" content="Brüksel Hukuk Merkezi'nin izlediği 350 hukuki kaynağın otomatik taranmasıyla oluşan günlük gelişmeler akışı.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-title" content="Gündem Takip">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#134A57">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -63,6 +69,9 @@
     </div>
     <div id="feed"></div>
   </section>
+
+  <!-- HABER (tek dosyalık paket kipinde sayfa içinde açılır) -->
+  <section id="view-haber" hidden></section>
 
   <!-- KAYNAKLAR -->
   <section id="view-kaynaklar" hidden>
