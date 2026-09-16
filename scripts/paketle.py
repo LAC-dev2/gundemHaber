@@ -24,13 +24,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 DATA = ROOT / "data"
-TODAY = datetime.now().strftime("%Y-%m-%d")
+NOW = datetime.now()
+TODAY = NOW.strftime("%Y-%m-%d")
+STAMP = NOW.strftime("%Y-%m-%d-%H%M")      # her paket ayri ad: eskisiyle karismaz
+FOLDER = f"gundem-takip-{STAMP}"           # zip icindeki kok klasor de damgali
 
 ZIP_INCLUDE = ("index.html", "haber.html", "OKUBENI.md", "README.md",
                "Baslat.bat", "Baslat.command", "baslat.sh",
                "manifest.webmanifest", "icon.svg", "icon-180.png", "icon-512.png")
 # macOS Arsiv Yardimcisi bu kipi geri yukler: cift tiklama calisir
 EXECUTABLE = {"Baslat.command", "baslat.sh"}
+APP = "Gündem Takip.app"      # Terminal acmadan calisan macOS sarmalayicisi
 ZIP_DIRS = ("assets", "scripts")
 ZIP_DATA = ("latest.json", "sources.json", "feeds.json", "archive-index.json",
             "health.json", "images.json", "gundem.xml")
@@ -59,6 +63,11 @@ def embed_images(rows: list[dict], budget: int, limit: int) -> int:
     return used
 
 
+def surum() -> dict:
+    return {"paket": NOW.isoformat(timespec="minutes"),
+            "damga": NOW.strftime("%d.%m.%Y %H:%M")}
+
+
 def build_html(args: argparse.Namespace) -> Path:
     latest = json.loads(read(DATA / "latest.json"))
     veri = {
@@ -66,6 +75,7 @@ def build_html(args: argparse.Namespace) -> Path:
         "data/sources.json": json.loads(read(DATA / "sources.json")),
         "data/feeds.json": json.loads(read(DATA / "feeds.json")),
         "data/archive-index.json": [],      # paket kipinde arsiv gezinmesi kapali
+        "data/surum.json": surum(),
     }
     pages = 0
     for row in latest.get("haberler", []):
@@ -106,7 +116,7 @@ def build_html(args: argparse.Namespace) -> Path:
                       "<script>\n" + haber + "\n</script>\n<script>\n" + app + "\n</script>")
 
     DIST.mkdir(exist_ok=True)
-    target = DIST / f"gundem-takip-{TODAY}.html"
+    target = DIST / f"gundem-takip-{STAMP}.html"
     target.write_text(out, encoding="utf-8")
     mb = target.stat().st_size / 1e6
     print(f"tek dosya: {target.relative_to(ROOT)}  ({mb:.1f} MB · "
@@ -119,31 +129,45 @@ def build_zip(tam: bool = False, butce: int = 25) -> Path:
     """Calistirilabilir paket. tam=True ise indirilmis tam metinler ve
     gorseller de eklenir (alici ilk taramayi beklemeden dolu bir ekran gorur)."""
     DIST.mkdir(exist_ok=True)
-    target = DIST / (f"gundem-takip-{TODAY}-tam.zip" if tam else f"gundem-takip-{TODAY}.zip")
+    target = DIST / (f"gundem-takip-{STAMP}-tam.zip" if tam else f"gundem-takip-{STAMP}.zip")
     with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED) as zf:
         for name in ZIP_INCLUDE:
             path = ROOT / name
             if not path.exists():
                 continue
             if name in EXECUTABLE:
-                info = zipfile.ZipInfo(f"gundem-takip/{name}")
+                info = zipfile.ZipInfo(f"{FOLDER}/{name}")
                 info.external_attr = (stat.S_IFREG | 0o755) << 16
                 info.compress_type = zipfile.ZIP_DEFLATED
                 zf.writestr(info, path.read_bytes())
             else:
-                zf.write(path, f"gundem-takip/{name}")
+                zf.write(path, f"{FOLDER}/{name}")
         for folder in ZIP_DIRS:
             for path in sorted((ROOT / folder).rglob("*")):
                 if path.is_file() and "__pycache__" not in path.parts:
-                    zf.write(path, f"gundem-takip/{path.relative_to(ROOT)}")
+                    zf.write(path, f"{FOLDER}/{path.relative_to(ROOT)}")
+        # macOS uygulama paketi: cift tiklanir, Terminal penceresi acilmaz
+        mac = ROOT / "mac"
+        if (mac / "gundem").exists():
+            zf.writestr(f"{FOLDER}/{APP}/Contents/Info.plist",
+                        (mac / "Info.plist").read_text(encoding="utf-8"))
+            zf.writestr(f"{FOLDER}/{APP}/Contents/PkgInfo",
+                        (mac / "PkgInfo").read_text(encoding="utf-8"))
+            info = zipfile.ZipInfo(f"{FOLDER}/{APP}/Contents/MacOS/gundem")
+            info.external_attr = (stat.S_IFREG | 0o755) << 16
+            info.compress_type = zipfile.ZIP_DEFLATED
+            zf.writestr(info, (mac / "gundem").read_bytes())
+
+        zf.writestr(f"{FOLDER}/data/surum.json",
+                    json.dumps(surum(), ensure_ascii=False))
         for name in ZIP_DATA:
             path = DATA / name
             if path.exists():
-                zf.write(path, f"gundem-takip/data/{name}")
+                zf.write(path, f"{FOLDER}/data/{name}")
         if tam:
             sayfa = 0
             for path in sorted((DATA / "pages").glob("*.json")):
-                zf.write(path, f"gundem-takip/data/pages/{path.name}")
+                zf.write(path, f"{FOLDER}/data/pages/{path.name}")
                 sayfa += 1
             # gorseller: kucukten buyuge, butce dolana kadar
             gorsel, kullanilan = 0, 0
@@ -151,7 +175,7 @@ def build_zip(tam: bool = False, butce: int = 25) -> Path:
                 size = path.stat().st_size
                 if kullanilan + size > butce * 1_000_000:
                     break
-                zf.write(path, f"gundem-takip/data/img/{path.name}")
+                zf.write(path, f"{FOLDER}/data/img/{path.name}")
                 gorsel += 1
                 kullanilan += size
             print(f"  eklenen: {sayfa} tam metin, {gorsel} görsel "

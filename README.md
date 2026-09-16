@@ -140,10 +140,15 @@ python3 scripts/paketle.py --zip     # dist/gundem-takip-<tarih>.zip   (çalış
    gerektirmez, `#k=<anahtar>` ile kayıt sayfaları da aynı dosyada çalışır.
    iPhone/iPad için en kolay yol: Dosyalar'dan dokun, Safari'de açılır.
    Anlık kopyadır, kendini yenilemez.
-2. **Çalıştırılabilir zip** — kod + güncel veri + başlatıcılar. `Baslat.bat`
-   (Windows), `Baslat.command` (macOS), `baslat.sh` (Linux) çift tıklamayla
-   tarama yapıp yerel sunucuyu açar; Python yoksa ne yapılacağını söyler.
-   iOS'ta çalışmaz.
+2. **Çalıştırılabilir zip** — kod + güncel veri + başlatıcılar. macOS'ta
+   **`Gündem Takip.app`** (Terminal penceresi açmadan çalışan sarmalayıcı;
+   Python yoksa pencereyle söyler ve kurulum sayfasını açar), ayrıca
+   `Baslat.command`; Windows'ta `Baslat.bat`, Linux'ta `baslat.sh`.
+   `--tam` ile indirilmiş tam metinler ve görseller de pakete girer, alıcı
+   ilk taramayı beklemeden dolu bir ekran görür. iOS'ta çalışmaz.
+   Paket adları saat damgalıdır (`gundem-takip-<tarih>-<saat>`) ve zip'in kök
+   klasörü de damgalı: eski indirmeyle karışmaz, üzerine açılmaz. Arayüzün
+   altlığında paketin saati yazar.
 3. **Yayın adresi** — GitHub Pages; hiç kurulum gerekmez, telefonda da açılır,
    kendini günde üç kez günceller. `manifest.webmanifest` ve ikonlar eklendiği
    için Safari'de "Ana Ekrana Ekle" ile uygulama gibi durur.

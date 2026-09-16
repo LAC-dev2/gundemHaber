@@ -1,0 +1,21 @@
+#!/bin/sh
+# Gündem Takip — macOS uygulama sarmalayıcısı.
+# Terminal açmadan çalışır: .app paketin kökündeki scripts/serve.py dosyasını başlatır.
+KOK="$(cd "$(dirname "$0")/../../.." && pwd)"
+cd "$KOK" || exit 1
+
+PY=""
+for aday in python3 /opt/homebrew/bin/python3 /usr/local/bin/python3 /usr/bin/python3; do
+  if command -v "$aday" >/dev/null 2>&1; then PY="$aday"; break; fi
+done
+
+if [ -z "$PY" ]; then
+  osascript \
+    -e 'display dialog "Gündem Takip için Python 3 gerekiyor ama bulunamadı.\n\nKurulum sayfasını açayım mı? Kurulum bir kez yapılır, sonra uygulama doğrudan açılır." buttons {"Vazgeç","Sayfayı aç"} default button 2 with title "Gündem Takip" with icon caution' \
+    -e 'if button returned of result is "Sayfayı aç" then open location "https://www.python.org/downloads/macos/"' \
+    >/dev/null 2>&1
+  exit 1
+fi
+
+# Tarama sırasında kullanıcıya bir şey göstermek gerekmez; tarayıcı hazır olunca açılır.
+exec "$PY" scripts/serve.py "$@" >"$KOK/tarama.log" 2>&1

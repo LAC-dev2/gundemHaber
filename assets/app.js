@@ -411,12 +411,13 @@ async function drawArchive() {
 
 /* ------------------------------------------------------------------- init */
 (async function init() {
-  const [latest, meta, feeds, index, health] = await Promise.all([
+  const [latest, meta, feeds, index, health, surum] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
     getJSON('data/archive-index.json', []),
     getJSON('data/health.json', {}),
+    getJSON('data/surum.json', null),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
@@ -445,6 +446,10 @@ async function drawArchive() {
   $('#footTime').textContent = ts ? fullFmt.format(ts) : '—';
   $('#footSrc').textContent = state.stats.kaynak ?? state.sources.length;
   $('#footFeed').textContent = state.stats.akisVeriVeren ?? 0;
+  if (surum && surum.damga) {
+    const el = $('#footSurum');
+    if (el) el.textContent = ` · paket ${surum.damga}`;
+  }
   $('#stats').innerHTML = statTiles(state.stats);
   $('#pencere').textContent = $('#pencere2').textContent = state.stats.pencereGun || 21;
   renderLead();

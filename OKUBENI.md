@@ -30,7 +30,12 @@ kendi kendine yenilenmez. Yeni gelişmeler için yeni dosya istemen gerekir.
   Python kurulu değilse pencere bunu söyler ve tek satırlık kurulum komutunu
   verir (`winget install -e --id Python.Python.3.12`). Kurduktan sonra yeniden
   çift tıkla.
-* **macOS:** `Baslat.command` dosyasına çift tıkla. Üç ayrıntı:
+* **macOS (en kolay):** klasördeki **`Gündem Takip.app`** simgesine çift tıkla — Terminal
+  açılmaz, tarama arkada çalışır, tarayıcı hazır olunca kendiliğinden gelir. İlk açılışta
+  macOS "tanınmayan geliştirici" derse: **sağ tık → Aç**, sonra **Aç**'ı onayla (bir kez).
+  Python kurulu değilse uygulama bunu bir pencereyle söyler ve kurulum sayfasını açar.
+  Kapatmak için: uygulamadan çık (Dock'ta sağ tık → Çık).
+* **macOS (seçenek):** `Baslat.command` — aynı işi Terminal penceresiyle yapar. Üç ayrıntı:
   1. İlk açılışta macOS "internetten indirildi / tanınmayan geliştirici"
      diyebilir. Çözüm: dosyaya **sağ tık → Aç**, sonra **Aç**'ı onayla. Bir kez
      yeter. (İnatçı durumda Terminal'de:
@@ -81,6 +86,7 @@ Kurulum adımları `README.md` içindeki "Kendi alan adında yayınlamak" bölü
 
 | Durum | Yol |
 |---|---|
+| "Hiçbir şey kurmak istemiyorum" | 1 — tek dosya |
 | "Bir bakayım" | 1 — tek dosya |
 | iPhone / iPad | 1 veya 3 |
 | "Güncel kalsın, benim makinemde çalışsın" | 2 — Baslat |
