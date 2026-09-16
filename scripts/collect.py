@@ -384,6 +384,86 @@ def build_matcher(terms: list[str]):
     return match
 
 
+# Baslik benzerligi icin islev sozcukleri (tr/en/fr/nl)
+STOPWORDS = {
+    "icin", "gibi", "olan", "olarak", "sonra", "karsi", "uzerine", "buyuk",
+    "yeni", "daha", "ancak", "iken", "gore", "with", "from", "that", "this",
+    "have", "after", "over", "into", "about", "their", "there", "which",
+    "been", "will", "would", "says", "said", "amid", "dans", "pour", "avec",
+    "sont", "plus", "leur", "voor", "naar", "meer", "worden", "wordt",
+}
+
+
+def title_tokens(title: str) -> set[str]:
+    words = re.split(r"[^0-9a-z]+", title.translate(FOLD).lower())
+    return {w for w in words if len(w) >= 4 and w not in STOPWORDS}
+
+
+def cluster_rows(rows: list[dict], days: int = 5, ratio: float = 0.6,
+                 min_shared: int = 3) -> dict[int, dict]:
+    """Ayni gelismeyi anlatan kayitlari kumeler.
+
+    Kume imzasi ilk (en yeni, en yuksek puanli) kaydin sozcukleridir; imza
+    genisletilmez, boylece zincirlenip alakasiz kayitlari toplamaz.
+    """
+    clusters: list[dict] = []
+    for row in rows:
+        toks = title_tokens(row["baslik"])
+        row["kume"] = None
+        if len(toks) < 4:
+            continue
+        stamp = parse_date(row["tarih"]) or NOW
+        best, best_score = None, 0.0
+        for cand in clusters:
+            if abs((stamp - cand["tarih"]).days) > days:
+                continue
+            shared = len(toks & cand["imza"])
+            score = shared / min(len(toks), len(cand["imza"]))
+            if shared >= min_shared and score >= ratio and score > best_score:
+                best, best_score = cand, score
+        if best is not None:
+            best["rows"].append(row)
+        else:
+            clusters.append({"imza": toks, "tarih": stamp, "rows": [row]})
+
+    ozet: dict[int, dict] = {}
+    for idx, cand in enumerate(c for c in clusters if len(c["rows"]) > 1):
+        kaynaklar = {r["kaynak"] for r in cand["rows"]}
+        for row in cand["rows"]:
+            row["kume"] = idx
+        ozet[idx] = {"kayit": len(cand["rows"]), "kaynak": len(kaynaklar)}
+    return ozet
+
+
+def write_rss(rows: list[dict], path: Path, limit: int = 80) -> None:
+    """Puana gore secilmis kayitlari kendi RSS akisimiza yazar."""
+    def esc(text: str) -> str:
+        return (text.replace("&", "&amp;").replace("<", "&lt;")
+                .replace(">", "&gt;").replace('"', "&quot;"))
+    picked = sorted(rows, key=lambda r: r["puan"], reverse=True)[:limit]
+    items = []
+    for row in picked:
+        stamp = parse_date(row["tarih"]) or NOW
+        items.append(
+            "<item>"
+            f"<title>{esc(row['baslik'])}</title>"
+            f"<link>{esc(row['url'])}</link>"
+            f"<guid isPermaLink=\"false\">{row['k']}</guid>"
+            f"<pubDate>{stamp.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>"
+            f"<category>{esc(row['bolge'])}</category>"
+            f"<source>{esc(row['kaynak'])}</source>"
+            f"<description>{esc(row['ozet'] or row['baslik'])}</description>"
+            "</item>")
+    path.write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
+        "<title>Gündem Takip — Brüksel Hukuk Merkezi</title>"
+        "<link>https://lac-dev2.github.io/gundemHaber/</link>"
+        "<description>İzlenen hukuki kaynaklardan öne çıkan günlük gelişmeler.</description>"
+        "<language>tr</language>"
+        f"<lastBuildDate>{NOW.strftime('%a, %d %b %Y %H:%M:%S %z')}</lastBuildDate>"
+        + "".join(items) + "</channel></rss>\n", encoding="utf-8")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--discover", type=int, default=90,
@@ -468,6 +548,9 @@ def main() -> int:
         except Exception as exc:  # akis hatasi taramayi durdurmaz
             return src, feed, kind, [], f"{type(exc).__name__}"
 
+    health_path = DATA / "health.json"
+    health = json.loads(health_path.read_text(encoding="utf-8")) if health_path.exists() else {}
+
     match = build_matcher(meta.get("alertTerms", []))
     cutoff = NOW - timedelta(days=WINDOW_DAYS)
     items: dict[str, dict] = {}
@@ -477,9 +560,16 @@ def main() -> int:
 
     with cf.ThreadPoolExecutor(args.workers) as ex:
         for src, feed, kind, entries, err in ex.map(pull, jobs):
+            kayit = health.setdefault(str(src["id"]), {})
+            kayit["ad"] = src["ad"]
+            kayit["sonTarama"] = NOW.isoformat(timespec="seconds")
+            if kind == "akış":
+                kayit["akis"] = feed
             if err:
                 errors += 1
+                kayit["hata"] = err
                 continue
+            kayit.pop("hata", None)
             if entries:
                 if kind == "akış":
                     active_feeds += 1
@@ -530,6 +620,14 @@ def main() -> int:
                     items[key] = row
 
     rows = sorted(items.values(), key=lambda r: (r["tarih"], r["puan"]), reverse=True)[:MAX_ITEMS]
+    kumeler = cluster_rows(rows)
+
+    for row in rows:                      # kaynak basina en yeni kayit tarihi
+        kayit = health.setdefault(str(row["id"]), {"ad": row["kaynak"]})
+        if row["tarih"] > kayit.get("sonKayit", ""):
+            kayit["sonKayit"] = row["tarih"]
+    health_path.write_text(json.dumps(health, ensure_ascii=False, indent=0, sort_keys=True),
+                           encoding="utf-8")
 
     # 3) gorsel tamamlama: akista gorsel yoksa sayfanin og:image'i ---------
     img_path = DATA / "images.json"
@@ -649,8 +747,10 @@ def main() -> int:
             "bugun": sum(1 for r in rows if r["tarih"][:10] == today),
             "bolge": by_region,
             "pencereGun": WINDOW_DAYS,
+            "kume": len(kumeler),
         },
         "haberler": rows,
+        "kumeler": kumeler,
     }
     (DATA / "latest.json").write_text(
         json.dumps(latest, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -671,6 +771,8 @@ def main() -> int:
         day_rows = sorted(merged.values(), key=lambda r: r["puan"], reverse=True)
     day_file.write_text(json.dumps({"gun": today, "haberler": day_rows},
                                    ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    write_rss(rows, DATA / "gundem.xml")
 
     index = sorted(p.stem for p in ARCHIVE.glob("*.json"))
     (DATA / "archive-index.json").write_text(json.dumps(index), encoding="utf-8")

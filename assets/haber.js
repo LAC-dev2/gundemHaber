@@ -42,6 +42,19 @@ function fullText(page) {
     ${body}</div>`;
 }
 
+/* dosyam: ana sayfayla aynı yerde saklanır, her yazmada yeniden okunur */
+function dosyaOku() {
+  try { return JSON.parse(localStorage.getItem('bhm.dosya')) || {}; } catch (e) { return {}; }
+}
+function dosyaCevir(it) {
+  const hepsi = dosyaOku();
+  if (hepsi[it.k]) delete hepsi[it.k];
+  else hepsi[it.k] = { k: it.k, baslik: it.baslik, kaynak: it.kaynak, url: it.url,
+    tarih: it.tarih, bolge: it.bolge, kategori: it.kategori, eklendi: new Date().toISOString() };
+  try { localStorage.setItem('bhm.dosya', JSON.stringify(hepsi)); } catch (e) { /* özel pencere */ }
+  return !!hepsi[it.k];
+}
+
 const haberLink = (k) => window.__VERI__ ? `#k=${encodeURIComponent(k)}`
   : `haber.html?k=${encodeURIComponent(k)}`;
 
@@ -73,8 +86,11 @@ async function renderHaber(box, key) {
   const st = $('#statusText');
   if (st) st.textContent = `${it.kaynak} · ${isNaN(d) ? '' : dayFmt.format(d)}`;
 
-  const sameSource = items.filter((x) => x.id === it.id && x.k !== it.k).slice(0, 3);
-  const sameTerm = items.filter((x) => x.k !== it.k && x.id !== it.id
+  const kume = it.kume != null
+    ? items.filter((x) => x.kume === it.kume && x.k !== it.k) : [];
+  const kumeKeys = new Set(kume.map((x) => x.k));
+  const sameSource = items.filter((x) => x.id === it.id && x.k !== it.k && !kumeKeys.has(x.k)).slice(0, 3);
+  const sameTerm = items.filter((x) => x.k !== it.k && x.id !== it.id && !kumeKeys.has(x.k)
     && (x.terimler || []).some((t) => (it.terimler || []).includes(t))).slice(0, 3);
 
   box.innerHTML = `
@@ -95,7 +111,11 @@ async function renderHaber(box, key) {
     <p class="kaynak-not">${page
       ? 'Metin, yerel tarama sırasında kaynağın sayfasından alınmıştır. Belge ve doğrulama için kaynağa bakılmalıdır.'
       : 'Başlık ve özet kaynağın kendi yayınından alınmıştır. Metnin tamamı, belge ve doğrulama kaynaktadır.'}</p>
-    <a class="git" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Kaynakta oku ↗</a>
+    <div class="eylem">
+      <a class="git" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Kaynakta oku ↗</a>
+      <button class="git ikincil-buton" id="dosyaEkle" aria-pressed="${!!dosyaOku()[it.k]}">
+        ${dosyaOku()[it.k] ? '★ Dosyamda' : '☆ Dosyama ekle'}</button>
+    </div>
 
     ${(it.terimler || []).length ? `<div class="terms yazi-terms">${it.terimler.map((t) => `<a href="index.html?q=${encodeURIComponent(t)}"><b>${esc(t)}</b></a>`).join('')}</div>` : ''}
 
@@ -109,11 +129,23 @@ async function renderHaber(box, key) {
       ${(src.links || []).length ? `<div class="links">${src.links.slice(0, 3).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">kaynak adresi ${i + 1} ↗</a>`).join('')}</div>` : ''}
     </section>` : ''}
 
+    ${kume.length ? `<section class="ilgili dogrulama"><h3>Bu gelişmeyi veren diğer kaynaklar
+      <span class="mono">${kume.length + 1} kaynak</span></h3>
+      <div class="lead-second" style="border:0;margin:0;padding:0">${kume.slice(0, 4).map(relatedCard).join('')}</div>
+      <p class="ozet-not">Başlıklar benzerliğe göre eşleştirilmiştir; aynı olayın farklı
+        kaynaklardaki anlatımını karşılaştırmak için kullanılır.</p></section>` : ''}
     ${sameSource.length ? `<section class="ilgili"><h3>Aynı kaynaktan</h3>
       <div class="lead-second" style="border:0;margin:0;padding:0">${sameSource.map(relatedCard).join('')}</div></section>` : ''}
     ${sameTerm.length ? `<section class="ilgili"><h3>Aynı konuda diğer kaynaklar</h3>
       <div class="lead-second" style="border:0;margin:0;padding:0">${sameTerm.map(relatedCard).join('')}</div></section>` : ''}
   </article>`;
+
+  const ekle = box.querySelector('#dosyaEkle');
+  if (ekle) ekle.addEventListener('click', () => {
+    const on = dosyaCevir(it);
+    ekle.setAttribute('aria-pressed', String(on));
+    ekle.textContent = on ? '★ Dosyamda' : '☆ Dosyama ekle';
+  });
 }
 
 window.renderHaber = renderHaber;

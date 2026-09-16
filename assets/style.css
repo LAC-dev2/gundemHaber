@@ -300,3 +300,47 @@ footer{border-top:2px solid var(--ink);margin-top:var(--s7);padding:var(--s4) 0 
   --header-bg:rgba(12,23,28,.93);
   --chip-on-bg:#49B0CD; --chip-on-ink:#08171C;
 }
+
+/* --------------------------------------------- dosyam, yeni, doğrulama */
+.yildiz{background:none;border:0;cursor:pointer;font-size:1.05rem;line-height:1;
+  color:var(--ink-3);margin-left:auto;padding:0 0 0 var(--s2)}
+.yildiz:hover{color:var(--kr)}
+.yildiz[aria-pressed="true"]{color:var(--kr)}
+.tag.yeni{color:var(--ink-leaf);font-weight:600}
+.ayrica{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;margin:7px 0 0;
+  font-size:.76rem;color:var(--ink-3)}
+.ayrica span{text-transform:uppercase;letter-spacing:.09em;font-size:.68rem;
+  border-bottom:1px solid var(--hair);padding-bottom:1px}
+.ayrica i{color:var(--hair);font-style:normal}
+.ayrica a{color:var(--deep);text-decoration:none;border-bottom:1px solid var(--hair-2)}
+.ayrica a:hover{color:var(--hot)}
+.more.inline{display:inline-block;width:auto;margin:0}
+.kaynak-baglanti{font-size:.74rem;margin-top:5px!important;word-break:break-all}
+.kaynak-baglanti a{color:var(--ink-3);text-decoration:none}
+.saglik{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;margin:4px 0 0}
+.saglik.iyi{color:var(--ink-leaf)}
+.saglik.sessiz{color:var(--ink-warm)}
+.saglik.hata{color:var(--ink-hot);font-weight:600}
+.eylem{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center}
+.ikincil-buton{background:none;color:var(--ink);border:1px solid var(--ink);cursor:pointer}
+.ikincil-buton:hover{background:var(--ink);color:var(--paper)}
+.ilgili.dogrulama h3{display:flex;align-items:baseline;gap:var(--s3)}
+.ilgili.dogrulama h3 .mono{font-family:var(--sans);font-size:.7rem;color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.09em}
+.ilgili.dogrulama{border-top:2px solid var(--petrol)}
+
+/* ------------------------------------------------------------- yazdırma */
+@media print{
+  header.top,nav.tabs,.filters,.ozet,.stats,.more,.yildiz,.link,.ext,footer a{display:none!important}
+  body{background:#fff;color:#000;font-size:10.5pt}
+  .lead{display:block}
+  .manset-img,.thumb,.hero-img{display:none}
+  .card{grid-template-columns:1fr!important;break-inside:avoid;padding:8pt 0;border-bottom:.5pt solid #bbb}
+  .card h3,.manset h2{font-size:13pt;line-height:1.2}
+  .card p{-webkit-line-clamp:unset;display:block}
+  .meta{color:#444}
+  .card h3 a::after,.manset h2 a::after{content:" — " attr(href);font-size:8pt;color:#666;font-weight:400}
+  .card h3 a[href^="haber.html"]::after{content:""}
+  .bolge,.daygroup{break-inside:auto}
+  .rule-head,.dayhead,.sec-head{border-bottom:1pt solid #000}
+}

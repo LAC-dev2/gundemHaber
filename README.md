@@ -184,6 +184,26 @@ Görseller kaynağın sunucusundan gösterilir (kopyalanmaz), altına kaynak ad�
 yazılır ve yüklenemezse kart tipografik hâline döner. Kaynak sıcak bağlantıya
 kapalıysa görsel sessizce düşer, yerinde boşluk kalmaz.
 
+## İzleme masası özellikleri
+
+* **Doğrulama kümeleri** — başlık sözcüklerinin örtüşmesine göre (Jaccard ≥ 0,6 ve en az
+  3 ortak sözcük, 5 günlük pencere) aynı gelişmeyi anlatan kayıtlar eşleştirilir. Küme
+  imzası ilk kaydın sözcükleridir, genişletilmez; böylece zincirlenip alakasız kayıtları
+  toplamaz. Akışta küme tek satıra iner, kayıt sayfasında kaynaklar karşılaştırılır.
+* **Kaynak sağlığı** (`data/health.json`) — kaynak başına son kayıt tarihi ve akış hatası.
+  Arayüz, kaynağın kendi tarama sıklığına göre (günlük 4, haftalık 14, aylık 45 gün)
+  gecikenleri "sessiz", akışı kırılanları "akış hatası" olarak işaretler. İzlemenin
+  kendisini izlemek için: sessizleşen bir kaynak, çoğu zaman kırılmış bir akıştır.
+* **Dosyam** — ☆ ile toplanan kayıtlar tarayıcıda saklanır (`localStorage`, hiçbir yere
+  gönderilmez) ve Markdown/CSV olarak indirilebilir. Tarama penceresinden düşen kayıtlar
+  da dosyada kalır.
+* **Son ziyaretten beri** — özet panelinde, en son bakıştan sonra gelen kayıt sayısı;
+  akışta bu kayıtlar "yeni" işaretli.
+* **Kendi RSS akışımız** — `data/gundem.xml`, puana göre seçilmiş 80 kayıt. Kendi okuyucuna
+  ya da bir Slack/Telegram kanalına bağlanabilir.
+* **Yazdırma** — sayfa altındaki "yazdır", o an süzülmüş listeyi künye ve bağlantılarla
+  birlikte yazdırmaya uygun biçimde çıkarır (gezinme, görseller ve panel düşer).
+
 ## Kanıt standardı
 
 Akış başlıkları yalnızca işarettir. Dosyaya girecek her gelişme **birincil

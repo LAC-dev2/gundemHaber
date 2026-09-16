@@ -9,7 +9,53 @@ const ic = (it) => !it.k ? `${it.url}" target="_blank" rel="noopener noreferrer`
   : window.__VERI__ ? `#k=${encodeURIComponent(it.k)}`
   : `haber.html?k=${encodeURIComponent(it.k)}`;
 
-const state = { items: [], sources: [], feeds: {}, themes: [], stats: {}, shown: PAGE, region: '', lead: new Set() };
+const state = { items: [], sources: [], feeds: {}, themes: [], stats: {}, shown: PAGE,
+  region: '', lead: new Set(), kumeler: {}, health: {}, dosya: {}, sonZiyaret: 0, yeni: 0 };
+
+/* --------------------------------------------------- tarayıcıda saklananlar */
+const LS = {
+  get(key, fallback) {
+    try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch (e) { return fallback; }
+  },
+  set(key, value) {
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { /* özel pencere */ }
+  },
+};
+
+function dosyaKaydet(it, on) {
+  if (on) {
+    state.dosya[it.k] = { k: it.k, baslik: it.baslik, kaynak: it.kaynak, url: it.url,
+      tarih: it.tarih, bolge: it.bolge, kategori: it.kategori, eklendi: new Date().toISOString() };
+  } else {
+    delete state.dosya[it.k];
+  }
+  LS.set('bhm.dosya', state.dosya);
+  const n = Object.keys(state.dosya).length;
+  const tab = document.querySelector('nav.tabs button[data-view="dosyam"]');
+  if (tab) tab.textContent = n ? `Dosyam (${n})` : 'Dosyam';
+  document.querySelectorAll(`.yildiz[data-k="${it.k}"]`).forEach((b) => {
+    b.setAttribute('aria-pressed', String(!!state.dosya[it.k]));
+    b.textContent = state.dosya[it.k] ? '★' : '☆';
+  });
+  if (!$('#view-dosyam').hidden) drawDosyam();
+}
+
+function yildiz(it) {
+  const on = !!state.dosya[it.k];
+  return `<button class="yildiz" data-k="${esc(it.k)}" aria-pressed="${on}"
+    title="${on ? 'Dosyamdan çıkar' : 'Dosyama ekle'}">${on ? '★' : '☆'}</button>`;
+}
+
+function indir(name, text, type) {
+  const blob = new Blob([text], { type: `${type};charset=utf-8` });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+}
 
 const dayFmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', weekday: 'long' });
 const timeFmt = new Intl.DateTimeFormat('tr-TR', { hour: '2-digit', minute: '2-digit' });
@@ -52,9 +98,13 @@ function card(it) {
       ${it.tip === 'arama' ? '<span class="tag arama" title="Kaynağın RSS yayını yok; alan adına kilitli haber aramasıyla bulundu">arama</span>' : ''}
       ${it.tam ? '<span class="tag" title="Tam metin yerel olarak indirildi">tam metin</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
+      ${yeniMi(it) ? '<span class="tag yeni">yeni</span>' : ''}
+      ${yildiz(it)}
     </div>
     <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
+    ${(it.ek || []).length ? `<p class="ayrica"><span>aynı gelişme</span> ${it.ek.map((x) =>
+      `<a href="${ic(x)}">${esc(x.kaynak)}</a>`).join('<i>·</i>')}</p>` : ''}
     ${(it.terimler || []).length ? `<div class="terms">${it.terimler.map((t) => `<b>${esc(t)}</b>`).join('')}</div>` : ''}
     </div>
   </article>`;
@@ -136,6 +186,7 @@ function renderLead() {
       <div class="ozet-head">${day.length ? 'Bugünün özeti' : 'Son iki günün özeti'}
         <span class="mono">${esc(new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long' }).format(new Date()))}</span></div>
       <div class="ozet-say">
+        ${state.yeni ? `<div><b>${state.yeni}</b><span>son ziyaretinden beri</span></div>` : ''}
         <div><b>${scope.length}</b><span>başlık</span></div>
         <div><b>${new Set(scope.map((i) => i.id)).size}</b><span>kaynak</span></div>
         <div><b>${new Set(scope.map((i) => i.bolge)).size}</b><span>bölge</span></div>
@@ -220,8 +271,20 @@ function filtered() {
     return true;
   });
   if ($('#sirala').value === 'puan') rows = rows.slice().sort((a, b) => b.puan - a.puan || (a.tarih < b.tarih ? 1 : -1));
-  return rows;
+
+  // aynı gelişmeyi veren kayıtları tek satırda topla
+  const seen = new Map();
+  const out = [];
+  rows.forEach((it) => {
+    if (it.kume == null) { out.push(it); return; }
+    const first = seen.get(it.kume);
+    if (!first) { const copy = { ...it, ek: [] }; seen.set(it.kume, copy); out.push(copy); }
+    else if (first.ek.length < 5) first.ek.push(it);
+  });
+  return out;
 }
+
+const yeniMi = (it) => state.sonZiyaret && new Date(it.tarih).getTime() > state.sonZiyaret;
 
 function draw() {
   const rows = filtered();
@@ -236,6 +299,9 @@ function statTiles(s) {
     ['otomatik akış', `${s.akisVeriVeren ?? 0}/${s.akisTaranan ?? 0}`, 'veri veren / taranan RSS'],
     ['haber aramaları', `${s.aramaVeriVeren ?? 0}/${s.aramaKaynak ?? 0}`, 'RSS yayını olmayan kaynak'],
     ['kaynak envanteri', s.kaynak ?? 0, 'izlenen kaynak'],
+    ['doğrulanan gelişme', s.kume ?? 0, 'birden çok kaynakta'],
+    ['izleme sorunu', state.sources.reduce((n, x) => {
+      const sg = saglik(x); return n + (sg && sg.tip !== 'iyi' ? 1 : 0); }, 0), 'sessiz ya da hatalı kaynak'],
     ['bölge dağılımı', Object.keys(s.bolge || {}).length, Object.entries(s.bolge || {}).map(([k, v]) => `${k} ${v}`).join(' · ') || '—'],
   ];
   return t.map(([label, value, sub]) => `<div class="stat"><span>${esc(label)}</span><b>${esc(value)}</b><i>${esc(sub)}</i></div>`).join('');
@@ -245,6 +311,20 @@ function statTiles(s) {
 function feedOf(src) {
   for (const u of src.links || []) { const f = state.feeds[u]; if (f && f.feed) return f.feed; }
   return null;
+}
+
+const GUN = 864e5;
+const BEKLENEN = { 'Günlük': 4, 'Haftalık': 14, 'Aylık': 45, 'Dönemsel': 120, 'Yıllık': 400 };
+
+function saglik(src) {
+  const h = state.health[String(src.id)];
+  if (!h) return null;
+  if (h.hata) return { tip: 'hata', metin: `akış hatası: ${h.hata}` };
+  if (!h.sonKayit) return null;
+  const gun = Math.floor((Date.now() - new Date(h.sonKayit).getTime()) / GUN);
+  const sinir = BEKLENEN[src.siklik] || 30;
+  if (gun > sinir) return { tip: 'sessiz', metin: `${gun} gündür kayıt yok` };
+  return { tip: 'iyi', metin: gun < 1 ? 'bugün kayıt geldi' : `${gun} gün önce` };
 }
 
 function drawSources() {
@@ -257,6 +337,7 @@ function drawSources() {
     const has = !!feedOf(x);
     if (r === 'var' && !has) return false;
     if (r === 'yok' && has) return false;
+    if (r === 'sorun') { const sg = saglik(x); if (!sg || sg.tip === 'iyi') return false; }
     if (q && !slug(`${x.ad} ${x.kategori} ${x.tur} ${x.anahtar || ''} ${x.neden || ''}`).includes(q)) return false;
     return true;
   });
@@ -272,6 +353,7 @@ function drawSources() {
         ${n ? `<span class="tag">${n} kayıt</span>` : ''}</div>
       <h3>${esc(x.ad)}</h3>
       <div class="meta"><span class="tag">${esc(x.tur || '')}</span><span class="tag">${esc(x.siklik || '')}</span><span class="tag ${slug(x.oncelik || '') === 'kritik' ? 'kritik' : slug(x.oncelik || '') === 'yuksek' ? 'yuksek' : ''}">${esc(x.oncelik || '')}</span></div>
+      ${(() => { const sg = saglik(x); return sg ? `<p class="saglik ${sg.tip}">${esc(sg.metin)}</p>` : ''; })()}
       ${x.neden ? `<p class="why">${esc(x.neden)}</p>` : ''}
       <div class="links">${(x.links || []).slice(0, 3).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">bağlantı ${i + 1}</a>`).join('')}
         ${f ? `<a href="${esc(f)}" target="_blank" rel="noopener noreferrer">akış</a>` : ''}</div>
@@ -282,6 +364,39 @@ function drawSources() {
 function fillSelect(el, values, label) {
   el.innerHTML = `<option value="">${label}</option>` + [...new Set(values)].filter(Boolean).sort((a, b) => a.localeCompare(b, 'tr'))
     .map((v) => `<option>${esc(v)}</option>`).join('');
+}
+
+/* ---------------------------------------------------------------- dosyam */
+function drawDosyam() {
+  const rows = Object.values(state.dosya).sort((a, b) => (a.tarih < b.tarih ? 1 : -1));
+  $('#dcount').textContent = `${rows.length} kayıt`;
+  if (!rows.length) {
+    $('#dosyaListe').innerHTML = `<div class="empty">Dosyan boş. Akıştaki kayıtların
+      sağındaki ☆ işaretine basarak buraya ekleyebilirsin; kayıtlar bu tarayıcıda saklanır.</div>`;
+    return;
+  }
+  $('#dosyaListe').innerHTML = `<div class="list">${rows.map((it) => `<article class="card">
+    <div class="govde"><div class="meta">
+      <span class="src" style="--c:${RC[it.bolge] || 'var(--petrol)'}">${esc(it.kaynak)}</span>
+      <span>${esc(it.bolge)}${it.kategori ? ' · ' + esc(it.kategori) : ''}</span>
+      <span class="mono">${fullFmt.format(new Date(it.tarih))}</span>
+      ${yildiz(it)}</div>
+      <h3><a href="${it.k ? `haber.html?k=${encodeURIComponent(it.k)}` : esc(it.url)}">${esc(it.baslik)}</a></h3>
+      <p class="kaynak-baglanti"><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.url)}</a></p>
+    </div></article>`).join('')}</div>`;
+}
+
+function dosyaMetni(bicim) {
+  const rows = Object.values(state.dosya).sort((a, b) => (a.tarih < b.tarih ? 1 : -1));
+  const gun = new Date().toLocaleDateString('tr-TR');
+  if (bicim === 'csv') {
+    const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
+    return ['tarih,bolge,kategori,kaynak,baslik,url',
+      ...rows.map((r) => [r.tarih, r.bolge, r.kategori, r.kaynak, r.baslik, r.url].map(q).join(','))].join('\n');
+  }
+  return [`# Gündem Takip — dosya (${gun})`, '',
+    ...rows.map((r) => `- **${r.baslik}**  \n  ${r.kaynak} · ${r.bolge}${r.kategori ? ' · ' + r.kategori : ''} · ${new Date(r.tarih).toLocaleString('tr-TR')}  \n  ${r.url}`),
+    '', `_${rows.length} kayıt · Brüksel Hukuk Merkezi Gündem Takip_`].join('\n');
 }
 
 /* ----------------------------------------------------------------- arşiv */
@@ -296,17 +411,31 @@ async function drawArchive() {
 
 /* ------------------------------------------------------------------- init */
 (async function init() {
-  const [latest, meta, feeds, index] = await Promise.all([
+  const [latest, meta, feeds, index, health] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
     getJSON('data/archive-index.json', []),
+    getJSON('data/health.json', {}),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
   state.sources = meta.sources || [];
   state.themes = meta.themes || [];
   state.feeds = feeds || {};
+  state.kumeler = latest.kumeler || {};
+  state.health = health || {};
+  state.dosya = LS.get('bhm.dosya', {}) || {};
+
+  // son ziyaretten beri gelen kayıtlar
+  state.sonZiyaret = LS.get('bhm.sonZiyaret', 0) || 0;
+  state.yeni = state.sonZiyaret
+    ? state.items.filter((i) => new Date(i.tarih).getTime() > state.sonZiyaret).length : 0;
+  LS.set('bhm.sonZiyaret', Date.now());
+
+  const dn = Object.keys(state.dosya).length;
+  const dtab = document.querySelector('nav.tabs button[data-view="dosyam"]');
+  if (dtab && dn) dtab.textContent = `Dosyam (${dn})`;
 
   // durum
   const ts = latest.olusturma ? new Date(latest.olusturma) : null;
@@ -343,17 +472,42 @@ async function drawArchive() {
   ['#sq', '#sbolge', '#skategori', '#ssiklik', '#srss'].forEach((s) => $(s).addEventListener('input', drawSources));
   $('#gun').addEventListener('change', drawArchive);
 
+  // dosyama ekle / çıkar
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.yildiz');
+    if (!btn) return;
+    e.preventDefault();
+    const key = btn.dataset.k;
+    const it = state.items.find((x) => x.k === key) || state.dosya[key];
+    if (it) dosyaKaydet(it, !state.dosya[key]);
+  });
+  $('#dMd').addEventListener('click', () => indir(
+    `bhm-dosya-${new Date().toISOString().slice(0, 10)}.md`, dosyaMetni('md'), 'text/markdown'));
+  $('#dCsv').addEventListener('click', () => indir(
+    `bhm-dosya-${new Date().toISOString().slice(0, 10)}.csv`, dosyaMetni('csv'), 'text/csv'));
+  $('#dTemizle').addEventListener('click', () => {
+    if (!confirm('Dosyadaki tüm kayıtlar silinsin mi?')) return;
+    state.dosya = {};
+    LS.set('bhm.dosya', state.dosya);
+    const tab = document.querySelector('nav.tabs button[data-view="dosyam"]');
+    if (tab) tab.textContent = 'Dosyam';
+    drawDosyam();
+  });
+
   // sekmeler
   document.querySelectorAll('nav.tabs button').forEach((b) => b.addEventListener('click', () => {
     document.querySelectorAll('nav.tabs button').forEach((x) => x.setAttribute('aria-selected', String(x === b)));
-    ['gundem', 'kaynaklar', 'arsiv', 'hakkinda'].forEach((v) => { $('#view-' + v).hidden = v !== b.dataset.view; });
+    VIEWS.forEach((v) => { $('#view-' + v).hidden = v !== b.dataset.view; });
+    $('#view-haber').hidden = true;
+    if (location.hash.startsWith('#k=')) history.replaceState(null, '', location.pathname);
     if (b.dataset.view === 'kaynaklar') drawSources();
     if (b.dataset.view === 'arsiv') drawArchive();
+    if (b.dataset.view === 'dosyam') drawDosyam();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
 
   // paket kipi: #k=<anahtar> ile kayıt sayfası aynı dosyada açılır
-  const VIEWS = ['gundem', 'kaynaklar', 'arsiv', 'hakkinda'];
+  const VIEWS = ['gundem', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
   function route() {
     const m = location.hash.match(/^#k=(.+)$/);
     const box = $('#view-haber');

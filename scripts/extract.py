@@ -108,5 +108,10 @@ def extract(body: bytes, content_type: str = "", min_chars: int = 400) -> list[s
         if len(out) >= 140:
             break
 
+    # Kuyruk temizligi: yazinin sonundaki kisa bloklar dizisi neredeyse her
+    # zaman site menusudur ("Latest News", "About us", "Yayinlar"…).
+    while out and len(out[-1].lstrip("# ")) < 45:
+        out.pop()
+
     body_chars = sum(len(p) for p in out if not p.startswith("## "))
     return out if body_chars >= min_chars else []

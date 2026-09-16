@@ -30,6 +30,7 @@
       <button role="tab" data-view="gundem" aria-selected="true">Gündem</button>
       <button role="tab" data-view="kaynaklar" aria-selected="false">Kaynaklar</button>
       <button role="tab" data-view="arsiv" aria-selected="false">Arşiv</button>
+      <button role="tab" data-view="dosyam" aria-selected="false">Dosyam</button>
       <button role="tab" data-view="hakkinda" aria-selected="false">Nasıl çalışır</button>
     </nav>
   </div>
@@ -82,11 +83,30 @@
         <select id="sbolge"><option value="">Tüm bölgeler</option></select>
         <select id="skategori"><option value="">Tüm kategoriler</option></select>
         <select id="ssiklik"><option value="">Tüm tarama sıklıkları</option></select>
-        <select id="srss"><option value="">Akış durumu: tümü</option><option value="var">Yalnız RSS var</option><option value="yok">Yalnız RSS yok</option></select>
+        <select id="srss">
+          <option value="">Akış durumu: tümü</option>
+          <option value="var">Yalnız RSS var</option>
+          <option value="yok">Yalnız RSS yok</option>
+          <option value="sorun">Yalnız sorunlu kaynaklar</option>
+        </select>
         <span class="count" id="scount"></span>
       </div>
     </div>
     <div class="srcgrid" id="srcgrid"></div>
+  </section>
+
+  <!-- DOSYAM -->
+  <section id="view-dosyam" hidden>
+    <p class="note">Akıştaki kayıtların yanındaki ☆ işaretine basarak topladığın kayıtlar.
+      Yalnızca bu tarayıcıda saklanır, hiçbir yere gönderilmez; tarama penceresinden
+      düşen kayıtlar bile burada kalır.</p>
+    <div class="filters"><div class="frow">
+      <button class="more inline" id="dMd">Markdown olarak indir</button>
+      <button class="more inline" id="dCsv">CSV olarak indir</button>
+      <button class="more inline" id="dTemizle">Dosyayı temizle</button>
+      <span class="count" id="dcount"></span>
+    </div></div>
+    <div id="dosyaListe"></div>
   </section>
 
   <!-- ARŞİV -->
@@ -106,13 +126,29 @@
       <li><b>Akış keşfi:</b> Tarayıcı her kaynağın adresinde RSS/Atom akışı arar (sayfa içi <code>link rel=alternate</code> etiketi ve yaygın <code>/feed</code>, <code>/rss</code> kalıpları). Bulunanlar <code>data/feeds.json</code> içinde saklanır, süresi geçtikçe yeniden doğrulanır.</li>
       <li><b>Tarama:</b> Bulunan akışlar paralel çekilir, son <span id="pencere">21</span> günün öğeleri ayrıştırılır, bağlantıya göre tekilleştirilir.</li>
       <li><b>Önem sıralaması:</b> Kaynağın önceliği, birincil/ikincil kanıt değeri, uyarı terimi eşleşmeleri ve tazelik puanlanır.</li>
-      <li><b>Yayın:</b> <code>data/latest.json</code> ve <code>data/archive/YYYY-AA-GG.json</code> güncellenir, depoya işlenir ve GitHub Pages yayınlanır.</li>
+      <li><b>Doğrulama:</b> Başlık sözcüklerinin örtüşmesine göre, aynı gelişmeyi anlatan
+        kayıtlar kümelenir. Akışta bunlar tek satırda toplanır ("aynı gelişme: …"), kayıt
+        sayfasında kaynaklar yan yana karşılaştırılabilir. Kaç kaynağın aynı olayı verdiği,
+        bir izleme masası için en değerli işarettir.</li>
+      <li><b>Kaynak sağlığı:</b> Her kaynağın son kayıt tarihi ve akış hatası
+        <code>data/health.json</code> içinde tutulur. Kaynaklar sekmesinde "kaç gündür kayıt
+        yok" ya da "akış hatası" olarak görünür; kendi tarama sıklığına göre gecikenler
+        "sorunlu kaynaklar" süzgeciyle listelenir.</li>
+      <li><b>Yayın:</b> <code>data/latest.json</code>, günlük arşiv ve
+        <code>data/gundem.xml</code> (kendi RSS akışımız) güncellenir, depoya işlenir ve
+        GitHub Pages yayınlanır.</li>
     </ol>
+    <p class="note">Dosyam sekmesi, ☆ işaretiyle topladığın kayıtları bu tarayıcıda saklar
+      (hiçbir yere gönderilmez) ve Markdown ya da CSV olarak indirmene izin verir — dosyaya
+      girecek gelişmeleri ayırmak için. Sayfa altındaki "yazdır" bağlantısı, o an ekranda
+      duran süzülmüş listeyi yazdırmaya uygun biçimde çıkarır.</p>
     <p class="muted" style="max-width:70ch">Kanıt standardı: akış başlıkları yalnızca işarettir. Dosyaya girecek her gelişme birincil kaynakta (karar metni, resmî yayın, tebliğ) doğrulanmalıdır. Tarih bilgisi vermeyen akışlarda öğe tarihi tarama anına göre tahmin edilir ve kartta belirtilir.</p>
   </section>
 </main>
 
-<footer><div class="wrap">Brüksel Hukuk Merkezi · Gündem Takip · veriler <span id="footTime" class="mono">—</span> tarihli taramadan. Kaynak envanteri: <span id="footSrc">—</span> kaynak, <span id="footFeed">—</span> otomatik akış.</div></footer>
+<footer><div class="wrap">Brüksel Hukuk Merkezi · Gündem Takip · veriler <span id="footTime" class="mono">—</span> tarihli taramadan.
+Kaynak envanteri: <span id="footSrc">—</span> kaynak, <span id="footFeed">—</span> otomatik akış.
+· <a href="data/gundem.xml">RSS akışı</a> · <a href="#" onclick="window.print();return false">yazdır</a></div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>
