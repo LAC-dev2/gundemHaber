@@ -1,7 +1,7 @@
 /* BHM Gündem Takip — statik arayüz (bağımlılıksız) */
 const RC = { 'Türkiye': 'var(--tr)', 'Belçika': 'var(--be)', 'Avrupa': 'var(--eu)', 'Dünya': 'var(--dn)', 'Kurumsal': 'var(--kr)' };
 const PAGE = 60;
-const SURUM = 'sürüm 3 · çizgi düzeni';   // arayüz sürümü: eski kopyayı ayırt etmek için
+const SURUM = 'sürüm 4 · görsel önde';   // arayüz sürümü: eski kopyayı ayırt etmek için
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
@@ -80,16 +80,27 @@ function imgTag(it) {
   return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}" onerror="${ONERR}">`;
 }
 
-function thumb(it, cls = 'thumb') {
-  return (it.gorsel || it.yerel) ? `<div class="${cls}">${imgTag(it)}</div>` : '';
+/* Kaynak amblemi: adın baş harfleri, bölge renginde. Görseli olmayan
+   kayıtlarda ızgaranın ritmi korunur ve kaynak uzaktan tanınır. */
+function bashafler(ad) {
+  const atla = new Set(['the', 'for', 'and', 'of', 'de', 'la', 'le', 'van', 'von', 've']);
+  const sozler = String(ad).split(/[\s\-—–·/(),.]+/)
+    .filter((w) => w && !atla.has(w.toLocaleLowerCase('tr')));
+  const harfler = sozler.slice(0, 2).map((w) => w[0]).join('');
+  return (harfler || String(ad).slice(0, 2)).toLocaleUpperCase('tr');
+}
+
+function gorselAlani(it, cls = 'gorsel') {
+  if (it.gorsel || it.yerel) return `<div class="${cls}">${imgTag(it)}</div>`;
+  return `<div class="${cls} plaka" aria-hidden="true"><span>${esc(bashafler(it.kaynak))}</span></div>`;
 }
 
 function card(it) {
   const pr = slug(it.oncelik || '');
   const prCls = pr === 'kritik' ? 'kritik' : pr === 'yuksek' ? 'yuksek' : '';
   const d = new Date(it.tarih);
-  return `<article class="card${(it.gorsel || it.yerel) ? ' has-img' : ''}" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
-    ${thumb(it)}
+  return `<article class="card" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+    <a class="gorsel-bag" href="${ic(it)}" tabindex="-1" aria-hidden="true">${gorselAlani(it)}</a>
     <div class="govde">
     <div class="meta">
       <span class="src">${esc(it.kaynak)}</span>
@@ -225,15 +236,15 @@ function renderRegions() {
     return `<section class="bolge" style="--c:${RC[r]}">
       <div class="rule-head"><h3>${esc(r)}</h3>
         <button class="link" data-region="${esc(r)}">bölgenin tamamı →</button></div>
-      <div class="bolge-lead${(first.gorsel || first.yerel) ? '' : ' no-img'}">
-        ${thumb(first)}
+      <div class="bolge-lead">
+        <a class="gorsel-bag" href="${ic(first)}" tabindex="-1" aria-hidden="true">${gorselAlani(first, 'gorsel buyuk')}</a>
         <div class="govde">${meta(first)}
           <h3><a href="${ic(first)}">${esc(first.baslik)}</a></h3>
           ${first.ozet ? `<p>${esc(first.ozet.slice(0, 190))}${first.ozet.length > 190 ? '…' : ''}</p>` : ''}
         </div>
       </div>
-      <div class="bolge-rest">${rest.map((it) => `<article class="card${(it.gorsel || it.yerel) ? ' has-img' : ''}">
-        ${thumb(it)}
+      <div class="bolge-rest">${rest.map((it) => `<article class="card kucuk" style="--c:${RC[r]}">
+        <a class="gorsel-bag" href="${ic(it)}" tabindex="-1" aria-hidden="true">${gorselAlani(it, 'gorsel kucuk')}</a>
         <div class="govde">${meta(it, true)}
           <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
         </div>
