@@ -5,6 +5,9 @@ const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
 
+const ic = (it) => it.k ? `haber.html?k=${encodeURIComponent(it.k)}`
+  : `${it.url}" target="_blank" rel="noopener noreferrer`;
+
 const state = { items: [], sources: [], feeds: {}, themes: [], stats: {}, shown: PAGE, region: '', lead: new Set() };
 
 const dayFmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', weekday: 'long' });
@@ -41,7 +44,7 @@ function card(it) {
       ${it.tip === 'arama' ? '<span class="tag arama" title="Kaynağın RSS yayını yok; alan adına kilitli haber aramasıyla bulundu">arama</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
-    <h3><a href="haber.html?k=${esc(it.k)}">${esc(it.baslik)}</a></h3>
+    <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
     ${(it.terimler || []).length ? `<div class="terms">${it.terimler.map((t) => `<b>${esc(t)}</b>`).join('')}</div>` : ''}
     </div>
@@ -82,9 +85,9 @@ function recent(days) {
 function leadCard(it) {
   const d = new Date(it.tarih);
   return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
-    ${it.gorsel ? `<a class="manset-img" href="haber.html?k=${esc(it.k)}"><img src="${esc(it.gorsel)}" alt="" onerror="this.closest('a').remove()"></a>` : ''}
+    ${it.gorsel ? `<a class="manset-img" href="${ic(it)}"><img src="${esc(it.gorsel)}" alt="" onerror="this.closest('a').remove()"></a>` : ''}
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
-    <h2><a href="haber.html?k=${esc(it.k)}">${esc(it.baslik)}</a></h2>
+    <h2><a href="${ic(it)}">${esc(it.baslik)}</a></h2>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
     <div class="byline"><b>${esc(it.kaynak)}</b><span>${esc(it.kanit || '')}</span>
       <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}</span>
@@ -93,7 +96,7 @@ function leadCard(it) {
 }
 
 function secondCard(it) {
-  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="haber.html?k=${esc(it.k)}">
+  return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="${ic(it)}">
     <span class="eyebrow"><span class="pin"></span>${esc(it.bolge)}</span>
     <b>${esc(it.baslik)}</b>
     <span class="src">${esc(it.kaynak)}</span></a>`;
@@ -163,7 +166,7 @@ function renderRegions() {
           <span>${esc(it.kategori || '')}</span>
           ${it.oncelik === 'Kritik' ? '<span class="tag kritik">Kritik</span>' : ''}
           <span class="mono muted">${dayShort(it.tarih)}</span></div>
-        <h3><a href="haber.html?k=${esc(it.k)}">${esc(it.baslik)}</a></h3>
+        <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
         ${it.ozet ? `<p>${esc(it.ozet.slice(0, 150))}${it.ozet.length > 150 ? '…' : ''}</p>` : ''}
         </div>
       </article>`).join('')}</div>
