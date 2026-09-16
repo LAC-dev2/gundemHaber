@@ -36,16 +36,22 @@ OKUBENI.md                  alıcıya verilecek kurulum anlatımı
 manifest.webmanifest        "Ana Ekrana Ekle" için uygulama tanımı
 ```
 
-## Kurulum (tek seferlik)
+## Yayın
 
-1. Bu dal `main` içine alındıktan sonra **Settings → Pages → Source: GitHub
-   Actions** seçilir. (Zamanlanmış görevler yalnızca varsayılan dalda çalışır.)
-2. **Settings → Actions → General → Workflow permissions** altında
-   *Read and write permissions* işaretlenir; tarama sonuçlarını depoya işlemek
-   için gereklidir.
-3. **Actions → Kaynak taraması → Run workflow** ile ilk tarama elle başlatılır.
-   İlk turlarda akış keşfi yapılır; `data/feeds.json` doldukça sonraki turlar
-   hızlanır.
+Site GitHub Pages üzerinde yayınlanır:
+**https://lac-dev2.github.io/gundemHaber/**
+
+Tarama iş akışı `actions/configure-pages` adımında `enablement: true` ile
+çalıştığı için Pages'i kendisi açar; elle ayar gerekmez. Yayın, deponun
+varsayılan dalından yapılır (bu depoda `claude/trusting-ritchie-qqutwf`;
+zamanlanmış görevler de yalnızca varsayılan dalda çalışır).
+
+İlk yayın için: **Actions → Kaynak taraması → Run workflow**. Sonrası
+kendiliğinden: günde üç kez tarar, veriyi depoya işler, Pages'i günceller.
+
+Depo ayarlarında gereken tek şey **Settings → Actions → General → Workflow
+permissions: Read and write** (tarama sonucunu depoya işlemek için) — bu
+depoda zaten açık.
 
 ## Yerel uygulama (tek komut)
 

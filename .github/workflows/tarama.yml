@@ -51,9 +51,12 @@ jobs:
             git push
           fi
 
+      # enablement: Pages depoda kapaliysa is akisi kendisi acar (pages: write)
       - uses: actions/configure-pages@v5
         continue-on-error: true
         id: pages
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         if: steps.pages.outcome == 'success'
         with:
