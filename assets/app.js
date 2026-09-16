@@ -47,10 +47,10 @@ function card(it) {
     <div class="meta">
       <span class="src">${esc(it.kaynak)}</span>
       <span>${esc(it.bolge)}${it.kategori ? ' · ' + esc(it.kategori) : ''}</span>
-      ${it.oncelik ? `<span class="tag ${prCls}">${esc(it.oncelik)}</span>` : ''}
-      ${it.kanit ? `<span class="tag${it.kanit.startsWith('Birincil') ? ' birincil' : ''}">${esc(it.kanit)}</span>` : ''}
+      ${prCls ? `<span class="tag ${prCls}">${esc(it.oncelik.toLocaleLowerCase('tr'))}</span>` : ''}
+      ${it.kanit && it.kanit.startsWith('Birincil') ? '<span class="tag birincil">birincil</span>' : ''}
       ${it.tip === 'arama' ? '<span class="tag arama" title="Kaynağın RSS yayını yok; alan adına kilitli haber aramasıyla bulundu">arama</span>' : ''}
-      ${it.tam ? '<span class="tag birincil" title="Tam metin yerel olarak indirildi">tam metin</span>' : ''}
+      ${it.tam ? '<span class="tag" title="Tam metin yerel olarak indirildi">tam metin</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
     <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
@@ -163,20 +163,27 @@ function renderRegions() {
   const order = ['Türkiye', 'Belçika', 'Avrupa', 'Dünya'];
   const html = order.map((r) => {
     const rows = state.items.filter((i) => i.bolge === r && !state.lead.has(i.url))
-      .slice().sort((a, b) => b.puan - a.puan).slice(0, 3);
+      .slice().sort((a, b) => b.puan - a.puan).slice(0, 4);
     if (!rows.length) return '';
+    const [first, ...rest] = rows;
+    const meta = (it, compact) => `<div class="meta"><span class="src">${esc(it.kaynak)}</span>
+      ${!compact && it.kategori ? `<span>${esc(it.kategori)}</span>` : ''}
+      ${it.oncelik === 'Kritik' ? '<span class="tag kritik">kritik</span>' : ''}
+      <span class="mono">${dayShort(it.tarih)}</span></div>`;
     return `<section class="bolge" style="--c:${RC[r]}">
-      <div class="bolge-head"><h3>${esc(r)}</h3>
-        <button class="link" data-region="${esc(r)}">bu bölgenin tamamı →</button></div>
-      <div class="bolge-grid">${rows.map((it) => `<article class="card sm${(it.gorsel || it.yerel) ? ' has-img' : ''}" style="--c:${RC[r]}">
-        ${thumb(it, 'thumb wide')}
-        <div class="govde">
-        <div class="meta"><span class="src">${esc(it.kaynak)}</span>
-          <span>${esc(it.kategori || '')}</span>
-          ${it.oncelik === 'Kritik' ? '<span class="tag kritik">Kritik</span>' : ''}
-          <span class="mono muted">${dayShort(it.tarih)}</span></div>
-        <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
-        ${it.ozet ? `<p>${esc(it.ozet.slice(0, 150))}${it.ozet.length > 150 ? '…' : ''}</p>` : ''}
+      <div class="rule-head"><h3>${esc(r)}</h3>
+        <button class="link" data-region="${esc(r)}">bölgenin tamamı →</button></div>
+      <div class="bolge-lead${(first.gorsel || first.yerel) ? '' : ' no-img'}">
+        ${thumb(first)}
+        <div class="govde">${meta(first)}
+          <h3><a href="${ic(first)}">${esc(first.baslik)}</a></h3>
+          ${first.ozet ? `<p>${esc(first.ozet.slice(0, 190))}${first.ozet.length > 190 ? '…' : ''}</p>` : ''}
+        </div>
+      </div>
+      <div class="bolge-rest">${rest.map((it) => `<article class="card${(it.gorsel || it.yerel) ? ' has-img' : ''}">
+        ${thumb(it)}
+        <div class="govde">${meta(it, true)}
+          <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
         </div>
       </article>`).join('')}</div>
     </section>`;
