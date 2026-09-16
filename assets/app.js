@@ -23,17 +23,23 @@ async function getJSON(path, fallback) {
 }
 
 /* ---------------------------------------------------------------- kartlar */
+const ONERR = "if(this.dataset.remote&&this.src!==this.dataset.remote){this.src=this.dataset.remote}else{this.closest('figure,div,a')?.remove()}";
+
+function imgTag(it) {
+  const local = it.yerel ? esc(it.yerel) : '';
+  const remote = it.gorsel ? esc(it.gorsel) : '';
+  return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}" onerror="${ONERR}">`;
+}
+
 function thumb(it, cls = 'thumb') {
-  return it.gorsel
-    ? `<div class="${cls}"><img src="${esc(it.gorsel)}" alt="" loading="lazy" onerror="this.closest('div').remove()"></div>`
-    : '';
+  return (it.gorsel || it.yerel) ? `<div class="${cls}">${imgTag(it)}</div>` : '';
 }
 
 function card(it) {
   const pr = slug(it.oncelik || '');
   const prCls = pr === 'kritik' ? 'kritik' : pr === 'yuksek' ? 'yuksek' : '';
   const d = new Date(it.tarih);
-  return `<article class="card${it.gorsel ? ' has-img' : ''}" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+  return `<article class="card${(it.gorsel || it.yerel) ? ' has-img' : ''}" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
     ${thumb(it)}
     <div class="govde">
     <div class="meta">
@@ -42,6 +48,7 @@ function card(it) {
       ${it.oncelik ? `<span class="tag ${prCls}">${esc(it.oncelik)}</span>` : ''}
       ${it.kanit ? `<span class="tag${it.kanit.startsWith('Birincil') ? ' birincil' : ''}">${esc(it.kanit)}</span>` : ''}
       ${it.tip === 'arama' ? '<span class="tag arama" title="Kaynağın RSS yayını yok; alan adına kilitli haber aramasıyla bulundu">arama</span>' : ''}
+      ${it.tam ? '<span class="tag birincil" title="Tam metin yerel olarak indirildi">tam metin</span>' : ''}
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
     <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
@@ -85,7 +92,7 @@ function recent(days) {
 function leadCard(it) {
   const d = new Date(it.tarih);
   return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
-    ${it.gorsel ? `<a class="manset-img" href="${ic(it)}"><img src="${esc(it.gorsel)}" alt="" onerror="this.closest('a').remove()"></a>` : ''}
+    ${(it.gorsel || it.yerel) ? `<a class="manset-img" href="${ic(it)}">${imgTag(it)}</a>` : ''}
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
     <h2><a href="${ic(it)}">${esc(it.baslik)}</a></h2>
     ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
@@ -159,7 +166,7 @@ function renderRegions() {
     return `<section class="bolge" style="--c:${RC[r]}">
       <div class="bolge-head"><h3>${esc(r)}</h3>
         <button class="link" data-region="${esc(r)}">bu bölgenin tamamı →</button></div>
-      <div class="bolge-grid">${rows.map((it) => `<article class="card sm${it.gorsel ? ' has-img' : ''}" style="--c:${RC[r]}">
+      <div class="bolge-grid">${rows.map((it) => `<article class="card sm${(it.gorsel || it.yerel) ? ' has-img' : ''}" style="--c:${RC[r]}">
         ${thumb(it, 'thumb wide')}
         <div class="govde">
         <div class="meta"><span class="src">${esc(it.kaynak)}</span>

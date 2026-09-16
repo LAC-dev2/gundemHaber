@@ -40,11 +40,40 @@ data/archive/YYYY-AA-GG.json  günlük arşiv kayıtları
    İlk turlarda akış keşfi yapılır; `data/feeds.json` doldukça sonraki turlar
    hızlanır.
 
-## Yerel çalıştırma
+## Yerel uygulama (tek komut)
 
 ```bash
-python3 scripts/collect.py --discover 40      # tarama (stdlib, bağımlılık yok)
-python3 -m http.server 8000                   # http://localhost:8000
+python3 scripts/serve.py
+```
+
+Bu komut: veri eskiyse kaynakları tarar, tam metinleri ve görselleri diske
+indirir, siteyi `http://127.0.0.1:8000` adresinde sunar ve tarayıcıda açar.
+Bağımlılık yoktur — yalnızca Python 3.9+ standart kütüphanesi.
+
+```bash
+python3 scripts/serve.py --every 30       # 30 dakikada bir yeniden tara
+python3 scripts/serve.py --no-scan        # taramadan yalnızca sun
+python3 scripts/serve.py --stale 0        # veri taze olsa da baştan tara
+python3 scripts/serve.py --port 9000 --full 100 --mirror 200
+```
+
+Yerel kipte iki şey fazladan yapılır:
+
+* **Tam metin** — `--full N` kadar kaydın sayfası indirilip okunabilir metne
+  çevrilir (`data/pages/<anahtar>.json`). Haber sayfası özet yerine tam metni,
+  kelime sayısını ve okuma süresini gösterir. Bir kez indirilen sayfa bir daha
+  çekilmez.
+* **Görsel aynası** — `--mirror N` kadar görsel `data/img/` altına indirilir;
+  sayfa önce yerel kopyayı, yüklenemezse kaynağın sunucusunu dener. Böylece
+  çevrimdışı da çalışır ve sıcak bağlantı engellerine takılmaz.
+
+Bu iki dizin `.gitignore` içindedir: her makinede yeniden üretilir, depoyu
+şişirmez. Yayın sürümü (GitHub Pages) yalnızca künye + özet gösterir.
+
+Yalnızca taramayı çalıştırmak için:
+
+```bash
+python3 scripts/collect.py --discover 40 --full 40 --mirror 80
 ```
 
 Kaynak envanteri güncellendiğinde:

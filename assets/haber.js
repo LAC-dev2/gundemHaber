@@ -13,11 +13,30 @@ async function getJSON(path, fallback) {
   } catch (e) { return fallback; }
 }
 
+function imgTag(it, extra = '') {
+  // yerel aynayı dene, yoksa kaynağın sunucusuna düş, o da olmazsa kaldır
+  const local = it.yerel ? esc(it.yerel) : '';
+  const remote = it.gorsel ? esc(it.gorsel) : '';
+  return `<img src="${local || remote}" alt="" loading="lazy" ${extra}
+    data-remote="${remote}"
+    onerror="if(this.dataset.remote&&this.src!==this.dataset.remote){this.src=this.dataset.remote}else{this.closest('figure,div,a')?.remove()}">`;
+}
+
 function picture(it) {
-  if (!it.gorsel) return '';
-  return `<figure class="hero-img"><img src="${esc(it.gorsel)}" alt="" loading="lazy"
-    onerror="this.closest('figure').remove()">
+  if (!it.gorsel && !it.yerel) return '';
+  return `<figure class="hero-img">${imgTag(it)}
     <figcaption>Görsel: ${esc(it.kaynak)} yayınından</figcaption></figure>`;
+}
+
+function fullText(page) {
+  if (!page) return '';
+  const body = page.paragraflar.map((x) => x.startsWith('## ')
+    ? `<h3>${esc(x.slice(3))}</h3>` : `<p>${esc(x)}</p>`).join('');
+  const min = Math.max(1, Math.round(page.kelime / 190));
+  return `<div class="tam-metin">
+    <div class="tam-head"><span class="tag">tam metin</span>
+      <span class="mono">${page.kelime.toLocaleString('tr-TR')} kelime · ~${min} dk okuma</span></div>
+    ${body}</div>`;
 }
 
 function relatedCard(it) {
@@ -28,9 +47,10 @@ function relatedCard(it) {
 
 (async function init() {
   const key = new URLSearchParams(location.search).get('k');
-  const [latest, meta] = await Promise.all([
+  const [latest, meta, page] = await Promise.all([
     getJSON('data/latest.json', { haberler: [] }),
     getJSON('data/sources.json', { sources: [] }),
+    key ? getJSON(`data/pages/${encodeURIComponent(key)}.json`, null) : null,
   ]);
   const items = latest.haberler || [];
   const it = items.find((x) => x.k === key);
@@ -60,11 +80,15 @@ function relatedCard(it) {
       ${it.kanit ? `<span class="tag${it.kanit.startsWith('Birincil') ? ' birincil' : ''}">${esc(it.kanit)}</span>` : ''}
       ${it.oncelik ? `<span class="tag ${it.oncelik === 'Kritik' ? 'kritik' : it.oncelik === 'Yüksek' ? 'yuksek' : ''}">${esc(it.oncelik)} öncelik</span>` : ''}
       ${it.tip === 'arama' ? '<span class="tag arama">haber aramasıyla bulundu</span>' : '<span class="tag">RSS akışı</span>'}
+      ${it.tam ? '<span class="tag birincil">tam metin indirildi</span>' : ''}
       <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
     ${picture(it)}
-    ${it.ozet ? `<p class="ozet-metin">${esc(it.ozet)}</p>` : ''}
-    <p class="kaynak-not">Yukarıdaki başlık ve özet kaynağın kendi yayınından alınmıştır. Metnin tamamı, belge ve doğrulama kaynaktadır.</p>
+    ${!page && it.ozet ? `<p class="ozet-metin">${esc(it.ozet)}</p>` : ''}
+    ${fullText(page)}
+    <p class="kaynak-not">${page
+      ? 'Metin, yerel tarama sırasında kaynağın sayfasından alınmıştır. Belge ve doğrulama için kaynağa bakılmalıdır.'
+      : 'Başlık ve özet kaynağın kendi yayınından alınmıştır. Metnin tamamı, belge ve doğrulama kaynaktadır.'}</p>
     <a class="git" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Kaynakta oku ↗</a>
 
     ${(it.terimler || []).length ? `<div class="terms yazi-terms">${it.terimler.map((t) => `<a href="index.html?q=${encodeURIComponent(t)}"><b>${esc(t)}</b></a>`).join('')}</div>` : ''}

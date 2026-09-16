@@ -24,9 +24,14 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from extract import extract as extract_text   # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ARCHIVE = DATA / "archive"
+PAGES = DATA / "pages"          # yerel uygulama: tam metin
+IMGDIR = DATA / "img"           # yerel uygulama: gorsel aynasi
 
 UA = "Mozilla/5.0 (compatible; BHM-GundemBot/1.0; +https://github.com/LAC-dev2/gundemHaber)"
 HEADERS = {"User-Agent": UA, "Accept": "*/*", "Accept-Language": "tr,en;q=0.8"}
@@ -236,13 +241,20 @@ CONTENT_ATTR = re.compile(rb"""(?:content|value)=["']([^"']+)""", re.I)
 
 # Logo, paylasim karti ve yer tutucu gorselleri haber gorseli sayilmaz
 IMG_BLOCK = re.compile(r"(?:logo|favicon|avatar|sprite|placeholder|no-?image"
-                       r"|meta-facebook|default[-_.]|og[-_]default)", re.I)
+                       r"|meta-facebook|default[-_.]|og[-_]default"
+                       r"|piwik|matomo|analytics|pixel|beacon|track(?:er|ing)?"
+                       r"|1x1|spacer|blank)", re.I)
 URLISH_TITLE = re.compile(r"[\w-]+\.(?:gov|com|org|net|edu|info|be|tr|eu|nl|fr|de)"
                           r"(?:\.[a-z]{2})?/?\s*$", re.I)
 
 
+MIN_IMAGE_BYTES = 3_000      # izleme pikseli / bozuk dosya esigi
+MAX_IMAGE_BYTES = 2_500_000  # yerel aynada tek gorsel siniri
+
+
 def usable_image(url: str) -> str:
-    if not url or IMG_BLOCK.search(urllib.parse.urlparse(url).path):
+    parts = urllib.parse.urlparse(url)
+    if not url or IMG_BLOCK.search(parts.path) or IMG_BLOCK.search(parts.query):
         return ""
     return url
 
@@ -380,6 +392,10 @@ def main() -> int:
                     help="RSS yayini olmayan kac kaynak icin haber aramasi yapilsin (0 = kapali)")
     ap.add_argument("--images", type=int, default=90,
                     help="gorseli olmayan kac kayit icin sayfanin og:image'i cekilsin")
+    ap.add_argument("--full", type=int, default=0,
+                    help="kac kayit icin tam metin indirilsin (yerel uygulama; 0 = kapali)")
+    ap.add_argument("--mirror", type=int, default=0,
+                    help="kac gorsel diske indirilsin (yerel uygulama; 0 = kapali)")
     ap.add_argument("--workers", type=int, default=12)
     args = ap.parse_args()
 
@@ -540,7 +556,76 @@ def main() -> int:
     img_path.write_text(json.dumps(imgs, ensure_ascii=False, indent=0, sort_keys=True),
                         encoding="utf-8")
 
-    # 4) cikti -------------------------------------------------------------
+    # 4) yerel uygulama: tam metin ve gorsel aynasi ------------------------
+    if args.full:
+        PAGES.mkdir(parents=True, exist_ok=True)
+        todo_full = [r for r in rows if not (PAGES / f"{r['k']}.json").exists()][: args.full]
+
+        def save_page(row: dict) -> bool:
+            try:
+                ctype, body = fetch(row["url"], 1_200_000)
+            except Exception:
+                return False
+            paras = extract_text(body, ctype)
+            if not paras:
+                return False
+            (PAGES / f"{row['k']}.json").write_text(json.dumps({
+                "k": row["k"], "baslik": row["baslik"], "kaynak": row["kaynak"],
+                "url": row["url"], "tarih": row["tarih"],
+                "kelime": sum(len(x.split()) for x in paras),
+                "paragraflar": paras,
+                "cekim": NOW.isoformat(timespec="seconds"),
+            }, ensure_ascii=False), encoding="utf-8")
+            return True
+
+        if todo_full:
+            with cf.ThreadPoolExecutor(args.workers) as ex:
+                got = sum(1 for ok in ex.map(save_page, todo_full) if ok)
+            print(f"tam metin: {got}/{len(todo_full)} yeni")
+        # mevcut tam metinleri isaretle, ozeti bossa ilk paragraftan tamamla
+        for row in rows:
+            page = PAGES / f"{row['k']}.json"
+            if not page.exists():
+                continue
+            row["tam"] = True
+            if not row["ozet"]:
+                try:
+                    paras = json.loads(page.read_text(encoding="utf-8"))["paragraflar"]
+                    first = next((x for x in paras if not x.startswith("## ")), "")
+                    row["ozet"] = clean(first, 320)
+                except Exception:
+                    pass
+
+    if args.mirror:
+        IMGDIR.mkdir(parents=True, exist_ok=True)
+
+        def mirror(row: dict) -> bool:
+            path = urllib.parse.urlparse(row["gorsel"]).path
+            ext = re.search(r"\.(jpe?g|png|webp|gif|avif)$", path, re.I)
+            name = f"{row['k']}.{(ext.group(1) if ext else 'jpg').lower()}"
+            target = IMGDIR / name
+            if target.exists():
+                row["yerel"] = f"data/img/{name}"
+                return True
+            try:
+                ctype, body = fetch(row["gorsel"], 5_000_000)
+            except Exception:
+                return False
+            if (not body or len(body) < MIN_IMAGE_BYTES
+                    or len(body) > MAX_IMAGE_BYTES
+                    or ("image" not in ctype and not ext)):
+                return False
+            target.write_bytes(body)
+            row["yerel"] = f"data/img/{name}"
+            return True
+
+        todo_img = [r for r in rows if r["gorsel"]][: args.mirror]
+        if todo_img:
+            with cf.ThreadPoolExecutor(args.workers) as ex:
+                got = sum(1 for ok in ex.map(mirror, todo_img) if ok)
+            print(f"gorsel aynasi: {got}/{len(todo_img)}")
+
+    # 5) cikti -------------------------------------------------------------
     by_region: dict[str, int] = {}
     for r in rows:
         by_region[r["bolge"]] = by_region.get(r["bolge"], 0) + 1
@@ -559,6 +644,8 @@ def main() -> int:
             "akisHata": errors,
             "haber": len(rows),
             "gorselli": sum(1 for r in rows if r["gorsel"]),
+            "tamMetin": sum(1 for r in rows if r.get("tam")),
+            "yerelGorsel": sum(1 for r in rows if r.get("yerel")),
             "bugun": sum(1 for r in rows if r["tarih"][:10] == today),
             "bolge": by_region,
             "pencereGun": WINDOW_DAYS,
