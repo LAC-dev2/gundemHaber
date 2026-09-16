@@ -110,9 +110,27 @@ def main() -> int:
         threading.Thread(target=loop, args=(opts,), daemon=True).start()
         print(f"otomatik tarama: her {opts.every} dakikada bir")
 
-    url = f"http://127.0.0.1:{opts.port}/"
-    server = ThreadingHTTPServer(("127.0.0.1", opts.port),
-                                 partial(Handler, directory=str(ROOT)))
+    # Port mesgulse (baska bir uygulama ya da ayni uygulamanin acik kopyasi)
+    # sessizce bir sonrakini dene; kullaniciya hata yigini gostermeye gerek yok.
+    server = None
+    port = opts.port
+    for candidate in range(opts.port, opts.port + 20):
+        try:
+            server = ThreadingHTTPServer(("127.0.0.1", candidate),
+                                         partial(Handler, directory=str(ROOT)))
+            port = candidate
+            break
+        except OSError as exc:
+            if exc.errno not in (48, 98, 10048):     # adres kullanimda
+                raise
+            print(f"  {candidate} portu meşgul; {candidate + 1} deneniyor…")
+    if server is None:
+        raise SystemExit(f"{opts.port}-{opts.port + 19} arasindaki portlarin hepsi "
+                         "mesgul. --port ile baska bir port verebilirsin.")
+    if port != opts.port:
+        print(f"  (uygulama {port} portunda açıldı)")
+
+    url = f"http://127.0.0.1:{port}/"
     print(f"\nGündem Takip çalışıyor:  {url}\nkapatmak için Ctrl+C\n")
     if opts.open:
         threading.Timer(0.6, webbrowser.open, args=(url,)).start()
