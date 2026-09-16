@@ -32,7 +32,8 @@ ZIP_INCLUDE = ("index.html", "haber.html", "OKUBENI.md", "README.md",
 # macOS Arsiv Yardimcisi bu kipi geri yukler: cift tiklama calisir
 EXECUTABLE = {"Baslat.command", "baslat.sh"}
 ZIP_DIRS = ("assets", "scripts")
-ZIP_DATA = ("latest.json", "sources.json", "feeds.json", "archive-index.json")
+ZIP_DATA = ("latest.json", "sources.json", "feeds.json", "archive-index.json",
+            "health.json", "images.json", "gundem.xml")
 
 
 def read(path: Path) -> str:
