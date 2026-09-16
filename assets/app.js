@@ -1,6 +1,7 @@
 /* BHM Gündem Takip — statik arayüz (bağımlılıksız) */
 const RC = { 'Türkiye': 'var(--tr)', 'Belçika': 'var(--be)', 'Avrupa': 'var(--eu)', 'Dünya': 'var(--dn)', 'Kurumsal': 'var(--kr)' };
 const PAGE = 60;
+const SURUM = 'sürüm 3 · çizgi düzeni';   // arayüz sürümü: eski kopyayı ayırt etmek için
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
@@ -449,7 +450,11 @@ async function drawArchive() {
   if (surum && surum.damga) {
     const el = $('#footSurum');
     if (el) el.textContent = ` · paket ${surum.damga}`;
+    const ust = $('#statusPaket');
+    if (ust) ust.textContent = `paket ${surum.damga}`;
   }
+  const s3 = $('#statusSurum');
+  if (s3) s3.textContent = SURUM;
   $('#stats').innerHTML = statTiles(state.stats);
   $('#pencere').textContent = $('#pencere2').textContent = state.stats.pencereGun || 21;
   renderLead();

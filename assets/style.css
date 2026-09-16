@@ -50,6 +50,8 @@ header.top::after{content:"";display:block;height:2px;
 .status{display:flex;align-items:center;gap:8px;font-size:.74rem;color:var(--ink-2);
   text-transform:uppercase;letter-spacing:.06em}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--be)}
+.paket{border-left:1px solid var(--hair);padding-left:10px;color:var(--ink-3)}
+.paket.surum{color:var(--petrol);font-weight:600}
 .dot.stale{background:var(--kr)}
 nav.tabs{display:flex;gap:var(--s4);border-top:1px solid var(--hair-2);overflow-x:auto}
 nav.tabs button,nav.tabs a{background:none;border:0;padding:11px 0 9px;cursor:pointer;
