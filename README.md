@@ -146,6 +146,12 @@ python3 scripts/paketle.py --zip     # dist/gundem-takip-<tarih>.zip   (çalış
    `Baslat.command`; Windows'ta `Baslat.bat`, Linux'ta `baslat.sh`.
    `--tam` ile indirilmiş tam metinler ve görseller de pakete girer, alıcı
    ilk taramayı beklemeden dolu bir ekran görür. iOS'ta çalışmaz.
+   macOS 15+ imzasız `.app`/`.command` dosyalarını her indirişte karantinaya
+   alır ve "Apple could not verify…" ile engeller; alıcı klasörü bir kez
+   `xattr -dr com.apple.quarantine <klasör>` ile karantinadan çıkarır ya da
+   uygulamayı `python3 scripts/serve.py` ile başlatır (Terminal'den başlatılan
+   betik Gatekeeper'a takılmaz). Bu engel her alıcıda çıkacağı için, yaygın
+   paylaşım için yayın adresi (3. yol) daha uygundur.
    Paket adları saat damgalıdır (`gundem-takip-<tarih>-<saat>`) ve zip'in kök
    klasörü de damgalı: eski indirmeyle karışmaz, üzerine açılmaz. Arayüzün
    altlığında paketin saati yazar.

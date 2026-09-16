@@ -30,12 +30,28 @@ kendi kendine yenilenmez. Yeni gelişmeler için yeni dosya istemen gerekir.
   Python kurulu değilse pencere bunu söyler ve tek satırlık kurulum komutunu
   verir (`winget install -e --id Python.Python.3.12`). Kurduktan sonra yeniden
   çift tıkla.
-* **macOS (en kolay):** klasördeki **`Gündem Takip.app`** simgesine çift tıkla — Terminal
-  açılmaz, tarama arkada çalışır, tarayıcı hazır olunca kendiliğinden gelir. İlk açılışta
-  macOS "tanınmayan geliştirici" derse: **sağ tık → Aç**, sonra **Aç**'ı onayla (bir kez).
-  Python kurulu değilse uygulama bunu bir pencereyle söyler ve kurulum sayfasını açar.
-  Kapatmak için: uygulamadan çık (Dock'ta sağ tık → Çık).
-* **macOS (seçenek):** `Baslat.command` — aynı işi Terminal penceresiyle yapar. Üç ayrıntı:
+* **macOS — ilk seferde karantinayı kaldır (önerilen).** macOS 15 ve sonrasında,
+  internetten inen `.app` ve `.command` dosyaları imzalı olmadıkları için her açılışta
+  "Apple could not verify…" penceresiyle engellenir. Klasörü bir kez karantinadan
+  çıkarırsan bu bir daha sorulmaz. Terminal'i aç (Spotlight'ta "Terminal"), şunu yapıştır
+  — `<klasör>` yerine paketi çıkardığın klasörü Finder'dan sürükleyip bırakabilirsin:
+
+  ```
+  xattr -dr com.apple.quarantine <klasör>
+  ```
+
+  Sonrasında klasördeki **`Gündem Takip.app`** simgesine çift tıklamak yeterli: Terminal
+  açılmaz, tarama arkada çalışır, tarayıcı hazır olunca kendiliğinden gelir. Kapatmak için
+  Dock'taki simgede sağ tık → Çık.
+
+* **macOS — hiç uğraşmadan tek satır.** Karantinayı kaldırmak istemiyorsan uygulamayı
+  Terminal'den başlatmak da Gatekeeper'a takılmaz:
+
+  ```
+  cd <klasör> && python3 scripts/serve.py
+  ```
+* **macOS (seçenek):** `Baslat.command` — aynı işi Terminal penceresiyle yapar. Karantina
+  kaldırılmadıysa bu da her açılışta sorar. Üç ayrıntı:
   1. İlk açılışta macOS "internetten indirildi / tanınmayan geliştirici"
      diyebilir. Çözüm: dosyaya **sağ tık → Aç**, sonra **Aç**'ı onayla. Bir kez
      yeter. (İnatçı durumda Terminal'de:
