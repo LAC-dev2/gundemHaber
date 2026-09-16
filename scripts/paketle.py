@@ -115,9 +115,11 @@ def build_html(args: argparse.Namespace) -> Path:
     return target
 
 
-def build_zip() -> Path:
+def build_zip(tam: bool = False, butce: int = 25) -> Path:
+    """Calistirilabilir paket. tam=True ise indirilmis tam metinler ve
+    gorseller de eklenir (alici ilk taramayi beklemeden dolu bir ekran gorur)."""
     DIST.mkdir(exist_ok=True)
-    target = DIST / f"gundem-takip-{TODAY}.zip"
+    target = DIST / (f"gundem-takip-{TODAY}-tam.zip" if tam else f"gundem-takip-{TODAY}.zip")
     with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED) as zf:
         for name in ZIP_INCLUDE:
             path = ROOT / name
@@ -138,6 +140,22 @@ def build_zip() -> Path:
             path = DATA / name
             if path.exists():
                 zf.write(path, f"gundem-takip/data/{name}")
+        if tam:
+            sayfa = 0
+            for path in sorted((DATA / "pages").glob("*.json")):
+                zf.write(path, f"gundem-takip/data/pages/{path.name}")
+                sayfa += 1
+            # gorseller: kucukten buyuge, butce dolana kadar
+            gorsel, kullanilan = 0, 0
+            for path in sorted((DATA / "img").glob("*"), key=lambda f: f.stat().st_size):
+                size = path.stat().st_size
+                if kullanilan + size > butce * 1_000_000:
+                    break
+                zf.write(path, f"gundem-takip/data/img/{path.name}")
+                gorsel += 1
+                kullanilan += size
+            print(f"  eklenen: {sayfa} tam metin, {gorsel} görsel "
+                  f"({kullanilan / 1e6:.1f} MB)")
     print(f"çalıştırılabilir paket: {target.relative_to(ROOT)} "
           f"({target.stat().st_size / 1e6:.1f} MB)")
     return target
@@ -146,14 +164,18 @@ def build_zip() -> Path:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--zip", action="store_true", help="calistirilabilir zip paketi de uret")
+    ap.add_argument("--tam", action="store_true",
+                    help="zip'e indirilmis tam metinleri ve gorselleri de koy")
+    ap.add_argument("--zip-butce", type=int, default=25,
+                    help="tam zip'e eklenecek gorseller icin MB butcesi")
     ap.add_argument("--gorsel", type=int, default=14,
                     help="gomulecek gorseller icin MB butcesi (0 = gomme)")
     ap.add_argument("--gorsel-limit", type=int, default=250,
                     help="gomulecek tek gorsel ust siniri (KB)")
     args = ap.parse_args()
     build_html(args)
-    if args.zip:
-        build_zip()
+    if args.zip or args.tam:
+        build_zip(tam=args.tam, butce=args.zip_butce)
     return 0
 
 
