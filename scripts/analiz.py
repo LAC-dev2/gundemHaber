@@ -434,7 +434,11 @@ desteklenmedigini soylemek. Iddiayi guzellestirme, tamamlama, yeniden yazma.
   (nitelendirme, neden-sonuc, egilim) ya da sayi/tarih kayittan farkli.
 - "dayanaksız": iddianin dayandigi olgu kayitlarda yok.
 
-Notu kisa yaz ve neyin eksik oldugunu soyle. Turkce yaz."""
+Notu kisa yaz ve neyin eksik oldugunu soyle. Turkce yaz.
+
+Bicim: her iddia icin tek bir satir. Iddianin metnini tekrar yazma,
+kayitlari yeniden anlatma, gerekce siralamasi yapma. "dayanakli"
+buldugun iddiada notu bos birak. En fazla iki cumle."""
 
 DENETIM_SEMA = {
     "type": "object",
@@ -504,7 +508,7 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
 
     def cagir(m: str):
         return istemci.messages.create(
-            model=m, max_tokens=6000, system=DENETIM_SISTEM,
+            model=m, max_tokens=12000, system=DENETIM_SISTEM,
             messages=[{"role": "user", "content": istem}],
             output_config={"format": {"type": "json_schema", "schema": DENETIM_SEMA}},
         )
@@ -540,6 +544,8 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
     sonuc["maliyet_usd"] = round(maliyet(model, yanit.usage.input_tokens,
                                          yanit.usage.output_tokens), 4)
     sonuc["iddia_sayisi"] = len(iddialar)
+    print(f"denetim token: {yanit.usage.input_tokens} girdi / "
+          f"{yanit.usage.output_tokens} çıktı")
     return sonuc
 
 
