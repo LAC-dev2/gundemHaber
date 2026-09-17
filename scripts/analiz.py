@@ -460,7 +460,8 @@ DENETIM_SEMA = {
                 "properties": {
                     "id": {"type": "string"},
                     "hukum": {"type": "string", "enum": ["dayanaklı", "kısmen", "dayanaksız"]},
-                    "not": {"type": "string", "description": "En fazla 2 cümle; dayanaklıysa boş"},
+                    "not": {"type": "string", "maxLength": 400,
+                            "description": "En fazla 2 cümle; dayanaklıysa boş"},
                 },
                 "required": ["id", "hukum", "not"],
                 "additionalProperties": False,
@@ -522,7 +523,7 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
 
     def cagir(m: str):
         return istemci.messages.create(
-            model=m, max_tokens=12000, system=DENETIM_SISTEM,
+            model=m, max_tokens=16000, system=DENETIM_SISTEM,
             messages=[{"role": "user", "content": istem}],
             output_config={"format": {"type": "json_schema", "schema": DENETIM_SEMA}},
         )

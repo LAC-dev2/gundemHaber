@@ -316,15 +316,22 @@ ad `ANTHROPIC_API_KEY`. Model değiştirmek istersen aynı ekranda *Variables*
 sekmesinde `ANALIZ_MODEL` tanımlanabilir. Anahtar tanımlı değilse analiz adımı
 sessizce atlanır, tarama normal çalışır.
 
-**Maliyet** (45 kayıt, tam metinlerle ≈ 30 bin girdi + 2,5 bin çıktı token):
+**Maliyet — ölçülen değerler** (45 kayıt, tam metinler ve 6 birincil belge ile
+≈ 15 bin girdi token; çıktı, zenginleşen şema yüzünden uzun):
 
-| Model | Günlük | Aylık |
+| Adım | Model | Günlük |
 |---|---|---|
-| `claude-opus-5` (öntanımlı) | ≈ $0,21 | ≈ $6,4 |
-| `claude-sonnet-5` | ≈ $0,09 | ≈ $2,6 |
-| `claude-haiku-4-5` | ≈ $0,04 | ≈ $1,3 |
+| Günlük analiz | `claude-opus-5` (öntanımlı) | ≈ $0,51 |
+| Öz-denetim | `claude-sonnet-5` | ≈ $0,17 |
+| Çeviri | `claude-haiku-4-5` | ≈ $0,02 |
+| Haftalık sentez | `claude-opus-5` | ≈ $0,12 (haftada bir) |
+| **Toplam** | | **≈ $0,70/gün · $21/ay** |
 
-`--kisa` ile tam metinler gönderilmezse bu rakamlar yaklaşık üçte birine iner.
+Kısmak istersen: `ANALIZ_MODEL=claude-sonnet-5` ana analizi beşte bire indirir;
+`--kisa` tam metinleri göndermez; `--birincil-yok` karar metinlerini,
+`--denetim-yok` ikinci geçişi kapatır; `--adet 30` analize giren kayıt sayısını
+azaltır. Her analiz kullandığı token sayısını ve maliyeti hem ekrana yazar hem
+de üretilen dosyaya (`maliyet_usd`) kaydeder.
 Her analiz, kullandığı token sayısını ve maliyeti hem ekrana yazar hem de
 üretilen dosyaya (`maliyet_usd`) kaydeder.
 
@@ -354,11 +361,21 @@ python3 scripts/birincil.py --gun-sayisi 21 --adet 8
 ### Öz-denetim
 
 Analiz üretildikten sonra ikinci bir geçiş, **her iddiayı kendi dayanaklarına
-karşı** denetler (öntanımlı `claude-sonnet-5`, ≈ $0,04/gün). İddianın
-gösterdiği kayıtlar isteme yeniden konur ve model üç hükümden birini verir:
-"dayanaklı", "kısmen" (ana olgu var ama kayıtların söylemediği bir çıkarım
-eklenmiş) ya da "dayanaksız". İşaretlenen iddia **silinmez**; arayüzde
-gerekçesiyle görünür — okuyan neye ne kadar güvenebileceğini bilsin.
+karşı** denetler (öntanımlı `claude-sonnet-5`, ölçülen maliyet ≈ $0,17/gün;
+`DENETIM_MODEL` ile `claude-haiku-4-5` seçilirse yarısına iner). İddianın
+gösterdiği kayıtlar, birincil belgeler ve önceki günlerin başlıkları isteme
+yeniden konur; model üç hükümden birini verir: "dayanaklı", "kısmen" (ana olgu
+var ama kayıtlarda olmayan başka bir olgu eklenmiş) ya da "dayanaksız".
+İşaretlenen iddia **silinmez**; arayüzde gerekçesiyle görünür.
+
+Denetim yalnızca **olgu** iddialarını inceler: sayı, tarih, isim, tutar, ne
+olduğu. "Merkezin dosyaları için ne anlama geliyor", önem sırası ve hangi
+mekanizmanın devrede olduğu analistin değerlendirmesidir, denetlenmez — yoksa
+her madde "kısmen" işaretlenir ve işaret hiçbir şey ifade etmez.
+
+Ölçülen ilk sonuç: 13 iddiadan 12'si dayanaklı, biri işaretli — *"28 kişilik
+gözaltı kararı kayıtla doğrulanıyor, ancak 'dün 28-72 arası rakam bandı'
+iddiası önceki gün başlıklarında yer almıyor."*
 
 ### Zenginleşen günlük çıktı
 
