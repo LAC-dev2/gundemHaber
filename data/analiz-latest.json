@@ -520,5 +520,6 @@
    "son_hareket": "2026-09-17",
    "hareket_sayisi": 0
   }
- ]
+ ],
+ "denetim_hata": "yanıt max_tokens"
 }

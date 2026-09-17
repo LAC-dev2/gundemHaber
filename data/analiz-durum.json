@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-17",
- "durum": "tamam",
- "mesaj": "6 öne çıkan, 6 birincil belge, $0.5077",
- "zaman": "2026-09-17T21:20+00:00"
+ "durum": "denetim yapılamadı",
+ "mesaj": "yanıt max_tokens",
+ "zaman": "2026-09-17T21:34+00:00"
 }

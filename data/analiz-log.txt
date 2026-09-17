@@ -1,0 +1,4 @@
+# analiz adimi 2026-09-17 21:34 UTC · cikis kodu 0
+yalnız denetim: 6 öne çıkan, 6 birincil not, 45/45 kayıt bulundu
+denetim atlandi: max_tokens
+::warning::öz-denetim yapılamadı: yanıt max_tokens
