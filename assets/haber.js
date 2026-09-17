@@ -1,6 +1,9 @@
 /* Gündem Takip — tek kayıt (haber) görünümü.
    Hem haber.html sayfası hem de tek dosyalık paket bunu kullanır. */
 (function () {
+const ceviriAcik = () => {
+  try { return JSON.parse(localStorage.getItem('bhm.ceviri')) !== false; } catch (e) { return true; }
+};
 const RC = { 'Türkiye': 'var(--tr)', 'Belçika': 'var(--be)', 'Avrupa': 'var(--eu)', 'Dünya': 'var(--dn)', 'Kurumsal': 'var(--kr)' };
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -86,7 +89,10 @@ async function renderHaber(box, key) {
 
   const src = (meta.sources || []).find((s) => s.id === it.id) || {};
   const d = new Date(it.tarih);
-  document.title = `${it.baslik} — Gündem Takip`;
+  const trAcik = ceviriAcik() && !!it.baslik_tr;
+  const gosterBaslik = trAcik ? it.baslik_tr : it.baslik;
+  const gosterOzet = (trAcik && it.ozet_tr) ? it.ozet_tr : it.ozet;
+  document.title = `${gosterBaslik} — Gündem Takip`;
   const st = $('#statusText');
   if (st) st.textContent = `${it.kaynak} · ${isNaN(d) ? '' : dayFmt.format(d)}`;
 
@@ -100,17 +106,19 @@ async function renderHaber(box, key) {
   box.innerHTML = `
   <article class="yazi" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}${it.kategori ? `<span class="sep">/</span>${esc(it.kategori)}` : ''}</div>
-    <h1>${esc(it.baslik)}</h1>
+    <h1>${esc(gosterBaslik)}</h1>
     <div class="kunye">
       <b>${esc(it.kaynak)}</b>
       ${it.kanit ? `<span class="tag${it.kanit.startsWith('Birincil') ? ' birincil' : ''}">${esc(it.kanit)}</span>` : ''}
       ${it.oncelik ? `<span class="tag ${it.oncelik === 'Kritik' ? 'kritik' : it.oncelik === 'Yüksek' ? 'yuksek' : ''}">${esc(it.oncelik)} öncelik</span>` : ''}
       ${it.tip === 'arama' ? '<span class="tag arama">haber aramasıyla bulundu</span>' : '<span class="tag">RSS akışı</span>'}
       ${it.tam ? '<span class="tag birincil">tam metin indirildi</span>' : ''}
+      ${trAcik ? '<span class="tag">Türkçeye çevrildi</span>' : ''}
       <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
     </div>
     ${picture(it)}
-    ${!page && it.ozet ? `<p class="ozet-metin">${esc(it.ozet)}</p>` : ''}
+    ${!page && gosterOzet ? `<p class="ozet-metin">${esc(gosterOzet)}</p>` : ''}
+    ${trAcik ? `<p class="ozgun">Özgün başlık: ${esc(it.baslik)}</p>` : ''}
     ${fullText(page)}
     <p class="kaynak-not">${page
       ? 'Metin, yerel tarama sırasında kaynağın sayfasından alınmıştır. Belge ve doğrulama için kaynağa bakılmalıdır.'

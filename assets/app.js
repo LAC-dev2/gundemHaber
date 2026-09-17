@@ -127,8 +127,8 @@ function card(it) {
       <span class="mono muted">${isNaN(d) ? '' : timeFmt.format(d)}${it.tahmini ? ' · tarih tahmini' : ''}</span>
       ${yeniMi(it) ? '<span class="tag yeni">yeni</span>' : ''}
     </div>
-    <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
-    ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
+    <h3><a href="${ic(it)}">${esc(bas(it))}</a></h3>
+    ${ozt(it) ? `<p>${esc(ozt(it))}</p>` : ''}
     ${(it.ek || []).length ? `<p class="ayrica"><span>aynı gelişme</span> ${it.ek.map((x) =>
       `<a href="${ic(x)}">${esc(x.kaynak)}</a>`).join('<i>·</i>')}</p>` : ''}
     ${(it.terimler || []).length ? `<div class="terms">${it.terimler.map((t) => `<b>${esc(t)}</b>`).join('')}</div>` : ''}
@@ -177,8 +177,8 @@ function leadCard(it) {
   return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
     ${(it.gorsel || it.yerel) ? `<a class="manset-img" href="${ic(it)}" style="--c:${RC[it.bolge] || 'var(--accent-2)'}">${imgTag(it)}</a>` : ''}
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
-    <h2><a href="${ic(it)}">${esc(it.baslik)}</a></h2>
-    ${it.ozet ? `<p>${esc(it.ozet)}</p>` : ''}
+    <h2><a href="${ic(it)}">${esc(bas(it))}</a></h2>
+    ${ozt(it) ? `<p>${esc(ozt(it))}</p>` : ''}
     <div class="byline"><b>${esc(it.kaynak)}</b><span>${esc(it.kanit || '')}</span>
       <span class="mono">${isNaN(d) ? '' : fullFmt.format(d)}</span>
       <a class="ext" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">kaynakta oku ↗</a></div>
@@ -188,7 +188,7 @@ function leadCard(it) {
 function secondCard(it) {
   return `<a class="ikincil" style="--c:${RC[it.bolge] || 'var(--petrol)'}" href="${ic(it)}">
     <span class="eyebrow"><span class="pin"></span>${esc(it.bolge)}</span>
-    <b>${esc(it.baslik)}</b>
+    <b>${esc(bas(it))}</b>
     <span class="src">${esc(it.kaynak)}</span></a>`;
 }
 
@@ -259,14 +259,14 @@ function renderRegions() {
       <div class="bolge-lead">
         <a class="gorsel-bag" href="${ic(first)}" tabindex="-1" aria-hidden="true">${gorselAlani(first, 'gorsel buyuk')}</a>
         <div class="govde">${meta(first)}
-          <h3><a href="${ic(first)}">${esc(first.baslik)}</a></h3>
-          ${first.ozet ? `<p>${esc(first.ozet.slice(0, 190))}${first.ozet.length > 190 ? '…' : ''}</p>` : ''}
+          <h3><a href="${ic(first)}">${esc(bas(first))}</a></h3>
+          ${ozt(first) ? `<p>${esc(ozt(first).slice(0, 190))}${ozt(first).length > 190 ? '…' : ''}</p>` : ''}
         </div>
       </div>
       <div class="bolge-rest">${rest.map((it) => `<article class="card kucuk" style="--c:${RC[r]}">
         <a class="gorsel-bag" href="${ic(it)}" tabindex="-1" aria-hidden="true">${gorselAlani(it, 'gorsel kucuk')}</a>
         <div class="govde">${meta(it, true)}
-          <h3><a href="${ic(it)}">${esc(it.baslik)}</a></h3>
+          <h3><a href="${ic(it)}">${esc(bas(it))}</a></h3>
         </div>
       </article>`).join('')}</div>
     </section>`;
@@ -297,7 +297,7 @@ function filtered() {
     if (tip && (it.tip || 'akış') !== tip) return false;
     if (theme && !(theme.kategoriler || []).includes(it.kategori)) return false;
     if (q) {
-      const hay = slug(`${it.baslik} ${it.kaynak} ${it.ozet} ${it.kategori} ${(it.terimler || []).join(' ')}`);
+      const hay = slug(`${it.baslik} ${it.baslik_tr || ''} ${it.kaynak} ${it.ozet} ${it.ozet_tr || ''} ${it.kategori} ${(it.terimler || []).join(' ')}`);
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -315,6 +315,10 @@ function filtered() {
   });
   return out;
 }
+
+/* Türkçe gösterim: çeviri varsa ve tercih açıksa Türkçesi, yoksa özgün metin */
+const bas = (it) => (state.ceviri && it.baslik_tr) ? it.baslik_tr : it.baslik;
+const ozt = (it) => (state.ceviri && it.ozet_tr) ? it.ozet_tr : (it.ozet || '');
 
 const yeniMi = (it) => state.sonZiyaret && new Date(it.tarih).getTime() > state.sonZiyaret;
 
@@ -656,6 +660,18 @@ async function drawArchive() {
   state.health = health || {};
   state.dosya = LS.get('bhm.dosya', {}) || {};
   state.analiz = analiz;
+  state.ceviri = LS.get('bhm.ceviri', true) !== false;
+  const cChip = $('#ceviriChip');
+  cChip.setAttribute('aria-pressed', String(state.ceviri));
+  cChip.addEventListener('click', () => {
+    state.ceviri = !state.ceviri;
+    LS.set('bhm.ceviri', state.ceviri);
+    cChip.setAttribute('aria-pressed', String(state.ceviri));
+    cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
+    state.shown = PAGE;
+    draw(); renderLead(); renderRegions();
+  });
+  cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
   $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
     || '<option value="">analiz yok</option>';
   $('#analizGun').addEventListener('change', drawAnaliz);

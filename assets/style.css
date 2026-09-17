@@ -503,3 +503,5 @@ footer a{color:#8FD6EC}
   border-radius:var(--r);padding:var(--s3) var(--s4)}
 .cerceve li b{font-family:var(--display);font-size:1.04rem;margin-right:var(--s2)}
 .cerceve li p{margin:var(--s2) 0 0;font-size:.94rem;color:var(--ink-2)}
+.ozgun{font-size:.82rem;color:var(--ink-3);border-left:3px solid var(--hair);
+  padding-left:var(--s3);margin:0 0 var(--s3)}

@@ -33,6 +33,8 @@ scripts/paketle.py          paylaşım paketleri (tek dosyalık HTML, zip)
 scripts/ikon.py             uygulama ikonları (PNG/SVG üretici)
 scripts/analiz.py           günlük analiz üretimi (Claude API)
 scripts/analiz_tek.py       tek haber/belge analizi (Analiz et bölümü)
+scripts/ceviri.py           Türkçe olmayan kayıtların başlık/özet çevirisi
+data/ceviri.json            çeviri önbelleği (her kayıt bir kez çevrilir)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
 OKUBENI.md                  alıcıya verilecek kurulum anlatımı
@@ -220,6 +222,27 @@ Görseller üç kademede bulunur:
 Görseller kaynağın sunucusundan gösterilir (kopyalanmaz), altına kaynak adı
 yazılır ve yüklenemezse kart tipografik hâline döner. Kaynak sıcak bağlantıya
 kapalıysa görsel sessizce düşer, yerinde boşluk kalmaz.
+
+## Çeviri
+
+Kaynakların bir kısmı İngilizce, Fransızca ve Felemenkçe yayın yapıyor. Tarama
+sonrası `scripts/ceviri.py` Türkçe olmayan kayıtların başlık ve özetlerini
+Türkçeye çevirir; arayüzde "Türkçe" düğmesiyle çeviri ile özgün metin arasında
+geçiş yapılır (tercih tarayıcıda saklanır), kayıt sayfasında özgün başlık her
+zaman görünür.
+
+Her kayıt **bir kez** çevrilir ve `data/ceviri.json` önbelleğine yazılır;
+sonraki turlarda yalnızca yeni kayıtlar için istek atılır. Dil ayrımı ücretsiz
+bir sezgiyle yapılır (Türkçeye özgü harfler ve sık sözcükler), böylece Türkçe
+kayıtlar için istek atılmaz. Öntanımlı model `claude-haiku-4-5` (toplu, basit
+iş); `CEVIRI_MODEL` ile değiştirilebilir.
+
+Maliyet: ilk dolum ≈ $0,27 (300 kayıt), sonrasında tur başına ≈ $0,05.
+
+```bash
+python3 scripts/ceviri.py --kuru      # kaç kayıt çevrilecek, tahmini maliyet
+python3 scripts/ceviri.py --adet 200  # bu turda en fazla 200 kayıt
+```
 
 ## Günlük analiz (Claude API)
 
