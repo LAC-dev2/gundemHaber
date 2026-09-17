@@ -421,6 +421,8 @@ def takip_guncelle(takip: dict, veri: dict, gun: str) -> dict:
     return takip
 
 
+DENETIM_YEDEK = "claude-haiku-4-5"   # denetim modeli erisilemezse
+
 DENETIM_SISTEM = """Sen bir hukuk analizini denetleyen ikinci okuyucusun. Elinde bir
 brifingin iddialari ve bu iddialarin dayandigi kayitlar var.
 
@@ -498,15 +500,34 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
         + (f"\n\nBİRİNCİL BELGELER\n{birincil}" if birincil else "")
         + "\n\nHer iddia için hüküm ver. Kayıtlarda olmayan bir olgu varsa söyle."
     )
-    try:
-        yanit = anthropic.Anthropic().messages.create(
-            model=model, max_tokens=6000, system=DENETIM_SISTEM,
+    istemci = anthropic.Anthropic()
+
+    def cagir(m: str):
+        return istemci.messages.create(
+            model=m, max_tokens=6000, system=DENETIM_SISTEM,
             messages=[{"role": "user", "content": istem}],
             output_config={"format": {"type": "json_schema", "schema": DENETIM_SEMA}},
         )
+
+    try:
+        yanit = cagir(model)
+    except anthropic.APIStatusError as hata:
+        # Model bu hesapta yoksa (404) ya da erisim yoksa (403) yedege dus:
+        # denetim, analizin tamamini bosa dusurmeyecek kadar onemli.
+        print(f"denetim modeli {model} basarisiz ({hata.status_code}): {hata.message}")
+        if hata.status_code in (403, 404) and model != DENETIM_YEDEK:
+            try:
+                yanit = cagir(DENETIM_YEDEK)
+                model = DENETIM_YEDEK
+                print(f"denetim yedek modelle yapildi: {DENETIM_YEDEK}")
+            except Exception as ikinci:
+                print(f"denetim atlandi: {type(ikinci).__name__}: {ikinci}")
+                return {"hata": f"{type(ikinci).__name__}: {ikinci}"[:300]}
+        else:
+            return {"hata": f"{hata.status_code}: {hata.message}"[:300]}
     except Exception as hata:
-        print(f"denetim atlandi: {type(hata).__name__}")
-        return {}
+        print(f"denetim atlandi: {type(hata).__name__}: {hata}")
+        return {"hata": f"{type(hata).__name__}: {hata}"[:300]}
     if yanit.stop_reason in ("refusal", "max_tokens"):
         print(f"denetim atlandi: {yanit.stop_reason}")
         return {}
@@ -554,13 +575,44 @@ def main() -> int:
     ap.add_argument("--denetim", action="store_true", default=True,
                     help="analizden sonra iddiaları kayıtlara karşı denetle (öntanımlı)")
     ap.add_argument("--denetim-yok", dest="denetim", action="store_false")
+    ap.add_argument("--yalniz-denetim", action="store_true",
+                    help="analizi yeniden üretme; var olanı denetleyip sonucu işle")
     args = ap.parse_args()
 
     latest = json.loads((DATA / "latest.json").read_text(encoding="utf-8"))
     gun = args.gun or datetime.now(timezone.utc).date().isoformat()
     hedef = ANALIZ / f"{gun}.json"
-    if hedef.exists() and not args.zorla:
+    if hedef.exists() and not args.zorla and not args.yalniz_denetim:
         print(f"{gun} analizi zaten var (--zorla ile yenilenir).")
+        return 0
+
+    if args.yalniz_denetim:
+        if not hedef.exists():
+            print(f"{gun} analizi yok; denetlenecek bir şey de yok.")
+            return 1
+        veri = json.loads(hedef.read_text(encoding="utf-8"))
+        secilen = [h for h in latest["haberler"] if h["k"] in set(veri.get("kullanilan_kayitlar", []))]
+        denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
+                              args.denetim_model, birincil_blogu() if args.birincil else "")
+        if denetim.get("hata"):
+            print(f"::warning::öz-denetim yapılamadı: {denetim['hata']}")
+            veri["denetim_hata"] = denetim["hata"]
+            durum_yaz(gun, "denetim yapılamadı", denetim["hata"])
+        elif denetim:
+            veri["denetim"] = denetim
+            veri["maliyet_usd"] = round(veri.get("maliyet_usd", 0) + denetim.get("maliyet_usd", 0), 4)
+            veri.pop("denetim_hata", None)
+            sorunlu = [k for k in denetim["kontroller"] if k["hukum"] != "dayanaklı"]
+            print(f"denetim ({denetim['model']}): {denetim['iddia_sayisi']} iddia, "
+                  f"{len(sorunlu)} işaretlendi · +${denetim.get('maliyet_usd', 0):.3f}")
+            durum_yaz(gun, "tamam", f"denetim eklendi: {denetim['iddia_sayisi']} iddia, "
+                                    f"{len(sorunlu)} işaretlendi")
+        else:
+            print("denetim boş döndü.")
+            return 1
+        hedef.write_text(json.dumps(veri, ensure_ascii=False, indent=1), encoding="utf-8")
+        (DATA / "analiz-latest.json").write_text(json.dumps(veri, ensure_ascii=False, indent=1),
+                                                 encoding="utf-8")
         return 0
 
     secilen = kayitlari_sec(latest["haberler"], gun, args.adet)
@@ -640,7 +692,10 @@ def main() -> int:
     if args.denetim:
         denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
                               args.denetim_model, birincil)
-        if denetim:
+        if denetim.get("hata"):
+            print(f"::warning::öz-denetim yapılamadı: {denetim['hata']}")
+            veri["denetim_hata"] = denetim["hata"]
+        elif denetim:
             veri["denetim"] = denetim
             tutar += denetim.get("maliyet_usd", 0)
             veri["maliyet_usd"] = round(tutar, 4)
@@ -662,10 +717,13 @@ def main() -> int:
     index = sorted((p.stem for p in ANALIZ.glob("*.json")), reverse=True)
     (DATA / "analiz-index.json").write_text(json.dumps(index), encoding="utf-8")
 
+    d = veri.get("denetim") or {}
     durum_yaz(gun, "tamam",
               f"{len(veri.get('one_cikanlar', []))} öne çıkan, "
               f"{len(veri.get('birincil_notlar', []))} birincil belge, "
-              f"${veri.get('maliyet_usd', 0)}")
+              f"${veri.get('maliyet_usd', 0)}"
+              + (f", denetim: {d.get('iddia_sayisi')} iddia" if d else
+                 f", denetim yok ({veri.get('denetim_hata', 'sebep bilinmiyor')})"))
 
     hareketli = sum(1 for x in veri.get("sureklilik", []) if x["durum"] != "hareket yok")
     print(f"analiz: {gun} · {len(veri['one_cikanlar'])} öne çıkan · "

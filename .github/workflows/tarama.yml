@@ -18,6 +18,9 @@ on:
       sentez:
         description: "Haftalik sentez de uretilsin mi? (evet/hayir)"
         default: "hayir"
+      sadece_denetim:
+        description: "Analizi yeniden uretmeden yalnizca oz-denetim yapilsin mi? (evet/hayir)"
+        default: "hayir"
   push:
     # Arayuz dosyalari da yayin tetiklemeli: yoksa app.js/style.css degisikligi
     # canli siteye hic gitmiyor.
@@ -83,6 +86,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
           ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL || 'claude-opus-5' }}
           ANALIZ_YENILE: ${{ github.event.inputs.analiz_yenile || 'hayir' }}
+          SADECE_DENETIM: ${{ github.event.inputs.sadece_denetim || 'hayir' }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
             echo "::warning::ANTHROPIC_API_KEY bos geldi; analiz atlandi."
@@ -104,7 +108,10 @@ jobs:
           python3 scripts/birincil.py --gun-sayisi 21 --adet 8 || true
           # Elle tetiklenen turda "analiz_yenile: evet" ise o gunun analizi varsa
           # uzerine yazilir; zamanlanmis turlarda mevcut analiz korunur.
-          if [ "$ANALIZ_YENILE" = "evet" ]; then
+          if [ "$SADECE_DENETIM" = "evet" ]; then
+            # Analiz yeniden uretilmez; var olan analiz denetlenir (ucuz).
+            python3 scripts/analiz.py --yalniz-denetim
+          elif [ "$ANALIZ_YENILE" = "evet" ]; then
             python3 scripts/analiz.py --zorla
           else
             python3 scripts/analiz.py
