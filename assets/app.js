@@ -119,11 +119,23 @@ window.gorselOran = function (img) {
   if (kayip > 0.34 || img.naturalWidth < 240) box.classList.add('sigdir');
 };
 
+/* Satir ici onload'a guvenmek yeterli degil: onbellekten gelen gorsel,
+   islev tanimlanmadan once "complete" olabiliyor ve olay hic dusmuyor.
+   Her cizimden sonra yuklenmis gorselleri tarayip, yuklenmemislere
+   dinleyici takiyoruz. */
+function gorselleriAyarla(kok = document) {
+  kok.querySelectorAll('.manset-img img, .gorsel img').forEach((img) => {
+    if (img.dataset.oranli) return;
+    if (img.complete && img.naturalWidth) { img.dataset.oranli = '1'; window.gorselOran(img); return; }
+    img.addEventListener('load', () => { img.dataset.oranli = '1'; window.gorselOran(img); }, { once: true });
+  });
+}
+
 function imgTag(it) {
   const local = it.yerel ? esc(it.yerel) : '';
   const remote = it.gorsel ? esc(it.gorsel) : '';
   return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}"
-    onerror="window.gorselHata(this)" onload="window.gorselOran(this)">`;
+    onerror="window.gorselHata(this)" onload="window.gorselOran&&window.gorselOran(this)">`;
 }
 
 function gorselli(it) { return !!(it.gorsel || it.yerel); }
@@ -192,6 +204,7 @@ function renderFeed(el, rows, limit) {
     ? `<button class="more" id="more">Daha fazla göster (${rows.length - limit} gelişme daha)</button>` : '');
   const more = $('#more', el);
   if (more) more.onclick = () => { state.shown += PAGE * 2; draw(); };
+  gorselleriAyarla(el);
 }
 
 
@@ -243,6 +256,9 @@ function renderLead() {
     <div class="lead-main">
       ${leadCard(pool[0])}
       <div class="lead-second">${pool.slice(1, 4).map(secondCard).join('')}</div>
+      <!-- gunun analizi kutusu burada: sag sutundaki ozet paneli daha uzun
+           oldugu icin solda olu alan kaliyordu -->
+      <div id="analizOzet"></div>
     </div>
     <aside class="ozet">
       <div class="ozet-head">${day.length ? 'Bugünün özeti' : 'Son iki günün özeti'}
@@ -262,6 +278,8 @@ function renderLead() {
     </aside>`;
 
   state.lead = new Set(pool.slice(0, 4).map((i) => i.url));
+
+  gorselleriAyarla($('#lead'));
 
   $('#lead').querySelectorAll('.term-btn').forEach((b) => b.addEventListener('click', () => {
     $('#q').value = b.dataset.term;
@@ -301,6 +319,7 @@ function renderRegions() {
     </section>`;
   }).join('');
   $('#bolgeBloklari').innerHTML = html;
+  gorselleriAyarla($('#bolgeBloklari'));
   $('#bolgeBloklari').querySelectorAll('.link').forEach((b) => b.addEventListener('click', () => {
     const chip = $(`#bolgeChips .chip[data-r="${b.dataset.region}"]`);
     if (chip) chip.click();
@@ -438,22 +457,36 @@ const DURUM = { 'hareketli': 'kritik', 'olağan': 'birincil', 'sessiz': '' };
 
 /* Analiz metnindeki [anahtar] kodlarını, tıklanınca ilgili kaydı açan dipnot
    numaralarına çevirir. Numaranın üstüne gelince haberin başlığı görünür. */
+/* Analiz metnindeki kayıt anahtarlarını tıklanabilir dipnota çevirir.
+   Model anahtarları iki biçimde yazıyor: ayrı ayrı ([a][b]) ya da tek
+   parantez içinde virgülle ([a, b, c]). İkincisi eskiden yakalanmıyor ve
+   ham karma metnin içinde görünüyordu. */
+const REF_KUME = /(?:\[\s*[0-9a-f]{6,12}(?:\s*[,;]\s*[0-9a-f]{6,12})*\s*\])+/g;
+
 function refliMetin(metin, anahtarlar) {
   const sira = new Map((anahtarlar || []).map((k, i) => [k, i + 1]));
   return esc(metin)
-    .replace(/(\[[0-9a-f]{6,12}\])+/g, (kume) => {
-      const parcalar = (kume.match(/\[([0-9a-f]{6,12})\]/g) || []).map((t) => {
-        const k = t.slice(1, -1);
+    .replace(REF_KUME, (kume) => {
+      // Tek bir üst simge içinde toplanır: numaralar ve virgüller aynı
+      // hizada dursun (ayrı <sup>'lar iki kez yükseltilip dağılıyordu).
+      const parcalar = (kume.match(/[0-9a-f]{6,12}/g) || []).map((k) => {
         const it = state.items.find((x) => x.k === k);
         const n = sira.get(k);
-        if (!it) return n ? `<sup class="ref yok">${n}</sup>` : '';
+        if (!it) return n ? `<span class="yok" title="Bu kayıt tarama penceresinden düşmüş">${n}</span>` : '';
         const etiket = n || '•';
         return `<a class="ref" href="${ic(it)}"
-          title="${esc(it.kaynak)} · ${esc(bas(it))}"><sup>${etiket}</sup></a>`;
+          title="${esc(it.kaynak)} · ${esc(bas(it))}">${etiket}</a>`;
       }).filter(Boolean);
-      return parcalar.join('<sup class="ref-ayrac">,</sup>');
+      return parcalar.length ? `<sup class="refler">${parcalar.join(',')}</sup>` : '';
     })
+    .replace(/\s+(<sup class="refler">)/g, '$1')   // sözcükle dipnot arasında boşluk kalmasın
     .replace(/\s+([.,;:])/g, '$1');
+}
+
+/* Kısa özetlerde dipnot gürültü olur: anahtarları tamamen temizler. */
+function refsiz(metin) {
+  return String(metin || '').replace(REF_KUME, '').replace(/\s+([.,;:])/g, '$1')
+    .replace(/\s{2,}/g, ' ').trim();
 }
 
 /* Dayanılan kayıtlar: kaynak adı değil, haberin kendisi görünsün. */
@@ -534,7 +567,7 @@ function analizGovde(a) {
 
     ${(a.izlenecekler || []).length ? `<section class="analiz-blok">
       <h3>İzlenecekler</h3>
-      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${refliMetin(x, [])}</li>`).join('')}</ul>
+      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${refliMetin(x, a.kullanilan_kayitlar)}</li>`).join('')}</ul>
     </section>` : ''}
 
     <footer class="analiz-kunye">
@@ -735,7 +768,7 @@ function renderUyari() {
     <ul>${liste.map((x) => `<li>
       <span class="tag ${UYARI_DUZEY[x.duzey] || ''}">${esc(x.tur)}</span>
       <b>${esc(x.baslik)}</b>
-      ${x.not ? `<p>${esc(x.not)}</p>` : ''}
+      ${x.not ? `<p>${refliMetin(x.not, x.kayitlar || [])}</p>` : ''}
       ${kayitBaglari(x.kayitlar || [])}
     </li>`).join('')}</ul>
   </div>`;
@@ -747,13 +780,14 @@ function renderUyari() {
 
 function renderAnalizOzet() {
   const a = state.analiz;
-  if (!a) return;
-  $('#analizOzet').innerHTML = `<a class="analiz-ozet" href="#analiz">
+  const kutu = $('#analizOzet');          // manşet yeniden çizilirse kaybolur
+  if (!a || !kutu) return;
+  kutu.innerHTML = `<a class="analiz-ozet" href="#analiz">
     <span class="eyebrow" style="--c:var(--deep)">Günün analizi</span>
     <b>${esc(a.baslik)}</b>
-    <p>${esc(a.brifing)}</p>
+    <p>${esc(refsiz(a.brifing))}</p>
     <span class="btn ana">Analizin tamamı →</span></a>`;
-  $('#analizOzet').querySelector('.analiz-ozet').addEventListener('click', (e) => {
+  kutu.querySelector('.analiz-ozet').addEventListener('click', (e) => {
     e.preventDefault();
     document.querySelector('nav.tabs button[data-view="analiz"]').click();
   });
@@ -840,7 +874,7 @@ async function drawArchive() {
     cChip.setAttribute('aria-pressed', String(state.ceviri));
     cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
     state.shown = PAGE;
-    draw(); renderLead(); renderRegions();
+    draw(); renderLead(); renderAnalizOzet(); renderRegions();
   });
   cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
   $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')

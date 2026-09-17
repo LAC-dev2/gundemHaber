@@ -96,7 +96,7 @@ nav.tabs button[aria-selected="true"]{background:var(--tab-on-bg);color:var(--ta
 .byline b{color:var(--ink);font-weight:600;font-size:.88rem}
 .lead-second{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   gap:var(--s4);margin-top:var(--s5)}
-.ikincil{display:flex;flex-direction:column;gap:var(--s2);text-decoration:none;
+.ikincil{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s2);text-decoration:none;
   padding:var(--s3);background:var(--surface);border:1px solid var(--hair-2);
   border-top:3px solid var(--c,var(--accent-2));border-radius:var(--r);transition:transform .14s,box-shadow .14s}
 .ikincil:hover{transform:translateY(-2px);box-shadow:var(--lift)}
@@ -546,11 +546,12 @@ footer a{color:#8FD6EC}
 
 .kaynak-ekle-satir{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center;margin:var(--s4) 0}
 .kaynak-ekle-satir .muted{font-size:.86rem;max-width:58ch}
-a.ref{text-decoration:none;color:var(--accent);font-weight:700;padding:0 1px}
-a.ref:hover{color:#fff;background:var(--accent);border-radius:2px}
-a.ref sup{font-size:.62em;vertical-align:super}
-.ref-ayrac{font-size:.62em;color:var(--ink-3);vertical-align:super}
-.ref.yok{color:var(--ink-3)}
+/* dipnot kümesi: numaralar ve aralarındaki virgüller tek hizada */
+.refler{font-size:.62em;font-weight:700;vertical-align:super;line-height:0;
+  white-space:nowrap;color:var(--ink-3);letter-spacing:.02em}
+.refler a.ref{text-decoration:none;color:var(--accent);padding:0 1.5px;font-size:1em;vertical-align:baseline}
+.refler a.ref:hover{color:#fff;background:var(--accent);border-radius:2px}
+.refler .yok{color:var(--ink-3);padding:0 1.5px}
 .ref-aciklama{font-size:.8rem;color:var(--ink-3);margin:var(--s3) 0 0}
 .ref-aciklama .ornek{font-weight:700;color:var(--accent)}
 
@@ -617,8 +618,10 @@ a.ref sup{font-size:.62em;vertical-align:super}
 
 /* ── sayfa içi hızlı geçiş düğmesi ── */
 .fab{position:fixed;right:20px;bottom:20px;z-index:70;display:none;
-  align-items:center;gap:8px;border:0;cursor:pointer;border-radius:var(--r-pill);
-  background:var(--deep);color:var(--white);box-shadow:var(--lift);
+  align-items:center;gap:8px;cursor:pointer;border-radius:var(--r-pill);
+  border:1px solid rgba(255,255,255,.28);
+  background:var(--deep);color:var(--white);
+  box-shadow:0 10px 26px rgba(0,0,0,.35),0 2px 6px rgba(0,0,0,.25);
   font:600 .72rem/1 var(--body);letter-spacing:.1em;text-transform:uppercase;
   padding:12px 18px;transition:background .14s,transform .14s}
 .fab:hover{background:var(--accent);transform:translateY(-2px)}
