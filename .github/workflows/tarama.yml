@@ -89,6 +89,8 @@ jobs:
           fi
           echo "anahtar bulundu (uzunluk: ${#ANTHROPIC_API_KEY})" 
           python3 -m pip install --quiet --disable-pip-version-check anthropic
+          # One cikan kayitlarin tam metnini indir: analiz basliktan fazlasini gorsun
+          python3 scripts/tam_metin.py --adet 18 || true
           python3 scripts/analiz.py
 
       - name: Sonuclari isle

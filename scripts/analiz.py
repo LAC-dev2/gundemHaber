@@ -26,6 +26,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ANALIZ = DATA / "analiz"
 PAGES = DATA / "pages"
+TAKIP = DATA / "takip.json"          # dosya takibi: açık maddeler ve seyri
+GECMIS_GUN = 7                       # kaç günün analizi hafızaya verilir
+TAM_METIN_UST = 15                   # kaç kayıt için uzun metin gönderilir
 
 VARSAYILAN_MODEL = "claude-opus-5"
 # 1M token basina USD (girdi, cikti)
@@ -67,11 +70,52 @@ Kurallar — bunlara kesinlikle uy:
    gelişmeyi konumlandırmak ve neden izlenmesi gerektiğini söylemektir.
 5. Türkçe yaz. Kısa, kuru, mesleki bir dil kullan; gazete üslubundan kaçın.
    Sıfat yığma, "kritik gelişme" gibi abartılı ifadeler kullanma.
-6. Bir gelişme merkezin alanlarıyla ilgisizse listeleme. Az ve isabetli olsun."""
+6. Bir gelişme merkezin alanlarıyla ilgisizse listeleme. Az ve isabetli olsun.
+7. Sana önceki günlerin başlıkları ve açık takip maddeleri verilecek. Bugünü
+   dünden kopuk anlatma: süregelen bir olayda "kaçıncı gün", "önceki adıma göre
+   ne değişti" bilgisini ver. Önceki günlerin verisi elinde yoktur; yalnızca
+   başlıklarını görürsün, o yüzden oradan olgu üretme.
+8. Kaynaklar aynı olayda farklı sayı, tarih ya da isim veriyorsa bunu açıkça
+   yaz ("kaynaklar 53 ile 62 arasında sayı veriyor") ve hangisinin hangi kayıtta
+   olduğunu göster. Tek bir sayıya indirgeme."""
 
 SEMA = {
     "type": "object",
     "properties": {
+        "sureklilik": {
+            "type": "array",
+            "description": ("Açık takip maddelerinin bugünkü durumu. Yalnızca sana verilen "
+                            "takip maddeleri için satır yaz; kayıtlarda o maddeye ilişkin "
+                            "bir şey yoksa durum 'hareket yok' olur ve not boş kalır."),
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string", "description": "Takip maddesinin id'si"},
+                    "durum": {"type": "string", "enum": ["hareket var", "hareket yok", "kapandı"]},
+                    "not": {"type": "string", "description": "Hareket varsa 1-3 cümle; yoksa boş"},
+                    "kayitlar": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["id", "durum", "not", "kayitlar"],
+                "additionalProperties": False,
+            },
+        },
+        "yeni_takip": {
+            "type": "array",
+            "description": ("Bugün açılması gereken yeni takip maddeleri (en fazla 4). "
+                            "Zaten açık bir maddeyle aynı konuyu tekrarlamayan, "
+                            "önümüzdeki günlerde seyri izlenmesi gerekenler."),
+            "items": {
+                "type": "object",
+                "properties": {
+                    "baslik": {"type": "string", "description": "Takip edilecek konu, tek cümle"},
+                    "alan": {"type": "string"},
+                    "neden": {"type": "string", "description": "Neden izlenmeli, 1-2 cümle"},
+                    "kayitlar": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["baslik", "alan", "neden", "kayitlar"],
+                "additionalProperties": False,
+            },
+        },
         "baslik": {"type": "string", "description": "Günün tek cümlelik başlığı, en fazla 90 karakter"},
         "brifing": {"type": "string", "description": "3-5 cümlelik genel değerlendirme"},
         "one_cikanlar": {
@@ -111,7 +155,8 @@ SEMA = {
             "items": {"type": "string"},
         },
     },
-    "required": ["baslik", "brifing", "one_cikanlar", "alan_notlari", "izlenecekler"],
+    "required": ["baslik", "brifing", "one_cikanlar", "alan_notlari", "izlenecekler",
+                 "sureklilik", "yeni_takip"],
     "additionalProperties": False,
 }
 
@@ -140,7 +185,7 @@ def kayitlari_sec(haberler: list[dict], gun: str, adet: int) -> list[dict]:
     return secilen
 
 
-def kayit_metni(h: dict, kumeler: dict, tam_metin: bool) -> str:
+def kayit_metni(h: dict, kumeler: dict, tam_metin: bool, uzun: bool = False) -> str:
     satir = [f"[{h['k']}] {h['bolge']} · {h.get('kategori', '')} · {h['kaynak']}"
              f" ({h.get('kanit', '')}, öncelik: {h.get('oncelik', '')}, {h['tarih'][:16]})",
              f"  BAŞLIK: {h['baslik']}"]
@@ -156,23 +201,112 @@ def kayit_metni(h: dict, kumeler: dict, tam_metin: bool) -> str:
             try:
                 paras = json.loads(sayfa.read_text(encoding="utf-8"))["paragraflar"]
                 govde = " ".join(p for p in paras if not p.startswith("## "))
-                satir.append(f"  METİN: {kisalt(govde, 900)}")
+                satir.append(f"  METİN: {kisalt(govde, 2600 if uzun else 700)}")
             except Exception:
                 pass
     return "\n".join(satir)
 
 
-def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool) -> str:
-    bloklar = [kayit_metni(h, kumeler, tam_metin) for h in secilen]
+def gecmis_ozeti() -> str:
+    """Onceki gunlerin basliklari: sureklilik icin hafiza."""
+    gunler = sorted((p for p in ANALIZ.glob("*.json")), reverse=True)[:GECMIS_GUN]
+    satirlar = []
+    for yol in gunler:
+        try:
+            d = json.loads(yol.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        basliklar = "; ".join(o["baslik"] for o in d.get("one_cikanlar", [])[:4])
+        satirlar.append(f"- {d.get('gun', yol.stem)}: {d.get('baslik', '')}"
+                        + (f" | öne çıkanlar: {basliklar}" if basliklar else ""))
+    return "\n".join(satirlar)
+
+
+def takip_oku() -> dict:
+    if TAKIP.exists():
+        try:
+            return json.loads(TAKIP.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {"maddeler": []}
+
+
+def takip_ozeti(takip: dict) -> str:
+    acik = [m for m in takip.get("maddeler", []) if m.get("durum") == "açık"]
+    if not acik:
+        return ""
+    satirlar = []
+    for m in acik:
+        son = m.get("son_hareket") or m.get("acildi", "")
+        satirlar.append(f"- [{m['id']}] ({m.get('alan', '')}) {m['baslik']} "
+                        f"— açıldı {m.get('acildi', '')}, son hareket {son}")
+    return "\n".join(satirlar)
+
+
+def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool,
+              gecmis: str = "", takip: str = "") -> str:
+    bloklar = [kayit_metni(h, kumeler, tam_metin, uzun=(i < TAM_METIN_UST))
+               for i, h in enumerate(sorted(secilen, key=lambda r: -r["puan"]))]
     return (
         f"Tarih: {gun}\n"
-        f"Aşağıda son taramadan gelen {len(secilen)} kayıt var. Her kaydın başında "
-        f"köşeli parantez içinde anahtarı yazıyor.\n\n"
-        f"Merkezin çalışma alanları:\n" + "\n".join(f"- {a}" for a in ALANLAR) + "\n\n"
-        f"KAYITLAR\n" + "\n\n".join(bloklar) + "\n\n"
-        f"Bu kayıtlara dayanarak günün brifingini üret. Yalnızca verilen kayıtlardaki "
-        f"bilgiyi kullan ve her değerlendirmede dayandığın kayıt anahtarlarını ver."
+        + (f"\nÖNCEKİ GÜNLERİN BAŞLIKLARI (yalnızca süreklilik için; "
+           f"buradan olgu üretme)\n{gecmis}\n" if gecmis else "")
+        + (f"\nAÇIK TAKİP MADDELERİ (her biri için bugünkü durumu yaz)\n{takip}\n"
+           if takip else "")
+        + f"\nAşağıda son taramadan gelen {len(secilen)} kayıt var. Her kaydın başında "
+        + "köşeli parantez içinde anahtarı yazıyor.\n\n"
+        + "Merkezin çalışma alanları:\n" + "\n".join(f"- {a}" for a in ALANLAR) + "\n\n"
+        + "KAYITLAR\n" + "\n\n".join(bloklar) + "\n\n"
+        + "Bu kayıtlara dayanarak günün brifingini üret. Yalnızca verilen kayıtlardaki "
+        + "bilgiyi kullan, her değerlendirmede dayandığın kayıt anahtarlarını ver ve "
+        + "açık takip maddelerinin bugünkü durumunu yaz."
     )
+
+
+def takip_guncelle(takip: dict, veri: dict, gun: str) -> dict:
+    """Takip listesini gunun analiziyle gunceller: hareketleri isler, yeni
+    maddeleri acar, uzun suredir hareketsiz maddeleri kapatir."""
+    maddeler = takip.setdefault("maddeler", [])
+    indeks = {m["id"]: m for m in maddeler}
+
+    for satir in veri.get("sureklilik", []):
+        m = indeks.get(satir.get("id", ""))
+        if not m:
+            continue
+        if satir["durum"] == "kapandı":
+            m["durum"] = "kapandı"
+            m["kapandi"] = gun
+        if satir["durum"] in ("hareket var", "kapandı") and satir.get("not", "").strip():
+            m["son_hareket"] = gun
+            m.setdefault("gelismeler", []).append(
+                {"gun": gun, "not": satir["not"], "kayitlar": satir.get("kayitlar", [])})
+
+    sayac = max((int(m["id"][1:]) for m in maddeler if m["id"][1:].isdigit()), default=0)
+    for yeni in veri.get("yeni_takip", [])[:4]:
+        sayac += 1
+        maddeler.append({
+            "id": f"t{sayac}", "baslik": yeni["baslik"], "alan": yeni.get("alan", ""),
+            "neden": yeni.get("neden", ""), "acildi": gun, "durum": "açık",
+            "son_hareket": gun, "kayitlar": yeni.get("kayitlar", []), "gelismeler": [],
+        })
+
+    for m in maddeler:                                  # hareketsiz maddeleri kapat
+        if m.get("durum") != "açık":
+            continue
+        son = m.get("son_hareket") or m.get("acildi")
+        try:
+            gecen = (datetime.fromisoformat(gun) - datetime.fromisoformat(son)).days
+        except Exception:
+            continue
+        if gecen > 45:
+            m["durum"] = "kapandı"
+            m["kapandi"] = gun
+            m["kapanma_nedeni"] = "45 gündür hareket yok"
+
+    takip["guncelleme"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
+    takip["acik"] = sum(1 for m in maddeler if m.get("durum") == "açık")
+    TAKIP.write_text(json.dumps(takip, ensure_ascii=False, indent=1), encoding="utf-8")
+    return takip
 
 
 def maliyet(model: str, girdi: int, cikti: int) -> float:
@@ -202,7 +336,9 @@ def main() -> int:
     if len(secilen) < 3:
         print("Analiz için yeterli kayıt yok.")
         return 0
-    istem = istem_yap(secilen, latest.get("kumeler", {}), gun, args.tam_metin)
+    takip = takip_oku()
+    istem = istem_yap(secilen, latest.get("kumeler", {}), gun, args.tam_metin,
+                      gecmis=gecmis_ozeti(), takip=takip_ozeti(takip))
 
     if args.kuru:
         print(istem[:4000])
@@ -254,14 +390,25 @@ def main() -> int:
                   "doğrulanmadan dosyaya esas alınamaz."),
     })
 
+    takip = takip_guncelle(takip, veri, gun)
+    veri["takip_acik"] = [
+        {"id": m["id"], "baslik": m["baslik"], "alan": m.get("alan", ""),
+         "acildi": m.get("acildi", ""), "son_hareket": m.get("son_hareket", ""),
+         "hareket_sayisi": len(m.get("gelismeler", []))}
+        for m in takip["maddeler"] if m.get("durum") == "açık"
+    ]
+
     ANALIZ.mkdir(parents=True, exist_ok=True)
     hedef.write_text(json.dumps(veri, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "analiz-latest.json").write_text(json.dumps(veri, ensure_ascii=False, indent=1), encoding="utf-8")
     index = sorted((p.stem for p in ANALIZ.glob("*.json")), reverse=True)
     (DATA / "analiz-index.json").write_text(json.dumps(index), encoding="utf-8")
 
+    hareketli = sum(1 for x in veri.get("sureklilik", []) if x["durum"] != "hareket yok")
     print(f"analiz: {gun} · {len(veri['one_cikanlar'])} öne çıkan · "
-          f"{len(veri['alan_notlari'])} alan notu")
+          f"{len(veri['alan_notlari'])} alan notu · "
+          f"takip: {len(veri.get('takip_acik', []))} açık ({hareketli} hareket), "
+          f"{len(veri.get('yeni_takip', []))} yeni")
     print(f"token: {kullanim.input_tokens} girdi / {kullanim.output_tokens} çıktı · "
           f"maliyet ≈ ${tutar:.3f} · model {args.model}")
     return 0

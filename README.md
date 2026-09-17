@@ -34,6 +34,8 @@ scripts/ikon.py             uygulama ikonları (PNG/SVG üretici)
 scripts/analiz.py           günlük analiz üretimi (Claude API)
 scripts/ceviri.py           Türkçe olmayan kayıtların başlık/özet çevirisi
 scripts/kaynak_ekle.py      envantere yeni kaynak ekleme (form ve komut satırı)
+scripts/tam_metin.py        analiz öncesi öne çıkan kayıtların tam metni
+data/takip.json             açık takip maddeleri ve seyri
 data/ceviri.json            çeviri önbelleği (her kayıt bir kez çevrilir)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
@@ -277,6 +279,17 @@ AİHM başvuruları ve kararların icrası · BM insan hakları mekanizmaları �
 INTERPOL bildirimleri ve kırmızı bülten · İade, adli yardım ve iltica ·
 Yaptırım listeleri ve malvarlığı dondurma · Gülen hareketi/KHK dosyaları ve
 sınıraşan baskı · İfade ve basın özgürlüğü · Belçika ve AB mevzuatı.
+
+**Hafıza ve takip listesi:** Analiz her gün sıfırdan başlamaz. Son 7 günün
+başlıkları ve **açık takip maddeleri** girdiye eklenir; model her açık madde
+için "hareket var / hareket yok / kapandı" der ve hareket varsa notunu yazar.
+Yeni izlenmesi gereken konular takip listesine eklenir (`data/takip.json`).
+45 gün hareket görmeyen madde kendiliğinden kapanır. Böylece "bu operasyon
+12 Eylül'den beri sürüyor, bugün 32 kişi daha" türü süreklilik kurulur.
+
+**Tam metin:** Analizden hemen önce `scripts/tam_metin.py` en yüksek puanlı 18
+kaydın tam metnini indirir; analiz bu kayıtlarda başlıktan fazlasını görür
+(ilk 15 kayıt için ~2.600, diğerleri için ~700 karakter).
 
 **Üretilen brifing:** günün başlığı, 3-5 cümlelik değerlendirme, en fazla 6
 "öne çıkan gelişme" (alan etiketi, neden önemli olduğu, dayandığı kayıtlar ve

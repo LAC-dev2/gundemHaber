@@ -461,6 +461,17 @@ function analizGovde(a) {
       <summary>Analizin dayandığı ${a.kullanilan_kayitlar.length} kaydın tamamı</summary>
       ${kayitBaglari(a.kullanilan_kayitlar)}</details>` : ''}
 
+    ${(a.sureklilik || []).some((x) => x.durum !== 'hareket yok') ? `<section class="analiz-blok">
+      <h3>Takip edilen dosyalarda hareket</h3>
+      <div class="hareket">${a.sureklilik.filter((x) => x.durum !== 'hareket yok').map((x) => {
+        const m = (a.takip_acik || []).find((t) => t.id === x.id);
+        return `<div class="hareket-satir ${x.durum === 'kapandı' ? 'kapandi' : ''}">
+          <div class="hs-ust"><span class="tag ${x.durum === 'kapandı' ? '' : 'kritik'}">${esc(x.durum)}</span>
+            <b>${esc(m ? m.baslik : x.id)}</b></div>
+          <p>${refliMetin(x.not, x.kayitlar)}</p>
+          ${kayitBaglari(x.kayitlar)}</div>`;
+      }).join('')}</div></section>` : ''}
+
     ${(a.one_cikanlar || []).length ? `<section class="analiz-blok">
       <h3>Öne çıkan gelişmeler</h3>
       <ol class="one-cikan">${a.one_cikanlar.map((o) => `<li>
@@ -479,6 +490,18 @@ function analizGovde(a) {
         <p>${refliMetin(n.not, n.kayitlar)}</p>
         ${kayitBaglari(n.kayitlar)}
       </div>`).join('')}</div></section>` : ''}
+
+    ${(a.takip_acik || []).length ? `<section class="analiz-blok">
+      <h3>Açık takip listesi <span class="mono">${a.takip_acik.length}</span></h3>
+      <ol class="takip">${a.takip_acik.map((t) => `<li${(a.sureklilik || []).some((x) => x.id === t.id && x.durum !== 'hareket yok') ? ' class="bugun"' : ''}>
+        <b>${esc(t.baslik)}</b>
+        <span class="tk-kunye">${esc(t.alan)} · açıldı ${esc(t.acildi)}
+          · son hareket ${esc(t.son_hareket || t.acildi)}
+          ${t.hareket_sayisi ? ` · ${t.hareket_sayisi} hareket` : ''}</span>
+      </li>`).join('')}</ol>
+      <p class="ref-aciklama">Takip listesi günlük analizle kendiliğinden güncellenir:
+        hareket gelen madde işaretlenir, 45 gün hareket görmeyen madde kapanır.</p>
+    </section>` : ''}
 
     ${(a.izlenecekler || []).length ? `<section class="analiz-blok">
       <h3>İzlenecekler</h3>

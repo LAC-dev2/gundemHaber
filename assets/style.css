@@ -537,3 +537,22 @@ a.ref sup{font-size:.62em;vertical-align:super}
 .ref.yok{color:var(--ink-3)}
 .ref-aciklama{font-size:.8rem;color:var(--ink-3);margin:var(--s3) 0 0}
 .ref-aciklama .ornek{font-weight:700;color:var(--accent)}
+
+/* takip ve süreklilik */
+.hareket{display:grid;gap:var(--s3)}
+.hareket-satir{background:var(--surface);border:1px solid var(--hair-2);
+  border-left:4px solid var(--accent);border-radius:var(--r);padding:var(--s3) var(--s4)}
+.hareket-satir.kapandi{border-left-color:var(--ink-leaf);opacity:.85}
+.hs-ust{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:baseline;margin-bottom:var(--s2)}
+.hs-ust b{font-family:var(--display);font-size:1.06rem}
+.hareket-satir p{margin:0;color:var(--ink-2);font-size:.96rem;line-height:1.55}
+.takip{list-style:none;counter-reset:tk;margin:0;padding:0;display:grid;gap:1px;
+  background:var(--hair-2);border:1px solid var(--hair-2);border-radius:var(--r);overflow:hidden}
+.takip li{counter-increment:tk;background:var(--white);padding:var(--s3) var(--s4);
+  display:grid;gap:3px;position:relative}
+.takip li.bugun{background:rgba(192,47,29,.06)}
+.takip li.bugun::after{content:"bugün hareket";position:absolute;top:var(--s3);right:var(--s4);
+  font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--accent)}
+.takip b{font-family:var(--display);font-weight:500;font-size:1.02rem;line-height:1.25;padding-right:8rem}
+.tk-kunye{font-size:.7rem;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.analiz-blok h3 .mono{font-family:var(--mono);font-size:.8rem;opacity:.7}
