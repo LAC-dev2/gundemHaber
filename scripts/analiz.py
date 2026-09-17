@@ -167,11 +167,12 @@ SEMA = {
                                         "Kayıtlarda somut veri yoksa boş dizi."),
                         "items": {"type": "string"},
                     },
-                    "mekanizma": {"type": "string",
-                                  "description": ("Hangi hukuki mekanizma devrede: AİHM maddesi, BM "
-                                                  "usulü, INTERPOL kuralı, iade/iltica yolu. "
-                                                  "Kayıtlardan çıkmıyorsa boş bırak. Tavsiye değil, "
-                                                  "konumlandırma.")},
+                    "mekanizma": {"type": "string", "maxLength": 70,
+                                  "description": ("KISA ETİKET (en fazla 70 karakter, cümle değil): "
+                                                  "devrede olan hukuki mekanizma, örneğin "
+                                                  "'AİHS md. 10' ya da 'INTERPOL kırmızı bülten'. "
+                                                  "Kayıt anahtarı yazma, gerekçe yazma. "
+                                                  "Kayıtlardan çıkmıyorsa boş bırak.")},
                     "karsi_okuma": {"type": "string",
                                     "description": ("Bu kayıtların KANITLAMADIĞI şey: hangi çıkarım "
                                                     "yapılamaz, ne doğrulanmamıştır. 1-2 cümle.")},

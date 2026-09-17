@@ -503,7 +503,10 @@ const DURUM = { 'hareketli': 'kritik', 'olağan': 'birincil', 'sessiz': '' };
    Model anahtarları iki biçimde yazıyor: ayrı ayrı ([a][b]) ya da tek
    parantez içinde virgülle ([a, b, c]). İkincisi eskiden yakalanmıyor ve
    ham karma metnin içinde görünüyordu. */
-const REF_KUME = /(?:\[\s*[0-9a-f]{6,12}(?:\s*[,;]\s*[0-9a-f]{6,12})*\s*\])+/g;
+const REF_PARCA = '(?:[0-9a-f]{6,12}|\\d{3}-\\d{5,7})';   // kayıt anahtarı ya da HUDOC kimliği
+const REF_KUME = new RegExp(
+  `(?:\\[\\s*${REF_PARCA}(?:\\s*[,;]\\s*${REF_PARCA})*\\s*\\])+`, 'g');
+const REF_TEK = new RegExp(REF_PARCA, 'g');
 
 function refliMetin(metin, anahtarlar) {
   const sira = new Map((anahtarlar || []).map((k, i) => [k, i + 1]));
@@ -511,7 +514,15 @@ function refliMetin(metin, anahtarlar) {
     .replace(REF_KUME, (kume) => {
       // Tek bir üst simge içinde toplanır: numaralar ve virgüller aynı
       // hizada dursun (ayrı <sup>'lar iki kez yükseltilip dağılıyordu).
-      const parcalar = (kume.match(/[0-9a-f]{6,12}/g) || []).map((k) => {
+      const parcalar = (kume.match(REF_TEK) || []).map((k) => {
+        // HUDOC belgesi: analiz metin içinde karar kimliğine de atıf yapıyor
+        const belge = (state.birincil || {})[k];
+        if (belge) {
+          const bn = (state.belgeNo || {})[k];
+          return `<a class="ref belge" href="${esc(belge.url)}" target="_blank"
+            rel="noopener noreferrer"
+            title="${esc(belge.ad)} · ${esc(belge.tur)} · HUDOC">K${bn || ''}</a>`;
+        }
         const it = state.items.find((x) => x.k === k);
         const n = sira.get(k);
         if (!it) return n ? `<span class="yok" title="Bu kayıt tarama penceresinden düşmüş">${n}</span>` : '';
@@ -524,6 +535,11 @@ function refliMetin(metin, anahtarlar) {
     .replace(/\s+(<sup class="refler">)/g, '$1')   // sözcükle dipnot arasında boşluk kalmasın
     .replace(/\s+([.,;:])/g, '$1');
 }
+
+const kisaltMetin = (x, n) => {
+  const t = String(x || '').trim();
+  return t.length > n ? t.slice(0, n - 1).replace(/[\s,;:.]+$/, '') + '…' : t;
+};
 
 /* Kısa özetlerde dipnot gürültü olur: anahtarları tamamen temizler. */
 function refsiz(metin) {
@@ -589,6 +605,8 @@ function birincilBlok(a) {
 
 function analizGovde(a) {
   const d = new Date(a.gun + 'T12:00:00Z');
+  // metin içindeki [001-252500] gibi atıflar "K1, K2…" olarak numaralanır
+  state.belgeNo = Object.fromEntries((a.birincil_notlar || []).map((b, i) => [b.itemid, i + 1]));
   return `<article class="analiz">
     <div class="analiz-ust">
       <span class="eyebrow" style="--c:var(--deep)">Günün analizi</span>
@@ -623,7 +641,7 @@ function analizGovde(a) {
       <ol class="one-cikan">${a.one_cikanlar.map((o, i) => `<li>
         <div class="oc-ust"><span class="tag alan">${esc(o.alan)}</span>
           <span class="tag ${GUVEN[o.guven] || ''}">güven: ${esc(o.guven)}</span>
-          ${o.mekanizma ? `<span class="tag mekanizma" title="Devrede olan hukuki mekanizma">${esc(o.mekanizma)}</span>` : ''}</div>
+          ${o.mekanizma ? `<span class="tag mekanizma" title="${esc(refsiz(o.mekanizma))}">${esc(kisaltMetin(refsiz(o.mekanizma), 64))}</span>` : ''}</div>
         <h4>${esc(o.baslik)}</h4>
         <p>${refliMetin(o.neden_onemli, o.kayitlar)}</p>
         ${(o.ayrintilar || []).length ? `<ul class="ayrinti">${o.ayrintilar.map((x) =>

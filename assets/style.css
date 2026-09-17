@@ -703,3 +703,7 @@ footer a{color:#8FD6EC}
 .analiz-durum{margin:var(--s3) 0 0;font-size:.86rem;line-height:1.5;color:var(--ink-2);
   border-left:3px solid var(--accent);padding-left:var(--s3);text-align:left}
 .analiz-durum .mono{display:block;font-size:.72rem;color:var(--ink-3);margin-top:3px}
+/* metin içinde HUDOC karar atfı: K1, K2… */
+.refler a.ref.belge{color:var(--gold);letter-spacing:.02em}
+.refler a.ref.belge:hover{background:var(--gold);color:#fff}
+.tag.mekanizma{max-width:34ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
