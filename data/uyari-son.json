@@ -1,5 +1,15 @@
 {
  "gun": "2026-09-17",
- "olusturma": "2026-09-17T12:29+00:00",
- "uyarilar": []
+ "olusturma": "2026-09-17T12:40+00:00",
+ "uyarilar": [
+  {
+   "id": "saglik:2026-09-17:8",
+   "tur": "izleme bozuldu",
+   "duzey": "yüksek",
+   "baslik": "8 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: European Centre for Press and Media Freedom, Norway Landinfo, Human Rights Watch - Türkiye, FIDH - Türkiye, Opinio Juris, Frontex…",
+   "kayitlar": []
+  }
+ ]
 }
