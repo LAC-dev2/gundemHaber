@@ -1,6 +1,6 @@
 {
- "guncelleme": "2026-09-17T20:58+00:00",
- "pencere_gun": 45,
+ "guncelleme": "2026-09-17T21:07+00:00",
+ "pencere_gun": 21,
  "belgeler": [
   {
    "itemid": "001-252298",
@@ -19,6 +19,36 @@
    "giris": "(Application no. 29949/20) This judgment is final but it may be subject to editorial revision. In the case of Benli v. Türkiye,"
   },
   {
+   "itemid": "001-252500",
+   "ad": "CASE OF ÇOKBILGIN AND AYVAZ AGAINST TURKEY",
+   "tur": "icra kararı",
+   "tarih": "2026-09-02",
+   "maddeler": [
+    "46"
+   ],
+   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
+   "basvuru": "3625/05",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252500",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 472,
+   "giris": "Resolution CM/ResDH(2026)175 Execution of the judgment of the European Court of Human Rights Çokbilgin and Ayvaz against Turkey"
+  },
+  {
+   "itemid": "001-252498",
+   "ad": "CASE OF SOYTEMIZ AGAINST TURKEY",
+   "tur": "icra kararı",
+   "tarih": "2026-09-02",
+   "maddeler": [
+    "46"
+   ],
+   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
+   "basvuru": "57837/09",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252498",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 474,
+   "giris": "Resolution CM/ResDH(2026)174 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 2 September 2026 at the 1567th meeting of the Ministers’ Deputies)"
+  },
+  {
    "itemid": "001-252496",
    "ad": "CASE OF SÖYLER AGAINST TÜRKİYE",
    "tur": "icra kararı",
@@ -34,19 +64,36 @@
    "giris": "Resolution CM/ResDH(2026)173 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 2 September 2026 at the 1567th meeting of the Ministers’ Deputies)"
   },
   {
-   "itemid": "001-252500",
-   "ad": "CASE OF ÇOKBILGIN AND AYVAZ AGAINST TURKEY",
-   "tur": "icra kararı",
-   "tarih": "2026-09-02",
+   "itemid": "001-251824",
+   "ad": "CASE OF DEMİRCİ v. TÜRKİYE",
+   "tur": "karar",
+   "tarih": "2026-08-27",
    "maddeler": [
-    "46"
+    "3"
    ],
-   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
-   "basvuru": "3625/05",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-252500",
+   "sonuc": "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment) (Substantive aspect)",
+   "basvuru": "41715/20",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-251824",
    "kaynak": "HUDOC / AİHM",
-   "kelime": 472,
-   "giris": "Resolution CM/ResDH(2026)175 Execution of the judgment of the European Court of Human Rights Çokbilgin and Ayvaz against Turkey"
+   "kelime": 725,
+   "giris": "CASE OF DEMİRCİ v. TÜRKİYE (Application no. 41715/20) This judgment is final but it may be subject to editorial revision."
+  },
+  {
+   "itemid": "001-251821",
+   "ad": "CASE OF MACİT AND OTHERS v. TÜRKİYE",
+   "tur": "karar",
+   "tarih": "2026-08-27",
+   "maddeler": [
+    "5",
+    "5-3",
+    "5-4"
+   ],
+   "sonuc": "Violation of Article 5 - Right to liberty and security (Article 5-3 - Length of pre-trial detention);Violation of Article 5 - Right to liberty and security (Article 5-4 - Procedural guarantees of review);Violation of Article 5 - Right to liberty and security (Article 5-4 - Speediness of review)",
+   "basvuru": "41386/17;35666/18;22888/19;58121/19;29347/20;40677/20;40815/20;50588/20",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-251821",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 1895,
+   "giris": "CASE OF MACİT AND OTHERS v. TÜRKİYE (Applications nos. 41386/17 and 7 others – This judgment is final but it may be subject to editorial revision."
   }
  ]
 }
