@@ -1,205 +1,426 @@
 {
- "sureklilik": [],
- "yeni_takip": [
+ "sureklilik": [
   {
-   "baslik": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapatma davası ve erişim engelleri",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
+   "id": "t1",
+   "durum": "hareket var",
+   "not": "Operasyonda tutuklu sayısı yükseldi: bir kayıt \"en az 82 kişi\" derken aynı kaydın metninde Ankara, İzmir, Mersin ve Aydın mahkemelerinin en az 62 kişiyi, İstanbul'da bir mahkemenin 20 kişiyi daha tutukladığı belirtiliyor [89ee1abf99]. İstanbul adliyesi önünde gözaltına alınan 106 protestocu serbest bırakıldı, aynı gün yeni tutuklamalar oldu [5569ec5b81]. Erişim engelleri 12–16 Eylül arasında genişledi; 16 Eylül'de İrfan Değirmenci, Şirin Payzın, soL Haber, Kadın Koalisyonu ve Türkiye Kadın Dernekleri Federasyonu hesapları da engellendi [277ead3179]. Altı Avrupa ülkesinin insan hakları/LGBTİ+ temsilcileri, ARTICLE 19 önderliğindeki ortak açıklama, IPI ve CPJ çağrıları eklendi [89ee1abf99][fe5c5140c0][fd403aaaec]. Mersin'deki iki derneğe kapatma davasına ilişkin bugünkü kayıtlarda yeni bilgi yok.",
    "kayitlar": [
-    "164e080299",
-    "6aa16a463f",
-    "7c7926e4d8",
+    "89ee1abf99",
+    "5569ec5b81",
     "277ead3179",
-    "fe5c5140c0"
+    "fe5c5140c0",
+    "fd403aaaec"
    ]
   },
   {
-   "baslik": "Ankara Başsavcılığı'nın \"evlilik ayarlama\" iddiasına dayanan Gülen soruşturmasında kalan yakalama kararları",
-   "alan": "Gülen hareketi/KHK dosyaları",
-   "neden": "72 kişilik yakalama kararının 60'ı infaz edilmiş, 12 kişi için arama sürüyor; ayrıca bir kaynak 28 kişilik ayrı bir sayı veriyor. Gözaltıların tutuklamaya dönüşüp dönüşmediği ve iddianame içeriği izlenmeli.",
+   "id": "t2",
+   "durum": "hareket var",
+   "not": "Solidarity with OTHERS, Ankara savcılığının \"evlilik ayarlama\" yapısı iddiasıyla 28 kişi için gözaltı kararı verdiğini başlık düzeyinde aktardı [0324e29472]. Bu, önceki gün kaynakların 28 ile 72 arasında verdiği rakam aralığının alt ucunu teyit ediyor; kalan yakalama kararlarının infazına ilişkin yeni veri yok.",
    "kayitlar": [
-    "565f7e2559",
     "0324e29472"
    ]
   },
   {
-   "baslik": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçınkaya grubu dosyaları",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
+   "id": "t3",
+   "durum": "hareket var",
+   "not": "Derdest başvuru sayısına ilişkin yeni veri gelmedi; ancak Bakanlar Komitesi'nin 2 Eylül 1567. toplantısında alınan üç icra kararı (Çokbilgin ve Ayvaz, Soytemiz, Söyler) kayıtlara girdi; ikisinde bireysel tedbirler kapatılırken genel tedbirler Uzan ve Diğerleri ile Türk grubu dosyalarında izlenmeye devam ediyor [001-252500][001-252498][001-252496]. Ayrıca Benli kararı (8. madde, avukat görüşmelerinin izlenmesi) metniyle teyit edildi [001-252298].",
    "kayitlar": [
-    "d5c63e300b"
+    "001-252500",
+    "001-252498",
+    "001-252496",
+    "001-252298"
    ]
   },
   {
-   "baslik": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor verileri",
-   "alan": "Gülen hareketi/KHK dosyaları",
-   "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
+   "id": "t4",
+   "durum": "hareket var",
+   "not": "Rapor verileri ikinci kez kayıtlara girdi: ihraç edilen kamu görevlilerinin yüzde 79'u ihraç bilgisinin öğrenilmesi üzerine işe alınmadığını, yüzde 73,4'ü ciddi mali kayıp yaşadığını bildirdi [6bad902c60]. Kayıt başlık-özet düzeyinde; örneklem büyüklüğü ve yöntem verilmemiş.",
    "kayitlar": [
     "6bad902c60"
    ]
   }
  ],
- "baslik": "LGBTİ+ operasyonunda tutuklu sayısı 53–62 arası; Ankara'da 60 kişilik Gülen gözaltısı",
- "brifing": "Gün, iki paralel iç hukuk dalgası çevresinde şekillendi: \"Ailem Güvende\" adı verilen LGBTİ+ operasyonunun tutuklama, dernek kapatma ve erişim engeli boyutlarıyla genişlemesi [164e080299, 6aa16a463f, 7c7926e4d8, 277ead3179] ve Ankara Başsavcılığı'nın \"evlilik ayarlama\" iddiasına dayandırdığı Gülen soruşturmasında 60 gözaltı [565f7e2559]. Tutuklu sayısında kaynaklar arasında fark var: bir kayıt en az 53, aynı gün yayımlanan diğer kayıt en az 62 diyor [164e080299, 6aa16a463f]. AİHM istatistikleri, dün başlık düzeyinde geçen %41 oranının arka planını veriyor: 31 Ağustos itibarıyla 58.100 derdest başvurunun 23.850'i Türkiye'ye ilişkin ve artış yılın ilk sekiz ayında yaklaşık %29 [d5c63e300b]. HRC63 takvimi ve BM yan etkinlikleri hareketli; ancak bu kayıtlarda Türkiye'ye özgü bir gündem maddesi görünmüyor [11f803f077, f86d4a334f, f2346a47eb]. INTERPOL, iade veya yaptırım listelerine ilişkin bugün kayıt gelmedi.",
+ "yeni_takip": [
+  {
+   "baslik": "Boydak dosyası: hükümlü Erol Boydak'ın işitme cihazının alınması, koğuş doluluğu ve sağlık erişimi iddiaları",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Cezaevi koşulları ve engellilik uyarlaması iddiaları, AİHM'in 3. madde içtihadıyla (bkz. Demirci kararı) doğrudan kesişiyor; ayrıca 35 şirketin devlete devri ve satışlar malvarlığı dosyalarıyla bağlantılı.",
+   "kayitlar": [
+    "84f484dabc",
+    "001-251824"
+   ]
+  },
+  {
+   "baslik": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararları (Serdar Uzel; yayın el koyma kararları)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
+   "kayitlar": [
+    "f64bb53604",
+    "1387ffbabe"
+   ]
+  },
+  {
+   "baslik": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) ve Adalet Bakanlığı genelgesinin savcılara talimat niteliği",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Gazetecinin iki yıl önce yayımlanmış bir yazı üzerinden tutuklanması ve bakanlık genelgesinin yargıya müdahale olarak nitelenmesi, 10. madde ve yargı bağımsızlığı dosyalarında ayrı bir izleme başlığı gerektiriyor.",
+   "kayitlar": [
+    "89ee1abf99",
+    "fd403aaaec"
+   ]
+  },
+  {
+   "baslik": "Bakanlar Komitesi'nin Türkiye'ye ilişkin genel tedbir gruplarında (Uzan ve Diğerleri, Türk) süregelen denetimi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "İki bireysel dosya kapatılırken malvarlığının otomatik dondurulması ve gözaltında avukata erişim konularında genel tedbir denetimi açık bırakıldı; sonraki DH toplantı gündemleri izlenmeli.",
+   "kayitlar": [
+    "001-252500",
+    "001-252498"
+   ]
+  }
+ ],
+ "birincil_notlar": [
+  {
+   "itemid": "001-252298",
+   "baslik": "Tutuklunun avukatıyla görüşmelerinin izlenmesi ve özel yazışmasının UYAP'ta kaydedilip saklanması",
+   "maddeler": [
+    "8",
+    "8-1"
+   ],
+   "ne_dedi": "İkinci Bölüm Komite olarak, başvurucunun avukatıyla cezaevindeki görüşmelerinin izlenmesi/kaydedilmesi ile özel yazışmasının UYAP sistemine kaydedilip saklanması bakımından şikâyetleri kabul edilebilir buldu ve oybirliğiyle 8. maddenin ihlal edildiğine karar verdi. Manevi zarar için 2.000 euro, masraf ve giderler için 500 euro ödenmesine hükmedildi; başvurucunun talep ettiği 6.000 euroluk vekâlet ücretinin kalanı reddedildi. Ödemeler üç ay içinde, gecikme halinde AMB marjinal kredi faizi artı üç puan işletilerek yapılacak.",
+   "merkez_icin": "Avukat–müvekkil gizliliği ve UYAP'ta kayıt tutma pratiği, merkezin tutuklu yargı mensubu ve Gülen bağlantılı dosyalarındaki aynı tip şikâyetler için doğrudan dayanak oluşturuyor; hükmedilen tutar düzeyi de (2.000 + 500 euro) bu dosya tipinde beklenen adil tazmin bandını gösteriyor.",
+   "haberle_fark": "Önceki günün başlığı \"tutuklu hâkimin 15 avukat görüşmesinin izlenmesi\" biçimindeydi; karar metninde başvurucu Salih Benli'nin mesleği ve izlenen görüşme sayısı bu haldeki metinde geçmiyor, ihlal avukat görüşmelerinin izlenmesi ve UYAP kaydı olarak formüle edilmiştir."
+  },
+  {
+   "itemid": "001-252500",
+   "baslik": "Banka yöneticileriyle aile bağı nedeniyle otomatik ve ayrım gözetmeyen malvarlığı dondurmaya ilişkin kararın icrası",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "Bakanlar Komitesi, 2 Eylül 2026 tarihli 1567. toplantısında CM/ResDH(2026)175 sayılı kararı kabul etti. İhlal, yalnızca banka yöneticileriyle aile bağına dayanan, bireysel yargısal denetim ve usul güvencesi olmaksızın uygulanan otomatik ve ayrım gözetmeyen malvarlığı dondurmasından kaynaklanıyordu. Komite, başvurucular üzerindeki ihtiyati haciz kaldırıldığı ve Tazminat Komisyonu tazminat ödediği için bireysel tedbir sorununu çözümlenmiş saydı, dosyayı kapattı; ancak genel tedbirlerin Uzan ve Diğerleri (19620/05) grubu içinde denetlenmeye devam edeceğine karar verdi.",
+   "merkez_icin": "Malvarlığı dondurma ve yaptırım listesi dosyalarında, bireysel denetim yokluğunun icra aşamasında halen açık bir genel tedbir başlığı olduğunu gösteriyor; dosya kapatılmasının genel tedbir değerlendirmesine halel getirmediği kararda açıkça yazılı.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-252498",
+   "baslik": "Gözaltında avukata erişimin engellenmesi ve bu ifadelerin mahkûmiyette delil olarak kullanılmasına ilişkin kararın icrası",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "CM/ResDH(2026)174 ile Komite, başvurucunun yargılamanın yenilenmesi talebinin kabul edildiğini ve yerel mahkemenin avukat yokluğunda alınan ifadeler dışındaki delillere dayanarak karar verdiğini saptayarak gerekli bireysel tedbirlerin alındığı sonucuna vardı ve dosyanın incelenmesini kapattı. Gözaltında avukata erişim hakkına ilişkin genel tedbirlerin Türk v. Turkey grubu içinde denetlenmesine devam edilecek.",
+   "merkez_icin": "Avukata erişim engeli bulunan dosyalarda yeniden yargılama + delil ayıklaması modelinin Komite tarafından yeterli bireysel tedbir sayıldığını gösteriyor; grup bazlı genel tedbir denetimi ise sürüyor.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-252496",
+   "baslik": "Ceza soruşturmasının aşırı uzunluğuna ilişkin kararın icrası",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "CM/ResDH(2026)173 ile Komite, hükümetin eylem raporunu ve adil tazminin ödendiğine dair bilgiyi inceledi, 46/1 uyarınca gerekli tüm tedbirlerin alındığına kanaat getirdi ve dosyanın incelenmesini kapattı. Kararda ayrı bir genel tedbir grubuna atıf yapılmıyor.",
+   "merkez_icin": "Soruşturma süresi şikâyetlerinde icra sürecinin tazminat ödemesiyle kapanabildiğini gösteren rutin bir kapatma kararı; merkezin uzun yargılama dosyalarında referans değeri var.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-251824",
+   "baslik": "Konya E Tipi Kapalı Cezaevi'nde elverişsiz tutukluluk koşulları",
+   "maddeler": [
+    "3"
+   ],
+   "ne_dedi": "İkinci Bölüm Komitesi, başvuruyu kabul edilebilir buldu ve oybirliğiyle elverişsiz tutukluluk koşulları nedeniyle 3. maddenin (aşağılayıcı muamele, esas bakımından) ihlal edildiğine karar verdi. Mahkeme, İlerde ve Diğerleri ile Kacır ve Diğerleri içtihadına atıfla ekteki tabloda belirtilen tutarların üç ay içinde ödenmesine hükmetti; karar metninde tutarlar tablo halinde verilmiş, gövde metninde sayı yazılı değil. Kararda Konya E Tipi Kapalı Cezaevi C-8, C-6 ve B-6 koğuşları geçiyor.",
+   "merkez_icin": "Cezaevi koşullarına dayanan 3. madde başvurularında komite usulüyle seri karar verilmeye devam ettiğini gösteriyor; bugünkü Sincan Cezaevi iddiaları (sekiz kişilik koğuşta 18 kişi, revir ve hastane sevklerinde aylarca gecikme) aynı içtihat çizgisiyle ilgili.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-251821",
+   "baslik": "Tutukluluğun uzunluğu ve tutukluluk incelemesindeki usul eksiklikleri",
+   "maddeler": [
+    "5",
+    "5-3",
+    "5-4"
+   ],
+   "ne_dedi": "İkinci Bölüm Komitesi, sekiz başvuruda 5/3 (tutukluluğun süresi) ile 5/4 (inceleme usul güvenceleri ve incelemenin hızı) bakımından ihlal saptadı. Gerekçede mahkemelerin kalıplaşmış ve yinelenen gerekçelendirmesi, toplu tutuklama kararları ve katalog suç/kaçma riski gibi soyut dayanaklar Tercan v. Turkey (no. 6158/18) atıflarıyla eleştirildi; 5/4 şikâyetleri tutukluluk incelemesinde duruşma yapılmaması ve soruşturma dosyasına erişimin kısıtlanmasına ilişkin. Verilen metinde hükmedilen tutarlar tablo eki olarak geçiyor, gövdede sayı yok.",
+   "merkez_icin": "Toplu gözaltı ve tutuklama dalgalarında (bugünkü LGBTİ+ operasyonu ve Ankara Gülen soruşturması dahil) 5/3–5/4 şikâyetlerinin hangi ölçütlerle değerlendirildiğini gösteren güncel referans; CMK 100/3 katalog suç gerekçesine dayanan kararlar açıkça eleştirilmiş.",
+   "haberle_fark": ""
+  }
+ ],
+ "baslik": "LGBTİ+ operasyonunda tutuklu sayısı 82'ye çıktı; AİHM avukat gizliliğinde 8. madde ihlali",
+ "brifing": "Günün ana dosyası 12 Eylül'de başlayan LGBTİ+ ve hak savunucularına yönelik operasyonun altıncı günü. Tutuklu sayısı kaynaklarda yükselerek \"en az 82\"ye çıktı; aynı kayıt Ankara, İzmir, Mersin, Aydın mahkemelerinde en az 62, İstanbul'da 20 tutuklama bildiriyor [89ee1abf99]. İstanbul adliyesi önünde gözaltına alınan 106 kişi serbest bırakıldı, buna paralel yeni tutuklamalar sürüyor [5569ec5b81]. Erişim engelleri LGBTİ+ örgütlerinin ötesine geçerek gazeteci hesapları ve kadın örgütlerine yayıldı [277ead3179]; altı Avrupa ülkesi temsilcisi, ARTICLE 19 ortak bildirisi, IPI ve CPJ devreye girdi [89ee1abf99][fe5c5140c0][fd403aaaec]. Birincil belgeler tarafında Benli kararı avukat–müvekkil görüşmelerinin izlenmesi ve UYAP kaydı nedeniyle 8. madde ihlali saptadı; Bakanlar Komitesi ise 2 Eylül'de üç Türkiye dosyasını kapatıp malvarlığı dondurma ve avukata erişim konularında genel tedbir denetimini sürdürdü.",
  "one_cikanlar": [
   {
-   "baslik": "AİHM'de Türkiye kaynaklı derdest başvurular 23.850'ye çıktı",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Kayda göre 31 Ağustos itibarıyla 58.100 derdest başvurunun 23.850'i (%41) Türkiye'ye ilişkin; 2025 sonunda bu sayı 18.464 ve pay %34,5'ti. Türkiye kaynaklı artış, Mahkeme'nin toplam birikimindeki net artıştan (53.450'den 58.100'e) daha büyük. Kayıt, birikimin önemli bölümünün 15 Temmuz 2016 sonrası tedbirlere ve ByLock temelli mahkumiyetlere dayandığını, Yalçınkaya Büyük Daire kararında sorunların sistemik nitelendirildiğini ve o dönemde benzer yaklaşık 8.500 başvurunun derdest olduğunu belirtiyor.",
-   "kayitlar": [
-    "d5c63e300b"
-   ],
-   "guven": "yüksek"
-  },
-  {
-   "baslik": "LGBTİ+ operasyonu: tutuklu sayısında 53 ile 62 arasında farklı rakamlar, Mersin'de iki derneğe kapatma girişimi",
+   "baslik": "LGBTİ+ operasyonunda tutuklu sayısı yükseldi, uluslararası tepki kurumsallaştı",
    "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Bir kayıt Ankara ve Mersin mahkemelerinin 32 kişiyi daha tutukladığını ve ülke genelinde doğrulanmış toplamın en az 53 olduğunu, Ankara'da 15 kişinin karar beklediğini yazıyor [164e080299]. Aynı güne ait diğer kayıt ise toplamı en az 62 verip Mersin'de iki derneğin kapatılması için işlem başlatıldığını, 14 site ile 186 kişisel hesabın engellendiğini bildiriyor [6aa16a463f]. Sayı farkı, farklı kesit saatlerinden kaynaklanabilir; kayıtlar bunu açıklamıyor. Uluslararası örgütler ortak açıklamayla gözaltıların sonlandırılmasını ve usul haklarına saygıyı istedi [fe5c5140c0].",
+   "neden_onemli": "Önceki güne göre iki değişiklik var: rakam bandının üst ucu 62'den 82'ye çıktı ve tepki bireysel örgüt açıklamalarından altı devletin ortak temsilci açıklamasına geçti. Toplu tutuklama gerekçelerinin kalıplaşmış olması, AİHM'in aynı gün kayıtlara giren Macit ve Diğerleri kararındaki 5/3–5/4 ölçütleriyle doğrudan kesişiyor. Gazeteci tutuklamaları dosyayı 10. madde alanına da taşıyor.",
+   "ayrintilar": [
+    "Kayıt \"en az 82 kişinin tutuklandığını\" yazıyor; aynı metinde Ankara, İzmir, Mersin ve Aydın mahkemelerinin en az 62, İstanbul'da bir mahkemenin 20 kişiyi tutukladığı belirtiliyor [89ee1abf99]",
+    "Fransa, İsveç, Finlandiya, Almanya, Hollanda ve İzlanda temsilcileri 12 Eylül'den sonraki işlemleri \"derin kaygı verici\" buldu [89ee1abf99]",
+    "İstanbul adliyesi önünde 106 protestocu gözaltına alınmış, ertesi gün tamamı serbest bırakılmış [5569ec5b81]",
+    "Gazeteci Tuğba Tekerek, Gürcistan'daki seçimler sırasında LGBTİ+ kişilere dair 2024 tarihli bir yazı nedeniyle tutuklandı; CPJ koşulsuz tahliye istedi [89ee1abf99][fd403aaaec]",
+    "Erişim engelleri: 12 Eylül başlangıç, 13 Eylül'de 32 X hesabı, 14 Eylül'de Evrensel, Af Örgütü Türkiye, Barış Akademisyenleri, MLSA, Ali İsmail Korkmaz Vakfı, 16 Eylül'de İrfan Değirmenci, Şirin Payzın, soL Haber, Kadın Koalisyonu, Türkiye Kadın Dernekleri Federasyonu [277ead3179]",
+    "Judith Butler, Thomas Piketty, Slavoj Žižek, Étienne Balibar, Wendy Brown'ın imzacı olduğu akademisyen çağrısı [89ee1abf99]"
+   ],
+   "mekanizma": "AİHS 10, 11 ve 5. madde; kayıtlarda AİHS ve uluslararası insan hakları hukukuna atıfla yapılan devlet temsilcisi açıklamaları, PACE ve BM dışı savunuculuk kanalları anılıyor [89ee1abf99].",
+   "karsi_okuma": "Kayıtlar tutuklu sayısında tek bir doğrulanmış rakam vermiyor; 82 ile 62+20 toplamı arasındaki ilişki kayıttan net çıkmıyor. Hangi kişilerin hangi suçlamayla tutuklandığı, iddianame olup olmadığı ve Adalet Bakanlığı genelgesinin metni kayıtlarda yok.",
    "kayitlar": [
-    "164e080299",
-    "6aa16a463f",
-    "fe5c5140c0"
+    "89ee1abf99",
+    "5569ec5b81",
+    "277ead3179",
+    "fe5c5140c0",
+    "fd403aaaec"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Ankara'da \"evlilik ayarlama\" iddiasıyla 60 gözaltı; kaynaklar 28 ile 72 arasında farklı sayı veriyor",
-   "alan": "Gülen hareketi/KHK dosyaları",
-   "neden_onemli": "Bir kayıt Ankara Başsavcılığı'nın 72 kişi için yakalama kararı verdiğini, MİT ve Ankara polisinin iki turlu operasyonunda 22'si memur olmak üzere 60 kişinin gözaltına alındığını, 12 kişinin arandığını aktarıyor [565f7e2559]. Başka bir kayıt aynı iddia için 28 kişilik gözaltı talimatı bildiriyor [0324e29472]; bunun aynı soruşturmanın farklı bir aşaması olup olmadığı kayıtlardan anlaşılmıyor. Aynı kayıt, Adalet Bakanlığı verilerine atıfla 2016'dan bu yana 127.000'den fazla mahkumiyet, 10.485 tutuklu/hükümlü ve 83.404 kişi hakkında süren yargılama sayısı veriyor.",
+   "baslik": "Benli v. Türkiye: avukat görüşmelerinin izlenmesi ve UYAP kaydı 8. madde ihlali",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "Karar metni elimizde; Mahkeme oybirliğiyle 8. madde ihlali saptadı ve 2.000 euro manevi zarar ile 500 euro masraf ödenmesine hükmetti. Avukat–müvekkil gizliliğinin cezaevi koşullarında ihlali ile yazışmanın UYAP'ta kaydedilip saklanması ayrı ayrı ihlal gerekçesine dâhil edilmiş. Merkezin tutuklu yargı mensubu ve Gülen bağlantılı dosyalarında aynı şikâyet kalıbı tekrar ediyor.",
+   "ayrintilar": [
+    "Başvuru no. 29949/20, 29 Haziran 2020'de yapılmış; karar 15 Eylül 2026'da bildirildi [001-252298]",
+    "Başvurucu Salih Benli, 1976 doğumlu, Ankara'da yaşıyor; vekili Antalya barosuna kayıtlı Av. K. Kıldan [001-252298]",
+    "İkinci Bölüm Komite: Paczolay (başkan), Sagatys, Pisani [001-252298]",
+    "Talep edilen 6.000 euro vekâlet ücretine karşılık 500 euro masraf ödenmesine, kalanın reddine karar verildi [001-252298]"
+   ],
+   "mekanizma": "AİHS 8. madde (özel hayat ve konuta saygı), Komite usulü; ödeme üç ay içinde, gecikmede AMB marjinal kredi faizi + 3 puan [001-252298].",
+   "karsi_okuma": "Karar tek başvurucuya ilişkin bir Komite kararıdır; UYAP kayıt pratiğine dair genel tedbir yükümlülüğü karar metninde formüle edilmemiştir. İzlenen görüşme sayısı verilen metinde geçmiyor.",
    "kayitlar": [
-    "565f7e2559",
+    "001-252298"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "Bakanlar Komitesi 2 Eylül'de üç Türkiye dosyasını kapattı, genel tedbirler açık kaldı",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "Çokbilgin ve Ayvaz'da malvarlığının aile bağına dayanarak otomatik ve ayrım gözetmeksizin dondurulması ihlali için bireysel tedbirler çözümlenmiş sayıldı, ancak genel tedbirler Uzan ve Diğerleri (19620/05) grubunda izlenmeye devam ediyor. Soytemiz'de yeniden yargılama yeterli bireysel tedbir kabul edildi, avukata erişim genel tedbirleri Türk grubunda sürüyor. Bu iki grup, merkezin malvarlığı dondurma ve gözaltı savunma hakkı dosyalarının icra ayağı.",
+   "ayrintilar": [
+    "CM/ResDH(2026)175 – Çokbilgin ve Ayvaz, başvuru no. 3625/05; eylem raporu DH-DD(2025)836; ihtiyati haciz kaldırılmış, Tazminat Komisyonu tazminat ödemiş [001-252500]",
+    "CM/ResDH(2026)174 – Soytemiz, başvuru no. 57837/09; eylem raporu DH-DD(2026)457 [001-252498]",
+    "CM/ResDH(2026)173 – Söyler, başvuru no. 16104/22, aşırı uzun ceza soruşturması; eylem raporu DH-DD(2025)1180 [001-252496]",
+    "Üç karar da 2 Eylül 2026, Bakan Yardımcıları 1567. toplantısında kabul edildi [001-252500][001-252498][001-252496]"
+   ],
+   "mekanizma": "AİHS 46/2 uyarınca Bakanlar Komitesi denetimi; bireysel ve genel tedbir ayrımı, grup dosya usulü [001-252500][001-252498].",
+   "karsi_okuma": "Dosyaların kapatılması genel tedbirlerin tamamlandığı anlamına gelmiyor; kararlar bunu açıkça yazıyor. Uzan ve Türk gruplarında bugüne dair yeni bir Komite değerlendirmesi kayıtlarda yok.",
+   "kayitlar": [
+    "001-252500",
+    "001-252498",
+    "001-252496"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "Anayasa Mahkemesi'nden iki ihlal kararı: darbe mahkûmiyetinde gerekçeli karar, yayın el koymalarında ifade özgürlüğü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "Serdar Uzel dosyasında AYM'nin oybirliğiyle gerekçeli karar hakkının ihlalini saptadığı bildiriliyor; 2016 sonrası darbe yargılamalarının delil ve gerekçe standardına ilişkin iç hukuk denetiminin sürdüğünü gösteriyor [f64bb53604]. Yayın el koyma kararlarının geçici olmasına rağmen yıllarca, bazı dosyalarda soruşturma bittikten sonra da yürürlükte kalması ifade ve basın özgürlüğü ihlali sayılmış [1387ffbabe]. Her iki kayıt başlık-özet düzeyinde.",
+   "ayrintilar": [
+    "Serdar Uzel: eski astsubay, 2016 darbe girişimindeki iddia edilen rolü nedeniyle 12 yıldan fazla hapis cezası [f64bb53604]",
+    "AYM el koyma kararında kitap, dergi, bir gazete ve siyasi broşürlerin hedef alındığını saptamış [1387ffbabe]"
+   ],
+   "mekanizma": "Türkiye Anayasa Mahkemesi bireysel başvuru; gerekçeli karar hakkı ve ifade/basın özgürlüğü. AİHM önünde tükenme değerlendirmesiyle ilgili olabilir.",
+   "karsi_okuma": "Kayıtlarda karar numaraları, karar tarihleri, hükmedilen tazminat ve yeniden yargılama sonucu yok; kararların tam metni görülmedi.",
+   "kayitlar": [
+    "f64bb53604",
+    "1387ffbabe"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Ankara'da \"evlilik ayarlama\" iddialı Gülen soruşturmasında 28 kişi için gözaltı kararı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "Dün kaynakların 28 ile 72 arasında verdiği rakam bandında, Solidarity with OTHERS bugün 28 kişilik gözaltı kararını teyit ediyor [0324e29472]. Soruşturmanın dayanağı olarak sunulan \"evlilik ayarlayan yapı\" iddiası, örgüt üyeliği delillendirmesi bakımından Yalçınkaya sonrası tartışmayla ilgili; ancak kayıt yalnızca başlık düzeyinde.",
+   "ayrintilar": [
+    "Ankara savcılığı, iddia edilen bir Gülen hareketi yapısına ilişkin 28 kişi için gözaltı kararı verdi [0324e29472]"
+   ],
+   "mekanizma": "Kayıtlardan hukuki dayanak çıkmıyor; başlık düzeyinde savcılık gözaltı kararı.",
+   "karsi_okuma": "Kaç kişinin fiilen gözaltına alındığı, tutuklama olup olmadığı ve suçlamanın hukuki niteliği kayıtlarda yok. Dünkü 60 ve 72 rakamlarıyla ilişkisi doğrulanamıyor.",
+   "kayitlar": [
     "0324e29472"
    ],
-   "guven": "orta"
+   "guven": "düşük"
   },
   {
-   "baslik": "Tutuklu hâkimin 15 avukat görüşmesinin izlenmesinde 8. madde ihlali",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Kayıt yalnızca başlık düzeyinde: AİHM, tutuklu bir hâkimin avukatıyla yaptığı 15 görüşmenin tamamının izlenmesi ve mektuplarının saklanması nedeniyle 8. madde ihlali saptamış [6422ed74d1]. Karar adı, başvuru numarası ve tarih kayıtlarda yok. Aynı bulgu dünkü brifingde de öne çıkmıştı; bugün ek olgu gelmedi.",
+   "baslik": "KHK ihraçlarının on yıl sonrası: yüzde 79 işe alınmama, yüzde 73,4 ciddi mali kayıp",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "Rapor verisi, ihracın idari bir tedbir olarak sona ermiş olsa bile etkisinin sürdüğü savını niceliksel olarak destekliyor; merkezin KHK dosyalarında sürekli etki ve mağduriyetin devamı argümanı bakımından kullanılabilir veri [6bad902c60]. Ayrıca Türkiye'nin hukukun üstünlüğünde 173 ülke arasında 149. sırada gösterilmesi genel bağlamı veriyor [5554d597aa].",
+   "ayrintilar": [
+    "Ankete katılan ihraç edilmiş kamu görevlilerinin yüzde 79'u, ihraç bilgisini öğrenen işverenlerin kendilerini işe almadığını söyledi [6bad902c60]",
+    "Yüzde 73,4'ü ciddi mali kayıp bildirdi [6bad902c60]",
+    "Global State of Democracy 2026 (International IDEA): Türkiye hukukun üstünlüğünde 173 ülke içinde 149., kategorinin dört ölçütünün tamamında düşük performanslı [5554d597aa]"
+   ],
+   "mekanizma": "Kayıtlarda doğrudan bir hukuki mekanizma anılmıyor; rapor verisi niteliğinde.",
+   "karsi_okuma": "Örneklem büyüklüğü, anket yöntemi, raporu yayımlayan kurum ve tarih kayıtlarda yer almıyor; oranlar bağımsız olarak doğrulanmadı.",
    "kayitlar": [
-    "6422ed74d1"
+    "6bad902c60",
+    "5554d597aa"
    ],
    "guven": "orta"
-  },
-  {
-   "baslik": "KHK ihraçlarının onuncu yılında istihdam ve gelir kaybı verileri",
-   "alan": "Gülen hareketi/KHK dosyaları",
-   "neden_onemli": "Ankete katılan ihraç edilmiş kamu görevlilerinin %79'u, ihraç bilgisi öğrenilince işe alınmadığını; %73,4'ü ciddi mali kayıp yaşadığını bildirmiş [6bad902c60]. Kayıt başlık ve özet düzeyinde; raporu yayımlayan kuruluş, örneklem ve yöntem verilmiyor. Bu tür veriler ihraç tedbirlerinin süregelen etkisine ilişkin dosyalarda arka plan oluşturur.",
-   "kayitlar": [
-    "6bad902c60"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Basın ve yayın tarafında iki ayrı kısıtlama: tutukluluğun devamı ve belgesel engeli",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "İstanbul 25. Ağır Ceza Mahkemesi, yedi aydan fazla tutuklu olan gazeteci Nadiye Gürbüz'ün tutukluluğunu ilk duruşmada, henüz dinlenmeyen tanıklara dayanarak sürdürdü [fc1a05a957]. Ayrı bir kayıtta, 140journos'un Narin Güran cinayetine ilişkin \"Şeytantepe\" belgeselinin millî güvenlik ve kamu düzeni gerekçesiyle engellendiği ve YouTube'dan kaldırıldığı bildiriliyor [71978289e8]. İkisi de erişim engeli ve tutukluluk pratiğine ilişkin süregelen dosya başlıklarıyla örtüşüyor.",
-   "kayitlar": [
-    "fc1a05a957",
-    "71978289e8"
-   ],
-   "guven": "yüksek"
   }
  ],
  "alan_notlari": [
   {
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "hareketli",
+   "not": "LGBTİ+ operasyonu dosyası günün merkezi: tutuklu sayısı, 106 protestocunun serbest bırakılması, gazeteci tutuklamaları ve genişleyen erişim engelleri. Ayrı iki dosya daha var: MHP lideri Bahçeli'ye yönelik eleştiri nedeniyle üç mahkemenin dört kez reddettiği iddianameyle başlayan gazeteci yargılaması [07234384e0] ve Kaftancıoğlu'nun cumhurbaşkanına hakaret dosyası [2b435c5cd2]. AYM'nin yayın el koyma kararlarına ilişkin ihlal kararı aynı alanda [1387ffbabe].",
+   "kayitlar": [
+    "89ee1abf99",
+    "5569ec5b81",
+    "277ead3179",
+    "fd403aaaec",
+    "fe5c5140c0",
+    "07234384e0",
+    "2b435c5cd2",
+    "1387ffbabe"
+   ]
+  },
+  {
    "alan": "AİHM başvuruları ve kararların icrası",
    "durum": "hareketli",
-   "not": "Derdest dosya istatistikleri ve tutuklu hâkime ilişkin 8. madde bulgusu aynı gün geldi [d5c63e300b, 6422ed74d1]. Ayrıca Avrupa Konseyi Göç ve Mülteciler Birimi, yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik bir belge yayımladı; kayıt başlık ve kısa özet düzeyinde [c23be3b155].",
+   "not": "Bir esas kararı (Benli, 8. madde) ve üç Bakanlar Komitesi icra kararı kayıtlara girdi; ayrıca 27 Ağustos tarihli Demirci (3. madde, cezaevi koşulları) ve Macit ve Diğerleri (5/3, 5/4) kararlarının metinleri elde. Avrupa Konseyi Göç ve Mülteciler Bölümü, AİHM'in yabancıların girişi ve sınır dışı edilmesine ilişkin içtihadı üzerine tematik bir çalışma yayımladı [c23be3b155].",
    "kayitlar": [
-    "d5c63e300b",
-    "6422ed74d1",
+    "001-252298",
+    "001-252500",
+    "001-252498",
+    "001-252496",
+    "001-251824",
+    "001-251821",
     "c23be3b155"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "durum": "hareketli",
-   "not": "Ankara merkezli gözaltı dalgası ve ihraç mağdurlarına ilişkin rapor verileri öne çıktı [565f7e2559, 0324e29472, 6bad902c60]. Türkiye'nin küresel demokrasi raporunda hukuk devleti başlığında 173 ülke arasında 149. sırada ve dört ölçütün tamamında düşük performanslı sayıldığı bildirildi [5554d597aa]. Sınıraşan baskı başlığında bugün gelen kayıtlar Çin ve Rusya'ya ilişkin [980858bd29, aea8752c94, f86d4a334f].",
+   "not": "Üç ayrı hat: Ankara'daki 28 kişilik gözaltı kararı [0324e29472], ihraç edilenlerin istihdam ve mali durumuna dair rapor verileri [6bad902c60], ve Boydak dosyasında hükümlünün işitme cihazının Bluetooth özelliği nedeniyle alınması ile cezaevi koşulları iddiaları [84f484dabc]. Boydak kaydı ayrıca 35 şirketin devlete devri ve satış tutarlarını içeriyor; malvarlığı dosyalarıyla kesişiyor.",
    "kayitlar": [
-    "565f7e2559",
     "0324e29472",
     "6bad902c60",
-    "5554d597aa",
-    "980858bd29",
-    "aea8752c94"
+    "84f484dabc",
+    "f64bb53604",
+    "5554d597aa"
    ]
   },
   {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "Erişim engelleri 12 Eylül'de LGBTİ+ örgütleriyle başlayıp 13 Eylül'de 32 X hesabı, 14 Eylül'de Evrensel, Af Örgütü Türkiye, Barış Akademisyenleri, MLSA ve Ali İsmail Korkmaz Vakfı, 16 Eylül'de İrfan Değirmenci, Şirin Payzın, soL Haber, Kadın Koalisyonu ve Türkiye Kadın Dernekleri Federasyonu hesaplarına genişledi; listelerin güncellendiği belirtiliyor [277ead3179, 7c7926e4d8]. Gazeteci tutukluluğu ve belgesel engeli aynı gün kayda geçti [fc1a05a957, 71978289e8].",
-   "kayitlar": [
-    "277ead3179",
-    "7c7926e4d8",
-    "fc1a05a957",
-    "71978289e8"
-   ]
-  },
-  {
-   "alan": "BM insan hakları mekanizmaları",
+   "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "HRC63 kapsamında ICJ, Keyfi Tutuklamalar Çalışma Grubu ile interaktif diyalogda Mısır'a ilişkin sözlü açıklama yaptı ve insanlığa karşı suç soruşturması gerekliliğini savundu [11f803f077]. 23 Eylül'de Rusya'daki ve sürgündeki avukatlar üzerine yan etkinlik, 21-25 Eylül'de kadın insan hakları savunucuları savunuculuk haftası duyuruldu [f86d4a334f, f2346a47eb]. Kayıtlarda Türkiye'ye özgü bir HRC63 gündemi yok.",
+   "not": "Lahey İdare Mahkemesi, IOM desteğiyle Türkiye'ye gönüllü dönen başvurucu ve ailesinin davasında dava menfaati kalmadığı gerekçesiyle başvuruyu kabul edilemez buldu (NL26.10393) [b23741636a]. EUAA'nın 2026 yılı ortası iltica eğilimleri raporu yayımlandı; ECRE istatistiklerin dikkatli kullanımı konusunda uyarısını yineledi [4e7b8dd15b]. Von der Leyen SOTEU'da Göç ve İltica Paktı'nın uygulanması, geri dönüşlerin iyileştirilmesi ve Schengen vize çerçevesinin modernizasyonunu anlattı [fb2935a845].",
    "kayitlar": [
-    "11f803f077",
-    "f86d4a334f",
-    "f2346a47eb"
+    "b23741636a",
+    "4e7b8dd15b",
+    "fb2935a845",
+    "c23be3b155"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
    "durum": "olağan",
-   "not": "FRA, Giriş/Çıkış Sistemi'nde biyometrik veri toplama, veri koruma ve sınır dışı korumasına ilişkin temel hak güvencelerini sundu [48b18bcc70]; ayrıca Konsey e-Adalet Çalışma Grubu'nda uzaktan duruşmalar ve COSI destek grubunda kolluğun veriye erişimi ele alındı [0f7bac19d0, ff32cf8eb4]. 22 ve 24 Eylül'de Brüksel'de yapay zekâ–hukuk devleti ve sivil alan girişimi etkinlikleri duyuruldu [7d3b551916, 0809947ef1].",
+   "not": "FRA etkinlik ve sunum akışı: Giriş/Çıkış Sistemi'nde biyometrik veri ve temel haklar [48b18bcc70], e-adalet çalışma grubunda uzaktan duruşmalar ve COSI destek grubunda kolluğun veriye erişimi [0f7bac19d0], Europol EDEN konferansında Kolluk Direktifi [ff32cf8eb4], 22 Eylül'de Brüksel'de yapay zekâ ve hukukun üstünlüğü paneli, 24 Eylül'de sivil alan projesi tanıtımı [7d3b551916][0809947ef1].",
    "kayitlar": [
     "48b18bcc70",
     "0f7bac19d0",
     "ff32cf8eb4",
     "7d3b551916",
-    "0809947ef1"
+    "0809947ef1",
+    "c2ed0177db"
    ]
   },
   {
-   "alan": "İade, adli yardım ve iltica",
-   "durum": "sessiz",
-   "not": "Lahey Mahkemesi'nin 16 Eylül tarihli iki bağlantılı iltica kararı yalnızca ECLI ve anahtar kelime düzeyinde kayıtta; içerik yok [deacb927e3]. Europol tarafında SIRIUS irtibat noktası ağı toplantısı ve elektronik delil çerçevesine geçiş bildirildi [eb6846d9b3]; diğer Europol kayıtları merkezin dosyalarıyla doğrudan ilgili değil.",
-   "kayitlar": [
-    "deacb927e3",
-    "eb6846d9b3"
-   ]
-  },
-  {
-   "alan": "Avukat hakları",
+   "alan": "BM insan hakları mekanizmaları",
    "durum": "olağan",
-   "not": "Belaruslu avukat Dmitri Laevski'nin mahkumiyeti ve hapsi ortak açıklamayla kınandı; kayıt başlık ve özet düzeyinde [5e9569f7de]. Rusya'daki ve sürgündeki avukatlara yönelik disbarment, kovuşturma ve aile üyeleri üzerinden sınıraşan baskı, HRC63 yan etkinliğinin konusu olarak tanımlanıyor [f86d4a334f].",
+   "not": "HRC63 gündemi: ICJ, Keyfi Tutuklamalar Çalışma Grubu'yla interaktif diyalogda Mısır'da keyfi tutuklamanın yaygın ve sistematik olabileceğini, insanlığa karşı suç soruşturması gerektirdiğini söyledi [11f803f077]. Lawyers for Lawyers 23 Eylül'de Palais des Nations'da Rusya'daki ve sürgündeki avukatlar üzerine yan etkinlik düzenliyor; gündemde avukat–müvekkil gizliliğinin erozyonu ve sınıraşan baskı var [f86d4a334f]. 21–25 Eylül'de Kadın İnsan Hakları Savunucuları Savunuculuk Haftası [f2346a47eb].",
    "kayitlar": [
-    "5e9569f7de",
+    "11f803f077",
+    "f86d4a334f",
+    "f2346a47eb",
+    "47b34b0e34"
+   ]
+  },
+  {
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "olağan",
+   "not": "İki hat: Çokbilgin ve Ayvaz icra kararında aile bağına dayalı otomatik malvarlığı dondurmasına ilişkin genel tedbirler Uzan grubunda açık bırakıldı [001-252500]; Belarus'ta 25 siyasi tutuklunun serbest bırakılması karşılığında ABD'nin iki Belarus şirketine yönelik yaptırımları kaldırdığı bildirildi [b14c3cdc03].",
+   "kayitlar": [
+    "001-252500",
+    "b14c3cdc03",
+    "84f484dabc"
+   ]
+  },
+  {
+   "alan": "Sınıraşan baskı",
+   "durum": "olağan",
+   "not": "Freedom House'un da imzacı olduğu ortak mektup, 24 Eylül'deki Washington ziyareti öncesinde Çin'e sınıraşan baskıya son verme çağrısı yaptı; imzacıların ABD'de taciz, takip ve gözetime maruz kaldığı belirtiliyor [980858bd29]. HRW, Çin'in yeni sınır kararnamesinin ülkeden çıkış hakkını keyfi biçimde kısıtladığını bildirdi [aea8752c94]. Belarus'ta tahliye koşulu olarak zorla sınır dışı etme pratiği BM uzmanlarının uluslararası hukuka aykırı bulduğu bir uygulama olarak anılıyor [b14c3cdc03].",
+   "kayitlar": [
+    "980858bd29",
+    "aea8752c94",
+    "b14c3cdc03",
     "f86d4a334f"
    ]
   }
  ],
+ "kronoloji": [
+  {
+   "tarih": "2026-09-12",
+   "adim": "LGBTİ+ dernekleri, örgütleri ve aktivistlerine yönelik operasyon ve erişim engelleri başladı.",
+   "kayitlar": [
+    "277ead3179",
+    "89ee1abf99"
+   ]
+  },
+  {
+   "tarih": "2026-09-13",
+   "adim": "Aralarında çok sayıda üniversite LGBTİ+ topluluğunun bulunduğu 32 X hesabı daha erişime engellendi.",
+   "kayitlar": [
+    "277ead3179"
+   ]
+  },
+  {
+   "tarih": "2026-09-14",
+   "adim": "Engellemeler Evrensel Gazetesi, Af Örgütü Türkiye, Barış Akademisyenleri, MLSA ve Ali İsmail Korkmaz Vakfı hesaplarına yayıldı.",
+   "kayitlar": [
+    "277ead3179"
+   ]
+  },
+  {
+   "tarih": "2026-09-16",
+   "adim": "İrfan Değirmenci, Şirin Payzın, soL Haber, Kadın Koalisyonu ve Türkiye Kadın Dernekleri Federasyonu hesapları engellendi; ARTICLE 19 öncülüğünde ortak bildiri yayımlandı; İstanbul adliyesi önünde 106 kişi gözaltına alındı.",
+   "kayitlar": [
+    "277ead3179",
+    "fe5c5140c0",
+    "5569ec5b81"
+   ]
+  },
+  {
+   "tarih": "2026-09-17",
+   "adim": "Altı Avrupa ülkesinin temsilcileri açıklama yaptı; tutuklu sayısı en az 82 olarak bildirildi; 106 protestocu serbest bırakılırken yeni tutuklamalar yapıldı; IPI ve CPJ tutuklu gazeteciler için çağrıda bulundu.",
+   "kayitlar": [
+    "89ee1abf99",
+    "5569ec5b81",
+    "fd403aaaec"
+   ]
+  }
+ ],
  "izlenecekler": [
-  "\"Ailem Güvende\" operasyonunda tutuklu sayısının netleşmesi, Mersin'deki iki derneğe yönelik kapatma işlemlerinin akıbeti ve engel listelerinin genişlemesi [164e080299, 6aa16a463f, 277ead3179]",
-  "Ankara'daki \"evlilik ayarlama\" soruşturmasında aranan 12 kişi ve gözaltıların tutuklamaya dönüşüp dönüşmeyeceği; 28 ile 72 arasındaki sayı farkının açıklığa kavuşması [565f7e2559, 0324e29472]",
-  "AİHM'de Türkiye kaynaklı derdest dosya sayısının eylül istatistiklerinde seyri ve Yalçınkaya benzeri grup başvurularının işlem hızı [d5c63e300b]",
-  "Tutuklu hâkim kararının künyesi (başvuru numarası, tarih) ve icra aşamasına ilişkin bilgi [6422ed74d1]",
-  "HRC63'ün 21-25 Eylül haftasındaki oturum ve yan etkinliklerinde Türkiye'ye ilişkin açıklama gelip gelmeyeceği [f86d4a334f, f2346a47eb, 11f803f077]"
+  "LGBTİ+ operasyonunda tutuklu sayısının seyri ve kaynaklar arasındaki 62/82 farkının netleşmesi; iddianame hazırlanıp hazırlanmadığı",
+  "Adalet Bakanlığı genelgesinin metni ve savcılara talimat niteliğine yönelik itirazların hukuki sonucu",
+  "Bakanlar Komitesi'nin Uzan ve Diğerleri (19620/05) ile Türk v. Turkey gruplarındaki genel tedbir denetiminin sonraki DH gündemleri",
+  "Benli kararının icrası: UYAP'ta avukat yazışmasının kaydedilmesi pratiğine dair genel tedbir bildirimi gelip gelmeyeceği",
+  "Ankara \"evlilik ayarlama\" soruşturmasında gözaltı kararlarının infazı ve tutuklama sayıları",
+  "Boydak dosyasında işitme cihazı ve cezaevi koşulları iddialarına Adalet Bakanlığı'nın yanıtı"
  ],
  "gun": "2026-09-17",
- "olusturma": "2026-09-17T10:17+00:00",
+ "olusturma": "2026-09-17T21:19+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "d5c63e300b",
-  "565f7e2559",
-  "deacb927e3",
+  "84f484dabc",
+  "b23741636a",
   "48b18bcc70",
+  "89ee1abf99",
+  "b14c3cdc03",
+  "4e7b8dd15b",
+  "6ce3e09f0f",
+  "fb2935a845",
   "f2346a47eb",
   "277ead3179",
   "980858bd29",
   "11f803f077",
   "f6080044aa",
   "f86d4a334f",
-  "8e978e5cfb",
   "0f7bac19d0",
   "ff32cf8eb4",
   "c2ed0177db",
@@ -207,35 +428,32 @@
   "0809947ef1",
   "5e9569f7de",
   "0324e29472",
+  "9def38d938",
+  "5b1ffcb4f0",
+  "f64bb53604",
+  "fd403aaaec",
+  "47b088531a",
+  "07234384e0",
+  "1387ffbabe",
+  "5569ec5b81",
+  "2b435c5cd2",
+  "45c23b118c",
   "aea8752c94",
-  "46a1323c2f",
+  "c5ddd73339",
   "5554d597aa",
   "6bad902c60",
-  "a5a8d435ba",
-  "6aa16a463f",
-  "fc1a05a957",
-  "7c7926e4d8",
   "3093f95ceb",
-  "fd4318f796",
-  "71978289e8",
   "eb921707a6",
-  "164e080299",
+  "78d9b45057",
   "47b34b0e34",
+  "7a5dfd120d",
+  "6e19051a68",
+  "c96f7e1ddd",
   "c23be3b155",
   "dcb84f3164",
-  "fe5c5140c0",
-  "6422ed74d1",
-  "b1689a07bf",
-  "eb6846d9b3",
-  "cc6618201b",
-  "3323b88401",
-  "432f7ee777",
-  "fbadee5f32",
-  "abe8a2c57d",
-  "e1012e4e37",
-  "f66a86f9fa"
+  "fe5c5140c0"
  ],
- "maliyet_usd": 0.2823,
+ "maliyet_usd": 0.5077,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "takip_acik": [
   {
@@ -244,7 +462,7 @@
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-17",
    "son_hareket": "2026-09-17",
-   "hareket_sayisi": 0
+   "hareket_sayisi": 1
   },
   {
    "id": "t2",
@@ -252,7 +470,7 @@
    "alan": "Gülen hareketi/KHK dosyaları",
    "acildi": "2026-09-17",
    "son_hareket": "2026-09-17",
-   "hareket_sayisi": 0
+   "hareket_sayisi": 1
   },
   {
    "id": "t3",
@@ -260,12 +478,44 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-17",
    "son_hareket": "2026-09-17",
-   "hareket_sayisi": 0
+   "hareket_sayisi": 1
   },
   {
    "id": "t4",
    "baslik": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor verileri",
    "alan": "Gülen hareketi/KHK dosyaları",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-09-17",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t5",
+   "baslik": "Boydak dosyası: hükümlü Erol Boydak'ın işitme cihazının alınması, koğuş doluluğu ve sağlık erişimi iddiaları",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-09-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t6",
+   "baslik": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararları (Serdar Uzel; yayın el koyma kararları)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-09-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t7",
+   "baslik": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) ve Adalet Bakanlığı genelgesinin savcılara talimat niteliği",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-09-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t8",
+   "baslik": "Bakanlar Komitesi'nin Türkiye'ye ilişkin genel tedbir gruplarında (Uzan ve Diğerleri, Türk) süregelen denetimi",
+   "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-17",
    "son_hareket": "2026-09-17",
    "hareket_sayisi": 0

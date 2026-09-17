@@ -15,7 +15,19 @@
     "277ead3179",
     "fe5c5140c0"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-17",
+     "not": "Operasyonda tutuklu sayısı yükseldi: bir kayıt \"en az 82 kişi\" derken aynı kaydın metninde Ankara, İzmir, Mersin ve Aydın mahkemelerinin en az 62 kişiyi, İstanbul'da bir mahkemenin 20 kişiyi daha tutukladığı belirtiliyor [89ee1abf99]. İstanbul adliyesi önünde gözaltına alınan 106 protestocu serbest bırakıldı, aynı gün yeni tutuklamalar oldu [5569ec5b81]. Erişim engelleri 12–16 Eylül arasında genişledi; 16 Eylül'de İrfan Değirmenci, Şirin Payzın, soL Haber, Kadın Koalisyonu ve Türkiye Kadın Dernekleri Federasyonu hesapları da engellendi [277ead3179]. Altı Avrupa ülkesinin insan hakları/LGBTİ+ temsilcileri, ARTICLE 19 önderliğindeki ortak açıklama, IPI ve CPJ çağrıları eklendi [89ee1abf99][fe5c5140c0][fd403aaaec]. Mersin'deki iki derneğe kapatma davasına ilişkin bugünkü kayıtlarda yeni bilgi yok.",
+     "kayitlar": [
+      "89ee1abf99",
+      "5569ec5b81",
+      "277ead3179",
+      "fe5c5140c0",
+      "fd403aaaec"
+     ]
+    }
+   ]
   },
   {
    "id": "t2",
@@ -29,7 +41,15 @@
     "565f7e2559",
     "0324e29472"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-17",
+     "not": "Solidarity with OTHERS, Ankara savcılığının \"evlilik ayarlama\" yapısı iddiasıyla 28 kişi için gözaltı kararı verdiğini başlık düzeyinde aktardı [0324e29472]. Bu, önceki gün kaynakların 28 ile 72 arasında verdiği rakam aralığının alt ucunu teyit ediyor; kalan yakalama kararlarının infazına ilişkin yeni veri yok.",
+     "kayitlar": [
+      "0324e29472"
+     ]
+    }
+   ]
   },
   {
    "id": "t3",
@@ -42,7 +62,18 @@
    "kayitlar": [
     "d5c63e300b"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-17",
+     "not": "Derdest başvuru sayısına ilişkin yeni veri gelmedi; ancak Bakanlar Komitesi'nin 2 Eylül 1567. toplantısında alınan üç icra kararı (Çokbilgin ve Ayvaz, Soytemiz, Söyler) kayıtlara girdi; ikisinde bireysel tedbirler kapatılırken genel tedbirler Uzan ve Diğerleri ile Türk grubu dosyalarında izlenmeye devam ediyor [001-252500][001-252498][001-252496]. Ayrıca Benli kararı (8. madde, avukat görüşmelerinin izlenmesi) metniyle teyit edildi [001-252298].",
+     "kayitlar": [
+      "001-252500",
+      "001-252498",
+      "001-252496",
+      "001-252298"
+     ]
+    }
+   ]
   },
   {
    "id": "t4",
@@ -55,9 +86,73 @@
    "kayitlar": [
     "6bad902c60"
    ],
+   "gelismeler": [
+    {
+     "gun": "2026-09-17",
+     "not": "Rapor verileri ikinci kez kayıtlara girdi: ihraç edilen kamu görevlilerinin yüzde 79'u ihraç bilgisinin öğrenilmesi üzerine işe alınmadığını, yüzde 73,4'ü ciddi mali kayıp yaşadığını bildirdi [6bad902c60]. Kayıt başlık-özet düzeyinde; örneklem büyüklüğü ve yöntem verilmemiş.",
+     "kayitlar": [
+      "6bad902c60"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "baslik": "Boydak dosyası: hükümlü Erol Boydak'ın işitme cihazının alınması, koğuş doluluğu ve sağlık erişimi iddiaları",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Cezaevi koşulları ve engellilik uyarlaması iddiaları, AİHM'in 3. madde içtihadıyla (bkz. Demirci kararı) doğrudan kesişiyor; ayrıca 35 şirketin devlete devri ve satışlar malvarlığı dosyalarıyla bağlantılı.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "84f484dabc",
+    "001-251824"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t6",
+   "baslik": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararları (Serdar Uzel; yayın el koyma kararları)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "f64bb53604",
+    "1387ffbabe"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t7",
+   "baslik": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) ve Adalet Bakanlığı genelgesinin savcılara talimat niteliği",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Gazetecinin iki yıl önce yayımlanmış bir yazı üzerinden tutuklanması ve bakanlık genelgesinin yargıya müdahale olarak nitelenmesi, 10. madde ve yargı bağımsızlığı dosyalarında ayrı bir izleme başlığı gerektiriyor.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "89ee1abf99",
+    "fd403aaaec"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t8",
+   "baslik": "Bakanlar Komitesi'nin Türkiye'ye ilişkin genel tedbir gruplarında (Uzan ve Diğerleri, Türk) süregelen denetimi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "İki bireysel dosya kapatılırken malvarlığının otomatik dondurulması ve gözaltında avukata erişim konularında genel tedbir denetimi açık bırakıldı; sonraki DH toplantı gündemleri izlenmeli.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "001-252500",
+    "001-252498"
+   ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-17T10:17+00:00",
- "acik": 4
+ "guncelleme": "2026-09-17T21:20+00:00",
+ "acik": 8
 }
