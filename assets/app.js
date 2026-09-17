@@ -123,9 +123,26 @@ window.gorselOran = function (img) {
    islev tanimlanmadan once "complete" olabiliyor ve olay hic dusmuyor.
    Her cizimden sonra yuklenmis gorselleri tarayip, yuklenmemislere
    dinleyici takiyoruz. */
-const GORSEL_SURE = 10000;      // bu sureyi asan gorsel yok sayilir
+const GORSEL_SURE = 10000;      // gorunur alana girdikten sonraki bekleme
+
+/* Sure sayaci ancak gorsel goruş alanina yaklastiginda baslar: tembel
+   yuklenen (loading="lazy") bir gorsel daha istek atmamis olabilir ve
+   onu "yuklenemedi" sayip silmek yanlis olur. */
+function sureBasla(img) {
+  setTimeout(() => {
+    if (!img.dataset.oranli && img.isConnected && !img.naturalWidth) window.gorselHata(img);
+  }, GORSEL_SURE);
+}
 
 function gorselleriAyarla(kok = document) {
+  const gozlemci = window.IntersectionObserver ? new IntersectionObserver((girisler, g) => {
+    girisler.forEach((giris) => {
+      if (!giris.isIntersecting) return;
+      g.unobserve(giris.target);
+      sureBasla(giris.target);
+    });
+  }, { rootMargin: '500px' }) : null;
+
   kok.querySelectorAll('.manset-img img, .gorsel img').forEach((img) => {
     if (img.dataset.oranli) return;
     const bitti = () => {
@@ -137,9 +154,8 @@ function gorselleriAyarla(kok = document) {
     img.addEventListener('load', bitti, { once: true });
     // Kaynagin sunucusu yavas ya da hotlink'e kapali olabiliyor. Kalici
     // gri kutu birakmak yerine, suresi gecen gorseli kaldiriyoruz.
-    setTimeout(() => {
-      if (!img.dataset.oranli && img.isConnected && !img.naturalWidth) window.gorselHata(img);
-    }, GORSEL_SURE);
+    if (gozlemci) gozlemci.observe(img);
+    else sureBasla(img);
   });
 }
 
@@ -757,10 +773,13 @@ function kurFab() {
     const gundem = !document.getElementById('view-gundem').hidden;
     const hedef = akis();
     if (!gundem || !hedef) { fab.classList.remove('gorunur'); return; }
-    const akisUstte = hedef.getBoundingClientRect().top < 120;
-    fab.textContent = akisUstte ? '↑ başa' : '↓ akışa';
-    fab.dataset.yon = akisUstte ? 'bas' : 'akis';
-    fab.classList.toggle('gorunur', scrollY > 400 || !akisUstte);
+    // Akisin basligi ekranin ust dortte birini gectiyse artik akistayiz.
+    // (Sabit piksel esigi, cipa hizalamasiyla kil payi uyusmuyordu.)
+    const hedefUst = hedef.getBoundingClientRect().top + scrollY;
+    const akista = scrollY + innerHeight * 0.4 >= hedefUst;
+    fab.textContent = akista ? '↑ Başa dön' : '↓ Tüm gelişmeler';
+    fab.dataset.yon = akista ? 'bas' : 'akis';
+    fab.classList.toggle('gorunur', scrollY > 400);
   };
   fab.addEventListener('click', () => {
     if (fab.dataset.yon === 'bas') scrollTo({ top: 0, behavior: 'smooth' });
