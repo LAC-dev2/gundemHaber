@@ -144,7 +144,8 @@ function card(it) {
   const pr = slug(it.oncelik || '');
   const prCls = pr === 'kritik' ? 'kritik' : pr === 'yuksek' ? 'yuksek' : '';
   const d = new Date(it.tarih);
-  return `<article class="card${gorselli(it) ? '' : ' gorselsiz'}" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+  return `<article class="card${gorselli(it) ? '' : ' gorselsiz'}" data-ic="${ic(it)}"
+    style="--c:${RC[it.bolge] || 'var(--petrol)'}">
     ${gorselBagi(it)}
     <div class="govde">
     <div class="meta">
@@ -666,6 +667,32 @@ function kipSec(kip, gun) {
 
 /* Sayfa ici hizli gecis: akis 4-5 ekran asagida kaliyor, manset de
    geri donulecek yer. Dugme bulundugun yere gore yon degistirir. */
+/* Yapiskan baslik yuksekligi cihaza gore degisiyor (masaustu ~107,
+   telefon ~74). Suzgec cubugunun ve cipa hedeflerinin bu olcuye gore
+   hizalanmasi icin olcup degiskene yaziyoruz. */
+/* Kartin her yeri tiklanabilir olsun: baslik ya da gorsele isabet
+   ettirmek zorunda kalmak, ozellikle telefonda yoruyor. Baglantilar,
+   dugmeler ve metin secimi haric tutulur. */
+function kurKartTiklama() {
+  document.addEventListener('click', (ev) => {
+    if (ev.target.closest('a,button,input,select,textarea,label,summary')) return;
+    const kart = ev.target.closest('.card[data-ic]');
+    if (!kart) return;
+    if (String(getSelection())) return;
+    location.href = kart.dataset.ic;
+  });
+}
+
+function olcBaslik() {
+  const h = document.querySelector('header.top');
+  if (!h) return;
+  const yaz = () => document.documentElement.style.setProperty(
+    '--bh', Math.round(h.getBoundingClientRect().height) + 'px');
+  yaz();
+  if (window.ResizeObserver) new ResizeObserver(yaz).observe(h);
+  else addEventListener('resize', yaz);
+}
+
 function kurFab() {
   const fab = document.getElementById('fab');
   if (!fab) return;
@@ -853,6 +880,8 @@ async function drawArchive() {
   renderLead();
   renderUyari();
   renderAnalizOzet();
+  olcBaslik();
+  kurKartTiklama();
   kurFab();
   renderRegions();
 
