@@ -455,10 +455,10 @@ footer a{color:#8FD6EC}
 .analiz-blok h3{font-size:1.2rem;margin-bottom:var(--s4);padding:8px var(--s3);
   background:var(--ink);color:#fff;border-radius:var(--r);display:inline-block}
 .one-cikan{list-style:none;counter-reset:oc;margin:0;padding:0;display:grid;gap:var(--s4)}
-.one-cikan li{counter-increment:oc;position:relative;background:var(--surface);
+.one-cikan>li{counter-increment:oc;position:relative;background:var(--surface);
   border:1px solid var(--hair-2);border-left:4px solid var(--accent);border-radius:var(--r);
   padding:var(--s4) var(--s4) var(--s4) var(--s6)}
-.one-cikan li::before{content:counter(oc);position:absolute;left:var(--s4);top:var(--s4);
+.one-cikan>li::before{content:counter(oc);position:absolute;left:var(--s4);top:var(--s4);
   font-family:var(--display);font-size:1.5rem;font-weight:700;color:var(--accent);opacity:.55}
 .oc-ust{display:flex;flex-wrap:wrap;gap:var(--s2);margin-bottom:var(--s2)}
 .tag.alan{background:var(--deep);color:#fff}
@@ -483,8 +483,8 @@ footer a{color:#8FD6EC}
   border-left:3px solid var(--accent);border-radius:var(--r);padding:var(--s3);margin:0 0 var(--s3)}
 .analiz-kunye .mono{font-size:.74rem;color:var(--ink-3);margin:0}
 @media (max-width:760px){
-  .one-cikan li{padding:var(--s4) var(--s3) var(--s3) var(--s5)}
-  .one-cikan li::before{left:var(--s2);font-size:1.2rem}
+  .one-cikan>li{padding:var(--s4) var(--s3) var(--s3) var(--s5)}
+  .one-cikan>li::before{left:var(--s2);font-size:1.2rem}
 }
 
 /* ───────────────────────────────────────────────────────────── analiz et */
@@ -505,3 +505,28 @@ footer a{color:#8FD6EC}
 .cerceve li p{margin:var(--s2) 0 0;font-size:.94rem;color:var(--ink-2)}
 .ozgun{font-size:.82rem;color:var(--ink-3);border-left:3px solid var(--hair);
   padding-left:var(--s3);margin:0 0 var(--s3)}
+
+/* analizde dayanak kayıtları */
+.ref{font-size:.62em;font-weight:700;color:var(--accent);padding:0 1px;vertical-align:super}
+.dayanak{list-style:none;margin:var(--s3) 0 0;padding:0;display:grid;gap:1px;
+  background:var(--hair-2);border:1px solid var(--hair-2);border-radius:var(--r);overflow:hidden}
+.dayanak li{display:flex;gap:var(--s3);background:var(--white);padding:10px var(--s3);align-items:baseline}
+.dayanak .no{font-family:var(--mono);font-size:.74rem;font-weight:500;color:var(--accent);
+  min-width:1.3em;text-align:right}
+.dayanak a{text-decoration:none;display:block}
+.dayanak b{display:block;font-family:var(--display);font-size:.98rem;font-weight:500;
+  line-height:1.25;color:var(--ink)}
+.dayanak a:hover b{color:var(--accent)}
+.dayanak .kunye{display:flex;align-items:center;gap:7px;font-size:.7rem;color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-top:3px}
+.dayanak .kunye .pin{width:7px;height:7px;border-radius:2px;background:var(--c,var(--accent-2))}
+.dayanak li.yok{color:var(--ink-3);font-size:.86rem}
+.tum-kayitlar{margin-top:var(--s4);border:1px solid var(--hair-2);border-radius:var(--r);
+  background:var(--surface);padding:var(--s3) var(--s4)}
+.tum-kayitlar summary{cursor:pointer;font-size:.78rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--ink-2)}
+.tum-kayitlar summary:hover{color:var(--accent)}
+.tum-kayitlar .dayanak{max-height:420px;overflow-y:auto}
+
+.kaynak-ekle-satir{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center;margin:var(--s4) 0}
+.kaynak-ekle-satir .muted{font-size:.86rem;max-width:58ch}

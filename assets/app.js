@@ -407,13 +407,31 @@ function fillSelect(el, values, label) {
 const GUVEN = { 'yüksek': 'birincil', 'orta': 'yuksek', 'düşük': 'kritik' };
 const DURUM = { 'hareketli': 'kritik', 'olağan': 'birincil', 'sessiz': '' };
 
+/* Analiz metnindeki [anahtar] kodlarını dipnot numarasına çevirir; okunan
+   metinde kod değil numara görünür, numaranın karşılığı altta listelenir. */
+function refliMetin(metin, anahtarlar) {
+  const sira = new Map((anahtarlar || []).map((k, i) => [k, i + 1]));
+  return esc(metin).replace(/\[([0-9a-f]{6,12})\]/g, (t, k) => {
+    const n = sira.get(k);
+    return n ? `<sup class="ref">${n}</sup>` : '';
+  }).replace(/\s+([.,;:])/g, '$1');
+}
+
+/* Dayanılan kayıtlar: kaynak adı değil, haberin kendisi görünsün. */
 function kayitBaglari(anahtarlar) {
-  return (anahtarlar || []).map((k) => {
+  const satirlar = (anahtarlar || []).map((k, i) => {
     const it = state.items.find((x) => x.k === k);
-    if (!it) return '';
-    return `<a class="kayit-bag" href="${ic(it)}" title="${esc(it.baslik)}">
-      <span class="pin" style="--c:${RC[it.bolge] || 'var(--accent-2)'}"></span>${esc(it.kaynak)}</a>`;
-  }).filter(Boolean).join('');
+    if (!it) return `<li class="yok"><span class="no">${i + 1}</span>
+      <span>Bu kayıt tarama penceresinden düşmüş.</span></li>`;
+    const d = new Date(it.tarih);
+    return `<li><span class="no">${i + 1}</span>
+      <a href="${ic(it)}">
+        <b>${esc(bas(it))}</b>
+        <span class="kunye"><span class="pin" style="--c:${RC[it.bolge] || 'var(--accent-2)'}"></span>
+          ${esc(it.kaynak)} · ${esc(isNaN(d) ? '' : dayFmt.format(d))}</span>
+      </a></li>`;
+  });
+  return satirlar.length ? `<ol class="dayanak">${satirlar.join('')}</ol>` : '';
 }
 
 function analizGovde(a) {
@@ -424,7 +442,11 @@ function analizGovde(a) {
       <span class="mono">${esc(dayFmt.format(d))}</span>
     </div>
     <h2>${esc(a.baslik)}</h2>
-    <p class="brifing">${esc(a.brifing)}</p>
+    <p class="brifing">${refliMetin(a.brifing, a.kullanilan_kayitlar)}</p>
+
+    ${(a.kullanilan_kayitlar || []).length ? `<details class="tum-kayitlar">
+      <summary>Analizin dayandığı ${a.kullanilan_kayitlar.length} kaydın tamamı</summary>
+      ${kayitBaglari(a.kullanilan_kayitlar)}</details>` : ''}
 
     ${(a.one_cikanlar || []).length ? `<section class="analiz-blok">
       <h3>Öne çıkan gelişmeler</h3>
@@ -432,8 +454,8 @@ function analizGovde(a) {
         <div class="oc-ust"><span class="tag alan">${esc(o.alan)}</span>
           <span class="tag ${GUVEN[o.guven] || ''}">güven: ${esc(o.guven)}</span></div>
         <h4>${esc(o.baslik)}</h4>
-        <p>${esc(o.neden_onemli)}</p>
-        <div class="kayitlar">${kayitBaglari(o.kayitlar)}</div>
+        <p>${refliMetin(o.neden_onemli, o.kayitlar)}</p>
+        ${kayitBaglari(o.kayitlar)}
       </li>`).join('')}</ol></section>` : ''}
 
     ${(a.alan_notlari || []).length ? `<section class="analiz-blok">
@@ -441,13 +463,13 @@ function analizGovde(a) {
       <div class="alan-grid">${a.alan_notlari.map((n) => `<div class="alan-not">
         <div class="an-ust"><b>${esc(n.alan)}</b>
           <span class="tag ${DURUM[n.durum] || ''}">${esc(n.durum)}</span></div>
-        <p>${esc(n.not)}</p>
-        <div class="kayitlar">${kayitBaglari(n.kayitlar)}</div>
+        <p>${refliMetin(n.not, n.kayitlar)}</p>
+        ${kayitBaglari(n.kayitlar)}
       </div>`).join('')}</div></section>` : ''}
 
     ${(a.izlenecekler || []).length ? `<section class="analiz-blok">
       <h3>İzlenecekler</h3>
-      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${refliMetin(x, [])}</li>`).join('')}</ul>
     </section>` : ''}
 
     <footer class="analiz-kunye">
@@ -484,117 +506,6 @@ function renderAnalizOzet() {
   });
 }
 
-
-/* ------------------------------------------------------------- analiz et */
-/* Analiz ucu: yerel uygulamada serve.py (/api/analiz-et), yayında ise
-   data/analiz-uc.json içinde tanımlıysa o adres. Hiçbiri yoksa bölüm
-   ne yapılması gerektiğini söyler. */
-async function analizUcu() {
-  if (window.__VERI__) return null;                       // tek dosyalık paket
-  if (state.analizUc !== undefined) return state.analizUc;
-  let uc = null;
-  const yerel = location.hostname === '127.0.0.1' || location.hostname === 'localhost';
-  if (yerel) {
-    uc = 'api/analiz-et';
-  } else {
-    const ayar = await getJSON('data/analiz-uc.json', null);
-    if (ayar && ayar.url) uc = ayar.url;
-  }
-  state.analizUc = uc;
-  return uc;
-}
-
-function analizetSonucHtml(a) {
-  const satir = (b, i) => `<li><b>${esc(b.dayanak)}</b>
-    <span class="tag ${b.metinde_geciyor ? 'birincil' : ''}">${b.metinde_geciyor ? 'metinde geçiyor' : 'ilgili çerçeve'}</span>
-    <p>${esc(b.ilgisi)}</p></li>`;
-  return `<article class="analiz">
-    <div class="analiz-ust">
-      <span class="eyebrow" style="--c:var(--deep)">${esc(a.alan)}</span>
-      <span class="tag ${GUVEN[a.guven] || ''}">güven: ${esc(a.guven)}</span>
-      ${(a.ikincil_alanlar || []).map((x) => `<span class="tag">${esc(x)}</span>`).join('')}
-    </div>
-    <h2>${esc(a.baslik)}</h2>
-    <p class="brifing">${esc(a.ozet)}</p>
-
-    <section class="analiz-blok"><h3>Değerlendirme</h3>
-      <p class="degerlendirme">${esc(a.degerlendirme)}</p>
-      <p class="muted" style="font-size:.86rem">Güven gerekçesi: ${esc(a.guven_gerekcesi)}</p></section>
-
-    ${(a.hukuki_cerceve || []).length ? `<section class="analiz-blok"><h3>Hukuki çerçeve</h3>
-      <ul class="cerceve">${a.hukuki_cerceve.map(satir).join('')}</ul></section>` : ''}
-
-    ${(a.dikkat || []).length ? `<section class="analiz-blok"><h3>Doğrulanması gerekenler</h3>
-      <ul class="izlenecek">${a.dikkat.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
-
-    ${(a.izlenecekler || []).length ? `<section class="analiz-blok"><h3>İzlenecekler</h3>
-      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
-
-    <footer class="analiz-kunye">
-      <p class="uyari">${esc(a.uyari || '')}</p>
-      <p class="mono">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">kaynağa git ↗</a> · ` : ''}
-        model ${esc(a.model || '')} · maliyet ≈ $${esc(a.maliyet_usd ?? '—')}
-        ${a.kirpildi ? ' · metin uzunluk sınırı nedeniyle kısaltıldı' : ''}</p>
-    </footer>
-  </article>`;
-}
-
-async function drawAnalizEt() {
-  const uc = await analizUcu();
-  const durum = $('#analizetDurum');
-  const form = $('#analizForm');
-  if (!uc) {
-    durum.innerHTML = `<b>Bu bölüm yerel uygulamada çalışır.</b> Analiz isteği bir API
-      anahtarı gerektirir; anahtarı yayındaki sayfaya koymak onu herkese açık hâle
-      getireceği için burada kapalı. Kendi bilgisayarında
-      <code>ANTHROPIC_API_KEY=sk-ant-… python3 scripts/serve.py</code> ile başlat,
-      bölüm kendiliğinden açılır. Yayında da açmak istersen
-      <code>README → Analiz ucu</code> bölümündeki küçük vekil sunucu tarif ediliyor.`;
-    form.hidden = true;
-    return;
-  }
-  durum.innerHTML = `Bir haber, karar ya da duyuru adresi ver; sayfanın metni alınır ve
-    merkezin çalışma alanlarına göre değerlendirilir. Sayfa metnini alamazsa metni
-    yapıştırabilirsin. <b>Sonuç kaydedilmez</b>, yalnızca bu ekranda görünür.`;
-  form.hidden = false;
-}
-
-function analizEtBagla() {
-  const form = $('#analizForm');
-  if (!form) return;
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const uc = await analizUcu();
-    if (!uc) return;
-    const url = $('#aeUrl').value.trim();
-    const metin = $('#aeMetin').value.trim();
-    if (!url && metin.length < 200) {
-      $('#aeDurum').textContent = 'Adres ver ya da en az 200 karakter metin yapıştır';
-      return;
-    }
-    $('#aeGonder').disabled = true;
-    $('#aeDurum').textContent = 'analiz ediliyor… (10-40 saniye)';
-    $('#analizetSonuc').innerHTML = '';
-    try {
-      const r = await fetch(uc, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ url, metin, model: $('#aeModel').value || undefined }),
-      });
-      const a = await r.json();
-      if (a.hata) {
-        $('#analizetSonuc').innerHTML = `<div class="empty">${esc(a.hata)}</div>`;
-      } else {
-        $('#analizetSonuc').innerHTML = analizetSonucHtml(a);
-      }
-    } catch (err) {
-      $('#analizetSonuc').innerHTML = `<div class="empty">İstek başarısız: ${esc(err.message)}</div>`;
-    } finally {
-      $('#aeGonder').disabled = false;
-      $('#aeDurum').textContent = '';
-    }
-  });
-}
 
 /* ---------------------------------------------------------------- dosyam */
 function drawDosyam() {
@@ -675,7 +586,6 @@ async function drawArchive() {
   $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
     || '<option value="">analiz yok</option>';
   $('#analizGun').addEventListener('change', drawAnaliz);
-  analizEtBagla();
 
   // son ziyaretten beri gelen kayıtlar
   state.sonZiyaret = LS.get('bhm.sonZiyaret', 0) || 0;
@@ -759,12 +669,11 @@ async function drawArchive() {
     if (b.dataset.view === 'arsiv') drawArchive();
     if (b.dataset.view === 'dosyam') drawDosyam();
     if (b.dataset.view === 'analiz') drawAnaliz();
-    if (b.dataset.view === 'analizet') drawAnalizEt();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
 
   // paket kipi: #k=<anahtar> ile kayıt sayfası aynı dosyada açılır
-  const VIEWS = ['gundem', 'analiz', 'analizet', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
+  const VIEWS = ['gundem', 'analiz', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
   function route() {
     const m = location.hash.match(/^#k=(.+)$/);
     const box = $('#view-haber');

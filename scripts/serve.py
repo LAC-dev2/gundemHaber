@@ -40,44 +40,6 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store, max-age=0")
         super().end_headers()
 
-    def do_POST(self):                      # noqa: N802 (http.server arayuzu)
-        if self.path.rstrip("/") != "/api/analiz-et":
-            self.send_error(404, "Bilinmeyen uc")
-            return
-        try:
-            uzunluk = int(self.headers.get("Content-Length", 0))
-            istek = json.loads(self.rfile.read(uzunluk) or b"{}")
-        except Exception:
-            self.cevapla({"hata": "İstek okunamadı."}, 400)
-            return
-
-        url = str(istek.get("url", "")).strip()
-        metin = str(istek.get("metin", "")).strip()
-        if url and not url.startswith(("http://", "https://")):
-            self.cevapla({"hata": "Adres http:// veya https:// ile başlamalı."}, 400)
-            return
-        if not url and len(metin) < 200:
-            self.cevapla({"hata": "Bir haber adresi ver ya da en az 200 karakter metin yapıştır."}, 400)
-            return
-
-        sys.path.insert(0, str(ROOT / "scripts"))
-        try:
-            from analiz_tek import analiz_et
-            sonuc = analiz_et(url=url, metin=metin,
-                              model=(istek.get("model") or os.environ.get("ANALIZ_MODEL")
-                                     or "claude-opus-5"))
-        except Exception as exc:            # tek analiz hatasi sunucuyu dusurmesin
-            sonuc = {"hata": f"Analiz sırasında hata: {type(exc).__name__}: {exc}"}
-        self.cevapla(sonuc, 200 if "hata" not in sonuc else 502)
-
-    def cevapla(self, veri: dict, kod: int = 200) -> None:
-        govde = json.dumps(veri, ensure_ascii=False).encode("utf-8")
-        self.send_response(kod)
-        self.send_header("Content-Type", "application/json; charset=utf-8")
-        self.send_header("Content-Length", str(len(govde)))
-        self.end_headers()
-        self.wfile.write(govde)
-
     def log_message(self, fmt, *args):       # sunucu gurultusunu kis
         if "404" in (fmt % args):
             sys.stderr.write("  ! bulunamadi: %s\n" % (args[0] if args else ""))
@@ -171,12 +133,7 @@ def main() -> int:
         print(f"  (uygulama {port} portunda açıldı)")
 
     url = f"http://127.0.0.1:{port}/"
-    anahtar = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
-    print(f"\nGündem Takip çalışıyor:  {url}")
-    print("analiz ucu: " + ("açık (ANTHROPIC_API_KEY bulundu)"
-                            if anahtar else
-                            "kapalı — açmak için: ANTHROPIC_API_KEY=sk-ant-… ile başlat"))
-    print("kapatmak için Ctrl+C\n")
+    print(f"\nGündem Takip çalışıyor:  {url}\nkapatmak için Ctrl+C\n")
     if opts.open:
         threading.Timer(0.6, webbrowser.open, args=(url,)).start()
     try:

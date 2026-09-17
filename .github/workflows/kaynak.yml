@@ -1,0 +1,78 @@
+name: Kaynak ekle
+
+# "Kaynak ekle" formuyla acilan konulari envantere isler.
+# Guvenlik: depo herkese acik oldugu icin yalnizca depo sahibinin actigi
+# konular islenir; baskasinin actigi konu yok sayilir.
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  ekle:
+    if: contains(github.event.issue.labels.*.name, 'kaynak') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kaynagi envantere ekle
+        id: ekle
+        env:
+          KONU_GOVDE: ${{ github.event.issue.body }}
+        run: |
+          printf '%s' "$KONU_GOVDE" > /tmp/konu.md
+          set +e
+          python3 scripts/kaynak_ekle.py --konu /tmp/konu.md > /tmp/sonuc.txt 2>&1
+          KOD=$?
+          set -e
+          cat /tmp/sonuc.txt
+          {
+            echo "sonuc<<SON"
+            cat /tmp/sonuc.txt
+            echo "SON"
+            echo "kod=$KOD"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Envanteri isle
+        if: steps.ekle.outputs.kod == '0'
+        run: |
+          git config user.name "gundem-bot"
+          git config user.email "actions@github.com"
+          git add data/sources.json data/feeds.json
+          git diff --cached --quiet && exit 0
+          git commit -m "kaynak: ${{ github.event.issue.title }} (konu #${{ github.event.issue.number }})"
+          for DENEME in 1 2 3; do
+            git push && exit 0
+            git fetch origin "${{ github.event.repository.default_branch }}"
+            git reset --soft "origin/${{ github.event.repository.default_branch }}"
+            git add data/sources.json data/feeds.json
+            git diff --cached --quiet && exit 0
+            git commit -m "kaynak: ${{ github.event.issue.title }} (konu #${{ github.event.issue.number }})"
+          done
+          exit 1
+
+      - name: Taramayi baslat
+        if: steps.ekle.outputs.kod == '0'
+        run: gh workflow run tarama.yml -f discover=20 -f analiz=hayir
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Konuyu yanitla
+        run: |
+          if [ "${{ steps.ekle.outputs.kod }}" = "0" ]; then
+            gh issue comment ${{ github.event.issue.number }} --body "$(printf 'Kaynak envantere eklendi ve tarama başlatıldı.\n\n```\n%s\n```\n\nBirkaç dakika içinde sitede görünür: https://lac-dev2.github.io/gundemHaber/' "${{ steps.ekle.outputs.sonuc }}")"
+            gh issue close ${{ github.event.issue.number }}
+          else
+            gh issue comment ${{ github.event.issue.number }} --body "$(printf 'Kaynak eklenemedi:\n\n```\n%s\n```\n\nFormu düzenlersen yeniden denenir.' "${{ steps.ekle.outputs.sonuc }}")"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

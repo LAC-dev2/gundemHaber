@@ -1,0 +1,70 @@
+name: Kaynak ekle
+description: İzleme envanterine yeni bir kaynak ekle; bir sonraki taramadan itibaren izlenir.
+title: "Kaynak ekle: "
+labels: ["kaynak"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Formu gönderdiğinde kaynak otomatik olarak envantere eklenir, RSS/Atom akışı
+        aranır ve bir sonraki taramaya dâhil edilir. Sonuç bu konuya yorum olarak yazılır.
+  - type: input
+    id: adres
+    attributes:
+      label: Kaynak adresi
+      description: İzlenecek sayfa (haber/duyuru/karar listesi olan sayfa en iyisidir)
+      placeholder: https://ornek.org/haberler
+    validations:
+      required: true
+  - type: input
+    id: ad
+    attributes:
+      label: Kaynak adı
+      description: Boş bırakırsan sayfa başlığından alınır
+  - type: dropdown
+    id: bolge
+    attributes:
+      label: Bölge
+      options: ["Türkiye", "Belçika", "Avrupa", "Dünya", "Kurumsal"]
+    validations:
+      required: true
+  - type: input
+    id: kategori
+    attributes:
+      label: Kategori
+      placeholder: "İnsan hakları · İltica ve göç · Mevzuat ve yargı · Basın özgürlüğü …"
+  - type: input
+    id: tur
+    attributes:
+      label: Kaynak türü
+      placeholder: "Resmî kurum · Mahkeme · STK · Haber · Akademik …"
+  - type: dropdown
+    id: kanit
+    attributes:
+      label: Kanıt değeri
+      options: ["Birincil", "İkincil", "Birincil/ikincil"]
+  - type: dropdown
+    id: oncelik
+    attributes:
+      label: Öncelik
+      options: ["Kritik", "Yüksek", "Orta", "Düşük"]
+    validations:
+      required: true
+  - type: dropdown
+    id: siklik
+    attributes:
+      label: Tarama sıklığı
+      options: ["Günlük", "Haftalık", "Aylık", "Dönemsel", "Yıllık", "Dosya bazlı"]
+    validations:
+      required: true
+  - type: input
+    id: anahtar
+    attributes:
+      label: Anahtar terimler
+      description: Virgülle ayır; RSS yayını yoksa haber araması bu terimlerle daraltılır
+      placeholder: "AİHM, iade, INTERPOL, gözaltı"
+  - type: textarea
+    id: neden
+    attributes:
+      label: Neden izleniyor
+      description: Bir iki cümle; kaynak sayfasında ve analizde görünür

@@ -32,8 +32,8 @@ scripts/extract.py          haber sayfasından okunabilir tam metin çıkarma
 scripts/paketle.py          paylaşım paketleri (tek dosyalık HTML, zip)
 scripts/ikon.py             uygulama ikonları (PNG/SVG üretici)
 scripts/analiz.py           günlük analiz üretimi (Claude API)
-scripts/analiz_tek.py       tek haber/belge analizi (Analiz et bölümü)
 scripts/ceviri.py           Türkçe olmayan kayıtların başlık/özet çevirisi
+scripts/kaynak_ekle.py      envantere yeni kaynak ekleme (form ve komut satırı)
 data/ceviri.json            çeviri önbelleği (her kayıt bir kez çevrilir)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
@@ -223,6 +223,29 @@ Görseller kaynağın sunucusundan gösterilir (kopyalanmaz), altına kaynak ad�
 yazılır ve yüklenemezse kart tipografik hâline döner. Kaynak sıcak bağlantıya
 kapalıysa görsel sessizce düşer, yerinde boşluk kalmaz.
 
+## Kaynak ekleme
+
+Siteden **Kaynaklar → + Kaynak ekle** düğmesi, GitHub'da bir form açar
+(`.github/ISSUE_TEMPLATE/kaynak.yml`). Form gönderildiğinde `kaynak.yml` iş
+akışı devreye girer: kaynağı `data/sources.json` içine ekler, sayfa başlığını
+ve RSS/Atom akışını otomatik bulur, taramayı başlatır ve sonucu konuya yorum
+olarak yazıp konuyu kapatır. Ekstra bir hesap ya da anahtar gerekmez —
+GitHub oturumu yeter.
+
+Güvenlik: depo herkese açık olduğu için iş akışı yalnızca **depo sahibinin**
+açtığı konuları işler; başkasının açtığı konu yok sayılır.
+
+Komut satırından:
+
+```bash
+python3 scripts/kaynak_ekle.py https://ornek.org/haberler \
+    --ad "Örnek Kurum" --bolge Avrupa --kategori "İnsan hakları" \
+    --oncelik Yüksek --siklik Günlük --anahtar "iade, INTERPOL"
+```
+
+Aynı alan adı zaten izleniyorsa ekleme reddedilir ve hangi kayıtta olduğu
+söylenir.
+
 ## Çeviri
 
 Kaynakların bir kısmı İngilizce, Fransızca ve Felemenkçe yayın yapıyor. Tarama
@@ -293,29 +316,6 @@ veya dava stratejisi üretmesi yasaklanmıştır. Çıktı JSON şemasıyla
 kısıtlanmıştır. Her analiz sayfasında, değerlendirmenin yapay zekâ ile
 üretildiğini ve birincil kaynakta doğrulanmadan dosyaya esas alınamayacağını
 söyleyen uyarı görünür.
-
-## Analiz et (tek haber/belge)
-
-"Analiz et" bölümü, verilen bir haber/karar/duyuru adresini (ya da yapıştırılan
-metni) merkezin çalışma alanlarına göre değerlendirir: özet, hangi alana
-girdiği, değerlendirme, metinde geçen ya da doğrudan ilgili hukuki çerçeve,
-doğrulanması gerekenler, izlenecekler ve güven düzeyi.
-
-```bash
-ANTHROPIC_API_KEY=sk-ant-… python3 scripts/serve.py      # bölüm açılır
-python3 scripts/analiz_tek.py https://ornek.com/haber     # komut satırından
-```
-
-Bölüm **yerel uygulamada** çalışır: `serve.py` içindeki `/api/analiz-et` ucu
-anahtarı işletim sisteminden okur. Yayındaki sayfada kapalıdır ve nedeni
-anlatılır — anahtarı herkese açık bir sayfaya koymak onu herkese vermek
-demektir, ayrıca açık bir "her şeyi analiz et" düğmesi faturayı da herkese
-açar.
-
-Yayında da açmak istersen doğru yol, anahtarı tutan küçük bir vekil sunucudur
-(Cloudflare Worker gibi) ve o vekilin erişim denetimiyle korunmasıdır; sayfa,
-`data/analiz-uc.json` içinde `{"url": "https://…"}` tanımlıysa istekleri oraya
-gönderir.
 
 ## İzleme masası özellikleri
 
