@@ -3,1120 +3,1222 @@
 "ad": "Brüksel Hukuk Merkezi",
 "akis": "https://brukselhukukmerkezi.com/tr/feed/",
 "sonKayit": "2026-09-02T13:31+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "100": {
 "ad": "İnsan Hakları Komiseri",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "104": {
 "ad": "PACE",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "105": {
 "ad": "Platform for the Safety of Journalists",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "109": {
 "ad": "EUR-Lex",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "11": {
 "ad": "Adalet Bakanlığı İnsan Hakları Dairesi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "110": {
 "ad": "CURIA / ABAD",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "111": {
 "ad": "EUAA",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "112": {
 "ad": "EUAA COI Portal",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "113": {
 "ad": "EU Fundamental Rights Agency",
 "akis": "https://fra.europa.eu/en/rss.xml",
 "sonKayit": "2026-09-15T09:53+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "115": {
 "ad": "European Parliament Delegation to Türkiye",
 "akis": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
 "sonKayit": "2026-09-16T12:13+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "116": {
 "ad": "European Parliament Think Tank",
 "akis": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "117": {
 "ad": "EU Sanctions Map",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "118": {
 "ad": "EU Consolidated Financial Sanctions List",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "120": {
 "ad": "Eurojust",
 "akis": "https://www.eurojust.europa.eu/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "122": {
 "ad": "European Data Protection Board",
 "akis": "https://www.edpb.europa.eu/rss.xml",
 "sonKayit": "2026-09-11T07:24+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "124": {
 "ad": "ECRE",
 "akis": "https://ecre.org/feed/",
 "sonKayit": "2026-09-16T12:58+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "125": {
 "ad": "AIDA",
 "akis": "https://asylumineurope.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "126": {
 "ad": "ELENA Network",
 "akis": "https://ecre.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "127": {
 "ad": "European Database of Asylum Law",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "128": {
 "ad": "ECRE Legal Support and Litigation",
 "akis": "https://ecre.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "129": {
 "ad": "Statewatch",
 "akis": "https://www.statewatch.org/feed/",
 "sonKayit": "2026-09-07T16:11+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "130": {
 "ad": "European Prison Observatory",
 "akis": "https://www.prisonobservatory.org/index.php?format=feed&type=rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "131": {
 "ad": "Fair Trials",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "132": {
 "ad": "ProtectDefenders.eu",
 "akis": "https://protectdefenders.eu/feed/",
 "sonKayit": "2026-09-03T13:00+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "133": {
 "ad": "European Centre for Press and Media Freedom",
 "akis": "https://www.ecpmf.eu/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "135": {
 "ad": "OSCE Representative on Freedom of the Media",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "138": {
 "ad": "OHCHR Türkiye",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "140": {
 "ad": "OHCHR Jurisprudence Database",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "141": {
 "ad": "Special Procedures Communications",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "142": {
 "ad": "UN Special Procedures",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "143": {
 "ad": "Working Group on Arbitrary Detention",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "149": {
 "ad": "UNHCR Refworld",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "150": {
 "ad": "ECOI.net",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "152": {
 "ad": "US State Department Human Rights Reports",
 "akis": "https://www.state.gov/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "153": {
 "ad": "USCIRF",
 "akis": "https://www.uscirf.gov/rss.xml",
 "sonKayit": "2026-09-16T18:29+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "156": {
 "ad": "Swedish Migration Agency Lifos",
 "akis": "https://lifos.migrationsverket.se/rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "157": {
 "ad": "Norway Landinfo",
 "akis": "https://landinfo.no/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "160": {
 "ad": "INTERPOL Notices",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "164": {
 "ad": "INTERPOL Compliance and Review",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "166": {
 "ad": "Red Notice Monitor",
 "akis": "https://rednoticemonitor.com/feed/",
 "sonKayit": "2026-09-15T11:05+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "167": {
 "ad": "UN Security Council Consolidated List",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "172": {
 "ad": "UK Sanctions List",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "175": {
 "ad": "Amnesty International - Türkiye",
 "akis": "https://www.amnesty.org/en/rss/",
 "sonKayit": "2026-09-17T06:56+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "176": {
 "ad": "Human Rights Watch - Türkiye",
 "akis": "https://www.hrw.org/rss/news",
 "sonKayit": "2026-09-16T22:00+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "177": {
 "ad": "FIDH - Türkiye",
 "akis": "https://www.fidh.org/en/region/europe-central-asia/turkey/spip.php?page=backend",
 "hata": "HTTPError",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "179": {
 "ad": "International Commission of Jurists - Türkiye",
 "akis": "https://www.icj.org/feed/",
 "sonKayit": "2026-09-16T12:38+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "18": {
 "ad": "TBMM Kanun Teklifleri",
+"hata": "HTTPError",
 "sonKayit": "2026-09-11T16:25+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "181": {
 "ad": "TrialWatch",
 "akis": "https://cfj.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "182": {
 "ad": "Freedom House - Türkiye",
 "akis": "https://freedomhouse.org/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "183": {
 "ad": "Freedom House Transnational Repression",
 "akis": "https://freedomhouse.org/rss.xml",
 "sonKayit": "2026-09-16T12:51+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "184": {
 "ad": "World Justice Project",
 "akis": "https://worldjusticeproject.org/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "186": {
 "ad": "CIVICUS Monitor - Türkiye",
 "akis": "https://monitor.civicus.org/feed/",
 "sonKayit": "2026-09-17T02:48+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "187": {
 "ad": "Front Line Defenders",
 "akis": "https://www.frontlinedefenders.org/en/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "188": {
 "ad": "International Service for Human Rights",
 "akis": "https://ishr.ch/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "189": {
 "ad": "Global Detention Project",
 "akis": "https://www.globaldetentionproject.org/feed",
 "sonKayit": "2026-09-15T14:49+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "19": {
 "ad": "İnsan Hakları Derneği - İHD",
+"hata": "HTTPError",
 "sonKayit": "2026-09-08T21:19+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "192": {
 "ad": "Committee to Protect Journalists - Türkiye",
 "akis": "https://cpj.org/feed/",
 "sonKayit": "2026-09-15T16:03+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "193": {
 "ad": "International Press Institute",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "194": {
 "ad": "ARTICLE 19",
 "akis": "https://www.article19.org/feed/",
 "sonKayit": "2026-09-16T20:19+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "196": {
 "ad": "Media Freedom Rapid Response",
 "akis": "https://www.mfrr.eu/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "197": {
 "ad": "Strasbourg Observers",
 "akis": "https://strasbourgobservers.com/feed/",
 "sonKayit": "2026-09-11T14:31+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "198": {
 "ad": "ECHR Blog",
 "akis": "https://echrblog.com/feed/",
 "sonKayit": "2026-09-17T06:49+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "199": {
 "ad": "EU Law Live",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "2": {
 "ad": "Resmî Gazete",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "20": {
 "ad": "Türkiye İnsan Hakları Vakfı - TİHV",
 "akis": "https://www.tihv.org.tr/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "200": {
 "ad": "European Law Blog",
 "akis": "https://europeanlawblog.eu/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "201": {
 "ad": "Verfassungsblog",
 "akis": "https://verfassungsblog.de/feed/",
 "sonKayit": "2026-09-16T12:13+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "202": {
 "ad": "EJIL: Talk!",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "203": {
 "ad": "Opinio Juris",
 "akis": "https://opiniojuris.org/feed/",
 "sonKayit": "2026-09-16T12:00+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "204": {
 "ad": "Oxford Human Rights Hub",
 "akis": "https://ohrh.law.ox.ac.uk/feed/",
 "sonKayit": "2026-09-17T05:43+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "205": {
 "ad": "Leiden Law Blog",
 "akis": "https://www.leidenlawblog.nl/feed/",
 "sonKayit": "2026-09-14T08:38+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "207": {
 "ad": "HeinOnline",
 "akis": "https://heinonline.com/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "208": {
 "ad": "Google Scholar",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "21": {
 "ad": "CİSST",
 "akis": "https://cisst.org.tr/feed/",
 "sonKayit": "2026-09-08T08:28+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "211": {
 "ad": "Göç İdaresi Başkanlığı",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "212": {
 "ad": "Adalet Bakanlığı Dış İlişkiler ve AB Genel Müdürlüğü",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "213": {
 "ad": "MASAK",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "214": {
 "ad": "RTÜK Üst Kurul Kararları",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "215": {
 "ad": "BTK Kurul Kararları",
+"hata": "HTTPError",
 "sonKayit": "2026-09-16T14:56+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "216": {
 "ad": "KVKK Kararları",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "217": {
 "ad": "İnsan Hakları Ortak Platformu - İHOP",
 "akis": "https://ihop.org.tr/feed/",
 "sonKayit": "2026-09-14T19:31+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "218": {
 "ad": "Eşit Haklar İçin İzleme Derneği - ESHİD",
 "akis": "https://www.esithaklar.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "219": {
 "ad": "Vreemdelingenrecht.be",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "22": {
 "ad": "İHD Hapishaneler Komisyonu",
+"hata": "HTTPError",
 "sonKayit": "2026-08-30T05:06+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "220": {
 "ad": "Standing Committee I / Comité R",
 "akis": "https://www.comiteri.be/en/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "223": {
 "ad": "Balie Brussel - Bureau voor Juridische Bijstand",
 "akis": "https://www.baliebrussel.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "224": {
 "ad": "Caritas International Belgium - Help for Migrants",
 "akis": "https://www.caritasinternational.be/en/rss",
 "sonKayit": "2026-09-03T12:42+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "225": {
 "ad": "Medimmigrant",
 "akis": "https://www.medimmigrant.be/spip.php?page=backend",
 "sonKayit": "2026-09-14T13:44+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "226": {
 "ad": "EUAA Case Law Database",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "227": {
 "ad": "European Commission DG HOME - Irregular Migration and Return",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "228": {
 "ad": "European Parliament Legislative Observatory - OEIL",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "229": {
 "ad": "European Parliament LIBE Committee",
 "akis": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "23": {
 "ad": "Özgürlük İçin Hukukçular Derneği",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "232": {
 "ad": "CCBE Human Rights Letters",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "233": {
 "ad": "Lawyers for Lawyers",
 "akis": "https://www.lawyersforlawyers.org/en/feed/",
 "sonKayit": "2026-09-16T14:19+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "234": {
 "ad": "International Observatory for Lawyers in Danger - OIAD",
 "akis": "https://protect-lawyers.org/en/feed/",
 "sonKayit": "2026-09-07T15:37+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "235": {
 "ad": "MEDEL",
 "akis": "https://medelnet.eu/feed/",
 "sonKayit": "2026-09-15T08:13+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "237": {
 "ad": "PICUM",
 "akis": "https://picum.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "238": {
 "ad": "Odysseus Academic Network",
 "akis": "https://odysseus-network.eu/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "239": {
 "ad": "Cour nationale du droit d'asile - CNDA Jurisprudence",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "24": {
 "ad": "Çağdaş Hukukçular Derneği",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "240": {
 "ad": "Rechtspraak.nl - Uitspraken",
 "akis": "https://uitspraken.rechtspraak.nl/rss",
 "sonKayit": "2026-09-17T07:55+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "241": {
 "ad": "Swiss Federal Administrative Court - BVGer",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "242": {
 "ad": "Upper Tribunal Immigration and Asylum Chamber Decisions",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "243": {
 "ad": "Rechtsinformationssystem des Bundes - RIS",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "244": {
 "ad": "UN Working Group on Enforced or Involuntary Disappearances - WGEID",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "245": {
 "ad": "UN Special Rapporteur on the Independence of Judges and Lawyers",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "246": {
 "ad": "UN Special Rapporteur on Torture",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "247": {
 "ad": "UN Special Rapporteur on Human Rights Defenders",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "248": {
 "ad": "UN Special Rapporteur on Freedom of Opinion and Expression",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "249": {
 "ad": "UN Special Rapporteur on Freedom of Peaceful Assembly and Association",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "25": {
 "ad": "Türkiye Barolar Birliği",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "250": {
 "ad": "UN Special Rapporteur on Freedom of Religion or Belief",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "251": {
 "ad": "UN Special Rapporteur on the Human Rights of Migrants",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "252": {
 "ad": "UN Special Rapporteur on the Right to Privacy",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "255": {
 "ad": "Citizen Lab - Digital Transnational Repression",
 "akis": "https://citizenlab.ca/focus-area/digital-transnational-repression/feed/",
 "sonKayit": "2026-09-08T21:05+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "256": {
 "ad": "Safeguard Defenders",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "257": {
 "ad": "Access Now Digital Security Helpline",
 "akis": "https://www.accessnow.org/feed/",
-"sonKayit": "2026-09-17T08:07+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonKayit": "2026-09-17T08:11+00:00",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "258": {
 "ad": "Global NPO Coalition on FATF",
 "akis": "https://fatfplatform.org/news/rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "259": {
 "ad": "European Center for Not-for-Profit Law - ECNL",
 "akis": "https://ecnl.org/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "26": {
 "ad": "MLSA",
 "akis": "https://mlsaturkey.com/en/trial-monitorings/reports?format=feed&type=rss",
 "sonKayit": "2026-09-04T11:05+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "260": {
 "ad": "Asylos",
 "akis": "https://resources.asylos.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "261": {
 "ad": "AİHM Gülen Hareketi – Hükümete İletilen Davalar Takibi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "262": {
 "ad": "AİHM Kararları Uygulama Takibi – ByLock/Yalçınkaya",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "263": {
 "ad": "Gülen Hareketi ile İlişkili Olduğu İddia Edilen Kişilerin AİHM Başvuruları",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "264": {
 "ad": "BM Türkiye İnsan Hakları Belgeleri – 2010+",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "266": {
 "ad": "Adalet Bakanlığı",
+"hata": "HTTPError",
 "sonKayit": "2026-09-12T22:12+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "267": {
 "ad": "İçişleri Bakanlığı",
+"hata": "HTTPError",
 "sonKayit": "2026-09-15T07:48+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "27": {
 "ad": "Arrested Lawyers Initiative",
 "akis": "https://arrestedlawyers.org/feed/",
 "sonKayit": "2026-09-10T10:40+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "270": {
 "ad": "Hakikat Adalet Hafıza Merkezi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "272": {
 "ad": "Türkiye Barolar Birliği - Kurumsal",
+"hata": "HTTPError",
 "sonKayit": "2026-09-12T12:29+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "277": {
 "ad": "Diken",
 "akis": "https://www.diken.com.tr/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "278": {
 "ad": "Nordic Monitor",
 "akis": "https://www.nordicmonitor.com/feed/",
 "sonKayit": "2026-09-16T22:01+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "280": {
 "ad": "Dışişleri Bakanlığı",
 "akis": "https://www.mfa.gov.tr/tr.rss.mfa?259fca5b-ebee-47d1-b850-ec53936ab32e",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "284": {
 "ad": "Agentschap Integratie en Inburgering",
 "akis": "https://www.integratie-inburgering.be/rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "29": {
 "ad": "İfade Özgürlüğü Derneği - İFÖD",
 "akis": "https://ifade.org.tr/feed/",
 "sonKayit": "2026-09-16T13:09+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "290": {
 "ad": "De Standaard",
 "akis": "https://www.standaard.be/rss",
 "sonKayit": "2026-09-16T13:57+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "291": {
 "ad": "Council of the EU - Sanctions",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "293": {
 "ad": "Committee of Ministers",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "299": {
 "ad": "Frontex",
 "akis": "https://frontex.europa.eu/media-centre/news/news-release/feed",
 "hata": "HTTPError",
 "sonKayit": "2026-09-11T08:47+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "3": {
 "ad": "Mevzuat Bilgi Sistemi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "30": {
 "ad": "EngelliWeb",
 "akis": "https://ifade.org.tr/feed/",
 "sonKayit": "2026-09-14T11:53+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "300": {
 "ad": "Europol",
 "akis": "https://www.europol.europa.eu/rss",
-"sonKayit": "2026-09-17T08:07+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonKayit": "2026-09-17T08:11+00:00",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "304": {
 "ad": "ENCJ",
 "akis": "https://www.encj.eu/rss.xml",
 "sonKayit": "2026-09-03T12:27+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "305": {
 "ad": "European Criminal Bar Association - ECBA",
 "akis": "https://site.ecba.org/feed/",
 "sonKayit": "2026-09-15T17:14+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "306": {
 "ad": "Meijers Committee",
 "akis": "https://www.commissie-meijers.nl/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "307": {
 "ad": "EDRi",
 "akis": "https://edri.org/feed/",
 "sonKayit": "2026-09-10T14:31+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "308": {
 "ad": "Politico Europe",
 "akis": "https://www.politico.eu/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "31": {
 "ad": "Expression Interrupted",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "310": {
 "ad": "Refugee Law Initiative Blog",
 "akis": "https://rli.blogs.sas.ac.uk/feed/",
 "sonKayit": "2026-09-15T12:54+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "316": {
 "ad": "Columbia Global Freedom of Expression",
 "akis": "https://globalfreedomofexpression.columbia.edu/feed/",
 "sonKayit": "2026-09-15T17:09+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "319": {
 "ad": "OpenSanctions",
 "akis": "https://www.opensanctions.org/articles/rss/",
 "sonKayit": "2026-09-09T11:07+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "32": {
 "ad": "P24",
 "akis": "https://platform24.org/feed/",
 "sonKayit": "2026-09-10T06:57+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "320": {
 "ad": "Privacy International",
 "akis": "https://privacyinternational.org/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "321": {
 "ad": "Amnesty Security Lab",
 "akis": "https://securitylab.amnesty.org/feed/",
 "sonKayit": "2026-08-31T14:21+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "322": {
 "ad": "ICNL",
 "akis": "https://www.icnl.org/feed/",
 "sonKayit": "2026-09-09T19:22+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "323": {
 "ad": "UNHCR",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "326": {
 "ad": "Resmî Gazete Özeti",
 "akis": "https://www.resmigazeteozeti.com/feed.xml",
 "sonKayit": "2026-09-17T05:12+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "327": {
 "ad": "Alomaliye",
 "akis": "https://www.alomaliye.com/feed/",
 "sonKayit": "2026-09-17T07:34+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "328": {
 "ad": "Bold Medya",
 "akis": "https://boldmedya.com/feed/",
 "sonKayit": "2026-09-17T06:38+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "329": {
 "ad": "TR724",
 "akis": "https://tr724.com/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "33": {
 "ad": "Bianet İfade Özgürlüğü",
+"hata": "HTTPError",
 "sonKayit": "2026-09-15T13:01+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "330": {
 "ad": "Son Haber",
 "akis": "https://www.sonhaber.eu/rss",
 "sonKayit": "2026-09-16T11:38+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "331": {
 "ad": "Belturk Haber",
 "akis": "https://www.belturkhaber.be/rss/genel-0",
 "sonKayit": "2026-09-16T11:30+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "332": {
 "ad": "Turkinfo",
 "akis": "https://www.turkinfo.nl/rss",
 "sonKayit": "2026-09-17T07:45+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "333": {
 "ad": "Perspektif",
 "akis": "https://perspektif.eu/feed/",
 "sonKayit": "2026-09-16T13:37+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "334": {
 "ad": "Belgium.be Haber Servisi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "336": {
 "ad": "La Libre",
 "akis": "https://www.lalibre.be/rss",
 "sonKayit": "2026-09-16T14:59+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "339": {
 "ad": "Infor Jeunes Bruxelles - CPAS",
 "akis": "https://ijbxl.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "340": {
 "ad": "Infor Jeunes",
 "akis": "https://inforjeunes.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "343": {
 "ad": "Jubel",
 "akis": "https://www.jubel.be/feed/",
 "sonKayit": "2026-09-17T06:00+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "347": {
 "ad": "KU Leuven Faculty of Law",
 "akis": "https://www.law.kuleuven.be/rss",
 "sonKayit": "2026-09-16T19:22+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "35": {
 "ad": "Türkiye Gazeteciler Sendikası",
 "akis": "https://tgs.org.tr/feed/",
 "sonKayit": "2026-09-14T06:05+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "36": {
 "ad": "Stockholm Center for Freedom",
 "akis": "https://stockholmcf.org/feed/",
 "sonKayit": "2026-09-16T16:30+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "37": {
 "ad": "Solidarity with OTHERS",
 "akis": "https://solidaritywithothers.com/feed/",
 "sonKayit": "2026-09-16T14:36+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "38": {
 "ad": "Advocates of Silenced Turkey",
 "akis": "https://silencedturkey.org/feed/",
 "sonKayit": "2026-09-01T20:18+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "39": {
 "ad": "Journalists and Writers Foundation",
 "akis": "https://jwf.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "4": {
 "ad": "UYAP Mevzuat ve İçtihat",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "40": {
 "ad": "Turkey Tribunal",
 "akis": "https://turkeytribunal.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "41": {
 "ad": "Justice Square",
 "akis": "https://justicesquare.org/feed/",
 "sonKayit": "2026-09-16T20:22+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "42": {
 "ad": "European Justice Initiative",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "43": {
 "ad": "Cross Border Jurists",
 "akis": "https://www.crossborderjurists.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "44": {
 "ad": "Reuters - Middle East",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "45": {
 "ad": "Associated Press - Turkey",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "48": {
 "ad": "Bianet",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "49": {
 "ad": "Medyascope",
 "akis": "https://medyascope.tv/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "5": {
 "ad": "Anayasa Mahkemesi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "50": {
 "ad": "Turkish Minute",
 "akis": "https://turkishminute.com/feed/",
 "sonKayit": "2026-09-16T12:06+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "52": {
 "ad": "CGRS/CGRA",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "53": {
 "ad": "CGRS Country Information / CEDOCA",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "54": {
 "ad": "RvV/CCE Kararları",
 "akis": "https://www.rvv-cce.be/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "55": {
 "ad": "Immigration Office / DVZ / OE",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "56": {
 "ad": "Fedasil",
 "akis": "https://www.fedasil.be/en/taxonomy/term/153/feed",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "58": {
 "ad": "AIDA - Belgium",
 "akis": "https://asylumineurope.org/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "59": {
 "ad": "European Migration Network Belgium",
 "akis": "https://emnbelgium.be/rss.xml",
 "sonKayit": "2026-09-11T15:18+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "6": {
 "ad": "AYM Kararlar Bilgi Bankası",
+"hata": "HTTPError",
 "sonKayit": "2026-09-05T14:23+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "60": {
 "ad": "Moniteur belge / Belgisch Staatsblad",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "61": {
 "ad": "Justel",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "62": {
 "ad": "Juportal",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "63": {
 "ad": "Belçika Anayasa Mahkemesi",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "64": {
 "ad": "Cour de cassation / Hof van Cassatie",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "65": {
 "ad": "Conseil d'État / Raad van State",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "66": {
 "ad": "FPS Justice",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "68": {
 "ad": "Federal Parlamento",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "69": {
 "ad": "FIRM / IFDH",
 "akis": "https://www.federalinstitutehumanrights.be/rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "7": {
 "ad": "Yargıtay Karar Arama",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "71": {
 "ad": "Federal Ombudsman",
 "akis": "https://www.federalombudsman.be/rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "72": {
 "ad": "Belgian Data Protection Authority",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "74": {
 "ad": "CCSP / CTRG",
 "akis": "https://ccsp.belgium.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "75": {
 "ad": "CCSP İçtihat Veri Tabanı",
 "akis": "https://ccsp.belgium.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "76": {
 "ad": "Belgian National Preventive Mechanism",
 "akis": "https://www.federalinstitutehumanrights.be/rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "77": {
 "ad": "NANSEN",
 "akis": "https://nansen-refugee.be/en/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "78": {
 "ad": "Vluchtelingenwerk Vlaanderen",
 "akis": "https://vluchtelingenwerk.be/rss.xml",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "79": {
 "ad": "CIRÉ",
 "akis": "https://www.cire.be/feed/",
 "sonKayit": "2026-09-11T15:47+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "8": {
 "ad": "Danıştay Karar Arama",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "80": {
 "ad": "ADDE",
 "akis": "https://adde.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "81": {
 "ad": "MOVE Coalition",
 "akis": "https://movecoalition.be/feed/",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "82": {
 "ad": "JRS Belgium",
 "akis": "https://jrsbelgium.org/feed/",
 "sonKayit": "2026-09-04T10:10+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "83": {
 "ad": "Ligue des droits humains",
 "akis": "https://www.liguedh.be/feed/",
 "sonKayit": "2026-09-10T15:22+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "84": {
 "ad": "Liga voor Mensenrechten",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "86": {
 "ad": "Avocats.be",
 "akis": "https://avocats.be/rss.xml",
 "sonKayit": "2026-09-01T08:40+00:00",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "88": {
 "ad": "Belgian Treasury - Financial Sanctions",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "92": {
 "ad": "HUDOC",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "93": {
 "ad": "ECHR Knowledge Sharing",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "97": {
 "ad": "HUDOC-EXEC",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "98": {
 "ad": "Council of Europe Execution Department",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"hata": "HTTPError",
+"sonTarama": "2026-09-17T08:11:31+00:00"
 },
 "99": {
 "ad": "European Implementation Network",
 "akis": "https://www.einnetwork.org/blog-five?format=rss",
-"sonTarama": "2026-09-17T08:07:10+00:00"
+"sonTarama": "2026-09-17T08:11:31+00:00"
 }
 }
