@@ -74,10 +74,27 @@ jobs:
           git add data
           if git diff --cached --quiet; then
             echo "Degisiklik yok."
-          else
-            git commit -m "veri: tarama $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          MESAJ="veri: tarama $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "$MESAJ"
+          # Baska bir kosu ya da elle itme araya girmis olabilir. Veri dosyalari
+          # turetilmis oldugu icin birlestirme yerine: uzaktakinin ucuna tasi,
+          # calisma agacindaki taze tarama sonucunu koru.
+          for DENEME in 1 2 3; do
+            if git push; then
+              echo "itildi (deneme $DENEME)"
+              exit 0
+            fi
+            echo "uzakta yeni isleme var; uzerine tasiniyor (deneme $DENEME)"
+            git fetch origin "$GITHUB_REF_NAME"
+            git reset --soft "origin/$GITHUB_REF_NAME"
+            git add data
+            git diff --cached --quiet && { echo "fark kalmadi"; exit 0; }
+            git commit -m "$MESAJ"
+          done
+          echo "::error::Veri itilemedi."
+          exit 1
 
       # enablement: Pages depoda kapaliysa is akisi kendisi acar (pages: write)
       - uses: actions/configure-pages@v5
