@@ -32,6 +32,7 @@ scripts/extract.py          haber sayfasından okunabilir tam metin çıkarma
 scripts/paketle.py          paylaşım paketleri (tek dosyalık HTML, zip)
 scripts/ikon.py             uygulama ikonları (PNG/SVG üretici)
 scripts/analiz.py           günlük analiz üretimi (Claude API)
+scripts/analiz_tek.py       tek haber/belge analizi (Analiz et bölümü)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
 OKUBENI.md                  alıcıya verilecek kurulum anlatımı
@@ -269,6 +270,29 @@ veya dava stratejisi üretmesi yasaklanmıştır. Çıktı JSON şemasıyla
 kısıtlanmıştır. Her analiz sayfasında, değerlendirmenin yapay zekâ ile
 üretildiğini ve birincil kaynakta doğrulanmadan dosyaya esas alınamayacağını
 söyleyen uyarı görünür.
+
+## Analiz et (tek haber/belge)
+
+"Analiz et" bölümü, verilen bir haber/karar/duyuru adresini (ya da yapıştırılan
+metni) merkezin çalışma alanlarına göre değerlendirir: özet, hangi alana
+girdiği, değerlendirme, metinde geçen ya da doğrudan ilgili hukuki çerçeve,
+doğrulanması gerekenler, izlenecekler ve güven düzeyi.
+
+```bash
+ANTHROPIC_API_KEY=sk-ant-… python3 scripts/serve.py      # bölüm açılır
+python3 scripts/analiz_tek.py https://ornek.com/haber     # komut satırından
+```
+
+Bölüm **yerel uygulamada** çalışır: `serve.py` içindeki `/api/analiz-et` ucu
+anahtarı işletim sisteminden okur. Yayındaki sayfada kapalıdır ve nedeni
+anlatılır — anahtarı herkese açık bir sayfaya koymak onu herkese vermek
+demektir, ayrıca açık bir "her şeyi analiz et" düğmesi faturayı da herkese
+açar.
+
+Yayında da açmak istersen doğru yol, anahtarı tutan küçük bir vekil sunucudur
+(Cloudflare Worker gibi) ve o vekilin erişim denetimiyle korunmasıdır; sayfa,
+`data/analiz-uc.json` içinde `{"url": "https://…"}` tanımlıysa istekleri oraya
+gönderir.
 
 ## İzleme masası özellikleri
 

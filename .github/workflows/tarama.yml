@@ -49,13 +49,21 @@ jobs:
         if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' || github.event.inputs.analiz == 'evet'
         continue-on-error: true
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
           ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "ANTHROPIC_API_KEY tanimli degil; analiz atlandi."
+            echo "::warning::ANTHROPIC_API_KEY bos geldi; analiz atlandi."
+            echo "Kontrol listesi:"
+            echo "  1) Settings > Secrets and variables > Actions > 'Secrets' sekmesi"
+            echo "     (Variables sekmesi degil) altinda 'Repository secrets' listesinde"
+            echo "     ANTHROPIC_API_KEY gorunuyor mu?"
+            echo "  2) Ad birebir ANTHROPIC_API_KEY mi (bosluk/turkce harf yok)?"
+            echo "  3) Environment secret olarak eklendiyse bu is akisina gelmez;"
+            echo "     repository secret olarak ekle."
             exit 0
           fi
+          echo "anahtar bulundu (uzunluk: ${#ANTHROPIC_API_KEY})" 
           python3 -m pip install --quiet --disable-pip-version-check anthropic
           python3 scripts/analiz.py
 

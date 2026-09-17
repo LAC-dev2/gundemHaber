@@ -480,6 +480,118 @@ function renderAnalizOzet() {
   });
 }
 
+
+/* ------------------------------------------------------------- analiz et */
+/* Analiz ucu: yerel uygulamada serve.py (/api/analiz-et), yayında ise
+   data/analiz-uc.json içinde tanımlıysa o adres. Hiçbiri yoksa bölüm
+   ne yapılması gerektiğini söyler. */
+async function analizUcu() {
+  if (window.__VERI__) return null;                       // tek dosyalık paket
+  if (state.analizUc !== undefined) return state.analizUc;
+  let uc = null;
+  const yerel = location.hostname === '127.0.0.1' || location.hostname === 'localhost';
+  if (yerel) {
+    uc = 'api/analiz-et';
+  } else {
+    const ayar = await getJSON('data/analiz-uc.json', null);
+    if (ayar && ayar.url) uc = ayar.url;
+  }
+  state.analizUc = uc;
+  return uc;
+}
+
+function analizetSonucHtml(a) {
+  const satir = (b, i) => `<li><b>${esc(b.dayanak)}</b>
+    <span class="tag ${b.metinde_geciyor ? 'birincil' : ''}">${b.metinde_geciyor ? 'metinde geçiyor' : 'ilgili çerçeve'}</span>
+    <p>${esc(b.ilgisi)}</p></li>`;
+  return `<article class="analiz">
+    <div class="analiz-ust">
+      <span class="eyebrow" style="--c:var(--deep)">${esc(a.alan)}</span>
+      <span class="tag ${GUVEN[a.guven] || ''}">güven: ${esc(a.guven)}</span>
+      ${(a.ikincil_alanlar || []).map((x) => `<span class="tag">${esc(x)}</span>`).join('')}
+    </div>
+    <h2>${esc(a.baslik)}</h2>
+    <p class="brifing">${esc(a.ozet)}</p>
+
+    <section class="analiz-blok"><h3>Değerlendirme</h3>
+      <p class="degerlendirme">${esc(a.degerlendirme)}</p>
+      <p class="muted" style="font-size:.86rem">Güven gerekçesi: ${esc(a.guven_gerekcesi)}</p></section>
+
+    ${(a.hukuki_cerceve || []).length ? `<section class="analiz-blok"><h3>Hukuki çerçeve</h3>
+      <ul class="cerceve">${a.hukuki_cerceve.map(satir).join('')}</ul></section>` : ''}
+
+    ${(a.dikkat || []).length ? `<section class="analiz-blok"><h3>Doğrulanması gerekenler</h3>
+      <ul class="izlenecek">${a.dikkat.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
+
+    ${(a.izlenecekler || []).length ? `<section class="analiz-blok"><h3>İzlenecekler</h3>
+      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
+
+    <footer class="analiz-kunye">
+      <p class="uyari">${esc(a.uyari || '')}</p>
+      <p class="mono">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">kaynağa git ↗</a> · ` : ''}
+        model ${esc(a.model || '')} · maliyet ≈ $${esc(a.maliyet_usd ?? '—')}
+        ${a.kirpildi ? ' · metin uzunluk sınırı nedeniyle kısaltıldı' : ''}</p>
+    </footer>
+  </article>`;
+}
+
+async function drawAnalizEt() {
+  const uc = await analizUcu();
+  const durum = $('#analizetDurum');
+  const form = $('#analizForm');
+  if (!uc) {
+    durum.innerHTML = `<b>Bu bölüm yerel uygulamada çalışır.</b> Analiz isteği bir API
+      anahtarı gerektirir; anahtarı yayındaki sayfaya koymak onu herkese açık hâle
+      getireceği için burada kapalı. Kendi bilgisayarında
+      <code>ANTHROPIC_API_KEY=sk-ant-… python3 scripts/serve.py</code> ile başlat,
+      bölüm kendiliğinden açılır. Yayında da açmak istersen
+      <code>README → Analiz ucu</code> bölümündeki küçük vekil sunucu tarif ediliyor.`;
+    form.hidden = true;
+    return;
+  }
+  durum.innerHTML = `Bir haber, karar ya da duyuru adresi ver; sayfanın metni alınır ve
+    merkezin çalışma alanlarına göre değerlendirilir. Sayfa metnini alamazsa metni
+    yapıştırabilirsin. <b>Sonuç kaydedilmez</b>, yalnızca bu ekranda görünür.`;
+  form.hidden = false;
+}
+
+function analizEtBagla() {
+  const form = $('#analizForm');
+  if (!form) return;
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const uc = await analizUcu();
+    if (!uc) return;
+    const url = $('#aeUrl').value.trim();
+    const metin = $('#aeMetin').value.trim();
+    if (!url && metin.length < 200) {
+      $('#aeDurum').textContent = 'Adres ver ya da en az 200 karakter metin yapıştır';
+      return;
+    }
+    $('#aeGonder').disabled = true;
+    $('#aeDurum').textContent = 'analiz ediliyor… (10-40 saniye)';
+    $('#analizetSonuc').innerHTML = '';
+    try {
+      const r = await fetch(uc, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url, metin, model: $('#aeModel').value || undefined }),
+      });
+      const a = await r.json();
+      if (a.hata) {
+        $('#analizetSonuc').innerHTML = `<div class="empty">${esc(a.hata)}</div>`;
+      } else {
+        $('#analizetSonuc').innerHTML = analizetSonucHtml(a);
+      }
+    } catch (err) {
+      $('#analizetSonuc').innerHTML = `<div class="empty">İstek başarısız: ${esc(err.message)}</div>`;
+    } finally {
+      $('#aeGonder').disabled = false;
+      $('#aeDurum').textContent = '';
+    }
+  });
+}
+
 /* ---------------------------------------------------------------- dosyam */
 function drawDosyam() {
   const rows = Object.values(state.dosya).sort((a, b) => (a.tarih < b.tarih ? 1 : -1));
@@ -547,6 +659,7 @@ async function drawArchive() {
   $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
     || '<option value="">analiz yok</option>';
   $('#analizGun').addEventListener('change', drawAnaliz);
+  analizEtBagla();
 
   // son ziyaretten beri gelen kayıtlar
   state.sonZiyaret = LS.get('bhm.sonZiyaret', 0) || 0;
@@ -630,11 +743,12 @@ async function drawArchive() {
     if (b.dataset.view === 'arsiv') drawArchive();
     if (b.dataset.view === 'dosyam') drawDosyam();
     if (b.dataset.view === 'analiz') drawAnaliz();
+    if (b.dataset.view === 'analizet') drawAnalizEt();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
 
   // paket kipi: #k=<anahtar> ile kayıt sayfası aynı dosyada açılır
-  const VIEWS = ['gundem', 'analiz', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
+  const VIEWS = ['gundem', 'analiz', 'analizet', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
   function route() {
     const m = location.hash.match(/^#k=(.+)$/);
     const box = $('#view-haber');

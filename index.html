@@ -29,6 +29,7 @@
     <nav class="tabs" role="tablist">
       <button role="tab" data-view="gundem" aria-selected="true">Gündem</button>
       <button role="tab" data-view="analiz" aria-selected="false">Analiz</button>
+      <button role="tab" data-view="analizet" aria-selected="false">Analiz et</button>
       <button role="tab" data-view="kaynaklar" aria-selected="false">Kaynaklar</button>
       <button role="tab" data-view="arsiv" aria-selected="false">Arşiv</button>
       <button role="tab" data-view="dosyam" aria-selected="false">Dosyam</button>
@@ -80,6 +81,28 @@
       <span class="count" id="analizSay"></span>
     </div></div>
     <div id="analizGovde"></div>
+  </section>
+
+  <!-- ANALİZ ET -->
+  <section id="view-analizet" hidden>
+    <p class="note" id="analizetDurum"></p>
+    <form class="analiz-form" id="analizForm">
+      <label for="aeUrl">Haber, karar ya da duyuru adresi</label>
+      <input type="url" id="aeUrl" placeholder="https://…" autocomplete="off">
+      <label for="aeMetin">ya da metni yapıştır</label>
+      <textarea id="aeMetin" rows="7" placeholder="Sayfa giriş istiyorsa ya da metin çıkarılamıyorsa, metni buraya yapıştır…"></textarea>
+      <div class="form-alt">
+        <button type="submit" class="git" id="aeGonder">Analiz et</button>
+        <select id="aeModel" title="Model">
+          <option value="">Öntanımlı model</option>
+          <option value="claude-opus-5">claude-opus-5 (en iyi)</option>
+          <option value="claude-sonnet-5">claude-sonnet-5 (dengeli)</option>
+          <option value="claude-haiku-4-5">claude-haiku-4-5 (ucuz)</option>
+        </select>
+        <span class="count" id="aeDurum"></span>
+      </div>
+    </form>
+    <div id="analizetSonuc"></div>
   </section>
 
   <!-- HABER (tek dosyalık paket kipinde sayfa içinde açılır) -->

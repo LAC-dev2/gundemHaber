@@ -486,3 +486,20 @@ footer a{color:#8FD6EC}
   .one-cikan li{padding:var(--s4) var(--s3) var(--s3) var(--s5)}
   .one-cikan li::before{left:var(--s2);font-size:1.2rem}
 }
+
+/* ───────────────────────────────────────────────────────────── analiz et */
+.analiz-form{display:grid;gap:var(--s2);max-width:74ch;margin:var(--s4) 0 var(--s5)}
+.analiz-form label{font-size:.7rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.14em;color:var(--ink-3);margin-top:var(--s3)}
+.analiz-form input[type="url"],.analiz-form textarea{padding:12px 15px;border:1.5px solid var(--hair);
+  border-radius:var(--r);background:var(--white);font-size:.96rem;font-family:inherit;width:100%}
+.analiz-form textarea{resize:vertical;line-height:1.5}
+.analiz-form input:focus,.analiz-form textarea:focus{border-color:var(--accent-2);outline:none}
+.form-alt{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center;margin-top:var(--s3)}
+.git:disabled{opacity:.5;cursor:progress}
+.degerlendirme{font-size:1.04rem;line-height:1.6;color:var(--ink);margin:0 0 var(--s3)}
+.cerceve{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3)}
+.cerceve li{background:var(--surface);border:1px solid var(--hair-2);border-left:4px solid var(--accent-2);
+  border-radius:var(--r);padding:var(--s3) var(--s4)}
+.cerceve li b{font-family:var(--display);font-size:1.04rem;margin-right:var(--s2)}
+.cerceve li p{margin:var(--s2) 0 0;font-size:.94rem;color:var(--ink-2)}
