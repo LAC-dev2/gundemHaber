@@ -635,3 +635,14 @@ footer a{color:#8FD6EC}
 .gorsel.sigdir img,.manset-img.sigdir img{object-fit:contain;padding:8px}
 .manset-img.sigdir img{padding:14px}
 .card:hover .gorsel.sigdir img,.manset-img.sigdir:hover img{transform:none}
+
+
+/* görsel yüklenirken: kalıcı gri kutu değil, yükleniyor izlenimi */
+.gorsel:not(.yuklendi),.manset-img:not(.yuklendi){
+  background:linear-gradient(100deg,var(--sunken) 30%,var(--surface) 50%,var(--sunken) 70%);
+  background-size:220% 100%;animation:parla 1.4s ease-in-out infinite}
+.gorsel.yuklendi,.manset-img.yuklendi{animation:none}
+@keyframes parla{0%{background-position:120% 0}100%{background-position:-20% 0}}
+@media (prefers-reduced-motion:reduce){
+  .gorsel:not(.yuklendi),.manset-img:not(.yuklendi){animation:none}
+}

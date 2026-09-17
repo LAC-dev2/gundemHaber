@@ -123,18 +123,32 @@ window.gorselOran = function (img) {
    islev tanimlanmadan once "complete" olabiliyor ve olay hic dusmuyor.
    Her cizimden sonra yuklenmis gorselleri tarayip, yuklenmemislere
    dinleyici takiyoruz. */
+const GORSEL_SURE = 10000;      // bu sureyi asan gorsel yok sayilir
+
 function gorselleriAyarla(kok = document) {
   kok.querySelectorAll('.manset-img img, .gorsel img').forEach((img) => {
     if (img.dataset.oranli) return;
-    if (img.complete && img.naturalWidth) { img.dataset.oranli = '1'; window.gorselOran(img); return; }
-    img.addEventListener('load', () => { img.dataset.oranli = '1'; window.gorselOran(img); }, { once: true });
+    const bitti = () => {
+      img.dataset.oranli = '1';
+      img.parentElement?.classList.add('yuklendi');
+      window.gorselOran(img);
+    };
+    if (img.complete && img.naturalWidth) { bitti(); return; }
+    img.addEventListener('load', bitti, { once: true });
+    // Kaynagin sunucusu yavas ya da hotlink'e kapali olabiliyor. Kalici
+    // gri kutu birakmak yerine, suresi gecen gorseli kaldiriyoruz.
+    setTimeout(() => {
+      if (!img.dataset.oranli && img.isConnected && !img.naturalWidth) window.gorselHata(img);
+    }, GORSEL_SURE);
   });
 }
 
-function imgTag(it) {
+function imgTag(it, oncelikli) {
   const local = it.yerel ? esc(it.yerel) : '';
   const remote = it.gorsel ? esc(it.gorsel) : '';
-  return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}"
+  // Manşet görseli sayfanın en görünür öğesi: bekletmeden yüklenir.
+  const yukle = oncelikli ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
+  return `<img src="${local || remote}" alt="" ${yukle} data-remote="${remote}"
     onerror="window.gorselHata(this)" onload="window.gorselOran&&window.gorselOran(this)">`;
 }
 
@@ -219,7 +233,7 @@ function recent(days) {
 function leadCard(it) {
   const d = new Date(it.tarih);
   return `<article class="manset" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
-    ${(it.gorsel || it.yerel) ? `<a class="manset-img" href="${ic(it)}" style="--c:${RC[it.bolge] || 'var(--accent-2)'}">${imgTag(it)}</a>` : ''}
+    ${(it.gorsel || it.yerel) ? `<a class="manset-img" href="${ic(it)}" style="--c:${RC[it.bolge] || 'var(--accent-2)'}">${imgTag(it, true)}</a>` : ''}
     <div class="eyebrow"><span class="pin"></span>${esc(it.bolge)}<span class="sep">/</span>${esc(it.kategori || '')}</div>
     <h2><a href="${ic(it)}">${esc(bas(it))}</a></h2>
     ${ozt(it) ? `<p>${esc(ozt(it))}</p>` : ''}
