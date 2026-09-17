@@ -486,7 +486,7 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
 
     iddialar = iddialari_topla(veri)
     if not iddialar:
-        return {}
+        return {"hata": "denetlenecek iddia bulunamadı"}
     gosterilen = {k for i in iddialar for k in i["kayitlar"]}
     kayit_ix = {h["k"]: h for h in secilen}
     bloklar = [kayit_metni(kayit_ix[k], kumeler, tam_metin, uzun=True)
@@ -530,12 +530,12 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
         return {"hata": f"{type(hata).__name__}: {hata}"[:300]}
     if yanit.stop_reason in ("refusal", "max_tokens"):
         print(f"denetim atlandi: {yanit.stop_reason}")
-        return {}
+        return {"hata": f"yanıt {yanit.stop_reason}"}
     try:
         sonuc = json.loads(next(b.text for b in yanit.content if b.type == "text"))
     except Exception as hata:
         print(f"denetim yaniti ayristirilamadi: {type(hata).__name__}")
-        return {}
+        return {"hata": f"yanıt ayrıştırılamadı: {type(hata).__name__}"}
     sonuc["model"] = model
     sonuc["maliyet_usd"] = round(maliyet(model, yanit.usage.input_tokens,
                                          yanit.usage.output_tokens), 4)
@@ -592,6 +592,9 @@ def main() -> int:
             return 1
         veri = json.loads(hedef.read_text(encoding="utf-8"))
         secilen = [h for h in latest["haberler"] if h["k"] in set(veri.get("kullanilan_kayitlar", []))]
+        print(f"yalnız denetim: {len(veri.get('one_cikanlar', []))} öne çıkan, "
+              f"{len(veri.get('birincil_notlar', []))} birincil not, "
+              f"{len(secilen)}/{len(veri.get('kullanilan_kayitlar', []))} kayıt bulundu")
         denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
                               args.denetim_model, birincil_blogu() if args.birincil else "")
         if denetim.get("hata"):
@@ -608,7 +611,8 @@ def main() -> int:
             durum_yaz(gun, "tamam", f"denetim eklendi: {denetim['iddia_sayisi']} iddia, "
                                     f"{len(sorunlu)} işaretlendi")
         else:
-            print("denetim boş döndü.")
+            durum_yaz(gun, "denetim boş", "denetim geçişi hiçbir sonuç döndürmedi")
+            print("::warning::denetim boş döndü.")
             return 1
         hedef.write_text(json.dumps(veri, ensure_ascii=False, indent=1), encoding="utf-8")
         (DATA / "analiz-latest.json").write_text(json.dumps(veri, ensure_ascii=False, indent=1),

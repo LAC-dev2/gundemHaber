@@ -108,14 +108,27 @@ jobs:
           python3 scripts/birincil.py --gun-sayisi 21 --adet 8 || true
           # Elle tetiklenen turda "analiz_yenile: evet" ise o gunun analizi varsa
           # uzerine yazilir; zamanlanmis turlarda mevcut analiz korunur.
+          # Adimin cikisi hem kutuge hem yayinlanan bir dosyaya yazilir:
+          # analiz adimi hatayi yutuyor (tarama bozulmasin diye) ve neden
+          # uretilmedigi baska turlu gorunmuyor.
+          KUTUK="$RUNNER_TEMP/analiz.log"
+          # -e acik: hata halinde kutugu yazmadan cikmasin diye kapatiyoruz
+          set +e
+          set -o pipefail
           if [ "$SADECE_DENETIM" = "evet" ]; then
             # Analiz yeniden uretilmez; var olan analiz denetlenir (ucuz).
-            python3 scripts/analiz.py --yalniz-denetim
+            python3 scripts/analiz.py --yalniz-denetim 2>&1 | tee "$KUTUK"
           elif [ "$ANALIZ_YENILE" = "evet" ]; then
-            python3 scripts/analiz.py --zorla
+            python3 scripts/analiz.py --zorla 2>&1 | tee "$KUTUK"
           else
-            python3 scripts/analiz.py
+            python3 scripts/analiz.py 2>&1 | tee "$KUTUK"
           fi
+          SONUC=$?
+          {
+            echo "# analiz adimi $(date -u '+%Y-%m-%d %H:%M UTC') · cikis kodu $SONUC"
+            tail -n 60 "$KUTUK"
+          } > data/analiz-log.txt
+          exit $SONUC
 
       # Haftalik sentez: pazar sabahi taramasinda ya da elle istendiginde.
       # Gunluk analizlere bakar, yeniden tarama ya da tam metin indirmez.
