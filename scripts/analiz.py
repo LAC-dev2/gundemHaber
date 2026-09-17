@@ -429,10 +429,20 @@ brifingin iddialari ve bu iddialarin dayandigi kayitlar var.
 Gorevin tek sey: her iddianin kendisine gosterilen kayitlarla desteklenip
 desteklenmedigini soylemek. Iddiayi guzellestirme, tamamlama, yeniden yazma.
 
-- "dayanaklı": iddiadaki olgular kayitlarda aciktan yaziyor.
-- "kısmen": ana olgu var ama iddia kayitlarin soylemedigi bir cikarim ekliyor
-  (nitelendirme, neden-sonuc, egilim) ya da sayi/tarih kayittan farkli.
-- "dayanaksız": iddianin dayandigi olgu kayitlarda yok.
+Yalnizca OLGU iddialarini denetle: sayi, tarih, isim, dosya numarasi, tutar,
+ne oldugu. Analistin degerlendirmesi olgu degildir ve denetlenmez:
+"merkezin dosyalari icin ne anlama geliyor", onem sirasi, hangi mekanizmanin
+devrede oldugu, izlenmesi gerektigi. Bunlari eksik dayanak sayma.
+
+- "dayanaklı": iddiadaki olgular kayitlarda, birincil belgelerde ya da sana
+  verilen onceki gun basliklarinda/takip maddelerinde yaziyor.
+- "kısmen": ana olgu var ama iddia baska bir OLGU ekliyor ve o kayitlarda yok
+  (ornegin kayitta olmayan bir sayi, tarih, isim) ya da sayi/tarih kayittan
+  farkli.
+- "dayanaksız": iddianin dayandigi olgu hicbir yerde yok.
+
+Sureklilik iddialarinda (ornegin "dun 62 idi, bugun 82") onceki gun
+basliklarina ve takip maddelerine bak: orada karsiligi varsa dayanaklidir.
 
 Notu kisa yaz ve neyin eksik oldugunu soyle. Turkce yaz.
 
@@ -481,7 +491,7 @@ def iddialari_topla(veri: dict) -> list[dict]:
 
 
 def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
-                model: str, birincil: str) -> dict:
+                model: str, birincil: str, gecmis: str = "", takip: str = "") -> dict:
     """Ikinci gecis: iddialari kayitlara karsi denetler.
 
     Butun kayitlari degil, yalnizca iddialarin gosterdigi kayitlari
@@ -502,7 +512,11 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
             f"{', '.join(i['kayitlar']) or '(yok)'}" for i in iddialar)
         + "\n\nKAYITLAR\n" + "\n\n".join(bloklar)
         + (f"\n\nBİRİNCİL BELGELER\n{birincil}" if birincil else "")
-        + "\n\nHer iddia için hüküm ver. Kayıtlarda olmayan bir olgu varsa söyle."
+        + (f"\n\nÖNCEKİ GÜNLERİN BAŞLIKLARI (süreklilik iddialarının dayanağı)\n{gecmis}"
+           if gecmis else "")
+        + (f"\n\nAÇIK TAKİP MADDELERİ\n{takip}" if takip else "")
+        + "\n\nHer iddia için hüküm ver. Yalnızca olgu eksikliğini işaretle; "
+        + "analistin değerlendirmesini eksik dayanak sayma."
     )
     istemci = anthropic.Anthropic()
 
@@ -602,7 +616,8 @@ def main() -> int:
               f"{len(veri.get('birincil_notlar', []))} birincil not, "
               f"{len(secilen)}/{len(veri.get('kullanilan_kayitlar', []))} kayıt bulundu")
         denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
-                              args.denetim_model, birincil_blogu() if args.birincil else "")
+                              args.denetim_model, birincil_blogu() if args.birincil else "",
+                              gecmis=gecmis_ozeti(), takip=takip_ozeti(takip_oku()))
         if denetim.get("hata"):
             print(f"::warning::öz-denetim yapılamadı: {denetim['hata']}")
             veri["denetim_hata"] = denetim["hata"]
@@ -701,7 +716,8 @@ def main() -> int:
 
     if args.denetim:
         denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
-                              args.denetim_model, birincil)
+                              args.denetim_model, birincil,
+                              gecmis=gecmis_ozeti(), takip=takip_ozeti(takip))
         if denetim.get("hata"):
             print(f"::warning::öz-denetim yapılamadı: {denetim['hata']}")
             veri["denetim_hata"] = denetim["hata"]
