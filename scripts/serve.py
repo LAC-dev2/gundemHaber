@@ -64,8 +64,8 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             from analiz_tek import analiz_et
             sonuc = analiz_et(url=url, metin=metin,
-                              model=istek.get("model") or os.environ.get("ANALIZ_MODEL")
-                              or "claude-opus-5")
+                              model=(istek.get("model") or os.environ.get("ANALIZ_MODEL")
+                                     or "claude-opus-5"))
         except Exception as exc:            # tek analiz hatasi sunucuyu dusurmesin
             sonuc = {"hata": f"Analiz sırasında hata: {type(exc).__name__}: {exc}"}
         self.cevapla(sonuc, 200 if "hata" not in sonuc else 502)

@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extract import extract as extract_text        # noqa: E402
 import collect                                      # noqa: E402
 
-VARSAYILAN_MODEL = os.environ.get("ANALIZ_MODEL", "claude-opus-5")
+VARSAYILAN_MODEL = os.environ.get("ANALIZ_MODEL") or "claude-opus-5"
 MAKS_METIN = 18000          # karakter; ~5 bin token
 ALANLAR = [
     "AİHM başvuruları ve kararların icrası",

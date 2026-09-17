@@ -182,7 +182,7 @@ def maliyet(model: str, girdi: int, cikti: int) -> float:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default=os.environ.get("ANALIZ_MODEL", VARSAYILAN_MODEL))
+    ap.add_argument("--model", default=os.environ.get("ANALIZ_MODEL") or VARSAYILAN_MODEL)
     ap.add_argument("--adet", type=int, default=45, help="analize girecek kayıt sayısı")
     ap.add_argument("--gun", default=None, help="YYYY-AA-GG (öntanımlı: bugün)")
     ap.add_argument("--kuru", action="store_true", help="istek atma, yalnızca istemi ve maliyet tahminini göster")

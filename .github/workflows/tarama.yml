@@ -50,7 +50,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
-          ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL }}
+          ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL || 'claude-opus-5' }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
             echo "::warning::ANTHROPIC_API_KEY bos geldi; analiz atlandi."
