@@ -407,14 +407,24 @@ function fillSelect(el, values, label) {
 const GUVEN = { 'yüksek': 'birincil', 'orta': 'yuksek', 'düşük': 'kritik' };
 const DURUM = { 'hareketli': 'kritik', 'olağan': 'birincil', 'sessiz': '' };
 
-/* Analiz metnindeki [anahtar] kodlarını dipnot numarasına çevirir; okunan
-   metinde kod değil numara görünür, numaranın karşılığı altta listelenir. */
+/* Analiz metnindeki [anahtar] kodlarını, tıklanınca ilgili kaydı açan dipnot
+   numaralarına çevirir. Numaranın üstüne gelince haberin başlığı görünür. */
 function refliMetin(metin, anahtarlar) {
   const sira = new Map((anahtarlar || []).map((k, i) => [k, i + 1]));
-  return esc(metin).replace(/\[([0-9a-f]{6,12})\]/g, (t, k) => {
-    const n = sira.get(k);
-    return n ? `<sup class="ref">${n}</sup>` : '';
-  }).replace(/\s+([.,;:])/g, '$1');
+  return esc(metin)
+    .replace(/(\[[0-9a-f]{6,12}\])+/g, (kume) => {
+      const parcalar = (kume.match(/\[([0-9a-f]{6,12})\]/g) || []).map((t) => {
+        const k = t.slice(1, -1);
+        const it = state.items.find((x) => x.k === k);
+        const n = sira.get(k);
+        if (!it) return n ? `<sup class="ref yok">${n}</sup>` : '';
+        const etiket = n || '•';
+        return `<a class="ref" href="${ic(it)}"
+          title="${esc(it.kaynak)} · ${esc(bas(it))}"><sup>${etiket}</sup></a>`;
+      }).filter(Boolean);
+      return parcalar.join('<sup class="ref-ayrac">,</sup>');
+    })
+    .replace(/\s+([.,;:])/g, '$1');
 }
 
 /* Dayanılan kayıtlar: kaynak adı değil, haberin kendisi görünsün. */
@@ -443,6 +453,9 @@ function analizGovde(a) {
     </div>
     <h2>${esc(a.baslik)}</h2>
     <p class="brifing">${refliMetin(a.brifing, a.kullanilan_kayitlar)}</p>
+    <p class="ref-aciklama">Metindeki <span class="ref ornek"><sup>1</sup></span> gibi kırmızı
+      numaralar, o cümlenin dayandığı kayıtlardır; üstüne gelince başlığı görünür,
+      tıklayınca kayıt açılır.</p>
 
     ${(a.kullanilan_kayitlar || []).length ? `<details class="tum-kayitlar">
       <summary>Analizin dayandığı ${a.kullanilan_kayitlar.length} kaydın tamamı</summary>

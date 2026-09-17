@@ -530,3 +530,10 @@ footer a{color:#8FD6EC}
 
 .kaynak-ekle-satir{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center;margin:var(--s4) 0}
 .kaynak-ekle-satir .muted{font-size:.86rem;max-width:58ch}
+a.ref{text-decoration:none;color:var(--accent);font-weight:700;padding:0 1px}
+a.ref:hover{color:#fff;background:var(--accent);border-radius:2px}
+a.ref sup{font-size:.62em;vertical-align:super}
+.ref-ayrac{font-size:.62em;color:var(--ink-3);vertical-align:super}
+.ref.yok{color:var(--ink-3)}
+.ref-aciklama{font-size:.8rem;color:var(--ink-3);margin:var(--s3) 0 0}
+.ref-aciklama .ornek{font-weight:700;color:var(--accent)}
