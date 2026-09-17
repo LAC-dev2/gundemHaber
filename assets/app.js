@@ -636,6 +636,36 @@ function kipSec(kip, gun) {
   drawAnaliz();
 }
 
+const UYARI_DUZEY = { 'yüksek': 'kritik', 'orta': 'alan' };
+
+function renderUyari() {
+  const u = state.uyari;
+  const serit = $('#uyariSerit');
+  if (!serit) return;
+  const bugun = new Date().toISOString().slice(0, 10);
+  const liste = (u && u.gun === bugun ? u.uyarilar : []) || [];
+  if (!liste.length) { serit.innerHTML = ''; return; }
+  const kapali = LS.get('bhm.uyariKapali', '') === (u.olusturma || u.gun);
+  if (kapali) { serit.innerHTML = ''; return; }
+  serit.innerHTML = `<div class="uyari-serit">
+    <div class="us-ust">
+      <span class="eyebrow" style="--c:var(--accent)">Eşik aşıldı</span>
+      <span class="mono">${esc(liste.length)} uyarı · ${esc(u.gun)}</span>
+      <button type="button" class="us-kapat" title="Bugünlük gizle">×</button>
+    </div>
+    <ul>${liste.map((x) => `<li>
+      <span class="tag ${UYARI_DUZEY[x.duzey] || ''}">${esc(x.tur)}</span>
+      <b>${esc(x.baslik)}</b>
+      ${x.not ? `<p>${esc(x.not)}</p>` : ''}
+      ${kayitBaglari(x.kayitlar || [])}
+    </li>`).join('')}</ul>
+  </div>`;
+  serit.querySelector('.us-kapat').addEventListener('click', () => {
+    LS.set('bhm.uyariKapali', u.olusturma || u.gun);
+    serit.innerHTML = '';
+  });
+}
+
 function renderAnalizOzet() {
   const a = state.analiz;
   if (!a) return;
@@ -697,7 +727,7 @@ async function drawArchive() {
 /* ------------------------------------------------------------------- init */
 (async function init() {
   const [latest, meta, feeds, index, health, surum, analiz, analizIndex,
-         sentez, sentezIndex] = await Promise.all([
+         sentez, sentezIndex, uyari] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
@@ -708,6 +738,7 @@ async function drawArchive() {
     getJSON('data/analiz-index.json', []),
     getJSON('data/sentez-latest.json', null),
     getJSON('data/sentez-index.json', []),
+    getJSON('data/uyari-son.json', null),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
@@ -719,6 +750,7 @@ async function drawArchive() {
   state.dosya = LS.get('bhm.dosya', {}) || {};
   state.analiz = analiz;
   state.sentez = sentez;
+  state.uyari = uyari;
   state.analizKip = 'gun';
   state.ceviri = LS.get('bhm.ceviri', true) !== false;
   const cChip = $('#ceviriChip');
@@ -767,6 +799,7 @@ async function drawArchive() {
   $('#stats').innerHTML = statTiles(state.stats);
   $('#pencere').textContent = $('#pencere2').textContent = state.stats.pencereGun || 21;
   renderLead();
+  renderUyari();
   renderAnalizOzet();
   renderRegions();
 

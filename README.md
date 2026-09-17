@@ -36,8 +36,10 @@ scripts/ceviri.py           Türkçe olmayan kayıtların başlık/özet çeviri
 scripts/kaynak_ekle.py      envantere yeni kaynak ekleme (form ve komut satırı)
 scripts/tam_metin.py        analiz öncesi öne çıkan kayıtların tam metni
 scripts/sentez.py           haftalık sentez üretimi (Claude API)
+scripts/uyari.py            eşik aşıldığında uyarı (API kullanmaz)
 data/takip.json             açık takip maddeleri ve seyri
 data/sentez/                haftalık sentezler
+data/uyari-son.json         güncel eşik uyarıları
 data/ceviri.json            çeviri önbelleği (her kayıt bir kez çevrilir)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
@@ -356,6 +358,35 @@ veya dava stratejisi üretmesi yasaklanmıştır. Çıktı JSON şemasıyla
 kısıtlanmıştır. Her analiz sayfasında, değerlendirmenin yapay zekâ ile
 üretildiğini ve birincil kaynakta doğrulanmadan dosyaya esas alınamayacağını
 söyleyen uyarı görünür.
+
+## Uyarılar — ne zaman bakmam gerekir
+
+Site gün boyu sessizce dolar. `scripts/uyari.py` her taramadan sonra çalışır ve
+yalnızca aşağıdaki eşiklerden biri aşılırsa haber verir. Model çağırmaz, ek
+maliyeti yoktur.
+
+| Kural | Eşik |
+|---|---|
+| **Acil alan** | INTERPOL, iade/adli yardım ya da yaptırım alanında öne çıkan bir gelişme (bu alanlarda kayıt nadirdir, tek gelişme bile bakmayı hak eder) |
+| **Dosya hareketi** | Açık takip dosyalarından biri kımıldadıysa |
+| **Çok kaynaklı** | Aynı gelişmeyi 4 ya da daha fazla kaynak verdiyse |
+| **Kritik kayıt yoğunluğu** | Gün içinde birincil kaynaktan 3+ "Kritik" öncelikli kayıt |
+| **İzleme bozuldu** | 8 ya da daha fazla kaynağın akışı hata veriyorsa |
+
+Aynı uyarı iki kez gönderilmez (`data/uyari-gecmis.json`). Kanallar:
+
+* **GitHub konusu** — kurulum gerektirmez; depo sahibine GitHub kendisi e-posta
+  gönderir. Uyarı, `uyari` etiketli bir konu olarak açılır.
+* **Telegram** (isteğe bağlı) — `TELEGRAM_TOKEN` ve `TELEGRAM_CHAT_ID` sırları
+  tanımlıysa aynı özet Telegram'a da düşer; tanımlı değilse adım sessizce atlanır.
+* **Site** — güncel uyarılar Gündem sayfasının en üstünde şerit olarak görünür;
+  "×" ile o güne kapatılabilir (tercih tarayıcıda saklanır).
+
+```bash
+python3 scripts/uyari.py               # bugünü değerlendir
+python3 scripts/uyari.py --kuru        # geçmişe yazma, yalnızca göster
+python3 scripts/uyari.py --hepsi       # daha önce gönderilmişleri de listele
+```
 
 ## İzleme masası özellikleri
 
