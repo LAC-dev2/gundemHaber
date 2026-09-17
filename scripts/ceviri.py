@@ -57,6 +57,30 @@ def dil_tahmini(metin: str) -> str:
     return "tr" if len(sozcukler & TR_SOZCUK) >= 2 else "diger"
 
 
+def kat(metin: str) -> str:
+    """Karsilastirma icin sadelestirir: harf ve rakam disini atar."""
+    return re.sub(r"[^a-z0-9çğıöşü]+", "", (metin or "").lower())
+
+
+def dogrula(h: dict, baslik: str, ozet: str) -> tuple[str, str]:
+    """Modelin ceviri yerine baslik tekrarlamasini ya da ceviriyi
+    atlamasini yakalar. Kusurlu alani bos dondurur; arayuz o zaman
+    ozgun metne duser, uydurma bir "Turkce" gostermez."""
+    ozgun_b, ozgun_o = h.get("baslik") or "", h.get("ozet") or ""
+    b, o = (baslik or "").strip(), (ozet or "").strip()
+
+    if kat(b) == kat(ozgun_b):            # cevirmemis, aynen geri vermis
+        b = ""
+    if o:
+        if kat(o) in (kat(b), kat(ozgun_b)):        # ozet yerine baslik yazmis
+            o = ""
+        elif not ozgun_o:                            # ozgun ozet yok, uydurmus
+            o = ""
+        elif len(ozgun_o) > 120 and len(o) < len(ozgun_o) * 0.35:
+            o = ""                                   # ozetlemis, cevirmemis
+    return b, o
+
+
 def sema(n: int) -> dict:
     return {
         "type": "object",
@@ -84,12 +108,45 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default=VARSAYILAN_MODEL)
     ap.add_argument("--adet", type=int, default=160, help="bu turda en fazla kaç yeni kayıt")
+    ap.add_argument("--temizle", action="store_true",
+                    help="mevcut onbellegi yeniden denetle, kusurlu cevirileri at")
     ap.add_argument("--kuru", action="store_true")
     args = ap.parse_args()
 
     latest_yol = DATA / "latest.json"
     latest = json.loads(latest_yol.read_text(encoding="utf-8"))
     onbellek = json.loads(ONBELLEK.read_text(encoding="utf-8")) if ONBELLEK.exists() else {}
+
+    if args.temizle:
+        kayitlar = {h["k"]: h for h in latest["haberler"] if h.get("k")}
+        atilan = 0
+        for k, kayit in list(onbellek.items()):
+            if kayit.get("dil") != "diger" or not kayit.get("baslik"):
+                continue
+            h = kayitlar.get(k)
+            if not h:
+                continue
+            b, o = dogrula(h, kayit.get("baslik", ""), kayit.get("ozet", ""))
+            if b and o == kayit.get("ozet", ""):
+                continue
+            atilan += 1
+            yeni_kayit = {"dil": "diger"}
+            if b:
+                yeni_kayit["baslik"] = b
+                if o:
+                    yeni_kayit["ozet"] = o
+            else:
+                yeni_kayit["cevrilemedi"] = True
+            onbellek[k] = yeni_kayit
+        print(f"önbellek denetimi: {atilan} kayıtta kusurlu çeviri düzeltildi")
+        for h in latest["haberler"]:               # eski alanları da temizle
+            kayit = onbellek.get(h.get("k") or "", {})
+            if not kayit.get("baslik"):
+                h.pop("baslik_tr", None)
+            if not kayit.get("ozet"):
+                h.pop("ozet_tr", None)
+        yaz(latest, latest_yol, onbellek)
+        return 0
 
     bekleyen = []
     for h in latest["haberler"]:
@@ -143,9 +200,20 @@ def main() -> int:
             veri = json.loads(next(b.text for b in yanit.content if b.type == "text"))
         except Exception:
             continue
+        yigin_ix = {h["k"]: h for h in yigin}
         for satir in veri.get("ceviriler", []):
-            onbellek[satir["k"]] = {"dil": "diger", "baslik": satir["baslik"],
-                                    "ozet": satir.get("ozet", "")}
+            h = yigin_ix.get(satir.get("k", ""))
+            if not h:
+                continue
+            b, o = dogrula(h, satir.get("baslik", ""), satir.get("ozet", ""))
+            kayit = {"dil": "diger"}
+            if b:
+                kayit["baslik"] = b
+                if o:
+                    kayit["ozet"] = o
+            else:
+                kayit["cevrilemedi"] = True     # tekrar denenip durmasin
+            onbellek[satir["k"]] = kayit
         girdi += yanit.usage.input_tokens
         cikti += yanit.usage.output_tokens
         print(f"  {bas + len(yigin)}/{len(bekleyen)} çevrildi")
@@ -171,7 +239,12 @@ def yaz(latest: dict, yol: Path, onbellek: dict) -> None:
             h["baslik_tr"] = kayit["baslik"]
             if kayit.get("ozet"):
                 h["ozet_tr"] = kayit["ozet"]
+            else:
+                h.pop("ozet_tr", None)
             cevrili += 1
+        else:
+            h.pop("baslik_tr", None)
+            h.pop("ozet_tr", None)
     latest.setdefault("istatistik", {})["cevrili"] = cevrili
     latest["istatistik"]["ceviri_guncelleme"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
     yol.write_text(json.dumps(latest, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -183,11 +256,15 @@ def yaz(latest: dict, yol: Path, onbellek: dict) -> None:
         try:
             d = json.loads(arsiv.read_text(encoding="utf-8"))
             for h in d.get("haberler", []):
-                kayit = onbellek.get(h.get("k") or "")
-                if kayit and kayit.get("baslik"):
+                kayit = onbellek.get(h.get("k") or "") or {}
+                if kayit.get("baslik"):
                     h["baslik_tr"] = kayit["baslik"]
-                    if kayit.get("ozet"):
-                        h["ozet_tr"] = kayit["ozet"]
+                else:
+                    h.pop("baslik_tr", None)         # denetimde atilan ceviri
+                if kayit.get("baslik") and kayit.get("ozet"):
+                    h["ozet_tr"] = kayit["ozet"]
+                else:
+                    h.pop("ozet_tr", None)
             arsiv.write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         except Exception:
             pass

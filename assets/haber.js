@@ -91,7 +91,11 @@ async function renderHaber(box, key) {
   const d = new Date(it.tarih);
   const trAcik = ceviriAcik() && !!it.baslik_tr;
   const gosterBaslik = trAcik ? it.baslik_tr : it.baslik;
-  const gosterOzet = (trAcik && it.ozet_tr) ? it.ozet_tr : it.ozet;
+  // ozet bazen basligin tekrari oluyor; ayni metni iki kez basmayalim
+  const kat = (x) => String(x || '').toLocaleLowerCase('tr').replace(/[^a-z0-9çğıöşü]+/g, '');
+  const hamOzet = (trAcik && it.ozet_tr) ? it.ozet_tr : it.ozet;
+  const gosterOzet = kat(hamOzet) && kat(hamOzet) !== kat(gosterBaslik)
+    && kat(hamOzet) !== kat(it.baslik) ? hamOzet : '';
   document.title = `${gosterBaslik} — Gündem Takip`;
   const st = $('#statusText');
   if (st) st.textContent = `${it.kaynak} · ${isNaN(d) ? '' : dayFmt.format(d)}`;

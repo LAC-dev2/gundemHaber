@@ -366,7 +366,16 @@ function filtered() {
 
 /* Türkçe gösterim: çeviri varsa ve tercih açıksa Türkçesi, yoksa özgün metin */
 const bas = (it) => (state.ceviri && it.baslik_tr) ? it.baslik_tr : it.baslik;
-const ozt = (it) => (state.ceviri && it.ozet_tr) ? it.ozet_tr : (it.ozet || '');
+/* Bazi kaynaklar ozet alanina basligi tekrar koyuyor (ceviri tarafinda da
+   olabiliyor). Ayni metni iki kez basmak yerine ozeti hic gostermiyoruz. */
+const kat = (x) => String(x || '').toLocaleLowerCase('tr').replace(/[^a-z0-9çğıöşü]+/g, '');
+const ozt = (it) => {
+  const o = (state.ceviri && it.ozet_tr) ? it.ozet_tr : (it.ozet || '');
+  if (!o) return '';
+  const b = kat(bas(it)), ok = kat(o);
+  if (!ok || ok === b || (b.length > 24 && ok.startsWith(b) && ok.length < b.length * 1.25)) return '';
+  return o;
+};
 
 const yeniMi = (it) => state.sonZiyaret && new Date(it.tarih).getTime() > state.sonZiyaret;
 
