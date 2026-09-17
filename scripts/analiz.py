@@ -500,24 +500,36 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
     )
     try:
         yanit = anthropic.Anthropic().messages.create(
-            model=model, max_tokens=4000, system=DENETIM_SISTEM,
+            model=model, max_tokens=6000, system=DENETIM_SISTEM,
             messages=[{"role": "user", "content": istem}],
             output_config={"format": {"type": "json_schema", "schema": DENETIM_SEMA}},
         )
     except Exception as hata:
         print(f"denetim atlandi: {type(hata).__name__}")
         return {}
-    if yanit.stop_reason == "refusal":
+    if yanit.stop_reason in ("refusal", "max_tokens"):
+        print(f"denetim atlandi: {yanit.stop_reason}")
         return {}
     try:
         sonuc = json.loads(next(b.text for b in yanit.content if b.type == "text"))
-    except Exception:
+    except Exception as hata:
+        print(f"denetim yaniti ayristirilamadi: {type(hata).__name__}")
         return {}
     sonuc["model"] = model
     sonuc["maliyet_usd"] = round(maliyet(model, yanit.usage.input_tokens,
                                          yanit.usage.output_tokens), 4)
     sonuc["iddia_sayisi"] = len(iddialar)
     return sonuc
+
+
+def durum_yaz(gun: str, durum: str, mesaj: str = "") -> None:
+    """Son denemenin sonucu. Is akisinda analiz adimi hatayi yutuyor
+    (taramayi bozmasin diye); bu dosya sayesinde neden uretilmedigi
+    yayinda gorunur."""
+    (DATA / "analiz-durum.json").write_text(json.dumps({
+        "gun": gun, "durum": durum, "mesaj": mesaj,
+        "zaman": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def maliyet(model: str, girdi: int, cikti: int) -> float:
@@ -577,24 +589,39 @@ def main() -> int:
     try:
         yanit = client.messages.create(
             model=args.model,
-            max_tokens=8000,
+            max_tokens=16000,
             system=SISTEM,
             messages=[{"role": "user", "content": istem}],
             output_config={"format": {"type": "json_schema", "schema": SEMA}},
         )
     except anthropic.APIStatusError as hata:
-        print(f"API hatası ({hata.status_code}): {hata.message}")
+        durum_yaz(gun, "api hatası", f"{hata.status_code}: {hata.message}")
+        print(f"::error::API hatası ({hata.status_code}): {hata.message}")
         return 1
     except anthropic.APIConnectionError as hata:
-        print(f"Bağlantı hatası: {hata}")
+        durum_yaz(gun, "bağlantı hatası", str(hata))
+        print(f"::error::Bağlantı hatası: {hata}")
         return 1
 
     if yanit.stop_reason == "refusal":
+        durum_yaz(gun, "reddedildi", "Model isteği yanıtlamayı reddetti.")
         print("Model isteği yanıtlamayı reddetti; analiz üretilmedi.")
+        return 1
+    if yanit.stop_reason == "max_tokens":
+        durum_yaz(gun, "kesildi",
+                  f"Yanıt çıktı sınırına takıldı ({yanit.usage.output_tokens} token). "
+                  "max_tokens büyütülmeli ya da şema küçültülmeli.")
+        print("::error::Yanıt çıktı sınırında kesildi; analiz yazılmadı.")
         return 1
 
     metin = next((b.text for b in yanit.content if b.type == "text"), "")
-    veri = json.loads(metin)
+    try:
+        veri = json.loads(metin)
+    except json.JSONDecodeError as hata:
+        durum_yaz(gun, "ayrıştırılamadı",
+                  f"Yanıt geçerli JSON değil ({hata}); {len(metin)} karakter geldi.")
+        print(f"::error::Yanıt ayrıştırılamadı: {hata}")
+        return 1
 
     kullanim = yanit.usage
     tutar = maliyet(args.model, kullanim.input_tokens, kullanim.output_tokens)
@@ -634,6 +661,11 @@ def main() -> int:
     (DATA / "analiz-latest.json").write_text(json.dumps(veri, ensure_ascii=False, indent=1), encoding="utf-8")
     index = sorted((p.stem for p in ANALIZ.glob("*.json")), reverse=True)
     (DATA / "analiz-index.json").write_text(json.dumps(index), encoding="utf-8")
+
+    durum_yaz(gun, "tamam",
+              f"{len(veri.get('one_cikanlar', []))} öne çıkan, "
+              f"{len(veri.get('birincil_notlar', []))} birincil belge, "
+              f"${veri.get('maliyet_usd', 0)}")
 
     hareketli = sum(1 for x in veri.get("sureklilik", []) if x["durum"] != "hareket yok")
     print(f"analiz: {gun} · {len(veri['one_cikanlar'])} öne çıkan · "

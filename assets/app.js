@@ -776,8 +776,14 @@ async function drawAnaliz() {
   const gun = $('#analizGun').value;
   const a = gun ? await getJSON(`data/analiz/${gun}.json`, null) : state.analiz;
   if (!a) {
+    // Üretim başarısızsa nedenini göster: iş akışı analiz hatasını yutuyor
+    // (tarama bozulmasın diye), o yüzden burada söylenmezse hiç görünmüyor.
+    const dr = state.analizDurum;
+    const neden = dr && dr.durum && dr.durum !== 'tamam'
+      ? `<p class="analiz-durum"><b>Son deneme:</b> ${esc(dr.durum)}${dr.mesaj ? ' · ' + esc(dr.mesaj) : ''}
+         <span class="mono">${esc(dr.zaman || '')}</span></p>` : '';
     $('#analizGovde').innerHTML = `<div class="empty">Bu gün için analiz üretilmemiş.
-      Analiz, sabah taramasından sonra günde bir kez hazırlanır.</div>`;
+      Analiz, sabah taramasından sonra günde bir kez hazırlanır.${neden}</div>`;
     return;
   }
   $('#analizSay').textContent = `${(a.one_cikanlar || []).length} öne çıkan gelişme`;
@@ -943,7 +949,7 @@ async function drawArchive() {
 /* ------------------------------------------------------------------- init */
 (async function init() {
   const [latest, meta, feeds, index, health, surum, analiz, analizIndex,
-         sentez, sentezIndex, uyari, birincil] = await Promise.all([
+         sentez, sentezIndex, uyari, birincil, analizDurum] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
@@ -956,6 +962,7 @@ async function drawArchive() {
     getJSON('data/sentez-index.json', []),
     getJSON('data/uyari-son.json', null),
     getJSON('data/birincil-latest.json', null),
+    getJSON('data/analiz-durum.json', null),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
@@ -969,6 +976,7 @@ async function drawArchive() {
   state.sentez = sentez;
   state.uyari = uyari;
   // birincil belgeler itemid ile aranacak: analiz notlari o kimlikle geliyor
+  state.analizDurum = analizDurum;
   state.birincil = Object.fromEntries(((birincil || {}).belgeler || []).map((b) => [b.itemid, b]));
   state.analizKip = 'gun';
   state.ceviri = LS.get('bhm.ceviri', true) !== false;

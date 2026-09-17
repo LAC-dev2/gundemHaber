@@ -248,7 +248,7 @@ def main() -> int:
     try:
         yanit = client.messages.create(
             model=args.model,
-            max_tokens=8000,
+            max_tokens=12000,
             system=SISTEM,
             messages=[{"role": "user", "content": istem}],
             output_config={"format": {"type": "json_schema", "schema": SEMA}},
@@ -263,8 +263,15 @@ def main() -> int:
     if yanit.stop_reason == "refusal":
         print("Model isteği yanıtlamayı reddetti; sentez üretilmedi.")
         return 1
+    if yanit.stop_reason == "max_tokens":
+        print("::error::Yanıt çıktı sınırında kesildi; sentez yazılmadı.")
+        return 1
 
-    veri = json.loads(next((b.text for b in yanit.content if b.type == "text"), ""))
+    try:
+        veri = json.loads(next((b.text for b in yanit.content if b.type == "text"), ""))
+    except json.JSONDecodeError as hata:
+        print(f"::error::Yanıt ayrıştırılamadı: {hata}")
+        return 1
     kullanim = yanit.usage
     tutar = maliyet(args.model, kullanim.input_tokens, kullanim.output_tokens)
     veri.update({

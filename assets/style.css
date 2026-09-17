@@ -700,3 +700,6 @@ footer a{color:#8FD6EC}
 @media (max-width:560px){
   .kronoloji li{grid-template-columns:1fr;gap:2px}
 }
+.analiz-durum{margin:var(--s3) 0 0;font-size:.86rem;line-height:1.5;color:var(--ink-2);
+  border-left:3px solid var(--accent);padding-left:var(--s3);text-align:left}
+.analiz-durum .mono{display:block;font-size:.72rem;color:var(--ink-3);margin-top:3px}
