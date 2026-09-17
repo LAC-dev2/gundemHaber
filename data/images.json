@@ -123,6 +123,10 @@
 "checked": "2026-09-16T13:16:06+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2025:28137&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:25874&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-16T12:59:39+00:00",
 "img": ""
@@ -279,12 +283,20 @@
 "checked": "2026-09-16T12:52:15+00:00",
 "img": ""
 },
+"https://fra.europa.eu/en/event/2026/conference-explore-who-protects-rule-law-when-ai-goes-wrong": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
 "https://fra.europa.eu/en/event/2026/conference-explores-responsible-business-conduct-ukraines-recovery": {
 "checked": "2026-09-16T12:52:15+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/event/2026/eea-and-norway-grants-host-annual-communication-workshop": {
 "checked": "2026-09-16T12:52:15+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/event/2026/ending-child-homelessness-europe": {
+"checked": "2026-09-17T09:40:29+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/event/2026/fra-and-council-europe-further-strengthen-their-cooperation": {
@@ -301,6 +313,14 @@
 },
 "https://fra.europa.eu/en/event/2026/launch-international-ideas-global-state-democracy-report-2026": {
 "checked": "2026-09-16T12:52:15+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/event/2026/launching-fras-new-civic-space-initiative": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/event/2026/law-enforcement-directive-discussions-eden-conference": {
+"checked": "2026-09-17T09:40:29+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/event/2026/reinforcing-holocaust-and-human-rights-education-and-awareness-raising": {
@@ -765,6 +785,10 @@
 },
 "https://verfassungsblog.de/schrodingers-breach/": {
 "checked": "2026-09-16T12:55:59+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/schutzt-die-wissenschaftsfreiheit-agendawissenschaft/": {
+"checked": "2026-09-17T09:40:29+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/terrorism-brazil-pcc-cv/": {
@@ -1331,12 +1355,36 @@
 "checked": "2026-09-17T08:11:31+00:00",
 "img": "https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2026-2027/frank-verbruggen-over-mensen-die-zelf-voor-rechter-spelen/@@images/image-1200-800deb82f37516d21babd7cccd0f54a6.jpeg"
 },
+"https://www.law.kuleuven.be/ifjr/leden/00187790": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
 "https://www.law.kuleuven.be/iir/eng/news/interview-of-jan-wouters-in-doorbraak-is-germany-at-war-with-russia": {
 "checked": "2026-09-16T12:59:39+00:00",
 "img": ""
 },
 "https://www.law.kuleuven.be/iir/nl/nieuws/interview-met-jan-wouters-in-doorbraak-is-germany-at-war-with-russia": {
 "checked": "2026-09-16T12:59:39+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/jri/activiteiten/company-law-workshop-op-de-ius-commune-conferentie": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/jri/activiteiten/financial-law-clinic-a-differentiated-tax-regime-for-financial-products-justified-stimuli-or-distortion-of-competition": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/jri/activiteiten/financial-law-clinic-new-regulatory-regime-for-payment-services": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/jri/activiteiten/financial-law-clinic-private-credit-funds-and-aifmd-ii": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/jri/activiteiten/financial-law-clinic-tbc": {
+"checked": "2026-09-17T09:40:29+00:00",
 "img": ""
 },
 "https://www.law.kuleuven.be/jri/en/events/company-law-workshop-at-the-ius-commune-conference": {
@@ -1389,6 +1437,10 @@
 },
 "https://www.law.kuleuven.be/pub/nl/personeel/00188599": {
 "checked": "2026-09-16T12:59:39+00:00",
+"img": ""
+},
+"https://www.lawyersforlawyers.org/attacks-on-the-rule-of-law-judicial-independence-and-access-to-justice-in-zambia-surrounding-the-general-election/": {
+"checked": "2026-09-17T09:40:29+00:00",
 "img": ""
 },
 "https://www.lawyersforlawyers.org/call-on-belarusian-authorities-to-immediately-release-lawyer-dmitri-laevski/": {
@@ -1458,6 +1510,10 @@
 "https://www.politico.eu/article/ankara-turkey-greece-militarization-aegean-islands-threat/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication": {
 "checked": "2026-09-16T12:55:59+00:00",
 "img": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/09/16/GettyImages-2292830174-scaled.jpg"
+},
+"https://www.politico.eu/article/russia-launches-massive-overnight-attack-injuring-dozens-in-kyiv-and-southern-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication": {
+"checked": "2026-09-17T09:40:29+00:00",
+"img": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/09/17/GettyImages-2294336221-scaled.jpg"
 },
 "https://www.resmigazeteozeti.com/tarih/2026-08-28": {
 "checked": "2026-09-16T12:58:29+00:00",
