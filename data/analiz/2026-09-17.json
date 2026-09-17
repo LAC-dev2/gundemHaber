@@ -453,7 +453,7 @@
   "dcb84f3164",
   "fe5c5140c0"
  ],
- "maliyet_usd": 0.5077,
+ "maliyet_usd": 0.6691,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "takip_acik": [
   {
@@ -521,5 +521,77 @@
    "hareket_sayisi": 0
   }
  ],
- "denetim_hata": "yanıt max_tokens"
+ "denetim": {
+  "kontroller": [
+   {
+    "id": "brifing",
+    "hukum": "kısmen",
+    "not": "LGBTİ+ operasyonuna ilişkin rakamlar ve erişim engelleri gösterilen kayıtlarla örtüşüyor; ancak Benli kararı ve Bakanlar Komitesi'nin üç dosyayı kapatması iddiaları brifingin kendi gösterdiği 12 kayıt arasında yer almıyor."
+   },
+   {
+    "id": "one1",
+    "hukum": "kısmen",
+    "not": "Tutuklu sayıları, gözaltı/erişim engeli detayları kayıtlarla uyumlu; ancak 'önceki güne göre 62'den 82'ye çıktı' karşılaştırması, Macit kararıyla kesişim ve 10. madde çıkarımı gösterilen kayıtlarda yok."
+   },
+   {
+    "id": "one2",
+    "hukum": "kısmen",
+    "not": "Kararın içeriği (ihlal, tazminat, taraflar) kayıtla tam örtüşüyor; ama 'merkezin tutuklu yargı mensubu ve Gülen dosyalarında aynı şikâyet kalıbı tekrarlıyor' iddiası kayıtta yok."
+   },
+   {
+    "id": "one3",
+    "hukum": "kısmen",
+    "not": "Üç Bakanlar Komitesi kararının içeriği (kapatma, genel tedbir grupları) kayıtlarla uyumlu; ancak bu iki grubun 'merkezin malvarlığı/avukata erişim dosyalarının icra ayağı' olduğu bağlantısı kayıtlarda kurulmuyor."
+   },
+   {
+    "id": "one4",
+    "hukum": "kısmen",
+    "not": "Serdar Uzel ve yayın el koyma kararlarının ayrıntıları kayıtlarla eşleşiyor; ancak bunun '2016 sonrası darbe yargılamalarının delil/gerekçe standardına ilişkin iç hukuk denetiminin sürdüğü' genellemesi kayıtta söylenmiyor."
+   },
+   {
+    "id": "one5",
+    "hukum": "kısmen",
+    "not": "28 kişi için gözaltı kararı kayıtla doğrulanıyor; ancak 'dün 28-72 rakam bandı' karşılaştırması ve Yalçınkaya sonrası tartışmayla bağlantısı gösterilen kayıtta yok."
+   },
+   {
+    "id": "one6",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir1",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir4",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir5",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir6",
+    "hukum": "dayanaklı",
+    "not": ""
+   }
+  ],
+  "genel": "Birincil belge özetleri (bir1-bir6) ve one6 tam dayanaklı; buna karşın brifing ve one1-one5'teki analiz/bağlantı cümleleri gösterilen kayıtların ötesine geçen çıkarımlar içeriyor.",
+  "model": "claude-sonnet-5",
+  "maliyet_usd": 0.1614,
+  "iddia_sayisi": 13
+ }
 }
