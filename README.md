@@ -31,6 +31,8 @@ scripts/serve.py            yerel uygulama (tara + sun + tarayıcıda aç)
 scripts/extract.py          haber sayfasından okunabilir tam metin çıkarma
 scripts/paketle.py          paylaşım paketleri (tek dosyalık HTML, zip)
 scripts/ikon.py             uygulama ikonları (PNG/SVG üretici)
+scripts/analiz.py           günlük analiz üretimi (Claude API)
+data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
 OKUBENI.md                  alıcıya verilecek kurulum anlatımı
 manifest.webmanifest        "Ana Ekrana Ekle" için uygulama tanımı
@@ -217,6 +219,56 @@ Görseller üç kademede bulunur:
 Görseller kaynağın sunucusundan gösterilir (kopyalanmaz), altına kaynak adı
 yazılır ve yüklenemezse kart tipografik hâline döner. Kaynak sıcak bağlantıya
 kapalıysa görsel sessizce düşer, yerinde boşluk kalmaz.
+
+## Günlük analiz (Claude API)
+
+Tarama ham kayıt üretir; analiz bu kayıtların merkezin dosyaları açısından ne
+anlama geldiğini söyler. Her sabah taramasının ardından bir kez çalışır.
+
+**Çalışma alanları** (brusselslawoffice.com'daki hizmet başlıklarıyla hizalı):
+AİHM başvuruları ve kararların icrası · BM insan hakları mekanizmaları ·
+INTERPOL bildirimleri ve kırmızı bülten · İade, adli yardım ve iltica ·
+Yaptırım listeleri ve malvarlığı dondurma · Gülen hareketi/KHK dosyaları ve
+sınıraşan baskı · İfade ve basın özgürlüğü · Belçika ve AB mevzuatı.
+
+**Üretilen brifing:** günün başlığı, 3-5 cümlelik değerlendirme, en fazla 6
+"öne çıkan gelişme" (alan etiketi, neden önemli olduğu, dayandığı kayıtlar ve
+güven düzeyi), alan alan durum notları, izlenecekler listesi.
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 scripts/analiz.py                 # bugünün analizini üret
+python3 scripts/analiz.py --kuru          # istek atmadan istemi ve maliyeti gör
+python3 scripts/analiz.py --model claude-sonnet-5
+python3 scripts/analiz.py --kisa          # tam metinleri gönderme (daha ucuz)
+python3 scripts/analiz.py --gun 2026-09-16 --zorla
+```
+
+**Yayında çalıştırmak için** tek gereken, depoya bir sır eklemek:
+**Settings → Secrets and variables → Actions → New repository secret**,
+ad `ANTHROPIC_API_KEY`. Model değiştirmek istersen aynı ekranda *Variables*
+sekmesinde `ANALIZ_MODEL` tanımlanabilir. Anahtar tanımlı değilse analiz adımı
+sessizce atlanır, tarama normal çalışır.
+
+**Maliyet** (45 kayıt, tam metinlerle ≈ 30 bin girdi + 2,5 bin çıktı token):
+
+| Model | Günlük | Aylık |
+|---|---|---|
+| `claude-opus-5` (öntanımlı) | ≈ $0,21 | ≈ $6,4 |
+| `claude-sonnet-5` | ≈ $0,09 | ≈ $2,6 |
+| `claude-haiku-4-5` | ≈ $0,04 | ≈ $1,3 |
+
+`--kisa` ile tam metinler gönderilmezse bu rakamlar yaklaşık üçte birine iner.
+Her analiz, kullandığı token sayısını ve maliyeti hem ekrana yazar hem de
+üretilen dosyaya (`maliyet_usd`) kaydeder.
+
+**Sınırlar — bilerek konulmuş:** Model yalnızca verilen kayıtlardaki bilgiyi
+kullanır, kayıt dışı olay/isim/tarih uyduramaz; her değerlendirme dayandığı
+kayıt anahtarlarını taşır; her maddede güven düzeyi belirtilir; hukuki tavsiye
+veya dava stratejisi üretmesi yasaklanmıştır. Çıktı JSON şemasıyla
+kısıtlanmıştır. Her analiz sayfasında, değerlendirmenin yapay zekâ ile
+üretildiğini ve birincil kaynakta doğrulanmadan dosyaya esas alınamayacağını
+söyleyen uyarı görünür.
 
 ## İzleme masası özellikleri
 

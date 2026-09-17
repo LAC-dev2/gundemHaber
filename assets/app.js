@@ -398,6 +398,88 @@ function fillSelect(el, values, label) {
     .map((v) => `<option>${esc(v)}</option>`).join('');
 }
 
+
+/* ---------------------------------------------------------------- analiz */
+const GUVEN = { 'yüksek': 'birincil', 'orta': 'yuksek', 'düşük': 'kritik' };
+const DURUM = { 'hareketli': 'kritik', 'olağan': 'birincil', 'sessiz': '' };
+
+function kayitBaglari(anahtarlar) {
+  return (anahtarlar || []).map((k) => {
+    const it = state.items.find((x) => x.k === k);
+    if (!it) return '';
+    return `<a class="kayit-bag" href="${ic(it)}" title="${esc(it.baslik)}">
+      <span class="pin" style="--c:${RC[it.bolge] || 'var(--accent-2)'}"></span>${esc(it.kaynak)}</a>`;
+  }).filter(Boolean).join('');
+}
+
+function analizGovde(a) {
+  const d = new Date(a.gun + 'T12:00:00Z');
+  return `<article class="analiz">
+    <div class="analiz-ust">
+      <span class="eyebrow" style="--c:var(--deep)">Günün analizi</span>
+      <span class="mono">${esc(dayFmt.format(d))}</span>
+    </div>
+    <h2>${esc(a.baslik)}</h2>
+    <p class="brifing">${esc(a.brifing)}</p>
+
+    ${(a.one_cikanlar || []).length ? `<section class="analiz-blok">
+      <h3>Öne çıkan gelişmeler</h3>
+      <ol class="one-cikan">${a.one_cikanlar.map((o) => `<li>
+        <div class="oc-ust"><span class="tag alan">${esc(o.alan)}</span>
+          <span class="tag ${GUVEN[o.guven] || ''}">güven: ${esc(o.guven)}</span></div>
+        <h4>${esc(o.baslik)}</h4>
+        <p>${esc(o.neden_onemli)}</p>
+        <div class="kayitlar">${kayitBaglari(o.kayitlar)}</div>
+      </li>`).join('')}</ol></section>` : ''}
+
+    ${(a.alan_notlari || []).length ? `<section class="analiz-blok">
+      <h3>Alan notları</h3>
+      <div class="alan-grid">${a.alan_notlari.map((n) => `<div class="alan-not">
+        <div class="an-ust"><b>${esc(n.alan)}</b>
+          <span class="tag ${DURUM[n.durum] || ''}">${esc(n.durum)}</span></div>
+        <p>${esc(n.not)}</p>
+        <div class="kayitlar">${kayitBaglari(n.kayitlar)}</div>
+      </div>`).join('')}</div></section>` : ''}
+
+    ${(a.izlenecekler || []).length ? `<section class="analiz-blok">
+      <h3>İzlenecekler</h3>
+      <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+    </section>` : ''}
+
+    <footer class="analiz-kunye">
+      <p class="uyari">${esc(a.uyari || '')}</p>
+      <p class="mono">${esc(a.kayit_sayisi || 0)} kayıt değerlendirildi · model ${esc(a.model || '—')}
+        · ${a.olusturma ? esc(fullFmt.format(new Date(a.olusturma))) : ''}</p>
+    </footer>
+  </article>`;
+}
+
+async function drawAnaliz() {
+  const gun = $('#analizGun').value;
+  const a = gun ? await getJSON(`data/analiz/${gun}.json`, null) : state.analiz;
+  if (!a) {
+    $('#analizGovde').innerHTML = `<div class="empty">Bu gün için analiz üretilmemiş.
+      Analiz, sabah taramasından sonra günde bir kez hazırlanır.</div>`;
+    return;
+  }
+  $('#analizSay').textContent = `${(a.one_cikanlar || []).length} öne çıkan gelişme`;
+  $('#analizGovde').innerHTML = analizGovde(a);
+}
+
+function renderAnalizOzet() {
+  const a = state.analiz;
+  if (!a) return;
+  $('#analizOzet').innerHTML = `<a class="analiz-ozet" href="#analiz">
+    <span class="eyebrow" style="--c:var(--deep)">Günün analizi</span>
+    <b>${esc(a.baslik)}</b>
+    <p>${esc(a.brifing)}</p>
+    <span class="btn ana">Analizin tamamı →</span></a>`;
+  $('#analizOzet').querySelector('.analiz-ozet').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('nav.tabs button[data-view="analiz"]').click();
+  });
+}
+
 /* ---------------------------------------------------------------- dosyam */
 function drawDosyam() {
   const rows = Object.values(state.dosya).sort((a, b) => (a.tarih < b.tarih ? 1 : -1));
@@ -443,13 +525,15 @@ async function drawArchive() {
 
 /* ------------------------------------------------------------------- init */
 (async function init() {
-  const [latest, meta, feeds, index, health, surum] = await Promise.all([
+  const [latest, meta, feeds, index, health, surum, analiz, analizIndex] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
     getJSON('data/archive-index.json', []),
     getJSON('data/health.json', {}),
     getJSON('data/surum.json', null),
+    getJSON('data/analiz-latest.json', null),
+    getJSON('data/analiz-index.json', []),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
@@ -459,6 +543,10 @@ async function drawArchive() {
   state.kumeler = latest.kumeler || {};
   state.health = health || {};
   state.dosya = LS.get('bhm.dosya', {}) || {};
+  state.analiz = analiz;
+  $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
+    || '<option value="">analiz yok</option>';
+  $('#analizGun').addEventListener('change', drawAnaliz);
 
   // son ziyaretten beri gelen kayıtlar
   state.sonZiyaret = LS.get('bhm.sonZiyaret', 0) || 0;
@@ -485,6 +573,7 @@ async function drawArchive() {
   $('#stats').innerHTML = statTiles(state.stats);
   $('#pencere').textContent = $('#pencere2').textContent = state.stats.pencereGun || 21;
   renderLead();
+  renderAnalizOzet();
   renderRegions();
 
   // bölge çipleri
@@ -540,11 +629,12 @@ async function drawArchive() {
     if (b.dataset.view === 'kaynaklar') drawSources();
     if (b.dataset.view === 'arsiv') drawArchive();
     if (b.dataset.view === 'dosyam') drawDosyam();
+    if (b.dataset.view === 'analiz') drawAnaliz();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
 
   // paket kipi: #k=<anahtar> ile kayıt sayfası aynı dosyada açılır
-  const VIEWS = ['gundem', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
+  const VIEWS = ['gundem', 'analiz', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
   function route() {
     const m = location.hash.match(/^#k=(.+)$/);
     const box = $('#view-haber');

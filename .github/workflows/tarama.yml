@@ -2,12 +2,16 @@ name: Kaynak taramasi
 
 on:
   schedule:
-    - cron: "0 5,11,17 * * *"   # UTC — TR saatiyle 08:00, 14:00, 20:00
+    - cron: "0 5 * * *"         # UTC — TR 08:00: tarama + günlük analiz
+    - cron: "0 11,17 * * *"     # UTC — TR 14:00 ve 20:00: yalnızca tarama
   workflow_dispatch:
     inputs:
       discover:
         description: "Bu turda kac kaynak icin yeni RSS akisi aransin"
         default: "120"
+      analiz:
+        description: "Gunluk analiz da uretilsin mi? (evet/hayir)"
+        default: "hayir"
   push:
     paths:
       - "scripts/**"
@@ -38,6 +42,22 @@ jobs:
           python3 scripts/collect.py \
             --discover ${{ github.event.inputs.discover || '120' }} \
             --news 140 --images 90 --workers 16
+
+      # Gunluk analiz: yalnizca sabah taramasinda (05:00 UTC) ya da elle istendiginde.
+      # Anahtar tanimli degilse sessizce atlanir; analiz hatasi taramayi bozmaz.
+      - name: Gunluk analiz
+        if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' || github.event.inputs.analiz == 'evet'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY tanimli degil; analiz atlandi."
+            exit 0
+          fi
+          python3 -m pip install --quiet --disable-pip-version-check anthropic
+          python3 scripts/analiz.py
 
       - name: Sonuclari isle
         run: |

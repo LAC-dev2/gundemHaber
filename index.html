@@ -28,6 +28,7 @@
     </div>
     <nav class="tabs" role="tablist">
       <button role="tab" data-view="gundem" aria-selected="true">Gündem</button>
+      <button role="tab" data-view="analiz" aria-selected="false">Analiz</button>
       <button role="tab" data-view="kaynaklar" aria-selected="false">Kaynaklar</button>
       <button role="tab" data-view="arsiv" aria-selected="false">Arşiv</button>
       <button role="tab" data-view="dosyam" aria-selected="false">Dosyam</button>
@@ -40,6 +41,7 @@
   <!-- GÜNDEM -->
   <section id="view-gundem">
     <div class="lead" id="lead"></div>
+    <div id="analizOzet"></div>
     <div id="bolgeBloklari"></div>
 
     <div class="sec-head" id="akisBasi">
@@ -69,6 +71,15 @@
       </div>
     </div>
     <div id="feed"></div>
+  </section>
+
+  <!-- ANALİZ -->
+  <section id="view-analiz" hidden>
+    <div class="filters"><div class="frow">
+      <select id="analizGun"></select>
+      <span class="count" id="analizSay"></span>
+    </div></div>
+    <div id="analizGovde"></div>
   </section>
 
   <!-- HABER (tek dosyalık paket kipinde sayfa içinde açılır) -->
@@ -134,6 +145,10 @@
         <code>data/health.json</code> içinde tutulur. Kaynaklar sekmesinde "kaç gündür kayıt
         yok" ya da "akış hatası" olarak görünür; kendi tarama sıklığına göre gecikenler
         "sorunlu kaynaklar" süzgeciyle listelenir.</li>
+      <li><b>Günlük analiz:</b> Sabah taramasının ardından, o günün kayıtları
+        merkezin çalışma alanlarına göre değerlendirilir (Claude API). Model
+        yalnızca verilen kayıtları kullanır, her maddede dayandığı kayıtları ve
+        güven düzeyini gösterir; hukuki tavsiye üretmez. Sonuç Analiz sekmesinde.</li>
       <li><b>Yayın:</b> <code>data/latest.json</code>, günlük arşiv ve
         <code>data/gundem.xml</code> (kendi RSS akışımız) güncellenir, depoya işlenir ve
         GitHub Pages yayınlanır.</li>
