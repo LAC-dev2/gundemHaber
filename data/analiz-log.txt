@@ -1,4 +1,4 @@
-# analiz adimi 2026-09-17 21:39 UTC · cikis kodu 0
+# analiz adimi 2026-09-17 21:45 UTC · cikis kodu 0
 yalnız denetim: 6 öne çıkan, 6 birincil not, 44/45 kayıt bulundu
-denetim token: 25166 girdi / 11102 çıktı
-denetim (claude-sonnet-5): 13 iddia, 6 işaretlendi · +$0.161
+denetim token: 26662 girdi / 11751 çıktı
+denetim (claude-sonnet-5): 13 iddia, 1 işaretlendi · +$0.171

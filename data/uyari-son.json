@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-17",
- "olusturma": "2026-09-17T21:41+00:00",
+ "olusturma": "2026-09-17T21:45+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-09-17:t1",
@@ -52,6 +52,15 @@
    "kayitlar": [
     "6bad902c60"
    ]
+  },
+  {
+   "id": "saglik:2026-09-17:8",
+   "tur": "izleme bozuldu",
+   "duzey": "yüksek",
+   "baslik": "8 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, Frontex, Columbia Global Freedom of Expression, Son Haber…",
+   "kayitlar": []
   }
  ]
 }
