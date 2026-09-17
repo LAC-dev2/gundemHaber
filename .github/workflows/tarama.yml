@@ -12,6 +12,9 @@ on:
       analiz:
         description: "Gunluk analiz da uretilsin mi? (evet/hayir)"
         default: "hayir"
+      analiz_yenile:
+        description: "Bugunun analizi varsa uzerine yazilsin mi? (evet/hayir)"
+        default: "evet"
   push:
     # Arayuz dosyalari da yayin tetiklemeli: yoksa app.js/style.css degisikligi
     # canli siteye hic gitmiyor.
@@ -75,6 +78,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
           ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL || 'claude-opus-5' }}
+          ANALIZ_YENILE: ${{ github.event.inputs.analiz_yenile || 'hayir' }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
             echo "::warning::ANTHROPIC_API_KEY bos geldi; analiz atlandi."
@@ -91,7 +95,13 @@ jobs:
           python3 -m pip install --quiet --disable-pip-version-check anthropic
           # One cikan kayitlarin tam metnini indir: analiz basliktan fazlasini gorsun
           python3 scripts/tam_metin.py --adet 18 || true
-          python3 scripts/analiz.py
+          # Elle tetiklenen turda "analiz_yenile: evet" ise o gunun analizi varsa
+          # uzerine yazilir; zamanlanmis turlarda mevcut analiz korunur.
+          if [ "$ANALIZ_YENILE" = "evet" ]; then
+            python3 scripts/analiz.py --zorla
+          else
+            python3 scripts/analiz.py
+          fi
 
       - name: Sonuclari isle
         run: |
