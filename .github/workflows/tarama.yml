@@ -13,8 +13,17 @@ on:
         description: "Gunluk analiz da uretilsin mi? (evet/hayir)"
         default: "hayir"
   push:
+    # Arayuz dosyalari da yayin tetiklemeli: yoksa app.js/style.css degisikligi
+    # canli siteye hic gitmiyor.
     paths:
+      - "index.html"
+      - "haber.html"
+      - "assets/**"
       - "scripts/**"
+      - "manifest.webmanifest"
+      - "icon*"
+      - "robots.txt"
+      - "_headers"
       - "data/sources.json"
       - ".github/workflows/tarama.yml"
 
