@@ -62,8 +62,6 @@ header.top::after{content:"";display:block;height:4px;
 .dot{width:7px;height:7px;border-radius:50%;background:#5FBF7E;
   box-shadow:0 0 0 3px rgba(95,191,126,.22)}
 .dot.stale{background:#E0A93C;box-shadow:0 0 0 3px rgba(224,169,60,.22)}
-.paket{border-left:1px solid rgba(242,239,232,.22);padding-left:var(--s3)}
-.paket.surum{color:#8FD6EC;font-weight:600}
 nav.tabs{display:flex;gap:var(--s1);overflow-x:auto;scrollbar-width:none}
 nav.tabs::-webkit-scrollbar{display:none}
 nav.tabs button,nav.tabs a{background:none;border:0;cursor:pointer;
