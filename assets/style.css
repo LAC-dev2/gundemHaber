@@ -556,3 +556,26 @@ a.ref sup{font-size:.62em;vertical-align:super}
 .takip b{font-family:var(--display);font-weight:500;font-size:1.02rem;line-height:1.25;padding-right:8rem}
 .tk-kunye{font-size:.7rem;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
 .analiz-blok h3 .mono{font-family:var(--mono);font-size:.8rem;opacity:.7}
+
+/* haftalık sentez */
+.segment{display:inline-flex;background:var(--surface);border:1px solid var(--hair-2);
+  border-radius:999px;padding:3px;gap:2px}
+.segment button{border:0;background:transparent;border-radius:999px;cursor:pointer;
+  font:600 .78rem/1 var(--body);letter-spacing:.02em;color:var(--ink-3);
+  padding:var(--s2) var(--s3);white-space:nowrap;transition:background .15s,color .15s}
+.segment button:hover{color:var(--ink)}
+.segment button.on{background:var(--deep);color:var(--white)}
+.sentez .analiz-ust .eyebrow{--c:var(--accent-2)}
+.gun-satir{margin:var(--s2) 0 0;font-size:.74rem;display:flex;flex-wrap:wrap;
+  gap:6px;align-items:center}
+.gun-satir .muted{text-transform:uppercase;letter-spacing:.08em;font-weight:600;color:var(--ink-3)}
+.gun-ref{font-family:var(--mono);font-size:.72rem;font-weight:600;text-decoration:none;
+  color:var(--deep);background:var(--surface);border:1px solid var(--hair-2);
+  border-radius:var(--r);padding:2px 7px;transition:background .15s,color .15s}
+.gun-ref:hover{background:var(--deep);border-color:var(--deep);color:var(--white)}
+.beklenti{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3)}
+.beklenti li{background:var(--surface);border:1px solid var(--hair-2);
+  border-left:4px solid var(--ink-leaf);border-radius:var(--r);
+  padding:var(--s3) var(--s4);display:grid;gap:4px}
+.beklenti b{font-family:var(--display);font-weight:500;font-size:1.02rem;line-height:1.25}
+.beklenti p,.takip li p{margin:0;color:var(--ink-2);font-size:.94rem;line-height:1.55}

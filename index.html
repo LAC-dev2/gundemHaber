@@ -78,7 +78,12 @@
   <!-- ANALİZ -->
   <section id="view-analiz" hidden>
     <div class="filters"><div class="frow">
+      <div class="segment" id="analizKip" role="tablist">
+        <button type="button" data-kip="gun" class="on" role="tab" aria-selected="true">Günlük analiz</button>
+        <button type="button" data-kip="hafta" role="tab" aria-selected="false">Haftalık sentez</button>
+      </div>
       <select id="analizGun"></select>
+      <select id="sentezGun" hidden></select>
       <span class="count" id="analizSay"></span>
     </div></div>
     <div id="analizGovde"></div>

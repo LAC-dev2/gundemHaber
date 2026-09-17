@@ -516,7 +516,101 @@ function analizGovde(a) {
   </article>`;
 }
 
+const YON = { 'güçleniyor': 'kritik', 'sabit': 'alan', 'zayıflıyor': '' };
+const HAREKET = { 'ilerledi': 'kritik', 'yerinde': 'alan', 'sessiz': '' };
+
+function sentezGovde(s) {
+  const bas = new Date(s.baslangic + 'T12:00:00Z');
+  const bit = new Date(s.bitis + 'T12:00:00Z');
+  const gunEtiket = (g) => `<a class="gun-ref" href="#analiz" data-gun="${esc(g)}"
+      title="${esc(g)} analizini aç">${esc(g.slice(8))}.${esc(g.slice(5, 7))}</a>`;
+  const gunler = (liste) => (liste || []).length
+    ? `<p class="gun-satir"><span class="muted">dayanak günler:</span> ${liste.map(gunEtiket).join(' ')}</p>` : '';
+
+  return `<article class="analiz sentez">
+    <div class="analiz-ust">
+      <span class="eyebrow" style="--c:var(--accent-2)">Haftalık sentez</span>
+      <span class="mono">${esc(dayFmt.format(bas))} – ${esc(dayFmt.format(bit))}</span>
+    </div>
+    <h2>${esc(s.baslik)}</h2>
+    <p class="brifing">${esc(s.ozet)}</p>
+    <p class="ref-aciklama">Sentez, haftanın günlük brifinglerine bakar: neyin süregeldiğini,
+      hangi dosyanın ilerlediğini ve hangi beklentinin karşılanmadığını çıkarır.
+      Tarih rozetlerine tıklayınca o günün analizi açılır.</p>
+
+    ${(s.egilimler || []).length ? `<section class="analiz-blok">
+      <h3>Haftanın eğilimleri</h3>
+      <ol class="one-cikan">${s.egilimler.map((e) => `<li>
+        <div class="oc-ust"><span class="tag alan">${esc(e.alan)}</span>
+          <span class="tag ${YON[e.yon] || ''}">${esc(e.yon)}</span>
+          <span class="tag ${GUVEN[e.guven] || ''}">güven: ${esc(e.guven)}</span></div>
+        <h4>${esc(e.baslik)}</h4>
+        <p>${esc(e.not)}</p>
+        ${gunler(e.gunler)}
+      </li>`).join('')}</ol></section>` : ''}
+
+    ${(s.dosya_seyri || []).length ? `<section class="analiz-blok">
+      <h3>Takip dosyalarının haftalık seyri</h3>
+      <div class="hareket">${s.dosya_seyri.map((d) => `<div class="hareket-satir ${d.hareket === 'sessiz' ? 'kapandi' : ''}">
+        <div class="hs-ust"><span class="tag ${HAREKET[d.hareket] || ''}">${esc(d.hareket)}</span>
+          <b>${esc(d.baslik)}</b></div>
+        ${d.not ? `<p>${esc(d.not)}</p>` : ''}
+        ${gunler(d.gunler)}</div>`).join('')}</div></section>` : ''}
+
+    ${(s.karsilanmayan_beklentiler || []).length ? `<section class="analiz-blok">
+      <h3>Karşılanmayan beklentiler</h3>
+      <ol class="beklenti">${s.karsilanmayan_beklentiler.map((b) => `<li>
+        <b>${esc(b.beklenti)}</b>
+        <span class="tk-kunye">${gunEtiket(b.gun)} tarihli brifingde izlenecek denmişti</span>
+        <p>${esc(b.not)}</p>
+      </li>`).join('')}</ol></section>` : ''}
+
+    ${(s.tek_seferlikler || []).length ? `<section class="analiz-blok">
+      <h3>Tek seferlik gelişmeler</h3>
+      <ol class="takip">${s.tek_seferlikler.map((t) => `<li>
+        <b>${esc(t.baslik)}</b>
+        <span class="tk-kunye">${gunEtiket(t.gun)}</span>
+        <p>${esc(t.not)}</p>
+      </li>`).join('')}</ol></section>` : ''}
+
+    ${(s.onumuzdeki_hafta || []).length ? `<section class="analiz-blok">
+      <h3>Önümüzdeki hafta</h3>
+      <ul class="izlenecek">${s.onumuzdeki_hafta.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+    </section>` : ''}
+
+    <footer class="analiz-kunye">
+      <p class="uyari">${esc(s.uyari || '')}</p>
+      <p class="mono">${esc(s.gun_sayisi || 0)} günlük brifing değerlendirildi · model ${esc(s.model || '—')}
+        · ${s.olusturma ? esc(fullFmt.format(new Date(s.olusturma))) : ''}</p>
+    </footer>
+  </article>`;
+}
+
 async function drawAnaliz() {
+  const hafta = state.analizKip === 'hafta';
+  $('#analizGun').hidden = hafta;
+  $('#sentezGun').hidden = !hafta;
+
+  if (hafta) {
+    const don = $('#sentezGun').value;
+    const s = don ? await getJSON(`data/sentez/${don}.json`, null) : state.sentez;
+    if (!s) {
+      $('#analizSay').textContent = '';
+      $('#analizGovde').innerHTML = `<div class="empty">Haftalık sentez henüz üretilmedi.
+        Sentez, en az üç günlük analiz biriktikten sonra pazar günü hazırlanır.</div>`;
+      return;
+    }
+    $('#analizSay').textContent = `${(s.egilimler || []).length} eğilim`;
+    $('#analizGovde').innerHTML = sentezGovde(s);
+    $('#analizGovde').querySelectorAll('.gun-ref').forEach((a) => {
+      a.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        kipSec('gun', a.dataset.gun);
+      });
+    });
+    return;
+  }
+
   const gun = $('#analizGun').value;
   const a = gun ? await getJSON(`data/analiz/${gun}.json`, null) : state.analiz;
   if (!a) {
@@ -526,6 +620,20 @@ async function drawAnaliz() {
   }
   $('#analizSay').textContent = `${(a.one_cikanlar || []).length} öne çıkan gelişme`;
   $('#analizGovde').innerHTML = analizGovde(a);
+}
+
+function kipSec(kip, gun) {
+  state.analizKip = kip;
+  document.querySelectorAll('#analizKip button').forEach((b) => {
+    const acik = b.dataset.kip === kip;
+    b.classList.toggle('on', acik);
+    b.setAttribute('aria-selected', String(acik));
+  });
+  if (kip === 'gun' && gun) {
+    const sec = $('#analizGun');
+    if ([...sec.options].some((o) => o.value === gun)) sec.value = gun;
+  }
+  drawAnaliz();
 }
 
 function renderAnalizOzet() {
@@ -588,7 +696,8 @@ async function drawArchive() {
 
 /* ------------------------------------------------------------------- init */
 (async function init() {
-  const [latest, meta, feeds, index, health, surum, analiz, analizIndex] = await Promise.all([
+  const [latest, meta, feeds, index, health, surum, analiz, analizIndex,
+         sentez, sentezIndex] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
@@ -597,6 +706,8 @@ async function drawArchive() {
     getJSON('data/surum.json', null),
     getJSON('data/analiz-latest.json', null),
     getJSON('data/analiz-index.json', []),
+    getJSON('data/sentez-latest.json', null),
+    getJSON('data/sentez-index.json', []),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
@@ -607,6 +718,8 @@ async function drawArchive() {
   state.health = health || {};
   state.dosya = LS.get('bhm.dosya', {}) || {};
   state.analiz = analiz;
+  state.sentez = sentez;
+  state.analizKip = 'gun';
   state.ceviri = LS.get('bhm.ceviri', true) !== false;
   const cChip = $('#ceviriChip');
   cChip.setAttribute('aria-pressed', String(state.ceviri));
@@ -622,6 +735,12 @@ async function drawArchive() {
   $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
     || '<option value="">analiz yok</option>';
   $('#analizGun').addEventListener('change', drawAnaliz);
+  $('#sentezGun').innerHTML = (sentezIndex || []).map((g) => `<option value="${esc(g)}">${esc(g)} haftası</option>`).join('')
+    || '<option value="">sentez yok</option>';
+  $('#sentezGun').addEventListener('change', drawAnaliz);
+  document.querySelectorAll('#analizKip button').forEach((b) => {
+    b.addEventListener('click', () => kipSec(b.dataset.kip));
+  });
 
   // son ziyaretten beri gelen kayıtlar
   state.sonZiyaret = LS.get('bhm.sonZiyaret', 0) || 0;

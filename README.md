@@ -35,7 +35,9 @@ scripts/analiz.py           günlük analiz üretimi (Claude API)
 scripts/ceviri.py           Türkçe olmayan kayıtların başlık/özet çevirisi
 scripts/kaynak_ekle.py      envantere yeni kaynak ekleme (form ve komut satırı)
 scripts/tam_metin.py        analiz öncesi öne çıkan kayıtların tam metni
+scripts/sentez.py           haftalık sentez üretimi (Claude API)
 data/takip.json             açık takip maddeleri ve seyri
+data/sentez/                haftalık sentezler
 data/ceviri.json            çeviri önbelleği (her kayıt bir kez çevrilir)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
 Baslat.bat / .command / .sh çift tıklamayla çalıştırma
@@ -321,6 +323,31 @@ sessizce atlanır, tarama normal çalışır.
 `--kisa` ile tam metinler gönderilmezse bu rakamlar yaklaşık üçte birine iner.
 Her analiz, kullandığı token sayısını ve maliyeti hem ekrana yazar hem de
 üretilen dosyaya (`maliyet_usd`) kaydeder.
+
+### Haftalık sentez
+
+Günlük brifing günü anlatır; **haftalık sentez** yedi güne birden bakar ve
+günlük analizlerin kendisini girdi alır (yeniden tarama yapmaz, kaynakları
+tekrar okumaz). Pazar sabahı taramasından sonra bir kez çalışır.
+
+Çıkardığı şey gün tekrarı değil: hafta boyunca birden fazla gün karşılığı olan
+**eğilimler** (güçleniyor / sabit / zayıflıyor), açık takip **dosyalarının
+haftalık seyri** (ilerledi / yerinde / sessiz), bir gün görünüp devamı gelmeyen
+**tek seferlik** gelişmeler ve —en çok işe yarayanı— günlük brifinglerde
+"izlenecek" denip hafta içinde **karşılığı gelmeyen beklentiler**.
+Her madde dayandığı günleri taşır; arayüzdeki tarih rozetine tıklayınca o günün
+analizi açılır.
+
+```bash
+python3 scripts/sentez.py                 # son 7 günün sentezi
+python3 scripts/sentez.py --kuru          # istek atmadan istemi ve maliyeti gör
+python3 scripts/sentez.py --pencere 14    # iki haftalık pencere
+python3 scripts/sentez.py --gun 2026-09-21 --zorla
+```
+
+En az üç günlük analiz birikmeden sentez üretilmez. Maliyeti haftada bir kez
+≈ $0,10–0,15'tir (`claude-opus-5`); model `SENTEZ_MODEL` değişkeniyle
+değiştirilebilir.
 
 **Sınırlar — bilerek konulmuş:** Model yalnızca verilen kayıtlardaki bilgiyi
 kullanır, kayıt dışı olay/isim/tarih uyduramaz; her değerlendirme dayandığı

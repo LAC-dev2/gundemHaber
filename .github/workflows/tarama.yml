@@ -15,6 +15,9 @@ on:
       analiz_yenile:
         description: "Bugunun analizi varsa uzerine yazilsin mi? (evet/hayir)"
         default: "evet"
+      sentez:
+        description: "Haftalik sentez de uretilsin mi? (evet/hayir)"
+        default: "hayir"
   push:
     # Arayuz dosyalari da yayin tetiklemeli: yoksa app.js/style.css degisikligi
     # canli siteye hic gitmiyor.
@@ -102,6 +105,28 @@ jobs:
           else
             python3 scripts/analiz.py
           fi
+
+      # Haftalik sentez: pazar sabahi taramasinda ya da elle istendiginde.
+      # Gunluk analizlere bakar, yeniden tarama ya da tam metin indirmez.
+      - name: Haftalik sentez
+        if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' || github.event.inputs.sentez == 'evet'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          SENTEZ_MODEL: ${{ vars.SENTEZ_MODEL || vars.ANALIZ_MODEL || 'claude-opus-5' }}
+          SENTEZ_ELLE: ${{ github.event.inputs.sentez || 'hayir' }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY yok; sentez atlandi."
+            exit 0
+          fi
+          # Zamanlanmis turda yalnizca pazar gunu calisir; elle istenirse her gun.
+          if [ "$SENTEZ_ELLE" != "evet" ] && [ "$(date -u +%u)" != "7" ]; then
+            echo "Pazar degil; haftalik sentez atlandi."
+            exit 0
+          fi
+          python3 -m pip install --quiet --disable-pip-version-check anthropic
+          python3 scripts/sentez.py --zorla
 
       - name: Sonuclari isle
         run: |
