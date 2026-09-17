@@ -1,0 +1,63 @@
+{
+ "maddeler": [
+  {
+   "id": "t1",
+   "baslik": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapatma davası ve erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "164e080299",
+    "6aa16a463f",
+    "7c7926e4d8",
+    "277ead3179",
+    "fe5c5140c0"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t2",
+   "baslik": "Ankara Başsavcılığı'nın \"evlilik ayarlama\" iddiasına dayanan Gülen soruşturmasında kalan yakalama kararları",
+   "alan": "Gülen hareketi/KHK dosyaları",
+   "neden": "72 kişilik yakalama kararının 60'ı infaz edilmiş, 12 kişi için arama sürüyor; ayrıca bir kaynak 28 kişilik ayrı bir sayı veriyor. Gözaltıların tutuklamaya dönüşüp dönüşmediği ve iddianame içeriği izlenmeli.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "565f7e2559",
+    "0324e29472"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t3",
+   "baslik": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçınkaya grubu dosyaları",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "d5c63e300b"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t4",
+   "baslik": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor verileri",
+   "alan": "Gülen hareketi/KHK dosyaları",
+   "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
+   "acildi": "2026-09-17",
+   "durum": "açık",
+   "son_hareket": "2026-09-17",
+   "kayitlar": [
+    "6bad902c60"
+   ],
+   "gelismeler": []
+  }
+ ],
+ "guncelleme": "2026-09-17T10:17+00:00",
+ "acik": 4
+}
