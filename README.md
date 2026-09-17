@@ -13,7 +13,7 @@ gelişmeleri tek bir sayfada toplayan statik site.
 
 ```
 index.html                  yayın sayfası (manşet + günün özeti + bölge blokları,
-                            ardından tüm akış) ve Kaynaklar / Arşiv / Nasıl çalışır
+                            ardından tüm gelişmeler) ve Kaynaklar / Arşiv / Nasıl çalışır
 haber.html                  tek kayıt sayfası (?k=<anahtar>): künye, görsel, özet,
                             kaynağa bağlantı, "bu kaynak neden izleniyor", ilgili kayıtlar
 assets/haber.js             haber sayfasının görünümü
