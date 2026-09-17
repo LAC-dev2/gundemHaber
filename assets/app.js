@@ -1,6 +1,6 @@
 /* BHM Gündem Takip — statik arayüz (bağımlılıksız) */
 const RC = { 'Türkiye': 'var(--tr)', 'Belçika': 'var(--be)', 'Avrupa': 'var(--eu)', 'Dünya': 'var(--dn)', 'Kurumsal': 'var(--kr)' };
-const PAGE = 60;
+const PAGE = 24;   // ilk yigin: sayfa 60 kayitla 11 bin piksel uzuyordu
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[çğıöşü]/g, (c) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[c]));
@@ -77,45 +77,75 @@ async function getJSON(path, fallback) {
 /* ---------------------------------------------------------------- kartlar */
 /* Görsel yüklenemezse: önce kaynağın sunucusu, o da olmazsa kaynak amblemi.
    Böylece ızgarada boş sütun kalmaz. */
+// Gorsel yuklenmezse once uzaktaki adresi dener; o da olmazsa gorsel
+// alanini bastan kaldirir. Eskiden yerine bas harf plakasi basiyordu;
+// bos bir kutu birakmaktansa kart tek kolona dussun.
 window.gorselHata = function (img) {
   if (img.dataset.remote && img.src !== img.dataset.remote) { img.src = img.dataset.remote; return; }
-  const box = img.closest('.gorsel, .manset-img');
-  if (box) {
-    box.classList.add('plaka');
-    box.innerHTML = `<span>${img.dataset.plaka || '·'}</span>`;
+  const kart = img.closest('.card, .bolge-lead, .manset');
+  const bag = img.closest('.gorsel-bag, .manset-img');
+  if (bag) {
+    bag.remove();
+    if (kart) kart.classList.add('gorselsiz');
     return;
   }
   img.closest('figure')?.remove();
+};
+
+/* Kaynaklarin gorselleri cok farkli oranlarda geliyor: haber fotografi
+   genis, grafik/infografik ise dik ya da kare. Kutuya kirparak (cover)
+   bir grafigi gostermek onu okunmaz hale getiriyor. Yuklendiginde gercek
+   oranini kutununkiyle karsilastirip, fark buyukse kirpmak yerine
+   sigdiriyoruz. */
+window.gorselOran = function (img) {
+  const box = img.parentElement;
+  if (!box || !img.naturalWidth || !img.naturalHeight) return;
+  const oran = img.naturalWidth / img.naturalHeight;
+
+  // Manset: kutunun orani gorselin kendi oranina gore ayarlanir (21/9 ile
+  // 4/3 arasinda sikistirilir). Boylece genis fotograf bant gibi durur,
+  // grafik ise kirpilmadan tam gorunur.
+  if (box.classList.contains('manset-img')) {
+    box.style.aspectRatio = String(Math.min(21 / 9, Math.max(4 / 3, oran)));
+    if (img.naturalWidth < 320) box.classList.add('sigdir');
+    return;
+  }
+
+  // Izgaradaki kartlarda ritmi bozmamak icin sabit oran korunur; yalnizca
+  // cok asiri uyusmazlikta (gorselin üçte birinden fazlasi kirpilacaksa)
+  // kirpma yerine sigdirilir.
+  const kutu = box.clientWidth / Math.max(1, box.clientHeight);
+  const kayip = 1 - Math.min(oran, kutu) / Math.max(oran, kutu);
+  if (kayip > 0.34 || img.naturalWidth < 240) box.classList.add('sigdir');
 };
 
 function imgTag(it) {
   const local = it.yerel ? esc(it.yerel) : '';
   const remote = it.gorsel ? esc(it.gorsel) : '';
   return `<img src="${local || remote}" alt="" loading="lazy" data-remote="${remote}"
-    data-plaka="${esc(bashafler(it.kaynak))}" onerror="window.gorselHata(this)">`;
+    onerror="window.gorselHata(this)" onload="window.gorselOran(this)">`;
 }
 
-/* Kaynak amblemi: adın baş harfleri, bölge renginde. Görseli olmayan
-   kayıtlarda ızgaranın ritmi korunur ve kaynak uzaktan tanınır. */
-function bashafler(ad) {
-  const atla = new Set(['the', 'for', 'and', 'of', 'de', 'la', 'le', 'van', 'von', 've']);
-  const sozler = String(ad).split(/[\s\-—–·/(),.]+/)
-    .filter((w) => w && !atla.has(w.toLocaleLowerCase('tr')));
-  const harfler = sozler.slice(0, 2).map((w) => w[0]).join('');
-  return (harfler || String(ad).slice(0, 2)).toLocaleUpperCase('tr');
-}
+function gorselli(it) { return !!(it.gorsel || it.yerel); }
 
+// Gorseli olmayan kayitta bos plaka basmiyoruz: bir zamanlar bastigimiz
+// ~215 piksellik bas harf plakasi sayfayi uzatiyor ve bos gosteriyordu.
+// Onun yerine kart tek kolona duser, sol kenarinda bolge rengi kalir.
 function gorselAlani(it, cls = 'gorsel') {
-  if (it.gorsel || it.yerel) return `<div class="${cls}">${imgTag(it)}</div>`;
-  return `<div class="${cls} plaka" aria-hidden="true"><span>${esc(bashafler(it.kaynak))}</span></div>`;
+  return gorselli(it) ? `<div class="${cls}">${imgTag(it)}</div>` : '';
+}
+
+function gorselBagi(it, cls = 'gorsel') {
+  if (!gorselli(it)) return '';
+  return `<a class="gorsel-bag" href="${ic(it)}" tabindex="-1" aria-hidden="true">${gorselAlani(it, cls)}</a>`;
 }
 
 function card(it) {
   const pr = slug(it.oncelik || '');
   const prCls = pr === 'kritik' ? 'kritik' : pr === 'yuksek' ? 'yuksek' : '';
   const d = new Date(it.tarih);
-  return `<article class="card" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
-    <a class="gorsel-bag" href="${ic(it)}" tabindex="-1" aria-hidden="true">${gorselAlani(it)}</a>
+  return `<article class="card${gorselli(it) ? '' : ' gorselsiz'}" style="--c:${RC[it.bolge] || 'var(--petrol)'}">
+    ${gorselBagi(it)}
     <div class="govde">
     <div class="meta">
       <span class="src">${esc(it.kaynak)}</span>
@@ -245,7 +275,7 @@ function renderRegions() {
   const order = ['Türkiye', 'Belçika', 'Avrupa', 'Dünya'];
   const html = order.map((r) => {
     const rows = state.items.filter((i) => i.bolge === r && !state.lead.has(i.url))
-      .slice().sort((a, b) => b.puan - a.puan).slice(0, 4);
+      .slice().sort((a, b) => b.puan - a.puan).slice(0, 5);
     if (!rows.length) return '';
     const [first, ...rest] = rows;
     const meta = (it, compact) => `<div class="meta"><span class="src">${esc(it.kaynak)}</span>
@@ -256,18 +286,16 @@ function renderRegions() {
       <div class="rule-head"><h3>${esc(r)}</h3>
         <span class="mono">${state.items.filter((i) => i.bolge === r).length} kayıt</span>
         <button class="link" data-region="${esc(r)}">bölgenin tamamı →</button></div>
-      <div class="bolge-lead">
-        <a class="gorsel-bag" href="${ic(first)}" tabindex="-1" aria-hidden="true">${gorselAlani(first, 'gorsel buyuk')}</a>
+      <div class="bolge-lead${gorselli(first) ? '' : ' gorselsiz'}">
+        ${gorselBagi(first, 'gorsel buyuk')}
         <div class="govde">${meta(first)}
           <h3><a href="${ic(first)}">${esc(bas(first))}</a></h3>
           ${ozt(first) ? `<p>${esc(ozt(first).slice(0, 190))}${ozt(first).length > 190 ? '…' : ''}</p>` : ''}
         </div>
       </div>
-      <div class="bolge-rest">${rest.map((it) => `<article class="card kucuk" style="--c:${RC[r]}">
-        <a class="gorsel-bag" href="${ic(it)}" tabindex="-1" aria-hidden="true">${gorselAlani(it, 'gorsel kucuk')}</a>
-        <div class="govde">${meta(it, true)}
-          <h3><a href="${ic(it)}">${esc(bas(it))}</a></h3>
-        </div>
+      <div class="bolge-rest">${rest.map((it) => `<article class="bsatir" style="--c:${RC[r]}">
+        ${meta(it, true)}
+        <h3><a href="${ic(it)}">${esc(bas(it))}</a></h3>
       </article>`).join('')}</div>
     </section>`;
   }).join('');
@@ -636,6 +664,30 @@ function kipSec(kip, gun) {
   drawAnaliz();
 }
 
+/* Sayfa ici hizli gecis: akis 4-5 ekran asagida kaliyor, manset de
+   geri donulecek yer. Dugme bulundugun yere gore yon degistirir. */
+function kurFab() {
+  const fab = document.getElementById('fab');
+  if (!fab) return;
+  const akis = () => document.getElementById('akisBasi');
+  const guncelle = () => {
+    const gundem = !document.getElementById('view-gundem').hidden;
+    const hedef = akis();
+    if (!gundem || !hedef) { fab.classList.remove('gorunur'); return; }
+    const akisUstte = hedef.getBoundingClientRect().top < 120;
+    fab.textContent = akisUstte ? '↑ başa' : '↓ akışa';
+    fab.dataset.yon = akisUstte ? 'bas' : 'akis';
+    fab.classList.toggle('gorunur', scrollY > 400 || !akisUstte);
+  };
+  fab.addEventListener('click', () => {
+    if (fab.dataset.yon === 'bas') scrollTo({ top: 0, behavior: 'smooth' });
+    else akis()?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  addEventListener('scroll', guncelle, { passive: true });
+  document.querySelectorAll('nav.tabs button').forEach((b) => b.addEventListener('click', () => setTimeout(guncelle, 60)));
+  guncelle();
+}
+
 const UYARI_DUZEY = { 'yüksek': 'kritik', 'orta': 'alan' };
 
 function renderUyari() {
@@ -801,6 +853,7 @@ async function drawArchive() {
   renderLead();
   renderUyari();
   renderAnalizOzet();
+  kurFab();
   renderRegions();
 
   // bölge çipleri
