@@ -186,18 +186,26 @@ jobs:
           # Baska bir kosu ya da elle itme araya girmis olabilir. Veri dosyalari
           # turetilmis oldugu icin birlestirme yerine: uzaktakinin ucuna tasi,
           # calisma agacindaki taze tarama sonucunu koru.
-          for DENEME in 1 2 3; do
+          for DENEME in 1 2 3 4 5 6; do
             if git push; then
               echo "itildi (deneme $DENEME)"
               exit 0
             fi
             echo "uzakta yeni isleme var; uzerine tasiniyor (deneme $DENEME)"
+            sleep $((DENEME * 3))
             git fetch origin "$GITHUB_REF_NAME"
             git reset --soft "origin/$GITHUB_REF_NAME"
+            # Onemli: --soft indeksi eski islemenin agacinda birakir. Bu haliyle
+            # "git add data" yapilsa bile, araya giren itmenin data disindaki
+            # degisiklikleri (arayuz, is akisi) geri alinmis olarak islenir.
+            # Indeksi once yeni HEAD'e esitle, sonra yalnizca data'yi ekle.
+            git reset --quiet
             git add data
             git diff --cached --quiet && { echo "fark kalmadi"; exit 0; }
             git commit -m "$MESAJ"
           done
+          # Son bir deneme: dongunun son islemesi henuz itilmedi.
+          git push && { echo "itildi (son deneme)"; exit 0; }
           echo "::error::Veri itilemedi."
           exit 1
 
