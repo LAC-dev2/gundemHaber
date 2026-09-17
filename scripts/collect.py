@@ -164,6 +164,14 @@ NOISE_PREFIXES = re.compile(
     r"|read more|lire la suite|share this|type\s|page blocks)\b[\s:–—-]*", re.I)
 BYLINE_ONLY = re.compile(r"^[\w.\-' ]{1,40},?\s*\d{1,2}[/.]\d{1,2}[/.]\d{2,4}"
                          r"(?:\s*[-–]\s*\d{1,2}[:.]\d{2})?\s*$")
+# Ozetin kuyruguna eklenen abonelik/menu cagrilari: "> Eposta posta listemize
+# kaydolun", "Subscribe to our newsletter" gibi. Yalnizca metnin sonunda ve
+# ayirac ya da cumle sonundan sonra arar; "haber bulteni" gibi sozcukler
+# cumlenin ortasinda mesru olarak gecebiliyor.
+CTA_KUYRUK = re.compile(
+    r"(?:^|[>\u203a\u00bb|\u00b7]\s*|(?<=[.!?])\s+)"
+    r"[^.!?]{0,70}?\b(?:kaydol\w*|abone\s*ol\w*|subscribe|sign\s*up|follow\s+us"
+    r"|bizi\s+takip\s+ed\w*|s'abonner|inscrivez-vous)\b.{0,160}$", re.I)
 
 
 def tidy_summary(text: str, title: str) -> str:
@@ -176,6 +184,13 @@ def tidy_summary(text: str, title: str) -> str:
         if trimmed == out:
             break
         out = trimmed
+    esle = CTA_KUYRUK.search(out)
+    if esle:
+        kirpik = out[: esle.start()].strip(" >›»|·–—-")
+        if len(kirpik) >= 40:                # kırpınca anlamlı metin kalıyorsa
+            out = kirpik
+        elif len(kirpik) < 25:               # neredeyse tamamı çağrı metni
+            return ""
     if BYLINE_ONLY.match(out) or len(out) < 25:
         return ""
     return out

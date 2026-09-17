@@ -82,7 +82,7 @@ async function getJSON(path, fallback) {
 // bos bir kutu birakmaktansa kart tek kolona dussun.
 window.gorselHata = function (img) {
   if (img.dataset.remote && img.src !== img.dataset.remote) { img.src = img.dataset.remote; return; }
-  const kart = img.closest('.card, .bolge-lead, .manset');
+  const kart = img.closest('.card, .bolge-lead, .manset, .bsatir');
   const bag = img.closest('.gorsel-bag, .manset-img');
   if (bag) {
     bag.remove();
@@ -324,7 +324,7 @@ function renderRegions() {
   const order = ['Türkiye', 'Belçika', 'Avrupa', 'Dünya'];
   const html = order.map((r) => {
     const rows = state.items.filter((i) => i.bolge === r && !state.lead.has(i.url))
-      .slice().sort((a, b) => b.puan - a.puan).slice(0, 5);
+      .slice().sort((a, b) => b.puan - a.puan).slice(0, 4);
     if (!rows.length) return '';
     const [first, ...rest] = rows;
     const meta = (it, compact) => `<div class="meta"><span class="src">${esc(it.kaynak)}</span>
@@ -342,9 +342,12 @@ function renderRegions() {
           ${ozt(first) ? `<p>${esc(ozt(first).slice(0, 190))}${ozt(first).length > 190 ? '…' : ''}</p>` : ''}
         </div>
       </div>
-      <div class="bolge-rest">${rest.map((it) => `<article class="bsatir" style="--c:${RC[r]}">
-        ${meta(it, true)}
-        <h3><a href="${ic(it)}">${esc(bas(it))}</a></h3>
+      <div class="bolge-rest">${rest.map((it) => `<article class="bsatir${gorselli(it) ? '' : ' gorselsiz'}" style="--c:${RC[r]}">
+        ${gorselli(it) ? `<a class="gorsel-bag kare" href="${ic(it)}" tabindex="-1" aria-hidden="true">
+          <div class="gorsel kup">${imgTag(it)}</div></a>` : ''}
+        <div class="bs-govde">${meta(it, true)}
+          <h3><a href="${ic(it)}">${esc(bas(it))}</a></h3>
+          ${ozt(it) ? `<p>${esc(ozt(it).slice(0, 160))}${ozt(it).length > 160 ? '…' : ''}</p>` : ''}</div>
       </article>`).join('')}</div>
     </section>`;
   }).join('');

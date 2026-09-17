@@ -90,7 +90,8 @@ nav.tabs button[aria-selected="true"]{background:var(--tab-on-bg);color:var(--ta
 .manset h2 a{color:var(--ink);text-decoration:none}
 .manset h2 a:hover{color:var(--accent)}
 .manset>p{font-size:1.08rem;line-height:1.55;color:var(--ink-2);max-width:60ch;
-  margin:0 0 var(--s3);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  margin:0 0 var(--s3);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+@media (max-width:760px){ .manset>p{-webkit-line-clamp:2} }
 .byline{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s4);align-items:center;
   font-size:.78rem;color:var(--ink-3);padding-top:var(--s3);border-top:2px solid var(--ink)}
 .byline b{color:var(--ink);font-weight:600;font-size:.88rem}
@@ -231,13 +232,23 @@ nav.tabs button[aria-selected="true"]{background:var(--tab-on-bg);color:var(--ta
 .bolge-lead h3 a:hover{color:var(--accent)}
 .bolge-lead p{font-size:1rem;line-height:1.5;color:var(--ink-2);max-width:62ch;margin:0;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.bolge-rest{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s4);
+.bolge-rest{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s5);
   border-top:1px solid var(--hair-2);margin-top:var(--s3);padding-top:var(--s3)}
 /* bölge bloğunun alt satırı: görselsiz, sıkı, tarama için */
-.bsatir{padding-left:var(--s4);border-left:1px solid var(--hair-2)}
+.bsatir{padding-left:var(--s4);border-left:1px solid var(--hair-2);
+  display:grid;grid-template-columns:62px minmax(0,1fr);gap:var(--s3);align-items:start}
+.bsatir.gorselsiz{grid-template-columns:minmax(0,1fr)}
 .bsatir:first-child{padding-left:0;border-left:0}
+.gorsel.kup{aspect-ratio:1/1}      /* sabit kare: satır yükseklikleri bozulmaz */
+/* sütunlar açıkça verilir: görsel yüklenemeyip kaldırılırsa metin
+   68 piksellik ilk sütuna düşüyordu */
+.bsatir .gorsel-bag.kare{grid-column:1}
+.bs-govde{min-width:0;grid-column:2}
+.bsatir.gorselsiz .bs-govde{grid-column:1}
 .bsatir .meta{margin-bottom:5px}
 .bsatir h3{font-size:1.04rem;line-height:1.24;margin:0;font-weight:500}
+.bsatir p{margin:5px 0 0;font-size:.9rem;line-height:1.45;color:var(--ink-2);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .bsatir h3 a{color:var(--ink);text-decoration:none}
 .bsatir h3 a:hover{color:var(--accent)}
 
@@ -372,7 +383,7 @@ footer a{color:#8FD6EC}
 .snapshot b{color:var(--ink)}
 
 @media (max-width:980px){
-  .bolge-rest{grid-template-columns:1fr 1fr;row-gap:var(--s3)}
+  .bolge-rest{grid-template-columns:1fr 1fr;row-gap:var(--s4);gap:var(--s4)}
   .bsatir:nth-child(2n+1){padding-left:0;border-left:0}
   .lead{grid-template-columns:1fr;gap:var(--s5)}
   .bolge-lead{grid-template-columns:1fr;gap:var(--s3)}
