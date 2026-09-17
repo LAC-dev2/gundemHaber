@@ -99,6 +99,9 @@ jobs:
           python3 -m pip install --quiet --disable-pip-version-check anthropic
           # One cikan kayitlarin tam metnini indir: analiz basliktan fazlasini gorsun
           python3 scripts/tam_metin.py --adet 18 || true
+          # Birincil belgeler: AIHM kararlarinin kendi metni (HUDOC). Haber
+          # kayitlari kararlari aktariyor; analiz karari da gormus olsun.
+          python3 scripts/birincil.py --gun-sayisi 21 --adet 8 || true
           # Elle tetiklenen turda "analiz_yenile: evet" ise o gunun analizi varsa
           # uzerine yazilir; zamanlanmis turlarda mevcut analiz korunur.
           if [ "$ANALIZ_YENILE" = "evet" ]; then

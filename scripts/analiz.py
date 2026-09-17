@@ -27,6 +27,9 @@ DATA = ROOT / "data"
 ANALIZ = DATA / "analiz"
 PAGES = DATA / "pages"
 TAKIP = DATA / "takip.json"          # dosya takibi: açık maddeler ve seyri
+BIRINCIL = DATA / "birincil"         # AİHM kararlarının kendi metni
+BIRINCIL_LISTE = DATA / "birincil-latest.json"
+BIRINCIL_UST = 6                     # isteme kaç birincil belge girsin
 GECMIS_GUN = 7                       # kaç günün analizi hafızaya verilir
 TAM_METIN_UST = 15                   # kaç kayıt için uzun metin gönderilir
 
@@ -77,7 +80,13 @@ Kurallar — bunlara kesinlikle uy:
    başlıklarını görürsün, o yüzden oradan olgu üretme.
 8. Kaynaklar aynı olayda farklı sayı, tarih ya da isim veriyorsa bunu açıkça
    yaz ("kaynaklar 53 ile 62 arasında sayı veriyor") ve hangisinin hangi kayıtta
-   olduğunu göster. Tek bir sayıya indirgeme."""
+   olduğunu göster. Tek bir sayıya indirgeme.
+9. BİRİNCİL BELGELER bölümünde AİHM kararlarının kendi metni verilir (HUDOC).
+   Bunlar haber kayıtlarından üstündür: bir haber kararı yanlış aktarıyorsa
+   kararın metnine uy ve farkı açıkça yaz. Birincil belgeye dayanan
+   değerlendirmede güveni "yüksek" verebilirsin; haber başlığına dayananda
+   veremezsin. Karar metninden alıntı yaparken madde numarasını, ihlal bulunup
+   bulunmadığını ve hükmedilen tutarı metinde ne yazıyorsa öyle ver."""
 
 SEMA = {
     "type": "object",
@@ -116,6 +125,30 @@ SEMA = {
                 "additionalProperties": False,
             },
         },
+        "birincil_notlar": {
+            "type": "array",
+            "description": ("BİRİNCİL BELGELER bölümünde verilen AİHM kararları için notlar. "
+                            "Yalnızca sana verilen belgeler için satır yaz; belge yoksa boş dizi."),
+            "items": {
+                "type": "object",
+                "properties": {
+                    "itemid": {"type": "string", "description": "Belgenin HUDOC kimliği"},
+                    "baslik": {"type": "string", "description": "Kararın konusu, tek cümle"},
+                    "maddeler": {"type": "array", "items": {"type": "string"},
+                                 "description": "İhlal incelenen maddeler, belgede yazdığı gibi"},
+                    "ne_dedi": {"type": "string",
+                                "description": "Mahkeme ne karar verdi: ihlal bulundu mu, hangi "
+                                               "gerekçeyle, hükmedilen tutar. 2-4 cümle, metne bağlı"},
+                    "merkez_icin": {"type": "string",
+                                    "description": "Merkezin dosyaları açısından anlamı, 1-3 cümle"},
+                    "haberle_fark": {"type": "string",
+                                     "description": "Haber kayıtları kararı yanlış aktarıyorsa fark; "
+                                                    "yoksa boş"},
+                },
+                "required": ["itemid", "baslik", "maddeler", "ne_dedi", "merkez_icin", "haberle_fark"],
+                "additionalProperties": False,
+            },
+        },
         "baslik": {"type": "string", "description": "Günün tek cümlelik başlığı, en fazla 90 karakter"},
         "brifing": {"type": "string", "description": "3-5 cümlelik genel değerlendirme"},
         "one_cikanlar": {
@@ -127,10 +160,26 @@ SEMA = {
                     "baslik": {"type": "string"},
                     "alan": {"type": "string", "description": "İlgili çalışma alanı"},
                     "neden_onemli": {"type": "string", "description": "2-4 cümle; merkezin dosyaları açısından anlamı"},
+                    "ayrintilar": {
+                        "type": "array",
+                        "description": ("Kayıtlarda geçen somut veriler: sayı, tarih, isim, dosya "
+                                        "numarası, tutar. Her madde tek satır ve kayda bağlı. "
+                                        "Kayıtlarda somut veri yoksa boş dizi."),
+                        "items": {"type": "string"},
+                    },
+                    "mekanizma": {"type": "string",
+                                  "description": ("Hangi hukuki mekanizma devrede: AİHM maddesi, BM "
+                                                  "usulü, INTERPOL kuralı, iade/iltica yolu. "
+                                                  "Kayıtlardan çıkmıyorsa boş bırak. Tavsiye değil, "
+                                                  "konumlandırma.")},
+                    "karsi_okuma": {"type": "string",
+                                    "description": ("Bu kayıtların KANITLAMADIĞI şey: hangi çıkarım "
+                                                    "yapılamaz, ne doğrulanmamıştır. 1-2 cümle.")},
                     "kayitlar": {"type": "array", "items": {"type": "string"}, "description": "Dayanılan kayıt anahtarları"},
                     "guven": {"type": "string", "enum": ["yüksek", "orta", "düşük"]},
                 },
-                "required": ["baslik", "alan", "neden_onemli", "kayitlar", "guven"],
+                "required": ["baslik", "alan", "neden_onemli", "ayrintilar", "mekanizma",
+                             "karsi_okuma", "kayitlar", "guven"],
                 "additionalProperties": False,
             },
         },
@@ -149,6 +198,22 @@ SEMA = {
                 "additionalProperties": False,
             },
         },
+        "kronoloji": {
+            "type": "array",
+            "description": ("Günün ana dosyasında (en çok kayıt gelen süregelen olay) adım adım "
+                            "seyir. Önceki günlerin başlıklarından ve bugünün kayıtlarından "
+                            "kurulabiliyorsa 3-6 adım; kurulamıyorsa boş dizi."),
+            "items": {
+                "type": "object",
+                "properties": {
+                    "tarih": {"type": "string", "description": "YYYY-AA-GG ya da kayıtta geçen tarih"},
+                    "adim": {"type": "string", "description": "O tarihte ne oldu, tek cümle"},
+                    "kayitlar": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["tarih", "adim", "kayitlar"],
+                "additionalProperties": False,
+            },
+        },
         "izlenecekler": {
             "type": "array",
             "description": "Önümüzdeki günlerde takip edilmesi gereken 2-5 başlık",
@@ -156,7 +221,7 @@ SEMA = {
         },
     },
     "required": ["baslik", "brifing", "one_cikanlar", "alan_notlari", "izlenecekler",
-                 "sureklilik", "yeni_takip"],
+                 "sureklilik", "yeni_takip", "birincil_notlar", "kronoloji"],
     "additionalProperties": False,
 }
 
@@ -243,8 +308,51 @@ def takip_ozeti(takip: dict) -> str:
     return "\n".join(satirlar)
 
 
+def birincil_blogu() -> str:
+    """AIHM kararlarinin kendi metni: haber kayitlarindan ustun kaynak.
+
+    birincil.py HUDOC'tan indirir; burada yalnizca okunur. Her belgeden
+    olay ozeti ve hukum kismi verilir (ortasi atlanir)."""
+    if not BIRINCIL_LISTE.exists():
+        return ""
+    try:
+        liste = json.loads(BIRINCIL_LISTE.read_text(encoding="utf-8")).get("belgeler", [])
+    except Exception:
+        return ""
+    bloklar = []
+    for ozet in liste[:BIRINCIL_UST]:
+        yol = BIRINCIL / f"{ozet['itemid']}.json"
+        if not yol.exists():
+            continue
+        try:
+            belge = json.loads(yol.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        basliklar = [
+            f"[{belge['itemid']}] {belge['kaynak']} · {belge['tur']} · {belge['tarih']}",
+            f"  BELGE: {belge['ad']}",
+        ]
+        if belge.get("basvuru"):
+            basliklar.append(f"  BAŞVURU NO: {belge['basvuru']}")
+        if belge.get("maddeler"):
+            basliklar.append(f"  MADDELER: {', '.join(belge['maddeler'])}")
+        if belge.get("sonuc"):
+            basliklar.append(f"  SONUÇ (HUDOC alanı): {kisalt(belge['sonuc'], 320)}")
+        basliklar.append("  METİN:\n" + birincil_metin(belge.get("paragraflar", [])))
+        bloklar.append("\n".join(basliklar))
+    return "\n\n".join(bloklar)
+
+
+def birincil_metin(paragraflar: list[str], bas: int = 900, son: int = 2400) -> str:
+    """Olay ozeti (bas) ve hukum (son); ortadaki usul kismi atlanir."""
+    metin = "\n".join(paragraflar)
+    if len(metin) <= bas + son:
+        return metin
+    return metin[:bas].rstrip() + "\n[… ara bölümler atlandı …]\n" + metin[-son:].lstrip()
+
+
 def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool,
-              gecmis: str = "", takip: str = "") -> str:
+              gecmis: str = "", takip: str = "", birincil: str = "") -> str:
     bloklar = [kayit_metni(h, kumeler, tam_metin, uzun=(i < TAM_METIN_UST))
                for i, h in enumerate(sorted(secilen, key=lambda r: -r["puan"]))]
     return (
@@ -253,13 +361,17 @@ def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool,
            f"buradan olgu üretme)\n{gecmis}\n" if gecmis else "")
         + (f"\nAÇIK TAKİP MADDELERİ (her biri için bugünkü durumu yaz)\n{takip}\n"
            if takip else "")
+        + (f"\nBİRİNCİL BELGELER — mahkemenin kendi metni; haber kayıtlarından üstündür\n"
+           f"{birincil}\n" if birincil else "")
         + f"\nAşağıda son taramadan gelen {len(secilen)} kayıt var. Her kaydın başında "
         + "köşeli parantez içinde anahtarı yazıyor.\n\n"
         + "Merkezin çalışma alanları:\n" + "\n".join(f"- {a}" for a in ALANLAR) + "\n\n"
         + "KAYITLAR\n" + "\n\n".join(bloklar) + "\n\n"
         + "Bu kayıtlara dayanarak günün brifingini üret. Yalnızca verilen kayıtlardaki "
         + "bilgiyi kullan, her değerlendirmede dayandığın kayıt anahtarlarını ver ve "
-        + "açık takip maddelerinin bugünkü durumunu yaz."
+        + "açık takip maddelerinin bugünkü durumunu yaz. Birincil belge verildiyse "
+        + "her biri için ayrı bir not yaz: mahkeme ne dedi, merkezin dosyaları için ne "
+        + "anlama geliyor, haber kayıtları kararı doğru aktarmış mı."
     )
 
 
@@ -309,6 +421,105 @@ def takip_guncelle(takip: dict, veri: dict, gun: str) -> dict:
     return takip
 
 
+DENETIM_SISTEM = """Sen bir hukuk analizini denetleyen ikinci okuyucusun. Elinde bir
+brifingin iddialari ve bu iddialarin dayandigi kayitlar var.
+
+Gorevin tek sey: her iddianin kendisine gosterilen kayitlarla desteklenip
+desteklenmedigini soylemek. Iddiayi guzellestirme, tamamlama, yeniden yazma.
+
+- "dayanaklı": iddiadaki olgular kayitlarda aciktan yaziyor.
+- "kısmen": ana olgu var ama iddia kayitlarin soylemedigi bir cikarim ekliyor
+  (nitelendirme, neden-sonuc, egilim) ya da sayi/tarih kayittan farkli.
+- "dayanaksız": iddianin dayandigi olgu kayitlarda yok.
+
+Notu kisa yaz ve neyin eksik oldugunu soyle. Turkce yaz."""
+
+DENETIM_SEMA = {
+    "type": "object",
+    "properties": {
+        "kontroller": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "hukum": {"type": "string", "enum": ["dayanaklı", "kısmen", "dayanaksız"]},
+                    "not": {"type": "string", "description": "En fazla 2 cümle; dayanaklıysa boş"},
+                },
+                "required": ["id", "hukum", "not"],
+                "additionalProperties": False,
+            },
+        },
+        "genel": {"type": "string", "description": "Denetimin tek cümlelik sonucu"},
+    },
+    "required": ["kontroller", "genel"],
+    "additionalProperties": False,
+}
+
+
+def iddialari_topla(veri: dict) -> list[dict]:
+    """Denetlenecek iddialar: metin, dayandigi kayitlar ve bir kimlik."""
+    iddialar = [{"id": "brifing", "metin": veri.get("brifing", ""),
+                 "kayitlar": veri.get("kullanilan_kayitlar", [])[:12]}]
+    for i, o in enumerate(veri.get("one_cikanlar", []), 1):
+        metin = o.get("neden_onemli", "")
+        if o.get("ayrintilar"):
+            metin += " AYRINTILAR: " + " | ".join(o["ayrintilar"])
+        iddialar.append({"id": f"one{i}", "metin": f"{o.get('baslik', '')} :: {metin}",
+                         "kayitlar": o.get("kayitlar", [])})
+    for i, b in enumerate(veri.get("birincil_notlar", []), 1):
+        iddialar.append({"id": f"bir{i}",
+                         "metin": f"{b.get('baslik', '')} :: {b.get('ne_dedi', '')}",
+                         "kayitlar": [b.get("itemid", "")]})
+    return [x for x in iddialar if x["metin"].strip()]
+
+
+def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
+                model: str, birincil: str) -> dict:
+    """Ikinci gecis: iddialari kayitlara karsi denetler.
+
+    Butun kayitlari degil, yalnizca iddialarin gosterdigi kayitlari
+    gonderir; hem daha ucuz hem daha odakli."""
+    import anthropic
+
+    iddialar = iddialari_topla(veri)
+    if not iddialar:
+        return {}
+    gosterilen = {k for i in iddialar for k in i["kayitlar"]}
+    kayit_ix = {h["k"]: h for h in secilen}
+    bloklar = [kayit_metni(kayit_ix[k], kumeler, tam_metin, uzun=True)
+               for k in gosterilen if k in kayit_ix]
+
+    istem = (
+        "İDDİALAR\n" + "\n\n".join(
+            f"[{i['id']}] {i['metin']}\n  gösterdiği kayıtlar: "
+            f"{', '.join(i['kayitlar']) or '(yok)'}" for i in iddialar)
+        + "\n\nKAYITLAR\n" + "\n\n".join(bloklar)
+        + (f"\n\nBİRİNCİL BELGELER\n{birincil}" if birincil else "")
+        + "\n\nHer iddia için hüküm ver. Kayıtlarda olmayan bir olgu varsa söyle."
+    )
+    try:
+        yanit = anthropic.Anthropic().messages.create(
+            model=model, max_tokens=4000, system=DENETIM_SISTEM,
+            messages=[{"role": "user", "content": istem}],
+            output_config={"format": {"type": "json_schema", "schema": DENETIM_SEMA}},
+        )
+    except Exception as hata:
+        print(f"denetim atlandi: {type(hata).__name__}")
+        return {}
+    if yanit.stop_reason == "refusal":
+        return {}
+    try:
+        sonuc = json.loads(next(b.text for b in yanit.content if b.type == "text"))
+    except Exception:
+        return {}
+    sonuc["model"] = model
+    sonuc["maliyet_usd"] = round(maliyet(model, yanit.usage.input_tokens,
+                                         yanit.usage.output_tokens), 4)
+    sonuc["iddia_sayisi"] = len(iddialar)
+    return sonuc
+
+
 def maliyet(model: str, girdi: int, cikti: int) -> float:
     g, c = FIYAT.get(model, FIYAT[VARSAYILAN_MODEL])
     return girdi / 1e6 * g + cikti / 1e6 * c
@@ -323,6 +534,14 @@ def main() -> int:
     ap.add_argument("--zorla", action="store_true", help="o güne ait analiz varsa üzerine yaz")
     ap.add_argument("--tam-metin", action="store_true", default=True)
     ap.add_argument("--kisa", dest="tam_metin", action="store_false", help="tam metinleri isteme (daha ucuz)")
+    ap.add_argument("--birincil", action="store_true", default=True,
+                    help="AİHM karar metinlerini isteme kat (öntanımlı)")
+    ap.add_argument("--birincil-yok", dest="birincil", action="store_false")
+    ap.add_argument("--denetim-model", default=os.environ.get("DENETIM_MODEL") or "claude-sonnet-5",
+                    help="öz-denetim geçişinin modeli")
+    ap.add_argument("--denetim", action="store_true", default=True,
+                    help="analizden sonra iddiaları kayıtlara karşı denetle (öntanımlı)")
+    ap.add_argument("--denetim-yok", dest="denetim", action="store_false")
     args = ap.parse_args()
 
     latest = json.loads((DATA / "latest.json").read_text(encoding="utf-8"))
@@ -337,8 +556,9 @@ def main() -> int:
         print("Analiz için yeterli kayıt yok.")
         return 0
     takip = takip_oku()
+    birincil = birincil_blogu() if args.birincil else ""
     istem = istem_yap(secilen, latest.get("kumeler", {}), gun, args.tam_metin,
-                      gecmis=gecmis_ozeti(), takip=takip_ozeti(takip))
+                      gecmis=gecmis_ozeti(), takip=takip_ozeti(takip), birincil=birincil)
 
     if args.kuru:
         print(istem[:4000])
@@ -389,6 +609,17 @@ def main() -> int:
                   "yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta "
                   "doğrulanmadan dosyaya esas alınamaz."),
     })
+
+    if args.denetim:
+        denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
+                              args.denetim_model, birincil)
+        if denetim:
+            veri["denetim"] = denetim
+            tutar += denetim.get("maliyet_usd", 0)
+            veri["maliyet_usd"] = round(tutar, 4)
+            sorunlu = [k for k in denetim["kontroller"] if k["hukum"] != "dayanaklı"]
+            print(f"denetim ({denetim['model']}): {denetim['iddia_sayisi']} iddia, "
+                  f"{len(sorunlu)} işaretlendi · +${denetim.get('maliyet_usd', 0):.3f}")
 
     takip = takip_guncelle(takip, veri, gun)
     veri["takip_acik"] = [

@@ -548,6 +548,45 @@ function kayitBaglari(anahtarlar) {
   return satirlar.length ? `<ol class="dayanak">${satirlar.join('')}</ol>` : '';
 }
 
+const HUKUM = { 'dayanaksız': 'kritik', 'kısmen': 'yuksek', 'dayanaklı': '' };
+
+/* Öz-denetim: ikinci geçiş her iddiayı kayıtlara karşı denetliyor.
+   Dayanaksız ya da kısmen dayanaklı bulunan iddia gizlenmiyor, işaretleniyor —
+   okuyan neye ne kadar güvenebileceğini görsün. */
+function denetimIsareti(a, id) {
+  const k = ((a.denetim || {}).kontroller || []).find((x) => x.id === id);
+  if (!k || k.hukum === 'dayanaklı') return '';
+  return `<p class="denetim-not ${HUKUM[k.hukum] || ''}">
+    <b>öz-denetim: ${esc(k.hukum)}</b>${k.not ? ' · ' + esc(k.not) : ''}</p>`;
+}
+
+function birincilBlok(a) {
+  const notlar = a.birincil_notlar || [];
+  if (!notlar.length) return '';
+  return `<section class="analiz-blok">
+    <h3>Birincil belgeler <span class="mono">${notlar.length}</span></h3>
+    <p class="ref-aciklama">Bu notlar, kararı anlatan habere değil mahkemenin kendi
+      metnine dayanır (HUDOC). Belge adına tıklayınca kararın tam metni açılır.</p>
+    <div class="birincil-blok">${notlar.map((b, i) => {
+      const belge = (state.birincil || {})[b.itemid];
+      return `<article class="bkart">
+        <div class="bk-ust">
+          <span class="tag birincil">${esc(belge ? belge.tur : 'birincil belge')}</span>
+          ${(b.maddeler || []).map((m) => `<span class="tag alan">md. ${esc(m)}</span>`).join('')}
+          ${belge && belge.basvuru ? `<span class="mono">${esc(belge.basvuru.split(';')[0])}${belge.basvuru.includes(';') ? ' +' : ''}</span>` : ''}
+          ${belge && belge.tarih ? `<span class="mono">${esc(belge.tarih)}</span>` : ''}
+        </div>
+        <h4>${belge ? `<a href="${esc(belge.url)}" target="_blank" rel="noopener noreferrer">${esc(belge.ad)} ↗</a>` : esc(b.baslik)}</h4>
+        ${belge ? `<p class="bk-konu">${esc(b.baslik)}</p>` : ''}
+        <p><b>Mahkeme ne dedi:</b> ${esc(b.ne_dedi)}</p>
+        ${b.merkez_icin ? `<p><b>Merkez için:</b> ${esc(b.merkez_icin)}</p>` : ''}
+        ${b.haberle_fark ? `<p class="bk-fark"><b>Haber kayıtlarıyla fark:</b> ${esc(b.haberle_fark)}</p>` : ''}
+        ${denetimIsareti(a, 'bir' + (i + 1))}
+      </article>`;
+    }).join('')}</div>
+  </section>`;
+}
+
 function analizGovde(a) {
   const d = new Date(a.gun + 'T12:00:00Z');
   return `<article class="analiz">
@@ -557,6 +596,7 @@ function analizGovde(a) {
     </div>
     <h2>${esc(a.baslik)}</h2>
     <p class="brifing">${refliMetin(a.brifing, a.kullanilan_kayitlar)}</p>
+    ${denetimIsareti(a, 'brifing')}
     <p class="ref-aciklama">Metindeki <span class="ref ornek"><sup>1</sup></span> gibi kırmızı
       numaralar, o cümlenin dayandığı kayıtlardır; üstüne gelince başlığı görünür,
       tıklayınca kayıt açılır.</p>
@@ -564,6 +604,8 @@ function analizGovde(a) {
     ${(a.kullanilan_kayitlar || []).length ? `<details class="tum-kayitlar">
       <summary>Analizin dayandığı ${a.kullanilan_kayitlar.length} kaydın tamamı</summary>
       ${kayitBaglari(a.kullanilan_kayitlar)}</details>` : ''}
+
+    ${birincilBlok(a)}
 
     ${(a.sureklilik || []).some((x) => x.durum !== 'hareket yok') ? `<section class="analiz-blok">
       <h3>Takip edilen dosyalarda hareket</h3>
@@ -578,11 +620,17 @@ function analizGovde(a) {
 
     ${(a.one_cikanlar || []).length ? `<section class="analiz-blok">
       <h3>Öne çıkan gelişmeler</h3>
-      <ol class="one-cikan">${a.one_cikanlar.map((o) => `<li>
+      <ol class="one-cikan">${a.one_cikanlar.map((o, i) => `<li>
         <div class="oc-ust"><span class="tag alan">${esc(o.alan)}</span>
-          <span class="tag ${GUVEN[o.guven] || ''}">güven: ${esc(o.guven)}</span></div>
+          <span class="tag ${GUVEN[o.guven] || ''}">güven: ${esc(o.guven)}</span>
+          ${o.mekanizma ? `<span class="tag mekanizma" title="Devrede olan hukuki mekanizma">${esc(o.mekanizma)}</span>` : ''}</div>
         <h4>${esc(o.baslik)}</h4>
         <p>${refliMetin(o.neden_onemli, o.kayitlar)}</p>
+        ${(o.ayrintilar || []).length ? `<ul class="ayrinti">${o.ayrintilar.map((x) =>
+          `<li>${refliMetin(x, o.kayitlar)}</li>`).join('')}</ul>` : ''}
+        ${o.karsi_okuma ? `<p class="karsi-okuma"><b>Bu kayıtlar şunu göstermiyor:</b>
+          ${esc(o.karsi_okuma)}</p>` : ''}
+        ${denetimIsareti(a, 'one' + (i + 1))}
         ${kayitBaglari(o.kayitlar)}
       </li>`).join('')}</ol></section>` : ''}
 
@@ -607,6 +655,13 @@ function analizGovde(a) {
         hareket gelen madde işaretlenir, 45 gün hareket görmeyen madde kapanır.</p>
     </section>` : ''}
 
+    ${(a.kronoloji || []).length ? `<section class="analiz-blok">
+      <h3>Günün ana dosyası: adım adım</h3>
+      <ol class="kronoloji">${a.kronoloji.map((k) => `<li>
+        <span class="kr-tarih mono">${esc(k.tarih)}</span>
+        <span class="kr-adim">${refliMetin(k.adim, k.kayitlar)}</span>
+      </li>`).join('')}</ol></section>` : ''}
+
     ${(a.izlenecekler || []).length ? `<section class="analiz-blok">
       <h3>İzlenecekler</h3>
       <ul class="izlenecek">${a.izlenecekler.map((x) => `<li>${refliMetin(x, a.kullanilan_kayitlar)}</li>`).join('')}</ul>
@@ -614,8 +669,11 @@ function analizGovde(a) {
 
     <footer class="analiz-kunye">
       <p class="uyari">${esc(a.uyari || '')}</p>
-      <p class="mono">${esc(a.kayit_sayisi || 0)} kayıt değerlendirildi · model ${esc(a.model || '—')}
+      <p class="mono">${esc(a.kayit_sayisi || 0)} kayıt değerlendirildi${(a.birincil_notlar || []).length ? ` · ${a.birincil_notlar.length} birincil belge` : ''} · model ${esc(a.model || '—')}
         · ${a.olusturma ? esc(fullFmt.format(new Date(a.olusturma))) : ''}</p>
+      ${a.denetim ? `<p class="mono denetim-ozet">öz-denetim (${esc(a.denetim.model || '')}):
+        ${esc(a.denetim.iddia_sayisi || 0)} iddia kontrol edildi,
+        ${esc((a.denetim.kontroller || []).filter((k) => k.hukum !== 'dayanaklı').length)} işaretlendi${a.denetim.genel ? ' · ' + esc(a.denetim.genel) : ''}</p>` : ''}
     </footer>
   </article>`;
 }
@@ -885,7 +943,7 @@ async function drawArchive() {
 /* ------------------------------------------------------------------- init */
 (async function init() {
   const [latest, meta, feeds, index, health, surum, analiz, analizIndex,
-         sentez, sentezIndex, uyari] = await Promise.all([
+         sentez, sentezIndex, uyari, birincil] = await Promise.all([
     getJSON('data/latest.json', { haberler: [], istatistik: {}, olusturma: null }),
     getJSON('data/sources.json', { sources: [], themes: [] }),
     getJSON('data/feeds.json', {}),
@@ -897,6 +955,7 @@ async function drawArchive() {
     getJSON('data/sentez-latest.json', null),
     getJSON('data/sentez-index.json', []),
     getJSON('data/uyari-son.json', null),
+    getJSON('data/birincil-latest.json', null),
   ]);
   state.items = latest.haberler || [];
   state.stats = latest.istatistik || {};
@@ -909,6 +968,8 @@ async function drawArchive() {
   state.analiz = analiz;
   state.sentez = sentez;
   state.uyari = uyari;
+  // birincil belgeler itemid ile aranacak: analiz notlari o kimlikle geliyor
+  state.birincil = Object.fromEntries(((birincil || {}).belgeler || []).map((b) => [b.itemid, b]));
   state.analizKip = 'gun';
   state.ceviri = LS.get('bhm.ceviri', true) !== false;
   const cChip = $('#ceviriChip');

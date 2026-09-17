@@ -657,3 +657,46 @@ footer a{color:#8FD6EC}
 @media (prefers-reduced-motion:reduce){
   .gorsel:not(.yuklendi),.manset-img:not(.yuklendi){animation:none}
 }
+
+/* birincil belgeler: mahkemenin kendi metnine dayanan notlar */
+.birincil-blok{display:grid;gap:var(--s4)}
+.bkart{background:var(--white);border:1px solid var(--hair-2);
+  border-left:5px solid var(--gold);border-radius:var(--r);padding:var(--s4)}
+.bk-ust{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center;margin-bottom:var(--s2)}
+.bk-ust .mono{font-size:.72rem;color:var(--ink-3)}
+.bkart h4{font-family:var(--display);font-size:1.12rem;line-height:1.24;margin:0 0 var(--s2)}
+.bkart h4 a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--hair)}
+.bkart h4 a:hover{color:var(--accent);border-color:var(--accent)}
+.bkart p{margin:0 0 var(--s2);font-size:.98rem;line-height:1.55;color:var(--ink-2)}
+.bkart p:last-child{margin-bottom:0}
+.bkart p b{color:var(--ink)}
+.bk-konu{font-family:var(--display);color:var(--ink)!important}
+.bk-fark{background:var(--sunken);border-left:3px solid var(--accent);
+  padding:var(--s2) var(--s3);border-radius:0 var(--r) var(--r) 0}
+
+/* öne çıkan gelişmede somut veriler ve karşı okuma */
+.ayrinti{margin:var(--s2) 0 0;padding-left:var(--s4);color:var(--ink-2)}
+.ayrinti li{font-size:.95rem;line-height:1.5;margin-bottom:4px}
+.karsi-okuma{margin:var(--s3) 0 0;font-size:.94rem;line-height:1.5;color:var(--ink-2);
+  background:var(--sunken);border-left:3px solid var(--ink-leaf);
+  padding:var(--s2) var(--s3);border-radius:0 var(--r) var(--r) 0}
+.karsi-okuma b{color:var(--ink)}
+.tag.mekanizma{background:rgba(14,124,155,.12);color:var(--accent-2);border:1px solid rgba(14,124,155,.3)}
+
+/* öz-denetim işaretleri */
+.denetim-not{margin:var(--s2) 0 0;font-size:.86rem;line-height:1.45;color:var(--ink-2);
+  border-left:3px solid var(--hair);padding-left:var(--s3)}
+.denetim-not.kritik{border-left-color:var(--accent);color:var(--ink)}
+.denetim-not.yuksek{border-left-color:var(--gold)}
+.denetim-ozet{color:rgba(242,239,232,.6);margin-top:var(--s2)}
+
+/* kronoloji */
+.kronoloji{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.kronoloji li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:var(--s3);
+  padding:var(--s3) 0;border-bottom:1px solid var(--hair-3);align-items:baseline}
+.kronoloji li:last-child{border-bottom:0}
+.kr-tarih{font-size:.76rem;color:var(--accent);font-weight:600}
+.kr-adim{font-size:1rem;line-height:1.5;color:var(--ink-2)}
+@media (max-width:560px){
+  .kronoloji li{grid-template-columns:1fr;gap:2px}
+}

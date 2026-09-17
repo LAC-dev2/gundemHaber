@@ -36,9 +36,11 @@ scripts/ceviri.py           Türkçe olmayan kayıtların başlık/özet çeviri
 scripts/kaynak_ekle.py      envantere yeni kaynak ekleme (form ve komut satırı)
 scripts/tam_metin.py        analiz öncesi öne çıkan kayıtların tam metni
 scripts/sentez.py           haftalık sentez üretimi (Claude API)
+scripts/birincil.py         AİHM karar metinleri (HUDOC) ve Resmî Gazete
 scripts/uyari.py            eşik aşıldığında uyarı (API kullanmaz)
 data/takip.json             açık takip maddeleri ve seyri
 data/sentez/                haftalık sentezler
+data/birincil-latest.json   indirilen birincil belgelerin listesi
 data/uyari-son.json         güncel eşik uyarıları
 data/ceviri.json            çeviri önbelleği (her kayıt bir kez çevrilir)
 data/analiz/YYYY-AA-GG.json günlük analiz kayıtları
@@ -325,6 +327,49 @@ sessizce atlanır, tarama normal çalışır.
 `--kisa` ile tam metinler gönderilmezse bu rakamlar yaklaşık üçte birine iner.
 Her analiz, kullandığı token sayısını ve maliyeti hem ekrana yazar hem de
 üretilen dosyaya (`maliyet_usd`) kaydeder.
+
+### Birincil belgeler
+
+Analizin en büyük eksiği şuydu: kararları *anlatan haberleri* okuyor, kararın
+kendisini okumuyordu. `scripts/birincil.py` bunu kapatır.
+
+* **HUDOC (AİHM)** — Türkiye aleyhine kararlar, kabul edilebilirlik kararları ve
+  Bakanlar Komitesi icra kararları; başvuru numarası, incelenen maddeler ve
+  HUDOC'un kendi "sonuç" alanıyla birlikte **tam metin** olarak indirilir.
+  Analize kararın olay özeti ve **hüküm kısmı** verilir (ortadaki usul bölümleri
+  atlanır) — hükümde ihlal bulunup bulunmadığı ve hükmedilen tutar yazar.
+* **Resmî Gazete** — günün sayısının başlıkları. Sitenin sertifika zinciri eksik
+  olduğu için erişilemeyebilir; o durumda adım sessizce atlanır.
+
+Sistem istemi birincil belgeyi haber kaydından **üstün** sayar: bir haber kararı
+yanlış aktarıyorsa analiz kararın metnine uyar ve farkı açıkça yazar. Arayüzde
+"Birincil belgeler" bloğu her karar için üç şey gösterir — mahkeme ne dedi,
+merkezin dosyaları için ne anlama geliyor, haber kayıtlarıyla fark nerede.
+
+```bash
+python3 scripts/birincil.py --liste            # indirmeden neler var, gör
+python3 scripts/birincil.py --gun-sayisi 21 --adet 8
+```
+
+### Öz-denetim
+
+Analiz üretildikten sonra ikinci bir geçiş, **her iddiayı kendi dayanaklarına
+karşı** denetler (öntanımlı `claude-sonnet-5`, ≈ $0,04/gün). İddianın
+gösterdiği kayıtlar isteme yeniden konur ve model üç hükümden birini verir:
+"dayanaklı", "kısmen" (ana olgu var ama kayıtların söylemediği bir çıkarım
+eklenmiş) ya da "dayanaksız". İşaretlenen iddia **silinmez**; arayüzde
+gerekçesiyle görünür — okuyan neye ne kadar güvenebileceğini bilsin.
+
+### Zenginleşen günlük çıktı
+
+Öne çıkan her gelişme artık şunları da taşır:
+
+* **ayrıntılar** — kayıtlarda geçen somut veriler (sayı, tarih, dosya numarası,
+  tutar), her biri kendi dipnotuyla
+* **mekanizma** — devrede olan hukuki yol (AİHM maddesi, BM usulü, INTERPOL
+  kuralı). Tavsiye değil, konumlandırma
+* **karşı okuma** — bu kayıtların *göstermediği* şey; hangi çıkarım yapılamaz
+* **kronoloji** — günün ana dosyasında adım adım seyir
 
 ### Haftalık sentez
 
