@@ -27,6 +27,9 @@ on:
       sadece_denetim:
         description: "Analizi yeniden uretmeden yalnizca oz-denetim yapilsin mi? (evet/hayir)"
         default: "hayir"
+      kalite:
+        description: "Model/effort karsilastirmasi calistirilsin mi? (evet/hayir) — ucret gerektirir"
+        default: "hayir"
   push:
     # Arayuz dosyalari da yayin tetiklemeli: yoksa app.js/style.css degisikligi
     # canli siteye hic gitmiyor.
@@ -144,6 +147,25 @@ jobs:
             tail -n 60 "$KUTUK"
           } > data/analiz-log.txt
           exit $SONUC
+
+      # Kalite karsilastirmasi: ayni gunun ayni kayitlariyla farkli
+      # model/effort yapilandirmalarini calistirir. Yalnizca elle istenir.
+      - name: Kalite karsilastirmasi
+        if: github.event.inputs.kalite == 'evet'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "anahtar yok; atlandi."; exit 0; fi
+          python3 -m pip install --quiet --disable-pip-version-check anthropic
+          # Kendi on kosullari: analiz adimi gunun analizi varsa erken cikiyor
+          python3 scripts/tam_metin.py --adet 18 || true
+          python3 scripts/birincil.py --gun-sayisi 21 --adet 8 || true
+          python3 scripts/kalite.py 2>&1 | tee "$RUNNER_TEMP/kalite.log"
+          {
+            echo "# kalite karsilastirmasi $(date -u '+%Y-%m-%d %H:%M UTC')"
+            tail -n 40 "$RUNNER_TEMP/kalite.log"
+          } > data/kalite-log.txt
 
       # Haftalik sentez: pazar sabahi taramasinda ya da elle istendiginde.
       # Gunluk analizlere bakar, yeniden tarama ya da tam metin indirmez.
