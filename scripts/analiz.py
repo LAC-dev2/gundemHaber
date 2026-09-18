@@ -475,16 +475,33 @@ DENETIM_SEMA = {
 }
 
 
+ANAHTAR_DESENI = re.compile(r"\b[0-9a-f]{6,12}\b")
+
+
+def metindeki_anahtarlar(metin: str, gecerli: set[str]) -> list[str]:
+    """Iddia metninde atif yapilan kayit anahtarlari.
+
+    Denetleyiciye yalnizca alan olarak bildirilen kayitlari gondermek
+    yetmiyor: brifing metnin icinde baska kayitlara da atif yapabiliyor
+    ve o kayitlar gonderilmezse denetim onlari "listede yok" diye
+    isaretliyordu."""
+    return [a for a in dict.fromkeys(ANAHTAR_DESENI.findall(metin or "")) if a in gecerli]
+
+
 def iddialari_topla(veri: dict) -> list[dict]:
     """Denetlenecek iddialar: metin, dayandigi kayitlar ve bir kimlik."""
-    iddialar = [{"id": "brifing", "metin": veri.get("brifing", ""),
-                 "kayitlar": veri.get("kullanilan_kayitlar", [])[:12]}]
+    gecerli = set(veri.get("kullanilan_kayitlar", []))
+    brifing = veri.get("brifing", "")
+    brifing_kayit = metindeki_anahtarlar(brifing, gecerli) or list(gecerli)[:12]
+    iddialar = [{"id": "brifing", "metin": brifing, "kayitlar": brifing_kayit}]
     for i, o in enumerate(veri.get("one_cikanlar", []), 1):
         metin = o.get("neden_onemli", "")
         if o.get("ayrintilar"):
             metin += " AYRINTILAR: " + " | ".join(o["ayrintilar"])
-        iddialar.append({"id": f"one{i}", "metin": f"{o.get('baslik', '')} :: {metin}",
-                         "kayitlar": o.get("kayitlar", [])})
+        tam = f"{o.get('baslik', '')} :: {metin}"
+        kayitlar = list(dict.fromkeys(list(o.get("kayitlar", []))
+                                      + metindeki_anahtarlar(tam, gecerli)))
+        iddialar.append({"id": f"one{i}", "metin": tam, "kayitlar": kayitlar})
     for i, b in enumerate(veri.get("birincil_notlar", []), 1):
         iddialar.append({"id": f"bir{i}",
                          "metin": f"{b.get('baslik', '')} :: {b.get('ne_dedi', '')}",
