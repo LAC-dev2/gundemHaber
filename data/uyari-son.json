@@ -1,36 +1,56 @@
 {
  "gun": "2026-09-18",
- "olusturma": "2026-09-18T08:57+00:00",
+ "olusturma": "2026-09-18T09:02+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-09-18:Belarus'ta 25 siyasi mahpusun serbest bırakılması iki şirket",
+   "id": "alan:2026-09-18:MFRR araştırmacısı Massimo Moratti'ye Sırbistan'da sınır dış",
    "tur": "acil alan",
    "duzey": "yüksek",
-   "baslik": "Belarus'ta 25 siyasi mahpusun serbest bırakılması iki şirketin yaptırım listesinden çıkarılmasıyla eşleşti",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Serbest bırakma, ABD'nin iki Belarus şirketine yönelik yaptırımları kaldırmasıyla birlikte gerçekleşti ve serbest kalanlar Vilnius'a sınır dışı edildi [b14c3cdc03]. Zorunlu sürgünün serbest bırakma koşulu yapılması, BM uzmanlarının uluslararası hukuka aykırı bulduğu bir pratik olarak aktarılıyor; merkezin sınıraşan baskı ve yaptırım dosyalarında doğrudan karşılığı var.",
+   "baslik": "MFRR araştırmacısı Massimo Moratti'ye Sırbistan'da sınır dışı kararı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "İnsan hakları çalışmasıyla bağlantılı görünen bir sınır dışı işlemi, merkezin sınır dışı/giriş içtihadı ve insan hakları savunucularına yönelik idari tedbir dosyalarıyla kesişiyor [cd2190bc13]. Aynı hafta Avrupa Konseyi'nin AİHM sınır dışı içtihadına ilişkin tematik belgesinin yayımlanmış olması, bu tür işlemlerin ölçütlerini tartışmaya açıyor [c23be3b155].",
    "kayitlar": [
-    "b14c3cdc03",
-    "6e19051a68"
+    "cd2190bc13",
+    "c23be3b155"
    ]
   },
   {
-   "id": "takip:2026-09-18:toplu:5",
+   "id": "alan:2026-09-18:Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıra",
+   "tur": "acil alan",
+   "duzey": "yüksek",
+   "baslik": "Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıraşan veri talebi oranı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Sınıraşan e-delil talepleri, merkezin adli yardım ve iade dosyalarında delilin hangi usulle elde edildiği sorusunu doğrudan etkiliyor. Europol, bugünkü kayıtta ceza soruşturmalarının yarısından fazlasının sınıraşan e-delil talebi içerdiğini ve delilin bilinmeyen bir ülkede saklanabildiğini belirtiyor [cbfb6770c1]; SPoC ağı toplantısı bu talep akışının idari altyapısını gösteriyor [eb6846d9b3].",
+   "kayitlar": [
+    "eb6846d9b3",
+    "cbfb6770c1",
+    "ff32cf8eb4",
+    "0f7bac19d0"
+   ]
+  },
+  {
+   "id": "takip:2026-09-18:toplu:2",
    "tur": "dosya hareketi",
    "duzey": "orta",
-   "baslik": "5 takip dosyasında hareket var",
+   "baslik": "2 takip dosyasında hareket var",
    "alan": "",
-   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Boydak dosyası: hükümlü Erol Boydak'ın işitme cihazının alınması, koğu; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; Bakanlar Komitesi'nin Türkiye'ye ilişkin genel tedbir gruplarında (Uza",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağın",
    "kayitlar": [
-    "89ee1abf99",
-    "5569ec5b81",
-    "fd403aaaec",
-    "84f484dabc",
-    "f64bb53604",
-    "1387ffbabe",
-    "fd403aaaec",
-    "89ee1abf99"
+    "9da2d465f8",
+    "eb6846d9b3",
+    "cbfb6770c1",
+    "ff32cf8eb4",
+    "0f7bac19d0"
    ]
+  },
+  {
+   "id": "saglik:2026-09-18:9",
+   "tur": "izleme bozuldu",
+   "duzey": "yüksek",
+   "baslik": "9 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, Human Rights Watch - Türkiye, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, MLSA…",
+   "kayitlar": []
   }
  ]
 }

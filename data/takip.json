@@ -35,6 +35,13 @@
       "5569ec5b81",
       "fd403aaaec"
      ]
+    },
+    {
+     "gun": "2026-09-18",
+     "not": "BM İnsan Hakları Ofisi, Türkiye'ye \"keyfi olarak gözaltına alınanların\" derhal serbest bırakılması çağrısı yaptı ve 150'den fazla LGBTİQ+ birey ile insan hakları savunucusunun toplu gözaltına alındığı yönündeki raporlardan \"çok kaygılı\" olduğunu bildirdi [9da2d465f8]. Bu, dosyada ilk kez bir BM organının resmi olarak devreye girmesi anlamına geliyor; sayı, önceki günlerin analizlerinde geçen 82 tutuklu / 106 serbest bırakılan dağılımından farklı bir kategoriyi (toplam gözaltı) ifade ediyor olabilir, kayıtlar bu ayrımı netleştirmiyor. Derneklere yönelik kapatma davası ve erişim engelleri konusunda bugün kayıt yok.",
+     "kayitlar": [
+      "9da2d465f8"
+     ]
     }
    ]
   },
@@ -208,7 +215,18 @@
    "kayitlar": [
     "eb6846d9b3"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-18",
+     "not": "Europol'ün EU IRU'su ile Alman Federal Kriminal Polisi'nin düzenlediği 7. SIRIUS Tek İrtibat Noktası (SPoC) Ağı toplantısı 15-16 Eylül 2026'da Berlin'de yapıldı [eb6846d9b3]. Europol'ün ayrı bir kaydı, bugün ceza soruşturmalarının yarısından fazlasının sınıraşan elektronik delil talebi içerdiğini ve delilin bilinmeyen ülkelerde saklanabildiğini belirtiyor [cbfb6770c1]. Önceki günden devreden FRA kayıtları, kolluğun dijital veriye erişimi raporunun Europol EDEN konferansında ve COSI destek grubunda sunulduğunu gösteriyor [ff32cf8eb4, 0f7bac19d0].",
+     "kayitlar": [
+      "eb6846d9b3",
+      "cbfb6770c1",
+      "ff32cf8eb4",
+      "0f7bac19d0"
+     ]
+    }
+   ]
   },
   {
    "id": "t10",
@@ -251,8 +269,48 @@
     "4e7b8dd15b"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t13",
+   "baslik": "Basın İlân Kurumu Yönetmeliğinde 18 Eylül 2026 tarihli değişiklik ve resmî ilan yaptırımlarının kapsamı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Resmî ilan kesme, Türkiye'de gazetelere yönelik idari yaptırımın başlıca araçlarından biri; yönetmeliğin 3. maddesindeki tanım fıkrasında yapılan değişikliğin kapsamı kayıtta tam görünmüyor [3636911a1b, c7f4b01c28]. Metnin tamamının görülmesi gerekiyor.",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "3636911a1b",
+    "c7f4b01c28"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t14",
+   "baslik": "MFRR araştırmacısı Massimo Moratti'ye Sırbistan tarafından verilen sınır dışı kararı",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "İnsan hakları çalışmasıyla bağlantılı görünen bir sınır dışı işlemi, merkezin sınıraşan baskı ve sınır dışı içtihadı dosyalarıyla doğrudan kesişiyor [cd2190bc13]. Kararın hukuki dayanağı ve itiraz yolu kayıtta yok.",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "cd2190bc13"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t15",
+   "baslik": "Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltica kararları (BRE 22/4792 ve diğer yedi dosya)",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Sekiz dosyanın birleştirildiği bir ulusal iltica kararı, merkezin AB içindeki iltica içtihadı takibi açısından ilgili olabilir; kayıtta yalnızca ECLI numarası ve dosya numaraları var, konu bilinmiyor [b5c491d48e].",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "b5c491d48e"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-18T07:58+00:00",
- "acik": 12
+ "guncelleme": "2026-09-18T09:02+00:00",
+ "acik": 15
 }
