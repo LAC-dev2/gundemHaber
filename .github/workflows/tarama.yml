@@ -252,6 +252,20 @@ jobs:
           echo "::error::Veri itilemedi."
           exit 1
 
+      # Tarayici onbellegi: GitHub Pages arayuz dosyalarina max-age=600
+      # veriyor ve Pages'te baslik ayarlanamiyor. Yayinlanan kopyada css/js
+      # baglantilarina isleme kimligi ekliyoruz; boylece yeni surum aninda
+      # gelir, eskisi onbellekte kalmaz. Depodaki dosyalar degismez.
+      - name: Arayuz dosyalarina surum damgasi
+        run: |
+          SURUM=$(git rev-parse --short HEAD)
+          sed -i "s|href=\"assets/style.css\"|href=\"assets/style.css?v=$SURUM\"|g; \
+                  s|src=\"assets/app.js\"|src=\"assets/app.js?v=$SURUM\"|g; \
+                  s|src=\"assets/haber.js\"|src=\"assets/haber.js?v=$SURUM\"|g" \
+              index.html haber.html
+          echo "surum damgasi: $SURUM"
+          grep -o 'assets/[a-z.]*?v=[0-9a-f]*' index.html haber.html | sort -u
+
       # enablement: Pages depoda kapaliysa is akisi kendisi acar (pages: write)
       - uses: actions/configure-pages@v5
         continue-on-error: true
