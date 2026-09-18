@@ -729,3 +729,12 @@ footer a{color:#8FD6EC}
   color:var(--ink-3);padding-top:3px}
 .derin dd{margin:0;font-size:.98rem;line-height:1.55;color:var(--ink-2)}
 @media (max-width:640px){ .derin dl{grid-template-columns:1fr;gap:2px var(--s2)} .derin dd{margin-bottom:var(--s2)} }
+
+/* "yeni tarama var · yenile" düğmesi (sayfa açık bırakıldığında) */
+#tazele{margin-left:var(--s3);border:1px solid rgba(255,255,255,.35);cursor:pointer;
+  background:var(--accent);color:#fff;border-radius:var(--r-pill);
+  font:700 .64rem/1 var(--body);letter-spacing:.1em;text-transform:uppercase;
+  padding:7px 12px;animation:tazeGir .3s ease}
+#tazele:hover{background:#fff;color:var(--accent);border-color:#fff}
+@keyframes tazeGir{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){ #tazele{animation:none} }

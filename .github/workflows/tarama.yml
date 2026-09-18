@@ -149,6 +149,8 @@ jobs:
             echo "# analiz adimi $(date -u '+%Y-%m-%d %H:%M UTC') · cikis kodu $SONUC"
             tail -n 60 "$KUTUK"
           } > data/analiz-log.txt
+          # Bu kosu analiz dosyalarina dokundu: itme adimi onlari korusun.
+          touch "$RUNNER_TEMP/analiz-dokundu"
           exit $SONUC
 
       # Kalite karsilastirmasi: ayni gunun ayni kayitlariyla farkli
@@ -176,6 +178,7 @@ jobs:
             echo "# kalite karsilastirmasi $(date -u '+%Y-%m-%d %H:%M UTC')"
             tail -n 40 "$RUNNER_TEMP/kalite.log"
           } > data/kalite-log.txt
+          touch "$RUNNER_TEMP/kalite-dokundu"
 
       # Haftalik sentez: pazar sabahi taramasinda ya da elle istendiginde.
       # Gunluk analizlere bakar, yeniden tarama ya da tam metin indirmez.
@@ -204,6 +207,7 @@ jobs:
           fi
           python3 -m pip install --quiet --disable-pip-version-check anthropic
           python3 scripts/sentez.py
+          touch "$RUNNER_TEMP/sentez-dokundu"
 
       # Uyari: esik asildiginda haber ver. Kural tutmazsa hicbir sey yapmaz;
       # ayni uyari iki kez gonderilmez (data/uyari-gecmis.json).
@@ -256,6 +260,25 @@ jobs:
           # agacinda bulunmayan dosyalari "silinmis" diye islemesin. 18 Eylul'de
           # tam bu yuzden gunun analizi uretildikten bir dakika sonra, eski bir
           # taramanin itmesiyle depodan silindi.
+          #
+          # Silme engellendi ama DEGISTIRME hala mumkundu: eski bir tarama turu
+          # kendi calisma agacindaki eski analiz-latest.json'i yeniden isleyip
+          # yeni analizin uzerine yazabiliyordu. Analiz/sentez/kalite ciktilari
+          # yalnizca onlari ureten kosuya ait: baska turlar uzaktakini korur.
+          git fetch origin "$GITHUB_REF_NAME" --quiet || true
+          if [ ! -f "$RUNNER_TEMP/analiz-dokundu" ]; then
+            git checkout "origin/$GITHUB_REF_NAME" -- \
+              data/analiz data/analiz-latest.json data/analiz-index.json \
+              data/analiz-durum.json data/analiz-log.txt data/takip.json 2>/dev/null || true
+          fi
+          if [ ! -f "$RUNNER_TEMP/sentez-dokundu" ]; then
+            git checkout "origin/$GITHUB_REF_NAME" -- \
+              data/sentez data/sentez-latest.json data/sentez-index.json 2>/dev/null || true
+          fi
+          if [ ! -f "$RUNNER_TEMP/kalite-dokundu" ]; then
+            git checkout "origin/$GITHUB_REF_NAME" -- \
+              data/kalite data/kalite-log.txt 2>/dev/null || true
+          fi
           git add --ignore-removal data
           if git diff --cached --quiet; then
             echo "Degisiklik yok."

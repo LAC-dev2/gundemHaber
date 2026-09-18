@@ -869,6 +869,36 @@ function olcBaslik() {
   else addEventListener('resize', yaz);
 }
 
+/* Sayfa acik birakiliyor ve gun icinde uc dort tarama daha yapiliyor;
+   acik sekme eski analizi gostermeye devam ediyordu. Yayindaki verinin
+   damgasini periyodik olarak yokluyoruz (HEAD istegi, govde indirilmez)
+   ve degistiyse gorunur bir "yenile" dugmesi cikariyoruz. Sayfayi kendi
+   basina yenilemiyoruz: okurken altindan degismesi daha kotu. */
+const TAZELIK_ARALIK = 180000;      // 3 dakika
+
+function kurTazelik() {
+  const dugme = document.getElementById('tazele');
+  if (!dugme) return;
+  let damga = null;
+  const damgaAl = async () => {
+    const r = await fetch('data/latest.json?t=' + Date.now(), { method: 'HEAD', cache: 'no-store' });
+    return r.headers.get('etag') || r.headers.get('last-modified') || null;
+  };
+  const bak = async () => {
+    if (document.hidden || !dugme.hidden) return;
+    try {
+      const yeni = await damgaAl();
+      if (!yeni) return;
+      if (damga === null) { damga = yeni; return; }
+      if (yeni !== damga) dugme.hidden = false;
+    } catch (e) { /* ağ yoksa sessiz geç */ }
+  };
+  dugme.addEventListener('click', () => location.reload());
+  bak();
+  setInterval(bak, TAZELIK_ARALIK);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) bak(); });
+}
+
 function kurFab() {
   const fab = document.getElementById('fab');
   if (!fab) return;
@@ -1079,6 +1109,7 @@ async function drawArchive() {
   olcBaslik();
   kurKartTiklama();
   kurFab();
+  kurTazelik();
   renderRegions();
 
   // bölge çipleri
