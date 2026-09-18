@@ -523,10 +523,15 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
     istemci = anthropic.Anthropic()
 
     def cagir(m: str):
+        # Denetim mekanik bir kontrol: her iddiayi kayitlarla karsilastirip
+        # uc hukumden birini vermek. Derin dusunmeye ihtiyaci yok ve
+        # dusunme token'lari max_tokens'a sayiliyor; effort "low" ile hem
+        # sinira takilmiyor hem ucuzluyor.
         return istemci.messages.create(
             model=m, max_tokens=16000, system=DENETIM_SISTEM,
             messages=[{"role": "user", "content": istem}],
-            output_config={"format": {"type": "json_schema", "schema": DENETIM_SEMA}},
+            output_config={"effort": "low",
+                           "format": {"type": "json_schema", "schema": DENETIM_SEMA}},
         )
 
     try:
@@ -685,13 +690,19 @@ def main() -> int:
 
     client = anthropic.Anthropic()
     try:
-        yanit = client.messages.create(
+        # Akis kullaniyoruz: cikti sinirini yukseltmek gerekiyor (17 Eylul
+        # kosusu 16.000'in 15.554'unu kullandi; dusunme token'lari da buna
+        # sayiliyor) ve akis olmadan uzun yanitlar HTTP zaman asimina
+        # takilabiliyor. get_final_message() tam yaniti veriyor.
+        with client.messages.stream(
             model=args.model,
-            max_tokens=16000,
+            max_tokens=32000,
             system=SISTEM,
             messages=[{"role": "user", "content": istem}],
+            thinking={"type": "adaptive"},
             output_config={"format": {"type": "json_schema", "schema": SEMA}},
-        )
+        ) as akis:
+            yanit = akis.get_final_message()
     except anthropic.APIStatusError as hata:
         durum_yaz(gun, "api hatası", f"{hata.status_code}: {hata.message}")
         print(f"::error::API hatası ({hata.status_code}): {hata.message}")

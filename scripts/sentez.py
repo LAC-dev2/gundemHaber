@@ -246,13 +246,17 @@ def main() -> int:
 
     client = anthropic.Anthropic()
     try:
-        yanit = client.messages.create(
+        # Akis: uzun cikti ve dusunme token'lari icin yer birak, HTTP
+        # zaman asimindan da korunmus ol (bkz. analiz.py'deki not).
+        with client.messages.stream(
             model=args.model,
-            max_tokens=12000,
+            max_tokens=32000,
             system=SISTEM,
             messages=[{"role": "user", "content": istem}],
+            thinking={"type": "adaptive"},
             output_config={"format": {"type": "json_schema", "schema": SEMA}},
-        )
+        ) as akis:
+            yanit = akis.get_final_message()
     except anthropic.APIStatusError as hata:
         print(f"API hatası ({hata.status_code}): {hata.message}")
         return 1
