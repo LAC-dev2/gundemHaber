@@ -220,35 +220,34 @@ jobs:
         run: |
           git config user.name "gundem-bot"
           git config user.email "actions@github.com"
-          git add data
+          # --ignore-removal: baska bir kosunun ekledigi ama bu kosunun calisma
+          # agacinda bulunmayan dosyalari "silinmis" diye islemesin. 18 Eylul'de
+          # tam bu yuzden gunun analizi uretildikten bir dakika sonra, eski bir
+          # taramanin itmesiyle depodan silindi.
+          git add --ignore-removal data
           if git diff --cached --quiet; then
             echo "Degisiklik yok."
             exit 0
           fi
           MESAJ="veri: tarama $(date -u '+%Y-%m-%d %H:%M UTC')"
           git commit -m "$MESAJ"
-          # Baska bir kosu ya da elle itme araya girmis olabilir. Veri dosyalari
-          # turetilmis oldugu icin birlestirme yerine: uzaktakinin ucuna tasi,
-          # calisma agacindaki taze tarama sonucunu koru.
+          # Araya baska bir kosu girdiyse: kendi degisikliklerimizi uzaktakinin
+          # ucune TASI (rebase). Boylece yalnizca bu kosunun dokundugu dosyalar
+          # uygulanir; otekilerin dosyalari oldugu gibi kalir. Catismada bu
+          # kosunun taze verisi kazanir (-X theirs: yeniden uygulanan isleme).
           for DENEME in 1 2 3 4 5 6; do
             if git push; then
               echo "itildi (deneme $DENEME)"
               exit 0
             fi
-            echo "uzakta yeni isleme var; uzerine tasiniyor (deneme $DENEME)"
+            echo "uzakta yeni isleme var; degisiklikler ucuna tasiniyor (deneme $DENEME)"
             sleep $((DENEME * 3))
             git fetch origin "$GITHUB_REF_NAME"
-            git reset --soft "origin/$GITHUB_REF_NAME"
-            # Onemli: --soft indeksi eski islemenin agacinda birakir. Bu haliyle
-            # "git add data" yapilsa bile, araya giren itmenin data disindaki
-            # degisiklikleri (arayuz, is akisi) geri alinmis olarak islenir.
-            # Indeksi once yeni HEAD'e esitle, sonra yalnizca data'yi ekle.
-            git reset --quiet
-            git add data
-            git diff --cached --quiet && { echo "fark kalmadi"; exit 0; }
-            git commit -m "$MESAJ"
+            if ! git rebase -X theirs "origin/$GITHUB_REF_NAME"; then
+              git rebase --abort || true
+              echo "::warning::tasima basarisiz; yeniden denenecek"
+            fi
           done
-          # Son bir deneme: dongunun son islemesi henuz itilmedi.
           git push && { echo "itildi (son deneme)"; exit 0; }
           echo "::error::Veri itilemedi."
           exit 1

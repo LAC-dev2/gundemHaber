@@ -7,7 +7,7 @@
    "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-17",
+   "son_hareket": "2026-09-18",
    "kayitlar": [
     "164e080299",
     "6aa16a463f",
@@ -24,6 +24,15 @@
       "5569ec5b81",
       "277ead3179",
       "fe5c5140c0",
+      "fd403aaaec"
+     ]
+    },
+    {
+     "gun": "2026-09-18",
+     "not": "Operasyonun altıncı gününde tutuklu sayısı 82 olarak veriliyor; kayıt sayının bileşimini de açıklıyor: Ankara, İzmir, Mersin ve Aydın mahkemeleri en az 62, ardından bir İstanbul mahkemesi 20 kişi hakkında tutuklama kararı verdi [89ee1abf99]. İstanbul'da adliye önünde bildiri okumak isterken gözaltına alınan 106 kişinin serbest bırakıldığı, aynı gün başka aktivistlerin tutuklandığı bildiriliyor [5569ec5b81]. Erişim engellerine ilişkin bugün yalnızca akademisyenlerin çevrimiçi kısıtlamaların kaldırılması çağrısı var; iki derneğe yönelik kapatma davasında yeni kayıt yok [89ee1abf99].",
+     "kayitlar": [
+      "89ee1abf99",
+      "5569ec5b81",
       "fd403aaaec"
      ]
     }
@@ -103,12 +112,20 @@
    "neden": "Cezaevi koşulları ve engellilik uyarlaması iddiaları, AİHM'in 3. madde içtihadıyla (bkz. Demirci kararı) doğrudan kesişiyor; ayrıca 35 şirketin devlete devri ve satışlar malvarlığı dosyalarıyla bağlantılı.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-17",
+   "son_hareket": "2026-09-18",
    "kayitlar": [
     "84f484dabc",
     "001-251824"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-18",
+     "not": "Kayıt dün başlık düzeyinde geçen iddiaları ayrıntılandırıyor: Bluetooth özelliği gerekçesiyle işitme cihazının alındığı, yüzde 50 işitme kaybı bulunduğu, sekiz kişilik koğuşta 17 kişiyle tutulduğu, revire sevkin altı ayı, dış hastaneye sevkin bir yılı bulabildiği DEM Partili Gergerlioğlu'nun Meclis'teki açıklamasına dayandırılıyor [84f484dabc]. Aynı kayıt, 2023'te Yargıtay'ın mahkûmiyet ve müsadere kararlarını onaması sonrası 35 şirketteki hisselerin devlete geçtiğini ve satış tutarlarını aktarıyor.",
+     "kayitlar": [
+      "84f484dabc"
+     ]
+    }
+   ]
   },
   {
    "id": "t6",
@@ -117,12 +134,21 @@
    "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-17",
+   "son_hareket": "2026-09-18",
    "kayitlar": [
     "f64bb53604",
     "1387ffbabe"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-18",
+     "not": "Anayasa Mahkemesi'nin iki kararı bugün de kayıtlarda: darbe girişimi iddiasıyla 12 yıldan fazla ceza alan astsubay Serdar Uzel bakımından gerekçeli karar hakkının oybirliğiyle ihlal edildiği [f64bb53604]; kitap, dergi, gazete ve siyasi broşürlere yönelik geçici el koymaların yıllarca, bazı dosyalarda soruşturma sona erdikten sonra da sürmesi nedeniyle ifade ve basın özgürlüğünün ihlal edildiği [1387ffbabe]. Kayıtlar özet düzeyinde; karar metinleri elimizde yok.",
+     "kayitlar": [
+      "f64bb53604",
+      "1387ffbabe"
+     ]
+    }
+   ]
   },
   {
    "id": "t7",
@@ -131,12 +157,21 @@
    "neden": "Gazetecinin iki yıl önce yayımlanmış bir yazı üzerinden tutuklanması ve bakanlık genelgesinin yargıya müdahale olarak nitelenmesi, 10. madde ve yargı bağımsızlığı dosyalarında ayrı bir izleme başlığı gerektiriyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-17",
+   "son_hareket": "2026-09-18",
    "kayitlar": [
     "89ee1abf99",
     "fd403aaaec"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-18",
+     "not": "IPI ve CPJ, 12 Eylül'den bu yana süren operasyon kapsamında gözaltına alınan veya tutuklanan gazetecilerin serbest bırakılmasını istedi [fd403aaaec]. CPJ, Tuğba Tekerek'in Gürcistan'daki seçimler sırasında LGBTQ kişilere dair 2024 tarihli bir yazısı nedeniyle tutuklandığını, iki yıl önce yayımlanmış serbest çalışma üzerinden yargılamanın diğer gazetecilere uyarı niteliği taşıdığını belirtiyor [89ee1abf99]. Adalet Bakanlığı genelgesi, Özgür Özel tarafından yürütmenin yargı yetkisine anayasaya aykırı müdahalesi olarak nitelendi [89ee1abf99].",
+     "kayitlar": [
+      "fd403aaaec",
+      "89ee1abf99"
+     ]
+    }
+   ]
   },
   {
    "id": "t8",
@@ -145,14 +180,79 @@
    "neden": "İki bireysel dosya kapatılırken malvarlığının otomatik dondurulması ve gözaltında avukata erişim konularında genel tedbir denetimi açık bırakıldı; sonraki DH toplantı gündemleri izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-17",
+   "son_hareket": "2026-09-18",
    "kayitlar": [
     "001-252500",
     "001-252498"
    ],
+   "gelismeler": [
+    {
+     "gun": "2026-09-18",
+     "not": "Bakanlar Komitesi'nin 2 Eylül tarihli üç kararının metni geldi: Çokbilgin ve Ayvaz dosyasında bireysel tedbirler çözülmüş sayılırken, banka yöneticileriyle aile bağı temelinde otomatik ve ayrım gözetmeyen malvarlığı dondurmasına ilişkin genel tedbirlerin Uzan ve Diğerleri (19620/05) grubunda denetlenmeye devam edeceği açıkça yazıldı [001-252500]. Soytemiz dosyasında da gözaltında avukata erişim bakımından genel tedbirlerin Türk v. Turkey grubunda izlenmeye devam edeceği belirtildi [001-252498]. Söyler dosyası ise grup atfı yapılmaksızın tümüyle kapatıldı [001-252496].",
+     "kayitlar": [
+      "001-252500",
+      "001-252498",
+      "001-252496"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "baslik": "Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağının işleyişi",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Europol, AB'nin elektronik delil bakımından yeni bir döneme girdiğini belirterek 15-16 Eylül'de Berlin'de 7. SIRIUS irtibat noktası toplantısını duyurdu [eb6846d9b3]. Sınıraşan baskı dosyalarında veri talepleri ve adli yardım kanalları merkezin alanına giriyor; kayıt yalnızca toplantı düzeyinde bilgi veriyor.",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "eb6846d9b3"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t10",
+   "baslik": "Belarus'ta siyasi mahpusların zorunlu sınır dışı karşılığı serbest bırakılması ve buna eşlik eden yaptırım kaldırmaları",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "ABD özel temsilcisinin müzakeresiyle 25 kişi serbest bırakılıp Vilnius'a getirildi; karşılığında iki Belarus şirketine yönelik yaptırımlar kaldırıldı ve bazı kişilerin pasaportlarının iptal edildiği bildiriliyor [b14c3cdc03][6e19051a68]. Yaptırım kaldırma ile serbest bırakma pazarlığının eşleşmesi ve zorunlu sürgün pratiği, merkezin yaptırım ve sınıraşan baskı dosyalarıyla doğrudan ilgili.",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "b14c3cdc03",
+    "6e19051a68"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t11",
+   "baslik": "Siyasetçi ve gazetecilere yönelik hakaret/eleştiri davaları: Kaftancıoğlu dosyası ve dört kez reddedilen iddianameyle açılan MHP davası",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kaftancıoğlu, dört yılı aşan ceza istemli davada söz konusu paylaşımın Cumhurbaşkanı'nın kendi sözlerine dayandığını savundu [2b435c5cd2]; başka bir dosyada iddianame üç mahkeme tarafından dört kez reddedildikten sonra değişmemiş haliyle kabul edildi [07234384e0]. İkinci husus iddianame denetiminin işleyişi bakımından izlenmeye değer.",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "2b435c5cd2",
+    "07234384e0"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t12",
+   "baslik": "Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik belgesi ve EUAA 2026 yarı yıl iltica verileri",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Avrupa Konseyi Göç ve Mülteciler Birimi 16 Eylül'de yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik belge yayımladı [c23be3b155]; EUAA ise Ocak-Haziran 2026 verilerine dayanan yarı yıl raporunu 10 Eylül'de yayımladı, ECRE istatistiklerin kullanımında ihtiyat çağrısı yapıyor [4e7b8dd15b]. İltica ve iade dosyalarında referans malzemesi oluşturuyor.",
+   "acildi": "2026-09-18",
+   "durum": "açık",
+   "son_hareket": "2026-09-18",
+   "kayitlar": [
+    "c23be3b155",
+    "4e7b8dd15b"
+   ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-17T21:20+00:00",
- "acik": 8
+ "guncelleme": "2026-09-18T07:58+00:00",
+ "acik": 12
 }
