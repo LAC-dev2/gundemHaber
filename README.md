@@ -278,7 +278,7 @@ python3 scripts/ceviri.py --adet 200  # bu turda en fazla 200 kayıt
 ## Günlük analiz (Claude API)
 
 Tarama ham kayıt üretir; analiz bu kayıtların merkezin dosyaları açısından ne
-anlama geldiğini söyler. Her sabah taramasının ardından bir kez çalışır.
+anlama geldiğini söyler. Günün ilk taramasının ardından bir kez çalışır.
 
 **Çalışma alanları** (brusselslawoffice.com'daki hizmet başlıklarıyla hizalı):
 AİHM başvuruları ve kararların icrası · BM insan hakları mekanizmaları ·
@@ -420,6 +420,27 @@ veya dava stratejisi üretmesi yasaklanmıştır. Çıktı JSON şemasıyla
 kısıtlanmıştır. Her analiz sayfasında, değerlendirmenin yapay zekâ ile
 üretildiğini ve birincil kaynakta doğrulanmadan dosyaya esas alınamayacağını
 söyleyen uyarı görünür.
+
+## Tarama saatleri ve GitHub gecikmesi
+
+İş akışı günde dört tura kurulu (UTC): `02:00`, `06:00`, `11:00`, `17:00`.
+Ama **GitHub zamanlanmış koşuları "en iyi çaba" ile çalıştırır**; bu depoda
+ölçülen gecikme düzenli olarak **3–4,5 saat**:
+
+| Kurulu saat (UTC) | Fiilen çalıştığı (ölçülen) |
+|---|---|
+| 05:00 | 09:41 (+281 dk) |
+| 11:00 | 15:20–15:22 (+260 dk) |
+| 17:00 | 19:50–20:01 (+170–181 dk) |
+
+Bu yüzden günün ilk turu erkene çekildi (02:00 UTC): gecikmeyle birlikte
+fiilen TR 09:00 civarına denk gelir. Ayrıca **analiz her turda denenir** —
+o güne ait analiz dosyası varsa adım saniyeler içinde atlanır. Böylece günün
+analizi, GitHub hangi turu ne zaman çalıştırırsa o turda, mümkün olan en erken
+saatte çıkar; ikinci kez üretilip para harcanmaz.
+
+Bir turu hemen istersen: **Actions → Kaynak taraması → Run workflow**
+(`analiz: evet` ve gerekiyorsa `analiz_yenile: evet`).
 
 ## Uyarılar — ne zaman bakmam gerekir
 

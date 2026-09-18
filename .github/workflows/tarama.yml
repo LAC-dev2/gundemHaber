@@ -2,8 +2,14 @@ name: Kaynak taramasi
 
 on:
   schedule:
-    - cron: "0 5 * * *"         # UTC — TR 08:00: tarama + günlük analiz
-    - cron: "0 11,17 * * *"     # UTC — TR 14:00 ve 20:00: yalnızca tarama
+    # GitHub zamanlanmis kosulari en iyi caba ile calistirir; bu depoda
+    # olculen gecikme 3-4,5 saat. Bu yuzden gunun ilk turu erken saate
+    # kuruldu: 02:00 UTC + gecikme ~ TR 09:00. Analiz her turda denenir,
+    # o gune ait analiz varsa saniyeler icinde atlanir; boylece gunun
+    # analizi GitHub ne zaman firsat verirse o zaman, en erken cikar.
+    - cron: "0 2 * * *"         # hedef TR 05:00, fiilen ~TR 09:00
+    - cron: "0 6 * * *"         # hedef TR 09:00, fiilen ~TR 13:00
+    - cron: "0 11,17 * * *"     # hedef TR 14:00 ve 20:00
   workflow_dispatch:
     inputs:
       discover:
@@ -80,7 +86,7 @@ jobs:
       # Gunluk analiz: yalnizca sabah taramasinda (05:00 UTC) ya da elle istendiginde.
       # Anahtar tanimli degilse sessizce atlanir; analiz hatasi taramayi bozmaz.
       - name: Gunluk analiz
-        if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' || github.event.inputs.analiz == 'evet'
+        if: github.event_name == 'schedule' || github.event.inputs.analiz == 'evet'
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
@@ -99,7 +105,16 @@ jobs:
             echo "     repository secret olarak ekle."
             exit 0
           fi
-          echo "anahtar bulundu (uzunluk: ${#ANTHROPIC_API_KEY})" 
+          echo "anahtar bulundu (uzunluk: ${#ANTHROPIC_API_KEY})"
+          # Gunun analizi varsa hicbir sey yapma: boylece analiz adimini
+          # her turda guvenle calistirabiliyoruz (ilk tur uretir, otekiler
+          # atlar) ve analiz gunun ilk turunda cikar.
+          GUN=$(date -u '+%Y-%m-%d')
+          if [ -f "data/analiz/$GUN.json" ] \
+             && [ "$ANALIZ_YENILE" != "evet" ] && [ "$SADECE_DENETIM" != "evet" ]; then
+            echo "$GUN analizi zaten var; adim atlandi."
+            exit 0
+          fi
           python3 -m pip install --quiet --disable-pip-version-check anthropic
           # One cikan kayitlarin tam metnini indir: analiz basliktan fazlasini gorsun
           python3 scripts/tam_metin.py --adet 18 || true
@@ -133,7 +148,7 @@ jobs:
       # Haftalik sentez: pazar sabahi taramasinda ya da elle istendiginde.
       # Gunluk analizlere bakar, yeniden tarama ya da tam metin indirmez.
       - name: Haftalik sentez
-        if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' || github.event.inputs.sentez == 'evet'
+        if: github.event_name == 'schedule' || github.event.inputs.sentez == 'evet'
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
@@ -149,8 +164,14 @@ jobs:
             echo "Pazar degil; haftalik sentez atlandi."
             exit 0
           fi
+          # Haftanin sentezi varsa yeniden uretme (gun icinde birden fazla
+          # tur pazar gunune denk gelebiliyor).
+          if [ -f "data/sentez/$(date -u '+%Y-%m-%d').json" ] && [ "$SENTEZ_ELLE" != "evet" ]; then
+            echo "bugunun sentezi zaten var; atlandi."
+            exit 0
+          fi
           python3 -m pip install --quiet --disable-pip-version-check anthropic
-          python3 scripts/sentez.py --zorla
+          python3 scripts/sentez.py
 
       # Uyari: esik asildiginda haber ver. Kural tutmazsa hicbir sey yapmaz;
       # ayni uyari iki kez gonderilmez (data/uyari-gecmis.json).
