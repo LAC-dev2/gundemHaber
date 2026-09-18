@@ -74,7 +74,7 @@ def uret(client, model: str, effort: str, istem: str) -> tuple[dict | None, str]
         cikti["effort"] = effort
     try:
         with client.messages.stream(
-            model=model, max_tokens=32000, system=analiz.SISTEM,
+            model=model, max_tokens=64000, system=analiz.SISTEM,
             messages=[{"role": "user", "content": istem}],
             thinking={"type": "adaptive"},
             output_config=cikti,

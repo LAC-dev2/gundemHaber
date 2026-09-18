@@ -83,6 +83,11 @@ Kurallar — bunlara kesinlikle uy:
 8. Kaynaklar aynı olayda farklı sayı, tarih ya da isim veriyorsa bunu açıkça
    yaz ("kaynaklar 53 ile 62 arasında sayı veriyor") ve hangisinin hangi kayıtta
    olduğunu göster. Tek bir sayıya indirgeme.
+10. Her kayıt "BUGÜNE AİT" ya da "ÖNCEKİ GÜNDEN" diye işaretlidir. Önceki
+   günün kaydını bugünün gelişmesi gibi sunma. Bugüne ait kayıt azsa ya da
+   yeni bir şey yoksa bunu açıkça söyle — "bugün şu dosyada yeni kayıt yok,
+   sayılar dünkü düzeyde" demek, dünkü rakamları tekrar etmekten daha
+   değerlidir. Günün başlığı bugün olan bir şeyi anlatmalı.
 9. BİRİNCİL BELGELER bölümünde AİHM kararlarının kendi metni verilir (HUDOC).
    Bunlar haber kayıtlarından üstündür: bir haber kararı yanlış aktarıyorsa
    kararın metnine uy ve farkı açıkça yaz. Birincil belgeye dayanan
@@ -253,9 +258,17 @@ def kayitlari_sec(haberler: list[dict], gun: str, adet: int) -> list[dict]:
     return secilen
 
 
-def kayit_metni(h: dict, kumeler: dict, tam_metin: bool, uzun: bool = False) -> str:
+def kayit_metni(h: dict, kumeler: dict, tam_metin: bool, uzun: bool = False,
+                gun: str = "") -> str:
+    # Analize giren kayitlarin cogu onceki gunden devredebiliyor (18 Eylul'de
+    # 45 kaydin yalnizca 12'si o gune aitti). Model hangisinin yeni oldugunu
+    # tarihten cikarmak zorunda kalmasin diye acikca isaretliyoruz.
+    yas = ""
+    if gun:
+        kgun = h["tarih"][:10]
+        yas = " · BUGÜNE AİT" if kgun == gun else f" · ÖNCEKİ GÜNDEN ({kgun})"
     satir = [f"[{h['k']}] {h['bolge']} · {h.get('kategori', '')} · {h['kaynak']}"
-             f" ({h.get('kanit', '')}, öncelik: {h.get('oncelik', '')}, {h['tarih'][:16]})",
+             f" ({h.get('kanit', '')}, öncelik: {h.get('oncelik', '')}, {h['tarih'][:16]}){yas}",
              f"  BAŞLIK: {h['baslik']}"]
     if h.get("ozet"):
         satir.append(f"  ÖZET: {kisalt(h['ozet'], 300)}")
@@ -356,10 +369,13 @@ def birincil_metin(paragraflar: list[str], bas: int = 900, son: int = 2400) -> s
 
 def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool,
               gecmis: str = "", takip: str = "", birincil: str = "") -> str:
-    bloklar = [kayit_metni(h, kumeler, tam_metin, uzun=(i < TAM_METIN_UST))
+    bloklar = [kayit_metni(h, kumeler, tam_metin, uzun=(i < TAM_METIN_UST), gun=gun)
                for i, h in enumerate(sorted(secilen, key=lambda r: -r["puan"]))]
+    bugunku = sum(1 for h in secilen if h["tarih"][:10] == gun)
     return (
         f"Tarih: {gun}\n"
+        f"Kayıtların {bugunku}/{len(secilen)} tanesi bugüne ait, kalanı önceki "
+        f"günlerden devretti.\n"
         + (f"\nÖNCEKİ GÜNLERİN BAŞLIKLARI (yalnızca süreklilik için; "
            f"buradan olgu üretme)\n{gecmis}\n" if gecmis else "")
         + (f"\nAÇIK TAKİP MADDELERİ (her biri için bugünkü durumu yaz)\n{takip}\n"
@@ -715,7 +731,7 @@ def main() -> int:
         # takilabiliyor. get_final_message() tam yaniti veriyor.
         with client.messages.stream(
             model=args.model,
-            max_tokens=32000,
+            max_tokens=48000,
             system=SISTEM,
             messages=[{"role": "user", "content": istem}],
             thinking={"type": "adaptive"},
