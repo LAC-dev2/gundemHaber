@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-18",
- "olusturma": "2026-09-18T09:02+00:00",
+ "olusturma": "2026-09-18T09:12+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-09-18:MFRR araştırmacısı Massimo Moratti'ye Sırbistan'da sınır dış",
@@ -42,15 +42,6 @@
     "ff32cf8eb4",
     "0f7bac19d0"
    ]
-  },
-  {
-   "id": "saglik:2026-09-18:9",
-   "tur": "izleme bozuldu",
-   "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, Human Rights Watch - Türkiye, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, MLSA…",
-   "kayitlar": []
   }
  ]
 }
