@@ -109,7 +109,8 @@ def main() -> int:
     ap.add_argument("--kuru", action="store_true")
     args = ap.parse_args()
 
-    varyantlar = args.varyant or ["opus5-max:claude-opus-5:max",
+    varyantlar = args.varyant or ["opus5-high:claude-opus-5:high",
+                                  "opus5-max:claude-opus-5:max",
                                   "fable51:claude-fable-5-1:high"]
     gun = args.gun or datetime.now(timezone.utc).date().isoformat()
     latest = json.loads((DATA / "latest.json").read_text(encoding="utf-8"))
