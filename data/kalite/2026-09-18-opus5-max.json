@@ -1,0 +1,480 @@
+{
+ "sureklilik": [
+  {
+   "id": "t1",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t2",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t3",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t4",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t5",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t6",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t7",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t8",
+   "durum": "hareket var",
+   "not": "Elimizdeki iki icra kararının metni genel tedbir denetiminin sürdüğünü açıkça yazıyor: Çokbilgin ve Ayvaz'da otomatik ve ayrım gözetmeyen malvarlığı dondurma Uzan ve Diğerleri (19620/05) grubunda, Soytemiz'de gözaltında avukata erişim Türk/Türkiye grubunda denetimde kalıyor. Her iki metin, dosyanın kapatılmasının genel tedbir değerlendirmesine halel getirmediğini kaydediyor. Bu, 2 Eylül 2026 tarihli kararların metnine dayanıyor; bugüne ait yeni bir adım kayıtlarda yok.",
+   "kayitlar": [
+    "001-252500",
+    "001-252498"
+   ]
+  },
+  {
+   "id": "t9",
+   "durum": "hareket var",
+   "not": "Europol, 7. SIRIUS Tek İrtibat Noktası (SPoC) Ağı toplantısının 15-16 Eylül 2026'da Berlin'de EU IRU ve Alman BKA ortaklığıyla yapıldığını duyurdu; duyuru başlığı AB'nin elektronik delil bakımından yeni bir döneme girdiğini söylüyor, ancak içerik kayıtta başlık/özet düzeyinde. Aynı gün gelen ikinci kayıt, Andorra polisinin Europol'ün güvenli iletişim ağına 2021 tarihli çalışma düzenlemesi üzerine imzalanan mutabakatla katıldığını bildiriyor.",
+   "kayitlar": [
+    "eb6846d9b3",
+    "cc6618201b"
+   ]
+  },
+  {
+   "id": "t10",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t11",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t12",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  }
+ ],
+ "yeni_takip": [
+  {
+   "baslik": "Sırbistan yetkililerinin MFRR/OBCT araştırmacısı Massimo Moratti'ye yönelik sınır dışı kararı",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "İnsan hakları çalışmasıyla bağlantılı olduğu bildirilen bir sınır dışı işlemi; merkezin sınır dışı ve basın özgürlüğü dosyalarıyla kesişiyor. Kararın tarihi, hukuki dayanağı ve itiraz yolu kayıtta yok, seyri izlenmeli.",
+   "kayitlar": [
+    "cd2190bc13"
+   ]
+  },
+  {
+   "baslik": "Gürcistan'da çevrimiçi ifade nedeniyle belirsiz idari suçlarla hapis ve yüksek para cezaları",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Avrupa Konseyi üyesi bir devlette idari suç rejiminin çevrimiçi ifadeye uygulanması, merkezin ifade özgürlüğü hattı için karşılaştırmalı bir izleme başlığı. Bugüne ait kayıt yalnızca kurumsal açıklama düzeyinde.",
+   "kayitlar": [
+    "db8947a4b0"
+   ]
+  },
+  {
+   "baslik": "Eylül sonu BM takvimi: HRC63 yan etkinliğinde avukatların durumu ve UNGA81 yüksek düzeyli hafta",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "23 Eylül'deki HRC63 yan etkinliği avukat-müvekkil gizliliği ve risk altındaki avukatların korunmasını ele alıyor; 21-25 Eylül Cenevre savunuculuk haftası ve UNGA81 yan etkinliği aynı dönemde. Benli kararındaki avukat gizliliği başlığıyla aynı temaya dokunuyor.",
+   "kayitlar": [
+    "f86d4a334f",
+    "f2346a47eb",
+    "47b34b0e34"
+   ]
+  }
+ ],
+ "birincil_notlar": [
+  {
+   "itemid": "001-252298",
+   "baslik": "Cezaevinde avukatla görüşmelerin izlenmesi ve özel yazışmaların UYAP'ta kaydedilip saklanması",
+   "maddeler": [
+    "8",
+    "8-1"
+   ],
+   "ne_dedi": "Mahkeme, başvurucunun cezaevinde avukatıyla yaptığı görüşmelerin izlenmesi ile özel yazışmalarının UYAP sisteminde kaydedilmesi ve saklanmasına ilişkin 8. madde şikâyetlerini kabul edilebilir bulmuş, oybirliğiyle 8. maddenin ihlal edildiğine karar vermiştir. Devletin üç ay içinde 2.000 euro manevi tazminat ve tüm kalemler için 500 euro masraf ödemesine hükmedilmiş, kalan adil tazmin talepleri reddedilmiştir; başvurucu masraf olarak 6.000 euro istemiş, Hükümet talepleri reddetmiştir. Karar İkinci Bölüm Komitesi (Paczolay, Sagatys, Pisani) tarafından verilmiş ve 15 Eylül 2026'da yazılı olarak tebliğ edilmiştir; kesin olmakla birlikte editoryal düzeltmeye tabi olabileceği belirtilmiştir.",
+   "merkez_icin": "Avukat görüşmelerinin izlenmesi ve yazışmaların UYAP'ta kaydı, merkezin cezaevindeki Gülen/KHK dosyalarında savunma hakkı ve 8. madde argümanlarıyla doğrudan kesişen bir başlık. Karar tek başvurucuya ilişkin bir Komite kararı; metinde genel tedbir yönünde bir ifade yok.",
+   "haberle_fark": "Bugünkü kayıt setinde karara ilişkin haber kaydı yok. 18 Eylül brifing başlığında tek kalem gibi görünen '2.500 euro', karar metninde 2.000 euro manevi tazminat ve 500 euro masraf olmak üzere iki ayrı kalemdir."
+  },
+  {
+   "itemid": "001-252500",
+   "baslik": "Yalnızca banka yöneticileriyle aile bağına dayalı otomatik malvarlığı dondurmada icra denetimi",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "Bakanlar Komitesi, 2 Eylül 2026'daki 1567. toplantısında kabul edilen CM/ResDH(2026)175 ile bireysel tedbir sorununun çözüldüğünü saptamıştır: başvurucuların mallarına konan tedbirli haciz kaldırılmış ve Tazminat Komisyonu tazminat ödemiştir (eylem raporu DH-DD(2025)836). Kararda ihlal, bireysel yargısal denetim ve usul güvenceleri olmaksızın, salt banka yöneticileriyle aile bağına dayanan otomatik ve ayrım gözetmeyen malvarlığı dondurma olarak tanımlanmıştır. Komite dosyanın incelenmesini kapatmış, ancak genel tedbirlerin Uzan ve Diğerleri (19620/05) grubunda denetlenmeye devam edeceğini ve kapatmanın bu değerlendirmeye halel getirmediğini belirtmiştir.",
+   "merkez_icin": "Malvarlığı dondurma ve mülkiyet hakkı dosyaları bakımından, otomatik ve bireysel denetimsiz tedbirlere ilişkin genel tedbir sorununun Komite önünde açık kaldığını gösteren birincil dayanak. Aile bağına dayalı tedbir kalıbı merkezin izlediği dondurma dosyalarıyla aynı hukuki başlıkta.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-252498",
+   "baslik": "Gözaltında avukata erişimin engellenmesi ve avukatsız ifadelerin delil olarak kullanılmasında icra denetimi",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "CM/ResDH(2026)174 ile Komite, bireysel tedbirlerin alındığını saptamıştır: başvurucunun yargılamanın yenilenmesi talebi kabul edilmiş ve mahkeme, kararını avukat yokluğunda alınan ifadeler dışındaki delillere dayandırmıştır (eylem raporu DH-DD(2026)457). İhlal, gözaltında avukata erişimin engellenmesi ve polise verilen ifadelerin yargılamada delil olarak kullanılması nedeniyle tespit edilmişti. Dosya kapatılmış, avukata erişim hakkına ilişkin genel tedbirlerin Türk v. Turkey grubunda denetlenmesine devam edilmesine karar verilmiştir.",
+   "merkez_icin": "Avukata erişim ve avukatsız alınan ifadelerin delil değeri, merkezin ceza yargılaması dosyalarında tekrar eden bir başlık; genel tedbir denetimi Türk grubunda sürüyor. Bireysel düzeyde çözüm yolu olarak yargılamanın yenilenmesi ve ifadelerin dışlanması örneği metinde açıkça yer alıyor.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-252496",
+   "baslik": "Ceza soruşturmasının aşırı uzunluğuna ilişkin dosyanın kapatılması",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "CM/ResDH(2026)173 ile Komite, ceza soruşturmasının aşırı uzunluğu nedeniyle tespit edilen ihlalde 46/1 kapsamında gereken tüm tedbirlerin alındığını kabul etmiş ve dosyanın incelenmesini kapatmıştır (eylem raporu DH-DD(2025)1180). Karar 2 Eylül 2026'daki 1567. Bakan Yardımcıları toplantısında kabul edilmiştir. Metinde devam eden bir genel tedbir grubuna atıf yoktur.",
+   "merkez_icin": "Üç karardan yalnızca bu dosya hem bireysel hem genel tedbir yönünden tümüyle kapanmıştır; makul süre başlığında Komite denetiminin sona erdiği bir örnek olarak not edilebilir.",
+   "haberle_fark": ""
+  }
+ ],
+ "baslik": "Türkiye dosyalarında bugün yeni kayıt yok; gün Benli metni, üç icra kararı ve SIRIUS ağı",
+ "brifing": "Bugüne ait 13 kaydın çoğu Europol duyurusu; Türkiye kaynaklı kayıtların tamamı 17 Eylül'den devretti, dolayısıyla LGBTİ+ operasyonu, Boydak ve Anayasa Mahkemesi dosyalarında bugün yeni veri yok ve sayılar 17 Eylül kayıtlarındaki düzeyde [89ee1abf99][84f484dabc][f64bb53604]. Günün asıl içeriği birincil belgeler: Benli v. Türkiye kararının metni 8. madde ihlalini cezaevinde avukat görüşmelerinin izlenmesi ve yazışmaların UYAP'ta kaydedilip saklanmasına bağlıyor, 2.000 euro manevi tazminat ve 500 euro masrafa hükmediyor [001-252298]. 2 Eylül tarihli üç Bakanlar Komitesi kararından ikisi bireysel tedbirleri kapatırken genel tedbir denetimini Uzan ve Diğerleri ile Türk gruplarında sürdürüyor, üçüncüsü (Söyler) tümüyle kapanıyor [001-252500][001-252498][001-252496]. Bugüne ait merkezle ilgili iki kayıt var: SIRIUS irtibat noktaları ağının 15-16 Eylül Berlin toplantısı [eb6846d9b3] ve Sırbistan'da bir basın özgürlüğü araştırmacısına yönelik sınır dışı kararı [cd2190bc13]. 18 Eylül Resmî Gazete özetinde (Sayı 33374, 15 madde) merkezin dosyalarına dokunan bir madde başlık düzeyinde görünmüyor [c7f4b01c28].",
+ "one_cikanlar": [
+  {
+   "baslik": "Benli v. Türkiye kararının metni: avukat görüşmelerinin izlenmesi ve UYAP kaydı 8. madde ihlali",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "Cezaevinde avukat–müvekkil görüşmelerinin izlenmesi ve özel yazışmaların UYAP'ta kaydedilip saklanması, merkezin tutuklu/hükümlü dosyalarında savunma hakkı ve özel yaşam argümanlarının kesiştiği noktada. Karar metni ihlali bu iki unsuru birlikte anarak kuruyor ve tazminat kalemlerini ayrı ayrı gösteriyor. Elimizdeki nüshada gerekçe bölümünün bir kısmı atlanmış olduğundan değerlendirmenin ayrıntısı sınırlı.",
+   "ayrintilar": [
+    "Başvuru no 29949/20, 29 Haziran 2020'de yapıldı; karar 15 Eylül 2026'da yazılı olarak tebliğ edildi",
+    "İkinci Bölüm Komitesi (Péter Paczolay, Gediminas Sagatys, Stéphane Pisani), oybirliğiyle 8. madde ihlali",
+    "Manevi tazminat 2.000 euro, tüm kalemler için masraf 500 euro; ödeme süresi üç ay, gecikmede AMB marjinal kredi faizi + 3 puan",
+    "Başvurucu masraf olarak 6.000 euro istemiş, ücret sözleşmesi sunmuş; Hükümet talepleri reddetmiş; kalan talepler reddedildi",
+    "Başvurucu Salih Benli (1976 doğumlu, Ankara), temsilcisi Av. K. Kıldan (Antalya)",
+    "HUDOC sonuç alanı ihlali 8-1 kapsamında 'konut' ve 'özel yaşam' saygısı olarak etiketliyor"
+   ],
+   "mekanizma": "AİHS md. 8",
+   "karsi_okuma": "Karar tek başvurucuya ilişkin bir Komite kararıdır; metinde UYAP uygulamasının kaldırılması ya da genel tedbir gereğine dair bir ifade yok. Elimizdeki nüshada ara bölümler atlandığı için ihlalin gerekçesinin ayrıntısı doğrulanamıyor.",
+   "kayitlar": [
+    "001-252298"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "2 Eylül tarihli üç icra kararı: iki dosyada genel tedbir denetimi açık, biri tümüyle kapandı",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "Kararların metni, Türkiye'de malvarlığı dondurma ve gözaltında avukata erişim başlıklarında yapısal sorunun Komite önünde açık kaldığını kendi ifadeleriyle kaydediyor. Bireysel dosyaların kapatılması, bu iki başlıkta denetimin sona erdiği anlamına gelmiyor; metinler bunu ayrıca belirtiyor. Merkezin dondurma ve savunma hakkı dosyalarında dayanılabilecek birincil kaynaklar.",
+   "ayrintilar": [
+    "CM/ResDH(2026)175 — Çokbilgin ve Ayvaz (3625/05): tedbirli haciz kaldırıldı, Tazminat Komisyonu tazminat ödedi; genel tedbirler Uzan ve Diğerleri (19620/05) grubunda denetimde",
+    "CM/ResDH(2026)174 — Soytemiz (57837/09): yargılamanın yenilenmesi kabul edildi, mahkeme avukatsız alınan ifadeler dışındaki delillere dayandı; genel tedbirler Türk v. Turkey grubunda denetimde",
+    "CM/ResDH(2026)173 — Söyler (16104/22): ceza soruşturmasının aşırı uzunluğu; 46/1 kapsamındaki tüm tedbirlerin alındığı kabul edilip dosya kapatıldı",
+    "Üç karar da 2 Eylül 2026'daki 1567. Bakan Yardımcıları toplantısında kabul edildi",
+    "Eylem raporları: DH-DD(2025)836, DH-DD(2026)457, DH-DD(2025)1180"
+   ],
+   "mekanizma": "AİHS md. 46 — CM/ResDH",
+   "karsi_okuma": "Kapatma kararları bireysel tedbirlere ilişkindir; genel tedbirlerin ne zaman ve hangi adımlarla tamamlanacağına dair bilgi metinlerde yok. Kararlarda Gülen/KHK bağlantılı el koyma veya gözaltı dosyalarına dönük bir tespit bulunmuyor.",
+   "kayitlar": [
+    "001-252500",
+    "001-252498",
+    "001-252496"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "SIRIUS irtibat noktaları ağının 7. toplantısı Berlin'de yapıldı; Europol e-delilde 'yeni dönem' diyor",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Elektronik delil talepleri ve kolluk-veri erişimi altyapısı, merkezin adli yardım ve iltica dosyalarında veri paylaşımı boyutunu doğrudan etkiliyor. Bugüne ait bu kayıt, t9 altında izlenen e-delil rejiminin kurumsal ayağına ilişkin ilk somut tarih ve yer bilgisini veriyor. İçerik henüz duyuru düzeyinde.",
+   "ayrintilar": [
+    "7. SIRIUS Tek İrtibat Noktası (SPoC) Ağı toplantısı 15-16 Eylül 2026'da Berlin'de yapıldı; düzenleyiciler Europol EU IRU ve Alman Federal Kriminal Polis Dairesi (BKA)",
+    "Europol duyurusunun başlığı AB'nin elektronik delil bakımından yeni bir döneme girdiğini belirtiyor",
+    "Aynı tarihli ikinci Europol kaydı: Andorra polisi güvenli iletişim ağına katıldı; mutabakat zaptı 2021 tarihli çalışma düzenlemesine dayanıyor"
+   ],
+   "mekanizma": "e-delil / SIRIUS SPoC ağı",
+   "karsi_okuma": "Kayıtlar toplantının yapıldığını gösteriyor; hangi mevzuat adımının yürürlüğe girdiği, üçüncü ülke taleplerinin nasıl ele alınacağı ve Türkiye'ye ilişkin herhangi bir uygulama kayıtlarda yok.",
+   "kayitlar": [
+    "eb6846d9b3",
+    "cc6618201b"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Sırbistan'da MFRR araştırmacısı Massimo Moratti'ye sınır dışı kararı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "İnsan hakları çalışmasıyla bağlantılı olduğu bildirilen bir sınır dışı işlemi, merkezin hem basın özgürlüğü hem sınır dışı/iltica hattında izlediği kalıba giriyor. Bugüne ait kayıt, ortak açıklama düzeyinde ve işlemin hukuki çerçevesini vermiyor.",
+   "ayrintilar": [
+    "MFRR ve ortakları, OBCT Kıdemli Araştırma Görevlisi Massimo Moratti'nin Sırbistan'dan sınır dışı kararıyla karşı karşıya olduğunu bildirdi",
+    "MFRR, işlemi kişinin insan hakları çalışmasıyla 'görünür biçimde bağlantılı' olarak nitelendiriyor"
+   ],
+   "mekanizma": "sınır dışı kararı",
+   "karsi_okuma": "Kararın tarihi, hukuki dayanağı, itiraz yolu ve Sırp yetkililerin gerekçesi kayıtta yok; çalışmayla bağlantı iddiası MFRR'nin kendi değerlendirmesi.",
+   "kayitlar": [
+    "cd2190bc13"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Gürcistan: çevrimiçi ifade nedeniyle belirsiz idari suçlarla hapis ve ağır para cezaları",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Avrupa Konseyi alanında idari suç rejiminin çevrimiçi ifadeye uygulanması, merkezin 10. madde dosyalarında karşılaştırmalı izleme başlığı. Bugüne ait bu kayıt kurumsal açıklama düzeyinde ve tek kaynaklı.",
+   "ayrintilar": [
+    "Human Rights Watch'ın 18 Eylül 2026 tarihli Berlin çıkışlı açıklaması, Gürcistan'da belirsiz idari suçlarla çevrimiçi ifade nedeniyle hapis ve yüksek para cezaları verildiğini bildiriyor"
+   ],
+   "mekanizma": "idari suçlar — çevrimiçi ifade",
+   "karsi_okuma": "Kayıt başlık ve özet düzeyinde; vaka sayısı, dava adları, uygulanan hüküm ve yargısal denetim bilgisi yok.",
+   "kayitlar": [
+    "db8947a4b0"
+   ],
+   "guven": "orta"
+  }
+ ],
+ "alan_notlari": [
+  {
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "olağan",
+   "not": "Bugüne ait haber kaydı yok; alanın tek içeriği elimize geçen dört birincil belge (15 Eylül tarihli Benli kararı ve 2 Eylül tarihli üç Bakanlar Komitesi kararı). İki icra kararında genel tedbir denetimi Uzan ve Diğerleri ile Türk gruplarında sürüyor.",
+   "kayitlar": [
+    "001-252298",
+    "001-252500",
+    "001-252498",
+    "001-252496"
+   ]
+  },
+  {
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "durum": "sessiz",
+   "not": "Bugüne ait kayıt yok. Boydak'ın işitme cihazı ve cezaevi koşulları, Anayasa Mahkemesi'nin Serdar Uzel ve yayın el koyma kararları ile operasyona ilişkin kayıtlar 17 Eylül'den devretti; sayılar 17 Eylül düzeyinde.",
+   "kayitlar": [
+    "84f484dabc",
+    "f64bb53604",
+    "1387ffbabe",
+    "89ee1abf99"
+   ]
+  },
+  {
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "olağan",
+   "not": "Türkiye başlıklarında bugüne ait yeni kayıt yok; Kaftancıoğlu ve MHP davası ile gazetecilere yönelik çağrılar 17 Eylül kayıtlarında. Bugünün iki kaydı Türkiye dışı: Sırbistan'da MFRR araştırmacısına sınır dışı kararı ve Gürcistan'da çevrimiçi ifade nedeniyle idari yaptırımlar.",
+   "kayitlar": [
+    "cd2190bc13",
+    "db8947a4b0",
+    "2b435c5cd2",
+    "07234384e0",
+    "fd403aaaec"
+   ]
+  },
+  {
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "olağan",
+   "not": "Bugüne ait kayıtlar Europol kaynaklı: SIRIUS SPoC ağının 7. toplantısı ve Andorra polisinin güvenli iletişim ağına katılması. Hollanda Yüksek Mahkemesi'nin 18 Eylül tarihli kararı yalnızca temyizde avukat atanmaması nedeniyle usulden kabul edilemezliğe ilişkin; iltica esasına dair bilgi kayıtta yok. EUAA yarı yıl verileri, Avrupa Konseyi tematik belgesi ve FRA'nın EES sunumu 17 Eylül'den devretti.",
+   "kayitlar": [
+    "eb6846d9b3",
+    "cc6618201b",
+    "156e27c95c",
+    "4e7b8dd15b",
+    "c23be3b155",
+    "48b18bcc70"
+   ]
+  },
+  {
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "olağan",
+   "not": "Bugüne ait kayıt yok. Alandaki tek yeni içerik Çokbilgin ve Ayvaz icra kararının metni: bireysel tedbirler kapandı, otomatik ve ayrım gözetmeyen dondurmaya ilişkin genel tedbirler Uzan ve Diğerleri grubunda denetimde. Belarus'ta iki şirkete yönelik yaptırımların kaldırılması 17 Eylül kayıtlarında kaldı.",
+   "kayitlar": [
+    "001-252500",
+    "b14c3cdc03",
+    "6e19051a68"
+   ]
+  },
+  {
+   "alan": "BM insan hakları mekanizmaları",
+   "durum": "olağan",
+   "not": "Bugüne ait tek kayıt, UNGA81 yüksek düzeyli haftasında yapay zekâ gündemine ilişkin yan etkinlik duyurusu. 17 Eylül'den devreden iki takvim kaydı: 21-25 Eylül Cenevre'de Kadın İnsan Hakları Savunucuları Savunuculuk Haftası ve 23 Eylül'de Rusya'daki ve sürgündeki avukatlara ilişkin HRC63 yan etkinliği.",
+   "kayitlar": [
+    "47b34b0e34",
+    "f2346a47eb",
+    "f86d4a334f"
+   ]
+  },
+  {
+   "alan": "Belçika ve AB mevzuatı",
+   "durum": "sessiz",
+   "not": "Bugüne ait kayıt yok. FRA'nın 22 ve 24 Eylül Brüksel etkinlikleri, e-adalet çalışma grubu ve COSI destek grubu sunumları ile 16 Eylül SOTEU konuşmasına ilişkin kayıtlar 17 Eylül'den devretti.",
+   "kayitlar": [
+    "0f7bac19d0",
+    "ff32cf8eb4",
+    "7d3b551916",
+    "0809947ef1",
+    "c2ed0177db",
+    "fb2935a845"
+   ]
+  }
+ ],
+ "kronoloji": [
+  {
+   "tarih": "2026-09-12",
+   "adim": "Kayıtlara göre insan hakları savunucuları ve LGBTİ+ örgütlerine yönelik ülke çapındaki operasyon 12 Eylül'den itibaren yürütülüyor.",
+   "kayitlar": [
+    "89ee1abf99"
+   ]
+  },
+  {
+   "tarih": "Salı (kayıtta geçtiği gibi)",
+   "adim": "İstanbul adliyesi önünde açıklama okumak isteyen 106 kişi gözaltına alındı; kayda göre hepsi ertesi gün serbest bırakıldı.",
+   "kayitlar": [
+    "5569ec5b81"
+   ]
+  },
+  {
+   "tarih": "Çarşamba (kayıtta geçtiği gibi)",
+   "adim": "IPI ve CPJ, operasyon sırasında tutuklanan gazetecilerin serbest bırakılmasını istedi; CPJ, 2024 tarihli bir yazı nedeniyle tutuklanan Tuğba Tekerek için koşulsuz tahliye çağrısı yaptı.",
+   "kayitlar": [
+    "fd403aaaec",
+    "89ee1abf99"
+   ]
+  },
+  {
+   "tarih": "Perşembe (kayıtta geçtiği gibi)",
+   "adim": "Fransa, İsveç, Finlandiya, Almanya, Hollanda ve İzlanda'nın insan hakları/LGBTİ+ elçileri ortak açıklama yaptı; kayıt tutuklu sayısını en az 82 olarak veriyor (Ankara, İzmir, Mersin ve Aydın'da en az 62, ardından İstanbul'da 20 kişi).",
+   "kayitlar": [
+    "89ee1abf99"
+   ]
+  },
+  {
+   "tarih": "2026-09-18",
+   "adim": "Bugüne ait yeni kayıt gelmedi; tutuklu sayısı, dernek kapatma davası ve erişim engellerine ilişkin veriler 17 Eylül kayıtlarındaki düzeyde kaldı.",
+   "kayitlar": []
+  }
+ ],
+ "izlenecekler": [
+  "Uzan ve Diğerleri (19620/05) ile Türk v. Turkey gruplarında genel tedbirlere ilişkin yeni eylem planı veya Komite kararı gelip gelmeyeceği",
+  "Benli kararının icra aşaması ve avukat görüşmeleri/UYAP kaydına dayanan benzer başvuruların seyri",
+  "LGBTİ+ operasyonunda tutuklu sayısı, iddianame ve iki derneğe yönelik kapatma davasında sonraki adımlar",
+  "SIRIUS SPoC toplantısının çıktıları ve e-delil rejiminin üçüncü ülke taleplerine etkisine dair ayrıntılı belge",
+  "Massimo Moratti'ye ilişkin sınır dışı kararının hukuki dayanağı ve itiraz süreci"
+ ],
+ "model": "claude-opus-5",
+ "effort": "max",
+ "token": {
+  "girdi": 27671,
+  "cikti": 32264
+ },
+ "maliyet_usd": 0.9916,
+ "gun": "2026-09-18",
+ "kullanilan_kayitlar": [
+  "673dd445f6",
+  "84f484dabc",
+  "61e0c35ac5",
+  "48b18bcc70",
+  "89ee1abf99",
+  "b14c3cdc03",
+  "4e7b8dd15b",
+  "6ce3e09f0f",
+  "fb2935a845",
+  "f2346a47eb",
+  "156e27c95c",
+  "f86d4a334f",
+  "0f7bac19d0",
+  "ff32cf8eb4",
+  "c2ed0177db",
+  "7d3b551916",
+  "0809947ef1",
+  "8ff7a1270c",
+  "db8947a4b0",
+  "9def38d938",
+  "5b1ffcb4f0",
+  "f64bb53604",
+  "fd403aaaec",
+  "47b088531a",
+  "07234384e0",
+  "1387ffbabe",
+  "5569ec5b81",
+  "2b435c5cd2",
+  "45c23b118c",
+  "78d9b45057",
+  "47b34b0e34",
+  "cd2190bc13",
+  "c7f4b01c28",
+  "7a5dfd120d",
+  "6e19051a68",
+  "c96f7e1ddd",
+  "c23be3b155",
+  "dcb84f3164",
+  "a8d67cf96b",
+  "eb6846d9b3",
+  "cc6618201b",
+  "3323b88401",
+  "432f7ee777",
+  "fbadee5f32",
+  "abe8a2c57d"
+ ],
+ "denetim": {
+  "kontroller": [
+   {
+    "id": "brifing",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one1",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one4",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one5",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir1",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir4",
+    "hukum": "dayanaklı",
+    "not": ""
+   }
+  ],
+  "genel": "Tüm iddialar gösterilen kayıt ve birincil belgelerle örtüşüyor, olgu düzeyinde dayanaksız veya eksik unsur bulunmadı.",
+  "model": "claude-sonnet-5",
+  "maliyet_usd": 0.0466,
+  "iddia_sayisi": 10
+ }
+}
