@@ -5,12 +5,18 @@ Site gun boyu sessizce dolar; bu betik "ne zaman bakmam gerekir" sorusunu
 cevaplar. Gunluk analizi ve taramayi okur, asagidaki kurallardan biri
 tutarsa uyari yazar:
 
-  1. Acil alan   — INTERPOL, iade/adli yardim ya da yaptirim alanlarinda
-                   one cikan bir gelisme varsa (bu alanlarda kayit nadirdir)
-  2. Dosya hareketi — acik takip dosyalarindan biri kimildadiysa
-  3. Cok kaynakli — ayni gelismeyi esik sayida kaynak verdiyse
-  4. Kritik kayit  — oncelik "Kritik" ve kaniti birincil olan yeni kayitlar
-  5. Izleme bozuldu — akis hatasi veren kaynak sayisi esigi astiysa
+  1. Oncelikli alan — INTERPOL, iade/adli yardim ya da yaptirim alanlarinda
+                      guvenilir bir gelisme varsa (bu alanlarda kayit nadirdir)
+  2. Yeni karar metni — AIHM'in Turkiye'ye iliskin yeni bir karari indiyse
+  3. Dosya kapandi / izlenen dosyada hareket — acik takip dosyalarindan biri
+                      kapandiysa ya da kimildadiysa
+  4. Cok kaynakli — ayni gelismeyi esik sayida kaynak verdiyse
+  5. Kritik kayit yigilmasi — oncelik "Kritik" ve kaniti birincil olan yeni
+                      kayitlarin sayisi esigi astiysa
+  6. Kaynak akisi bozuk — akis hatasi veren kaynak sayisi esigi astiysa
+
+Kurallarin okunur adi ve gerekcesi asagidaki KURALLAR sozlugunde; arayuz de
+bildirim de o metni kullanir.
 
 Ayni uyari iki kez gonderilmez: gonderilenler data/uyari-gecmis.json'da
 tutulur. Cikti:
@@ -27,7 +33,7 @@ import argparse
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,8 +41,23 @@ DATA = ROOT / "data"
 GECMIS = DATA / "uyari-gecmis.json"
 SON = DATA / "uyari-son.json"
 
-# Kayit nadir oldugu icin tek gelisme bile bakmayi hak eden alanlar
+# Merkezin en dar, en kritik alanlari: burada kayit nadir geldigi icin tek
+# gelisme bile bakmayi hak eder. ("iade/adli yardim" alan adi genis oldugu
+# icin tek basina yetmiyor; asagida guven duzeyi de araniyor.)
 ACIL_ALAN_ANAHTARLARI = ("interpol", "iade", "adli yardım", "yaptırım", "malvarlığı")
+
+# Her kuralin okuyanin anlayacagi adi ve tek cumlelik gerekcesi. Arayuz ve
+# bildirim metinleri bunlari kullanir; "esik asildi" gibi ic terimler yok.
+KURALLAR = {
+    "öncelikli alan": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; "
+                      "bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir.",
+    "yeni karar metni": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi.",
+    "dosya kapandı": "İzlenen bir dosya kapandı.",
+    "izlenen dosyada hareket": "Takip listesindeki dosyalarda bugün hareket var.",
+    "çok kaynaklı": "Aynı gelişmeyi birbirinden bağımsız çok sayıda kaynak verdi.",
+    "kritik kayıt yığılması": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi.",
+    "kaynak akışı bozuk": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor.",
+}
 KUME_ESIK = 4            # ayni gelismeyi kac kaynak verirse uyari
 SAGLIK_ESIK = 8          # kac kaynak akis hatasi verirse "izleme bozuldu"
 KRITIK_ESIK = 3          # gunde kac birincil-kritik kayit uyari sayilir
@@ -48,6 +69,18 @@ def oku(yol: Path, varsayilan):
         return json.loads(yol.read_text(encoding="utf-8"))
     except Exception:
         return varsayilan
+
+
+def gecmis_sinir(gun: str, kac: int) -> str:
+    return (date.fromisoformat(gun) - timedelta(days=kac)).isoformat()
+
+
+def birincil_belge(itemid: str) -> dict | None:
+    liste = oku(DATA / "birincil-latest.json", {}).get("belgeler", [])
+    for b in liste:
+        if b.get("itemid") == itemid:
+            return b
+    return None
 
 
 def acil_alan(alan: str) -> bool:
@@ -63,13 +96,29 @@ def uyarilari_bul(gun: str) -> list[dict]:
 
     if analiz and analiz.get("gun") == gun:
         for o in analiz.get("one_cikanlar", []):
-            if acil_alan(o.get("alan", "")):
+            # Guveni dusuk bir gelisme "oncelikli alan" uyarisi uretmesin:
+            # alan adlari genis (ornegin "iade, adli yardim ve iltica") ve
+            # suzgecsiz haliyle kural neredeyse her gun tetikliyordu.
+            if acil_alan(o.get("alan", "")) and o.get("guven") in ("yüksek", "orta"):
                 cikti.append({
                     "id": f"alan:{gun}:{o['baslik'][:60]}",
-                    "tur": "acil alan", "duzey": "yüksek",
+                    "tur": "öncelikli alan", "duzey": "orta",
                     "baslik": o["baslik"], "alan": o.get("alan", ""),
                     "not": o.get("neden_onemli", ""), "kayitlar": o.get("kayitlar", []),
                 })
+
+        # Yeni AIHM karar metni: haberden degil mahkemeden gelen belge.
+        for b in analiz.get("birincil_notlar", []):
+            belge = birincil_belge(b.get("itemid", ""))
+            if not belge or belge.get("tarih", "") < gecmis_sinir(gun, 3):
+                continue
+            cikti.append({
+                "id": f"karar:{belge['itemid']}",
+                "tur": "yeni karar metni", "duzey": "yüksek",
+                "baslik": b.get("baslik") or belge.get("ad", ""),
+                "alan": b.get("maddeler") and f"md. {', '.join(b['maddeler'])}" or "",
+                "not": b.get("ne_dedi", ""), "kayitlar": [],
+            })
         acik = {t["id"]: t for t in analiz.get("takip_acik", [])}
         hareketli = [s for s in analiz.get("sureklilik", [])
                      if s.get("durum") != "hareket yok"]
@@ -92,7 +141,7 @@ def uyarilari_bul(gun: str) -> list[dict]:
             m = acik.get(s.get("id", ""))
             cikti.append({
                 "id": f"takip:{gun}:{s.get('id', '')}",
-                "tur": "dosya hareketi", "duzey": "orta",
+                "tur": "izlenen dosyada hareket", "duzey": "orta",
                 "baslik": (m["baslik"] if m else s.get("id", "")),
                 "alan": (m.get("alan", "") if m else ""),
                 "not": s.get("not", ""), "kayitlar": s.get("kayitlar", []),
@@ -104,7 +153,7 @@ def uyarilari_bul(gun: str) -> list[dict]:
                 basliklar.append((m["baslik"] if m else s.get("id", ""))[:70])
             cikti.append({
                 "id": f"takip:{gun}:toplu:{len(kimildayan)}",
-                "tur": "dosya hareketi", "duzey": "orta",
+                "tur": "izlenen dosyada hareket", "duzey": "orta",
                 "baslik": f"{len(kimildayan)} takip dosyasında hareket var",
                 "alan": "",
                 "not": "; ".join(basliklar),
@@ -134,7 +183,7 @@ def uyarilari_bul(gun: str) -> list[dict]:
     if len(kritik) >= KRITIK_ESIK:
         cikti.append({
             "id": f"kritik:{gun}:{len(kritik)}",
-            "tur": "kritik kayıt yoğunluğu", "duzey": "orta",
+            "tur": "kritik kayıt yığılması", "duzey": "orta",
             "baslik": f"Bugün birincil kaynaktan {len(kritik)} kritik öncelikli kayıt geldi",
             "alan": "", "not": "; ".join((h.get("baslik_tr") or h["baslik"])[:80] for h in kritik[:4]),
             "kayitlar": [h["k"] for h in kritik[:6]],
@@ -144,13 +193,16 @@ def uyarilari_bul(gun: str) -> list[dict]:
     if len(bozuk) >= SAGLIK_ESIK:
         cikti.append({
             "id": f"saglik:{gun}:{len(bozuk)}",
-            "tur": "izleme bozuldu", "duzey": "yüksek",
+            "tur": "kaynak akışı bozuk", "duzey": "yüksek",
             "baslik": f"{len(bozuk)} kaynağın akışı hata veriyor",
             "alan": "kaynak sağlığı",
             "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: "
                    + ", ".join(bozuk[:6]) + ("…" if len(bozuk) > 6 else ""),
             "kayitlar": [],
         })
+
+    for u in cikti:                      # her uyari kendi gerekcesini tasisin
+        u["neden"] = KURALLAR.get(u["tur"], "")
     return cikti
 
 

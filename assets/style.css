@@ -617,8 +617,13 @@ footer a{color:#8FD6EC}
 .us-kapat{margin-left:auto;border:0;background:transparent;cursor:pointer;
   font-size:1.3rem;line-height:1;color:var(--ink-3);padding:0 4px}
 .us-kapat:hover{color:var(--accent)}
-.uyari-serit ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3)}
+.uyari-serit ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3);
+  grid-template-columns:auto minmax(0,1fr)}
 .uyari-serit li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:var(--s2) var(--s3);align-items:baseline}
+/* Etiket sutunu butun satirlarda ayni genislikte olsun ki basliklar hizalansin */
+@supports (grid-template-columns:subgrid){
+  .uyari-serit li{grid-column:1/-1;grid-template-columns:subgrid}
+}
 .uyari-serit li b{font-family:var(--display);font-weight:500;font-size:1.02rem;line-height:1.3}
 .us-not{grid-column:2;font-size:.88rem;line-height:1.45;color:var(--ink-2);
   display:block;margin-top:-2px}
@@ -738,3 +743,14 @@ footer a{color:#8FD6EC}
 #tazele:hover{background:#fff;color:var(--accent);border-color:#fff}
 @keyframes tazeGir{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){ #tazele{animation:none} }
+.us-aciklama{margin:0 0 var(--s3);font-size:.8rem;line-height:1.5;color:var(--ink-3);max-width:78ch}
+.uyari-serit .tag[title]{cursor:help}
+/* Dar ekranda etiket sutunu basligi bogazliyordu: etiket ustte, ozet kirpik */
+@media (max-width:640px){
+  .uyari-serit ul,
+  .uyari-serit li{grid-template-columns:minmax(0,1fr)}
+  .uyari-serit li{gap:var(--s2)}
+  .us-ust .mono{white-space:nowrap}
+  .us-not{grid-column:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+    overflow:hidden;font-size:.84rem}
+}

@@ -942,17 +942,19 @@ function renderUyari() {
   const gosterilen = liste.slice(0, UST);
   serit.innerHTML = `<div class="uyari-serit">
     <div class="us-ust">
-      <span class="eyebrow" style="--c:var(--accent)">Eşik aşıldı</span>
-      <span class="mono">${esc(liste.length)} uyarı · ${esc(u.gun)}</span>
+      <span class="eyebrow" style="--c:var(--accent)">Bugün önce buna bak</span>
+      <span class="mono">${esc(liste.length)} kayıt · ${esc(u.gun)}</span>
       <button type="button" class="us-kapat" title="Bugünlük gizle">×</button>
     </div>
+    <p class="us-aciklama">Günün kayıtları içinde izleme kurallarından birine takılanlar —
+      etiketin üstüne gelince hangi kural olduğunu görürsün.</p>
     <ul>${gosterilen.map((x) => `<li>
-      <span class="tag ${UYARI_DUZEY[x.duzey] || ''}">${esc(x.tur)}</span>
+      <span class="tag ${UYARI_DUZEY[x.duzey] || ''}"${x.neden ? ` title="${esc(x.neden)}"` : ''}>${esc(x.tur)}</span>
       <b>${esc(x.baslik)}</b>
       ${x.not ? `<span class="us-not">${esc(kisaltMetin(refsiz(x.not), 150))}</span>` : ''}
     </li>`).join('')}</ul>
     <a class="us-tumu" href="#analiz">${liste.length > UST
-      ? `+${liste.length - UST} uyarı daha · günün analizine git →`
+      ? `+${liste.length - UST} tanesi daha var · günün analizine git →`
       : 'günün analizine git →'}</a>
   </div>`;
   serit.querySelector('.us-tumu').addEventListener('click', (e) => {

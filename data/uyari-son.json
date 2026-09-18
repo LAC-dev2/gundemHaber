@@ -1,23 +1,11 @@
 {
  "gun": "2026-09-18",
- "olusturma": "2026-09-18T09:12+00:00",
+ "olusturma": "2026-09-18T09:39+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-09-18:MFRR araştırmacısı Massimo Moratti'ye Sırbistan'da sınır dış",
-   "tur": "acil alan",
-   "duzey": "yüksek",
-   "baslik": "MFRR araştırmacısı Massimo Moratti'ye Sırbistan'da sınır dışı kararı",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "İnsan hakları çalışmasıyla bağlantılı görünen bir sınır dışı işlemi, merkezin sınır dışı/giriş içtihadı ve insan hakları savunucularına yönelik idari tedbir dosyalarıyla kesişiyor [cd2190bc13]. Aynı hafta Avrupa Konseyi'nin AİHM sınır dışı içtihadına ilişkin tematik belgesinin yayımlanmış olması, bu tür işlemlerin ölçütlerini tartışmaya açıyor [c23be3b155].",
-   "kayitlar": [
-    "cd2190bc13",
-    "c23be3b155"
-   ]
-  },
-  {
    "id": "alan:2026-09-18:Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıra",
-   "tur": "acil alan",
-   "duzey": "yüksek",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
    "baslik": "Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıraşan veri talebi oranı",
    "alan": "İade, adli yardım ve iltica",
    "not": "Sınıraşan e-delil talepleri, merkezin adli yardım ve iade dosyalarında delilin hangi usulle elde edildiği sorusunu doğrudan etkiliyor. Europol, bugünkü kayıtta ceza soruşturmalarının yarısından fazlasının sınıraşan e-delil talebi içerdiğini ve delilin bilinmeyen bir ülkede saklanabildiğini belirtiyor [cbfb6770c1]; SPoC ağı toplantısı bu talep akışının idari altyapısını gösteriyor [eb6846d9b3].",
@@ -26,11 +14,22 @@
     "cbfb6770c1",
     "ff32cf8eb4",
     "0f7bac19d0"
-   ]
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "karar:001-252298",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Cezaevinde avukatla görüşmelerin izlenmesi ve özel yazışmaların UYAP'ta kaydedilip saklanması",
+   "alan": "md. 8, 8-1",
+   "not": "İkinci Bölüm Komite olarak, başvurucunun avukatıyla görüşmelerinin izlenmesi ile özel yazışmalarının UYAP sisteminde kaydedilip saklanmasına ilişkin şikâyetleri kabul edilebilir bulmuş ve oybirliğiyle 8. maddenin ihlal edildiğine karar vermiştir. Mahkeme manevi tazminat olarak 2.000 euro, masraf ve giderler için 500 euro ödenmesine hükmetmiş; başvurucunun talep ettiği 6.000 euro masrafın kalanını reddetmiştir. Karar 15 Eylül 2026'da tebliğ edilmiş ve kesindir.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
    "id": "takip:2026-09-18:toplu:2",
-   "tur": "dosya hareketi",
+   "tur": "izlenen dosyada hareket",
    "duzey": "orta",
    "baslik": "2 takip dosyasında hareket var",
    "alan": "",
@@ -41,7 +40,18 @@
     "cbfb6770c1",
     "ff32cf8eb4",
     "0f7bac19d0"
-   ]
+   ],
+   "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-09-18:9",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "9 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, Human Rights Watch - Türkiye, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, MLSA…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
