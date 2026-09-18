@@ -359,6 +359,29 @@ python3 scripts/birincil.py --liste            # indirmeden neler var, gör
 python3 scripts/birincil.py --gun-sayisi 21 --adet 8
 ```
 
+### Model seçimi — ölçümle verildi (18 Eylül 2026)
+
+"Üst model daha iyi sonuç verir mi?" sorusu `scripts/kalite.py` ile ölçüldü:
+aynı günün aynı 45 kaydı, aynı istem, aynı öz-denetim, üç yapılandırma.
+
+| Varyant | Öne çıkan | Ayrıntı | Rakam yoğunluğu | Denetim | Maliyet |
+|---|---|---|---|---|---|
+| **`claude-opus-5` / high** (seçilen) | 6 | 15 | 63,4‰ | %100 | **$0,58** |
+| `claude-opus-5` / max | 5 | 17 | 47,0‰ | %100 | $0,99 |
+| `claude-fable-5-1` / high | 4 | 13 | 65,9‰ | %100 | $1,03 |
+
+**Sonuç: Opus 5 / high.** Fable 5.1 ilk turda gerçek bir üstünlük gösterdi —
+"bugün yeni kayıt yok, sayılar dünkü düzeyde" diyebildi; Opus 5 ise dünün
+rakamlarını bugünün manşeti gibi sundu. Ama sebep model kapasitesi değildi:
+modele hangi kaydın yeni olduğunu söylemiyorduk (o gün 45 kaydın yalnızca
+12'si güne aitti). Kayıtlar "BUGÜNE AİT / ÖNCEKİ GÜNDEN" diye işaretlenince
+Opus 5 de aynı yargıyı kurdu. `effort: max` ise daha fazla düşünme token'ı
+harcayıp daha az içerik üretti.
+
+Ölçümü yenilemek için: **Actions → Run workflow → `kalite: evet`**
+(tek varyant için `kalite_varyant: etiket:model:effort`). Çıktılar
+`data/kalite/` altında, karşılaştırma tablosu `data/kalite-log.txt` içinde.
+
 ### Öz-denetim
 
 Analiz üretildikten sonra ikinci bir geçiş, **her iddiayı kendi dayanaklarına
@@ -388,6 +411,12 @@ iddiası önceki gün başlıklarında yer almıyor."*
   kuralı). Tavsiye değil, konumlandırma
 * **karşı okuma** — bu kayıtların *göstermediği* şey; hangi çıkarım yapılamaz
 * **kronoloji** — günün ana dosyasında adım adım seyir
+* **bugün ne değişti** — bu dosya dünkü analizde de geçtiyse bugün tam olarak
+  neyin değiştiği (yeni sayı, karar, belge, taraf); hiçbir şey değişmediyse
+  gelişme öne çıkarılmaz
+* **dosya derinleşmesi** — çekirdek alanlarda yeni kayıt yoksa analiz aynı
+  özeti tekrarlamak yerine açık bir dosyayı derinleştirir: elimizde ne var, ne
+  eksik, izlenecek adım, merkez için dayanak
 
 ### Haftalık sentez
 
