@@ -71,17 +71,44 @@ def uyarilari_bul(gun: str) -> list[dict]:
                     "not": o.get("neden_onemli", ""), "kayitlar": o.get("kayitlar", []),
                 })
         acik = {t["id"]: t for t in analiz.get("takip_acik", [])}
-        for s in analiz.get("sureklilik", []):
-            if s.get("durum") == "hareket yok":
-                continue
+        hareketli = [s for s in analiz.get("sureklilik", [])
+                     if s.get("durum") != "hareket yok"]
+        # Kapanan dosya tek basina haber; kimildayan dosya degil. On iki acik
+        # dosyayla her gun bes ayri "hareket" uyarisi gurultu oluyor: kapananlar
+        # ayri ayri, otekiler tek satirda toplaniyor.
+        kapanan = [s for s in hareketli if s.get("durum") == "kapandı"]
+        kimildayan = [s for s in hareketli if s.get("durum") != "kapandı"]
+        for s in kapanan:
             m = acik.get(s.get("id", ""))
             cikti.append({
                 "id": f"takip:{gun}:{s.get('id', '')}",
-                "tur": "dosya hareketi",
-                "duzey": "yüksek" if s.get("durum") == "kapandı" else "orta",
+                "tur": "dosya kapandı", "duzey": "yüksek",
                 "baslik": (m["baslik"] if m else s.get("id", "")),
                 "alan": (m.get("alan", "") if m else ""),
                 "not": s.get("not", ""), "kayitlar": s.get("kayitlar", []),
+            })
+        if len(kimildayan) == 1:
+            s = kimildayan[0]
+            m = acik.get(s.get("id", ""))
+            cikti.append({
+                "id": f"takip:{gun}:{s.get('id', '')}",
+                "tur": "dosya hareketi", "duzey": "orta",
+                "baslik": (m["baslik"] if m else s.get("id", "")),
+                "alan": (m.get("alan", "") if m else ""),
+                "not": s.get("not", ""), "kayitlar": s.get("kayitlar", []),
+            })
+        elif kimildayan:
+            basliklar = []
+            for s in kimildayan:
+                m = acik.get(s.get("id", ""))
+                basliklar.append((m["baslik"] if m else s.get("id", ""))[:70])
+            cikti.append({
+                "id": f"takip:{gun}:toplu:{len(kimildayan)}",
+                "tur": "dosya hareketi", "duzey": "orta",
+                "baslik": f"{len(kimildayan)} takip dosyasında hareket var",
+                "alan": "",
+                "not": "; ".join(basliklar),
+                "kayitlar": [k for s in kimildayan for k in s.get("kayitlar", [])][:8],
             })
 
     bugun = [h for h in latest.get("haberler", []) if h["tarih"][:10] == gun]

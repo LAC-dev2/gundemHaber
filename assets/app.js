@@ -886,19 +886,30 @@ function renderUyari() {
   if (!liste.length) { serit.innerHTML = ''; return; }
   const kapali = LS.get('bhm.uyariKapali', '') === (u.olusturma || u.gun);
   if (kapali) { serit.innerHTML = ''; return; }
+  // Şerit bir uyarı listesi, analizin kendisi değil: her madde tek satır.
+  // 18 Eylül'de altı uyarı birden düştü ve tam metinleriyle basılınca
+  // manşeti tamamen gömdü. Ayrıntı ve dayanak kayıtlar Analiz sekmesinde.
+  const UST = 3;
+  const gosterilen = liste.slice(0, UST);
   serit.innerHTML = `<div class="uyari-serit">
     <div class="us-ust">
       <span class="eyebrow" style="--c:var(--accent)">Eşik aşıldı</span>
       <span class="mono">${esc(liste.length)} uyarı · ${esc(u.gun)}</span>
       <button type="button" class="us-kapat" title="Bugünlük gizle">×</button>
     </div>
-    <ul>${liste.map((x) => `<li>
+    <ul>${gosterilen.map((x) => `<li>
       <span class="tag ${UYARI_DUZEY[x.duzey] || ''}">${esc(x.tur)}</span>
       <b>${esc(x.baslik)}</b>
-      ${x.not ? `<p>${refliMetin(x.not, x.kayitlar || [])}</p>` : ''}
-      ${kayitBaglari(x.kayitlar || [])}
+      ${x.not ? `<span class="us-not">${esc(kisaltMetin(refsiz(x.not), 150))}</span>` : ''}
     </li>`).join('')}</ul>
+    <a class="us-tumu" href="#analiz">${liste.length > UST
+      ? `+${liste.length - UST} uyarı daha · günün analizine git →`
+      : 'günün analizine git →'}</a>
   </div>`;
+  serit.querySelector('.us-tumu').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('nav.tabs button[data-view="analiz"]').click();
+  });
   serit.querySelector('.us-kapat').addEventListener('click', () => {
     LS.set('bhm.uyariKapali', u.olusturma || u.gun);
     serit.innerHTML = '';
