@@ -1,0 +1,20 @@
+# kalite karsilastirmasi 2026-09-18 08:31 UTC
+gün 2026-09-18 · 45 kayıt · istem 55435 karakter (~15838 token) · 2 varyant
+
+— opus5-max: claude-opus-5 effort=max
+  başarısız: yanıt max_tokens
+
+— fable51: claude-fable-5-1 effort=high
+  token 26446 girdi / 18312 çıktı · $1.1801
+denetim token: 18665 girdi / 1323 çıktı
+  denetim: 11 iddia, 0 işaretli
+
+------------------------------------------------------------------------------
+varyant                  one_cikan birincil_no   kronoloji ayrinti_sat karsi_okuma
+üretim (opus5/high)              6           4           6          25           6
+opus5-max               HATA: yanıt max_tokens
+fable51                          6           4           5          23           6
+
+varyant                      rakam rakam_yogun atif_edilen denetim_ora maliyet_usd
+üretim (opus5/high)            599        72.0          49         1.0      0.6297
+fable51                        551        76.4          49         1.0      1.2307

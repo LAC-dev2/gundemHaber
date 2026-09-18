@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-09-18T08:11+00:00",
+ "guncelleme": "2026-09-18T08:19+00:00",
  "pencere_gun": 21,
  "belgeler": [
   {
@@ -17,6 +17,21 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 2946,
    "giris": "(Application no. 29949/20) This judgment is final but it may be subject to editorial revision. In the case of Benli v. Türkiye,"
+  },
+  {
+   "itemid": "001-252496",
+   "ad": "CASE OF SÖYLER AGAINST TÜRKİYE",
+   "tur": "icra kararı",
+   "tarih": "2026-09-02",
+   "maddeler": [
+    "46"
+   ],
+   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
+   "basvuru": "16104/22",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252496",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 301,
+   "giris": "Resolution CM/ResDH(2026)173 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 2 September 2026 at the 1567th meeting of the Ministers’ Deputies)"
   },
   {
    "itemid": "001-252500",
@@ -47,21 +62,6 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 474,
    "giris": "Resolution CM/ResDH(2026)174 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 2 September 2026 at the 1567th meeting of the Ministers’ Deputies)"
-  },
-  {
-   "itemid": "001-252496",
-   "ad": "CASE OF SÖYLER AGAINST TÜRKİYE",
-   "tur": "icra kararı",
-   "tarih": "2026-09-02",
-   "maddeler": [
-    "46"
-   ],
-   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
-   "basvuru": "16104/22",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-252496",
-   "kaynak": "HUDOC / AİHM",
-   "kelime": 301,
-   "giris": "Resolution CM/ResDH(2026)173 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 2 September 2026 at the 1567th meeting of the Ministers’ Deputies)"
   }
  ]
 }
