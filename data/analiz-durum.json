@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-18",
- "durum": "erken",
- "mesaj": "saat 07:56 UTC; analiz en erken 23:00 UTC'de üretilir (şu an güne ait 0 kayıt var)",
- "zaman": "2026-09-18T07:56+00:00"
+ "durum": "tamam",
+ "mesaj": "6 öne çıkan, 4 birincil belge, $0.5175, denetim yok (yanıt max_tokens)",
+ "zaman": "2026-09-18T07:58+00:00"
 }
