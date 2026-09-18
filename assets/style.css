@@ -711,3 +711,21 @@ footer a{color:#8FD6EC}
 .refler a.ref.belge{color:var(--gold);letter-spacing:.02em}
 .refler a.ref.belge:hover{background:var(--gold);color:#fff}
 .tag.mekanizma{max-width:34ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* "bugün ne değişti" satırı */
+.yenilik{margin:0 0 var(--s2);font-size:.92rem;line-height:1.45;color:var(--ink);
+  background:rgba(192,47,29,.06);border-left:3px solid var(--accent);
+  padding:var(--s2) var(--s3);border-radius:0 var(--r) var(--r) 0}
+.yenilik span{display:block;font-size:.64rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.12em;color:var(--accent);margin-bottom:2px}
+
+/* dosya derinleşmesi */
+.derin{background:var(--white);border:1px solid var(--hair-2);
+  border-left:5px solid var(--deep);border-radius:var(--r);padding:var(--s4)}
+.dr-ust{margin-bottom:var(--s2)}
+.derin h4{font-family:var(--display);font-size:1.18rem;line-height:1.25;margin:0 0 var(--s3)}
+.derin dl{margin:0;display:grid;grid-template-columns:150px minmax(0,1fr);gap:var(--s2) var(--s4)}
+.derin dt{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--ink-3);padding-top:3px}
+.derin dd{margin:0;font-size:.98rem;line-height:1.55;color:var(--ink-2)}
+@media (max-width:640px){ .derin dl{grid-template-columns:1fr;gap:2px var(--s2)} .derin dd{margin-bottom:var(--s2)} }

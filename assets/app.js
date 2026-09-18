@@ -625,6 +625,23 @@ function analizGovde(a) {
 
     ${birincilBlok(a)}
 
+    ${(a.dosya_derinlesmesi || []).length ? `<section class="analiz-blok">
+      <h3>Dosya derinleşmesi</h3>
+      <p class="ref-aciklama">Çekirdek alanlarda bugün yeni kayıt olmadığında, analiz
+        aynı özeti tekrarlamak yerine açık bir dosyayı derinleştirir.</p>
+      ${a.dosya_derinlesmesi.map((d) => `<article class="derin">
+        <div class="dr-ust"><span class="tag alan">${esc(d.alan)}</span></div>
+        <h4>${esc(d.baslik)}</h4>
+        <dl>
+          <dt>Elimizde ne var</dt><dd>${refliMetin(d.elimizde, d.kayitlar || [])}</dd>
+          <dt>Ne eksik</dt><dd>${esc(d.eksik)}</dd>
+          <dt>İzlenecek adım</dt><dd>${esc(d.izlenecek_adim)}</dd>
+          <dt>Merkez için dayanak</dt><dd>${esc(d.dayanak)}</dd>
+        </dl>
+        ${kayitBaglari(d.kayitlar || [])}
+      </article>`).join('')}
+    </section>` : ''}
+
     ${(a.sureklilik || []).some((x) => x.durum !== 'hareket yok') ? `<section class="analiz-blok">
       <h3>Takip edilen dosyalarda hareket</h3>
       <div class="hareket">${a.sureklilik.filter((x) => x.durum !== 'hareket yok').map((x) => {
@@ -643,6 +660,8 @@ function analizGovde(a) {
           <span class="tag ${GUVEN[o.guven] || ''}">güven: ${esc(o.guven)}</span>
           ${o.mekanizma ? `<span class="tag mekanizma" title="${esc(refsiz(o.mekanizma))}">${esc(kisaltMetin(refsiz(o.mekanizma), 64))}</span>` : ''}</div>
         <h4>${esc(o.baslik)}</h4>
+        ${o.yenilik ? `<p class="yenilik"><span>bugün ne değişti</span>
+          ${esc(refsiz(o.yenilik))}</p>` : ''}
         <p>${refliMetin(o.neden_onemli, o.kayitlar)}</p>
         ${(o.ayrintilar || []).length ? `<ul class="ayrinti">${o.ayrintilar.map((x) =>
           `<li>${refliMetin(x, o.kayitlar)}</li>`).join('')}</ul>` : ''}

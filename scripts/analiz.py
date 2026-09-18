@@ -83,6 +83,19 @@ Kurallar — bunlara kesinlikle uy:
 8. Kaynaklar aynı olayda farklı sayı, tarih ya da isim veriyorsa bunu açıkça
    yaz ("kaynaklar 53 ile 62 arasında sayı veriyor") ve hangisinin hangi kayıtta
    olduğunu göster. Tek bir sayıya indirgeme.
+11. MERKEZİN ALANLARI ÖNCE GELİR. Günün başlığı ve öne çıkan gelişmeler
+   merkezin çalışma alanlarından birine ait olmalı. Merkezin dosyalarıyla
+   ilgisi olmayan bir kayıt (genel bir Europol duyurusu, başka bir ülkeye
+   dair rutin haber, teknik bir ağ toplantısı) manşet olamaz; en çok alan
+   notlarında tek cümleyle geçer. Çekirdek alanlarda bugün yeni bir şey
+   yoksa manşet, derinleştirdiğin dosyayı anlatsın.
+12. DÜNÜN ANALİZİNİ TEKRAR ETME. Sana önceki günün öne çıkanları verilir.
+   Aynı dosyayı yeniden yazıyorsan "yenilik" alanında bugün tam olarak neyin
+   değiştiğini söyle (yeni sayı, yeni karar, yeni belge, yeni taraf). Hiçbir
+   şey değişmediyse o gelişmeyi öne çıkarma; onun yerine "dosya_derinlesmesi"
+   bölümünde bir dosyayı derinleştir: elimizde ne var, hangi belge eksik,
+   hangi adım izlenmeli, merkezin hangi argümanına dayanak olur. Güncellenen
+   sayı önemlidir ama yeni bir okuma daha değerlidir.
 10. Her kayıt "BUGÜNE AİT" ya da "ÖNCEKİ GÜNDEN" diye işaretlidir. Önceki
    günün kaydını bugünün gelişmesi gibi sunma. Bugüne ait kayıt azsa ya da
    yeni bir şey yoksa bunu açıkça söyle — "bugün şu dosyada yeni kayıt yok,
@@ -167,6 +180,10 @@ SEMA = {
                     "baslik": {"type": "string"},
                     "alan": {"type": "string", "description": "İlgili çalışma alanı"},
                     "neden_onemli": {"type": "string", "description": "2-4 cümle; merkezin dosyaları açısından anlamı"},
+                    "yenilik": {"type": "string", "maxLength": 300,
+                                "description": ("Bu gelişme dünkü analizde de geçtiyse BUGÜN ne "
+                                                "değişti (yeni sayı, karar, belge, taraf). İlk kez "
+                                                "yazılıyorsa 'ilk kez' de. Tek cümle.")},
                     "ayrintilar": {
                         "type": "array",
                         "description": ("Kayıtlarda geçen somut veriler: sayı, tarih, isim, dosya "
@@ -186,8 +203,8 @@ SEMA = {
                     "kayitlar": {"type": "array", "items": {"type": "string"}, "description": "Dayanılan kayıt anahtarları"},
                     "guven": {"type": "string", "enum": ["yüksek", "orta", "düşük"]},
                 },
-                "required": ["baslik", "alan", "neden_onemli", "ayrintilar", "mekanizma",
-                             "karsi_okuma", "kayitlar", "guven"],
+                "required": ["baslik", "alan", "neden_onemli", "yenilik", "ayrintilar",
+                             "mekanizma", "karsi_okuma", "kayitlar", "guven"],
                 "additionalProperties": False,
             },
         },
@@ -203,6 +220,31 @@ SEMA = {
                     "kayitlar": {"type": "array", "items": {"type": "string"}},
                 },
                 "required": ["alan", "durum", "not", "kayitlar"],
+                "additionalProperties": False,
+            },
+        },
+        "dosya_derinlesmesi": {
+            "type": "array",
+            "description": ("Çekirdek alanlarda bugün yeni kayıt yoksa ya da gün zayıfsa, "
+                            "merkezin açık dosyalarından BİRİNİ derinleştir. Gün doluysa "
+                            "boş dizi bırak. En fazla bir madde."),
+            "items": {
+                "type": "object",
+                "properties": {
+                    "baslik": {"type": "string", "description": "Derinleştirilen dosya, tek cümle"},
+                    "alan": {"type": "string"},
+                    "elimizde": {"type": "string",
+                                 "description": "Kayıtlardan ve belgelerden bugüne kadar bilinenler, 2-4 cümle"},
+                    "eksik": {"type": "string",
+                              "description": "Hangi belge ya da bilgi yok; neyi doğrulayamıyoruz, 1-3 cümle"},
+                    "izlenecek_adim": {"type": "string",
+                                       "description": "Sırada hangi usul adımı var, ne zaman beklenir, 1-2 cümle"},
+                    "dayanak": {"type": "string",
+                                "description": "Merkezin hangi argümanına dayanak olabilir, 1-2 cümle"},
+                    "kayitlar": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["baslik", "alan", "elimizde", "eksik", "izlenecek_adim",
+                             "dayanak", "kayitlar"],
                 "additionalProperties": False,
             },
         },
@@ -229,7 +271,8 @@ SEMA = {
         },
     },
     "required": ["baslik", "brifing", "one_cikanlar", "alan_notlari", "izlenecekler",
-                 "sureklilik", "yeni_takip", "birincil_notlar", "kronoloji"],
+                 "sureklilik", "yeni_takip", "birincil_notlar", "kronoloji",
+                 "dosya_derinlesmesi"],
     "additionalProperties": False,
 }
 
@@ -288,18 +331,40 @@ def kayit_metni(h: dict, kumeler: dict, tam_metin: bool, uzun: bool = False,
     return "\n".join(satir)
 
 
+def ilk_cumle(metin: str, n: int = 220) -> str:
+    metin = re.sub(r"\s+", " ", metin or "").strip()
+    nokta = metin.find(". ")
+    if 0 < nokta < n:
+        return metin[: nokta + 1]
+    return kisalt(metin, n)
+
+
 def gecmis_ozeti() -> str:
-    """Onceki gunlerin basliklari: sureklilik icin hafiza."""
+    """Onceki gunlerin analizleri: sureklilik ve TEKRAR ONLEME icin hafiza.
+
+    Dun ne yazildigini yalnizca baslik duzeyinde gormek yetmiyordu; ayni
+    dosya ertesi gun neredeyse ayni cumlelerle yeniden yaziliyordu. Bir
+    onceki gunun one cikanlari, degerlendirmenin ilk cumlesiyle birlikte
+    veriliyor ki model neyi tekrar etmemesi gerektigini bilsin."""
     gunler = sorted((p for p in ANALIZ.glob("*.json")), reverse=True)[:GECMIS_GUN]
     satirlar = []
-    for yol in gunler:
+    for sira, yol in enumerate(gunler):
         try:
             d = json.loads(yol.read_text(encoding="utf-8"))
         except Exception:
             continue
-        basliklar = "; ".join(o["baslik"] for o in d.get("one_cikanlar", [])[:4])
-        satirlar.append(f"- {d.get('gun', yol.stem)}: {d.get('baslik', '')}"
-                        + (f" | öne çıkanlar: {basliklar}" if basliklar else ""))
+        gun = d.get("gun", yol.stem)
+        if sira == 0:                       # en son gun: ayrintili
+            satirlar.append(f"- {gun} (BİR ÖNCEKİ ANALİZ): {d.get('baslik', '')}")
+            for o in d.get("one_cikanlar", []):
+                satirlar.append(f"    · {o.get('baslik', '')} — "
+                                f"{ilk_cumle(o.get('neden_onemli', ''))}")
+            for dd in d.get("dosya_derinlesmesi", []) or []:
+                satirlar.append(f"    · [derinleşme] {dd.get('baslik', '')}")
+        else:
+            basliklar = "; ".join(o["baslik"] for o in d.get("one_cikanlar", [])[:4])
+            satirlar.append(f"- {gun}: {d.get('baslik', '')}"
+                            + (f" | öne çıkanlar: {basliklar}" if basliklar else ""))
     return "\n".join(satirlar)
 
 
@@ -376,8 +441,10 @@ def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool,
         f"Tarih: {gun}\n"
         f"Kayıtların {bugunku}/{len(secilen)} tanesi bugüne ait, kalanı önceki "
         f"günlerden devretti.\n"
-        + (f"\nÖNCEKİ GÜNLERİN BAŞLIKLARI (yalnızca süreklilik için; "
-           f"buradan olgu üretme)\n{gecmis}\n" if gecmis else "")
+        + (f"\nÖNCEKİ GÜNLERİN ANALİZLERİ — bunları TEKRAR ETME. Aynı dosyayı "
+           f"yeniden yazıyorsan bugün ne değiştiğini söyle; hiçbir şey değişmediyse "
+           f"öne çıkarma, derinleştir. (Buradan olgu üretme; yalnızca ne yazıldığını "
+           f"gösterir.)\n{gecmis}\n" if gecmis else "")
         + (f"\nAÇIK TAKİP MADDELERİ (her biri için bugünkü durumu yaz)\n{takip}\n"
            if takip else "")
         + (f"\nBİRİNCİL BELGELER — mahkemenin kendi metni; haber kayıtlarından üstündür\n"
