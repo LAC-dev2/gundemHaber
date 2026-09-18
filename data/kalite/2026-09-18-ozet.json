@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-18",
- "olusturma": "2026-09-18T08:47+00:00",
+ "olusturma": "2026-09-18T08:57+00:00",
  "kayit_sayisi": 45,
  "varyantlar": {
   "üretim (opus5/high)": {
@@ -18,35 +18,20 @@
    "denetim_orani": 1.0,
    "maliyet_usd": 0.6297
   },
-  "opus5-max": {
-   "one_cikan": 5,
+  "opus5-high": {
+   "one_cikan": 6,
    "birincil_not": 4,
    "kronoloji": 5,
-   "ayrinti_satiri": 17,
-   "karsi_okuma": 5,
-   "govde_karakter": 7048,
-   "rakam": 331,
-   "rakam_yogunlugu": 47.0,
+   "ayrinti_satiri": 15,
+   "karsi_okuma": 6,
+   "govde_karakter": 7379,
+   "rakam": 468,
+   "rakam_yogunlugu": 63.4,
    "atif_edilen_kayit": 49,
-   "denetim_iddia": 10,
-   "denetim_dayanakli": 10,
+   "denetim_iddia": 11,
+   "denetim_dayanakli": 11,
    "denetim_orani": 1.0,
-   "maliyet_usd": 0.9916
-  },
-  "fable51": {
-   "one_cikan": 4,
-   "birincil_not": 4,
-   "kronoloji": 5,
-   "ayrinti_satiri": 13,
-   "karsi_okuma": 4,
-   "govde_karakter": 6146,
-   "rakam": 405,
-   "rakam_yogunlugu": 65.9,
-   "atif_edilen_kayit": 49,
-   "denetim_iddia": 9,
-   "denetim_dayanakli": 9,
-   "denetim_orani": 1.0,
-   "maliyet_usd": 1.0275
+   "maliyet_usd": 0.5772
   }
  }
 }

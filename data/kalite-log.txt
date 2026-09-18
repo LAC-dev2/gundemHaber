@@ -1,23 +1,16 @@
-# kalite karsilastirmasi 2026-09-18 08:47 UTC
-gün 2026-09-18 · 45 kayıt · istem 56579 karakter (~16165 token) · 2 varyant
+# kalite karsilastirmasi 2026-09-18 08:57 UTC
+gün 2026-09-18 · 45 kayıt · istem 56708 karakter (~16202 token) · 1 varyant
 
-— opus5-max: claude-opus-5 effort=max
-  token 27671 girdi / 32264 çıktı · $0.945
-denetim token: 15681 girdi / 1522 çıktı
-  denetim: 10 iddia, 0 işaretli
-
-— fable51: claude-fable-5-1 effort=high
-  token 27673 girdi / 14272 çıktı · $0.9903
-denetim token: 15178 girdi / 683 çıktı
-  denetim: 9 iddia, 0 işaretli
+— opus5-high: claude-opus-5 effort=high
+  token 27722 girdi / 16030 çıktı · $0.5394
+denetim token: 14684 girdi / 839 çıktı
+  denetim: 11 iddia, 0 işaretli
 
 ------------------------------------------------------------------------------
 varyant                  one_cikan birincil_no   kronoloji ayrinti_sat karsi_okuma
 üretim (opus5/high)              6           4           6          25           6
-opus5-max                        5           4           5          17           5
-fable51                          4           4           5          13           4
+opus5-high                       6           4           5          15           6
 
 varyant                      rakam rakam_yogun atif_edilen denetim_ora maliyet_usd
 üretim (opus5/high)            599        72.0          49         1.0      0.6297
-opus5-max                      331        47.0          49         1.0      0.9916
-fable51                        405        65.9          49         1.0      1.0275
+opus5-high                     468        63.4          49         1.0      0.5772
