@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-18",
- "olusturma": "2026-09-18T09:39+00:00",
+ "olusturma": "2026-09-18T09:42+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-09-18:Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıra",
@@ -42,16 +42,6 @@
     "0f7bac19d0"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "saglik:2026-09-18:9",
-   "tur": "kaynak akışı bozuk",
-   "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, Human Rights Watch - Türkiye, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, MLSA…",
-   "kayitlar": [],
-   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
