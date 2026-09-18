@@ -443,7 +443,7 @@
   "abe8a2c57d",
   "e1012e4e37"
  ],
- "maliyet_usd": 0.5791,
+ "maliyet_usd": 0.6297,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "takip_acik": [
   {
@@ -547,8 +547,8 @@
   "kontroller": [
    {
     "id": "brifing",
-    "hukum": "kısmen",
-    "not": "Anayasa Mahkemesi'nin Serdar Uzel ve yayın el koyma kararlarına ilişkin iddia [f64bb53604] ve [1387ffbabe] kayıtları verilen kayıt listesinde yer almıyor, doğrulanamıyor.  Diğer tüm olgular (82/62/20 tutuklu, 106 gözaltı, üç icra kararı, Benli tazminatı) kayıtlarla uyumlu."
+    "hukum": "dayanaklı",
+    "not": ""
    },
    {
     "id": "one1",
@@ -601,9 +601,9 @@
     "not": ""
    }
   ],
-  "genel": "Brifingdeki AYM Serdar Uzel/yayın el koyma iddiası dışında tüm olgu iddiaları gösterilen kayıtlarla uyumludur.",
+  "genel": "Tüm iddialar gösterilen kayıt ve birincil belgelerle uyumlu, olgusal dayanak eksikliği tespit edilmedi.",
   "model": "claude-sonnet-5",
-  "maliyet_usd": 0.0616,
+  "maliyet_usd": 0.0506,
   "iddia_sayisi": 11
  }
 }
