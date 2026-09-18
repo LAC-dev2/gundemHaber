@@ -838,6 +838,11 @@
 "dil": "diger",
 "ozet": ""
 },
+"53c3e67be2": {
+"baslik": "ECLI:NL:RBDHA:2026:27216 Den Haag Mahkemesi, 18-09-2026, NL26.52763",
+"dil": "diger",
+"ozet": "Tutuklamayı temyiz - sözel karar - haklı olmayan"
+},
 "54f7405ff1": {
 "baslik": "JRS, FITT Yaşam Birimlerinde Aileler İçin Gönüllü Ziyaret Arıyor (E/K/X)",
 "dil": "diger",
@@ -1968,6 +1973,9 @@
 "baslik": "İzin verilen dijital adli tıp soruşturmalarının ardındaki araçları güçlendirmek: Mobile Verification Toolkit & Android Quick Forensic Secure Design Assessment",
 "dil": "diger",
 "ozet": "Gazeteciler, aktivistler ve insan hakları savunucularına karşı yapılan casus yazılım saldırılarını soruşturan birçok sivil toplum kuruluşu için Mobile Verification Toolkit (MVT) ve Android Quick Forensics (AndroidQF) gerekli araçlar haline gelmiştir. Amnesty International'ın Security Lab'ı tarafından bir topluluk ile birlikte geliştirilen ve bakımı sağlanan bu araçlar..."
+},
+"d02e76f9ee": {
+"dil": "tr"
 },
 "d221284e86": {
 "dil": "tr"
