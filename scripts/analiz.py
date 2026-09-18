@@ -587,6 +587,12 @@ def main() -> int:
     ap.add_argument("--gun", default=None, help="YYYY-AA-GG (öntanımlı: bugün)")
     ap.add_argument("--kuru", action="store_true", help="istek atma, yalnızca istemi ve maliyet tahminini göster")
     ap.add_argument("--zorla", action="store_true", help="o güne ait analiz varsa üzerine yaz")
+    ap.add_argument("--en-erken", type=int,
+                    default=int(os.environ.get("ANALIZ_EN_ERKEN") or 6),
+                    help=("UTC saati; bundan önce analiz üretilmez. Günün kayıtları "
+                          "sabah 06:00 UTC'den (TR 09:00) sonra geliyor; daha erken "
+                          "üretilen analiz neredeyse boş bir güne bakar ve gün boyu "
+                          "yenilenmez. 0 verilirse kontrol kapanır."))
     ap.add_argument("--tam-metin", action="store_true", default=True)
     ap.add_argument("--kisa", dest="tam_metin", action="store_false", help="tam metinleri isteme (daha ucuz)")
     ap.add_argument("--birincil", action="store_true", default=True,
@@ -606,6 +612,19 @@ def main() -> int:
     hedef = ANALIZ / f"{gun}.json"
     if hedef.exists() and not args.zorla and not args.yalniz_denetim:
         print(f"{gun} analizi zaten var (--zorla ile yenilenir).")
+        return 0
+
+    # Gunun kayitlari henuz gelmemisse uretme: erken uretilen analiz gun
+    # boyu "zaten var" diye atlanir ve gun bos bir analizle gecer.
+    simdi = datetime.now(timezone.utc)
+    if (not args.zorla and not args.gun and not args.yalniz_denetim
+            and args.en_erken and simdi.hour < args.en_erken):
+        bekleyen = sum(1 for h in latest["haberler"] if h["tarih"][:10] == gun)
+        durum_yaz(gun, "erken",
+                  f"saat {simdi:%H:%M} UTC; analiz en erken {args.en_erken:02d}:00 UTC'de "
+                  f"üretilir (şu an güne ait {bekleyen} kayıt var)")
+        print(f"saat {simdi:%H:%M} UTC — analiz en erken {args.en_erken:02d}:00 UTC'de "
+              f"üretilir; güne ait {bekleyen} kayıt var. Atlandı.")
         return 0
 
     if args.yalniz_denetim:

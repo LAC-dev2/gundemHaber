@@ -37,6 +37,7 @@ scripts/kaynak_ekle.py      envantere yeni kaynak ekleme (form ve komut satırı
 scripts/tam_metin.py        analiz öncesi öne çıkan kayıtların tam metni
 scripts/sentez.py           haftalık sentez üretimi (Claude API)
 scripts/birincil.py         AİHM karar metinleri (HUDOC) ve Resmî Gazete
+scripts/tetikle.py          günün analizi yoksa iş akışını tetikler
 scripts/uyari.py            eşik aşıldığında uyarı (API kullanmaz)
 data/takip.json             açık takip maddeleri ve seyri
 data/sentez/                haftalık sentezler
@@ -441,6 +442,43 @@ saatte çıkar; ikinci kez üretilip para harcanmaz.
 
 Bir turu hemen istersen: **Actions → Kaynak taraması → Run workflow**
 (`analiz: evet` ve gerekiyorsa `analiz_yenile: evet`).
+
+**Çok erken üretmeye karşı koruma.** Günün kayıtları sabah gelmeye başlıyor:
+17 Eylül'de TR 08:00'e kadar günün yalnızca 5 kaydı gelmişti, asıl akış
+09:00'dan sonra. Erken üretilen analiz neredeyse boş bir güne bakar ve
+"zaten var" diye gün boyu yenilenmez. Bu yüzden analiz **06:00 UTC'den
+(TR 09:00) önce üretilmez** — `ANALIZ_EN_ERKEN` ile değiştirilebilir,
+`--zorla` bu kontrolü aşar.
+
+### Bilgisayardan tetikleme (isteğe bağlı)
+
+GitHub'ın gecikmesini beklemek istemezsen `scripts/tetikle.py` saat
+tutturmaya çalışmaz: **çalıştığı anda yayındaki analizin tarihine bakar,
+bugüne ait analiz yoksa iş akışını tetikler.** Yani bilgisayarı gün içinde
+bir kez açman yeter; hangi saatte açtığın önemli değil.
+
+```bash
+python3 scripts/tetikle.py           # gerekiyorsa tetikle
+python3 scripts/tetikle.py --kuru    # yalnızca durumu söyle, tetikleme
+python3 scripts/tetikle.py --zorla   # analiz varsa da yeniden üret
+```
+
+macOS'ta **Kontrol.command** dosyasına çift tıklamak da aynı işi yapar.
+Her açılışta ve saatte bir kendiliğinden denemesi için `mac/` klasöründeki
+launchd örneği kullanılabilir (dosyanın içindeki `YOL`'u kendi klasörünle
+değiştir):
+
+```bash
+cp mac/com.bhm.gundem.tetikle.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.bhm.gundem.tetikle.plist
+```
+
+**Jeton:** betik, depo üzerinde `actions: write` yetkisi olan bir GitHub
+jetonu ister. GitHub → Settings → Developer settings → Personal access
+tokens → Fine-grained token; yalnızca bu depo, **Actions: Read and write**
+izni. Jetonu `~/.gundem_token` dosyasına tek satır olarak koy
+(`chmod 600 ~/.gundem_token`) ya da `GUNDEM_TOKEN` ortam değişkenine yaz.
+Jeton yalnızca kendi bilgisayarında kalır, depoya girmez.
 
 ## Uyarılar — ne zaman bakmam gerekir
 

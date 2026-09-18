@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- macOS: acilista ve saatte bir, bilgisayar acikken calisir.
+     Kurulum:
+       cp mac/com.bhm.gundem.tetikle.plist ~/Library/LaunchAgents/
+       (dosyadaki YOL'u kendi klasorunle degistir)
+       launchctl load ~/Library/LaunchAgents/com.bhm.gundem.tetikle.plist
+     Kaldirmak icin:
+       launchctl unload ~/Library/LaunchAgents/com.bhm.gundem.tetikle.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.bhm.gundem.tetikle</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>YOL/scripts/tetikle.py</string>
+  </array>
+  <key>RunAtLoad</key><true/>
+  <key>StartInterval</key><integer>3600</integer>
+  <key>StandardOutPath</key><string>/tmp/gundem-tetikle.log</string>
+  <key>StandardErrorPath</key><string>/tmp/gundem-tetikle.log</string>
+</dict>
+</plist>

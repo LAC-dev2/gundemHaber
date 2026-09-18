@@ -9,3 +9,7 @@ data/birincil/          # AİHM karar metinleri: her turda yeniden indirilir
 
 # paylaşım paketleri (yeniden üretilebilir)
 dist/
+
+# yerel jeton (asla depoya girmesin)
+.gundem_token
+*.token
