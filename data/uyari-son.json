@@ -1,5 +1,16 @@
 {
  "gun": "2026-09-19",
- "olusturma": "2026-09-19T06:58+00:00",
- "uyarilar": []
+ "olusturma": "2026-09-19T10:15+00:00",
+ "uyarilar": [
+  {
+   "id": "saglik:2026-09-19:18",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "18 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, Leiden Law Blog, CİSST, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
+  }
+ ]
 }
