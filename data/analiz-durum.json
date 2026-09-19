@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-19",
  "durum": "api hatası",
- "mesaj": "400: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfCd6apUQhKDASBMT4UZY'}",
- "zaman": "2026-09-19T10:15+00:00"
+ "mesaj": "400: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfCve4etEN7Ag2N6NsTMy'}",
+ "zaman": "2026-09-19T14:05+00:00"
 }
