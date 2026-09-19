@@ -1,6 +1,6 @@
 {
- "gun": "2026-09-18",
- "durum": "tamam",
- "mesaj": "4 öne çıkan, 4 birincil belge, $0.5368, denetim: 9 iddia",
- "zaman": "2026-09-18T09:02+00:00"
+ "gun": "2026-09-19",
+ "durum": "api hatası",
+ "mesaj": "400: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfCN6hNczitjsRJ1N3fYh'}",
+ "zaman": "2026-09-19T06:58+00:00"
 }

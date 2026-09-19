@@ -1,5 +1,2 @@
-# analiz adimi 2026-09-18 09:02 UTC · cikis kodu 0
-denetim token: 14420 girdi / 578 çıktı
-denetim (claude-sonnet-5): 9 iddia, 0 işaretlendi · +$0.035
-analiz: 2026-09-18 · 4 öne çıkan · 5 alan notu · takip: 15 açık (2 hareket), 3 yeni
-token: 27254 girdi / 14637 çıktı · maliyet ≈ $0.537 · model claude-opus-5
+# analiz adimi 2026-09-19 06:58 UTC · cikis kodu 1
+::error::API hatası (400): Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfCN6hNczitjsRJ1N3fYh'}

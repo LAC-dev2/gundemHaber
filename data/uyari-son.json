@@ -1,47 +1,5 @@
 {
- "gun": "2026-09-18",
- "olusturma": "2026-09-18T19:21+00:00",
- "uyarilar": [
-  {
-   "id": "alan:2026-09-18:Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıra",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Elektronik delil rejimi: 7. SIRIUS SPoC toplantısı ve sınıraşan veri talebi oranı",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Sınıraşan e-delil talepleri, merkezin adli yardım ve iade dosyalarında delilin hangi usulle elde edildiği sorusunu doğrudan etkiliyor. Europol, bugünkü kayıtta ceza soruşturmalarının yarısından fazlasının sınıraşan e-delil talebi içerdiğini ve delilin bilinmeyen bir ülkede saklanabildiğini belirtiyor [cbfb6770c1]; SPoC ağı toplantısı bu talep akışının idari altyapısını gösteriyor [eb6846d9b3].",
-   "kayitlar": [
-    "eb6846d9b3",
-    "cbfb6770c1",
-    "ff32cf8eb4",
-    "0f7bac19d0"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "karar:001-252298",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Cezaevinde avukatla görüşmelerin izlenmesi ve özel yazışmaların UYAP'ta kaydedilip saklanması",
-   "alan": "md. 8, 8-1",
-   "not": "İkinci Bölüm Komite olarak, başvurucunun avukatıyla görüşmelerinin izlenmesi ile özel yazışmalarının UYAP sisteminde kaydedilip saklanmasına ilişkin şikâyetleri kabul edilebilir bulmuş ve oybirliğiyle 8. maddenin ihlal edildiğine karar vermiştir. Mahkeme manevi tazminat olarak 2.000 euro, masraf ve giderler için 500 euro ödenmesine hükmetmiş; başvurucunun talep ettiği 6.000 euro masrafın kalanını reddetmiştir. Karar 15 Eylül 2026'da tebliğ edilmiş ve kesindir.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-09-18:toplu:2",
-   "tur": "izlenen dosyada hareket",
-   "duzey": "orta",
-   "baslik": "2 takip dosyasında hareket var",
-   "alan": "",
-   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağın",
-   "kayitlar": [
-    "9da2d465f8",
-    "eb6846d9b3",
-    "cbfb6770c1",
-    "ff32cf8eb4",
-    "0f7bac19d0"
-   ],
-   "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  }
- ]
+ "gun": "2026-09-19",
+ "olusturma": "2026-09-19T06:58+00:00",
+ "uyarilar": []
 }
