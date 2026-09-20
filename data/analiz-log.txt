@@ -1,2 +1,2 @@
-# analiz adimi 2026-09-19 19:07 UTC · cikis kodu 1
-::error::API hatası (400): Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfDKg8PrDno5tgewAWgMU'}
+# analiz adimi 2026-09-20 07:24 UTC · cikis kodu 1
+::error::API hatası (400): Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfEHtNt6Q5Gf622P3ATTC'}
