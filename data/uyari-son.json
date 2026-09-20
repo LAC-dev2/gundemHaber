@@ -1,5 +1,32 @@
 {
  "gun": "2026-09-20",
- "olusturma": "2026-09-20T10:33+00:00",
- "uyarilar": []
+ "olusturma": "2026-09-20T13:09+00:00",
+ "uyarilar": [
+  {
+   "id": "alan:2026-09-20:Süleymanlılar cemaatine \"seçimi etkileme\" isnadı: 29 gözaltı",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Süleymanlılar cemaatine \"seçimi etkileme\" isnadı: 29 gözaltı, 23 şirkete kayyım",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Kayda göre Ankara Cumhuriyet Başsavcılığı, cemaatin \"seçim süreçlerini etkilemeye yönelik organizasyonel ve finansal faaliyetlerde bulunduğuna\" ilişkin bulgu elde ettiğini öne sürmüş; ancak hangi seçim sürecinin hangi yöntemlerle etkilenmeye çalışıldığına dair bilgi vermemiş [34948cbe40]. Gözaltıyla birlikte 23 şirkete kayyım atanması, merkezin malvarlığı dosyalarında izlediği kalıbın aynısı: ceza soruşturmasına bağlı idari-mali tedbirin, isnadın içeriği açıklanmadan ve bireysel yargısal denetim gösterilmeden uygulanması. Çokbilgin ve Ayvaz kararında Bakanlar Komitesi tam da bu noktada — bireysel yargısal denetim ve usul güvencesi olmaksızın otomatik dondurma — genel tedbir denetimini Uzan ve Diğerleri grubunda açık tutmuştu [001-252500].",
+   "kayitlar": [
+    "34948cbe40"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-09-20:toplu:3",
+   "tur": "izlenen dosyada hareket",
+   "duzey": "orta",
+   "baslik": "3 takip dosyasında hareket var",
+   "alan": "",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki icra denetimi; İzmir'de insani yardım isnadıyla yürütülen Gülen soruşturmasında gözal",
+   "kayitlar": [
+    "0fdf670903",
+    "5496bb6c29",
+    "ac1a1ef227"
+   ],
+   "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  }
+ ]
 }

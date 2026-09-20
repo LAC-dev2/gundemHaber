@@ -7,7 +7,7 @@
    "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-20",
    "kayitlar": [
     "164e080299",
     "6aa16a463f",
@@ -41,6 +41,13 @@
      "not": "BM İnsan Hakları Ofisi, Türkiye'ye \"keyfi olarak gözaltına alınanların\" derhal serbest bırakılması çağrısı yaptı ve 150'den fazla LGBTİQ+ birey ile insan hakları savunucusunun toplu gözaltına alındığı yönündeki raporlardan \"çok kaygılı\" olduğunu bildirdi [9da2d465f8]. Bu, dosyada ilk kez bir BM organının resmi olarak devreye girmesi anlamına geliyor; sayı, önceki günlerin analizlerinde geçen 82 tutuklu / 106 serbest bırakılan dağılımından farklı bir kategoriyi (toplam gözaltı) ifade ediyor olabilir, kayıtlar bu ayrımı netleştirmiyor. Derneklere yönelik kapatma davası ve erişim engelleri konusunda bugün kayıt yok.",
      "kayitlar": [
       "9da2d465f8"
+     ]
+    },
+    {
+     "gun": "2026-09-20",
+     "not": "Türkiye'nin Washington Büyükelçiliği önünde Council for Global Equality, Amnesty International USA ve Outright International'ın düzenlediği protesto yapıldı. Gözaltı ve tutuklu sayılarında bugün yeni veri yok.",
+     "kayitlar": [
+      "0fdf670903"
      ]
     }
    ]
@@ -164,7 +171,7 @@
    "neden": "Gazetecinin iki yıl önce yayımlanmış bir yazı üzerinden tutuklanması ve bakanlık genelgesinin yargıya müdahale olarak nitelenmesi, 10. madde ve yargı bağımsızlığı dosyalarında ayrı bir izleme başlığı gerektiriyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-19",
    "kayitlar": [
     "89ee1abf99",
     "fd403aaaec"
@@ -176,6 +183,14 @@
      "kayitlar": [
       "fd403aaaec",
       "89ee1abf99"
+     ]
+    },
+    {
+     "gun": "2026-09-19",
+     "not": "İstanbul'daki duruşmalarda Pınar Gayıp ve Elif Bayburt yedi aylık tutukluluktan sonra ilk duruşmada tahliye edildi, Nadiye Gürbüz tutuklu kaldı; CPJ üç gazeteci hakkındaki suçlamaların düşürülmesini istedi. Kayıtlar 18 Eylül'e ait.",
+     "kayitlar": [
+      "a156cf2c0d",
+      "80c0145bf8"
      ]
     }
    ]
@@ -309,8 +324,118 @@
     "b5c491d48e"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t16",
+   "baslik": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki icra denetimi ve yeni yasanın başvuruculara uygulanabilirliği",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Komite çağrısını yinelemiş ve Türkiye'den yeni yasanın dosyadaki başvuruculara uygulanıp uygulanamayacağına ilişkin bilgi istemiş; yanıtın içeriği ve Komite'nin bir sonraki toplantıda alacağı tutum, dosyanın hangi icra kategorisine gireceğini belirleyecek.",
+   "acildi": "2026-09-19",
+   "durum": "açık",
+   "son_hareket": "2026-09-20",
+   "kayitlar": [
+    "7b967d6b61",
+    "37c46a9863"
+   ],
+   "gelismeler": [
+    {
+     "gun": "2026-09-20",
+     "not": "Kararın Strazburg'daki bir insan hakları toplantısında alındığı ve talebin bağlayıcı AİHM kararlarına dayandığı kaydedildi. Komite'nin sorduğu \"yeni yasa\"nın hangi düzenleme olduğu hâlâ doğrulanmadı.",
+     "kayitlar": [
+      "5496bb6c29"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t17",
+   "baslik": "İzmir'de insani yardım isnadıyla yürütülen Gülen soruşturmasında gözaltındakilerin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Yardım faaliyetinin örgüt üyeliği isnadında unsur olarak gösterilmesi, merkezin delil değeri tartışmasına doğrudan giriyor; 21 kişiden kaçının tutuklandığı henüz kayıtlarda yok.",
+   "acildi": "2026-09-19",
+   "durum": "açık",
+   "son_hareket": "2026-09-20",
+   "kayitlar": [
+    "c7595fa307"
+   ],
+   "gelismeler": [
+    {
+     "gun": "2026-09-20",
+     "not": "İzmir'deki 21 gözaltı ikinci bir kaynakla doğrulandı; kayıt bilgiyi Stockholm Center for Freedom ve TR724'e dayandırıyor. Tutuklama/serbest bırakma dağılımı hâlâ kayıtlarda yok.",
+     "kayitlar": [
+      "ac1a1ef227"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t18",
+   "baslik": "Benli kararının icrası: dosyanın hangi Bakanlar Komitesi grubuna gireceği ve 15 Aralık 2026 ödeme süresi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Kararın genel tedbir gerektirip gerektirmediği ve UYAP'ta avukat yazışmasının saklanmasına ilişkin bir düzenleme değişikliği istenip istenmeyeceği, dosyanın atandığı grupla belli olacak.",
+   "acildi": "2026-09-19",
+   "durum": "açık",
+   "son_hareket": "2026-09-19",
+   "kayitlar": [
+    "001-252298"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t19",
+   "baslik": "Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve gözaltına alınan 29 kişinin akıbeti",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Kayyım kararlarının bireyselleştirilmiş gerekçe taşıyıp taşımadığı, Bakanlar Komitesi'nin Uzan grubunda açık tuttuğu \"bireysel yargısal denetim olmaksızın otomatik dondurma\" başlığıyla doğrudan kesişiyor.",
+   "acildi": "2026-09-20",
+   "durum": "açık",
+   "son_hareket": "2026-09-20",
+   "kayitlar": [
+    "34948cbe40",
+    "001-252500"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t20",
+   "baslik": "Kozinoğlu soruşturmasında eski Cihan Haber Ajansı mensuplarının gözaltısı ve on beş yıllık haberin isnattaki yeri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Yayının kendisinin gözaltı sebebi yapılması, merkezin ifade özgürlüğü dosyalarında ayrı bir kalem; gözaltıların hukuki nitelemesi ve avukata erişim henüz bilinmiyor.",
+   "acildi": "2026-09-20",
+   "durum": "açık",
+   "son_hareket": "2026-09-20",
+   "kayitlar": [
+    "e7200a4c4a"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t21",
+   "baslik": "PKK/KCK'ya ilişkin özel yasa iddiası ve Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle ilişkisi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Komite'nin sorduğu \"Meclis'ten geçen yeni yasa\" hâlâ tanımlanmadı; elimizdeki tek değinme bir köşe yazısı. Yasanın metni ve kapsamı, dosyanın icra kategorisini belirleyecek.",
+   "acildi": "2026-09-20",
+   "durum": "açık",
+   "son_hareket": "2026-09-20",
+   "kayitlar": [
+    "dfe62c4828",
+    "7b967d6b61"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t22",
+   "baslik": "Cemil Kırbayır dosyasında gözaltında kaybetme soruşturmasının zamanaşımı gerekçesiyle durdurulması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Gözaltında kaybetme iddialarında zamanaşımının soruşturmayı kesmesi, usul yükümlülüğü tartışmasının çekirdeğinde; dosya 46 yıldır açık.",
+   "acildi": "2026-09-20",
+   "durum": "açık",
+   "son_hareket": "2026-09-20",
+   "kayitlar": [
+    "955ca9dc26"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-18T09:02+00:00",
- "acik": 15
+ "guncelleme": "2026-09-20T13:08+00:00",
+ "acik": 22
 }

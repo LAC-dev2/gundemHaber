@@ -594,9 +594,9 @@ function birincilBlok(a) {
         </div>
         <h4>${belge ? `<a href="${esc(belge.url)}" target="_blank" rel="noopener noreferrer">${esc(belge.ad)} ↗</a>` : esc(b.baslik)}</h4>
         ${belge ? `<p class="bk-konu">${esc(b.baslik)}</p>` : ''}
-        <p><b>Mahkeme ne dedi:</b> ${esc(b.ne_dedi)}</p>
-        ${b.merkez_icin ? `<p><b>Merkez için:</b> ${esc(b.merkez_icin)}</p>` : ''}
-        ${b.haberle_fark ? `<p class="bk-fark"><b>Haber kayıtlarıyla fark:</b> ${esc(b.haberle_fark)}</p>` : ''}
+        <p><b>Mahkeme ne dedi:</b> ${refliMetin(b.ne_dedi, a.kullanilan_kayitlar)}</p>
+        ${b.merkez_icin ? `<p><b>Merkez için:</b> ${refliMetin(b.merkez_icin, a.kullanilan_kayitlar)}</p>` : ''}
+        ${b.haberle_fark ? `<p class="bk-fark"><b>Haber kayıtlarıyla fark:</b> ${refliMetin(b.haberle_fark, a.kullanilan_kayitlar)}</p>` : ''}
         ${denetimIsareti(a, 'bir' + (i + 1))}
       </article>`;
     }).join('')}</div>
@@ -634,9 +634,9 @@ function analizGovde(a) {
         <h4>${esc(d.baslik)}</h4>
         <dl>
           <dt>Elimizde ne var</dt><dd>${refliMetin(d.elimizde, d.kayitlar || [])}</dd>
-          <dt>Ne eksik</dt><dd>${esc(d.eksik)}</dd>
-          <dt>İzlenecek adım</dt><dd>${esc(d.izlenecek_adim)}</dd>
-          <dt>Merkez için dayanak</dt><dd>${esc(d.dayanak)}</dd>
+          <dt>Ne eksik</dt><dd>${refliMetin(d.eksik, d.kayitlar || [])}</dd>
+          <dt>İzlenecek adım</dt><dd>${refliMetin(d.izlenecek_adim, d.kayitlar || [])}</dd>
+          <dt>Merkez için dayanak</dt><dd>${refliMetin(d.dayanak, d.kayitlar || [])}</dd>
         </dl>
         ${kayitBaglari(d.kayitlar || [])}
       </article>`).join('')}
@@ -666,7 +666,7 @@ function analizGovde(a) {
         ${(o.ayrintilar || []).length ? `<ul class="ayrinti">${o.ayrintilar.map((x) =>
           `<li>${refliMetin(x, o.kayitlar)}</li>`).join('')}</ul>` : ''}
         ${o.karsi_okuma ? `<p class="karsi-okuma"><b>Bu kayıtlar şunu göstermiyor:</b>
-          ${esc(o.karsi_okuma)}</p>` : ''}
+          ${refliMetin(o.karsi_okuma, o.kayitlar)}</p>` : ''}
         ${denetimIsareti(a, 'one' + (i + 1))}
         ${kayitBaglari(o.kayitlar)}
       </li>`).join('')}</ol></section>` : ''}
@@ -753,7 +753,7 @@ function sentezGovde(s) {
       <div class="hareket">${s.dosya_seyri.map((d) => `<div class="hareket-satir ${d.hareket === 'sessiz' ? 'kapandi' : ''}">
         <div class="hs-ust"><span class="tag ${HAREKET[d.hareket] || ''}">${esc(d.hareket)}</span>
           <b>${esc(d.baslik)}</b></div>
-        ${d.not ? `<p>${esc(d.not)}</p>` : ''}
+        ${d.not ? `<p>${esc(refsiz(d.not))}</p>` : ''}
         ${gunler(d.gunler)}</div>`).join('')}</div></section>` : ''}
 
     ${(s.karsilanmayan_beklentiler || []).length ? `<section class="analiz-blok">
@@ -761,7 +761,7 @@ function sentezGovde(s) {
       <ol class="beklenti">${s.karsilanmayan_beklentiler.map((b) => `<li>
         <b>${esc(b.beklenti)}</b>
         <span class="tk-kunye">${gunEtiket(b.gun)} tarihli brifingde izlenecek denmişti</span>
-        <p>${esc(b.not)}</p>
+        <p>${esc(refsiz(b.not))}</p>
       </li>`).join('')}</ol></section>` : ''}
 
     ${(s.tek_seferlikler || []).length ? `<section class="analiz-blok">
