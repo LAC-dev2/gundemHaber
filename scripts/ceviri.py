@@ -179,6 +179,7 @@ def main() -> int:
     client = anthropic.Anthropic()
     bekleyen = bekleyen[: args.adet]
     girdi = cikti = 0
+    hata_nedeni = ""
 
     for bas in range(0, len(bekleyen), YIGIN):
         yigin = bekleyen[bas: bas + YIGIN]
@@ -192,7 +193,18 @@ def main() -> int:
                 output_config={"format": {"type": "json_schema", "schema": sema(len(yigin))}},
             )
         except Exception as hata:                     # bir yığın düşerse diğerleri sürsün
-            print(f"  yığın atlandı: {type(hata).__name__}")
+            # Nedeni yazmak sart: yalnizca sinif adi basiliyordu ve is akisi
+            # da continue-on-error ile yesil kaldigi icin, kredi tukendiginde
+            # ceviri iki gun boyunca sessizce durdu. Hesap/anahtar duzeyindeki
+            # hatalarda kalan yiginlari denemenin de anlami yok.
+            mesaj = getattr(hata, "message", None) or str(hata)
+            print(f"::warning::çeviri yığını atlandı ({type(hata).__name__}): {mesaj}")
+            kod = getattr(hata, "status_code", None)
+            if kod in (400, 401, 402, 403) or "credit balance" in mesaj.lower():
+                print(f"::error::çeviri durduruldu; kalan {len(bekleyen) - bas} kayıt "
+                      f"çevrilmedi. Neden: {mesaj}")
+                hata_nedeni = mesaj
+                break
             continue
         if yanit.stop_reason == "refusal":
             continue
@@ -222,6 +234,8 @@ def main() -> int:
     tutar = girdi / 1e6 * g + cikti / 1e6 * c
     print(f"çeviri bitti: {girdi} girdi / {cikti} çıktı token · ≈ ${tutar:.3f} · {args.model}")
     yaz(latest, latest_yol, onbellek)
+    if hata_nedeni:
+        return 1
     return 0
 
 
