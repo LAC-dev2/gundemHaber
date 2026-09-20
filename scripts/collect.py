@@ -174,6 +174,42 @@ CTA_KUYRUK = re.compile(
     r"|bizi\s+takip\s+ed\w*|s'abonner|inscrivez-vous)\b.{0,160}$", re.I)
 
 
+# Fotograf altyazisi + telif satiri. HRW gibi kaynaklarda akistaki ozet
+# haberin kendisiyle degil gorselin kunyesiyle basliyor:
+#   "Human rights lawyers ... December 5, 2025. (c) 2025 AFP via Getty
+#    Images (New York) - Pakistani authorities on September 17, 2026..."
+# Okuyan icin gurultu; ceviriye ve analize de bu metin gidiyordu. Kunyeden
+# sonra haber ya bir tarih satiriyla ("(New York) - ") ya da dogrudan
+# govdeyle basliyor; ikinci durumda kunyenin son sozcugu ajans adi oluyor.
+KUNYE_SONU = re.compile(
+    r"\b(?:Photos?|Images|Reuters|REUTERS|Watch|Wikimedia|Media|Agency"
+    r"|Private|Handout|Archive|Pictures)\b")
+TARIH_SATIRI = re.compile(r"\([^()]{1,60}(?:\)\s*[\u2013\u2014-]\s|\u2026|$)")
+
+
+def kunyeyi_at(ozet: str) -> str:
+    """Ozetin basindaki gorsel altyazisini ve telif satirini atar."""
+    i = ozet.find("\u00a9")
+    if i < 0 or i > 400:
+        return ozet
+    tarih = TARIH_SATIRI.search(ozet[i:i + 160])
+    if tarih:                                   # "(New York) - " kaldirilmaz
+        kalan = ozet[i + tarih.start():].lstrip()
+    else:
+        # Kunye kisa oluyor (en uzunu ~50 karakter). Pencereyi dar tutmak
+        # sart: 160 karakterde arayinca govdedeki "Environmental Protection
+        # Agency" son eslesme olup cumlenin basini yutuyordu.
+        son = None
+        for m in KUNYE_SONU.finditer(ozet[i:i + 70]):
+            son = m
+        if not son:
+            return ozet
+        kalan = ozet[i + son.end():].lstrip()
+    # Geriye altyazidan baska bir sey kalmadiysa bos don: tidy_summary'nin
+    # kendi uzunluk kurali ozeti dusurur, kunye ozet diye gosterilmez.
+    return kalan
+
+
 def tidy_summary(text: str, title: str) -> str:
     """Ozetten baslik tekrarini, CMS kaliplarini ve yalin imza satirlarini ayiklar."""
     out = text.strip()
@@ -184,6 +220,7 @@ def tidy_summary(text: str, title: str) -> str:
         if trimmed == out:
             break
         out = trimmed
+    out = kunyeyi_at(out)
     esle = CTA_KUYRUK.search(out)
     if esle:
         kirpik = out[: esle.start()].strip(" >›»|·–—-")
