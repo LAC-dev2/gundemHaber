@@ -1,0 +1,324 @@
+{
+ "baslik": "Operasyon sayıları durdu, denetim ve kayyım-tedbir hattı öne çıktı",
+ "ozet": "Haftanın ilk yarısına LGBTİ+ ve hak savunucularına yönelik operasyon damga vurdu; 17 Eylül'de tutuklu sayısı bandı 82'ye kadar çıktıktan sonra sayısal veri akışı durdu ve dosya sayı takibinden uluslararası tepki takibine geçti. 18 Eylül'de BM İnsan Hakları Ofisi'nin serbest bırakma çağrısı, 20 Eylül'de Washington'daki STK protestosu bu geçişin iki uğrağı; buna karşılık 62/82/150+ rakamlarının hangi evreyi ölçtüğü hafta kapanırken hâlâ belirsiz. İkinci süregelen hat, gazetecilik faaliyetinin doğrudan isnat unsuru sayılması: 19 Eylül'de İstanbul'da iki tahliye-bir tutukluluk devamı, 20 Eylül'de on beş yıl önceki bir haber nedeniyle eski Cihan muhabirlerinin gözaltısı. Üçüncü hat, ceza soruşturmasına bağlı idari-mali tedbirlerin isnat içeriği açıklanmadan uygulanması; Boydak dosyasındaki şirket devirleri ile Süleymanlılar soruşturmasında 23 şirkete kayyım atanması aynı kalıba oturuyor ve Bakanlar Komitesi'nin Uzan grubunda açık tuttuğu genel tedbir sorusuyla kesişiyor. AİHM icra ayağında hafta iki katmanda ilerledi: 2 Eylül tarihli üç icra kararı ile Benli kararı 17 Eylül'de kayda girdi, 19-20 Eylül'de Demirtaş ve Yüksekdağ dosyasında Komite'nin yinelenen tahliye çağrısı ve yeni yasa sorusu eklendi. Gülen soruşturmalarında isnadın dayanağı olarak sıradan sivil faaliyetin gösterilmesi (Ankara'da evlilik ayarlama, İzmir'de insani yardım) iki ayrı dosyada tekrarlandı. Hafta boyunca yeni AİHM karar metni inmedi; elde dört birincil belge sabit kaldı. Günlük brifinglerde tekrarlanan beklentilerin önemli bölümü (genelge metni, Benli'nin icra grubu, Boydak'a bakanlık yanıtı) karşılıksız kaldı.",
+ "egilimler": [
+  {
+   "baslik": "LGBTİ+ operasyonunda sayısal veri durdu, tepki katmanı büyüdü",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "sabit",
+   "not": "17 Eylül'de tutuklu bandı 82'ye çıktı, 106 kişi serbest bırakıldı ve erişim engelleri gazeteci ile kadın örgütü hesaplarına yayıldı. 18 Eylül'den itibaren yeni gözaltı/tutuklu verisi gelmedi; bunun yerine BM İnsan Hakları Ofisi'nin çağrısı ve 20 Eylül'deki Washington protestosu kaydedildi. Sayı kategorileri arasındaki tutarsızlık (82 tutuklu, 106 serbest, 150+ gözaltı) hafta boyunca giderilmedi.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Gazetecilik faaliyetinin isnat unsuru olarak kullanılması",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "güçleniyor",
+   "not": "17 Eylül'de operasyon kapsamındaki gazeteci tutuklamaları ve dört kez reddedilen iddianameyle açılan dava kaydedildi. 19 Eylül'de CPJ, üç gazeteci bakımından gazetecilik faaliyetinin örgüt üyeliği isnadında delil sayıldığını belirtti; aynı gün yedi aylık tutukluluk sonrası iki tahliye oldu, bir gazeteci tutuklu kaldı. 20 Eylül'de on beş yıl önce yayımlanmış bir haber, Kozinoğlu soruşturmasında gözaltı dayanağı olarak göründü.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Ceza soruşturmasına bağlı şirket/malvarlığı tedbirleri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "yon": "güçleniyor",
+   "not": "17 Eylül'de Boydak kaydı 35 şirketin devlete devri ve satış tutarlarını içeriyordu; aynı gün Çokbilgin ve Ayvaz icra kararında otomatik ve ayrım gözetmeyen dondurmaya ilişkin genel tedbirler Uzan grubunda açık bırakıldı. 20 Eylül'de Süleymanlılar soruşturmasında 29 gözaltıyla birlikte 23 şirkete kayyım atandı; savcılığın dayandığı 'seçim süreçlerini etkileme' bulgusunun içeriği açıklanmadı. Kalıp aynı: isnadın içeriği ve bireysel yargısal denetim gösterilmeden mali tedbir uygulanması.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-20"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Bakanlar Komitesi'nin Türkiye denetiminin genişlemesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "yon": "güçleniyor",
+   "not": "Hafta başında denetim yalnızca 2 Eylül tarihli üç icra kararı (Uzan ve Türk gruplarında açık kalan genel tedbirler) üzerinden izleniyordu. 19 Eylül'de Demirtaş ve Yüksekdağ dosyasında tahliye çağrısının yinelenmesi ve Meclis'ten geçen yeni yasanın başvuruculara uygulanabilirliğine ilişkin soru eklendi. 20 Eylül'de kararın Strazburg'daki insan hakları toplantısında alındığı kaydedildi; karar sayısı ve tam metin hâlâ elde değil.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Gülen soruşturmalarında sivil faaliyetin isnat dayanağı yapılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "yon": "sabit",
+   "not": "17 Eylül'de Ankara'da 'evlilik ayarlayan yapı' iddiasıyla 28 kişilik gözaltı kararı kaydedildi. 19 Eylül'de İzmir'de ihtiyaç sahiplerine insani yardım isnadını da içeren soruşturmada 21 gözaltı bildirildi, 20 Eylül'de ikinci kaynakla doğrulandı. Her iki dosyada da gözaltıların tutuklama/serbest bırakma dağılımı ve isnadın hukuki nitelemesi kayıtlara girmedi.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20"
+   ],
+   "guven": "orta"
+  }
+ ],
+ "dosya_seyri": [
+  {
+   "id": "t1",
+   "baslik": "\"Ailem Güvende\" operasyonu: tutuklu sayısı, kapatma davası, erişim engelleri",
+   "hareket": "ilerledi",
+   "not": "Sayısal veri 17 Eylül'de zirve yaptı, sonrasında durdu. Dosya 18 Eylül'de BM İnsan Hakları Ofisi'nin, 20 Eylül'de ABD merkezli STK koalisyonunun devreye girmesiyle uluslararası zemine taşındı. Mersin'deki iki derneğe yönelik kapatma davası ve erişim engelleri konusunda 17 Eylül'den sonra yeni kayıt yok.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "t2",
+   "baslik": "Ankara'daki \"evlilik ayarlama\" iddialı Gülen soruşturması",
+   "hareket": "yerinde",
+   "not": "17 Eylül'de rakam bandının alt ucu (28 kişilik gözaltı kararı) tek kaynakla teyit edildi. Kalan yakalama kararlarının infazına ve tutuklama sayılarına ilişkin hafta içinde yeni kayıt gelmedi.",
+   "gunler": [
+    "2026-09-17"
+   ]
+  },
+  {
+   "id": "t3",
+   "baslik": "AİHM'deki derdest başvuru birikimi ve Yalçınkaya grubu",
+   "hareket": "yerinde",
+   "not": "Derdest başvuru sayısına ilişkin veri hafta boyunca gelmedi. 17 Eylül'de 2 Eylül tarihli üç icra kararı ile Benli kararı metniyle kayda girdi; sonraki üç gün yeni karar metni inmedi.",
+   "gunler": [
+    "2026-09-17"
+   ]
+  },
+  {
+   "id": "t4",
+   "baslik": "KHK ihraçlarının istihdam ve mali durum verileri",
+   "hareket": "yerinde",
+   "not": "17 Eylül'de yüzde 79 işe alınmama ve yüzde 73,4 ciddi mali kayıp verileri ikinci kez kayda girdi. Örneklem büyüklüğü ve yöntem verilmedi; hafta içinde tamamlayıcı bilgi gelmedi.",
+   "gunler": [
+    "2026-09-17"
+   ]
+  },
+  {
+   "id": "t5",
+   "baslik": "Boydak dosyası: işitme cihazı, koğuş doluluğu, sağlık erişimi",
+   "hareket": "yerinde",
+   "not": "17 Eylül'de işitme cihazının Bluetooth özelliği nedeniyle alınması ve cezaevi koşulları iddiaları kaydedildi; kayıt ayrıca 35 şirketin devlete devrine ilişkin verileri içeriyordu. 19 Eylül brifingi dosyada 18 Eylül kaydı dışında gelişme olmadığını belirtti; bakanlık yanıtı gelmedi.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-18"
+   ]
+  },
+  {
+   "id": "t6",
+   "baslik": "AYM'nin darbe/ihraç bağlantılı ihlal kararları (Serdar Uzel; yayın el koyma)",
+   "hareket": "yerinde",
+   "not": "17 Eylül'de iki AYM ihlal kararı başlık-özet düzeyinde kayda girdi: gerekçeli karar hakkı ve yayın el koyma kararlarının süresizleşmesi. Karar metinleri elde değil, hafta içinde tamamlayıcı kayıt gelmedi.",
+   "gunler": [
+    "2026-09-17"
+   ]
+  },
+  {
+   "id": "t7",
+   "baslik": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması ve bakanlık genelgesi",
+   "hareket": "ilerledi",
+   "not": "19 Eylül'de dosyada ilk usul verisi oluştu: yedi aylık tutukluluk sonrası iki tahliye, bir gazetecinin tutukluluğunun devamı. Adalet Bakanlığı genelgesinin metni ve savcılara talimat niteliğine yönelik itirazlar bakımından hafta boyunca hareket yok.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-19"
+   ]
+  },
+  {
+   "id": "t8",
+   "baslik": "Bakanlar Komitesi genel tedbir grupları (Uzan ve Diğerleri, Türk)",
+   "hareket": "yerinde",
+   "not": "17 Eylül'de üç icra kararıyla grupların açık kaldığı teyit edildi, 18 Eylül'de dosya derinleştirildi. Grupların bir sonraki DH toplantısı gündemine alınıp alınmadığına dair bilgi gelmedi. 20 Eylül'deki kayyım kaydı, Uzan grubundaki genel tedbir sorusuyla içerik olarak kesişiyor.",
+   "gunler": [
+    "2026-09-17",
+    "2026-09-18"
+   ]
+  },
+  {
+   "id": "t9",
+   "baslik": "Elektronik delil rejimi ve SIRIUS irtibat noktaları ağı",
+   "hareket": "ilerledi",
+   "not": "18 Eylül'de iki Europol kaydı geldi: 15-16 Eylül'de Berlin'de yapılan 7. SPoC ağı toplantısı ve ceza soruşturmalarının yarısından fazlasının sınıraşan e-delil talebi içerdiği tespiti. Toplantı çıktıları ve rapor metni yayımlanmadı.",
+   "gunler": [
+    "2026-09-18"
+   ]
+  },
+  {
+   "id": "t10",
+   "baslik": "Belarus'ta zorunlu sınır dışı karşılığı tahliye ve yaptırım kaldırmaları",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t11",
+   "baslik": "Hakaret/eleştiri davaları: Kaftancıoğlu ve MHP dosyası",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t12",
+   "baslik": "AK tematik belgesi ve EUAA 2026 yarı yıl iltica verileri",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t13",
+   "baslik": "Basın İlân Kurumu Yönetmeliğinde 18 Eylül 2026 değişikliği",
+   "hareket": "yerinde",
+   "not": "18 Eylül'de değişikliğin Resmî Gazete'de yayımlandığı ve 3. maddedeki tanım fıkrasına dokunulduğu kaydedildi. Tam metin, kapsam ve resmî ilan kesme ölçütlerine etkisi hafta kapanırken belirsiz kaldı.",
+   "gunler": [
+    "2026-09-18"
+   ]
+  },
+  {
+   "id": "t14",
+   "baslik": "Massimo Moratti'ye Sırbistan'ın verdiği sınır dışı kararı",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t15",
+   "baslik": "Rechtbank Zeeland-West-Brabant'ın birleşik iltica kararları",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t16",
+   "baslik": "Demirtaş ve Yüksekdağ dosyasında icra denetimi ve yeni yasa",
+   "hareket": "ilerledi",
+   "not": "19 Eylül'de Komite'nin tahliye çağrısını yinelediği ve yeni yasanın başvuruculara uygulanabilirliğini sorduğu kaydedildi. 20 Eylül'de kararın Strazburg'daki insan hakları toplantısında alındığı ve talebin bağlayıcı AİHM kararlarına dayandığı eklendi. Karar sayısı, tarihi ve tam metin hâlâ elde değil.",
+   "gunler": [
+    "2026-09-19",
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "t17",
+   "baslik": "İzmir'de insani yardım isnadıyla yürütülen Gülen soruşturması",
+   "hareket": "yerinde",
+   "not": "19 Eylül'de 21 gözaltı kaydedildi, 20 Eylül'de ikinci bir kaynakla doğrulandı. Tutuklama/serbest bırakma dağılımı ve isnadın hukuki nitelemesi kayıtlarda yok.",
+   "gunler": [
+    "2026-09-19",
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "t18",
+   "baslik": "Benli kararının icrası: Bakanlar Komitesi grubu ve ödeme süresi",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t19",
+   "baslik": "Süleymanlılar soruşturması: 23 şirkete kayyım, 29 gözaltı",
+   "hareket": "yerinde",
+   "not": "20 Eylül'de tek kayıtla açıldı; savcılığın 'seçim süreçlerini etkileme' bulgusuna dayandığı ancak hangi seçim sürecinin hangi yöntemle etkilendiğini açıklamadığı belirtiliyor. Kayyım kararlarının dayanağı, itiraz yolu ve tutuklama sayıları bilinmiyor.",
+   "gunler": [
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "t20",
+   "baslik": "Kozinoğlu soruşturmasında eski Cihan mensuplarının gözaltısı",
+   "hareket": "yerinde",
+   "not": "20 Eylül'de Silivri Başsavcılığı'nın soruşturmasında İstanbul ve Tekirdağ'da dört gözaltı kaydedildi; dayanağın on beş yıl önce yayımlanmış bir haber olduğu bildiriliyor. Gözaltına alınanların sıfatı ve isnadın hukuki nitelemesi kayıtlarda yok.",
+   "gunler": [
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "t21",
+   "baslik": "PKK/KCK'ya ilişkin özel yasa iddiası ve Demirtaş dosyasıyla ilişkisi",
+   "hareket": "yerinde",
+   "not": "20 Eylül'de bir köşe yazısı kaydı, PKK/KCK mensupları için çıkarılan özel bir yasanın tahliye ve infaz erteleme yolları açtığını öne sürdü. Bu iddianın Komite'nin sorduğu düzenlemeyle aynı olup olmadığı kayıtlardan çıkmıyor; doğrulanmış olgu değil.",
+   "gunler": [
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "t22",
+   "baslik": "Cemil Kırbayır dosyasında zamanaşımı gerekçesiyle durdurma",
+   "hareket": "yerinde",
+   "not": "20 Eylül'de Cumartesi Anneleri'nin 1121. hafta açıklaması üzerinden tek kayıt girdi. Soruşturmanın usuli durumuna ilişkin belge ya da karar elde değil.",
+   "gunler": [
+    "2026-09-20"
+   ]
+  }
+ ],
+ "tek_seferlikler": [
+  {
+   "baslik": "Basın İlân Kurumu Yönetmeliği değişikliği",
+   "gun": "2026-09-18",
+   "not": "18 Eylül tarihli Resmî Gazete'de yayımlanan değişiklik yalnızca 3. maddedeki tanım fıkrasına ilişkin kayıtla geçti. Resmî ilan yaptırımının kapsamına etkisi hafta içinde netleşmedi."
+  },
+  {
+   "baslik": "MFRR araştırmacısı Massimo Moratti'ye Sırbistan'da sınır dışı kararı",
+   "gun": "2026-09-18",
+   "not": "İnsan hakları çalışmasıyla bağlantılı görünen bir idari tedbir olarak kaydedildi. Hukuki dayanağı ve itiraz/askıya alma bilgisi gelmedi."
+  },
+  {
+   "baslik": "Cemil Kırbayır soruşturmasının zamanaşımı gerekçesiyle ilerlememesi",
+   "gun": "2026-09-20",
+   "not": "Cumartesi Anneleri'nin 1121. hafta açıklaması üzerinden tek kayıt olarak girdi. Gözaltında kaybetme dosyalarında zamanaşımı uygulamasına ilişkin başka kayıt yok."
+  },
+  {
+   "baslik": "Üsküdar'da muhalif meclis üyesinin oylama öncesi tutuklanması",
+   "gun": "2026-09-19",
+   "not": "İfade ve basın özgürlüğü alanına giren tek kayıt olarak geçti; devamı gelmedi."
+  }
+ ],
+ "karsilanmayan_beklentiler": [
+  {
+   "beklenti": "LGBTİ+ operasyonunda tutuklu sayısının netleşmesi ve iddianame hazırlanıp hazırlanmadığı",
+   "gun": "2026-09-17",
+   "not": "Sayı bandı netleşmedi; 18 Eylül'de eklenen 150+ rakamı kategori farkını daha da belirsizleştirdi. İddianameye ilişkin hiçbir kayıt gelmedi, izlenmeye devam etmeli."
+  },
+  {
+   "beklenti": "Adalet Bakanlığı genelgesinin metni ve savcılara talimat niteliğine yönelik itirazların sonucu",
+   "gun": "2026-09-17",
+   "not": "Hafta boyunca genelgeye ilişkin tek bir kayıt dahi gelmedi. t7'nin ikinci ayağı olduğu için açık kalmalı."
+  },
+  {
+   "beklenti": "Benli kararının icrası ve UYAP kaydı pratiğine ilişkin genel tedbir bildirimi",
+   "gun": "2026-09-17",
+   "not": "Beklenti 19 ve 20 Eylül'de de yinelendi, karşılığı gelmedi. Dosyanın hangi Bakanlar Komitesi grubuna gireceği bilinmiyor."
+  },
+  {
+   "beklenti": "Boydak dosyasındaki işitme cihazı ve cezaevi koşulları iddialarına Adalet Bakanlığı'nın yanıtı",
+   "gun": "2026-09-17",
+   "not": "18 Eylül'den sonra dosyada hareket yok, yanıt kaydedilmedi. Sağlık erişimi iddiası açık kalıyor."
+  }
+ ],
+ "onumuzdeki_hafta": [
+  "Demirtaş/Yüksekdağ kararının tam metni, karar sayısı ve toplantı tarihi; Komite'nin sorduğu \"yeni yasa\"nın hangi düzenleme olduğu ve PKK/KCK özel yasa iddiasıyla ilişkisi",
+  "Süleymanlılar soruşturmasında kayyım kararlarının dayanağı, itiraz yolu ve 29 kişiden kaçının tutuklandığı",
+  "İzmir'deki 21 gözaltı ile Ankara'daki 28 kişilik gözaltı kararının tutuklama/serbest bırakma dağılımı",
+  "LGBTİ+ operasyonunda iddianame ve ilk duruşma takvimi; Mersin'deki iki derneğe yönelik kapatma davasının durumu",
+  "Benli kararının hangi icra grubuna alındığı ile Uzan ve Diğerleri ve Türk gruplarının bir sonraki DH gündemi"
+ ],
+ "baslangic": "2026-09-17",
+ "bitis": "2026-09-20",
+ "gun_sayisi": 4,
+ "kullanilan_gunler": [
+  "2026-09-17",
+  "2026-09-18",
+  "2026-09-19",
+  "2026-09-20"
+ ],
+ "olusturma": "2026-09-20T19:14+00:00",
+ "model": "claude-opus-5",
+ "maliyet_usd": 0.4006,
+ "uyari": "Bu sentez, günlük brifinglerin kendisine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz."
+}
