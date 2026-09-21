@@ -159,8 +159,11 @@
         <code>data/health.json</code> içinde tutulur. Kaynaklar sekmesinde "kaç gündür kayıt
         yok" ya da "akış hatası" olarak görünür; kendi tarama sıklığına göre gecikenler
         "sorunlu kaynaklar" süzgeciyle listelenir.</li>
-      <li><b>Günlük analiz:</b> Sabah taramasının ardından, o günün kayıtları
-        merkezin çalışma alanlarına göre değerlendirilir (Claude API). Model
+      <li><b>Günlük analiz:</b> Sabah taramasının ardından, <b>bir önceki
+        brifingten bu yana</b> gelen kayıtlar merkezin çalışma alanlarına göre
+        değerlendirilir (Claude API) — takvim günü değil, son brifingten geçen
+        süre esas alınır, böylece gece ve hafta sonu gelen gelişmeler
+        atlanmaz. Model
         yalnızca verilen kayıtları kullanır, her maddede dayandığı kayıtları ve
         güven düzeyini gösterir; hukuki tavsiye üretmez. Sonuç Analiz sekmesinde.
         Analiz her gün sıfırdan başlamaz: önceki günlerin başlıkları ve açık takip

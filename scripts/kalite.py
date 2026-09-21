@@ -114,12 +114,14 @@ def main() -> int:
                                   "fable51:claude-fable-5-1:high"]
     gun = args.gun or datetime.now(timezone.utc).date().isoformat()
     latest = json.loads((DATA / "latest.json").read_text(encoding="utf-8"))
-    secilen = analiz.kayitlari_sec(latest["haberler"], gun, args.adet)
+    pencere = analiz.pencere_basi(gun)
+    secilen = analiz.kayitlari_sec(latest["haberler"], gun, args.adet, pencere)
     takip = analiz.takip_oku()
     birincil = analiz.birincil_blogu()
     istem = analiz.istem_yap(secilen, latest.get("kumeler", {}), gun, True,
-                             gecmis=analiz.gecmis_ozeti(),
-                             takip=analiz.takip_ozeti(takip), birincil=birincil)
+                             gecmis=analiz.gecmis_ozeti(gun),
+                             takip=analiz.takip_ozeti(takip), birincil=birincil,
+                             pencere=pencere)
     print(f"gün {gun} · {len(secilen)} kayıt · istem {len(istem)} karakter "
           f"(~{len(istem)//3.5:.0f} token) · {len(varyantlar)} varyant")
 
@@ -155,7 +157,7 @@ def main() -> int:
         veri.setdefault("kullanilan_kayitlar", [h["k"] for h in secilen])
         denetim = analiz.denetim_yap(veri, secilen, latest.get("kumeler", {}), True,
                                      args.denetim_model, birincil,
-                                     gecmis=analiz.gecmis_ozeti(),
+                                     gecmis=analiz.gecmis_ozeti(gun),
                                      takip=analiz.takip_ozeti(takip))
         if denetim and not denetim.get("hata"):
             veri["denetim"] = denetim

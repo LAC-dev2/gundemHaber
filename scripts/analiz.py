@@ -87,8 +87,11 @@ Kurallar — bunlara kesinlikle uy:
    merkezin çalışma alanlarından birine ait olmalı. Merkezin dosyalarıyla
    ilgisi olmayan bir kayıt (genel bir Europol duyurusu, başka bir ülkeye
    dair rutin haber, teknik bir ağ toplantısı) manşet olamaz; en çok alan
-   notlarında tek cümleyle geçer. Çekirdek alanlarda bugün yeni bir şey
-   yoksa manşet, derinleştirdiğin dosyayı anlatsın.
+   notlarında tek cümleyle geçer. Çekirdek alanlarda bu pencerede yeni bir
+   şey yoksa manşet, derinleştirdiğin dosyayı anlatsın.
+   Manşet bir gelişmeyi adıyla söyler. Günün hacmine ilişkin yorum ("gün
+   zayıf", "sakin gün", "hareketsiz gün") manşete YAZILMAZ; bu değerlendirme
+   brifing metnine aittir. Manşeti okuyan, ne olduğunu anlamalı.
 12. DÜNÜN ANALİZİNİ TEKRAR ETME. Sana önceki günün öne çıkanları verilir.
    Aynı dosyayı yeniden yazıyorsan "yenilik" alanında bugün tam olarak neyin
    değiştiğini söyle (yeni sayı, yeni karar, yeni belge, yeni taraf). Hiçbir
@@ -104,11 +107,15 @@ Kurallar — bunlara kesinlikle uy:
    olduğunu söylesin, gerisi eski özetin tekrarı olmasın. Derinleştirmeye
    değer hiçbir dosya kalmadıysa listeyi boş bırak; aynı dosyayı yeniden
    yazmaktansa hiç yazmamak yeğdir.
-10. Her kayıt "BUGÜNE AİT" ya da "ÖNCEKİ GÜNDEN" diye işaretlidir. Önceki
-   günün kaydını bugünün gelişmesi gibi sunma. Bugüne ait kayıt azsa ya da
-   yeni bir şey yoksa bunu açıkça söyle — "bugün şu dosyada yeni kayıt yok,
-   sayılar dünkü düzeyde" demek, dünkü rakamları tekrar etmekten daha
-   değerlidir. Günün başlığı bugün olan bir şeyi anlatmalı.
+10. PENCERE TAKVİM GÜNÜ DEĞİLDİR. Brifing, bir önceki brifingten bu yana
+   geçen süreyi kapsar; başında kaç saat olduğu yazar. Her kayıt "YENİ (son
+   brifingten beri)" ya da "DAHA ÖNCE DEĞERLENDİRİLDİ" diye işaretlidir.
+   Gece ya da hafta sonu gelmiş olması bir kaydı eski yapmaz: YENİ
+   işaretliyse yenidir ve bu brifingin konusudur. "DAHA ÖNCE
+   DEĞERLENDİRİLDİ" olanlar yalnızca bağlam içindir, onları yeni gelişme
+   gibi sunma. Bir dosyada bu pencerede hiç yeni kayıt yoksa bunu açıkça
+   söyle ("şu dosyada yeni kayıt yok, sayılar önceki brifingteki düzeyde");
+   eski rakamları tekrar etmekten değerlidir.
 9. BİRİNCİL BELGELER bölümünde AİHM kararlarının kendi metni verilir (HUDOC).
    Bunlar haber kayıtlarından üstündür: bir haber kararı yanlış aktarıyorsa
    kararın metnine uy ve farkı açıkça yaz. Birincil belgeye dayanan
@@ -177,7 +184,7 @@ SEMA = {
                 "additionalProperties": False,
             },
         },
-        "baslik": {"type": "string", "description": "Günün tek cümlelik başlığı, en fazla 90 karakter"},
+        "baslik": {"type": "string", "description": "Pencerenin en önemli gelişmesini adıyla söyleyen tek cümle, en fazla 90 karakter. Günün hacmine ilişkin yorum ('gün zayıf', 'sakin gün') yazılmaz"},
         "brifing": {"type": "string", "description": "3-5 cümlelik genel değerlendirme"},
         "one_cikanlar": {
             "type": "array",
@@ -290,9 +297,38 @@ def kisalt(metin: str, n: int) -> str:
     return metin[:n].rstrip() + ("…" if len(metin) > n else "")
 
 
-def kayitlari_sec(haberler: list[dict], gun: str, adet: int) -> list[dict]:
-    """Analize girecek kayıtlar: o gün ve bir önceki günün en yüksek puanlıları."""
-    sinir = (datetime.fromisoformat(gun) - timedelta(days=1)).date().isoformat()
+def pencere_basi(gun: str) -> str:
+    """Brifingin kapsadigi pencerenin baslangici (ISO, dakika duyarli).
+
+    Analiz takvim gunune degil, BIR ONCEKI ANALIZDEN BU YANA gecen sureye
+    bakar. Sabah 09:00'da uretilen brifing icin "bugun" yalnizca dokuz
+    saatti; gece ve hafta sonu gelen her sey "onceki gun" diye
+    isaretlenip eskimis sayiliyor, model de gunu "zayif" ilan ediyordu
+    (21 Eylul manseti: "...; gun zayif"). Oysa okur icin yeni olan, son
+    brifingten sonra gelen her seydir.
+
+    Onceki analiz yoksa 24 saat geriye gidilir.
+    """
+    onceki = sorted(p.stem for p in ANALIZ.glob("*.json") if p.stem < gun)
+    if onceki:
+        try:
+            d = json.loads((ANALIZ / f"{onceki[-1]}.json").read_text(encoding="utf-8"))
+            if d.get("olusturma"):
+                return d["olusturma"][:16]
+        except Exception:
+            pass
+    return (datetime.fromisoformat(gun) - timedelta(days=1)).isoformat(timespec="minutes")
+
+
+def kayitlari_sec(haberler: list[dict], gun: str, adet: int,
+                  pencere: str = "") -> list[dict]:
+    """Analize girecek kayitlar: pencere icindekiler ve hemen oncesi.
+
+    Havuz pencereden bir gun daha geriye uzaniyor: sureklilik iceren
+    dosyalarda modelin oncesini de gormesi gerekiyor. Hangisinin YENI
+    oldugunu kayit_metni() isaretliyor."""
+    taban = pencere[:10] if pencere else gun
+    sinir = (datetime.fromisoformat(taban) - timedelta(days=1)).date().isoformat()
     havuz = [h for h in haberler if h["tarih"][:10] >= sinir]
     if not havuz:
         havuz = haberler[: adet * 2]
@@ -310,14 +346,14 @@ def kayitlari_sec(haberler: list[dict], gun: str, adet: int) -> list[dict]:
 
 
 def kayit_metni(h: dict, kumeler: dict, tam_metin: bool, uzun: bool = False,
-                gun: str = "") -> str:
-    # Analize giren kayitlarin cogu onceki gunden devredebiliyor (18 Eylul'de
-    # 45 kaydin yalnizca 12'si o gune aitti). Model hangisinin yeni oldugunu
-    # tarihten cikarmak zorunda kalmasin diye acikca isaretliyoruz.
+                pencere: str = "") -> str:
+    # Model hangisinin yeni oldugunu tarihten cikarmak zorunda kalmasin diye
+    # acikca isaretliyoruz. Olcu takvim gunu DEGIL, son brifingten bu yana
+    # gecen sure: sabah uretilen bir analizde gece gelen kayit da yenidir.
     yas = ""
-    if gun:
-        kgun = h["tarih"][:10]
-        yas = " · BUGÜNE AİT" if kgun == gun else f" · ÖNCEKİ GÜNDEN ({kgun})"
+    if pencere:
+        yas = (" · YENİ (son brifingten beri)" if h["tarih"][:16] >= pencere
+               else f" · DAHA ÖNCE DEĞERLENDİRİLDİ ({h['tarih'][:10]})")
     satir = [f"[{h['k']}] {h['bolge']} · {h.get('kategori', '')} · {h['kaynak']}"
              f" ({h.get('kanit', '')}, öncelik: {h.get('oncelik', '')}, {h['tarih'][:16]}){yas}",
              f"  BAŞLIK: {h['baslik']}"]
@@ -347,7 +383,7 @@ def ilk_cumle(metin: str, n: int = 220) -> str:
     return kisalt(metin, n)
 
 
-def gecmis_ozeti() -> str:
+def gecmis_ozeti(gun: str = "") -> str:
     """Onceki gunlerin analizleri: sureklilik ve TEKRAR ONLEME icin hafiza.
 
     Dun ne yazildigini yalnizca baslik duzeyinde gormek yetmiyordu; ayni
@@ -360,7 +396,12 @@ def gecmis_ozeti() -> str:
     bu yuzden 19 Eylul'de derinlestirilen Benli dosyasini neredeyse ayni
     icerikle yeniden derinlestirdi (arada 20 Eylul'un baska bir dosyayi
     almis olmasi yetmisti). Artik pencerenin tamami gosteriliyor."""
-    gunler = sorted((p for p in ANALIZ.glob("*.json")), reverse=True)[:GECMIS_GUN]
+    # gun verilirse o gun ve sonrasi disarida: --zorla ile yeniden uretimde
+    # ya da geriye donuk uretimde model kendi ciktisini "dunku analiz" diye
+    # gormesin. (21 Eylul'u --zorla yeniden uretirken hafizanin ilk satiri
+    # yine 21 Eylul'du.)
+    gunler = sorted((p for p in ANALIZ.glob("*.json") if not gun or p.stem < gun),
+                    reverse=True)[:GECMIS_GUN]
     satirlar: list[str] = []
     derinlesenler: list[str] = []
     for sira, yol in enumerate(gunler):
@@ -454,14 +495,24 @@ def birincil_metin(paragraflar: list[str], bas: int = 900, son: int = 2400) -> s
 
 
 def istem_yap(secilen: list[dict], kumeler: dict, gun: str, tam_metin: bool,
-              gecmis: str = "", takip: str = "", birincil: str = "") -> str:
-    bloklar = [kayit_metni(h, kumeler, tam_metin, uzun=(i < TAM_METIN_UST), gun=gun)
+              gecmis: str = "", takip: str = "", birincil: str = "",
+              pencere: str = "") -> str:
+    bloklar = [kayit_metni(h, kumeler, tam_metin, uzun=(i < TAM_METIN_UST),
+                           pencere=pencere)
                for i, h in enumerate(sorted(secilen, key=lambda r: -r["puan"]))]
-    bugunku = sum(1 for h in secilen if h["tarih"][:10] == gun)
+    yeni_sayi = sum(1 for h in secilen if h["tarih"][:16] >= pencere) if pencere else 0
+    simdi = datetime.now(timezone.utc)
+    try:
+        saat = round((simdi - datetime.fromisoformat(pencere).replace(
+            tzinfo=timezone.utc)).total_seconds() / 3600)
+    except Exception:
+        saat = 24
     return (
         f"Tarih: {gun}\n"
-        f"Kayıtların {bugunku}/{len(secilen)} tanesi bugüne ait, kalanı önceki "
-        f"günlerden devretti.\n"
+        f"BRİFİNGİN KAPSADIĞI PENCERE: son brifingten ({pencere.replace('T', ' ')} "
+        f"UTC) bu yana, yaklaşık {saat} saat. Bu pencereye giren {yeni_sayi} kayıt "
+        f"\"YENİ\" diye işaretli; kalanlar bağlam için verildi, daha önce "
+        f"değerlendirildiler.\n"
         + (f"\nÖNCEKİ GÜNLERİN ANALİZLERİ — bunları TEKRAR ETME. Aynı dosyayı "
            f"yeniden yazıyorsan bugün ne değiştiğini söyle; hiçbir şey değişmediyse "
            f"öne çıkarma, derinleştir. (Buradan olgu üretme; yalnızca ne yazıldığını "
@@ -766,7 +817,7 @@ def main() -> int:
               f"{len(secilen)}/{len(veri.get('kullanilan_kayitlar', []))} kayıt bulundu")
         denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
                               args.denetim_model, birincil_blogu() if args.birincil else "",
-                              gecmis=gecmis_ozeti(), takip=takip_ozeti(takip_oku()))
+                              gecmis=gecmis_ozeti(gun), takip=takip_ozeti(takip_oku()))
         if denetim.get("hata"):
             print(f"::warning::öz-denetim yapılamadı: {denetim['hata']}")
             veri["denetim_hata"] = denetim["hata"]
@@ -789,14 +840,16 @@ def main() -> int:
                                                  encoding="utf-8")
         return 0
 
-    secilen = kayitlari_sec(latest["haberler"], gun, args.adet)
+    pencere = pencere_basi(gun)
+    secilen = kayitlari_sec(latest["haberler"], gun, args.adet, pencere)
     if len(secilen) < 3:
         print("Analiz için yeterli kayıt yok.")
         return 0
     takip = takip_oku()
     birincil = birincil_blogu() if args.birincil else ""
     istem = istem_yap(secilen, latest.get("kumeler", {}), gun, args.tam_metin,
-                      gecmis=gecmis_ozeti(), takip=takip_ozeti(takip), birincil=birincil)
+                      gecmis=gecmis_ozeti(gun), takip=takip_ozeti(takip), birincil=birincil,
+                      pencere=pencere)
 
     if args.kuru:
         print(istem[:4000])
@@ -872,7 +925,7 @@ def main() -> int:
     if args.denetim:
         denetim = denetim_yap(veri, secilen, latest.get("kumeler", {}), args.tam_metin,
                               args.denetim_model, birincil,
-                              gecmis=gecmis_ozeti(), takip=takip_ozeti(takip))
+                              gecmis=gecmis_ozeti(gun), takip=takip_ozeti(takip))
         if denetim.get("hata"):
             print(f"::warning::öz-denetim yapılamadı: {denetim['hata']}")
             veri["denetim_hata"] = denetim["hata"]
