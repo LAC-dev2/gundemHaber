@@ -736,6 +736,8 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
         print(f"denetim yaniti ayristirilamadi: {type(hata).__name__}")
         return {"hata": f"yanıt ayrıştırılamadı: {type(hata).__name__}"}
     sonuc["model"] = model
+    sonuc["girdi_token"] = yanit.usage.input_tokens
+    sonuc["cikti_token"] = yanit.usage.output_tokens
     sonuc["maliyet_usd"] = round(maliyet(model, yanit.usage.input_tokens,
                                          yanit.usage.output_tokens), 4)
     sonuc["iddia_sayisi"] = len(iddialar)
@@ -917,6 +919,10 @@ def main() -> int:
         "kayit_sayisi": len(secilen),
         "kullanilan_kayitlar": [h["k"] for h in secilen],
         "maliyet_usd": round(tutar, 4),
+        # Token sayilari da kayda gecsin: "gunde ne kadar token gidiyor"
+        # sorusu maliyetten geri hesaplanmak zorunda kalmasin.
+        "girdi_token": kullanim.input_tokens,
+        "cikti_token": kullanim.output_tokens,
         "uyari": ("Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak "
                   "yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta "
                   "doğrulanmadan dosyaya esas alınamaz."),
