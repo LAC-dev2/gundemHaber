@@ -17,6 +17,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -82,8 +83,12 @@ Kurallar:
    kaydın NE OLDUĞUNU söyleyen kısa bir Türkçe başlık yaz; adı da içinde
    koru. Örnek: özet bir USCIRF mağdur kaydıysa → "Maksim Khamatshin —
    USCIRF din özgürlüğü mağdur kaydı"; Freedom House profiliyse →
-   "Carolina Barrero — Freedom House sınıraşan baskı profili". Özet yoksa
-   ya da neyin kaydı olduğu çıkmıyorsa başlığı boş bırak; uydurma."""
+   "Carolina Barrero — Freedom House sınıraşan baskı profili".
+   Özet yoksa KAYNAK, ALAN ve ADRES satırlarına bak; adresin yolu çoğu zaman
+   ne olduğunu söyler ("/Staff/alicja-slowik" → kurumun personel sayfası,
+   "/citip-conferences/..." → konferans duyurusu, "/leden/..." → üye kaydı).
+   Örnek: "Alicja Słowik — KU Leuven Hukuk Fakültesi personel sayfası".
+   Hiçbir ipucu yoksa başlığı boş bırak; uydurma."""
 
 
 def dil_tahmini(metin: str) -> str:
@@ -106,6 +111,15 @@ def dil_tahmini(metin: str) -> str:
         ("nin", "nın", "nun", "nün", "ler", "lar", "den", "dan", "tan", "ten",
          "sinde", "sında", "mesi", "ması", "lik", "lık", "luk", "lük")))
     return "tr" if ekli >= 2 else "diger"
+
+
+def yol_ipucu(url: str) -> str:
+    """Adresin yol kismi: ozeti olmayan kayitta ne oldugunu genelde bu soyler."""
+    try:
+        yol = urlsplit(url).path.strip("/")
+    except Exception:
+        return ""
+    return yol[:120]
 
 
 def kat(metin: str) -> str:
@@ -244,8 +258,14 @@ def main() -> int:
 
     for bas in range(0, len(bekleyen), YIGIN):
         yigin = bekleyen[bas: bas + YIGIN]
+        # Kaynak, alan ve adres de veriliyor: ozeti olmayan kayitlarda
+        # (kurum personel sayfalari, etkinlik duyurulari) basligi Turkcelestirmek
+        # icin elde baska bir ipucu kalmiyor. Adresin yolu cogu zaman ne
+        # oldugunu soyluyor: /Staff/..., /citip-conferences/..., /leden/...
         istem = "Aşağıdaki kayıtları Türkçeye çevir. Her kaydın anahtarını koru.\n\n" + "\n\n".join(
             f"[{h['k']}]\nBAŞLIK: {h['baslik']}\nÖZET: {(h.get('ozet') or '')[:400]}"
+            f"\nKAYNAK: {h.get('kaynak', '')}\nALAN: {h.get('kategori', '')}"
+            f"\nADRES: {yol_ipucu(h.get('url', ''))}"
             for h in yigin)
         try:
             yanit = client.messages.create(
