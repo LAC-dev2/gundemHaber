@@ -29,7 +29,37 @@ FIYAT = {"claude-haiku-4-5": (1.0, 5.0), "claude-sonnet-5": (2.0, 10.0),
 
 TR_SOZCUK = {"ve", "için", "ile", "bir", "bu", "olarak", "karar", "mahkeme",
              "dava", "hak", "yargı", "göre", "sonra", "kişi", "yıl", "üzerine",
-             "hakkında", "davası", "kararı", "tutuklu", "gözaltı", "başvuru"}
+             "hakkında", "davası", "kararı", "tutuklu", "gözaltı", "başvuru",
+             # Turkce metinlerin cevirmene gonderilip "cevrilemedi" diye
+             # isaretlenmesini onlemek icin genisletildi: Bianet'in
+             # "Avrupa Konseyi'nden ... yonelik operasyonlara tepki"
+             # basligi eski listeyle hicbir sozcuk tutturamiyordu.
+             "anayasa", "mahkemesi", "yönelik", "tepki", "ilişkin", "yeni",
+             "kişinin", "hakkinda", "avrupa", "konseyi", "bakanlar", "komitesi",
+             "soruşturma", "soruşturması", "tutuklama", "serbest", "bırakıldı",
+             "operasyon", "operasyonlara", "gözaltına", "alındı", "ihlal",
+             "ihlali", "adalet", "bakanlığı", "savcılık", "savcılığı", "polis",
+             "cezaevi", "avukat", "gazeteci", "milletvekili", "yasa", "kanun",
+             "yönetmelik", "genelge", "resmî", "resmi", "gazete", "sayılı",
+             "değişiklik", "yapılmasına", "dair", "kurulu", "bakanı", "türkiye"}
+
+# Turkceye ozgu harfler. "İ" onemli: buyuk harfle yazilmis Turkce basliklarda
+# (ornegin "ANAYASA MAHKEMESİ") tek Turkce isaret bu olabiliyor ve lower()
+# onu "i + birlesen nokta"ya cevirdigi icin kucuk harf taramasinda kayboluyor.
+CEVIRI_DENEME = 2        # "cevrilemedi" damgali kayit kac kez yeniden denenir
+
+TR_HARF = "ıİğĞşŞ"
+
+# Yabanci islev sozcukleri. Ikisi birden gecerse metin Turkce sayilmaz;
+# boylece "Turkey detains 21 in Izmir" gibi Turkce ozel ad tasiyan
+# Ingilizce basliklar ceviriden kacmiyor.
+YABANCI_SOZCUK = {
+    "the", "of", "and", "in", "on", "for", "with", "after", "over", "from",
+    "to", "as", "by", "that", "is", "are", "was", "were", "has", "have",
+    "der", "die", "das", "und", "für", "von", "mit", "ist", "im", "auf",
+    "de", "la", "le", "les", "des", "du", "et", "en", "pour", "een", "van",
+    "het", "op", "aan", "bij", "naar", "niet", "wordt", "werd",
+}
 
 SISTEM = """Sen hukuk alanında çalışan bir çevirmensin. Sana haber, karar ve duyuru
 başlıkları ile kısa özetleri verilecek; bunları Türkçeye çevireceksin.
@@ -49,12 +79,25 @@ Kurallar:
 
 
 def dil_tahmini(metin: str) -> str:
-    """Kaba dil ayrimi: Turkce mi, degil mi."""
+    """Kaba dil ayrimi: Turkce mi, degil mi.
+
+    Tek bir Turkce harf yetmiyor: Ingilizce basliklarin coguna Turkce
+    ozel ad giriyor ("Turkey detains 21 in Izmir..."). Once yabanci
+    islev sozcuklerine bakiliyor; onlar varsa metin Turkce degildir.
+    """
     low = metin.lower()
-    if any(harf in low for harf in "ığş"):
-        return "tr"
     sozcukler = set(re.findall(r"[a-zçğıöşü]+", low))
-    return "tr" if len(sozcukler & TR_SOZCUK) >= 2 else "diger"
+    if len(sozcukler & YABANCI_SOZCUK) >= 2:
+        return "diger"
+    if any(harf in metin for harf in TR_HARF):     # ham metinde ara: "İ" kaybolmasin
+        return "tr"
+    if len(sozcukler & TR_SOZCUK) >= 2:
+        return "tr"
+    # Turkce eklerin izi: tek basina zayif ama iki sozcukte gorulurse yeter
+    ekli = sum(1 for w in sozcukler if len(w) > 5 and w.endswith(
+        ("nin", "nın", "nun", "nün", "ler", "lar", "den", "dan", "tan", "ten",
+         "sinde", "sında", "mesi", "ması", "lik", "lık", "luk", "lük")))
+    return "tr" if ekli >= 2 else "diger"
 
 
 def kat(metin: str) -> str:
@@ -151,8 +194,18 @@ def main() -> int:
     bekleyen = []
     for h in latest["haberler"]:
         anahtar = h.get("k")
-        if not anahtar or anahtar in onbellek:
+        if not anahtar:
             continue
+        kayitli = onbellek.get(anahtar)
+        if kayitli is not None:
+            # "cevrilemedi" kalici bir damgaydi; tek seferlik bir aksaklik
+            # (yigin hatasi, eksik satir) kaydi sonsuza dek yabanci dilde
+            # birakiyordu. Artik sinirli sayida yeniden deneniyor. Ozel
+            # ad basliklari (kisi adlari) zaten degismeden donecegi icin
+            # deneme hakki dolunca ozgun haliyle kaliyorlar.
+            if not (kayitli.get("cevrilemedi")
+                    and kayitli.get("deneme", 1) < CEVIRI_DENEME):
+                continue
         if dil_tahmini(f"{h['baslik']} {h.get('ozet', '')}") == "tr":
             onbellek[anahtar] = {"dil": "tr"}          # çeviri gerekmiyor
             continue
@@ -224,7 +277,9 @@ def main() -> int:
                 if o:
                     kayit["ozet"] = o
             else:
-                kayit["cevrilemedi"] = True     # tekrar denenip durmasin
+                onceki = onbellek.get(satir["k"]) or {}
+                kayit["cevrilemedi"] = True
+                kayit["deneme"] = onceki.get("deneme", 0) + 1
             onbellek[satir["k"]] = kayit
         girdi += yanit.usage.input_tokens
         cikti += yanit.usage.output_tokens
