@@ -148,7 +148,7 @@
    "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-21",
    "kayitlar": [
     "f64bb53604",
     "1387ffbabe"
@@ -160,6 +160,13 @@
      "kayitlar": [
       "f64bb53604",
       "1387ffbabe"
+     ]
+    },
+    {
+     "gun": "2026-09-21",
+     "not": "21 Eylül tarihli Resmî Gazete özetinde iki yeni AYM ihlal kararı yer alıyor: meslekten çıkarılan bir polis memurunun davasında idare mahkemesi ve Danıştay'ın lehe tanık beyanlarını değerlendirmeden yalnızca ceza yargılamasına dayanarak red kararı vermesi gerekçeli karar hakkı ihlali sayıldı ve dosya Ankara 4. İdare Mahkemesi'ne gönderildi; ayrı bir başvuruda zorunlu arabuluculuk şartının aşırı şekli yorumu mahkemeye erişim hakkı ihlali bulundu. Kayıt özet düzeyindedir, başvuru numaraları ve karar tarihleri kayıtta yok.",
+     "kayitlar": [
+      "e5d940888d"
      ]
     }
    ]
@@ -202,7 +209,7 @@
    "neden": "İki bireysel dosya kapatılırken malvarlığının otomatik dondurulması ve gözaltında avukata erişim konularında genel tedbir denetimi açık bırakıldı; sonraki DH toplantı gündemleri izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-21",
    "kayitlar": [
     "001-252500",
     "001-252498"
@@ -216,6 +223,14 @@
       "001-252498",
       "001-252496"
      ]
+    },
+    {
+     "gun": "2026-09-21",
+     "not": "Bugün yeni haber kaydı yok; ancak elimize geçen 2 Eylül tarihli Bakanlar Komitesi kararlarının metni, malvarlığı dondurmaya ilişkin genel tedbirlerin Uzan ve Diğerleri (19620/05) grubunda, gözaltında avukata erişime ilişkin genel tedbirlerin ise Türk v. Turkey grubunda denetlenmeye devam ettiğini açıkça teyit ediyor.",
+     "kayitlar": [
+      "001-252500",
+      "001-252498"
+     ]
     }
    ]
   },
@@ -226,7 +241,7 @@
    "neden": "Europol, AB'nin elektronik delil bakımından yeni bir döneme girdiğini belirterek 15-16 Eylül'de Berlin'de 7. SIRIUS irtibat noktası toplantısını duyurdu [eb6846d9b3]. Sınıraşan baskı dosyalarında veri talepleri ve adli yardım kanalları merkezin alanına giriyor; kayıt yalnızca toplantı düzeyinde bilgi veriyor.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-21",
    "kayitlar": [
     "eb6846d9b3"
    ],
@@ -239,6 +254,13 @@
       "cbfb6770c1",
       "ff32cf8eb4",
       "0f7bac19d0"
+     ]
+    },
+    {
+     "gun": "2026-09-21",
+     "not": "7. SIRIUS SPoC toplantısına ilişkin Europol duyurusu bugünkü taramada yeniden geldi; içerik 18 Eylül'de kaydedilenle aynı (Berlin, 15-16 Eylül 2026, EU IRU ve Bundeskriminalamt ev sahipliği). Yeni veri yok.",
+     "kayitlar": [
+      "eb6846d9b3"
      ]
     }
    ]
@@ -319,11 +341,19 @@
    "neden": "Sekiz dosyanın birleştirildiği bir ulusal iltica kararı, merkezin AB içindeki iltica içtihadı takibi açısından ilgili olabilir; kayıtta yalnızca ECLI numarası ve dosya numaraları var, konu bilinmiyor [b5c491d48e].",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-21",
    "kayitlar": [
     "b5c491d48e"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-21",
+     "not": "Hollanda idari yargısından yeni bir iltica kararı geldi: Rechtbank Den Haag, 17 Eylül 2026 tarihli NL26.48114/NL26.48115 sayılı kararda Cezayir uyruklu başvurucunun kimliğini, cinsiyet kimliğini ve biseksüelliğini inandırıcı bulmayan idari değerlendirmeyi yerinde görerek başvuruyu reddetti. Zeeland-West-Brabant dosyalarından farklı bir mahkeme ve farklı bir menşe ülke söz konusu; bağlantı tematik (inandırıcılık denetimi).",
+     "kayitlar": [
+      "96968e9b1d"
+     ]
+    }
+   ]
   },
   {
    "id": "t16",
@@ -434,8 +464,61 @@
     "955ca9dc26"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t23",
+   "baslik": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasında gözaltı ve yakalama kararlarının seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Tasarruf finansman şirketlerine yönelik ceza soruşturmalarının şirket yönetimine el koyma ve malvarlığı tedbirleriyle birlikte yürüyüp yürümediği, merkezin kayyım/dondurma dosyalarıyla doğrudan ilgili. Kayıtta yalnızca gözaltı ve şüpheli sayıları var, tedbir kararı bilgisi yok.",
+   "acildi": "2026-09-21",
+   "durum": "açık",
+   "son_hareket": "2026-09-21",
+   "kayitlar": [
+    "66a0a60070"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t24",
+   "baslik": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki çağrısıyla aynı dönemde gelen bir icra baskısı; kayıt yalnızca başlık düzeyinde olduğu için talebin hangi organda ve hangi usulle dile getirildiği doğrulanmalı.",
+   "acildi": "2026-09-21",
+   "durum": "açık",
+   "son_hareket": "2026-09-21",
+   "kayitlar": [
+    "8c71808e1f"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t25",
+   "baslik": "BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve insan hakları mekanizmalarına yönelik tartışmalar",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Türkiye ilk gün konuşmacıları arasında; ayrıca uluslararası ceza ve insan hakları kurumlarının zayıflatılmasına ilişkin tartışma merkezin BM mekanizmaları dosyasını etkiler.",
+   "acildi": "2026-09-21",
+   "durum": "açık",
+   "son_hareket": "2026-09-21",
+   "kayitlar": [
+    "94f64e4573",
+    "47b34b0e34"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t26",
+   "baslik": "Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli iltica taleplerinde inandırıcılık denetimi",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Den Haag'ın 17 Eylül tarihli kararı, SOGI temelli taleplerde idarenin inandırıcılık değerlendirmesini onaylıyor; benzer ölçütlerin Türkiye kaynaklı dosyalarda nasıl uygulandığı izlenmeli.",
+   "acildi": "2026-09-21",
+   "durum": "açık",
+   "son_hareket": "2026-09-21",
+   "kayitlar": [
+    "96968e9b1d"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-20T13:08+00:00",
- "acik": 22
+ "guncelleme": "2026-09-21T07:25+00:00",
+ "acik": 26
 }

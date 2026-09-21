@@ -1,5 +1,34 @@
 {
  "gun": "2026-09-21",
- "olusturma": "2026-09-21T07:13+00:00",
- "uyarilar": []
+ "olusturma": "2026-09-21T07:25+00:00",
+ "uyarilar": [
+  {
+   "id": "alan:2026-09-21:Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik beyanın",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik beyanını inandırıcı bulmayan idari kararı onadı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Hollanda idari yargısı, SOGI temelli iltica taleplerinde inandırıcılık denetimini idarenin lehine sonuçlandırdı; bu, merkezin Hollanda iltica içtihadı takibinde (Zeeland-West-Brabant dosyaları) karşılaştırma noktası oluşturur. Karar Cezayir menşeli bir başvuruya ilişkin, Türkiye bağlantısı yok.",
+   "kayitlar": [
+    "96968e9b1d"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-09-21:toplu:4",
+   "tur": "izlenen dosyada hareket",
+   "duzey": "orta",
+   "baslik": "4 takip dosyasında hareket var",
+   "alan": "",
+   "not": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Bakanlar Komitesi'nin Türkiye'ye ilişkin genel tedbir gruplarında (Uza; Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağın; Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltic",
+   "kayitlar": [
+    "e5d940888d",
+    "001-252500",
+    "001-252498",
+    "eb6846d9b3",
+    "96968e9b1d"
+   ],
+   "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  }
+ ]
 }
