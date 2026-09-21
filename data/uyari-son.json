@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-21",
- "olusturma": "2026-09-21T11:13+00:00",
+ "olusturma": "2026-09-21T11:16+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-09-21:Katılımevim Tasarruf Finansman AŞ soruşturmasında 15 gözaltı",
@@ -42,6 +42,16 @@
     "96968e9b1d"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-09-21:8",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "8 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, Human Rights Watch - Türkiye, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, Frontex…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
