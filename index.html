@@ -67,7 +67,7 @@
           <option value="puan">Önem sırası</option>
         </select>
         <button type="button" class="chip" id="ceviriChip" aria-pressed="true"
-          title="Türkçe olmayan kayıtların başlık ve özetleri Türkçe gösterilir">Türkçe</button>
+          title="Sayfada yalnızca Türkçe kayıtlar görünür; çevirisi henüz yapılmamış olanlar listeye girmez. Özgün dile geçmek için tıkla.">Türkçe</button>
       </div>
       <div class="frow" id="bolgeChips">
         <span class="count" id="count"></span>
@@ -155,6 +155,14 @@
         kayıtlar kümelenir. Akışta bunlar tek satırda toplanır ("aynı gelişme: …"), kayıt
         sayfasında kaynaklar yan yana karşılaştırılabilir. Kaç kaynağın aynı olayı verdiği,
         bir izleme masası için en değerli işarettir.</li>
+      <li><b>Çeviri:</b> Türkçe olmayan kayıtların başlık ve özetleri Claude API
+        ile çevrilir (her kayıt bir kez; sonuç önbellekte tutulur). Kural net:
+        <b>sayfada görünen her kayıt Türkçedir.</b> Çevirisi yapılamamış bir
+        kayıt listeye hiç girmez; kaç tanesinin beklediği başlık bandında yazar.
+        Başlık tek başına bir kişi adı ya da kurum koduysa çevirmen, özete
+        bakıp kaydın ne olduğunu söyleyen Türkçe bir başlık yazar. Özgün
+        metinleri görmek için başlıktaki "Türkçe" düğmesine basıp "Özgün dil"e
+        geçebilirsin.</li>
       <li><b>Kaynak sağlığı:</b> Her kaynağın son kayıt tarihi ve akış hatası
         <code>data/health.json</code> içinde tutulur. Kaynaklar sekmesinde "kaç gündür kayıt
         yok" ya da "akış hatası" olarak görünür; kendi tarama sıklığına göre gecikenler

@@ -397,6 +397,33 @@ function filtered() {
   return out;
 }
 
+/* Türkçe kipte sayfada yabancı metin GÖRÜNMEZ. Çevirisi olmayan ve Türkçe
+   de olmayan kayıtlar listeden düşürülür; kaç tanesinin düştüğü başlık
+   bandında yazar. "Özgün dil" kipine geçilince hepsi geri gelir.
+   Kural sahibinden: "eğer sayfaya ekleniyorsa bir haber Türkçe olacak." */
+/* Bölge rozetlerindeki sayılar bir kez basılıyor; dil kipi değişince
+   liste büyüyüp küçüldüğü için yerinde güncellenmeleri gerekiyor. */
+function chipSayilariYaz() {
+  document.querySelectorAll('#bolgeChips .chip').forEach((c) => {
+    const r = c.dataset.r, el = c.querySelector('.mono');
+    if (el) el.textContent = r ? state.items.filter((i) => i.bolge === r).length : state.items.length;
+  });
+}
+
+function durumYaz() {
+  const ts = state.taramaZamani;
+  const n = state.gizliCeviri || 0;
+  $('#statusText').textContent = (ts ? `son tarama ${fullFmt.format(ts)}` : 'tarama verisi yok')
+    + (n ? ` · ${n} kayıt çeviri bekliyor, listede gösterilmiyor` : '');
+}
+
+function ceviriSuz() {
+  const hepsi = state.tumItems || [];
+  if (!state.ceviri) { state.items = hepsi; state.gizliCeviri = 0; return; }
+  state.items = hepsi.filter((i) => i.baslik_tr || i.dil === 'tr');
+  state.gizliCeviri = hepsi.length - state.items.length;
+}
+
 /* Türkçe gösterim: çeviri varsa ve tercih açıksa Türkçesi, yoksa özgün metin */
 const bas = (it) => (state.ceviri && it.baslik_tr) ? it.baslik_tr : it.baslik;
 /* Bazi kaynaklar ozet alanina basligi tekrar koyuyor (ceviri tarafinda da
@@ -1044,7 +1071,7 @@ async function drawArchive() {
     getJSON('data/birincil-latest.json', null),
     getJSON('data/analiz-durum.json', null),
   ]);
-  state.items = latest.haberler || [];
+  state.tumItems = latest.haberler || [];
   state.stats = latest.istatistik || {};
   state.sources = meta.sources || [];
   state.themes = meta.themes || [];
@@ -1060,6 +1087,8 @@ async function drawArchive() {
   state.birincil = Object.fromEntries(((birincil || {}).belgeler || []).map((b) => [b.itemid, b]));
   state.analizKip = 'gun';
   state.ceviri = LS.get('bhm.ceviri', true) !== false;
+  ceviriSuz();                 // tercih okunduktan SONRA: önce çağrılırsa
+                               // state.ceviri henüz undefined ve süzgeç boş geçiyor
   const cChip = $('#ceviriChip');
   cChip.setAttribute('aria-pressed', String(state.ceviri));
   cChip.addEventListener('click', () => {
@@ -1068,7 +1097,8 @@ async function drawArchive() {
     cChip.setAttribute('aria-pressed', String(state.ceviri));
     cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
     state.shown = PAGE;
-    draw(); renderLead(); renderAnalizOzet(); renderRegions();
+    ceviriSuz();
+    draw(); renderLead(); renderAnalizOzet(); renderRegions(); durumYaz(); chipSayilariYaz();
   });
   cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
   $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
@@ -1094,7 +1124,8 @@ async function drawArchive() {
   // durum
   const ts = latest.olusturma ? new Date(latest.olusturma) : null;
   const hrs = ts ? (Date.now() - ts.getTime()) / 36e5 : 999;
-  $('#statusText').textContent = ts ? `son tarama ${fullFmt.format(ts)}` : 'tarama verisi yok';
+  state.taramaZamani = ts;
+  durumYaz();
   if (hrs > 8) $('.dot').classList.add('stale');
   $('#footTime').textContent = ts ? fullFmt.format(ts) : '—';
   $('#footSrc').textContent = state.stats.kaynak ?? state.sources.length;

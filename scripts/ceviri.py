@@ -75,7 +75,15 @@ Kurallar:
    (detention → tutukluluk/gözaltı, bağlama göre; asylum → iltica;
    extradition → iade; appeal → istinaf/temyiz, bağlama göre).
 5. Başlıkta gazete üslubu kullanma; kaynak ne diyorsa onu Türkçede söyle.
-6. Metin zaten Türkçeyse aynen bırak."""
+6. Metin zaten Türkçeyse aynen bırak.
+7. BAŞLIK TEK BAŞINA BİR AD YA DA KODSA (bir kişi adı — "Vladimir
+   Kara-Murza"; bir kurum kısaltması — "CiTiP by CiTiP"; bir dosya kodu —
+   "ECLI:NL:RBDHA:2026:27263") onu olduğu gibi geri verme. Özeti oku ve
+   kaydın NE OLDUĞUNU söyleyen kısa bir Türkçe başlık yaz; adı da içinde
+   koru. Örnek: özet bir USCIRF mağdur kaydıysa → "Maksim Khamatshin —
+   USCIRF din özgürlüğü mağdur kaydı"; Freedom House profiliyse →
+   "Carolina Barrero — Freedom House sınıraşan baskı profili". Özet yoksa
+   ya da neyin kaydı olduğu çıkmıyorsa başlığı boş bırak; uydurma."""
 
 
 def dil_tahmini(metin: str) -> str:
