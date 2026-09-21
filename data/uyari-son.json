@@ -1,31 +1,44 @@
 {
  "gun": "2026-09-21",
- "olusturma": "2026-09-21T07:55+00:00",
+ "olusturma": "2026-09-21T08:01+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-09-21:Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik beyanın",
+   "id": "alan:2026-09-21:Katılımevim Tasarruf Finansman AŞ soruşturmasında 15 gözaltı",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik beyanını inandırıcı bulmayan idari kararı onadı",
+   "baslik": "Katılımevim Tasarruf Finansman AŞ soruşturmasında 15 gözaltı, 10 kişi aranıyor",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Fon soruşturmalarının bu kez doğrudan bir tasarruf finansman şirketi üzerinden yürütüldüğü bildiriliyor; isnat şirket paylarında piyasa dolandırıcılığı. Merkezin izlediği kayyım ve malvarlığı tedbirleri dosyalarıyla aynı hatta duruyor: bir gün önce Süleymanlılar soruşturmasında 23 şirkete kayyım atandığı bildirilmişti. Çokbilgin ve Ayvaz icra kararının işaret ettiği bireysel yargısal denetim ölçütünün bu tür dosyalarda nasıl uygulandığı izlenmeli.",
+   "kayitlar": [
+    "66a0a60070"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-09-21:Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik iddiala",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik iddialarını inandırıcı bulmayan ret kararını onadı",
    "alan": "İade, adli yardım ve iltica",
-   "not": "Hollanda idari yargısı, SOGI temelli iltica taleplerinde inandırıcılık denetimini idarenin lehine sonuçlandırdı; bu, merkezin Hollanda iltica içtihadı takibinde (Zeeland-West-Brabant dosyaları) karşılaştırma noktası oluşturur. Karar Cezayir menşeli bir başvuruya ilişkin, Türkiye bağlantısı yok.",
+   "not": "17 Eylül 2026 tarihli karar (ECLI:NL:RBDHA:2026:27263, NL26.48114 ve NL26.48115), idarenin kimlik, cinsiyet kimliği ve biseksüellik beyanlarını ve bunlardan doğan sorunları inandırıcı bulmamasını yerinde gördü; itiraz reddedildi. Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli taleplerde inandırıcılık denetiminin belirleyiciliğini gösteren ikinci karar hattı.",
    "kayitlar": [
     "96968e9b1d"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "takip:2026-09-21:toplu:4",
+   "id": "takip:2026-09-21:toplu:5",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "4 takip dosyasında hareket var",
+   "baslik": "5 takip dosyasında hareket var",
    "alan": "",
-   "not": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Bakanlar Komitesi'nin Türkiye'ye ilişkin genel tedbir gruplarında (Uza; Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağın; Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltic",
+   "not": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağın; Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması; BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve; Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli ilti",
    "kayitlar": [
     "e5d940888d",
-    "001-252500",
-    "001-252498",
     "eb6846d9b3",
+    "66a0a60070",
+    "94f64e4573",
+    "47b34b0e34",
     "96968e9b1d"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."

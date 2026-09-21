@@ -33,7 +33,7 @@
   {
    "id": "t6",
    "durum": "hareket var",
-   "not": "21 Eylül tarihli Resmî Gazete özetinde iki yeni AYM ihlal kararı yer alıyor: meslekten çıkarılan bir polis memurunun davasında idare mahkemesi ve Danıştay'ın lehe tanık beyanlarını değerlendirmeden yalnızca ceza yargılamasına dayanarak red kararı vermesi gerekçeli karar hakkı ihlali sayıldı ve dosya Ankara 4. İdare Mahkemesi'ne gönderildi; ayrı bir başvuruda zorunlu arabuluculuk şartının aşırı şekli yorumu mahkemeye erişim hakkı ihlali bulundu. Kayıt özet düzeyindedir, başvuru numaraları ve karar tarihleri kayıtta yok.",
+   "not": "21 Eylül 2026 tarihli Resmî Gazete özetinde (sayı 33377) Anayasa Mahkemesi'nin meslekten çıkarılan bir polis memurunun davasında gerekçeli karar hakkı ihlali bulduğu, dosyanın Anayasa'nın 36. maddesi kapsamında yeniden yargılama için Ankara 4. İdare Mahkemesi'ne gönderildiği aktarılıyor. Aynı özette işe iade davasında arabuluculuk dava şartına aşırı şekli yorum nedeniyle mahkemeye erişim hakkı ihlali kaydı da yer alıyor.",
    "kayitlar": [
     "e5d940888d"
    ]
@@ -46,17 +46,14 @@
   },
   {
    "id": "t8",
-   "durum": "hareket var",
-   "not": "Bugün yeni haber kaydı yok; ancak elimize geçen 2 Eylül tarihli Bakanlar Komitesi kararlarının metni, malvarlığı dondurmaya ilişkin genel tedbirlerin Uzan ve Diğerleri (19620/05) grubunda, gözaltında avukata erişime ilişkin genel tedbirlerin ise Türk v. Turkey grubunda denetlenmeye devam ettiğini açıkça teyit ediyor.",
-   "kayitlar": [
-    "001-252500",
-    "001-252498"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t9",
    "durum": "hareket var",
-   "not": "7. SIRIUS SPoC toplantısına ilişkin Europol duyurusu bugünkü taramada yeniden geldi; içerik 18 Eylül'de kaydedilenle aynı (Berlin, 15-16 Eylül 2026, EU IRU ve Bundeskriminalamt ev sahipliği). Yeni veri yok.",
+   "not": "7. SIRIUS SPoC ağ toplantısına ilişkin Europol kaydı bu pencerede yeniden geldi; 15-16 Eylül 2026 Berlin toplantısı dışında yeni bilgi içermiyor, sınıraşan veri talebi oranına dair güncel veri yok.",
    "kayitlar": [
     "eb6846d9b3"
    ]
@@ -93,11 +90,9 @@
   },
   {
    "id": "t15",
-   "durum": "hareket var",
-   "not": "Hollanda idari yargısından yeni bir iltica kararı geldi: Rechtbank Den Haag, 17 Eylül 2026 tarihli NL26.48114/NL26.48115 sayılı kararda Cezayir uyruklu başvurucunun kimliğini, cinsiyet kimliğini ve biseksüelliğini inandırıcı bulmayan idari değerlendirmeyi yerinde görerek başvuruyu reddetti. Zeeland-West-Brabant dosyalarından farklı bir mahkeme ve farklı bir menşe ülke söz konusu; bağlantı tematik (inandırıcılık denetimi).",
-   "kayitlar": [
-    "96968e9b1d"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t16",
@@ -140,156 +135,170 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  }
- ],
- "yeni_takip": [
+  },
   {
-   "baslik": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasında gözaltı ve yakalama kararlarının seyri",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden": "Tasarruf finansman şirketlerine yönelik ceza soruşturmalarının şirket yönetimine el koyma ve malvarlığı tedbirleriyle birlikte yürüyüp yürümediği, merkezin kayyım/dondurma dosyalarıyla doğrudan ilgili. Kayıtta yalnızca gözaltı ve şüpheli sayıları var, tedbir kararı bilgisi yok.",
+   "id": "t23",
+   "durum": "hareket var",
+   "not": "Kayda göre Katılımevim Tasarruf Finansman AŞ doğrudan operasyonun merkezine alındı; şirket paylarında piyasa dolandırıcılığı iddiasıyla 25 şüpheli hakkında işlem başlatıldı, 15 kişi gözaltına alındı, 10 kişi için yakalama çalışması sürüyor. Gözaltına alınanların kimliği, sevk edildikleri mahkeme ve şirkete yönelik bir tedbir kararı olup olmadığı kayıtta yok.",
    "kayitlar": [
     "66a0a60070"
    ]
   },
   {
-   "baslik": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki çağrısıyla aynı dönemde gelen bir icra baskısı; kayıt yalnızca başlık düzeyinde olduğu için talebin hangi organda ve hangi usulle dile getirildiği doğrulanmalı.",
-   "kayitlar": [
-    "8c71808e1f"
-   ]
+   "id": "t24",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
-   "baslik": "BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve insan hakları mekanizmalarına yönelik tartışmalar",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden": "Türkiye ilk gün konuşmacıları arasında; ayrıca uluslararası ceza ve insan hakları kurumlarının zayıflatılmasına ilişkin tartışma merkezin BM mekanizmaları dosyasını etkiler.",
+   "id": "t25",
+   "durum": "hareket var",
+   "not": "Human Rights Watch, 22-28 Eylül 2026'da New York'ta toplanacak BM Genel Kurulu yüksek düzeyli haftasına ilişkin çağrısında ilk gün konuşmacıları arasında Türkiye'nin de bulunduğunu belirtiyor. Kayıt, uluslararası ceza yargısı ve hesap verebilirlik mekanizmalarının zayıflatılmasına karşı devletlere çağrı yapıyor; Türkiye'ye özgü bir dosya içermiyor.",
    "kayitlar": [
     "94f64e4573",
     "47b34b0e34"
    ]
   },
   {
-   "baslik": "Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli iltica taleplerinde inandırıcılık denetimi",
-   "alan": "İade, adli yardım ve iltica",
-   "neden": "Den Haag'ın 17 Eylül tarihli kararı, SOGI temelli taleplerde idarenin inandırıcılık değerlendirmesini onaylıyor; benzer ölçütlerin Türkiye kaynaklı dosyalarda nasıl uygulandığı izlenmeli.",
+   "id": "t26",
+   "durum": "hareket var",
+   "not": "Rechtbank Den Haag'ın 17 Eylül 2026 tarihli kararı (ECLI:NL:RBDHA:2026:27263, NL26.48114 ve NL26.48115) yayımlandı: Cezayir uyruklu başvurucunun kimliği, cinsiyet kimliği ve biseksüelliği ile bunlardan doğan sorunlar inandırıcı bulunmadı, itiraz reddedildi. Karar, inandırıcılık denetiminin belirleyici olmayı sürdürdüğünü gösteriyor.",
    "kayitlar": [
     "96968e9b1d"
+   ]
+  }
+ ],
+ "yeni_takip": [
+  {
+   "baslik": "Venezuela'ya ilişkin BM Bağımsız Gerçekleri Araştırma Misyonu'nun görev süresinin İHK 63. oturumunda uzatılması",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Karar tasarısının 5-7 Ekim 2026'da oylanması bekleniyor; özel mekanizmaların yenilenip yenilenmemesi, merkezin izlediği diğer ülke mekanizmalarının sürdürülebilirliği açısından emsal oluşturur.",
+   "kayitlar": [
+    "d27fa45a80"
+   ]
+  },
+  {
+   "baslik": "ABD'nin Haiti'ye TPS sonrası sınır dışı uygulamaları ve derdest iltica talebi olanların geri gönderilmesi",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Kayda göre Temmuz 2026'dan bu yana 450'den fazla kişi sınır dışı edildi ve bazılarının derdest iltica başvurusu vardı; geri göndermeme ilkesinin uygulanmasına ilişkin karşılaştırmalı bir örnek.",
+   "kayitlar": [
+    "2036f004c5"
    ]
   }
  ],
  "birincil_notlar": [
   {
    "itemid": "001-252298",
-   "baslik": "Cezaevindeki başvurucunun avukatıyla görüşmelerinin izlenmesi ve yazışmalarının UYAP'ta kaydedilip saklanması",
+   "baslik": "Cezaevinde avukat görüşmelerinin izlenmesi ve yazışmaların UYAP'ta kaydedilmesi",
    "maddeler": [
     "8",
     "8-1"
    ],
-   "ne_dedi": "İkinci Seksiyon Komitesi, oybirliğiyle, avukat görüşmelerinin izlenmesi ile özel yazışmaların UYAP sisteminde kaydedilmesi ve saklanması nedeniyle 8. maddenin ihlal edildiğine hükmetti. Başvurucuya manevi tazminat için 2.000 avro, masraf ve giderler için 500 avro ödenmesine karar verildi; talebin kalanı reddedildi. Ödeme üç ay içinde yapılacak, gecikme halinde AMB marjinal kredi faizi artı üç puan işleyecek. Karar 15 Eylül 2026'da tebliğ edildi ve kesindir (editoryal düzeltmeye tabi olabilir).",
-   "merkez_icin": "Cezaevinde avukat-müvekkil iletişiminin izlenmesi ve UYAP kayıtlarının saklanması iddiası bulunan dosyalarda doğrudan dayanak oluşturur; ihlalin yalnızca izleme değil, kaydın saklanması yönünü de kapsaması önemlidir.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-252500",
-   "baslik": "Banka yöneticileriyle aile bağı nedeniyle otomatik ve ayrım gözetmeyen malvarlığı dondurma kararının icrası",
-   "maddeler": [
-    "46"
-   ],
-   "ne_dedi": "Bakanlar Komitesi, 2 Eylül 2026 tarihli 1567. toplantıda CM/ResDH(2026)175 sayılı kararla bireysel tedbirler sorununun çözüldüğünü saptadı: başvurucuların malvarlığı üzerindeki ihtiyati haciz kaldırıldı ve Tazminat Komisyonu tazminata hükmetti. Genel tedbirlerin, bireysel yargısal denetim ve usul güvenceleri olmaksızın uygulanan otomatik ve ayrım gözetmeyen dondurmaya ilişkin olarak Uzan ve Diğerleri (19620/05) grubunda incelenmeye devam edeceği belirtildi. Dosyanın kapatılması genel tedbir değerlendirmesine halel getirmiyor.",
-   "merkez_icin": "Kayyım ve malvarlığı dondurma dosyalarında 'bireysel yargısal denetim ve usul güvencesi' ölçütünün Komite denetiminde açık kaldığını gösterir; bireysel çözüm ile grup denetiminin ayrıştığını belgeler.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-252498",
-   "baslik": "Gözaltında avukata erişimin engellenmesi ve avukatsız alınan ifadelerin mahkûmiyette kullanılması kararının icrası",
-   "maddeler": [
-    "46"
-   ],
-   "ne_dedi": "Bakanlar Komitesi, CM/ResDH(2026)174 ile bireysel tedbirlerin alındığını saptadı: yargılamanın yenilenmesi talebi kabul edildi ve mahkeme, avukat yokluğunda alınan ifadeler dışındaki delillere dayanarak karar verdi. Genel tedbirlerin Türk v. Turkey grubunda denetlenmeye devam edeceği belirtilerek dosyanın incelenmesi kapatıldı.",
-   "merkez_icin": "Yeniden yargılamanın, avukatsız ifadelerin dışlanması koşuluyla yeterli bireysel tedbir sayıldığını gösterir; gözaltında müdafi erişimi iddiası taşıyan dosyalarda icra ölçütü olarak kullanılabilir.",
+   "ne_dedi": "İkinci Bölüm Komitesi, başvurucunun avukatıyla görüşmelerinin izlenmesi ve özel yazışmalarının UYAP sisteminde kaydedilip saklanması nedeniyle 8. maddenin ihlal edildiğine oybirliğiyle hükmetti. Manevi tazminat olarak 2.000 avro, masraf ve giderler için 500 avro ödenmesine karar verildi; ödeme süresi üç ay, sonrasında AMB marjinal kredi faizi artı üç puan gecikme faizi işleyecek. Karar 15 Eylül 2026'da tebliğ edildi ve kesin.",
+   "merkez_icin": "Cezaevinde avukat-müvekkil gizliliği ve UYAP üzerinden kayıt tutma pratiği, merkezin KHK ve terör isnadı dosyalarında savunma hakkı argümanına doğrudan dayanak oluşturur. Üç aylık ödeme süresi 15 Aralık 2026'da dolar.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252496",
-   "baslik": "Ceza soruşturmasının aşırı uzunluğu nedeniyle verilen kararın icrası",
+   "baslik": "Söyler: ceza soruşturmasının aşırı uzunluğu dosyasının icra denetiminin kapatılması",
    "maddeler": [
     "46"
    ],
-   "ne_dedi": "Bakanlar Komitesi, CM/ResDH(2026)173 ile hükümetin eylem raporunu inceleyip adil tazmin ödemesi dahil 46/1 kapsamındaki tüm tedbirlerin alındığına kanaat getirdi ve dosyanın incelenmesini kapattı. Bu kararda devam eden bir genel tedbir grubuna atıf yapılmıyor.",
-   "merkez_icin": "Soruşturma süresine ilişkin dosyanın açık grup denetimi bırakılmadan tam kapatılması, diğer iki kararla arasındaki farkı gösterir; kapatma türlerinin ayrımı icra argümanlarında dikkate alınmalı.",
+   "ne_dedi": "Bakanlar Komitesi, 2 Eylül 2026 tarihli 1567. Bakan Yardımcıları toplantısında CM/ResDH(2026)173 sayılı kararla Söyler (16104/22) dosyasının incelenmesini kapattı. Gerekçe, hükümetin DH-DD(2025)1180 sayılı eylem raporunda bildirdiği tedbirler ve adil tazminin ödenmesidir. İhlal, ceza soruşturmasının aşırı uzunluğuna dayanıyordu.",
+   "merkez_icin": "Soruşturma süresine ilişkin dosyaların bireysel tedbir aşamasının kapatılabildiğini gösterir; merkezin uzun süren soruşturma şikâyetlerinde icra kaydı olarak kullanılabilir.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-252500",
+   "baslik": "Çokbilgin ve Ayvaz: banka yöneticileriyle akrabalık temelinde otomatik malvarlığı dondurma",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "Komite, CM/ResDH(2026)175 sayılı kararla dosyayı kapattı; bireysel tedbirlerin çözüldüğünü, ihtiyati haczin kaldırıldığını ve Tazminat Komisyonu'nun tazminata hükmettiğini kaydetti (DH-DD(2025)836). Bireysel yargısal denetim ve usul güvenceleri olmaksızın otomatik ve ayrım gözetmeyen malvarlığı dondurmaya ilişkin genel tedbirlerin Uzan ve Diğerleri (19620/05) grubunda denetlenmeye devam edeceği belirtildi. Kapatmanın genel tedbir değerlendirmesine halel getirmediği açıkça yazıldı.",
+   "merkez_icin": "Kayyım ve malvarlığı dondurma dosyalarında bireysel yargısal denetim ve usul güvencesi ölçütünün Avrupa Konseyi denetiminde açık kaldığını gösteren güncel belge.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-252498",
+   "baslik": "Soytemiz: gözaltında avukata erişimin engellenmesi ve ifadelerin delil olarak kullanılması",
+   "maddeler": [
+    "46"
+   ],
+   "ne_dedi": "Komite, CM/ResDH(2026)174 sayılı kararla Soytemiz (57837/09) dosyasını kapattı; yargılamanın yenilenmesi talebinin kabul edildiğini ve mahkemenin avukat yokluğunda alınan ifadeler dışındaki delillere dayanarak karar verdiğini kaydetti (DH-DD(2026)457). Gözaltında avukata erişim hakkına ilişkin genel tedbirlerin Türk v. Türkiye grubunda denetlenmeye devam edeceği belirtildi.",
+   "merkez_icin": "Yeniden yargılamanın bireysel tedbir olarak kabul edilme ölçütünü gösterir: kirli delilin dışlanması aranıyor. Gözaltında avukata erişim başlığı grup denetiminde açık.",
    "haberle_fark": ""
   }
  ],
- "baslik": "Resmî Gazete'de AYM'nin meslekten çıkarma davasında gerekçeli karar ihlali; gün zayıf",
- "brifing": "Bugüne ait 29 kaydın büyük bölümü merkezin alanlarıyla ilgisiz (Europol rutin operasyon duyuruları, Hollanda yerel haberleri, KU Leuven ders duyuruları). Çekirdek alanlarda tek yeni resmî kayıt, 21 Eylül tarihli Resmî Gazete özetinde yer alan iki Anayasa Mahkemesi ihlal kararıdır; bunlardan biri meslekten çıkarılan bir polis memurunun idari davasında gerekçeli karar hakkının ihlaline ilişkindir ve merkezin ihraç dosyalarıyla doğrudan bağlantılıdır [e5d940888d]. Malvarlığı tarafında Katılımevim Tasarruf Finansman AŞ'ye yönelik fon soruşturmasında 15 gözaltı bildirildi; dünkü Süleymanlılar kayyım dosyasında ise bugün yeni kayıt yok [66a0a60070]. Demirtaş/Yüksekdağ, LGBTİ+ operasyonu ve İzmir soruşturması dosyalarında bugün hareket yok; sayılar dünkü düzeyinde kalıyor. Gün zayıf olduğu için Benli kararının icrası dosyası derinleştirildi.",
+ "baslik": "Katılımevim fon soruşturmasında 15 gözaltı, 10 kişi hakkında yakalama çalışması",
+ "brifing": "Pencereye giren 24 kaydın çoğu merkezin alanları dışında (Europol rutin operasyon duyuruları, Hollanda yerel haberleri). Çekirdek alanlarda üç kayıt var: Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasının genişlemesi [66a0a60070], 21 Eylül tarihli Resmî Gazete özetinde yer alan Anayasa Mahkemesi ihlal kararları [e5d940888d] ve Rechtbank Den Haag'ın cinsiyet kimliği/biseksüellik iddialarını inandırıcı bulmayan iltica kararı [96968e9b1d]. BM tarafında 22-28 Eylül BM Genel Kurulu yüksek düzeyli haftası ve Venezuela Gerçekleri Araştırma Misyonu'nun yenilenme oylaması gündemde [94f64e4573][d27fa45a80]. Süleymanlılar, Kozinoğlu, Kavala ve Demirtaş dosyalarında bu pencerede yeni kayıt yok; sayılar önceki brifingteki düzeyde. Birincil belgeler (Benli kararı ile 2 Eylül tarihli üç icra kararı) yeni değil, önceki günlerde değerlendirildi.",
  "one_cikanlar": [
   {
-   "baslik": "AYM, meslekten çıkarılan polis memurunun davasında gerekçeli karar hakkı ihlali buldu",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Karar, idare mahkemesi ve Danıştay'ın lehe tanık beyanlarını değerlendirmeden yalnızca ceza yargılamasına dayanarak dava reddetmesini ihlal saymış; bu, ihraç ve meslekten çıkarma dosyalarında idari yargının ceza dosyasına otomatik atıf yapma pratiğine dokunuyor. Dosya yeniden yargılama için Ankara 4. İdare Mahkemesi'ne gönderilmiş. Aynı sayıda, zorunlu arabuluculuk şartının aşırı şekli yorumu nedeniyle mahkemeye erişim hakkı ihlali de yer alıyor.",
-   "yenilik": "t6 altında 18 Eylül'den beri ilk yeni AYM kararı; bu kez meslekten çıkarma (idari yargı) bağlamında.",
+   "baslik": "Katılımevim Tasarruf Finansman AŞ soruşturmasında 15 gözaltı, 10 kişi aranıyor",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden_onemli": "Fon soruşturmalarının bu kez doğrudan bir tasarruf finansman şirketi üzerinden yürütüldüğü bildiriliyor; isnat şirket paylarında piyasa dolandırıcılığı. Merkezin izlediği kayyım ve malvarlığı tedbirleri dosyalarıyla aynı hatta duruyor: bir gün önce Süleymanlılar soruşturmasında 23 şirkete kayyım atandığı bildirilmişti. Çokbilgin ve Ayvaz icra kararının işaret ettiği bireysel yargısal denetim ölçütünün bu tür dosyalarda nasıl uygulandığı izlenmeli.",
+   "yenilik": "İlk kez: Katılımevim'in doğrudan soruşturmanın merkezine alındığı ve 25 şüpheli hakkında işlem başlatıldığı bugün kayda giriyor.",
    "ayrintilar": [
-    "21.09.2026 tarihli ve 33377 sayılı Resmî Gazete, 14 madde özetlendi",
-    "Yeniden yargılama için gönderilen merci: Ankara 4. İdare Mahkemesi",
-    "Dayanak: Anayasa md. 36 (gerekçeli karar hakkı); ayrıca mahkemeye erişim hakkı ihlali bulunan ikinci bir başvuru",
-    "Aynı sayıda 2015 doğumuna ilişkin tıbbi ihmal başvurusunda Anayasa md. 17 ihlali"
+    "25 şüpheli hakkında işlem başlatıldı",
+    "15 kişi gözaltına alındı",
+    "10 kişi için yakalama çalışması sürüyor",
+    "İsnat: şirket paylarında piyasa dolandırıcılığı"
    ],
-   "mekanizma": "Anayasa md. 36 – gerekçeli karar hakkı",
-   "karsi_okuma": "Kayıt bir Resmî Gazete özeti hizmetinden geliyor; başvuru numaraları, karar tarihleri ve başvurucunun ihraç sebebine ilişkin bilgi yok. Kararın KHK ihraçlarıyla bağlantılı olduğu doğrulanmış değildir, meslekten çıkarma disiplin işlemi de olabilir.",
+   "mekanizma": "Piyasa dolandırıcılığı isnadı; şirket üzerinden fon soruşturması",
+   "karsi_okuma": "Kayıt tek kaynaklı ve başlık düzeyinde; soruşturmayı yürüten savcılık, gözaltına alınanların kimliği, şirkete kayyım ya da malvarlığı tedbiri uygulanıp uygulanmadığı doğrulanmamıştır. Soruşturmanın Gülen hareketi bağlantılı fon dosyalarıyla ilişkisi kayıttan çıkarılamaz.",
+   "kayitlar": [
+    "66a0a60070"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Anayasa Mahkemesi, meslekten çıkarılan polis memurunun davasında gerekçeli karar hakkı ihlali buldu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "Resmî Gazete özetine göre idare mahkemesi ve Danıştay, başvurucu lehine tanık beyanlarını değerlendirmeden yalnızca ceza yargılamasına dayanarak davayı reddetmiş; AYM bunu Anayasa'nın 36. maddesi kapsamında ihlal saymış ve dosyayı Ankara 4. İdare Mahkemesi'ne yeniden yargılama için göndermiş. Ceza dosyasının idari ihraç davasında tek dayanak yapılması, merkezin KHK/ihraç dosyalarındaki temel itiraz noktalarından biridir. Aynı özette işe iade davasında arabuluculuk şartının aşırı şekli yorumu nedeniyle mahkemeye erişim ihlali de yer alıyor.",
+   "yenilik": "t6 kapsamında yeni bir AYM kararı: bu kez meslekten çıkarma davasında delil değerlendirmesi eksikliğine dayanan ihlal.",
+   "ayrintilar": [
+    "Resmî Gazete 21 Eylül 2026, sayı 33377, 14 madde",
+    "Meslekten çıkarılan polis memuru dosyası Ankara 4. İdare Mahkemesi'ne gönderildi",
+    "İhlal dayanağı: Anayasa md. 36 gerekçeli karar hakkı",
+    "Ayrıca işe iade davasında mahkemeye erişim hakkı ihlali ve md. 17 kapsamında tıbbi ihmal ihlali"
+   ],
+   "mekanizma": "Anayasa md. 36 — gerekçeli karar hakkı; yeniden yargılama",
+   "karsi_okuma": "Kayıt Resmî Gazete özeti düzeyindedir; başvuru numaraları, ihracın hukuki dayanağı (KHK mı disiplin mi) ve kararın tam gerekçesi elimizde yok. Dosyanın Gülen hareketi bağlantılı olduğu çıkarılamaz.",
    "kayitlar": [
     "e5d940888d"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Katılımevim dosyasında 15 gözaltı, 25 şüpheli, 10 kişi aranıyor",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden_onemli": "Tasarruf finansman şirketlerine yönelik fon soruşturmaları, son günlerde izlenen şirket yönetimlerine kayyım atama pratiğiyle aynı hukuki araç setini kullanma potansiyeli taşıyor. Kayıtta isnat piyasa dolandırıcılığı olarak belirtiliyor; kayyım ya da malvarlığı tedbiri bilgisi verilmiyor.",
-   "yenilik": "İlk kez: Katılımevim Tasarruf Finansman AŞ'nin doğrudan operasyonun merkezine girdiği bildiriliyor.",
-   "ayrintilar": [
-    "25 şüpheli hakkında işlem",
-    "15 kişi gözaltına alındı",
-    "10 kişi hakkında yakalama çalışması sürüyor",
-    "İsnat: şirket paylarında piyasa dolandırıcılığı"
-   ],
-   "mekanizma": "Piyasa dolandırıcılığı soruşturması",
-   "karsi_okuma": "Kayıt tek kaynaklı ve savcılık tebliğine dayanıp dayanmadığı belli değil; şirkete kayyım atandığına ya da malvarlığı dondurulduğuna dair bir bilgi yok. Dünkü Süleymanlılar dosyasıyla bağlantısı kayıtlarda kurulmuyor.",
-   "kayitlar": [
-    "66a0a60070"
-   ],
-   "guven": "düşük"
-  },
-  {
-   "baslik": "Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik beyanını inandırıcı bulmayan idari kararı onadı",
+   "baslik": "Rechtbank Den Haag, cinsiyet kimliği ve biseksüellik iddialarını inandırıcı bulmayan ret kararını onadı",
    "alan": "İade, adli yardım ve iltica",
-   "neden_onemli": "Hollanda idari yargısı, SOGI temelli iltica taleplerinde inandırıcılık denetimini idarenin lehine sonuçlandırdı; bu, merkezin Hollanda iltica içtihadı takibinde (Zeeland-West-Brabant dosyaları) karşılaştırma noktası oluşturur. Karar Cezayir menşeli bir başvuruya ilişkin, Türkiye bağlantısı yok.",
-   "yenilik": "İlk kez: 17 Eylül 2026 tarihli NL26.48114/NL26.48115 sayılı karar kayda girdi.",
+   "neden_onemli": "17 Eylül 2026 tarihli karar (ECLI:NL:RBDHA:2026:27263, NL26.48114 ve NL26.48115), idarenin kimlik, cinsiyet kimliği ve biseksüellik beyanlarını ve bunlardan doğan sorunları inandırıcı bulmamasını yerinde gördü; itiraz reddedildi. Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli taleplerde inandırıcılık denetiminin belirleyiciliğini gösteren ikinci karar hattı.",
+   "yenilik": "İlk kez: 10 Eylül tarihli Zeeland-West-Brabant kararlarından sonra farklı bir mahkemeden aynı yönde bir karar kayda giriyor.",
    "ayrintilar": [
-    "ECLI:NL:RBDHA:2026:27263",
-    "Karar tarihi 17-09-2026, dosya no NL26.48114 ve NL26.48115",
+    "Karar tarihi 17 Eylül 2026, yayım 21 Eylül 2026",
+    "Dosya numaraları NL26.48114 ve NL26.48115",
     "Menşe ülke: Cezayir",
-    "Sonuç: beroep ongegrond (başvuru reddi)"
+    "Sonuç: beroep ongegrond (itiraz reddi)"
    ],
-   "mekanizma": "Hollanda iltica yargısı – inandırıcılık denetimi",
-   "karsi_okuma": "Elimizde yalnızca karar özeti var; mahkemenin inandırıcılık ölçütlerini nasıl gerekçelendirdiği ve hangi delil standardını uyguladığı metinden görülmüyor. Tek karardan yerleşik bir eğilim çıkarılamaz.",
+   "mekanizma": "Hollanda iltica usulü — inandırıcılık (geloofwaardigheid) denetimi",
+   "karsi_okuma": "Kayıt özet düzeyindedir; mahkemenin inandırıcılık değerlendirmesinde hangi ölçütleri kullandığı ve Raad van State'e başvuru olup olmadığı bilinmiyor. Tek karardan yerleşik bir eğilim çıkarılamaz.",
    "kayitlar": [
     "96968e9b1d"
    ],
-   "guven": "orta"
+   "guven": "yüksek"
   },
   {
-   "baslik": "BM Genel Kurulu yüksek düzeyli haftası 22-28 Eylül'de; Türkiye ilk gün konuşmacıları arasında",
+   "baslik": "BM Genel Kurulu 81. dönem yüksek düzeyli haftası 22 Eylül'de başlıyor; Türkiye ilk gün konuşmacıları arasında",
    "alan": "BM insan hakları mekanizmaları",
-   "neden_onemli": "HRW, uluslararası hesap verebilirlik mekanizmalarının zayıflatılmasına karşı devletlere çağrı yapıyor; merkezin BM mekanizmaları dosyası açısından haftanın çıktıları (yan etkinlikler, devlet beyanları) izlenmeye değer. Access Now, aynı hafta yapay zekâ yönetişimi ve gözetim üzerine bir yan etkinlik duyuruyor.",
-   "yenilik": "İlk kez: UNGA takviminin tarihleri ve Türkiye'nin ilk gün konuşmacıları arasında olduğu kayda girdi.",
+   "neden_onemli": "Human Rights Watch, 22-28 Eylül 2026 arasında New York'ta yapılacak genel görüşmede devletlerden uluslararası hesap verebilirlik mekanizmalarını savunmalarını istiyor ve ilk gün konuşmacıları arasında Türkiye'nin de bulunduğunu belirtiyor. Merkezin BM mekanizmaları dosyası açısından, Türkiye'ye yönelik olası çağrıların ve yan etkinliklerin izleneceği pencere açılıyor.",
+   "yenilik": "t25 açıldıktan sonra ilk somut takvim bilgisi: konuşma sırası ve ilk gün konuşmacıları.",
    "ayrintilar": [
-    "Genel Kurul yıllık toplantısı 22-28 Eylül 2026, New York",
-    "İlk gün konuşmacıları arasında Türkiye, Fransa, Birleşik Krallık ve Japonya liderleri",
-    "BM'nin 193 üyesinden onlarca lider ve dışişleri bakanı katılacak",
-    "Access Now'un UNGA81 yan etkinliği: yapay zekâ yönetişiminde insan hakları"
+    "Tarih 22-28 Eylül 2026, New York",
+    "İlk konuşma 22 Eylül'de Brezilya, ardından ABD",
+    "İlk gün konuşmacıları arasında Türkiye, Fransa, Birleşik Krallık ve Japonya",
+    "UNGA81 haftasında yapay zekâ yönetişimi ve gözetim üzerine yan etkinlik duyuruldu"
    ],
-   "mekanizma": "BM Genel Kurulu 81. dönem",
-   "karsi_okuma": "Kayıtlar bir STK değerlendirmesi ve etkinlik duyurusudur; Türkiye'ye ilişkin özel bir BM işlemi ya da mekanizma adımı içermiyor.",
+   "mekanizma": "BM Genel Kurulu 81. dönem genel görüşme",
+   "karsi_okuma": "Kayıt bir sivil toplum çağrısıdır; Türkiye'ye ilişkin herhangi bir gündem maddesi, oturum ya da belge içermez. Türkiye'nin konuşma içeriği hakkında çıkarım yapılamaz.",
    "kayitlar": [
     "94f64e4573",
     "47b34b0e34"
@@ -297,86 +306,65 @@
    "guven": "orta"
   },
   {
-   "baslik": "Kavala dosyasında Avrupa Konseyi'nden somut adım talebi (önceki günden, başlık düzeyinde)",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Talep, Demirtaş ve Yüksekdağ dosyasındaki icra baskısıyla aynı döneme denk geliyor ve 46. madde denetiminin iki ayrı Türkiye dosyasında eşzamanlı sürdüğünü gösteriyor. Kaydın içeriği yok; hangi organın, hangi toplantıda ve ne talep ettiği doğrulanmalı.",
-   "yenilik": "Bu kayıt 20 Eylül tarihli; bugün yeni bir gelişme eklenmedi.",
+   "baslik": "Venezuela Gerçekleri Araştırma Misyonu'nun görev süresi için 5-7 Ekim'de oylama bekleniyor",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden_onemli": "Aralarında Amnesty International'ın da bulunduğu 21 kuruluş, İnsan Hakları Konseyi'nin 63. oturumunda misyonun görev süresinin en az 2028'e kadar uzatılmasını istedi; 18 Eylül 2026'da Cenevre'de interaktif diyalog yapıldı. Özel araştırma mekanizmalarının yenilenme pratiği, merkezin BM mekanizmaları dosyasında usul emsali oluşturur.",
+   "yenilik": "İlk kez.",
    "ayrintilar": [
-    "Kayıt yalnızca başlık düzeyinde: 'Avrupa Konseyi Türkiye'den Kavala için somut adım istedi'"
+    "21 sivil toplum kuruluşunun ortak açıklaması",
+    "İHK 63. oturum, interaktif diyalog 18 Eylül 2026",
+    "Oylama 5-7 Ekim 2026 arasında bekleniyor",
+    "Yenileme girişimine Arjantin, Kanada, Şili, Ekvador, Guatemala, Paraguay ve Uruguay öncülük ediyor"
    ],
-   "mekanizma": "AİHS md. 46 – icra denetimi",
-   "karsi_okuma": "Metin olmadığı için talebin Bakanlar Komitesi ara kararı mı, başka bir organın açıklaması mı olduğu bilinmiyor; 'somut adım' ifadesinin kapsamı doğrulanmamıştır.",
+   "mekanizma": "BM İHK — bağımsız gerçekleri araştırma misyonu mandası",
+   "karsi_okuma": "Oylama sonucu ve oy dağılımı bilinmiyor; kayıt sivil toplum talebini aktarıyor, Konsey'in eğilimi hakkında veri vermiyor.",
    "kayitlar": [
-    "8c71808e1f"
+    "d27fa45a80"
    ],
-   "guven": "düşük"
+   "guven": "orta"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "durum": "olağan",
-   "not": "Bugün yeni AİHM kararı veya Bakanlar Komitesi işlemi kaydı yok; elimizdeki birincil belgeler 15 Eylül tarihli Benli kararı ile 2 Eylül tarihli üç icra kararıdır. İç hukuk tarafında AYM'nin iki ihlal kararı Resmî Gazete özetine girdi.",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "hareketli",
+   "not": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasında 15 gözaltı ve 10 yakalama çalışması bildirildi; 25 şüpheli hakkında işlem başlatıldı [66a0a60070]. Süleymanlılar dosyasında bu pencerede yeni kayıt yok.",
    "kayitlar": [
-    "e5d940888d",
-    "001-252298",
-    "001-252500",
-    "001-252498",
-    "001-252496",
-    "8c71808e1f"
+    "66a0a60070"
    ]
   },
   {
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "durum": "hareketli",
-   "not": "Katılımevim Tasarruf Finansman AŞ'ye yönelik fon soruşturmasında 15 gözaltı bildirildi; kayyım ya da dondurma tedbiri bilgisi yok. KU Leuven'de AB kısıtlayıcı tedbirlerinin temel haklarla sınırlanmasına ilişkin bir doktora savunması duyuruldu (önceki günden).",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "olağan",
+   "not": "Resmî Gazete özetinde iki Anayasa Mahkemesi ihlal kararı yer alıyor: meslekten çıkarma davasında gerekçeli karar hakkı, işe iade davasında mahkemeye erişim hakkı [e5d940888d]. Bakanlar Komitesi dosyalarında (Kavala, Demirtaş/Yüksekdağ, Uzan ve Türk grupları) bu pencerede yeni kayıt yok.",
    "kayitlar": [
-    "66a0a60070",
-    "595bed6bbc"
+    "e5d940888d"
    ]
   },
   {
    "alan": "İade, adli yardım ve iltica",
-   "durum": "olağan",
-   "not": "Den Haag idare mahkemesinin 17 Eylül tarihli SOGI temelli iltica reddi kayda girdi. 7. SIRIUS SPoC toplantısına ilişkin Europol duyurusu yeniden tarandı; 18 Eylül'deki içerikten farkı yok.",
+   "durum": "hareketli",
+   "not": "Rechtbank Den Haag'ın cinsiyet kimliği ve biseksüellik beyanlarını inandırıcı bulmayan ret kararı yayımlandı [96968e9b1d]. ABD'nin Haiti'ye TPS sonrası sınır dışılarında Temmuz'dan bu yana 450'den fazla kişinin gönderildiği, bazılarının derdest iltica başvurusu olduğu bildiriliyor [2036f004c5]. SIRIUS SPoC kaydı yeni bilgi içermiyor [eb6846d9b3].",
    "kayitlar": [
     "96968e9b1d",
+    "2036f004c5",
     "eb6846d9b3"
    ]
   },
   {
    "alan": "BM insan hakları mekanizmaları",
-   "durum": "olağan",
-   "not": "UNGA yüksek düzeyli haftası öncesi HRW çağrısı ve Access Now yan etkinliği kayda girdi; Türkiye'ye özgü bir mekanizma işlemi yok.",
+   "durum": "hareketli",
+   "not": "BM Genel Kurulu yüksek düzeyli haftası 22 Eylül'de başlıyor; Türkiye ilk gün konuşmacıları arasında [94f64e4573]. Venezuela misyonunun yenilenmesi için 5-7 Ekim'de oylama bekleniyor [d27fa45a80]; UNGA81 kapsamında yapay zekâ ve gözetim üzerine yan etkinlik duyuruldu [47b34b0e34].",
    "kayitlar": [
     "94f64e4573",
+    "d27fa45a80",
     "47b34b0e34"
    ]
   },
   {
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "durum": "sessiz",
-   "not": "Bugün Türkiye kaynaklı yeni gözaltı/soruşturma kaydı gelmedi. Önceki günden bir yayın, Türkiye'nin BAE tarafından suçlanan Müslüman Kardeşler bağlantılı kişilere ikamet ve vatandaşlık verdiğini öne sürüyor; tek kaynaklı ve doğrulanmamıştır.",
-   "kayitlar": [
-    "97b7178ea9"
-   ]
-  },
-  {
    "alan": "Belçika ve AB mevzuatı",
-   "durum": "sessiz",
-   "not": "Kayıtlar ders/etkinlik duyuruları ve ticari hukuk yazılarından ibaret; merkezin dosyalarıyla bağlantı kurulmuyor.",
-   "kayitlar": [
-    "52d5618d8e",
-    "73e893ad0b",
-    "7868fb1300",
-    "9ea0c91e19",
-    "935aaa17f4"
-   ]
-  },
-  {
-   "alan": "Adli iş birliği (bağlamsal)",
    "durum": "olağan",
-   "not": "Europol'ün bugünkü duyuruları insan ticareti, uyuşturucu, sahte para ve Andorra'nın güvenli iletişim ağına katılımına ilişkin rutin operasyon bildirimleridir; merkezin dosyalarıyla doğrudan ilgisi yok.",
+   "not": "Europol'den gelen kayıtların tamamı rutin operasyon ve iş birliği duyurusu niteliğinde (insan ticareti, uyuşturucu, sahte para, Andorra'nın güvenli iletişim ağına katılımı, Avrupa Çalışma Otoritesi ile çalışma düzenlemesi); merkezin dosyalarıyla doğrudan bağı yok.",
    "kayitlar": [
     "9eb98daab5",
     "a8d67cf96b",
@@ -392,71 +380,55 @@
  ],
  "dosya_derinlesmesi": [
   {
-   "baslik": "Benli v. Türkiye kararının icrası: avukat görüşmelerinin izlenmesi ve UYAP kayıtlarının saklanması",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "elimizde": "Karar metni elimizde: İkinci Seksiyon Komitesi 15 Eylül 2026'da oybirliğiyle 8. madde ihlali buldu; ihlal hem cezaevinde avukat görüşmelerinin izlenmesi hem de özel yazışmaların UYAP sisteminde kaydedilip saklanmasından kaynaklanıyor [001-252298]. Manevi tazminat 2.000 avro, masraf ve giderler 500 avro; ödeme süresi tebliğden itibaren üç ay, gecikmede AMB marjinal kredi faizi artı üç puan. Başvuru 29 Haziran 2020'de yapılmış (no. 29949/20); karar kesin, editoryal düzeltmeye tabi. Aynı dönemde Komite'nin 2 Eylül'de kapattığı üç dosyada genel tedbirlerin Uzan ve Diğerleri ile Türk gruplarında sürdüğü teyit edilmiş durumda [001-252500][001-252498].",
-   "eksik": "Kararın hangi Bakanlar Komitesi denetim grubuna dahil edileceği ve hükümetin eylem planı/raporu sunup sunmadığı bilinmiyor. UYAP'ta kaydedilen yazışmaların silinip silinmeyeceğine ilişkin bireysel tedbir bilgisi ve cezaevi izleme pratiğinde bir mevzuat değişikliği olup olmadığı kayıtlarda yok.",
-   "izlenecek_adim": "Sıradaki usul adımı, üç aylık ödeme süresinin 15 Aralık 2026'da dolması ve hükümetin eylem planının DH-DD belge serisinde yayımlanmasıdır; Komite'nin bir sonraki insan hakları toplantısı gündeminde dosyanın görünüp görünmediği izlenmeli.",
-   "dayanak": "Cezaevinde müdafi görüşmesinin izlendiği ve yazışmanın elektronik sistemde saklandığı iddiası taşıyan dosyalarda, ihlalin yalnızca izleme anına değil kaydın saklanmasına da bağlanmış olması merkezin usul güvencesi argümanına dayanak oluşturur.",
+   "baslik": "Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli iltica taleplerinde inandırıcılık denetimi",
+   "alan": "İade, adli yardım ve iltica",
+   "elimizde": "Bugün Rechtbank Den Haag'ın 17 Eylül 2026 tarihli kararı yayımlandı: Cezayir uyruklu başvurucunun kimliği, cinsiyet kimliği ve biseksüelliği ile bunlardan doğan sorunlar idare tarafından inandırıcı bulunmamış, mahkeme bu değerlendirmeyi yerinde görerek itirazı reddetmiştir (NL26.48114, NL26.48115) [96968e9b1d]. Merkezin dosyasında ayrıca Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik kararları (BRE 22/4792 ve diğer yedi dosya) açık takip maddesi olarak duruyor. İki karar hattı da esasa değil, beyanların inandırıcılığına odaklanıyor.",
+   "eksik": "Kararın tam metni, mahkemenin hangi inandırıcılık ölçütlerini uyguladığı ve menşe ülke bilgisi değerlendirmesinin rolü elimizde yok. Raad van State'e başvuru yapılıp yapılmadığı ve idarenin karar gerekçesinin ayrıntısı da bilinmiyor.",
+   "izlenecek_adim": "Rechtspraak.nl üzerinden aynı mahkemelerin sonraki SOGI kararlarının ve varsa Raad van State temyiz kararlarının izlenmesi; Zeeland-West-Brabant dosyalarında bir üst derece adımı olup olmadığının takibi.",
+   "dayanak": "İnandırıcılık denetiminin belirleyici hale geldiği kararlar, merkezin iltica dosyalarında usul güvencesi ve bireyselleştirilmiş değerlendirme argümanı için karşılaştırmalı malzeme sağlar.",
    "kayitlar": [
-    "001-252298",
-    "001-252500",
-    "001-252498"
+    "96968e9b1d"
    ]
   }
  ],
  "kronoloji": [
   {
    "tarih": "2026-09-02",
-   "adim": "Bakanlar Komitesi 1567. toplantıda üç Türkiye dosyasını kapattı; malvarlığı dondurmada genel tedbirler Uzan ve Diğerleri grubunda, avukata erişimde Türk grubunda denetlenmeye devam ediyor.",
+   "adim": "Bakanlar Komitesi, Çokbilgin ve Ayvaz dosyasını kapatırken bireysel yargısal denetim ve usul güvencesi olmaksızın otomatik malvarlığı dondurmaya ilişkin genel tedbirlerin Uzan ve Diğerleri grubunda denetlenmeye devam edeceğini kaydetti.",
    "kayitlar": [
-    "001-252500",
-    "001-252498",
-    "001-252496"
+    "001-252500"
    ]
-  },
-  {
-   "tarih": "2026-09-15",
-   "adim": "AİHM, Benli v. Türkiye kararında avukat görüşmelerinin izlenmesi ve UYAP kayıtları nedeniyle 8. madde ihlali buldu; 2.000 + 500 avro ödenmesine hükmetti.",
-   "kayitlar": [
-    "001-252298"
-   ]
-  },
-  {
-   "tarih": "2026-09-19",
-   "adim": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ için derhal serbest bırakma çağrısını yinelediği ve yeni yasanın uygulanabilirliğini sorduğu kayda girdi.",
-   "kayitlar": []
   },
   {
    "tarih": "2026-09-20",
-   "adim": "Avrupa Konseyi'nin Türkiye'den Kavala dosyasında somut adım istediği bildirildi (başlık düzeyinde kayıt).",
-   "kayitlar": [
-    "8c71808e1f"
-   ]
+   "adim": "Süleymanlılar soruşturmasında 29 gözaltı ve 23 şirkete kayyım atandığı bildirildi (önceki brifing).",
+   "kayitlar": []
   },
   {
    "tarih": "2026-09-21",
-   "adim": "İcra tarafında yeni kayıt gelmedi; iç hukukta AYM'nin meslekten çıkarma davasındaki gerekçeli karar ihlali Resmî Gazete özetinde yer aldı.",
+   "adim": "Katılımevim Tasarruf Finansman AŞ fon soruşturmasının merkezine alındı: 25 şüpheli hakkında işlem, 15 gözaltı, 10 kişi için yakalama çalışması.",
    "kayitlar": [
-    "e5d940888d"
+    "66a0a60070"
    ]
   }
  ],
  "izlenecekler": [
-  "Resmî Gazete'de özetlenen AYM kararlarının tam metinlerinin yayımlanması: başvuru numaraları, meslekten çıkarmanın dayanağı ve yeniden yargılamanın seyri",
-  "Benli kararının Bakanlar Komitesi'nde hangi gruba dahil edileceği ve 15 Aralık 2026 ödeme süresi",
-  "Katılımevim fon soruşturmasında yakalama kararlarının sonucu ve şirkete yönelik kayyım/malvarlığı tedbiri olup olmadığı",
-  "Kavala dosyasındaki 'somut adım' talebinin hangi organ ve hangi belgeyle yapıldığının doğrulanması",
-  "22-28 Eylül UNGA yüksek düzeyli haftasında Türkiye'ye ilişkin beyan ve yan etkinlikler"
+  "Katılımevim soruşturmasında gözaltına alınan 15 kişinin sevk sonucu ve şirkete yönelik kayyım/malvarlığı tedbiri kararı olup olmadığı",
+  "Anayasa Mahkemesi'nin meslekten çıkarma dosyasında verdiği ihlal kararının Ankara 4. İdare Mahkemesi'ndeki yeniden yargılamaya yansıması",
+  "BM Genel Kurulu 81. dönem yüksek düzeyli haftasında (22-28 Eylül) Türkiye'ye ilişkin açıklama ve yan etkinlikler",
+  "Venezuela Gerçekleri Araştırma Misyonu'nun görev süresi için İHK 63. oturumunda 5-7 Ekim'de yapılacak oylama",
+  "Rechtbank Den Haag ve Zeeland-West-Brabant kararlarının Raad van State aşamasına taşınıp taşınmadığı"
  ],
  "gun": "2026-09-21",
- "olusturma": "2026-09-21T07:24+00:00",
+ "olusturma": "2026-09-21T08:00+00:00",
  "model": "claude-opus-5",
- "kayit_sayisi": 42,
+ "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
   "96968e9b1d",
   "94f64e4573",
   "7d393ecdaf",
+  "793dc10f29",
+  "d27fa45a80",
   "2036f004c5",
   "47b34b0e34",
   "e5d940888d",
@@ -470,12 +442,14 @@
   "fbadee5f32",
   "abe8a2c57d",
   "e1012e4e37",
+  "ac1a1ef227",
   "935aaa17f4",
+  "1724923d4d",
   "8c71808e1f",
+  "37c46a9863",
   "633e042b13",
   "66a0a60070",
   "703e738706",
-  "5288068d2e",
   "a6942f501e",
   "de1e452636",
   "10ab13d6fd",
@@ -485,19 +459,18 @@
   "b516ae0c1b",
   "f4b36728ee",
   "00e3279e5f",
-  "52d5618d8e",
-  "7e23cd221d",
-  "73e893ad0b",
-  "af307087e6",
-  "7868fb1300",
-  "bd8e8d7b9c",
-  "9ea0c91e19",
-  "8b6fe723ee",
-  "97b7178ea9",
-  "595bed6bbc",
-  "a86e4c48b5"
+  "374666bd13",
+  "f2f0070e7e",
+  "5d02175f71",
+  "0fdf670903",
+  "5496bb6c29",
+  "38a04faf34",
+  "7b0905684f",
+  "882d48204d",
+  "86f415ec05",
+  "296a1dd926"
  ],
- "maliyet_usd": 0.5371,
+ "maliyet_usd": 0.6166,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -552,9 +525,9 @@
     "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen kayıtlar ve önceki gün başlıklarıyla uyumlu, dayanaklı bulundu.",
+  "genel": "Tüm iddialar gösterilen kayıt ve birincil belgelerle uyumlu, olgusal dayanak sorunu bulunmadı.",
   "model": "claude-sonnet-5",
-  "maliyet_usd": 0.0438,
+  "maliyet_usd": 0.0507,
   "iddia_sayisi": 10
  },
  "takip_acik": [
@@ -604,7 +577,7 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-17",
    "son_hareket": "2026-09-21",
-   "hareket_sayisi": 2
+   "hareket_sayisi": 3
   },
   {
    "id": "t7",
@@ -628,7 +601,7 @@
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-09-18",
    "son_hareket": "2026-09-21",
-   "hareket_sayisi": 2
+   "hareket_sayisi": 3
   },
   {
    "id": "t10",
@@ -740,7 +713,7 @@
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-09-21",
    "son_hareket": "2026-09-21",
-   "hareket_sayisi": 0
+   "hareket_sayisi": 1
   },
   {
    "id": "t24",
@@ -756,11 +729,27 @@
    "alan": "BM insan hakları mekanizmaları",
    "acildi": "2026-09-21",
    "son_hareket": "2026-09-21",
-   "hareket_sayisi": 0
+   "hareket_sayisi": 1
   },
   {
    "id": "t26",
    "baslik": "Hollanda idari yargısında cinsel yönelim/cinsiyet kimliği temelli iltica taleplerinde inandırıcılık denetimi",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-09-21",
+   "son_hareket": "2026-09-21",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t27",
+   "baslik": "Venezuela'ya ilişkin BM Bağımsız Gerçekleri Araştırma Misyonu'nun görev süresinin İHK 63. oturumunda uzatılması",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-09-21",
+   "son_hareket": "2026-09-21",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t28",
+   "baslik": "ABD'nin Haiti'ye TPS sonrası sınır dışı uygulamaları ve derdest iltica talebi olanların geri gönderilmesi",
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-09-21",
    "son_hareket": "2026-09-21",

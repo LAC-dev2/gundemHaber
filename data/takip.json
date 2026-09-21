@@ -168,6 +168,13 @@
      "kayitlar": [
       "e5d940888d"
      ]
+    },
+    {
+     "gun": "2026-09-21",
+     "not": "21 Eylül 2026 tarihli Resmî Gazete özetinde (sayı 33377) Anayasa Mahkemesi'nin meslekten çıkarılan bir polis memurunun davasında gerekçeli karar hakkı ihlali bulduğu, dosyanın Anayasa'nın 36. maddesi kapsamında yeniden yargılama için Ankara 4. İdare Mahkemesi'ne gönderildiği aktarılıyor. Aynı özette işe iade davasında arabuluculuk dava şartına aşırı şekli yorum nedeniyle mahkemeye erişim hakkı ihlali kaydı da yer alıyor.",
+     "kayitlar": [
+      "e5d940888d"
+     ]
     }
    ]
   },
@@ -259,6 +266,13 @@
     {
      "gun": "2026-09-21",
      "not": "7. SIRIUS SPoC toplantısına ilişkin Europol duyurusu bugünkü taramada yeniden geldi; içerik 18 Eylül'de kaydedilenle aynı (Berlin, 15-16 Eylül 2026, EU IRU ve Bundeskriminalamt ev sahipliği). Yeni veri yok.",
+     "kayitlar": [
+      "eb6846d9b3"
+     ]
+    },
+    {
+     "gun": "2026-09-21",
+     "not": "7. SIRIUS SPoC ağ toplantısına ilişkin Europol kaydı bu pencerede yeniden geldi; 15-16 Eylül 2026 Berlin toplantısı dışında yeni bilgi içermiyor, sınıraşan veri talebi oranına dair güncel veri yok.",
      "kayitlar": [
       "eb6846d9b3"
      ]
@@ -476,7 +490,15 @@
    "kayitlar": [
     "66a0a60070"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-21",
+     "not": "Kayda göre Katılımevim Tasarruf Finansman AŞ doğrudan operasyonun merkezine alındı; şirket paylarında piyasa dolandırıcılığı iddiasıyla 25 şüpheli hakkında işlem başlatıldı, 15 kişi gözaltına alındı, 10 kişi için yakalama çalışması sürüyor. Gözaltına alınanların kimliği, sevk edildikleri mahkeme ve şirkete yönelik bir tedbir kararı olup olmadığı kayıtta yok.",
+     "kayitlar": [
+      "66a0a60070"
+     ]
+    }
+   ]
   },
   {
    "id": "t24",
@@ -503,7 +525,16 @@
     "94f64e4573",
     "47b34b0e34"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-21",
+     "not": "Human Rights Watch, 22-28 Eylül 2026'da New York'ta toplanacak BM Genel Kurulu yüksek düzeyli haftasına ilişkin çağrısında ilk gün konuşmacıları arasında Türkiye'nin de bulunduğunu belirtiyor. Kayıt, uluslararası ceza yargısı ve hesap verebilirlik mekanizmalarının zayıflatılmasına karşı devletlere çağrı yapıyor; Türkiye'ye özgü bir dosya içermiyor.",
+     "kayitlar": [
+      "94f64e4573",
+      "47b34b0e34"
+     ]
+    }
+   ]
   },
   {
    "id": "t26",
@@ -516,9 +547,43 @@
    "kayitlar": [
     "96968e9b1d"
    ],
+   "gelismeler": [
+    {
+     "gun": "2026-09-21",
+     "not": "Rechtbank Den Haag'ın 17 Eylül 2026 tarihli kararı (ECLI:NL:RBDHA:2026:27263, NL26.48114 ve NL26.48115) yayımlandı: Cezayir uyruklu başvurucunun kimliği, cinsiyet kimliği ve biseksüelliği ile bunlardan doğan sorunlar inandırıcı bulunmadı, itiraz reddedildi. Karar, inandırıcılık denetiminin belirleyici olmayı sürdürdüğünü gösteriyor.",
+     "kayitlar": [
+      "96968e9b1d"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t27",
+   "baslik": "Venezuela'ya ilişkin BM Bağımsız Gerçekleri Araştırma Misyonu'nun görev süresinin İHK 63. oturumunda uzatılması",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Karar tasarısının 5-7 Ekim 2026'da oylanması bekleniyor; özel mekanizmaların yenilenip yenilenmemesi, merkezin izlediği diğer ülke mekanizmalarının sürdürülebilirliği açısından emsal oluşturur.",
+   "acildi": "2026-09-21",
+   "durum": "açık",
+   "son_hareket": "2026-09-21",
+   "kayitlar": [
+    "d27fa45a80"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t28",
+   "baslik": "ABD'nin Haiti'ye TPS sonrası sınır dışı uygulamaları ve derdest iltica talebi olanların geri gönderilmesi",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Kayda göre Temmuz 2026'dan bu yana 450'den fazla kişi sınır dışı edildi ve bazılarının derdest iltica başvurusu vardı; geri göndermeme ilkesinin uygulanmasına ilişkin karşılaştırmalı bir örnek.",
+   "acildi": "2026-09-21",
+   "durum": "açık",
+   "son_hareket": "2026-09-21",
+   "kayitlar": [
+    "2036f004c5"
+   ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-21T07:25+00:00",
- "acik": 26
+ "guncelleme": "2026-09-21T08:01+00:00",
+ "acik": 28
 }
