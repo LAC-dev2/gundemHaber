@@ -96,6 +96,14 @@ Kurallar — bunlara kesinlikle uy:
    bölümünde bir dosyayı derinleştir: elimizde ne var, hangi belge eksik,
    hangi adım izlenmeli, merkezin hangi argümanına dayanak olur. Güncellenen
    sayı önemlidir ama yeni bir okuma daha değerlidir.
+13. AYNI DOSYAYI YENİDEN DERİNLEŞTİRME. Hafızada "SON GÜNLERDE
+   DERİNLEŞTİRİLEN DOSYALAR" listesi var; o listedeki bir dosyayı tekrar
+   seçme, merkezin açık takip maddelerinden henüz derinleştirilmemiş
+   birini al. Tek istisna: o dosyada bugün gerçekten yeni bir belge ya da
+   usul adımı varsa — o zaman "elimizde" alanının İLK CÜMLESİ neyin yeni
+   olduğunu söylesin, gerisi eski özetin tekrarı olmasın. Derinleştirmeye
+   değer hiçbir dosya kalmadıysa listeyi boş bırak; aynı dosyayı yeniden
+   yazmaktansa hiç yazmamak yeğdir.
 10. Her kayıt "BUGÜNE AİT" ya da "ÖNCEKİ GÜNDEN" diye işaretlidir. Önceki
    günün kaydını bugünün gelişmesi gibi sunma. Bugüne ait kayıt azsa ya da
    yeni bir şey yoksa bunu açıkça söyle — "bugün şu dosyada yeni kayıt yok,
@@ -345,9 +353,16 @@ def gecmis_ozeti() -> str:
     Dun ne yazildigini yalnizca baslik duzeyinde gormek yetmiyordu; ayni
     dosya ertesi gun neredeyse ayni cumlelerle yeniden yaziliyordu. Bir
     onceki gunun one cikanlari, degerlendirmenin ilk cumlesiyle birlikte
-    veriliyor ki model neyi tekrar etmemesi gerektigini bilsin."""
+    veriliyor ki model neyi tekrar etmemesi gerektigini bilsin.
+
+    Derinlestirilen dosyalar ayri bir liste halinde veriliyor. Once
+    yalnizca bir onceki gunun derinlesmesi gorunuyordu; 21 Eylul analizi
+    bu yuzden 19 Eylul'de derinlestirilen Benli dosyasini neredeyse ayni
+    icerikle yeniden derinlestirdi (arada 20 Eylul'un baska bir dosyayi
+    almis olmasi yetmisti). Artik pencerenin tamami gosteriliyor."""
     gunler = sorted((p for p in ANALIZ.glob("*.json")), reverse=True)[:GECMIS_GUN]
-    satirlar = []
+    satirlar: list[str] = []
+    derinlesenler: list[str] = []
     for sira, yol in enumerate(gunler):
         try:
             d = json.loads(yol.read_text(encoding="utf-8"))
@@ -359,12 +374,18 @@ def gecmis_ozeti() -> str:
             for o in d.get("one_cikanlar", []):
                 satirlar.append(f"    · {o.get('baslik', '')} — "
                                 f"{ilk_cumle(o.get('neden_onemli', ''))}")
-            for dd in d.get("dosya_derinlesmesi", []) or []:
-                satirlar.append(f"    · [derinleşme] {dd.get('baslik', '')}")
         else:
             basliklar = "; ".join(o["baslik"] for o in d.get("one_cikanlar", [])[:4])
             satirlar.append(f"- {gun}: {d.get('baslik', '')}"
                             + (f" | öne çıkanlar: {basliklar}" if basliklar else ""))
+        for dd in d.get("dosya_derinlesmesi", []) or []:
+            derinlesenler.append(f"- {gun}: {dd.get('baslik', '')}")
+
+    if derinlesenler:
+        satirlar.append("")
+        satirlar.append("SON GÜNLERDE DERİNLEŞTİRİLEN DOSYALAR — bunları yeniden "
+                        "derinleştirme, başka bir dosya seç:")
+        satirlar.extend(derinlesenler)
     return "\n".join(satirlar)
 
 
