@@ -15,12 +15,15 @@ on:
     # Yani 02:00 cronu fiilen 07:00 UTC = yerel 09:00 civarinda dusuyor;
     # gunluk analiz o turda uretiliyor. Hedef budur.
     #
-    # Analiz her turda denenir, o gune ait analiz varsa saniyeler icinde
-    # atlanir. 03:00 cronu emniyet kemeri: GitHub ilk turu 06:00 UTC'den
-    # (ANALIZ_EN_ERKEN) once calistirirsa analiz atlanir ve ikinci tur
-    # ~08:00 UTC'de devralir; o olmasa gun 10:30'u bulurdu.
+    # GitHub zamanlanmis turlari yogunlukta tamamen ATLAYABILIYOR da: 21
+    # Eylul sabahi 02:00 turu hic gelmedi. Bu yuzden sabah tek cron'a
+    # guvenilmiyor, dort tane var. Analiz her turda denenir ve o gune ait
+    # analiz varsa saniyeler icinde atlanir; yani fazladan turun maliyeti
+    # yok, gunun ilk gecerli turu analizi uretir, otekiler es gecer.
     - cron: "0 2 * * *"         # fiilen ~07:00 UTC = yerel 09:00  <- gunun analizi
-    - cron: "0 3 * * *"         # fiilen ~08:00 UTC = yerel 10:00  <- emniyet kemeri
+    - cron: "0 3 * * *"         # fiilen ~08:00 UTC = yerel 10:00  |
+    - cron: "0 4 * * *"         # fiilen ~08:45 UTC = yerel 10:45  |  atlanirsa
+    - cron: "0 5 * * *"         # fiilen ~09:30 UTC = yerel 11:30  |  devralirlar
     - cron: "0 6 * * *"         # fiilen ~10:20 UTC = yerel 12:20
     - cron: "0 11,17 * * *"     # fiilen ~14:10 ve ~19:10 UTC
   workflow_dispatch:
@@ -102,10 +105,16 @@ jobs:
           python3 -m pip install --quiet --disable-pip-version-check anthropic
           python3 scripts/ceviri.py --adet 200
 
-      # Gunluk analiz: yalnizca sabah taramasinda (05:00 UTC) ya da elle istendiginde.
+      # Gunluk analiz: gunun ilk gecerli turunda uretilir, sonrakiler atlar.
       # Anahtar tanimli degilse sessizce atlanir; analiz hatasi taramayi bozmaz.
+      # Analiz zamanlanmis turlarda VE kod gonderimlerinde denenir; elle
+      # tetiklenen turda yalnizca "analiz: evet" denirse. Push turlarinin
+      # da denemesi bilincli: sabah ofise gelindiginde analiz hazir olmali
+      # ve GitHub zamanlanmis turu atlayabiliyor. Israf riski yok, iki
+      # kapi var: o gune ait analiz varsa adim saniyeler icinde cikiyor,
+      # ANALIZ_EN_ERKEN'den once ise hic uretilmiyor.
       - name: Gunluk analiz
-        if: github.event_name == 'schedule' || github.event.inputs.analiz == 'evet'
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.analiz == 'evet'
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
