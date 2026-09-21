@@ -2,14 +2,27 @@ name: Kaynak taramasi
 
 on:
   schedule:
-    # GitHub zamanlanmis kosulari en iyi caba ile calistirir; bu depoda
-    # olculen gecikme 3-4,5 saat. Bu yuzden gunun ilk turu erken saate
-    # kuruldu: 02:00 UTC + gecikme ~ TR 09:00. Analiz her turda denenir,
-    # o gune ait analiz varsa saniyeler icinde atlanir; boylece gunun
-    # analizi GitHub ne zaman firsat verirse o zaman, en erken cikar.
-    - cron: "0 2 * * *"         # hedef TR 05:00, fiilen ~TR 09:00
-    - cron: "0 6 * * *"         # hedef TR 09:00, fiilen ~TR 13:00
-    - cron: "0 11,17 * * *"     # hedef TR 14:00 ve 20:00
+    # Saatler yerel saate (Bruksel, yazin UTC+2) gore kurulmustur; cron
+    # yalnizca UTC bilir. Ekimin son pazarindan sonra Bruksel UTC+1 olur
+    # ve asagidaki yerel karsiliklar bir saat geri kayar.
+    #
+    # GitHub zamanlanmis kosulari "en iyi caba" ile calistirir. Bu depoda
+    # olculen gecikme sabit degil ve gunun ilk turunda en buyuk:
+    #   cron 02:00 -> fiilen 06:57 / 07:23   (~5 saat)
+    #   cron 06:00 -> fiilen 10:13 / 10:32   (~4,5 saat)
+    #   cron 11:00 -> fiilen 14:04 / 14:23   (~3 saat)
+    #   cron 17:00 -> fiilen 19:06 / 19:21   (~2 saat)
+    # Yani 02:00 cronu fiilen 07:00 UTC = yerel 09:00 civarinda dusuyor;
+    # gunluk analiz o turda uretiliyor. Hedef budur.
+    #
+    # Analiz her turda denenir, o gune ait analiz varsa saniyeler icinde
+    # atlanir. 03:00 cronu emniyet kemeri: GitHub ilk turu 06:00 UTC'den
+    # (ANALIZ_EN_ERKEN) once calistirirsa analiz atlanir ve ikinci tur
+    # ~08:00 UTC'de devralir; o olmasa gun 10:30'u bulurdu.
+    - cron: "0 2 * * *"         # fiilen ~07:00 UTC = yerel 09:00  <- gunun analizi
+    - cron: "0 3 * * *"         # fiilen ~08:00 UTC = yerel 10:00  <- emniyet kemeri
+    - cron: "0 6 * * *"         # fiilen ~10:20 UTC = yerel 12:20
+    - cron: "0 11,17 * * *"     # fiilen ~14:10 ve ~19:10 UTC
   workflow_dispatch:
     inputs:
       discover:
@@ -98,6 +111,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
           ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL || 'claude-opus-5' }}
           ANALIZ_YENILE: ${{ github.event.inputs.analiz_yenile || 'hayir' }}
+          # Analizin uretilebilecegi en erken UTC saati. Yerel 08:00'e denk
+          # gelir (Bruksel, yazin). Daha erken uretilen analiz gune ait
+          # neredeyse hic kayit gormez ve gun boyu "zaten var" diye atlanir.
+          ANALIZ_EN_ERKEN: ${{ vars.ANALIZ_EN_ERKEN || '6' }}
           SADECE_DENETIM: ${{ github.event.inputs.sadece_denetim || 'hayir' }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
