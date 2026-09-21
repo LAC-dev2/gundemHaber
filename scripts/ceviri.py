@@ -51,15 +51,29 @@ CEVIRI_DENEME = 2        # "cevrilemedi" damgali kayit kac kez yeniden denenir
 
 TR_HARF = "ıİğĞşŞ"
 
-# Yabanci islev sozcukleri. Ikisi birden gecerse metin Turkce sayilmaz;
-# boylece "Turkey detains 21 in Izmir" gibi Turkce ozel ad tasiyan
-# Ingilizce basliklar ceviriden kacmiyor.
+# Yabanci islev sozcukleri. "de", "en", "van", "et" bilerek YOK: uclu de
+# Turkce'de sik gecen sozcukler ("... de ...", "en cok", Van ili) ve
+# listede olduklarinda Turkce metinler yabanci sayiliyordu (Bold Medya'nin
+# "Yabancilara gayrimenkul karsiligi T.C. vatandasligi" haberi boyle
+# kacmisti).
 YABANCI_SOZCUK = {
     "the", "of", "and", "in", "on", "for", "with", "after", "over", "from",
     "to", "as", "by", "that", "is", "are", "was", "were", "has", "have",
     "der", "die", "das", "und", "für", "von", "mit", "ist", "im", "auf",
-    "de", "la", "le", "les", "des", "du", "et", "en", "pour", "een", "van",
-    "het", "op", "aan", "bij", "naar", "niet", "wordt", "werd",
+    "la", "le", "les", "des", "du", "pour", "dans", "avec",
+    "een", "het", "op", "aan", "bij", "naar", "niet", "wordt", "werd",
+}
+
+# Turkce islev sozcukleri. Alan sozlugunden (TR_SOZCUK) ayri tutuluyor:
+# bunlar konudan bagimsiz, her Turkce metinde gecen sozcukler.
+# "de", "da" ve "en" iki listede de YOK: Turkce'de de Fransizca/Felemenkce'de
+# de gecen sozcukler. Birine koymak otekini bozuyor ("Prolongation du sejour"
+# Turkce sanilmisti). Notr biraktik; karar oteki sozcuklere kaliyor.
+TR_ISLEV = {
+    "ve", "bir", "bu", "için", "ile", "daha", "olarak",
+    "göre", "sonra", "önce", "kadar", "ama", "ancak", "veya", "ya", "ki",
+    "çok", "her", "gibi", "ise", "diye", "olan", "olduğu", "üzere", "şu",
+    "o", "onun", "bunu", "buna", "hem", "ise", "yine", "artık", "henüz",
 }
 
 SISTEM = """Sen hukuk alanında çalışan bir çevirmensin. Sana haber, karar ve duyuru
@@ -100,11 +114,13 @@ def dil_tahmini(metin: str) -> str:
     """
     low = metin.lower()
     sozcukler = set(re.findall(r"[a-zçğıöşü]+", low))
-    if len(sozcukler & YABANCI_SOZCUK) >= 2:
+    tr_skor = len(sozcukler & TR_ISLEV) + len(sozcukler & TR_SOZCUK)
+    yab_skor = len(sozcukler & YABANCI_SOZCUK)
+    if tr_skor > yab_skor and tr_skor:             # Turkce isaretler agir basiyor
+        return "tr"
+    if yab_skor >= 2:                              # yabanci islev sozcukleri belirgin
         return "diger"
     if any(harf in metin for harf in TR_HARF):     # ham metinde ara: "İ" kaybolmasin
-        return "tr"
-    if len(sozcukler & TR_SOZCUK) >= 2:
         return "tr"
     # Turkce eklerin izi: tek basina zayif ama iki sozcukte gorulurse yeter
     ekli = sum(1 for w in sozcukler if len(w) > 5 and w.endswith(
