@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -188,7 +189,8 @@ def sema(n: int) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default=VARSAYILAN_MODEL)
-    ap.add_argument("--adet", type=int, default=160, help="bu turda en fazla kaç yeni kayıt")
+    ap.add_argument("--adet", type=int, default=500,
+                    help="bu turda en fazla kaç yeni kayıt (kayıt başı ≈$0,001)")
     ap.add_argument("--temizle", action="store_true",
                     help="mevcut onbellegi yeniden denetle, kusurlu cevirileri at")
     ap.add_argument("--kuru", action="store_true")
@@ -272,43 +274,45 @@ def main() -> int:
     girdi = cikti = 0
     hata_nedeni = ""
 
-    for bas in range(0, len(bekleyen), YIGIN):
-        yigin = bekleyen[bas: bas + YIGIN]
+    def yigin_istemi(yigin: list[dict]) -> str:
         # Kaynak, alan ve adres de veriliyor: ozeti olmayan kayitlarda
         # (kurum personel sayfalari, etkinlik duyurulari) basligi Turkcelestirmek
         # icin elde baska bir ipucu kalmiyor. Adresin yolu cogu zaman ne
         # oldugunu soyluyor: /Staff/..., /citip-conferences/..., /leden/...
-        istem = "Aşağıdaki kayıtları Türkçeye çevir. Her kaydın anahtarını koru.\n\n" + "\n\n".join(
+        return "Aşağıdaki kayıtları Türkçeye çevir. Her kaydın anahtarını koru.\n\n" + "\n\n".join(
             f"[{h['k']}]\nBAŞLIK: {h['baslik']}\nÖZET: {(h.get('ozet') or '')[:400]}"
             f"\nKAYNAK: {h.get('kaynak', '')}\nALAN: {h.get('kategori', '')}"
             f"\nADRES: {yol_ipucu(h.get('url', ''))}"
             for h in yigin)
+
+    def yigin_cevir(yigin: list[dict]) -> str:
+        """Bir yigini cevirip onbellege isler.
+
+        Doner: "" basarili, "hesap:<mesaj>" hesap/anahtar duzeyinde hata
+        (devam etmenin anlami yok), baska bir metin ise gecici hata.
+        """
+        nonlocal girdi, cikti
         try:
             yanit = client.messages.create(
                 model=args.model, max_tokens=8000, system=SISTEM,
-                messages=[{"role": "user", "content": istem}],
+                messages=[{"role": "user", "content": yigin_istemi(yigin)}],
                 output_config={"format": {"type": "json_schema", "schema": sema(len(yigin))}},
             )
-        except Exception as hata:                     # bir yığın düşerse diğerleri sürsün
-            # Nedeni yazmak sart: yalnizca sinif adi basiliyordu ve is akisi
-            # da continue-on-error ile yesil kaldigi icin, kredi tukendiginde
-            # ceviri iki gun boyunca sessizce durdu. Hesap/anahtar duzeyindeki
-            # hatalarda kalan yiginlari denemenin de anlami yok.
+        except Exception as hata:
             mesaj = getattr(hata, "message", None) or str(hata)
-            print(f"::warning::çeviri yığını atlandı ({type(hata).__name__}): {mesaj}")
             kod = getattr(hata, "status_code", None)
-            if kod in (400, 401, 402, 403) or "credit balance" in mesaj.lower():
-                print(f"::error::çeviri durduruldu; kalan {len(bekleyen) - bas} kayıt "
-                      f"çevrilmedi. Neden: {mesaj}")
-                hata_nedeni = mesaj
-                break
-            continue
+            dusuk = mesaj.lower()
+            if kod in (400, 401, 402, 403) or "credit balance" in dusuk or "usage limit" in dusuk:
+                return "hesap:" + mesaj
+            return f"{type(hata).__name__}: {mesaj}"
         if yanit.stop_reason == "refusal":
-            continue
+            return "model yanıtlamayı reddetti"
         try:
             veri = json.loads(next(b.text for b in yanit.content if b.type == "text"))
-        except Exception:
-            continue
+        except Exception as hata:
+            return f"yanıt ayrıştırılamadı: {type(hata).__name__}"
+        girdi += yanit.usage.input_tokens
+        cikti += yanit.usage.output_tokens
         yigin_ix = {h["k"]: h for h in yigin}
         for satir in veri.get("ceviriler", []):
             h = yigin_ix.get(satir.get("k", ""))
@@ -325,9 +329,50 @@ def main() -> int:
                 kayit["cevrilemedi"] = True
                 kayit["deneme"] = onceki.get("deneme", 0) + 1
             onbellek[satir["k"]] = kayit
-        girdi += yanit.usage.input_tokens
-        cikti += yanit.usage.output_tokens
+        return ""
+
+    def eksikler(liste: list[dict]) -> list[dict]:
+        """Hala Turkce basligi olmayan kayitlar."""
+        return [h for h in liste if not (onbellek.get(h["k"]) or {}).get("baslik")]
+
+    # Ana gecis. Gecici bir hatayla dusen yigin AYNI KOSUDA yeniden
+    # deneniyor: eskiden dusen yigin dogrudan "cevrilemedi" damgasi yiyip
+    # yayina oyle cikiyordu (21 Eylul'de 12 kayit tek seferde boyle dustu).
+    for bas in range(0, len(bekleyen), YIGIN):
+        yigin = bekleyen[bas: bas + YIGIN]
+        for deneme in range(3):
+            sonuc = yigin_cevir(yigin)
+            if not sonuc:
+                break
+            if sonuc.startswith("hesap:"):
+                hata_nedeni = sonuc[6:]
+                print(f"::error::çeviri durduruldu; kalan {len(bekleyen) - bas} kayıt "
+                      f"çevrilmedi. Neden: {hata_nedeni}")
+                break
+            print(f"::warning::yığın hatası ({deneme + 1}/3): {sonuc}")
+            time.sleep(2 ** deneme)
+        if hata_nedeni:
+            break
         print(f"  {bas + len(yigin)}/{len(bekleyen)} çevrildi")
+
+    # Son supurme: bir tur daha. Yayina cevrilmemis kayit cikmasin diye;
+    # kural "sayfaya giren her kayit Turkce olacak".
+    if not hata_nedeni:
+        kalan = eksikler(bekleyen)
+        if kalan:
+            print(f"son süpürme: {len(kalan)} kayıt yeniden deneniyor")
+            for bas in range(0, len(kalan), YIGIN):
+                sonuc = yigin_cevir(kalan[bas: bas + YIGIN])
+                if sonuc.startswith("hesap:"):
+                    hata_nedeni = sonuc[6:]
+                    print(f"::error::son süpürme durduruldu: {hata_nedeni}")
+                    break
+                if sonuc:
+                    print(f"::warning::son süpürme yığını düştü: {sonuc}")
+        kalan = eksikler(bekleyen)
+        if kalan:
+            print(f"::warning::{len(kalan)} kayıt çevrilemedi, listede gösterilmeyecek: "
+                  + "; ".join(h["baslik"][:40] for h in kalan[:5]))
 
     g, c = FIYAT.get(args.model, FIYAT[VARSAYILAN_MODEL])
     tutar = girdi / 1e6 * g + cikti / 1e6 * c
