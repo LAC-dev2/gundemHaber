@@ -363,6 +363,10 @@
 "checked": "2026-09-17T12:39:21+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CRVB:2026:1204&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-09-23T10:40:58+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHAMS:2026:2550&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-18T08:01:45+00:00",
 "img": ""
@@ -1603,6 +1607,10 @@
 "checked": "2026-09-17T09:40:29+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/selbstzensur-in-der-wissenschaft/": {
+"checked": "2026-09-23T10:40:58+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/terrorism-brazil-pcc-cv/": {
 "checked": "2026-09-16T12:55:59+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -1633,6 +1641,10 @@
 },
 "https://verfassungsblog.de/wehrhafte-inklusion/": {
 "checked": "2026-09-21T11:07:25+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/wer-verdient-keine-buhne/": {
+"checked": "2026-09-23T10:40:58+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/wissenschaft-im-visier-der-politik/": {
@@ -1873,6 +1885,14 @@
 },
 "https://www.alomaliye.com/2026/09/23/mali-suclari-arastirma-kurulu-genel-tebligi-sira-no-34/": {
 "checked": "2026-09-23T07:14:54+00:00",
+"img": ""
+},
+"https://www.alomaliye.com/2026/09/23/parampos-hak-edislerinde-yuzde-8-odeme/": {
+"checked": "2026-09-23T10:40:58+00:00",
+"img": ""
+},
+"https://www.alomaliye.com/2026/09/23/tubitaktan-bilim-projeleri-icin-iki-cagri/": {
+"checked": "2026-09-23T10:40:58+00:00",
 "img": ""
 },
 "https://www.amnesty.org/en/latest/campaigns/2026/09/why-is-amnesty-international-calling-for-international-justice-for-crimes-against-humanity-in-iran/": {
@@ -2982,6 +3002,10 @@
 "https://www.tr724.com/avrupadan-ailem-guvende-operasyonlarina-genis-tepki/": {
 "checked": "2026-09-19T14:04:17+00:00",
 "img": "https://www.tr724.com/wp-content/uploads/2025/03/avrupa-birligi-1-e1789825059508.jpg"
+},
+"https://www.tr724.com/aym-baskani-hakim-ve-savcilara-seslendi-yanlis-karar-ile-ziyan-eyleme/": {
+"checked": "2026-09-23T10:40:58+00:00",
+"img": "https://www.tr724.com/wp-content/uploads/2026/09/PHOTO-2026-09-23-12-03-21.jpg"
 },
 "https://www.tr724.com/aymden-memur-emeklileri-icin-dikkat-ceken-karar-seyyanen-zam-basvurusu-kabul-edilebilir/": {
 "checked": "2026-09-21T11:07:25+00:00",
