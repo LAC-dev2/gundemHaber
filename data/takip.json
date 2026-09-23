@@ -7,7 +7,7 @@
    "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-23",
    "kayitlar": [
     "164e080299",
     "6aa16a463f",
@@ -57,6 +57,16 @@
       "5f7d5ded96",
       "bd04f6a702",
       "40b87387b2"
+     ]
+    },
+    {
+     "gun": "2026-09-23",
+     "not": "Bugün üç yeni kayıt geldi: İstanbul Barosu, gözaltındakilerin dövüldüğünü, saatlerce kelepçeli tutulduğunu, avukata ve sağlık hizmetine erişimin engellendiğini bildiren bir rapor yayımladı [a89392c00c]; 65 ülkeden 450'yi aşkın örgüt ortak çağrı yayımladı [7e8dffc860]; Amnesty en az 116 gözaltı, en az 83 tutuklama ve 160'tan fazla kişi hakkında soruşturma bildirdi ve kendi Türkiye X hesabının da kısıtlandığını yazdı [e02073d787]. Ayrıca Bakırköy Başsavcılığı'nın 'müstehcenlik' soruşturması kapsamında Türkiye Psikiyatri Derneği'nin X hesabı engellendi [8bbdf842f8].",
+     "kayitlar": [
+      "a89392c00c",
+      "7e8dffc860",
+      "e02073d787",
+      "8bbdf842f8"
      ]
     }
    ]
@@ -516,11 +526,19 @@
    "neden": "Yayının kendisinin gözaltı sebebi yapılması, merkezin ifade özgürlüğü dosyalarında ayrı bir kalem; gözaltıların hukuki nitelemesi ve avukata erişim henüz bilinmiyor.",
    "acildi": "2026-09-20",
    "durum": "açık",
-   "son_hareket": "2026-09-20",
+   "son_hareket": "2026-09-23",
    "kayitlar": [
     "e7200a4c4a"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-23",
+     "not": "Kozinoğlu soruşturmasında usul bir adım ilerledi: eski Cihan Haber Ajansı muhabiri Osman Arslan, 15 yıl önce çektiği görüntüler nedeniyle Pazartesi günü tutuklandı [70d66b6eb4]. Kayıt özet düzeyinde; isnadın hukuki nitelendirmesi ve tutuklamaya dayanak gerekçe kayıtlarda yer almıyor.",
+     "kayitlar": [
+      "70d66b6eb4"
+     ]
+    }
+   ]
   },
   {
    "id": "t21",
@@ -713,12 +731,21 @@
    "neden": "Rapor, kesin mahkûmiyet olmadan kayyım atanmasına ve şirketlerin satış/tasfiyesine izin veren kalıcı bir rejim tarifi yapıyor; bu, Uzan ve Diğerleri grubunda açık duran genel tedbir sorusunun kapsamını belirliyor. Rakamların bağımsız doğrulaması elimizde yok.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-23",
    "kayitlar": [
     "676b86c517",
     "001-252500"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-23",
+     "not": "Stichting Justice Square raporu ikinci bir kaynaktan da aktarıldı; bu aktarımda vurgu, 683 şirketin kesin mahkûmiyet olmaksızın halen devlet kayyımlığında bulunmasına yapılıyor [c7cade7796]. Rakamlar dünkü kayıtla (1.326 şirket, 683'ü TMSF'de) uyumlu [676b86c517].",
+     "kayitlar": [
+      "c7cade7796",
+      "676b86c517"
+     ]
+    }
+   ]
   },
   {
    "id": "t31",
@@ -746,8 +773,60 @@
     "635da126b9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t33",
+   "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
+   "acildi": "2026-09-23",
+   "durum": "açık",
+   "son_hareket": "2026-09-23",
+   "kayitlar": [
+    "6f6f67b478"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t34",
+   "baslik": "'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiye Psikiyatri Derneği hesabının engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Bakırköy Başsavcılığı'nın müstehcenlik soruşturması kapsamında bir meslek derneğinin X hesabının engellenmesi, 'Ailem Güvende' dosyasında kullanılan isnat kalıbının başka örgütlere uygulanıp uygulanmayacağı sorusunu doğuruyor.",
+   "acildi": "2026-09-23",
+   "durum": "açık",
+   "son_hareket": "2026-09-23",
+   "kayitlar": [
+    "8bbdf842f8"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t35",
+   "baslik": "Kayyım uygulamasına ilişkin mizah nedeniyle ceza soruşturması (Müfit Can Saçıntı)",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kayyım rejimine yönelik eleştirinin ceza soruşturmasına konu edilmesi, merkezin malvarlığı/kayyım dosyalarıyla ifade özgürlüğü dosyalarının kesiştiği bir örnek; suç duyurusunun akıbeti izlenmeli.",
+   "acildi": "2026-09-23",
+   "durum": "açık",
+   "son_hareket": "2026-09-23",
+   "kayitlar": [
+    "c3e6c4b494"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t36",
+   "baslik": "23 Eylül 2026 tarihli MASAK Genel Tebliğ (Sıra No: 34) ve 5 No'lu Tebliğde değişiklik",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Resmî Gazete özetinde yalnızca başlık düzeyinde görünüyor; mali suçlarla mücadele tebliğleri malvarlığı dondurma ve bildirim yükümlülükleri bakımından merkezin dosyalarını etkileyebilir, metnin görülmesi gerekiyor.",
+   "acildi": "2026-09-23",
+   "durum": "açık",
+   "son_hareket": "2026-09-23",
+   "kayitlar": [
+    "3cc6f34a04"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-22T07:20+00:00",
- "acik": 32
+ "guncelleme": "2026-09-23T08:14+00:00",
+ "acik": 36
 }
