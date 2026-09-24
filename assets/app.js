@@ -1202,6 +1202,16 @@ async function drawArchive() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }));
 
+  // Marka adına tıklayınca Gündem'e dön. Tek sayfa olduğu için sayfayı
+  // yeniden yüklemek yerine sekmeyi değiştiriyoruz; kayıt görünümü açıksa
+  // (#k=…) hash temizleniyor ve sekme düğmesi onu kapatıyor.
+  const marka = $('#marka');
+  if (marka) marka.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    document.querySelector('nav.tabs button[data-view="gundem"]').click();
+  });
+
   // paket kipi: #k=<anahtar> ile kayıt sayfası aynı dosyada açılır
   const VIEWS = ['gundem', 'analiz', 'kaynaklar', 'arsiv', 'dosyam', 'hakkinda'];
   function route() {
