@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-24",
- "olusturma": "2026-09-24T11:02+00:00",
+ "olusturma": "2026-09-24T13:15+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-09-24:38 sivil toplum örgütü, ICC'ye yönelik ABD yaptırımlarına ka",
@@ -28,6 +28,23 @@
     "6f6f67b478"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "kritik:2026-09-24:20",
+   "tur": "kritik kayıt yığılması",
+   "duzey": "orta",
+   "baslik": "Bugün birincil kaynaktan 20 kritik öncelikli kayıt geldi",
+   "alan": "",
+   "not": "Mali suçlar: arıkovanı korumak; FCA ve ortakları yasa dışı kripto ticaretine karşı baskı kampanyasını sürdürüyor; Kripto şirketleri yeni rejimin uygulanmasına ilişkin rehberlik aldı; Sonraki nesil pazar altyapısı oluşturma",
+   "kayitlar": [
+    "efc46a0872",
+    "7e0c99d210",
+    "2494c0447f",
+    "2eef651cc6",
+    "2a472e62fe",
+    "a1675fdaa2"
+   ],
+   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
   }
  ]
 }
