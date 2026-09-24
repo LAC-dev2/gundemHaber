@@ -718,11 +718,19 @@
    "neden": "Muhalefet milletvekilinin iddiası, KHK ile ihraç edilen bir kişinin zorla kaybedilmiş olabileceği yönünde; doğrulanması halinde kayıp/zorla kaybetme dosyalarıyla doğrudan ilgili. Kayıt başlık ve özet düzeyinde, resmî bir soruşturma bilgisi yok.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-24",
    "kayitlar": [
     "c789cbd8f2"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-24",
+     "not": "15 Eylül'den beri kendisinden haber alınamayan eski asker Bora Arslanoğlu, sekiz günün ardından Ankara'da polis gözaltında ortaya çıktı; kaydına göre yokluğu sırasında eşi tutuklanmış. Kayıt, zorla kaybetme ya da hukuka aykırı gözaltı iddiasının soruşturulması çağrısını aktarıyor; gözaltının hangi tarihte ve hangi makam kararıyla başladığı kayıtlarda yok.",
+     "kayitlar": [
+      "568f8827dd"
+     ]
+    }
+   ]
   },
   {
    "id": "t30",
@@ -768,11 +776,19 @@
    "neden": "Cezaya karar verme metodolojisi ve DSA ile GDPR'ın kesiştiği veri işleme alanları, merkezin erişim engelleri ve elektronik delil dosyalarında dayanak oluşturabilir; kılavuz 13 Kasım 2026'ya kadar kamu istişaresinde.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-24",
    "kayitlar": [
     "635da126b9"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-24",
+     "not": "EDPB akışında İrlanda Veri Koruma Komisyonu'nun Google Ireland hakkında 403.000.000 avro idari para cezasına hükmettiği nihai karar duyuruldu; inceleme Şubat 2020'de açılmış, konum verisiyle ilgili üç özelliği 25 Mayıs 2018'den 4 Şubat 2020'ye kadar kapsıyor. Kılavuzun nihai hali ya da DSA-GDPR etkileşimi belgesi hakkında bu pencerede yeni bilgi yok.",
+     "kayitlar": [
+      "0328807ef5"
+     ]
+    }
+   ]
   },
   {
    "id": "t33",
@@ -781,11 +797,20 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-09-23",
+   "son_hareket": "2026-09-24",
    "kayitlar": [
     "6f6f67b478"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-24",
+     "not": "Engellenen hesap sayısı ilk kez sayısallaştı: kayıt 194 X hesabı ve yaklaşık 12 milyon toplam takipçi veriyor, gerekçe olarak yatırım fonu piyasasındaki çalkantı ve piyasa manipülasyonu soruşturmalarını gösteriyor. İFÖD'ün önceki listesi sayı vermeden aynı takipçi büyüklüğünü ve 5651 sayılı Kanun'un 8/A maddesini belirtmişti.",
+     "kayitlar": [
+      "f9cba48844",
+      "6f6f67b478"
+     ]
+    }
+   ]
   },
   {
    "id": "t34",
@@ -825,8 +850,60 @@
     "3cc6f34a04"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t37",
+   "baslik": "Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun'un kapsamı",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
+   "acildi": "2026-09-24",
+   "durum": "açık",
+   "son_hareket": "2026-09-24",
+   "kayitlar": [
+    "2ac488c9f0"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t38",
+   "baslik": "Kocaeli 12. Asliye Ceza Mahkemesi'nin gazeteci Cihat Polat ve siyasetçi Mehmet Nazım Gençtürk hakkındaki ertelenmiş hapis kararı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "İktidar partisi milletvekilinin yakınlarına ait taşınmazdaki ruhsatsız yapıya ilişkin habercilik doğrudan mahkûmiyete konu oldu; hükmün gerekçesi ve isnat edilen suç kayıtlarda yer almıyor, istinaf seyri izlenmeli.",
+   "acildi": "2026-09-24",
+   "durum": "açık",
+   "son_hareket": "2026-09-24",
+   "kayitlar": [
+    "6d78e46064"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t39",
+   "baslik": "Rechtbank Den Haag'ın 22 Eylül 2026 tarihli NL26.12435 sayılı iltica kararında karar moratoryumu ve IGS geçerliliği",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Kayıtta yalnızca ECLI numarası ve 'gegrond' sonucu ile besluitmoratorium/IGS geçerliliği anahtar sözcükleri var; karar moratoryumunun geçerliliğine ilişkin bir yargı denetimi Hollanda'daki Türkiye kaynaklı dosyaların işlem süresini etkileyebilir.",
+   "acildi": "2026-09-24",
+   "durum": "açık",
+   "son_hareket": "2026-09-24",
+   "kayitlar": [
+    "56bc209fad"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t40",
+   "baslik": "ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan yaptırımlara karşı açılan davada 38 STK'nın amicus dilekçesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Dosya, kişi ve kuruluş bazlı yaptırım listelerinin sivil toplum ve mağdur temsili üzerindeki dolaylı etkisini bir mahkeme önünde tartışmaya açıyor; merkezin yaptırım listesi dosyalarında doğrudan emsal değeri izlenmeli.",
+   "acildi": "2026-09-24",
+   "durum": "açık",
+   "son_hareket": "2026-09-24",
+   "kayitlar": [
+    "9a0f5a3998"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-23T08:14+00:00",
- "acik": 36
+ "guncelleme": "2026-09-24T07:10+00:00",
+ "acik": 40
 }

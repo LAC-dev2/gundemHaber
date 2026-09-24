@@ -1,51 +1,33 @@
 {
- "gun": "2026-09-23",
- "olusturma": "2026-09-23T19:56+00:00",
+ "gun": "2026-09-24",
+ "olusturma": "2026-09-24T07:10+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-09-23:Justice Square raporu ikinci kaynaktan doğrulandı: 683 şirke",
+   "id": "alan:2026-09-24:38 sivil toplum örgütü, ICC'ye yönelik ABD yaptırımlarına ka",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Justice Square raporu ikinci kaynaktan doğrulandı: 683 şirket kesin mahkûmiyet olmadan kayyımlıkta",
+   "baslik": "38 sivil toplum örgütü, ICC'ye yönelik ABD yaptırımlarına karşı açılan davaya amicus dilekçesi sundu",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Rapor ikinci bir kaynakta da aktarıldı ve vurgu, kesin mahkûmiyet bulunmaksızın süren kayyımlığa kaydı. Bu çerçeve, Bakanlar Komitesi'nin Çokbilgin kararında açık bıraktığı 'bireysel yargısal denetim ve usul güvencesi olmaksızın malvarlığı dondurma' başlığıyla örtüşüyor.",
+   "not": "Dilekçe, 14203 sayılı Başkanlık Kararnamesi uyarınca uygulanan yaptırımların hedef dışı aktörler üzerinde yarattığı caydırıcı etkiyi bir federal mahkeme önüne taşıyor. Merkezin yaptırım listesi dosyalarında listelemenin dolaylı etkilerine ilişkin argümanlar açısından izlenebilir.",
    "kayitlar": [
-    "c7cade7796",
-    "676b86c517"
+    "9a0f5a3998"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "takip:2026-09-23:toplu:3",
+   "id": "takip:2026-09-24:toplu:3",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
    "baslik": "3 takip dosyasında hareket var",
    "alan": "",
-   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Kozinoğlu soruşturmasında eski Cihan Haber Ajansı mensuplarının gözalt; Stichting Justice Square raporundaki el koyma verileri ve Şubat 2025 t",
+   "not": "Darbe sonrası emeklilik/ihraç kararnamesiyle ordudan çıkarılan Bora Ar; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap",
    "kayitlar": [
-    "a89392c00c",
-    "7e8dffc860",
-    "e02073d787",
-    "8bbdf842f8",
-    "70d66b6eb4",
-    "c7cade7796",
-    "676b86c517"
+    "568f8827dd",
+    "0328807ef5",
+    "f9cba48844",
+    "6f6f67b478"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "kritik:2026-09-23:3",
-   "tur": "kritik kayıt yığılması",
-   "duzey": "orta",
-   "baslik": "Bugün birincil kaynaktan 3 kritik öncelikli kayıt geldi",
-   "alan": "",
-   "not": "Sağlık Raporları Yönetmeliği - Resmi Gazete; GÜNCELLEME: Son Başvuru Tarihinin Uzatılması | Teklif Çağrısı - Türkiye'de göç b; GÜNCELLEME: Son Başvuru Tarihinin Uzatılması Teklif Çağrısı - Türkiye'de Çevrese",
-   "kayitlar": [
-    "61e0c35ac5",
-    "61a3bb295e",
-    "028e091241"
-   ],
-   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
   }
  ]
 }
