@@ -1,4 +1,8 @@
 {
+"https://acpr.banque-france.fr/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://adde.be/analyse-et-etudes/": {
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": "https://adde.be/feed/"
@@ -14,6 +18,13 @@
 "https://ahvalnews.com/": {
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
+},
+"https://anti-fraud.ec.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://apgml.org/": {
+"checked": "2026-09-24T13:06:10+00:00"
 },
 "https://apnews.com/hub/turkey": {
 "checked": "2026-09-15T12:15:35+00:00",
@@ -42,6 +53,10 @@
 "https://avocats.be/": {
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": "https://avocats.be/rss.xml"
+},
+"https://baselgovernance.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
 },
 "https://be.andersen.com/fr": {
 "checked": "2026-09-15T12:23:06+00:00",
@@ -90,6 +105,10 @@
 "https://cfj.org/trialwatch/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://cfj.org/feed/"
+},
+"https://charityandsecurity.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://charityandsecurity.org/feed/"
 },
 "https://chd.org.tr/": {
 "checked": "2026-09-15T12:15:35+00:00",
@@ -219,6 +238,9 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://edri.org/feed/"
 },
+"https://egmontgroup.org/": {
+"checked": "2026-09-24T13:06:10+00:00"
+},
 "https://emnbelgium.be/all-publications": {
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": "https://emnbelgium.be/rss.xml"
@@ -251,6 +273,10 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://eurasiangroup.org/en": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://europeanjusticeinitiative.com/": {
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
@@ -275,6 +301,18 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://finance.ec.europa.eu/financial-crime/anti-money-laundering-and-countering-financing-terrorism-overview_en": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://fintrac-canafe.canada.ca/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://fiuindia.gov.in/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://fom.coe.int/": {
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
@@ -295,9 +333,21 @@
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://freedomhouse.org/rss.xml"
 },
+"https://gabac.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://gabac.org/feed/"
+},
 "https://globalfreedomofexpression.columbia.edu/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://globalfreedomofexpression.columbia.edu/feed/"
+},
+"https://globalinitiative.net/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://globalinitiative.net/feed/"
+},
+"https://globalinvestigationsreview.com/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://globalinvestigationsreview.com/rss"
 },
 "https://hakikatadalethafiza.org/": {
 "checked": "2026-09-15T12:21:03+00:00",
@@ -401,6 +451,10 @@
 },
 "https://justice.belgium.be/en/node/2362": {
 "checked": "2026-09-15T12:15:35+00:00",
+"feed": null
+},
+"https://justice.public.lu/fr/organisation-justice/crf.html": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://justicesquare.org/abductions-and-enforced-disappearances-report/": {
@@ -522,6 +576,10 @@
 "https://oeil.europarl.europa.eu/oeil/home/home.do": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
+},
+"https://ofac.treasury.gov/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://ofac.treasury.gov/rss.xml"
 },
 "https://ohrh.law.ox.ac.uk/": {
 "checked": "2026-09-15T12:21:03+00:00",
@@ -675,6 +733,10 @@
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": "https://tgs.org.tr/feed/"
 },
+"https://thepaypers.com/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://tiberghien.com/en/newsletter": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -707,6 +769,10 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://uif.bancaditalia.it/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://uitspraken.rechtspraak.nl/ResultPage.aspx": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://uitspraken.rechtspraak.nl/rss"
@@ -735,12 +801,20 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
 },
+"https://www.acams.org/en": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.accessnow.org/help/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://www.accessnow.org/feed/"
 },
 "https://www.adalet.gov.tr/": {
 "checked": "2026-09-15T12:21:03+00:00",
+"feed": null
+},
+"https://www.adgm.com/financial-services-regulatory-authority": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.advocaat.be/en": {
@@ -750,6 +824,13 @@
 "https://www.alomaliye.com/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://www.alomaliye.com/feed/"
+},
+"https://www.amla.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.amlintelligence.com/": {
+"checked": "2026-09-24T13:06:10+00:00"
 },
 "https://www.amnesty-international.be/": {
 "checked": "2026-09-15T12:19:23+00:00",
@@ -775,6 +856,14 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://www.austrac.gov.au/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.bafin.de/EN/Homepage/homepage_node.html": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.bajbruxelles.be/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
@@ -787,12 +876,20 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://www.bankingsupervision.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.barobirlik.org.tr/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
 },
 "https://www.bbc.com/turkce": {
 "checked": "2026-09-15T12:15:35+00:00",
+"feed": null
+},
+"https://www.bddk.org.tr/": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.belga.be/home/": {
@@ -830,6 +927,18 @@
 "https://www.ccbe.eu/actions/human-rights-portal/human-rights-letters/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
+},
+"https://www.centralbank.ae/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.centralbank.ie/regulation/anti-money-laundering-and-countering-the-financing-of-terrorism": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.cfatf-gafic.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://cfatf-gafic.org/feed/"
 },
 "https://www.cgrs.be/en/country-information": {
 "checked": "2026-09-15T12:15:35+00:00",
@@ -943,6 +1052,10 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://www.commissie-meijers.nl/feed/"
 },
+"https://www.complianceweek.com/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.complianceweek.com/feed/"
+},
 "https://www.consilium.europa.eu/en/policies/sanctions/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -954,6 +1067,9 @@
 "https://www.csolifeline.org/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
+},
+"https://www.cssf.lu/en/": {
+"checked": "2026-09-24T13:06:10+00:00"
 },
 "https://www.ctif-cfi.be/": {
 "checked": "2026-09-15T12:19:23+00:00",
@@ -971,9 +1087,17 @@
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
 },
+"https://www.dfsa.ae/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.dfsa.ae/rss"
+},
 "https://www.diken.com.tr/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://www.diken.com.tr/feed/"
+},
+"https://www.dnb.nl/en/sector-information/open-book-supervision/open-book-supervision-themes/supervision-of-financial-crime/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
 },
 "https://www.droitsquotidiens.be/fr/actualites": {
 "checked": "2026-09-15T12:23:06+00:00",
@@ -982,6 +1106,10 @@
 "https://www.dw.com/tr/": {
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
+},
+"https://www.eba.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.eba.europa.eu/rss.xml"
 },
 "https://www.ecba.org/": {
 "checked": "2026-09-15T12:23:06+00:00",
@@ -1009,6 +1137,10 @@
 },
 "https://www.ecoi.net/en/countries/turkiye/briefing/": {
 "checked": "2026-09-15T12:19:23+00:00",
+"feed": null
+},
+"https://www.economie.gouv.fr/tracfin": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.ecpmf.eu/": {
@@ -1039,6 +1171,10 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": "https://www.einnetwork.org/blog-five?format=rss"
 },
+"https://www.eiopa.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.ejiltalk.org/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
@@ -1059,9 +1195,21 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://www.encj.eu/rss.xml"
 },
+"https://www.eppo.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.esaamlg.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.esithaklar.org/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://www.esithaklar.org/feed/"
+},
+"https://www.esma.europa.eu/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.esma.europa.eu/rss.xml"
 },
 "https://www.euaa.europa.eu/publications": {
 "checked": "2026-09-15T12:19:23+00:00",
@@ -1123,6 +1271,10 @@
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
 },
+"https://www.fca.org.uk/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.fca.org.uk/rss.xml"
+},
 "https://www.fedasil.be/en/news/reception-asylum-seekers": {
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": "https://www.fedasil.be/en/taxonomy/term/153/feed"
@@ -1143,9 +1295,33 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": "https://www.federalombudsman.be/rss"
 },
+"https://www.fedpol.admin.ch/fedpol/en/home/kriminalitaet/geldwaescherei.html": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.fic.gov.za/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.fic.gov.za/feed/"
+},
 "https://www.fidh.org/en/region/europe-central-asia/turkey/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://www.fidh.org/en/region/europe-central-asia/turkey/spip.php?page=backend"
+},
+"https://www.fincen.gov/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.finma.ch/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
+"https://www.fiu-nederland.nl/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.fiu-nederland.nl/?feed=rss2"
+},
+"https://www.fma.gv.at/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.fma.gv.at/feed/"
 },
 "https://www.frontex.europa.eu/": {
 "checked": "2026-09-15T12:23:06+00:00",
@@ -1159,6 +1335,10 @@
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://www.frontlinedefenders.org/rss.xml"
 },
+"https://www.fsa.go.jp/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.fsma.be/en/news-articles": {
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
@@ -1167,8 +1347,15 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://www.gafilat.org/index.php/en/": {
+"checked": "2026-09-24T13:06:10+00:00"
+},
 "https://www.gazeteduvar.com.tr/": {
 "checked": "2026-09-15T12:23:06+00:00",
+"feed": null
+},
+"https://www.giaba.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.globaldetentionproject.org/": {
@@ -1207,6 +1394,10 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
 },
+"https://www.hkma.gov.hk/eng/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.hrw.org/europe/central-asia/turkey": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://www.hrw.org/rss"
@@ -1214,6 +1405,10 @@
 "https://www.ibanet.org/IBAHRI": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
+},
+"https://www.icij.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.icij.org/feed/"
 },
 "https://www.icisleri.gov.tr/": {
 "checked": "2026-09-15T12:21:03+00:00",
@@ -1233,6 +1428,10 @@
 },
 "https://www.ihd.org.tr/kategori/c34-el-raporlar": {
 "checked": "2026-09-15T12:15:35+00:00",
+"feed": null
+},
+"https://www.imf.org/en/Topics/Financial-Integrity/amlcft": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.integratie-inburgering.be/": {
@@ -1283,6 +1482,10 @@
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
 },
+"https://www.justice.gov/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.justice.gov/rss.xml"
+},
 "https://www.justiceinitiative.org/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -1323,6 +1526,10 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": "https://www.liguedh.be/feed/"
 },
+"https://www.mas.gov.sg/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.mediadefence.org/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -1330,6 +1537,10 @@
 "https://www.medimmigrant.be/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": "https://www.medimmigrant.be/spip.php?page=backend"
+},
+"https://www.menafatf.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.menafatf.org/rss.xml"
 },
 "https://www.mevzuat.gov.tr/": {
 "checked": "2026-09-15T12:15:35+00:00",
@@ -1355,6 +1566,10 @@
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
 },
+"https://www.nationalcrimeagency.gov.uk/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.nbb.be/en/financial-oversight/combating-money-laundering-and-financing-terrorism/information-and-13": {
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
@@ -1365,6 +1580,14 @@
 },
 "https://www.notaris.be/": {
 "checked": "2026-09-15T12:23:06+00:00",
+"feed": null
+},
+"https://www.occrp.org/en": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.occrp.org/en/feed"
+},
+"https://www.oecd.org/tax/crime/": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.ohchr.org/en/countries/turkiye": {
@@ -1439,6 +1662,10 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://www.ombudsfin.be/en": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.ombudsman.europa.eu/en/homepage": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -1499,6 +1726,10 @@
 "checked": "2026-09-15T12:19:23+00:00",
 "feed": null
 },
+"https://www.regtechanalyst.com/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://regtechanalyst.com/feed/"
+},
 "https://www.resmigazete.gov.tr/": {
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
@@ -1539,9 +1770,21 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
 },
+"https://www.sepblac.es/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.sepblac.es/rss.xml"
+},
+"https://www.sfc.hk/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.sonhaber.eu/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://www.sonhaber.eu/rss"
+},
+"https://www.spk.gov.tr/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
 },
 "https://www.standaard.be/": {
 "checked": "2026-09-15T12:23:06+00:00",
@@ -1575,6 +1818,10 @@
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": null
 },
+"https://www.tcmb.gov.tr/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.tgc.org.tr/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -1591,6 +1838,10 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": "https://www.tr724.com/feed/"
 },
+"https://www.transparency.org/en/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.tuik.gov.tr/": {
 "checked": "2026-09-15T12:21:03+00:00",
 "feed": null
@@ -1603,6 +1854,10 @@
 "checked": "2026-09-15T12:15:35+00:00",
 "feed": "https://www.turkishminute.com/feed/"
 },
+"https://www.un.org/securitycouncil/ctc/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": "https://www.un.org/rss.xml"
+},
 "https://www.unhcr.org/": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
@@ -1613,6 +1868,10 @@
 },
 "https://www.unia.be/nl/wetgeving-en-rechtspraak/rechtspraak": {
 "checked": "2026-09-15T12:15:35+00:00",
+"feed": null
+},
+"https://www.unodc.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://www.uscirf.gov/": {
@@ -1643,12 +1902,24 @@
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
 },
+"https://www.wolfsberg-group.org/": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.wolterskluwer.com/nl-be/know/legalworld": {
 "checked": "2026-09-15T12:23:06+00:00",
 "feed": null
 },
+"https://www.worldbank.org/en/topic/financialsector/brief/anti-money-laundering-and-countering-financing-of-terrorism": {
+"checked": "2026-09-24T13:06:10+00:00",
+"feed": null
+},
 "https://www.yargiclarsendikasi.org/": {
 "checked": "2026-09-15T12:15:35+00:00",
+"feed": null
+},
+"https://www.zoll.de/EN/Home/home_node.html": {
+"checked": "2026-09-24T13:06:10+00:00",
 "feed": null
 },
 "https://yayin.taa.gov.tr/": {
