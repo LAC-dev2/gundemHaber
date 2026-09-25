@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-25",
- "olusturma": "2026-09-25T08:26+00:00",
+ "olusturma": "2026-09-25T09:24+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252399",
@@ -44,16 +44,6 @@
     "2a472e62fe"
    ],
    "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
-  },
-  {
-   "id": "saglik:2026-09-25:10",
-   "tur": "kaynak akışı bozuk",
-   "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, Frontex, Brussels Law Office…",
-   "kayitlar": [],
-   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
