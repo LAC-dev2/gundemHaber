@@ -107,7 +107,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-17",
+   "son_hareket": "2026-09-25",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -120,6 +120,13 @@
       "001-252498",
       "001-252496",
       "001-252298"
+     ]
+    },
+    {
+     "gun": "2026-09-25",
+     "not": "AİHM, 23 Ocak 2017'de yapılan 16088/17 sayılı Tanrıverdi başvurusunu Komite oluşumunda 24 Eylül 2026'da sonuçlandırdı; dosya yaklaşık dokuz yıl sekiz ay derdest kalmış. Tutukluluğun makul süresi ve gerekçelendirme eksikliğine ilişkin tekrar eden başvuru tipinin Komite usulüyle karara bağlandığını gösteriyor.",
+     "kayitlar": [
+      "001-252399"
      ]
     }
    ]
@@ -370,12 +377,20 @@
    "neden": "Avrupa Konseyi Göç ve Mülteciler Birimi 16 Eylül'de yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik belge yayımladı [c23be3b155]; EUAA ise Ocak-Haziran 2026 verilerine dayanan yarı yıl raporunu 10 Eylül'de yayımladı, ECRE istatistiklerin kullanımında ihtiyat çağrısı yapıyor [4e7b8dd15b]. İltica ve iade dosyalarında referans malzemesi oluşturuyor.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-09-25",
    "kayitlar": [
     "c23be3b155",
     "4e7b8dd15b"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-25",
+     "not": "FRA, EUAA'nın 28 Eylül'deki State of Asylum konferansında Göç ve İltica Paktı'nın uygulamasının ilk üç ayının değerlendirileceğini duyurdu; FRA Direktörü Rautio panelde yer alacak. Kayıt duyuru düzeyinde, veri içermiyor.",
+     "kayitlar": [
+      "afdd59b1fd"
+     ]
+    }
+   ]
   },
   {
    "id": "t13",
@@ -762,12 +777,20 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-25",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-25",
+     "not": "Amnesty International, Sana'a'da fiilî Husi makamlarınca 25 Eylül 2025'te keyfî olarak gözaltına alınan avukat ve insan hakları savunucusu Abdul Majid Sabra'nın bir yıldır alıkonulduğunu belirterek serbest bırakılmasını istedi. Mekanizma (hapis cezası değil, keyfî alıkoyma) farklı; maddenin avukatların mesleki faaliyet nedeniyle hedef alınması eksenine eklenebilir.",
+     "kayitlar": [
+      "94e496332c"
+     ]
+    }
+   ]
   },
   {
    "id": "t32",
@@ -797,7 +820,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-09-24",
+   "son_hareket": "2026-09-25",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -808,6 +831,14 @@
      "kayitlar": [
       "f9cba48844",
       "6f6f67b478"
+     ]
+    },
+    {
+     "gun": "2026-09-25",
+     "not": "İFÖD, kurucularından Yaman Akdeniz'in X hesabının 5651 sayılı Kanun'un 8/A maddesi kapsamında millî güvenlik ve kamu düzeni gerekçesiyle engellendiğini ve X tarafından Türkiye'den görünmez kılındığını duyurdu. Engelleri belgeleyen kişinin hesabının aynı hükümle engellenmesi, 8/A uygulamasının ekonomi/finans hesapları dışına genişlediğini gösteriyor; toplam sayı bugün güncellenmedi.",
+     "kayitlar": [
+      "006b7b7206",
+      "b290622139"
      ]
     }
    ]
@@ -902,8 +933,47 @@
     "9a0f5a3998"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t41",
+   "baslik": "Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Bakanlar Komitesi denetiminde hangi 5/3 grubuna gireceği",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Karar 24 Eylül 2026'da tebliğ edildi ve kesin; dört başvurucuya kişi başı 5.000 avro manevi tazminat ile ortak 250 avro masraf üç ay içinde ödenecek. Ödeme ve icra grubunun belirlenmesi izlenmeli.",
+   "acildi": "2026-09-25",
+   "durum": "açık",
+   "son_hareket": "2026-09-25",
+   "kayitlar": [
+    "001-252399"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t42",
+   "baslik": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uygulanan erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
+   "acildi": "2026-09-25",
+   "durum": "açık",
+   "son_hareket": "2026-09-25",
+   "kayitlar": [
+    "b290622139"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t43",
+   "baslik": "Rechtbank Den Haag'ın 23 Eylül 2026 tarihli NL26.19608 sayılı kararı ('kruisjesformulier' gerekçeli kabul)",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Kayıt yalnızca künye ve etiket düzeyinde ('BNT – asiel – gegrond – kruisjesformulier'); Hollanda idari yargısında formülere dayalı gerekçelendirme denetiminin seyri merkezin iltica dosyalarıyla ilgili olabilir.",
+   "acildi": "2026-09-25",
+   "durum": "açık",
+   "son_hareket": "2026-09-25",
+   "kayitlar": [
+    "ff00ccd92c"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-24T07:10+00:00",
- "acik": 40
+ "guncelleme": "2026-09-25T07:08+00:00",
+ "acik": 43
 }

@@ -1,7 +1,23 @@
 {
- "guncelleme": "2026-09-24T07:06+00:00",
+ "guncelleme": "2026-09-25T07:04+00:00",
  "pencere_gun": 21,
  "belgeler": [
+  {
+   "itemid": "001-252399",
+   "ad": "CASE OF TANRIVERDİ v. TÜRKİYE",
+   "tur": "karar",
+   "tarih": "2026-09-24",
+   "maddeler": [
+    "5",
+    "5-3"
+   ],
+   "sonuc": "Violation of Article 5 - Right to liberty and security (Article 5-3 - Length of pre-trial detention)",
+   "basvuru": "16088/17",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252399",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 1134,
+   "giris": "CASE OF TANRIVERDİ v. TÜRKİYE (Application no. 16088/17) This judgment is final but it may be subject to editorial revision."
+  },
   {
    "itemid": "001-252298",
    "ad": "CASE OF BENLİ v. TÜRKİYE",

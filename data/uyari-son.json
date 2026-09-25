@@ -1,39 +1,38 @@
 {
- "gun": "2026-09-24",
- "olusturma": "2026-09-24T20:14+00:00",
+ "gun": "2026-09-25",
+ "olusturma": "2026-09-25T07:08+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-09-24:38 sivil toplum örgütü, ICC'ye yönelik ABD yaptırımlarına ka",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "38 sivil toplum örgütü, ICC'ye yönelik ABD yaptırımlarına karşı açılan davaya amicus dilekçesi sundu",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Dilekçe, 14203 sayılı Başkanlık Kararnamesi uyarınca uygulanan yaptırımların hedef dışı aktörler üzerinde yarattığı caydırıcı etkiyi bir federal mahkeme önüne taşıyor. Merkezin yaptırım listesi dosyalarında listelemenin dolaylı etkilerine ilişkin argümanlar açısından izlenebilir.",
-   "kayitlar": [
-    "9a0f5a3998"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+   "id": "karar:001-252399",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Diyarbakır'da dört başvurucunun tutukluluk süresinin aşırı uzunluğu ve yetersiz gerekçe nedeniyle Türkiye aleyhine ihlal kararı",
+   "alan": "md. 5, 5-3",
+   "not": "İkinci Bölüm Komitesi, Aziz, Muhittin, Murat ve Salih Tanrıverdi'nin tutukluluk sürelerinin aşırı uzunluğuna ve tutuklamaya ilişkin ilgili ve yeterli gerekçe bulunmamasına dair şikâyetlerini kabul edilebilir bulmuş, başvurunun kalanını kabul edilemez ilan etmiştir. Oybirliğiyle Sözleşme'nin 5 § 3 maddesinin ihlal edildiğine hükmetmiştir. Ek tabloda başvuruculara kişi başı 5.000 avro manevi tazminat ile ortaklaşa 250 avro masraf ödenmesine, üç ay içinde ödeme yapılmasına karar verilmiştir. Gerekçede yerel mahkeme kararlarının 'kırılganlığı ve tekrar ediciliği' vurgulanmış ve Tercan v. Turkey (6158/18, § 183) referans gösterilmiştir.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-09-24:toplu:3",
+   "id": "takip:2026-09-25:toplu:4",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "3 takip dosyasında hareket var",
+   "baslik": "4 takip dosyasında hareket var",
    "alan": "",
-   "not": "Darbe sonrası emeklilik/ihraç kararnamesiyle ordudan çıkarılan Bora Ar; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap",
+   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap",
    "kayitlar": [
-    "568f8827dd",
-    "0328807ef5",
-    "f9cba48844",
-    "6f6f67b478"
+    "001-252399",
+    "afdd59b1fd",
+    "94e496332c",
+    "006b7b7206",
+    "b290622139"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "kritik:2026-09-24:21",
+   "id": "kritik:2026-09-25:18",
    "tur": "kritik kayıt yığılması",
    "duzey": "orta",
-   "baslik": "Bugün birincil kaynaktan 21 kritik öncelikli kayıt geldi",
+   "baslik": "Bugün birincil kaynaktan 18 kritik öncelikli kayıt geldi",
    "alan": "",
    "not": "Mali suçlar: arıkovanı korumak; FCA ve ortakları yasa dışı kripto ticaretine karşı baskı kampanyasını sürdürüyor; Kripto şirketleri yeni rejimin uygulanmasına ilişkin rehberlik aldı; Sonraki nesil pazar altyapısı oluşturma",
    "kayitlar": [
