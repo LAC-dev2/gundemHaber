@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-25",
- "olusturma": "2026-09-25T07:08+00:00",
+ "olusturma": "2026-09-25T08:26+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252399",
@@ -34,16 +34,26 @@
    "duzey": "orta",
    "baslik": "Bugün birincil kaynaktan 18 kritik öncelikli kayıt geldi",
    "alan": "",
-   "not": "Mali suçlar: arıkovanı korumak; FCA ve ortakları yasa dışı kripto ticaretine karşı baskı kampanyasını sürdürüyor; Kripto şirketleri yeni rejimin uygulanmasına ilişkin rehberlik aldı; Sonraki nesil pazar altyapısı oluşturma",
+   "not": "Mali suçlar: arıkovanı korumak; FCA ve ortakları yasa dışı kripto ticaretine karşı baskı kampanyasını sürdürüyor; Kripto şirketleri yeni rejimin uygulanmasına ilişkin rehberlik aldı; İngiltere yetkilendirmesinin kötüye kullanılmasına karşı operasyonda yirmi dört ",
    "kayitlar": [
     "efc46a0872",
     "7e0c99d210",
     "2494c0447f",
+    "dc949d162a",
     "2eef651cc6",
-    "2a472e62fe",
-    "a1675fdaa2"
+    "2a472e62fe"
    ],
    "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
+  },
+  {
+   "id": "saglik:2026-09-25:10",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "10 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, Frontex, Brussels Law Office…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
