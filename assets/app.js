@@ -267,12 +267,15 @@ function secondCard(it) {
 }
 
 function renderLead() {
-  const pool = (recent(2).length >= 6 ? recent(2) : recent(5))
-    .slice().sort((a, b) => b.puan - a.puan);
+  // Once BUGUNU dene: siteye sabah girildiginde manşette o gunun haberi
+  // olmali. Bugun yeterli kayit yoksa iki, sonra bes gune genisliyor.
+  const bugun = new Date().toISOString().slice(0, 10);
+  const gunluk = state.items.filter((i) => i.tarih.slice(0, 10) === bugun);
+  const havuz = gunluk.length >= 6 ? gunluk : (recent(2).length >= 6 ? recent(2) : recent(5));
+  const pool = havuz.slice().sort((a, b) => b.puan - a.puan);
   if (!pool.length) { $('#lead').innerHTML = `<div class="empty">Henüz tarama kaydı yok.</div>`; return; }
 
-  const today = new Date().toISOString().slice(0, 10);
-  const day = state.items.filter((i) => i.tarih.slice(0, 10) === today);
+  const day = gunluk;
   const scope = day.length ? day : recent(2);
   const termCount = new Map();
   scope.forEach((i) => (i.terimler || []).forEach((t) => termCount.set(t, (termCount.get(t) || 0) + 1)));
@@ -969,12 +972,13 @@ function renderUyari() {
   const gosterilen = liste.slice(0, UST);
   serit.innerHTML = `<div class="uyari-serit">
     <div class="us-ust">
-      <span class="eyebrow" style="--c:var(--accent)">Bugün önce buna bak</span>
+      <span class="eyebrow" style="--c:var(--accent)">İzlediğimiz dosyalar</span>
       <span class="mono">${esc(liste.length)} kayıt · ${esc(u.gun)}</span>
       <button type="button" class="us-kapat" title="Bugünlük gizle">×</button>
     </div>
-    <p class="us-aciklama">Günün kayıtları içinde izleme kurallarından birine takılanlar —
-      etiketin üstüne gelince hangi kural olduğunu görürsün.</p>
+    <p class="us-aciklama">Takip listesinde hareket eden ve güncelleme beklediğimiz dosyalar.
+      Günün kayıtları içinde izleme kurallarından birine takılanlar — etiketin üstüne
+      gelince hangi kural olduğunu görürsün.</p>
     <ul>${gosterilen.map((x) => `<li>
       <span class="tag ${UYARI_DUZEY[x.duzey] || ''}"${x.neden ? ` title="${esc(x.neden)}"` : ''}>${esc(x.tur)}</span>
       <b>${esc(x.baslik)}</b>

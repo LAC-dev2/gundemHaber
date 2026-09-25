@@ -747,6 +747,8 @@ footer a{color:#8FD6EC}
 #tazele:hover{background:#fff;color:var(--accent);border-color:#fff}
 @keyframes tazeGir{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){ #tazele{animation:none} }
+/* Serit artik manşetin altinda; gunun haberlerinden ayrilsin */
+#uyariSerit:not(:empty){margin-top:var(--s5)}
 .us-aciklama{margin:0 0 var(--s3);font-size:.8rem;line-height:1.5;color:var(--ink-3);max-width:78ch}
 .uyari-serit .tag[title]{cursor:help}
 /* Dar ekranda etiket sutunu basligi bogazliyordu: etiket ustte, ozet kirpik */
