@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-25",
- "olusturma": "2026-09-25T11:02+00:00",
+ "olusturma": "2026-09-25T12:56+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252399",
@@ -27,33 +27,6 @@
     "b290622139"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "kritik:2026-09-25:18",
-   "tur": "kritik kayıt yığılması",
-   "duzey": "orta",
-   "baslik": "Bugün birincil kaynaktan 18 kritik öncelikli kayıt geldi",
-   "alan": "",
-   "not": "Mali suçlar: arıkovanı korumak; FCA ve ortakları yasa dışı kripto ticaretine karşı baskı kampanyasını sürdürüyor; Kripto şirketleri yeni rejimin uygulanmasına ilişkin rehberlik aldı; İngiltere yetkilendirmesinin kötüye kullanılmasına karşı operasyonda yirmi dört ",
-   "kayitlar": [
-    "efc46a0872",
-    "7e0c99d210",
-    "2494c0447f",
-    "dc949d162a",
-    "2eef651cc6",
-    "2a472e62fe"
-   ],
-   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
-  },
-  {
-   "id": "saglik:2026-09-25:12",
-   "tur": "kaynak akışı bozuk",
-   "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, İfade Özgürlüğü Derneği - İFÖD, Frontex, EngelliWeb…",
-   "kayitlar": [],
-   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
