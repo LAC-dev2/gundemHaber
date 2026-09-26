@@ -138,7 +138,7 @@
    "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "6bad902c60"
    ],
@@ -155,6 +155,13 @@
      "not": "Stockholm Center for Freedom'ın darbe girişiminin onuncu yılına ilişkin raporunun ihraçlar, kovuşturmalar, işkence iddiaları ve sınıraşan baskıyı birlikte ele aldığı bildirildi; kayıt yalnızca başlık düzeyinde, sayısal veri içermiyor.",
      "kayitlar": [
       "2b0e95ba7f"
+     ]
+    },
+    {
+     "gun": "2026-09-26",
+     "not": "SCF haberi, KHK dönemi ihraç sayılarını yineliyor: 113.290 kamu görevlisi, 4.006 hâkim ve savcı, 26.206'dan fazla asker. Bugün gözaltına alındığı bildirilen kişilerin tamamı kamu görevinden ihraç edilmiş kişiler olarak tanımlanıyor (yurt idaresi yöneticisi, harita mühendisi, endüstri mühendisi, üsteğmen). Yeni bir rapor verisi değil, haber metninde tekrarlanan arka plan verisidir.",
+     "kayitlar": [
+      "2caac998cb"
      ]
     }
    ]
@@ -377,7 +384,7 @@
    "neden": "Avrupa Konseyi Göç ve Mülteciler Birimi 16 Eylül'de yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik belge yayımladı [c23be3b155]; EUAA ise Ocak-Haziran 2026 verilerine dayanan yarı yıl raporunu 10 Eylül'de yayımladı, ECRE istatistiklerin kullanımında ihtiyat çağrısı yapıyor [4e7b8dd15b]. İltica ve iade dosyalarında referans malzemesi oluşturuyor.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-25",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "c23be3b155",
     "4e7b8dd15b"
@@ -388,6 +395,15 @@
      "not": "FRA, EUAA'nın 28 Eylül'deki State of Asylum konferansında Göç ve İltica Paktı'nın uygulamasının ilk üç ayının değerlendirileceğini duyurdu; FRA Direktörü Rautio panelde yer alacak. Kayıt duyuru düzeyinde, veri içermiyor.",
      "kayitlar": [
       "afdd59b1fd"
+     ]
+    },
+    {
+     "gun": "2026-09-26",
+     "not": "HUDOC taramasına Abdolkhani and Karimnia v. Turkey kararı düştü; kayıtta yalnızca başlık düzeyinde bilgi var, karar metni ya da tarihi verilmemiş. Ayrıca FRA, Frontex ile yürütülen tarama (screening) çalıştayını ve temel haklar sayfasını yayımladı; bunlar Şart'ın 19. maddesine (geri gönderme, sınır dışı ve iade halinde koruma) atıf yapıyor.",
+     "kayitlar": [
+      "d25d551f52",
+      "8b2742830c",
+      "d622a77e50"
      ]
     }
    ]
@@ -497,7 +513,7 @@
    "neden": "Kararın genel tedbir gerektirip gerektirmediği ve UYAP'ta avukat yazışmasının saklanmasına ilişkin bir düzenleme değişikliği istenip istenmeyeceği, dosyanın atandığı grupla belli olacak.",
    "acildi": "2026-09-19",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "001-252298"
    ],
@@ -505,6 +521,13 @@
     {
      "gun": "2026-09-22",
      "not": "Karar metni, 15 Eylül 2026'da tebliğ edildiğini ve 2.000 euro manevi tazminat ile 500 euro masrafın üç ay içinde ödenmesi gerektiğini teyit ediyor; bu, 15 Aralık 2026 takvimini doğruluyor. Dosyanın hangi Bakanlar Komitesi grubuna gireceğine ilişkin kayıt yok.",
+     "kayitlar": [
+      "001-252298"
+     ]
+    },
+    {
+     "gun": "2026-09-26",
+     "not": "Benli v. Türkiye (29949/20) kararının metni birincil belge olarak yeniden elimizde: md. 8 ihlali, 2.000 avro manevi tazminat, 500 avro masraf, üç ay içinde ödeme. İcra aşamasında yeni bir usul adımı bildiren kayıt yok.",
      "kayitlar": [
       "001-252298"
      ]
@@ -639,7 +662,7 @@
    "neden": "Türkiye ilk gün konuşmacıları arasında; ayrıca uluslararası ceza ve insan hakları kurumlarının zayıflatılmasına ilişkin tartışma merkezin BM mekanizmaları dosyasını etkiler.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "94f64e4573",
     "47b34b0e34"
@@ -660,6 +683,14 @@
       "47b34b0e34",
       "c542aecef6",
       "94f64e4573"
+     ]
+    },
+    {
+     "gun": "2026-09-26",
+     "not": "BM Genel Kurulu yüksek düzeyli haftasına ilişkin bu pencerede yeni kayıt yok. Buna karşılık İnsan Hakları Konseyi'nin 63. oturumu kapsamında 23 Eylül'de Rusya Federasyonu'ndaki avukatlara ilişkin bir yan etkinlik düzenlendiği bildirildi; ayrı bir kayıt Niger'in Evrensel Periyodik İnceleme tavsiyelerine verdiği yanıtı aktarıyor.",
+     "kayitlar": [
+      "3d92d9c395",
+      "a496186202"
      ]
     }
    ]
@@ -777,7 +808,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-25",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -788,6 +819,14 @@
      "not": "Amnesty International, Sana'a'da fiilî Husi makamlarınca 25 Eylül 2025'te keyfî olarak gözaltına alınan avukat ve insan hakları savunucusu Abdul Majid Sabra'nın bir yıldır alıkonulduğunu belirterek serbest bırakılmasını istedi. Mekanizma (hapis cezası değil, keyfî alıkoyma) farklı; maddenin avukatların mesleki faaliyet nedeniyle hedef alınması eksenine eklenebilir.",
      "kayitlar": [
       "94e496332c"
+     ]
+    },
+    {
+     "gun": "2026-09-26",
+     "not": "İki yeni kayıt: Lawyers for Lawyers, HRHF, IBAHRI, ICJ, Law Society of England and Wales ve LRWC ile birlikte 23 Eylül'de HRC63'te Rusya Federasyonu'ndaki avukatlara ilişkin 'Lawyers Under Siege' yan etkinliğini düzenledi. Amnesty, El Salvador'da 18 Mayıs 2025'ten beri tutulan insan hakları savunucusu Ruth López için beş makama yaptığı insani ziyaret talebine 1 Ağustos ve 26 Ağustos'tan bu yana yanıt alınmadığını bildirdi. Takip maddesinin ülke listesi Belarus ve Hong Kong'dan sonra Rusya ve El Salvador'a genişliyor.",
+     "kayitlar": [
+      "3d92d9c395",
+      "acf8a087bf"
      ]
     }
    ]
@@ -820,7 +859,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-09-25",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -839,6 +878,13 @@
      "kayitlar": [
       "006b7b7206",
       "b290622139"
+     ]
+    },
+    {
+     "gun": "2026-09-26",
+     "not": "EngelliWeb, aralarında gazeteci Canan Kaya ile eski TMSF yöneticisi Abdullah Güzeldülger'in de bulunduğu çok sayıda X hesabının erişime engellendiğini, hesapların bir kısmının X tarafından Türkiye'den görünmez kılındığını bildirdi. Kayıtta engel kararının dayanağı, mahkeme ve karar tarihi belirtilmiyor; önceki günlerdeki 8/A uygulamasıyla aynı hukuki temele dayandığı doğrulanmadı.",
+     "kayitlar": [
+      "145f65d3a9"
      ]
     }
    ]
@@ -928,11 +974,19 @@
    "neden": "Dosya, kişi ve kuruluş bazlı yaptırım listelerinin sivil toplum ve mağdur temsili üzerindeki dolaylı etkisini bir mahkeme önünde tartışmaya açıyor; merkezin yaptırım listesi dosyalarında doğrudan emsal değeri izlenmeli.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-09-24",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "9a0f5a3998"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-26",
+     "not": "HRW, 11 Ağustos 2026'da açılan davada sekiz amicus dilekçesinin sunulduğunu duyurdu; davacılar American Friends Service Committee, Center for Constitutional Rights, Human Rights Watch ve Open Society Institute, yaptırımların durdurulması için ön ihtiyati tedbir talep etti. Dünkü kayıt 38 STK'nın amicus dilekçesinden söz ediyordu; bugünkü kayıt dilekçe sayısını (sekiz) veriyor, imzacı sayısını vermiyor.",
+     "kayitlar": [
+      "c7e76adb59"
+     ]
+    }
+   ]
   },
   {
    "id": "t41",
@@ -941,11 +995,19 @@
    "neden": "Karar 24 Eylül 2026'da tebliğ edildi ve kesin; dört başvurucuya kişi başı 5.000 avro manevi tazminat ile ortak 250 avro masraf üç ay içinde ödenecek. Ödeme ve icra grubunun belirlenmesi izlenmeli.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-09-25",
+   "son_hareket": "2026-09-26",
    "kayitlar": [
     "001-252399"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-26",
+     "not": "Kararın tam metni elimizde: dört başvurucuya kişi başı 5.000 avro manevi tazminat, ortaklaşa 250 avro masraf, üç ay içinde ödeme; gecikmede AMB marjinal kredi faizi artı üç puan. Karar 3 Eylül 2026'da kabul edildi, 24 Eylül 2026'da yazılı olarak tebliğ edildi ve kesin. Hangi Bakanlar Komitesi grubunda denetleneceğine ilişkin kayıt yok.",
+     "kayitlar": [
+      "001-252399"
+     ]
+    }
+   ]
   },
   {
    "id": "t42",
@@ -972,8 +1034,34 @@
     "ff00ccd92c"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t44",
+   "baslik": "Kesinleşmiş Gülen hükümlülerinin yurt dışına çıkış girişimlerinde sınırda yakalanması (Edirne Uzunköprü, 23 Eylül 2026)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Kesinleşmiş ya da istinaf aşamasındaki mahkûmiyetleri bulunan ihraç edilmiş kamu görevlilerinin ülkeden çıkış girişimleri, merkezin iltica ve sınıraşan baskı dosyalarında düzenli olarak karşılaştığı bir örüntü. Bu tür yakalamaların sıklığı ve sonrasında açılan 'yasa dışı yurt dışına çıkış' soruşturmalarının seyri izlenmeli.",
+   "acildi": "2026-09-26",
+   "durum": "açık",
+   "son_hareket": "2026-09-26",
+   "kayitlar": [
+    "2caac998cb"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t45",
+   "baslik": "Niger'in Evrensel Periyodik İnceleme'de 11 tavsiyeyi reddetmesi ve ICC'den çekilme süreci",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Keyfî tutukluluk, WGAD kararlarının uygulanmaması ve ICC'den çekilme başlıkları merkezin BM mekanizmaları ve uluslararası ceza yargısı dosyalarıyla kesişiyor. UPR sonuç belgesinin İHK'da kabulü ve çekilme sürecinin takvimi izlenmeli.",
+   "acildi": "2026-09-26",
+   "durum": "açık",
+   "son_hareket": "2026-09-26",
+   "kayitlar": [
+    "a496186202"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-25T07:08+00:00",
- "acik": 43
+ "guncelleme": "2026-09-26T07:04+00:00",
+ "acik": 45
 }

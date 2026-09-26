@@ -1,30 +1,33 @@
 {
- "gun": "2026-09-25",
- "olusturma": "2026-09-25T20:12+00:00",
+ "gun": "2026-09-26",
+ "olusturma": "2026-09-26T07:04+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252399",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Diyarbakır'da dört başvurucunun tutukluluk süresinin aşırı uzunluğu ve yetersiz gerekçe nedeniyle Türkiye aleyhine ihlal kararı",
+   "baslik": "Dört başvurucunun tutukluluk süresinin aşırılığı ve tutuklamaya ilişkin gerekçelerin yetersizliği",
    "alan": "md. 5, 5-3",
-   "not": "İkinci Bölüm Komitesi, Aziz, Muhittin, Murat ve Salih Tanrıverdi'nin tutukluluk sürelerinin aşırı uzunluğuna ve tutuklamaya ilişkin ilgili ve yeterli gerekçe bulunmamasına dair şikâyetlerini kabul edilebilir bulmuş, başvurunun kalanını kabul edilemez ilan etmiştir. Oybirliğiyle Sözleşme'nin 5 § 3 maddesinin ihlal edildiğine hükmetmiştir. Ek tabloda başvuruculara kişi başı 5.000 avro manevi tazminat ile ortaklaşa 250 avro masraf ödenmesine, üç ay içinde ödeme yapılmasına karar verilmiştir. Gerekçede yerel mahkeme kararlarının 'kırılganlığı ve tekrar ediciliği' vurgulanmış ve Tercan v. Turkey (6158/18, § 183) referans gösterilmiştir.",
+   "not": "İkinci Bölüm Komitesi (Pisani, Lavapuro, Mercer), 3 Eylül 2026'da kabul ettiği ve 24 Eylül 2026'da tebliğ ettiği kararda, Aziz, Muhittin, Murat ve Salih Tanrıverdi'nin tutukluluk süresinin aşırılığına ve tutukluluğa ilişkin ilgili ve yeterli gerekçe bulunmamasına dair şikâyetlerini kabul edilebilir buldu; başvurunun kalan kısmını kabul edilemez ilan etti. Oybirliğiyle 5 § 3 ihlali saptandı; gerekçede ulusal mahkemelerin kullandığı muhakemenin kırılganlığına ve tekrar niteliğine ilişkin Tercan v. Turkey (no. 6158/18, § 183, 29 Haziran 2021) atfı yer alıyor. Devletin üç ay içinde her bir başvurucuya 5.000 avro manevi tazminat ve başvuruculara ortaklaşa 250 avro masraf ödemesine, sürenin dolmasından sonra AMB marjinal kredi faizi artı üç puan oranında basit faiz işletilmesine hükmedildi. Başvuru 23 Ocak 2017'de yapılmış, başvurucular Diyarbakır'da avukat M. Beştaş tarafından temsil edilmiştir; ekli tabloda Diyarbakır 1. ve 3. Sulh Ceza Hâkimlikleri ile Anayasa Mahkemesi anılıyor.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-09-25:toplu:4",
+   "id": "takip:2026-09-26:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "4 takip dosyasında hareket var",
+   "baslik": "8 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap",
+   "not": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be; Benli kararının icrası: dosyanın hangi Bakanlar Komitesi grubuna girec; BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Ba",
    "kayitlar": [
-    "001-252399",
-    "afdd59b1fd",
-    "94e496332c",
-    "006b7b7206",
-    "b290622139"
+    "2caac998cb",
+    "d25d551f52",
+    "8b2742830c",
+    "d622a77e50",
+    "001-252298",
+    "3d92d9c395",
+    "a496186202",
+    "3d92d9c395"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   }
