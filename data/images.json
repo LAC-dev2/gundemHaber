@@ -763,6 +763,10 @@
 "checked": "2026-09-21T16:43:17+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBROT:2026:12466&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-09-26T10:43:59+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBROT:2026:12481&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-25T11:01:41+00:00",
 "img": ""
@@ -3466,6 +3470,10 @@
 "https://www.hrw.org/news/2026/09/25/us-trump-administration-rejects-external-election-observers": {
 "checked": "2026-09-26T07:00:16+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2023/10/202310usp_usa_elections_voting.jpg?h=ac55c5bf&itok=LKuRSr4b"
+},
+"https://www.hrw.org/news/2026/09/26/niger-rejects-key-rights-recommendations-at-un-review": {
+"checked": "2026-09-26T10:43:59+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/07/202607afr_niger_tiani.jpg?h=ac778ff2&itok=RxQPh8Gb"
 },
 "https://www.icij.org/donate/": {
 "checked": "2026-09-24T13:10:17+00:00",
