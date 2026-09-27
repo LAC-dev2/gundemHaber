@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-27",
- "olusturma": "2026-09-27T15:29+00:00",
+ "olusturma": "2026-09-27T19:56+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252399",
@@ -30,6 +30,16 @@
     "0148433813"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-09-27:8",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "8 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, Frontex, Infor Jeunes Bruxelles - CPAS, Charity & Security Network…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
