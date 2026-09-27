@@ -513,7 +513,7 @@
    "neden": "Kararın genel tedbir gerektirip gerektirmediği ve UYAP'ta avukat yazışmasının saklanmasına ilişkin bir düzenleme değişikliği istenip istenmeyeceği, dosyanın atandığı grupla belli olacak.",
    "acildi": "2026-09-19",
    "durum": "açık",
-   "son_hareket": "2026-09-26",
+   "son_hareket": "2026-09-27",
    "kayitlar": [
     "001-252298"
    ],
@@ -528,6 +528,13 @@
     {
      "gun": "2026-09-26",
      "not": "Benli v. Türkiye (29949/20) kararının metni birincil belge olarak yeniden elimizde: md. 8 ihlali, 2.000 avro manevi tazminat, 500 avro masraf, üç ay içinde ödeme. İcra aşamasında yeni bir usul adımı bildiren kayıt yok.",
+     "kayitlar": [
+      "001-252298"
+     ]
+    },
+    {
+     "gun": "2026-09-27",
+     "not": "Benli v. Türkiye (29949/20) kararının metni birincil belge olarak elimizde: 15 Eylül 2026'da tebliğ edilmiş, md. 8 ihlali, 2.000 avro manevi tazminat ve 500 avro masraf, üç ay içinde ödenecek. Bakanlar Komitesi'nde hangi gruba gireceğine dair yeni kayıt yok.",
      "kayitlar": [
       "001-252298"
      ]
@@ -859,7 +866,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-09-26",
+   "son_hareket": "2026-09-27",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -885,6 +892,15 @@
      "not": "EngelliWeb, aralarında gazeteci Canan Kaya ile eski TMSF yöneticisi Abdullah Güzeldülger'in de bulunduğu çok sayıda X hesabının erişime engellendiğini, hesapların bir kısmının X tarafından Türkiye'den görünmez kılındığını bildirdi. Kayıtta engel kararının dayanağı, mahkeme ve karar tarihi belirtilmiyor; önceki günlerdeki 8/A uygulamasıyla aynı hukuki temele dayandığı doğrulanmadı.",
      "kayitlar": [
       "145f65d3a9"
+     ]
+    },
+    {
+     "gun": "2026-09-27",
+     "not": "Engel listesi bu pencerede genişledi: Kısa Dalga ile gazeteciler Hilmi Hacaloğlu, Alptekin Dursunoğlu, Razi Canikligil, finans danışmanı Emre Şirin, iktisatçı İnan Mutlu, Prof. Dr. Barış Övgün ve Başaran Aksu'nun hesapları millî güvenlik ve kamu düzeni gerekçesiyle engellendi [0148433813]. ENAG kurucusu Veysel Ulusoy'un 21 Eylül'de engellenen hesabı 26 Eylül'de X tarafından Türkiye'den görünmez kılındı [cbac04a267]; gazeteci Ersin Eroğlu'nun hesabı 8/A kapsamında engellendi [16a1dca9f1].",
+     "kayitlar": [
+      "0148433813",
+      "cbac04a267",
+      "16a1dca9f1"
      ]
     }
    ]
@@ -935,11 +951,19 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-09-24",
+   "son_hareket": "2026-09-27",
    "kayitlar": [
     "2ac488c9f0"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-27",
+     "not": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun Resmî Gazete kaydı olarak yeniden geldi; kayıtta yalnızca başlık düzeyinde bilgi var, metin veya kapsam ayrıntısı yok.",
+     "kayitlar": [
+      "2ac488c9f0"
+     ]
+    }
+   ]
   },
   {
    "id": "t38",
@@ -995,7 +1019,7 @@
    "neden": "Karar 24 Eylül 2026'da tebliğ edildi ve kesin; dört başvurucuya kişi başı 5.000 avro manevi tazminat ile ortak 250 avro masraf üç ay içinde ödenecek. Ödeme ve icra grubunun belirlenmesi izlenmeli.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-09-26",
+   "son_hareket": "2026-09-27",
    "kayitlar": [
     "001-252399"
    ],
@@ -1003,6 +1027,13 @@
     {
      "gun": "2026-09-26",
      "not": "Kararın tam metni elimizde: dört başvurucuya kişi başı 5.000 avro manevi tazminat, ortaklaşa 250 avro masraf, üç ay içinde ödeme; gecikmede AMB marjinal kredi faizi artı üç puan. Karar 3 Eylül 2026'da kabul edildi, 24 Eylül 2026'da yazılı olarak tebliğ edildi ve kesin. Hangi Bakanlar Komitesi grubunda denetleneceğine ilişkin kayıt yok.",
+     "kayitlar": [
+      "001-252399"
+     ]
+    },
+    {
+     "gun": "2026-09-27",
+     "not": "Tanrıverdi v. Türkiye (16088/17) kararının tam metni birincil belge olarak geldi: dört başvurucuya kişi başı 5.000 avro manevi tazminat, ortak 250 avro masraf, üç ay içinde ödeme. Karar Komite oluşumunda alındı ve Tercan v. Turkey'e atıf yapıyor; Bakanlar Komitesi grubu kayıtlarda belirtilmemiş.",
      "kayitlar": [
       "001-252399"
      ]
@@ -1016,11 +1047,21 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-09-25",
+   "son_hareket": "2026-09-27",
    "kayitlar": [
     "b290622139"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-27",
+     "not": "Ekonomi/finans hatlı engellemeler sürüyor: ENAG kurucusu Ulusoy ve finans danışmanı Emre Şirin dahil hesaplar millî güvenlik ve kamu düzeni gerekçesiyle kapatıldı [cbac04a267][0148433813]. Ayrıca gazeteci Ali Tarakçı'nın hesabı TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturması kapsamında engellendi [ea0b93ee21].",
+     "kayitlar": [
+      "cbac04a267",
+      "0148433813",
+      "ea0b93ee21"
+     ]
+    }
+   ]
   },
   {
    "id": "t43",
@@ -1060,8 +1101,35 @@
     "a496186202"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t46",
+   "baslik": "TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişim engeli gerekçesi olarak kullanılması (Ali Tarakçı dosyası)",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Engelleme gerekçesinde 8/A'nın yanına ayrı bir ceza normunun eklenmesi, tedbirin dayanağını genişletiyor; Ankara Başsavcılığı soruşturmasının seyri izlenmeli.",
+   "acildi": "2026-09-27",
+   "durum": "açık",
+   "son_hareket": "2026-09-27",
+   "kayitlar": [
+    "ea0b93ee21"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t47",
+   "baslik": "Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' pratiğinin zamanlaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
+   "acildi": "2026-09-27",
+   "durum": "açık",
+   "son_hareket": "2026-09-27",
+   "kayitlar": [
+    "cbac04a267",
+    "0148433813"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-26T07:04+00:00",
- "acik": 45
+ "guncelleme": "2026-09-27T07:33+00:00",
+ "acik": 47
 }
