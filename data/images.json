@@ -787,6 +787,10 @@
 "checked": "2026-09-24T11:01:13+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBMNE:2026:6630&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-09-28T11:23:28+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBNHO:2024:12670&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-18T08:09:57+00:00",
 "img": ""
@@ -1931,9 +1935,17 @@
 "checked": "2026-09-24T13:10:17+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/aerps-com-0Jk1QCGMz5o-unsplash-1.jpg"
 },
+"https://regtechanalyst.com/socures-riskos-targets-fraud-gap-on-circles-arc-network/": {
+"checked": "2026-09-28T11:23:28+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/09/vardan-papikyan-DnXqvmS0eXM-unsplash-12.jpg"
+},
 "https://regtechanalyst.com/uk-digital-asset-firms-face-fca-licence-race-as-window-opens/": {
 "checked": "2026-09-25T15:41:46+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash-22.jpg"
+},
+"https://regtechanalyst.com/uk-takes-its-fraud-fight-to-cambodias-scam-compounds/": {
+"checked": "2026-09-28T11:23:28+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/09/reinaldo-sture-G4On6eN-QiI-unsplash-3.jpg"
 },
 "https://regtechanalyst.com/why-brokerage-feeds-can-no-longer-catch-insider-trading/": {
 "checked": "2026-09-24T13:10:17+00:00",
@@ -3277,6 +3289,10 @@
 },
 "https://www.fca.org.uk/news/news-stories/fca-opens-investigation-euro-exchange-securities-uk-ltd": {
 "checked": "2026-09-24T13:10:17+00:00",
+"img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
+},
+"https://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration": {
+"checked": "2026-09-28T11:23:28+00:00",
 "img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
 },
 "https://www.fca.org.uk/news/news-stories/infographics": {
