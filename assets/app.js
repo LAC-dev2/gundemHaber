@@ -266,13 +266,67 @@ function secondCard(it) {
     <span class="src">${esc(it.kaynak)}</span></a>`;
 }
 
+/* Manşet secimi. Ham puan yetmiyordu: AML kaynaklari eklendikten sonra
+   FCA gibi gunde 15-20 kayit basan kurumsal akislar dort karti birden
+   dolduruyor, "Infografik koleksiyonu" AIHM kararinin ustune cikiyordu.
+   Iki kural:
+     1. Merkezin dosyalarina yakinlik puana ekleniyor — bolgesi Türkiye
+        ya da Belçika olan +15, metninde Türkiye/AİHM gecen +8.
+     2. Bir kaynak en fazla bir manşet karti alir; boylece tek akis on
+        sayfayi ele geciremez. Dort kart dolmazsa kalanlar sirayla eklenir. */
+const MANSET_BONUS_BOLGE = 15;
+const MANSET_BONUS_METIN = 8;
+const MANSET_NEXUS = /türkiye|turkey|türk\b|aihm|echr/i;
+
+function mansetYakinlik(it) {
+  if (it.bolge === 'Türkiye' || it.bolge === 'Belçika') return MANSET_BONUS_BOLGE;
+  const metin = `${it.baslik} ${it.baslik_tr || ''} ${it.ozet || ''}`;
+  return MANSET_NEXUS.test(metin) ? MANSET_BONUS_METIN : 0;
+}
+
+function mansetSec(havuz, adet) {
+  const sirali = havuz.slice().sort((a, b) =>
+    (b.puan + mansetYakinlik(b)) - (a.puan + mansetYakinlik(a)));
+  const secilen = [], kaynaklar = new Set();
+  for (const it of sirali) {
+    if (kaynaklar.has(it.kaynak)) continue;
+    kaynaklar.add(it.kaynak);
+    secilen.push(it);
+    if (secilen.length === adet) return secilen;
+  }
+  for (const it of sirali) {             // kaynak cesitliligi yetmediyse doldur
+    if (secilen.includes(it)) continue;
+    secilen.push(it);
+    if (secilen.length === adet) break;
+  }
+  return secilen;
+}
+
+/* Gun listesi her gun bir satir uzuyor; ay basliklariyla gruplanmis bir
+   acilir liste, ayri bir ay suzgeci eklemeden aramayi kisaltiyor. */
+const AYLAR = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz',
+               'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+
+function ayaGoreSecenek(gunler, bosMetin, ek = '') {
+  if (!gunler.length) return `<option value="">${esc(bosMetin)}</option>`;
+  const gruplar = new Map();
+  gunler.forEach((g) => {
+    const ay = `${AYLAR[Number(g.slice(5, 7)) - 1]} ${g.slice(0, 4)}`;
+    if (!gruplar.has(ay)) gruplar.set(ay, []);
+    gruplar.get(ay).push(g);
+  });
+  return [...gruplar].map(([ay, liste]) =>
+    `<optgroup label="${esc(ay)}">${liste.map((g) =>
+      `<option value="${esc(g)}">${esc(g)}${esc(ek)}</option>`).join('')}</optgroup>`).join('');
+}
+
 function renderLead() {
   // Once BUGUNU dene: siteye sabah girildiginde manşette o gunun haberi
   // olmali. Bugun yeterli kayit yoksa iki, sonra bes gune genisliyor.
   const bugun = new Date().toISOString().slice(0, 10);
   const gunluk = state.items.filter((i) => i.tarih.slice(0, 10) === bugun);
   const havuz = gunluk.length >= 6 ? gunluk : (recent(2).length >= 6 ? recent(2) : recent(5));
-  const pool = havuz.slice().sort((a, b) => b.puan - a.puan);
+  const pool = mansetSec(havuz, 4);
   if (!pool.length) { $('#lead').innerHTML = `<div class="empty">Henüz tarama kaydı yok.</div>`; return; }
 
   const day = gunluk;
@@ -1105,11 +1159,9 @@ async function drawArchive() {
     draw(); renderLead(); renderAnalizOzet(); renderRegions(); durumYaz(); chipSayilariYaz();
   });
   cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
-  $('#analizGun').innerHTML = (analizIndex || []).map((g) => `<option>${esc(g)}</option>`).join('')
-    || '<option value="">analiz yok</option>';
+  $('#analizGun').innerHTML = ayaGoreSecenek(analizIndex || [], 'analiz yok');
   $('#analizGun').addEventListener('change', drawAnaliz);
-  $('#sentezGun').innerHTML = (sentezIndex || []).map((g) => `<option value="${esc(g)}">${esc(g)} haftası</option>`).join('')
-    || '<option value="">sentez yok</option>';
+  $('#sentezGun').innerHTML = ayaGoreSecenek(sentezIndex || [], 'sentez yok', ' haftası');
   $('#sentezGun').addEventListener('change', drawAnaliz);
   document.querySelectorAll('#analizKip button').forEach((b) => {
     b.addEventListener('click', () => kipSec(b.dataset.kip));
