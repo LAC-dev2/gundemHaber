@@ -1,45 +1,23 @@
 {
- "gun": "2026-09-28",
- "olusturma": "2026-09-28T18:21+00:00",
+ "gun": "2026-09-29",
+ "olusturma": "2026-09-29T07:45+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-09-28:Beraat etmiş Özbek uyruklunun G-87 kodlu sınır dışı kararı m",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Beraat etmiş Özbek uyruklunun G-87 kodlu sınır dışı kararı md. 3 kapsamında tebliğ edildi",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Tebligat metni, İstanbul 18. İdare Mahkemesi'nin beraatin sınır dışını engellemediği ve kötü muamele riskinin temellendirilmediği yönündeki gerekçesini açıkça aktarıyor; AYM ise başvuruyu özet kararla açıkça dayanaktan yoksun bulmuş. Mahkeme, makamların risk incelemesinin yeterliliğini F.G. v. İsveç ölçütüyle sorguluyor. Türkiye'den üçüncü ülkelere geri göndermelerde iç hukuk denetiminin standardını doğrudan ilgilendiriyor.",
-   "kayitlar": [
-    "001-252769"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "alan:2026-09-28:SIRIUS SPoC ağının 7. toplantısı Berlin'de yapıldı; elektron",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "SIRIUS SPoC ağının 7. toplantısı Berlin'de yapıldı; elektronik delil rejiminde 'yeni dönem' vurgusu",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Toplantı, Europol EU IRU ile Alman Federal Kriminal Polis Dairesi tarafından 15-16 Eylül 2026'da düzenlendi; duyuru AB'nin elektronik delil rejiminde yeni bir döneme girdiğini belirtiyor. Sınıraşan veri taleplerinin işleyişi, merkezin adli yardım dosyalarında doğrudan izlenen bir hattır.",
-   "kayitlar": [
-    "eb6846d9b3"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-09-28:toplu:3",
+   "id": "takip:2026-09-29:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "3 takip dosyasında hareket var",
+   "baslik": "8 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Elektronik delil rejiminde yeni dönem ve SIRIUS irtibat noktaları ağın",
+   "not": "Benli kararının icrası: dosyanın hangi Bakanlar Komitesi grubuna girec; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Ba; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Turhan v. Türkiye (33480/24): 'iltisak veya irtibat' isnadının aile hu",
    "kayitlar": [
-    "001-252770",
-    "001-252771",
-    "001-252772",
-    "001-252769",
-    "001-252771",
-    "eb6846d9b3"
+    "001-252298",
+    "9c167d6dfb",
+    "c549df543b",
+    "e43db6453a",
+    "2bd3276fe6",
+    "96ebf07556",
+    "fe78d69742",
+    "001-252399"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   }

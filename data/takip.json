@@ -537,7 +537,7 @@
    "neden": "Kararın genel tedbir gerektirip gerektirmediği ve UYAP'ta avukat yazışmasının saklanmasına ilişkin bir düzenleme değişikliği istenip istenmeyeceği, dosyanın atandığı grupla belli olacak.",
    "acildi": "2026-09-19",
    "durum": "açık",
-   "son_hareket": "2026-09-27",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "001-252298"
    ],
@@ -559,6 +559,13 @@
     {
      "gun": "2026-09-27",
      "not": "Benli v. Türkiye (29949/20) kararının metni birincil belge olarak elimizde: 15 Eylül 2026'da tebliğ edilmiş, md. 8 ihlali, 2.000 avro manevi tazminat ve 500 avro masraf, üç ay içinde ödenecek. Bakanlar Komitesi'nde hangi gruba gireceğine dair yeni kayıt yok.",
+     "kayitlar": [
+      "001-252298"
+     ]
+    },
+    {
+     "gun": "2026-09-29",
+     "not": "Bugün yeni bir usul adımı yok; kararın tam metni elimizde olduğundan ödeme yükümlülüğünün içeriği doğrulandı: 15 Eylül 2026'da tebliğ edilen kararda 2.000 avro manevi tazminat ve 500 avro masraf, üç ay içinde ödenecek. Dosyanın hangi Bakanlar Komitesi grubunda denetleneceğine ilişkin kayıt yok.",
      "kayitlar": [
       "001-252298"
      ]
@@ -839,7 +846,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-26",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -858,6 +865,14 @@
      "kayitlar": [
       "3d92d9c395",
       "acf8a087bf"
+     ]
+    },
+    {
+     "gun": "2026-09-29",
+     "not": "Dosyanın ülke haritası iki yeni başlıkla genişledi: Lawyers for Lawyers ve imzacı örgütler avukatlar Imaan Mazari-Hazir ve Hadi Ali Chattha'nın süregelen keyfî tutulması ve yargısal tacizine ilişkin ortak açıklama yayımladı; aynı gün Tacik avukat Buzurgmehr Yorov'un tutulmasının 11. yılı için 23 yıllık cezaya atıfla yeni bir çağrı yapıldı.",
+     "kayitlar": [
+      "9c167d6dfb",
+      "c549df543b"
      ]
     }
    ]
@@ -890,7 +905,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-09-27",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -925,6 +940,16 @@
       "0148433813",
       "cbac04a267",
       "16a1dca9f1"
+     ]
+    },
+    {
+     "gun": "2026-09-29",
+     "not": "İFÖD 28 Eylül'de en az 150 X hesabının engellendiğini bildirdi; listede Bizim TV, BirGün muhabirleri Meral Danyıldız ve Sarya Toprak, ANKA adliye muhabiri Esra Tokat ile avukatlar Sena Yazıbağlı ve Tuncay Koç var. MLSA/Free Web haftalık verisi 24 Eylül'de en az 250, 26 Eylül'de en az 80 hesabın 8/A gerekçesiyle engellendiğini kaydediyor.",
+     "kayitlar": [
+      "e43db6453a",
+      "2bd3276fe6",
+      "96ebf07556",
+      "fe78d69742"
      ]
     }
    ]
@@ -1043,7 +1068,7 @@
    "neden": "Karar 24 Eylül 2026'da tebliğ edildi ve kesin; dört başvurucuya kişi başı 5.000 avro manevi tazminat ile ortak 250 avro masraf üç ay içinde ödenecek. Ödeme ve icra grubunun belirlenmesi izlenmeli.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-09-27",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "001-252399"
    ],
@@ -1061,6 +1086,13 @@
      "kayitlar": [
       "001-252399"
      ]
+    },
+    {
+     "gun": "2026-09-29",
+     "not": "Yeni usul adımı yok; karar metni ödeme düzenini doğruluyor: dört başvurucuya kişi başı 5.000 avro manevi tazminat, ortaklaşa 250 avro masraf, tebliğden (24 Eylül 2026) itibaren üç ay içinde ödenecek. Mahkeme gerekçede Tercan v. Turkey (no. 6158/18, § 183) ölçütüne dayanıyor.",
+     "kayitlar": [
+      "001-252399"
+     ]
     }
    ]
   },
@@ -1071,7 +1103,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-09-27",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "b290622139"
    ],
@@ -1083,6 +1115,14 @@
       "cbac04a267",
       "0148433813",
       "ea0b93ee21"
+     ]
+    },
+    {
+     "gun": "2026-09-29",
+     "not": "İFÖD, 28 Eylül'de engellenen hesaplar arasında 'fon krizi', Narin Güran cinayeti ve Furkan Hareketi hakkında paylaşım yapanların bulunduğunu bildiriyor; engel gerekçesi olarak 8/A'daki millî güvenlik ve kamu düzeni ölçütü kullanılmaya devam ediyor.",
+     "kayitlar": [
+      "e43db6453a",
+      "96ebf07556"
      ]
     }
    ]
@@ -1133,11 +1173,21 @@
    "neden": "Engelleme gerekçesinde 8/A'nın yanına ayrı bir ceza normunun eklenmesi, tedbirin dayanağını genişletiyor; Ankara Başsavcılığı soruşturmasının seyri izlenmeli.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-09-27",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "ea0b93ee21"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-29",
+     "not": "Tarakçı'nın 26 Eylül'de gözaltına alındıktan sonra aynı gün Ankara 8. Sulh Ceza Hâkimliği'nce tutuklandığı kayda geçti; X hesabı ise Ankara 7. Sulh Ceza Hâkimliği'nin 26 Eylül tarihli kararıyla, aynı soruşturma kapsamında millî güvenlik, kamu düzeni ve suç işlenmesinin önlenmesi gerekçeleriyle engellendi. Kayıtlara göre paylaşımda adı geçmeyen bir bakanın istifası gerçekleşmedi, Bakan Şimşek istifa haberlerini yalanladı.",
+     "kayitlar": [
+      "523f067040",
+      "96ebf07556",
+      "fe78d69742"
+     ]
+    }
+   ]
   },
   {
    "id": "t47",
@@ -1146,12 +1196,21 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-09-27",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-29",
+     "not": "MLSA bülteni ve SCF, sulh ceza kararlarının ardından X'in çok sayıda hesabı Türkiye'den erişilemez kıldığını yineliyor; Tarakçı'nın hesabı için de aynı sıralama (karar–X uygulaması) kaydedilmiş. Kararla uygulama arasındaki süreye ilişkin somut veri kayıtlarda yok.",
+     "kayitlar": [
+      "96ebf07556",
+      "2bd3276fe6"
+     ]
+    }
+   ]
   },
   {
    "id": "t48",
@@ -1173,11 +1232,19 @@
    "neden": "Başvurucu, ilgili suçlamalardan beraat etmiş olmasına rağmen velayetin yalnızca FETÖ/PDY sempatizanlığı varsayımına dayanılarak eski eşine verildiğini ileri sürüyor; AİHM md. 8 kapsamında 'çocuğun üstün yararı' ölçütünü soruyor. İsnadın ceza yargısı dışına taşan sonuçlarını belgeleyen ilk dosya niteliğinde.",
    "acildi": "2026-09-28",
    "durum": "açık",
-   "son_hareket": "2026-09-28",
+   "son_hareket": "2026-09-29",
    "kayitlar": [
     "001-252771"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-09-29",
+     "not": "Tebligat ikinci bir kaynakça aktarıldı: Solidarity with OTHERS, istinaf mahkemesinin beraat eden anneyi 'Gülen hareketi sempatizanı' saymasına dayanarak velayetin kaldırılması nedeniyle Strazburg'un Türkiye'ye soru yönelttiğini bildiriyor. Yeni usul verisi ya da tarih yok, kayıt başlık düzeyinde.",
+     "kayitlar": [
+      "a4369a3fd6"
+     ]
+    }
+   ]
   },
   {
    "id": "t50",
@@ -1204,8 +1271,61 @@
     "001-252772"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t52",
+   "baslik": "Komedyen Deniz Göktaş'ın stand-up gösterisi nedeniyle Cumhurbaşkanına hakaretten 11 ay hapis cezası ve 88 günlük tutukluluğun ardından tahliyesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Sanatsal ifade nedeniyle uzun tutukluluk ve mahkumiyet birleşimi, merkezin md. 10 dosyalarında tutukluluğun yaptırım olarak kullanılması argümanına örnek oluşturuyor. Kararın kesinleşip kesinleşmeyeceği ve istinaf seyri izlenmeli.",
+   "acildi": "2026-09-29",
+   "durum": "açık",
+   "son_hareket": "2026-09-29",
+   "kayitlar": [
+    "b4282427a4",
+    "3ad88bf1db"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t53",
+   "baslik": "Avukat Sezin Uçar davası: iddianameye giren itirafçı beyanının duruşmada reddedilmesi ve 19 Ocak 2027 tarihli oturum",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Yaklaşık altı aylık tutukluluğun dayanağı olan tanık beyanının, tanığın kendisi tarafından baskı altında alındığı söylenerek reddedilmesi, avukatların mesleki faaliyet nedeniyle tutulması dosyasıyla doğrudan bağlantılı. Tahliye adli kontrolle (yurt dışı yasağı) sürüyor.",
+   "acildi": "2026-09-29",
+   "durum": "açık",
+   "son_hareket": "2026-09-29",
+   "kayitlar": [
+    "e64ad63997"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t54",
+   "baslik": "ECPMF'nin sürgündeki gazetecilere yönelik sınıraşan baskı veri seti: 2020-2026 arasında 12 AB üyesi ve aday ülkede 55 saldırı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Merkezin sınıraşan baskı dosyalarında AB toprağındaki vakalara ilişkin sayısal dayanak sağlayabilecek bir derleme; ülke dağılımı ve vaka tipleri henüz kayıtlarda yok, belgenin tam hali izlenmeli.",
+   "acildi": "2026-09-29",
+   "durum": "açık",
+   "son_hareket": "2026-09-29",
+   "kayitlar": [
+    "efcfbdfd62"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t55",
+   "baslik": "TCK 217/A yargılamalarının duruşma takvimi: Timur Soykan ve Barış Pehlivan davasının 22 Aralık 2026'ya ertelenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "217/A hem erişim engeli gerekçesi hem de gazetecilere yönelik yargılama dayanağı olarak aynı dönemde kullanılıyor; iki hattın seyrinin birlikte izlenmesi gerekiyor.",
+   "acildi": "2026-09-29",
+   "durum": "açık",
+   "son_hareket": "2026-09-29",
+   "kayitlar": [
+    "e64ad63997"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-09-28T08:14+00:00",
- "acik": 51
+ "guncelleme": "2026-09-29T07:45+00:00",
+ "acik": 55
 }
