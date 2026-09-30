@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-30",
- "olusturma": "2026-09-30T07:57+00:00",
+ "olusturma": "2026-09-30T09:12+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252504",
@@ -50,16 +50,6 @@
     "5db7d4b6b3"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "saglik:2026-09-30:9",
-   "tur": "kaynak akışı bozuk",
-   "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, Human Rights Watch - Türkiye, FIDH - Türkiye, Opinio Juris, MEDEL, Frontex…",
-   "kayitlar": [],
-   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
