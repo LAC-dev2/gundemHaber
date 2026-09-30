@@ -1,6 +1,6 @@
 {
  "gun": "2026-09-30",
- "olusturma": "2026-09-30T16:36+00:00",
+ "olusturma": "2026-09-30T21:08+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252504",
@@ -50,6 +50,20 @@
     "5db7d4b6b3"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "kritik:2026-09-30:3",
+   "tur": "kritik kayıt yığılması",
+   "duzey": "orta",
+   "baslik": "Bugün birincil kaynaktan 3 kritik öncelikli kayıt geldi",
+   "alan": "",
+   "not": "Diyalogdan Eyleme: Türkiye’de Kadınların Güçlenmesi ve Yeniden Topluma Kazandırı; 7595 Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun - R; 20260925-1.pdf - Resmi Gazete",
+   "kayitlar": [
+    "19dfaab08e",
+    "2ac488c9f0",
+    "7d4e21102c"
+   ],
+   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
   }
  ]
 }
