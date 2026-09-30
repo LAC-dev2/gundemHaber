@@ -1,25 +1,65 @@
 {
- "gun": "2026-09-29",
- "olusturma": "2026-09-29T21:12+00:00",
+ "gun": "2026-09-30",
+ "olusturma": "2026-09-30T07:57+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-09-29:toplu:8",
+   "id": "karar:001-252504",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "ByLock'a dayanan silahlı terör örgütü üyeliği mahkûmiyetlerinde adil yargılanma hakkı (591 başvuru)",
+   "alan": "md. 6, 6-1",
+   "not": "İkinci Bölüm Komitesi (Ilievski, Paczolay, Lavapuro), 61641/19 ve 590 diğer başvuruyu birleştirerek md. 6/1 ihlali buldu; HUDOC sonuç alanı 'Violation of Article 6 – Right to a fair trial (Article 6-1 – Fair hearing)' diyor. Karar 29 Eylül 2026'da tebliğ edildi ve kesin. Verilen metin kesitinde md. 41 bölümü yer almıyor; başvurucu listesi ek tabloda.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-252505",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "ByLock mahkûmiyetlerinde hem adil yargılanma hem kanunsuz ceza olmaz ilkesinin ihlali (345 başvuru)",
+   "alan": "md. 6, 6-1, 7",
+   "not": "Aynı Komite, 9991/20 ve 344 diğer başvuruda md. 6/1 ve md. 7 ihlali buldu; HUDOC sonuç alanı iki ihlali ayrı ayrı gösteriyor. Şikâyetler md. 6/1 ve md. 7 kapsamında Hükümete tebliğ edilmişti. Verilen kesitte md. 41 değerlendirmesi bulunmuyor.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-252506",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "FETÖ/PDY üyeliği mahkûmiyetlerinde md. 7 ihlali ve giderim olarak yeniden yargılama (11 başvuru)",
+   "alan": "md. 7",
+   "not": "Mahkeme oybirliğiyle md. 7 ihlali buldu; kalan şikâyetlerin kabul edilebilirlik ve esas incelemesine gerek görmedi. Yalçınkaya (§§ 404, 411, 412, 425) ve Demirhan ve diğerleri kararlarına atıfla, ihlal tespitinin manevi zarar için yeterli tazmin olduğuna karar verdi ve bu tür takip başvurularında masraf ve gidere hükmetmedi. Kararda CMK 311 § 1 (f) uyarınca yeniden yargılama imkânının bulunduğu ve 'kararın sonuç ve ruhuna uygun' yeniden yargılamanın kural olarak en uygun giderim olduğu belirtildi.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "takip:2026-09-30:toplu:7",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "8 takip dosyasında hareket var",
+   "baslik": "7 takip dosyasında hareket var",
    "alan": "",
-   "not": "Benli kararının icrası: dosyanın hangi Bakanlar Komitesi grubuna girec; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Ba; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Turhan v. Türkiye (33480/24): 'iltisak veya irtibat' isnadının aile hu",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi",
    "kayitlar": [
-    "001-252298",
-    "9c167d6dfb",
-    "c549df543b",
-    "e43db6453a",
-    "2bd3276fe6",
-    "96ebf07556",
-    "fe78d69742",
-    "001-252399"
+    "0b1c1acea3",
+    "001-252504",
+    "001-252505",
+    "001-252506",
+    "de9a24260b",
+    "120f6f2e0c",
+    "8aa8de334d",
+    "5db7d4b6b3"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-09-30:9",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "9 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, Human Rights Watch - Türkiye, FIDH - Türkiye, Opinio Juris, MEDEL, Frontex…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
