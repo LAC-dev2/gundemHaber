@@ -86,11 +86,12 @@ nav.tabs button[aria-selected="true"]{background:var(--tab-on-bg);color:var(--ta
 .eyebrow .pin{display:none}
 .eyebrow .sep{opacity:.5;font-weight:400}
 .manset-img{display:block;overflow:hidden;background:var(--sunken);aspect-ratio:21/9;
+  width:100%;max-height:clamp(180px,24vh,300px);
   margin-bottom:var(--s4);border-radius:var(--r)}
 .manset-img img{width:100%;height:100%;object-fit:cover;display:block;
   transition:transform .5s cubic-bezier(.2,.7,.2,1)}
 .manset-img:hover img{transform:scale(1.025)}
-.manset h2{font-size:clamp(1.85rem,3.5vw,2.9rem);line-height:1.04;margin:var(--s3) 0}
+.manset h2{font-size:clamp(1.7rem,2.8vw,2.35rem);line-height:1.06;margin:var(--s3) 0}
 .manset h2 a{color:var(--ink);text-decoration:none}
 .manset h2 a:hover{color:var(--accent)}
 .manset>p{font-size:1.08rem;line-height:1.55;color:var(--ink-2);max-width:60ch;

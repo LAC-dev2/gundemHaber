@@ -107,7 +107,12 @@ window.gorselOran = function (img) {
   // grafik ise kirpilmadan tam gorunur.
   if (box.classList.contains('manset-img')) {
     box.style.aspectRatio = String(Math.min(21 / 9, Math.max(4 / 3, oran)));
-    if (img.naturalWidth < 320) box.classList.add('sigdir');
+    // Bandin yuksekligi CSS'te sinirli, istenen oran tutmayabilir. Genis bir
+    // fotografin banda kirpilmasi dogru; ama dikey bir fotograf ya da kucuk
+    // bir grafik kirpilinca konu tamamen kayboluyor — onlari sigdiriyoruz.
+    const kutu = box.clientWidth / Math.max(1, box.clientHeight);
+    const kayip = 1 - Math.min(oran, kutu) / Math.max(oran, kutu);
+    if (kayip > 0.5 || img.naturalWidth < 320) box.classList.add('sigdir');
     return;
   }
 

@@ -704,7 +704,8 @@ def main() -> int:
                     "baslik": it["t"], "url": url, "ozet": summary,
                     "tarih": published.astimezone(timezone.utc).isoformat(timespec="minutes"),
                     "tahmini": tahmini, "terimler": terms, "puan": score, "tip": kind,
-                    "k": item_key(url), "gorsel": it.get("g", ""),
+                    "k": item_key(url),
+                    "gorsel": "" if src.get("gorselsiz") else it.get("g", ""),
                 }
                 prev = items.get(key)
                 if prev is None or row["puan"] > prev["puan"]:
@@ -730,7 +731,9 @@ def main() -> int:
     # 3) gorsel tamamlama: akista gorsel yoksa sayfanin og:image'i ---------
     img_path = DATA / "images.json"
     imgs = json.loads(img_path.read_text(encoding="utf-8")) if img_path.exists() else {}
-    missing = sorted([r for r in rows if not r["gorsel"]], key=lambda r: -r["puan"])
+    gorselsiz = {s["id"] for s in sources if s.get("gorselsiz")}
+    missing = sorted([r for r in rows if not r["gorsel"] and r["id"] not in gorselsiz],
+                     key=lambda r: -r["puan"])
     todo_img = []
     for row in missing:
         hit = imgs.get(row["url"])
