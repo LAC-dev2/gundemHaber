@@ -334,17 +334,39 @@ function mansetSec(havuz, adet) {
 const AYLAR = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz',
                'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
 
-function ayaGoreSecenek(gunler, bosMetin, ek = '') {
+/* Once tek bir acilir listede <optgroup> ile ay basliklari vardi, ama
+   optgroup katlanmiyor: liste her gun bir satir daha uzuyordu. Simdi iki
+   kademe — once ay secilir, gun listesi yalnizca o ayin gunlerini tutar.
+   Boylece gecmis aylar varsayilan olarak kapali, ay secilince aciliyor. */
+const ayEtiketi = (g) => `${AYLAR[Number(g.slice(5, 7)) - 1]} ${g.slice(0, 4)}`;
+
+function aySecenekleri(gunler, bosMetin) {
   if (!gunler.length) return `<option value="">${esc(bosMetin)}</option>`;
-  const gruplar = new Map();
+  const aylar = [];                      // dizin zaten yeniden eskiye sirali
   gunler.forEach((g) => {
-    const ay = `${AYLAR[Number(g.slice(5, 7)) - 1]} ${g.slice(0, 4)}`;
-    if (!gruplar.has(ay)) gruplar.set(ay, []);
-    gruplar.get(ay).push(g);
+    const ay = g.slice(0, 7);
+    if (!aylar.includes(ay)) aylar.push(ay);
   });
-  return [...gruplar].map(([ay, liste]) =>
-    `<optgroup label="${esc(ay)}">${liste.map((g) =>
-      `<option value="${esc(g)}">${esc(g)}${esc(ek)}</option>`).join('')}</optgroup>`).join('');
+  return aylar.map((ay) =>
+    `<option value="${esc(ay)}">${esc(ayEtiketi(ay + '-01'))}</option>`).join('');
+}
+
+function gunSecenekleri(gunler, ay, ek = '') {
+  const liste = gunler.filter((g) => g.slice(0, 7) === ay);
+  if (!liste.length) return '<option value="">—</option>';
+  return liste.map((g) => {
+    const etiket = `${Number(g.slice(8, 10))} ${AYLAR[Number(g.slice(5, 7)) - 1]}${ek}`;
+    return `<option value="${esc(g)}">${esc(etiket)}</option>`;
+  }).join('');
+}
+
+/* Ay degisince gun listesi yeniden kuruluyor ve o ayin EN YENI gunu
+   seciliyor; "istenen" verilirse (sentezden gun bagina tiklanmasi) o gun. */
+function gunListesiKur(aySec, gunSec, gunler, ek = '', istenen = '') {
+  if (istenen) aySec.value = istenen.slice(0, 7);
+  gunSec.innerHTML = gunSecenekleri(gunler, aySec.value, ek);
+  const secenekler = [...gunSec.options].map((o) => o.value);
+  gunSec.value = (istenen && secenekler.includes(istenen)) ? istenen : (secenekler[0] || '');
 }
 
 function renderLead() {
@@ -898,7 +920,9 @@ function sentezGovde(s) {
 
 async function drawAnaliz() {
   const hafta = state.analizKip === 'hafta';
+  $('#analizAy').hidden = hafta;
   $('#analizGun').hidden = hafta;
+  $('#sentezAy').hidden = !hafta;
   $('#sentezGun').hidden = !hafta;
 
   if (hafta) {
@@ -945,9 +969,10 @@ function kipSec(kip, gun) {
     b.classList.toggle('on', acik);
     b.setAttribute('aria-selected', String(acik));
   });
-  if (kip === 'gun' && gun) {
-    const sec = $('#analizGun');
-    if ([...sec.options].some((o) => o.value === gun)) sec.value = gun;
+  // Istenen gun baska bir ayda olabilir: once ay secilip gun listesi
+  // yeniden kurulmazsa secim sessizce dusuyordu.
+  if (kip === 'gun' && gun && (state.analizIndex || []).includes(gun)) {
+    gunListesiKur($('#analizAy'), $('#analizGun'), state.analizIndex, '', gun);
   }
   drawAnaliz();
 }
@@ -1186,9 +1211,21 @@ async function drawArchive() {
     draw(); renderLead(); renderAnalizOzet(); renderRegions(); durumYaz(); chipSayilariYaz();
   });
   cChip.textContent = state.ceviri ? 'Türkçe' : 'Özgün dil';
-  $('#analizGun').innerHTML = ayaGoreSecenek(analizIndex || [], 'analiz yok');
+  state.analizIndex = analizIndex || [];
+  state.sentezIndex = sentezIndex || [];
+  $('#analizAy').innerHTML = aySecenekleri(state.analizIndex, 'analiz yok');
+  gunListesiKur($('#analizAy'), $('#analizGun'), state.analizIndex);
+  $('#analizAy').addEventListener('change', () => {
+    gunListesiKur($('#analizAy'), $('#analizGun'), state.analizIndex);
+    drawAnaliz();
+  });
   $('#analizGun').addEventListener('change', drawAnaliz);
-  $('#sentezGun').innerHTML = ayaGoreSecenek(sentezIndex || [], 'sentez yok', ' haftası');
+  $('#sentezAy').innerHTML = aySecenekleri(state.sentezIndex, 'sentez yok');
+  gunListesiKur($('#sentezAy'), $('#sentezGun'), state.sentezIndex, ' haftası');
+  $('#sentezAy').addEventListener('change', () => {
+    gunListesiKur($('#sentezAy'), $('#sentezGun'), state.sentezIndex, ' haftası');
+    drawAnaliz();
+  });
   $('#sentezGun').addEventListener('change', drawAnaliz);
   document.querySelectorAll('#analizKip button').forEach((b) => {
     b.addEventListener('click', () => kipSec(b.dataset.kip));
