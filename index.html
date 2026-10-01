@@ -153,6 +153,15 @@
       <li><b>Akış keşfi:</b> Tarayıcı her kaynağın adresinde RSS/Atom akışı arar (sayfa içi <code>link rel=alternate</code> etiketi ve yaygın <code>/feed</code>, <code>/rss</code> kalıpları). Bulunanlar <code>data/feeds.json</code> içinde saklanır, süresi geçtikçe yeniden doğrulanır.</li>
       <li><b>Tarama:</b> Bulunan akışlar paralel çekilir, son <span id="pencere">21</span> günün öğeleri ayrıştırılır, bağlantıya göre tekilleştirilir.</li>
       <li><b>Önem sıralaması:</b> Kaynağın önceliği, birincil/ikincil kanıt değeri, uyarı terimi eşleşmeleri ve tazelik puanlanır.</li>
+      <li><b>Tarih güvencesi:</b> Bazı kurumsal akışlar (FCA, Europol, ESMA) öğelerinde
+        okunabilir bir yayın tarihi vermiyor; bazıları da ileri tarihli etkinlik duyurusu
+        yayımlıyor. Bu kayıtlar <b>ilk görüldükleri tarihe</b> bağlanır ve kartlarında
+        "tarih tahmini" yazar. Böylece her taramada yeniden "bugün" olup listenin başına
+        yapışmazlar; normal şekilde yaşlanıp aşağı inerler.</li>
+      <li><b>Manşet:</b> Üstteki dört kart o günün kayıtlarından seçilir. Bölgesi Türkiye
+        ya da Belçika olan, metninde Türkiye/AİHM geçen kayıtlar öne alınır; <b>bir kaynak
+        en fazla bir kart</b>, aynı gelişme en fazla bir kart alır ve merkezin dosyalarıyla
+        bağlantısı kurulamayan bir kayda dört karttan yalnızca biri gidebilir.</li>
       <li><b>Doğrulama:</b> Başlık sözcüklerinin örtüşmesine göre, aynı gelişmeyi anlatan
         kayıtlar kümelenir. Akışta bunlar tek satırda toplanır ("aynı gelişme: …"), kayıt
         sayfasında kaynaklar yan yana karşılaştırılabilir. Kaç kaynağın aynı olayı verdiği,

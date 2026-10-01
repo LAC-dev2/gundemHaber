@@ -277,6 +277,11 @@ function secondCard(it) {
 const MANSET_BONUS_BOLGE = 15;
 const MANSET_BONUS_METIN = 8;
 const MANSET_NEXUS = /türkiye|turkey|türk\b|aihm|echr/i;
+/* Dort manşet kartindan en fazla biri, metninde de bolgesinde de merkezin
+   dosyalarina deger bir baglanti bulunmayan bir kayda gidebilir. FCA/ESMA
+   gibi akislar yuksek puanli ama Türkiye/Belçika baglantisi olmayan onlarca
+   kayit basiyor; kota olmadan sabah manşetini bunlar dolduruyordu. */
+const MANSET_ILGISIZ_KOTA = 1;
 
 function mansetYakinlik(it) {
   if (it.bolge === 'Türkiye' || it.bolge === 'Belçika') return MANSET_BONUS_BOLGE;
@@ -287,17 +292,34 @@ function mansetYakinlik(it) {
 function mansetSec(havuz, adet) {
   const sirali = havuz.slice().sort((a, b) =>
     (b.puan + mansetYakinlik(b)) - (a.puan + mansetYakinlik(a)));
-  const secilen = [], kaynaklar = new Set();
+  const secilen = [], kaynaklar = new Set(), kumeler = new Set();
+  let ilgisiz = 0;                       // merkezin dosyalariyla baglantisi yok
   for (const it of sirali) {
     if (kaynaklar.has(it.kaynak)) continue;
+    // Ayni gelismeyi iki kaynaktan iki kart olarak basmak manşeti harciyor.
+    if (it.kume != null && kumeler.has(it.kume)) continue;
+    if (mansetYakinlik(it) === 0) {
+      if (ilgisiz >= MANSET_ILGISIZ_KOTA) continue;
+      ilgisiz += 1;
+    }
     kaynaklar.add(it.kaynak);
+    if (it.kume != null) kumeler.add(it.kume);
     secilen.push(it);
     if (secilen.length === adet) return secilen;
   }
-  for (const it of sirali) {             // kaynak cesitliligi yetmediyse doldur
-    if (secilen.includes(it)) continue;
-    secilen.push(it);
-    if (secilen.length === adet) break;
+  /* Havuz dar kaldiysa (ornegin gunun kayitlarinin cevirisi henuz bitmediyse)
+     kotayi gevsetiyoruz — ama kaynak ve kume kurallarini DEGIL. Yedek dongu
+     eskiden ikisini de atliyordu; manşetin yarisi tek kuruma gidebiliyordu. */
+  for (const esnek of [false, true]) {
+    for (const it of sirali) {
+      if (secilen.includes(it)) continue;
+      if (!esnek && kaynaklar.has(it.kaynak)) continue;
+      if (!esnek && it.kume != null && kumeler.has(it.kume)) continue;
+      kaynaklar.add(it.kaynak);
+      if (it.kume != null) kumeler.add(it.kume);
+      secilen.push(it);
+      if (secilen.length === adet) return secilen;
+    }
   }
   return secilen;
 }

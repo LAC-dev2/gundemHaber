@@ -30,6 +30,7 @@ from extract import extract as extract_text   # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ARCHIVE = DATA / "archive"
+SEEN = DATA / "ilk-gorulme.json"   # tarihi okunamayan kayitlarin ilk gorulme tarihi
 PAGES = DATA / "pages"          # yerel uygulama: tam metin
 IMGDIR = DATA / "img"           # yerel uygulama: gorsel aynasi
 
@@ -410,6 +411,32 @@ def parse_feed(body: bytes) -> list[dict]:
     return out
 
 
+# ---------------------------------------------------------------- ilk gorulme
+# Bazi akislar (FCA, Europol, ESMA) ogelerinde okunabilir bir yayin tarihi
+# vermiyor. Eskiden bu kayitlar her taramada o anki saatle damgalaniyordu:
+# haftalar once yayinlanmis bir FCA konusmasi gunde yedi kez yeniden
+# "bugun 21:07" oluyor, boylece hem "En yeni" listesinin basinda cakili
+# kaliyor hem de puandaki tazelik dususunu (NOW - published) hic yemiyordu.
+# Cozum: kaydi ilk gordugumuz tarihi dosyada tutmak. Kayit artik normal
+# sekilde yasliniyor ve zamanla listenin asagisina iniyor.
+SEEN_TTL = 120          # gun; bundan eski kayitlar deftere yuk olmasin
+
+
+def ilk_gorulme_yukle() -> dict:
+    try:
+        veri = json.loads(SEEN.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return veri if isinstance(veri, dict) else {}
+
+
+def ilk_gorulme_yaz(veri: dict) -> None:
+    sinir = (NOW - timedelta(days=SEEN_TTL)).isoformat(timespec="minutes")
+    kalan = {k: v for k, v in veri.items() if isinstance(v, str) and v >= sinir}
+    SEEN.write_text(json.dumps(kalan, ensure_ascii=False, separators=(",", ":")),
+                    encoding="utf-8")
+
+
 # ------------------------------------------------------------------------ puan
 PRIORITY_WEIGHT = {"Kritik": 30, "Yüksek": 20, "Orta": 10, "Düşük": 4}
 
@@ -606,6 +633,7 @@ def main() -> int:
     match = build_matcher(meta.get("alertTerms", []))
     cutoff = NOW - timedelta(days=WINDOW_DAYS)
     items: dict[str, dict] = {}
+    ilk_gor = ilk_gorulme_yukle()
     errors = 0
     active_feeds = 0
     active_news = 0
@@ -632,13 +660,24 @@ def main() -> int:
                     it["t"] = strip_publisher(it["t"])
                 if not useful_title(it["t"], src["ad"]):
                     continue
-                published = parse_date(it["d"]) or NOW
-                if published < cutoff:
-                    continue
-                if published > NOW + timedelta(hours=12):
-                    published = NOW
                 url = it["u"] or feed
                 key = re.sub(r"[?#].*$", "", url) or it["t"]
+                okunan = parse_date(it["d"])
+                # Kullanilabilir bir gecmis tarih yoksa kaydi ilk gordugumuz
+                # tarihe baglıyoruz. Iki durum var, ikisi de eskiden o anki
+                # saatle damgalaniyordu:
+                #   - tarihi hic okunamayan ogeler (FCA, Europol, ESMA),
+                #   - ileri tarihli etkinlik duyurulari (KU Leuven seminerleri).
+                tahmini = (it["nd"] or okunan is None
+                           or okunan > NOW + timedelta(hours=12))
+                if not tahmini:
+                    published = okunan
+                else:
+                    published = parse_date(ilk_gor.get(key, "")) or NOW
+                    ilk_gor.setdefault(key, published.astimezone(
+                        timezone.utc).isoformat(timespec="minutes"))
+                if published < cutoff:
+                    continue
                 summary = tidy_summary(it["s"], it["t"])
                 blob = f"{it['t']} {summary}"
                 low = blob.lower()
@@ -664,14 +703,21 @@ def main() -> int:
                     "kanit": src.get("kanit", ""), "tur": src.get("tur", ""),
                     "baslik": it["t"], "url": url, "ozet": summary,
                     "tarih": published.astimezone(timezone.utc).isoformat(timespec="minutes"),
-                    "tahmini": it["nd"], "terimler": terms, "puan": score, "tip": kind,
+                    "tahmini": tahmini, "terimler": terms, "puan": score, "tip": kind,
                     "k": item_key(url), "gorsel": it.get("g", ""),
                 }
                 prev = items.get(key)
                 if prev is None or row["puan"] > prev["puan"]:
                     items[key] = row
 
-    rows = sorted(items.values(), key=lambda r: (r["tarih"], r["puan"]), reverse=True)[:MAX_ITEMS]
+    # Tarihi tahmini olan kayit, ayni gunun gercek tarihli haberlerinin onune
+    # gecmesin: siralamada gunun basina (00:00) cekiliyor. Bildigimiz tek sey
+    # kaydi o gun gordugumuz; saati bilmiyoruz.
+    def sira_tarihi(r: dict) -> str:
+        return r["tarih"][:10] + "T00:00+00:00" if r.get("tahmini") else r["tarih"]
+
+    rows = sorted(items.values(), key=lambda r: (sira_tarihi(r), r["puan"]),
+                  reverse=True)[:MAX_ITEMS]
     kumeler = cluster_rows(rows)
 
     for row in rows:                      # kaynak basina en yeni kayit tarihi
@@ -825,6 +871,8 @@ def main() -> int:
                                    ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     write_rss(rows, DATA / "gundem.xml")
+
+    ilk_gorulme_yaz(ilk_gor)
 
     index = sorted(p.stem for p in ARCHIVE.glob("*.json"))
     (DATA / "archive-index.json").write_text(json.dumps(index), encoding="utf-8")
