@@ -1,5 +1,65 @@
 {
  "gun": "2026-10-01",
- "olusturma": "2026-10-01T08:10+00:00",
- "uyarilar": []
+ "olusturma": "2026-10-01T08:14+00:00",
+ "uyarilar": [
+  {
+   "id": "karar:001-252505",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "ByLock kullanımına dayanan mahkûmiyetlerde md. 6 § 1 ve md. 7 ihlali (345 başvuru)",
+   "alan": "md. 6, 6-1, 7",
+   "not": "İkinci Daire Komitesi (Ilievski, Paczolay, Lavapuro), 9991/20 ve diğer 344 başvuruyu birleştirerek incelemiş; HUDOC sonuç alanına göre adil yargılanma hakkının (md. 6, 6 § 1) ve kanunsuz ceza olmaz ilkesinin (md. 7) ihlal edildiğine karar verilmiştir. Karar kesindir, yalnızca editoryal düzeltmeye tabidir. Şikâyetler md. 6 § 1 ve md. 7 kapsamında Hükümete tebliğ edilmişti. Elimizdeki metinde md. 41 bölümü kesildiği için bu dosyada tazminata ilişkin hüküm doğrulanamıyor.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-252506",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "ByLock mahkûmiyetlerinde md. 7 ihlali ve giderimin yeniden yargılama olarak belirlenmesi (11 başvuru)",
+   "alan": "md. 7",
+   "not": "Mahkeme, FETÖ/PDY üyeliğinden mahkûmiyetin md. 7'yi ihlal ettiğine oybirliğiyle karar verdi ve kalan şikâyetlerin kabul edilebilirliği ile esasını incelemeye gerek görmedi. Yüksel Yalçınkaya (§§ 404, 411, 412, 425) ve Demirhan ve Diğerleri'ne atıfla, ihlal tespitinin manevi zarar için tek başına yeterli adil karşılık olduğunu belirtti; başvurucuların CMK md. 311 § 1 (f) uyarınca yeniden yargılama talep edebileceğini ve kararın \"sonuç ve ruhuna\" uygun yeniden yargılamanın kural olarak en uygun giderim olacağını kaydetti. Bu tür takip başvurularında yargılama masraf ve giderleri için ödeme yapılmadı.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-252504",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "ByLock mahkûmiyetlerinde md. 6 § 1 ihlali (591 başvuru)",
+   "alan": "md. 6, 6-1",
+   "not": "Aynı Komite, 61641/19 ve diğer 590 başvuruyu birleştirerek incelemiş; HUDOC sonuç alanına göre yalnızca adil yargılanma hakkının (md. 6, 6 § 1) ihlal edildiğine karar verilmiştir. Şikâyetler md. 6 § 1 ve md. 7 kapsamında tebliğ edilmişti. Karar kesindir.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "takip:2026-10-01:toplu:11",
+   "tur": "izlenen dosyada hareket",
+   "duzey": "orta",
+   "baslik": "11 takip dosyasında hareket var",
+   "alan": "",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiy; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK",
+   "kayitlar": [
+    "49a4559fff",
+    "ac0df84564",
+    "8eca30040c",
+    "001-252505",
+    "001-252504",
+    "001-252506",
+    "432398fe64",
+    "8eca30040c"
+   ],
+   "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-10-01:10",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "10 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, Frontex, Stockholm Center for Freedom…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
+  }
+ ]
 }
