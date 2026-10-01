@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-01",
- "olusturma": "2026-10-01T08:14+00:00",
+ "olusturma": "2026-10-01T09:40+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252505",
@@ -52,12 +52,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-01:10",
+   "id": "saglik:2026-10-01:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, Frontex, Stockholm Center for Freedom…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, European Centre for Press and Media Freedom, FIDH - Türkiye, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network, MLSA…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
