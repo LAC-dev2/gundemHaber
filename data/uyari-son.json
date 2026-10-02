@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-02",
- "olusturma": "2026-10-02T10:51+00:00",
+ "olusturma": "2026-10-02T11:48+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-02:Yunanistan'da STK Sicili kuralları iptal edildi, bazı hüküml",
@@ -74,16 +74,6 @@
     "a4acad2fcf"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "saglik:2026-10-02:8",
-   "tur": "kaynak akışı bozuk",
-   "duzey": "yüksek",
-   "baslik": "8 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, Frontex, Charity & Security Network, Justice Square…",
-   "kayitlar": [],
-   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
