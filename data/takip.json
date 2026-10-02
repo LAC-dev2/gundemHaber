@@ -122,7 +122,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-02",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -172,6 +172,15 @@
       "8eca30040c",
       "001-252505",
       "001-252504",
+      "001-252506"
+     ]
+    },
+    {
+     "gun": "2026-10-02",
+     "not": "29 Eylül tarihli üç Komite kararının tam metinleri bugün elimize geçti; başvuru dağılımı Ünal 591, Parun 345, Korkmaz 11 olmak üzere toplam 947. Üçünde de tazminata hükmedilmemiş, giderim CMK 311/1(f) uyarınca yeniden yargılamaya bırakılmış.",
+     "kayitlar": [
+      "001-252504",
+      "001-252505",
       "001-252506"
      ]
     }
@@ -439,12 +448,20 @@
    "neden": "ABD özel temsilcisinin müzakeresiyle 25 kişi serbest bırakılıp Vilnius'a getirildi; karşılığında iki Belarus şirketine yönelik yaptırımlar kaldırıldı ve bazı kişilerin pasaportlarının iptal edildiği bildiriliyor [b14c3cdc03][6e19051a68]. Yaptırım kaldırma ile serbest bırakma pazarlığının eşleşmesi ve zorunlu sürgün pratiği, merkezin yaptırım ve sınıraşan baskı dosyalarıyla doğrudan ilgili.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-10-02",
    "kayitlar": [
     "b14c3cdc03",
     "6e19051a68"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-02",
+     "not": "Freedom House yöneticisinin Belarus'a ilişkin açıklaması kayda girdi; kayıtta yalnızca başlık düzeyinde bilgi var, siyasi mahpusların serbest bırakılması veya yaptırım kaldırmalarına dair somut veri yok.",
+     "kayitlar": [
+      "154d62831b"
+     ]
+    }
+   ]
   },
   {
    "id": "t11",
@@ -986,7 +1003,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-02",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1039,6 +1056,14 @@
      "kayitlar": [
       "b66b0a7d98"
      ]
+    },
+    {
+     "gun": "2026-10-02",
+     "not": "Engel kararı, erişim engellerini izleyip belgeleyen İFÖD'ün EngelliWeb projesinin X hesabına uzandı. Böylece listeye izleme/belgeleme işlevi gören bir hesap eklendi; kayıtlarda kararın hâkimliği, tarihi ve sayısı yok.",
+     "kayitlar": [
+      "a4acad2fcf",
+      "6915c5370e"
+     ]
     }
    ]
   },
@@ -1049,7 +1074,7 @@
    "neden": "Bakırköy Başsavcılığı'nın müstehcenlik soruşturması kapsamında bir meslek derneğinin X hesabının engellenmesi, 'Ailem Güvende' dosyasında kullanılan isnat kalıbının başka örgütlere uygulanıp uygulanmayacağı sorusunu doğuruyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-02",
    "kayitlar": [
     "8bbdf842f8"
    ],
@@ -1060,6 +1085,13 @@
      "kayitlar": [
       "ac0df84564",
       "49a4559fff"
+     ]
+    },
+    {
+     "gun": "2026-10-02",
+     "not": "Savcılık, müzik videosunda iki erkeğin dans ettiği sahne nedeniyle şarkıcı Mabel Matiz hakkında müstehcenlikten iddianame düzenledi. Müstehcenlik isnadının ifade ürünlerine uygulanması bu dosyada ilk kez bir sanatçı hakkında iddianameye dönüşmüş görünüyor.",
+     "kayitlar": [
+      "28c4fddeaf"
      ]
     }
    ]
@@ -1329,7 +1361,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-09-29",
+   "son_hareket": "2026-10-02",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -1341,6 +1373,13 @@
      "kayitlar": [
       "96ebf07556",
       "2bd3276fe6"
+     ]
+    },
+    {
+     "gun": "2026-10-02",
+     "not": "İFÖD, EngelliWeb hesabının engellendiğini ancak hesabın henüz X tarafından Türkiye'den görünmez kılınmadığını belirtiyor. Karar ile platform uygulaması arasındaki zaman farkı bu dosyada yeniden kayda geçti.",
+     "kayitlar": [
+      "a4acad2fcf"
      ]
     }
    ]
@@ -1465,7 +1504,7 @@
    "neden": "Kararlar kesin ve manevi tazminat verilmedi; giderim yolu iç hukukta yeniden yargılamaya bağlandı. Yeniden yargılamaların 'kararın sonuç ve ruhuna uygun' yürütülüp yürütülmediği izlenmesi gereken tek somut ölçüt.",
    "acildi": "2026-09-30",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-02",
    "kayitlar": [
     "001-252506",
     "001-252504",
@@ -1480,6 +1519,15 @@
       "001-252506",
       "001-252505",
       "001-252504"
+     ]
+    },
+    {
+     "gun": "2026-10-02",
+     "not": "Üç kararın metni doğrulandı: Korkmaz ve Diğerleri'nde yalnızca md. 7 ihlali bulundu, ihlal tespitinin manevi tazminat için yeterli giderim sayıldığı ve takip başvurularında masraf ödenmediği açıkça yazılı (Yüksel Yalçınkaya §§ 404, 411, 412, 425 ve Demirhan ve Diğerleri §§ 53-56 atıflı). Yeniden yargılama yolu CMK 311/1(f).",
+     "kayitlar": [
+      "001-252506",
+      "001-252504",
+      "001-252505"
      ]
     }
    ]
@@ -1575,8 +1623,47 @@
     "ef7b4d5c8a"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t64",
+   "baslik": "Adli Tıp Kurumu'nun kanser hastası Gülen hükümlüsü İbrahim Halil Al hakkında 'cezaevinde kalabilir' raporu ve reddedilen beş nakil talebi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Ağır hasta hükümlülerin tutulmaya elverişliliği ve sağlık erişimi, merkezin md. 3 bağlamındaki açık dosyalarıyla doğrudan ilgili. Kayıt ayrıca aile ikametine 1.000 km uzak cezaevine yerleştirme ve beş nakil talebinin reddini içeriyor.",
+   "acildi": "2026-10-02",
+   "durum": "açık",
+   "son_hareket": "2026-10-02",
+   "kayitlar": [
+    "a1e177ed2d"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t65",
+   "baslik": "Yunanistan Danıştay'ın STK Sicili kurallarını iptal eden 16 Eylül 2026 tarihli kararı ve CJEU'ya gönderilen ön karar soruları",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Mültecilerle çalışan derneklerin kayıt rejimine ilişkin örgütlenme özgürlüğü ve veri koruma soruları CJEU'ya taşındı; merkezin dernek kapatma ve yargısal taciz dosyalarıyla karşılaştırmalı dayanak oluşturabilir.",
+   "acildi": "2026-10-02",
+   "durum": "açık",
+   "son_hareket": "2026-10-02",
+   "kayitlar": [
+    "fd0faf6a42"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t66",
+   "baslik": "Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek göçmen kaçakçılığı yargılaması",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "İltica prosedürüne erişime yardım etmenin 'kaçakçılık' olarak nitelendiği ilk yargılama olduğu belirtiliyor; mahkûmiyet halinde 20 yıla kadar hapis isteniyor.",
+   "acildi": "2026-10-02",
+   "durum": "açık",
+   "son_hareket": "2026-10-02",
+   "kayitlar": [
+    "862003b8f3"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-01T08:08+00:00",
- "acik": 63
+ "guncelleme": "2026-10-02T07:57+00:00",
+ "acik": 66
 }
