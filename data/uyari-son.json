@@ -1,79 +1,59 @@
 {
- "gun": "2026-10-02",
- "olusturma": "2026-10-02T21:07+00:00",
+ "gun": "2026-10-03",
+ "olusturma": "2026-10-03T07:36+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-02:Yunanistan'da STK Sicili kuralları iptal edildi, bazı hüküml",
+   "id": "alan:2026-10-03:Dimitras–Olsen dosyası: Norveç EAW'yi reddetti, Yunan yakala",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Yunanistan'da STK Sicili kuralları iptal edildi, bazı hükümler CJEU'ya gönderildi",
+   "baslik": "Dimitras–Olsen dosyası: Norveç EAW'yi reddetti, Yunan yakalama kararları yürürlükte",
    "alan": "İade, adli yardım ve iltica",
-   "not": "Danıştay, mülteci ve göçmenlerle çalışan STK'ların kayıt rejiminin ana unsurlarını örgütlenme özgürlüğüne aykırı buldu; bakanlığa sınırsız takdir tanıyan, fon kaynaklarının yayımlanmasını zorunlu kılan ve silinen STK'lara iki yıl yeniden kayıt yasağı getiren kurallar hukuka aykırı sayıldı. Üye, personel ve gönüllü sicili anayasaya aykırı bulundu; yöneticilerin adli sicil verilerinin işlenmesi ve suçlamayla kayıt reddi CJEU'ya taşındı.",
+   "not": "6 Ekim'de Rodos'ta başlayacak yargılamada isnat, sığınma prosedürüne erişimi sağlamak üzere yetkililere bildirim yapılmasını \"kâr amaçlı suç örgütü\" kapsamında değerlendiriyor ve 20 yıla kadar hapis öngörüyor [510c306d99]. Norveç temyiz mahkemesinin 15 Mayıs tarihli reddi, iade engeli olarak çifte suçluluk ve ifade özgürlüğü riskini birlikte kullanan güncel bir örnek; yakalama kararlarının sürdürülmesi ise savunma hakkını fiilen kısıtlıyor.",
    "kayitlar": [
-    "fd0faf6a42"
+    "510c306d99"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "alan:2026-10-02:İltica prosedürüne erişime yardım 'kaçakçılık' isnadıyla 6 E",
+   "id": "alan:2026-10-03:Medin yargılaması çeviri hatası nedeniyle dördüncü kez ertel",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "İltica prosedürüne erişime yardım 'kaçakçılık' isnadıyla 6 Ekim'de yargılanacak",
+   "baslik": "Medin yargılaması çeviri hatası nedeniyle dördüncü kez ertelendi",
    "alan": "İade, adli yardım ve iltica",
-   "not": "Tommy Olsen ve Panayote Dimitras, 2021'de Kos'ta sığınmacılara prosedüre erişimde yardım etmeleri ve geri itmeleri belgelemeleri nedeniyle suç örgütü kurma ve yasadışı giriş/kalışı kolaylaştırma isnadıyla yargılanacak. Amnesty'ye göre insan hakları çalışanlarının bu gerekçeyle ilk kez yargılanması söz konusu; mahkûmiyet halinde 20 yıla kadar hapis gündemde.",
+   "not": "İstanbul 13. Ağır Ceza Mahkemesi, İsveçli gazeteci Joakim Medin'in gıyabi yargılamasında İsveç'e yöneltilen ifade alma talebinin yenilenmesine karar verdi; erteleme gerekçesi İsveç'in yanıtındaki çeviri hatası [ac0d016e93]. Karşılıklı adli yardım kanalının terör isnadıyla yürütülen gıyabi bir yargılamada nasıl işletildiğini gösteriyor.",
    "kayitlar": [
-    "862003b8f3"
+    "ac0d016e93"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "karar:001-252504",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "591 başvuruculuk ByLock/FETÖ üyeliği mahkûmiyetlerinde adil yargılanma hakkı",
-   "alan": "md. 6, 6-1",
-   "not": "İkinci Daire Komitesi (Ilievski, Paczolay, Lavapuro), 61641/19 ve diğer 590 başvuruyu birleştirerek karara bağladı. HUDOC sonuç alanında yalnızca AİHS md. 6 (md. 6 § 1, adil duruşma) ihlali yer alıyor. Karar metninde şikâyetlerin Hükümete md. 6 § 1 ve md. 7 kapsamında tebliğ edildiği belirtiliyor.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-252505",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "345 başvuruculuk ByLock/FETÖ üyeliği mahkûmiyetlerinde adil yargılanma ve kanunsuz ceza olmaz ilkesi",
-   "alan": "md. 6, 6-1, 7",
-   "not": "Aynı Komite, 9991/20 ve diğer 344 başvuruyu birleştirerek hem md. 6 § 1 hem md. 7 ihlali buldu. Şikâyetler Hükümete md. 6 § 1 ve md. 7 kapsamında tebliğ edilmişti.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-252506",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "11 başvuruculuk FETÖ/PDY üyeliği mahkûmiyetinde kanunsuz ceza olmaz ilkesi",
-   "alan": "md. 7",
-   "not": "Komite, 36880/20 ve diğer 10 başvuruda oybirliğiyle md. 7 ihlali buldu; kalan şikâyetlerin kabul edilebilirlik ve esasının incelenmesine gerek görmedi. Yüksel Yalçınkaya (§§ 404, 411, 412, 425) ve Demirhan ve Diğerleri (§ 53) atfıyla ihlal tespitinin manevi zarar için yeterli adil karşılık sayıldığına hükmetti; bu tür takip başvurularında masraf ve gidere de hükmedilmedi (Demirhan ve Diğerleri §§ 54-56). Giderim yolu olarak CMK 311 § 1 (f) uyarınca yeniden yargılama talebi gösterildi.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-10-02:toplu:6",
+   "id": "takip:2026-10-03:toplu:9",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "9 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Belarus'ta siyasi mahpusların zorunlu sınır dışı karşılığı serbest bır; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiy; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Komedyen Deniz Göktaş'ın stand-up gösterisi nedeniyle Cumhurbaşkanına ; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek ",
    "kayitlar": [
-    "001-252504",
-    "001-252505",
-    "001-252506",
-    "154d62831b",
-    "a4acad2fcf",
-    "6915c5370e",
-    "28c4fddeaf",
-    "a4acad2fcf"
+    "43997feb69",
+    "5bc95a68bd",
+    "43997feb69",
+    "12680a6d16",
+    "e862aaa52f",
+    "12680a6d16",
+    "e862aaa52f",
+    "a4a6981d21"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-10-03:123",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "123 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: İnsan Hakları Komiseri, PACE, Platform for the Safety of Journalists, EUR-Lex, Adalet Bakanlığı İnsan Hakları Dairesi, CURIA / ABAD…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
