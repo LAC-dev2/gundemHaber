@@ -129,7 +129,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-03",
+   "son_hareket": "2026-10-04",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -195,6 +195,16 @@
      "gun": "2026-10-03",
      "not": "29 Eylül tarihli Ünal ve Diğerleri kararı ikincil kaynaklara yansıdı: 591 başvurucu bakımından md. 6 ihlali. Usul bakımından yeni bir adım yok; karar metinleri dün değerlendirilmişti.",
      "kayitlar": [
+      "5bc95a68bd"
+     ]
+    },
+    {
+     "gun": "2026-10-04",
+     "not": "Bu pencerede yeni haber kaydı gelmedi; ancak birincil belgeler bölümünde 29 Eylül tarihli üç ByLock kararının (Ünal ve diğerleri — 591 başvuru; Parun ve diğerleri — 345 başvuru; Korkmaz ve diğerleri — 11 başvuru) metni elimizde. Kararlarda giderim yolu olarak CMK 311/1(f) uyarınca yeniden yargılama gösteriliyor, manevi tazminat için ihlal tespiti yeterli sayılıyor.",
+     "kayitlar": [
+      "001-252504",
+      "001-252505",
+      "001-252506",
       "5bc95a68bd"
      ]
     }
@@ -1024,7 +1034,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-03",
+   "son_hareket": "2026-10-04",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1093,6 +1103,13 @@
       "12680a6d16",
       "e862aaa52f"
      ]
+    },
+    {
+     "gun": "2026-10-04",
+     "not": "EngelliWeb, millî güvenlik ve kamu düzeni gerekçesiyle en az 31 X hesabının daha engellendiğini kaydetti; listede ekonomi/borsa içerikli paylaşım yapan Ayhan Dadaloğlu'nun hesabı da var. Böylece ekonomi-finans içerikli hesaplara yönelik engel pratiği bu pencerede de sürüyor.",
+     "kayitlar": [
+      "367443383a"
+     ]
     }
    ]
   },
@@ -1158,7 +1175,7 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-04",
    "kayitlar": [
     "2ac488c9f0"
    ],
@@ -1181,6 +1198,13 @@
     {
      "gun": "2026-10-01",
      "not": "7595 sayılı Kanun'a ilişkin yeni bir Resmî Gazete kaydı geldi, ancak kayıt yalnızca başlık düzeyinde; kanunun kapsamına dair ek bilgi yok.",
+     "kayitlar": [
+      "2ac488c9f0"
+     ]
+    },
+    {
+     "gun": "2026-10-04",
+     "not": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun Resmî Gazete kaydında yeniden göründü; kayıtta yalnızca başlık düzeyinde bilgi var, içerik ya da değişiklik aktarılmıyor.",
      "kayitlar": [
       "2ac488c9f0"
      ]
@@ -1276,7 +1300,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-04",
    "kayitlar": [
     "b290622139"
    ],
@@ -1303,6 +1327,13 @@
      "not": "İFÖD, fon krizi hakkında paylaşım yapan en az 147 X hesabının bir gün içinde daha engellendiğini tespit etti; bunların 5'i 100 binden, 17'si 50 binden fazla takipçili. Seri 25 Eylül'den beri kesintisiz sürüyor.",
      "kayitlar": [
       "b66b0a7d98"
+     ]
+    },
+    {
+     "gun": "2026-10-04",
+     "not": "Yeni engel listesinde borsa ve ekonomi üzerine paylaşım yapan bir hesap da yer alıyor; gerekçe yine millî güvenlik ve kamu düzeninin korunması olarak belirtilmiş.",
+     "kayitlar": [
+      "367443383a"
      ]
     }
    ]
@@ -1390,7 +1421,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-03",
+   "son_hareket": "2026-10-04",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -1418,6 +1449,13 @@
       "12680a6d16",
       "e862aaa52f",
       "a4a6981d21"
+     ]
+    },
+    {
+     "gun": "2026-10-04",
+     "not": "EngelliWeb, yeni engellenen 31 hesabın büyük bölümüne ilişkin X'in görünmez kılma pratiğini kaydetti; kayıtta bu husus başlık/özet düzeyinde geçiyor, oran verilmiyor.",
+     "kayitlar": [
+      "367443383a"
      ]
     }
    ]
@@ -1550,7 +1588,7 @@
    "neden": "Kararlar kesin ve manevi tazminat verilmedi; giderim yolu iç hukukta yeniden yargılamaya bağlandı. Yeniden yargılamaların 'kararın sonuç ve ruhuna uygun' yürütülüp yürütülmediği izlenmesi gereken tek somut ölçüt.",
    "acildi": "2026-09-30",
    "durum": "açık",
-   "son_hareket": "2026-10-03",
+   "son_hareket": "2026-10-04",
    "kayitlar": [
     "001-252506",
     "001-252504",
@@ -1581,6 +1619,15 @@
      "not": "Ünal ve Diğerleri kararı ikincil kaynakta 591 başvurucu ve md. 6 ihlali olarak aktarıldı; kararın Yalçınkaya'daki temel sorunu tekrarladığı vurgulandı. CMK 311/1(f) uyarınca yeniden yargılama taleplerine ilişkin somut bir adım kayıtlarda yok.",
      "kayitlar": [
       "5bc95a68bd"
+     ]
+    },
+    {
+     "gun": "2026-10-04",
+     "not": "Üç kararın tam metni elimizde: Ünal ve diğerleri (md. 6/1 ihlali), Parun ve diğerleri (md. 6/1 ve md. 7 ihlali), Korkmaz ve diğerleri (md. 7 ihlali). Korkmaz metni açıkça CMK 311/1(f) uyarınca yeniden yargılama imkânına atıf yapıyor, manevi tazminat ve bu tür takip başvurularında masraf ödenmiyor.",
+     "kayitlar": [
+      "001-252504",
+      "001-252505",
+      "001-252506"
      ]
     }
    ]
@@ -1783,8 +1830,36 @@
     "e7c19f7370"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t71",
+   "baslik": "29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar metinlerinden doğrulanması (591 + 345 + 11) ve ihlal maddelerinin dosyadan dosyaya farklılaşması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Ünal'da yalnızca md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7 ihlali bulunmuş; icra takibinde dosyaların hangi gruba gireceği ve yeniden yargılama taleplerinin dayanağı bu ayrıma bağlı.",
+   "acildi": "2026-10-04",
+   "durum": "açık",
+   "son_hareket": "2026-10-04",
+   "kayitlar": [
+    "001-252504",
+    "001-252505",
+    "001-252506"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t72",
+   "baslik": "16 ilde DEAŞ isnadıyla yürütülen operasyonda yakalanan 51 şüphelinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "İçişleri Bakanlığı duyurusu yalnızca yakalama sayısını veriyor; tutuklama/serbest bırakma oranı ve isnadın dayanağı izlenmeden değerlendirme yapılamaz.",
+   "acildi": "2026-10-04",
+   "durum": "açık",
+   "son_hareket": "2026-10-04",
+   "kayitlar": [
+    "35a1abcc0e"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-03T07:36+00:00",
- "acik": 70
+ "guncelleme": "2026-10-04T07:45+00:00",
+ "acik": 72
 }

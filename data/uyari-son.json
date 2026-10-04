@@ -1,47 +1,23 @@
 {
- "gun": "2026-10-03",
- "olusturma": "2026-10-03T19:37+00:00",
+ "gun": "2026-10-04",
+ "olusturma": "2026-10-04T07:47+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-03:Dimitras–Olsen dosyası: Norveç EAW'yi reddetti, Yunan yakala",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Dimitras–Olsen dosyası: Norveç EAW'yi reddetti, Yunan yakalama kararları yürürlükte",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "6 Ekim'de Rodos'ta başlayacak yargılamada isnat, sığınma prosedürüne erişimi sağlamak üzere yetkililere bildirim yapılmasını \"kâr amaçlı suç örgütü\" kapsamında değerlendiriyor ve 20 yıla kadar hapis öngörüyor [510c306d99]. Norveç temyiz mahkemesinin 15 Mayıs tarihli reddi, iade engeli olarak çifte suçluluk ve ifade özgürlüğü riskini birlikte kullanan güncel bir örnek; yakalama kararlarının sürdürülmesi ise savunma hakkını fiilen kısıtlıyor.",
-   "kayitlar": [
-    "510c306d99"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "alan:2026-10-03:Medin yargılaması çeviri hatası nedeniyle dördüncü kez ertel",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Medin yargılaması çeviri hatası nedeniyle dördüncü kez ertelendi",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "İstanbul 13. Ağır Ceza Mahkemesi, İsveçli gazeteci Joakim Medin'in gıyabi yargılamasında İsveç'e yöneltilen ifade alma talebinin yenilenmesine karar verdi; erteleme gerekçesi İsveç'in yanıtındaki çeviri hatası [ac0d016e93]. Karşılıklı adli yardım kanalının terör isnadıyla yürütülen gıyabi bir yargılamada nasıl işletildiğini gösteriyor.",
-   "kayitlar": [
-    "ac0d016e93"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-10-03:toplu:9",
+   "id": "takip:2026-10-04:toplu:6",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "9 takip dosyasında hareket var",
+   "baslik": "6 takip dosyasında hareket var",
    "alan": "",
-   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Komedyen Deniz Göktaş'ın stand-up gösterisi nedeniyle Cumhurbaşkanına ; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek ",
+   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK",
    "kayitlar": [
-    "43997feb69",
+    "001-252504",
+    "001-252505",
+    "001-252506",
     "5bc95a68bd",
-    "43997feb69",
-    "12680a6d16",
-    "e862aaa52f",
-    "12680a6d16",
-    "e862aaa52f",
-    "a4a6981d21"
+    "367443383a",
+    "2ac488c9f0",
+    "367443383a",
+    "367443383a"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   }
