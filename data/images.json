@@ -1047,6 +1047,10 @@
 "checked": "2026-10-05T09:52:28+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:29422&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-01T09:39:14+00:00",
 "img": ""
@@ -1499,6 +1503,10 @@
 "checked": "2026-09-16T12:52:15+00:00",
 "img": ""
 },
+"https://fra.europa.eu/en/content/technical-and-quality-report-eu-gender-based-violence-survey-data-collection-eight-eu": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": ""
+},
 "https://fra.europa.eu/en/content/working-agreement-between-euaa-and-fra": {
 "checked": "2026-10-01T08:08:40+00:00",
 "img": ""
@@ -1586,6 +1594,10 @@
 "https://fra.europa.eu/en/event/2026/state-asylum-conference-reviews-3-months-eu-asylum-pact": {
 "checked": "2026-09-24T13:10:17+00:00",
 "img": ""
+},
+"https://fra.europa.eu/en/publication/2026/technical-and-quality-report-eu-gender-based-violence-survey": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": "https://fra.europa.eu/sites/default/files/styles/large/public/fra_images/eu-gbv-survey-technical-report-cover.jpg?itok=v_Giw3Rm"
 },
 "https://freedomhouse.org/article/25-civil-society-organizations-call-strong-human-rights-and-accountability-safeguards": {
 "checked": "2026-09-23T19:55:13+00:00",
@@ -2359,6 +2371,10 @@
 "checked": "2026-09-17T07:44:25+00:00",
 "img": ""
 },
+"https://news.google.com/rss/articles/CBMiowFBVV95cUxNSldJY0NicGk2RW9JTU4wZHpzRUxESlR5bnBjYjVjbUlCT1lrdTZURXh3dU5IQUZ6M3FqZ0VDUWs1R0FOZFB4VF9TNW9jQlNHU3BfOWEzaW1LamF4YjQ4bjNjRmZsaEF4VDF5RFZUeW9kQmVhTzdCSDRzdTRFMUN0Sm55X0hlUjlHMExjMS1Gay10SDgyTEpVcFEwdi1sQlVzcU9R?oc=5": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": ""
+},
 "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd1JuaUphTnJEUUZFblJqQjNOMmxYTEl6cUozMm9nN0JnLWVYejJ1U1FWRklTVjAtckNwZkxHd2Z2ejJrYm5hTVpDSnBKcEJRdFhHdml0TkRtS2VvREppSkNrU1pha25FY2pocmxXeWdfNGhwSWdvUEl1XzZxQjVmTUphYm8zbUNVWkZRbXZYcXZNWjN2aDlRLTl5V2ZWaHJCaEtneGJCSQ?oc=5": {
 "checked": "2026-09-16T12:58:29+00:00",
 "img": ""
@@ -2623,6 +2639,10 @@
 "checked": "2026-10-01T11:18:21+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-AML-automation-still-needs-human-judgment.jpg"
 },
+"https://regtechanalyst.com/archer-turns-ai-compliance-rules-into-enforceable-code/": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Archer-Evolv-puts-runtime-guardrails-on-enterprise-AI-use.jpg"
+},
 "https://regtechanalyst.com/armadin-bags-255-5m-series-b-for-autonomous-security/": {
 "checked": "2026-10-01T17:12:55+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Armadin-bags-255.5m-Series-B-for-autonomous-security.jpg"
@@ -2851,6 +2871,10 @@
 "checked": "2026-10-02T16:26:27+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-AI-agents-are-changing-cyber-insurance-risk.jpg"
 },
+"https://regtechanalyst.com/why-aml-teams-cant-rely-on-llms-alone-to-fight-fraud/": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/WorkFusions-Isaac-rethinks-the-AML-investigators-role.jpg"
+},
 "https://regtechanalyst.com/why-banks-cant-trust-ai-compliance-without-guardrails/": {
 "checked": "2026-10-02T16:26:27+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-banks-cant-trust-AI-compliance-without-guardrails.jpg"
@@ -2874,6 +2898,10 @@
 "https://regtechanalyst.com/why-fraud-as-a-service-is-putting-aml-under-pressure/": {
 "checked": "2026-09-30T16:34:33+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Why-Fraud-as-a-Service-is-putting-AML-under-pressure.jpg"
+},
+"https://regtechanalyst.com/why-smb-verification-is-failing-where-volume-lives/": {
+"checked": "2026-10-05T11:11:48+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/The-long-tail-of-SMBs-is-where-fraud-now-hides.jpg"
 },
 "https://regtechanalyst.com/why-the-ai-opacity-myth-could-cost-firms-their-licence/": {
 "checked": "2026-09-29T21:11:26+00:00",
