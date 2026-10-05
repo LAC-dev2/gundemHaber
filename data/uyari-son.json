@@ -1,23 +1,35 @@
 {
- "gun": "2026-10-04",
- "olusturma": "2026-10-04T19:51+00:00",
+ "gun": "2026-10-05",
+ "olusturma": "2026-10-05T08:17+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-10-04:toplu:6",
+   "id": "alan:2026-10-05:Suriye'den Irak'a nakledilen 5.704 kişi için terör yargılama",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Suriye'den Irak'a nakledilen 5.704 kişi için terör yargılamaları başlıyor",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "HRW'ye göre ABD ordusu 21 Ocak–12 Şubat 2026 arasında 5.704 kişiyi Irak'a nakletti; Irak yargısı sorguları tamamladığını ve terör isnatlı yargılamaların günler içinde başlayacağını bildiriyor. Vatandaşlarını geri almayan devletlerin sorumluluğu, adil yargılanma ve ölüm cezası riski merkezin geri gönderme-iade dosyalarıyla aynı hukuki alanda.",
+   "kayitlar": [
+    "55b471dec9"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-10-05:toplu:7",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "7 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK",
+   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiy; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Gazeteci Alican Uludağ hakkında bina çökmesi paylaşımları nedeniyle dü",
    "kayitlar": [
-    "001-252504",
-    "001-252505",
-    "001-252506",
-    "5bc95a68bd",
-    "367443383a",
+    "899797fdb8",
+    "d17a751506",
+    "06a8414aa5",
+    "47102620eb",
+    "ff80b341b5",
     "2ac488c9f0",
-    "367443383a",
-    "367443383a"
+    "59d2611796",
+    "ff80b341b5"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   }

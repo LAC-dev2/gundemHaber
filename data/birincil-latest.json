@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-10-04T07:43+00:00",
+ "guncelleme": "2026-10-05T08:13+00:00",
  "pencere_gun": 21,
  "belgeler": [
   {
@@ -81,6 +81,43 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 2946,
    "giris": "(Application no. 29949/20) This judgment is final but it may be subject to editorial revision. In the case of Benli v. Türkiye,"
+  },
+  {
+   "itemid": "001-253011",
+   "ad": "ÇETİN v. TÜRKİYE",
+   "tur": "komisyon",
+   "tarih": "2026-09-14",
+   "maddeler": [
+    "10",
+    "10-1"
+   ],
+   "sonuc": "Communicated",
+   "basvuru": "4168/24",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253011",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 438,
+   "giris": "Published on 5 October 2026 Application no. 4168/24 Ünal ÇETİN against Türkiye lodged on 10 January 2024 communicated on 14 September 2026 SUBJECT MATTER OF THE CASE"
+  },
+  {
+   "itemid": "001-253010",
+   "ad": "ATAK v. TÜRKİYE and 6 other applications",
+   "tur": "komisyon",
+   "tarih": "2026-09-14",
+   "maddeler": [
+    "5",
+    "5-1",
+    "5-1-c",
+    "5-3",
+    "5-4",
+    "3",
+    "8"
+   ],
+   "sonuc": "Communicated",
+   "basvuru": "30039/20;8445/21;17963/21;31382/21;24522/22;45548/22;3482/25",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253010",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 2027,
+   "giris": "Published on 5 October 2026 Application no. 30039/20 Kamil Serdar ATAK against Türkiye and 6 other applications (see list appended) communicated on 14 September 2026 SUBJECT MATTER OF THE CASE"
   }
  ]
 }
