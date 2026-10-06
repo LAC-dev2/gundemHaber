@@ -1,37 +1,45 @@
 {
- "gun": "2026-10-05",
- "olusturma": "2026-10-05T13:28+00:00",
+ "gun": "2026-10-06",
+ "olusturma": "2026-10-06T08:38+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-05:Suriye'den Irak'a nakledilen 5.704 kişi için terör yargılama",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Suriye'den Irak'a nakledilen 5.704 kişi için terör yargılamaları başlıyor",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "HRW'ye göre ABD ordusu 21 Ocak–12 Şubat 2026 arasında 5.704 kişiyi Irak'a nakletti; Irak yargısı sorguları tamamladığını ve terör isnatlı yargılamaların günler içinde başlayacağını bildiriyor. Vatandaşlarını geri almayan devletlerin sorumluluğu, adil yargılanma ve ölüm cezası riski merkezin geri gönderme-iade dosyalarıyla aynı hukuki alanda.",
-   "kayitlar": [
-    "55b471dec9"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+   "id": "karar:001-252630",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Soruşturmacı gazetecinin devletin güvenliğine ilişkin gizli bilgiyi açıklama isnadıyla tutuklanmasının ifade özgürlüğünü ihlal ettiği",
+   "alan": "md. 10, 10-1, 10-2, 41",
+   "not": "Mahkeme md. 10 ihlali buldu: bir haber sitesinde yayımlanan altı yazıdan beşi gizli bilgi ya da devlet sırrı açıklamadığı halde tutukluluk için ilgili ve yeterli gerekçe gösterilmemiş. Altıncı yazı, Libya'daki askerî operasyonları yönetmek üzere görevlendirilen komutanın kimliğini, geçmişini ve kişisel özelliklerini açıklamış; Mahkeme bu açıklamanın millî güvenliğe 'ciddi zarar' verebileceğini ve komutanın güvenliğini etkileyebileceğini, buna karşın yazının kamu yararına bir tartışmaya katkı sunduğunu, iç hukuk mahkemelerinin ise müdahaleyi dosyanın bütün koşulları ışığında değerlendirmediğini belirtti. Maddi tazminat talebi reddedildi; manevi tazminat olarak üç ay içinde ödenmek üzere 7.500 avro ve üzerine düşebilecek vergilere hükmedildi, adil tazmin talebinin kalanı oybirliğiyle reddedildi. Yargıç Yüksel kısmi karşı oyunda, sorunun iç hukuk mahkemelerinin yeterli dengeleme yapmamasından kaynaklandığını, bu nedenle ihlal tespitinin başlı başına adil tazmin oluşturduğunu yazdı.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-10-05:toplu:7",
+   "id": "takip:2026-10-06:toplu:10",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "7 takip dosyasında hareket var",
+   "baslik": "10 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiy; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Gazeteci Alican Uludağ hakkında bina çökmesi paylaşımları nedeniyle dü",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; PKK/KCK'ya ilişkin özel yasa iddiası ve Bakanlar Komitesi'nin Demirtaş; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiy; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; 29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar me; Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmes",
    "kayitlar": [
-    "899797fdb8",
-    "d17a751506",
-    "06a8414aa5",
-    "47102620eb",
-    "ff80b341b5",
-    "2ac488c9f0",
-    "59d2611796",
+    "b9322e7e5f",
+    "1aba95f9b1",
+    "179ecde840",
+    "e8302ba0d9",
+    "874135c3ac",
+    "9710c0b343",
+    "f9196af83e",
     "ff80b341b5"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-10-06:14",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "14 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, Human Rights Watch - Türkiye, FIDH - Türkiye, Verfassungsblog, Opinio Juris, Arrested Lawyers Initiative…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
