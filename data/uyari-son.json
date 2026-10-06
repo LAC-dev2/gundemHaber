@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-06",
- "olusturma": "2026-10-06T08:38+00:00",
+ "olusturma": "2026-10-06T09:40+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252630",
@@ -32,12 +32,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-06:14",
+   "id": "saglik:2026-10-06:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "14 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, Human Rights Watch - Türkiye, FIDH - Türkiye, Verfassungsblog, Opinio Juris, Arrested Lawyers Initiative…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
