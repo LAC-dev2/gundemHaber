@@ -732,7 +732,7 @@
    "neden": "Yayının kendisinin gözaltı sebebi yapılması, merkezin ifade özgürlüğü dosyalarında ayrı bir kalem; gözaltıların hukuki nitelemesi ve avukata erişim henüz bilinmiyor.",
    "acildi": "2026-09-20",
    "durum": "açık",
-   "son_hareket": "2026-09-23",
+   "son_hareket": "2026-10-07",
    "kayitlar": [
     "e7200a4c4a"
    ],
@@ -742,6 +742,13 @@
      "not": "Kozinoğlu soruşturmasında usul bir adım ilerledi: eski Cihan Haber Ajansı muhabiri Osman Arslan, 15 yıl önce çektiği görüntüler nedeniyle Pazartesi günü tutuklandı [70d66b6eb4]. Kayıt özet düzeyinde; isnadın hukuki nitelendirmesi ve tutuklamaya dayanak gerekçe kayıtlarda yer almıyor.",
      "kayitlar": [
       "70d66b6eb4"
+     ]
+    },
+    {
+     "gun": "2026-10-07",
+     "not": "ABD merkezli Alliance for Shared Values'un 5 Ekim tarihli açıklaması, adını anmadan hem Kozinoğlu hem Yazıcıoğlu soruşturmalarına yanıt veriyor ve her iki dosyada hareketle bağlantı kurulmasını reddediyor. Kayıtta Kozinoğlu dosyasına ilişkin yeni usul adımı yok.",
+     "kayitlar": [
+      "3fa2b40950"
      ]
     }
    ]
@@ -911,8 +918,8 @@
    "alan": "BM insan hakları mekanizmaları",
    "neden": "Karar tasarısının 5-7 Ekim 2026'da oylanması bekleniyor; özel mekanizmaların yenilenip yenilenmemesi, merkezin izlediği diğer ülke mekanizmalarının sürdürülebilirliği açısından emsal oluşturur.",
    "acildi": "2026-09-21",
-   "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "durum": "kapandı",
+   "son_hareket": "2026-10-07",
    "kayitlar": [
     "d27fa45a80"
    ],
@@ -923,8 +930,16 @@
      "kayitlar": [
       "00b5e10d9a"
      ]
+    },
+    {
+     "gun": "2026-10-07",
+     "not": "İHK, Venezuela Bağımsız Gerçekleri Araştırma Misyonu'nun ve OHCHR'nin görev süresini iki yıl daha uzatan kararı oylayarak kabul etti; Amnesty kararı karşılama açıklaması yaptı. Takip maddesinin konusu olan uzatma gerçekleşti.",
+     "kayitlar": [
+      "430f415004"
+     ]
     }
-   ]
+   ],
+   "kapandi": "2026-10-07"
   },
   {
    "id": "t28",
@@ -1242,7 +1257,7 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-06",
+   "son_hareket": "2026-10-07",
    "kayitlar": [
     "2ac488c9f0"
    ],
@@ -1287,6 +1302,13 @@
     {
      "gun": "2026-10-06",
      "not": "7595 sayılı Kanun metni Resmî Gazete kaynağı olarak yeniden listede; kayıt başlık düzeyinde, içerik bilgisi yok.",
+     "kayitlar": [
+      "2ac488c9f0"
+     ]
+    },
+    {
+     "gun": "2026-10-07",
+     "not": "7595 sayılı Kanun'a ilişkin Resmî Gazete kaydı yeniden geldi; kayıt başlık düzeyinde, metin ya da madde içeriği taranmış veride yok.",
      "kayitlar": [
       "2ac488c9f0"
      ]
@@ -1466,7 +1488,7 @@
    "neden": "Engelleme gerekçesinde 8/A'nın yanına ayrı bir ceza normunun eklenmesi, tedbirin dayanağını genişletiyor; Ankara Başsavcılığı soruşturmasının seyri izlenmeli.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-07",
    "kayitlar": [
     "ea0b93ee21"
    ],
@@ -1493,6 +1515,14 @@
      "kayitlar": [
       "0c86b18e6b"
      ]
+    },
+    {
+     "gun": "2026-10-07",
+     "not": "CPJ 5 Ekim tarihli analizinde dezenformasyon düzenlemesinin bağımsız habercilik aleyhine kullanıldığını söyleyip kaldırılmasını istedi. Aynı gün bir mahkeme, 15 Temmuz 2016'ya ilişkin paylaşımlar nedeniyle Melek Karahan'ı 15 ay hapse mahkûm etti; isnat 'halkı yanıltıcı bilgiyi alenen yayma'.",
+     "kayitlar": [
+      "fab586b14d",
+      "46a3969f6a"
+     ]
     }
    ]
   },
@@ -1503,7 +1533,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-06",
+   "son_hareket": "2026-10-07",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -1556,6 +1586,13 @@
       "9710c0b343",
       "f9196af83e",
       "ff80b341b5"
+     ]
+    },
+    {
+     "gun": "2026-10-07",
+     "not": "IFJ'nin de aralarında olduğu uluslararası ve Türkiyeli gazetecilik örgütleri 6 Ekim'de X'e çağrı yaparak Türkiye'den gelen belirsiz ve ölçüsüz engelleme taleplerini reddetmesini istedi; gerekçe hesapların bütünüyle kapatılmasının gazetecileri okurdan kopardığı.",
+     "kayitlar": [
+      "ed819af91d"
      ]
     }
    ]
@@ -1842,11 +1879,19 @@
    "neden": "Kayda göre bir muhabirin görüntüleri basına ulaştırma çabası isnadın unsuru olarak sunuluyor; haber kaynağı ve materyal aktarımının suçlama konusu yapılması izlenmesi gereken bir örüntü.",
    "acildi": "2026-10-01",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-10-07",
    "kayitlar": [
     "ef7b4d5c8a"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-07",
+     "not": "Kayıt, soruşturmanın seyrini tarihlendiriyor: baskınlar 25 Eylül'de başladı, 29 Eylül'de 36 kişi tutuklandı, tutuklananlar arasında gazeteciler Emre Soncan ve Mehmet Yaşar Durukan var. İsnat kasten öldürmeye katılma ve kazanın aydınlatılmasını engelleme.",
+     "kayitlar": [
+      "3fa2b40950"
+     ]
+    }
+   ]
   },
   {
    "id": "t64",
@@ -2098,8 +2143,60 @@
     "e8302ba0d9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t81",
+   "baslik": "Rabia Naz Vatan dosyası: AİHM'in 14 Eylül 2026'da tebliğ ettiği md. 2 usul ve md. 6 makul süre soruları ile AYM giderimin yeterliliği tartışması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Mahkeme, AYM'nin ihlal tespiti ve tazminatına rağmen soruşturmanın yeniden açılmamasının yeterli giderim sayılıp sayılmayacağını doğrudan sormuş görünüyor; bu soru merkezin iç hukukta ihlal kararlarının uygulanmaması dosyalarıyla aynı eksende. Hükümetin yanıtı ve kabul edilebilirlik aşaması izlenmeli.",
+   "acildi": "2026-10-07",
+   "durum": "açık",
+   "son_hareket": "2026-10-07",
+   "kayitlar": [
+    "ca790d5fe8"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t82",
+   "baslik": "Gazeteci Derya Okatan'ın daha önce el konulmuş harddiskte bulunduğu söylenen gizli belgeler isnadıyla tutuklanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Delilin kaynağı ve zincirine ilişkin itiraz (belgeleri ilk kez gözaltında gördüğü beyanı) ileride md. 6 ve md. 10 tartışmasının çekirdeği olabilir. Tutukluluğun devamı ve iddianame izlenmeli.",
+   "acildi": "2026-10-07",
+   "durum": "açık",
+   "son_hareket": "2026-10-07",
+   "kayitlar": [
+    "0b70726200"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t83",
+   "baslik": "CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 mahpus",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Doluluk oranı, merkezin sağlık erişimi ve tutma koşulları dosyalarında (Boydak, ATK raporlu hükümlüler) olgusal zemin sağlıyor. Aylık serinin seyri izlenmeli.",
+   "acildi": "2026-10-07",
+   "durum": "açık",
+   "son_hareket": "2026-10-07",
+   "kayitlar": [
+    "d024f7fb66"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t84",
+   "baslik": "Darbe yargılamasında ağırlaştırılmış müebbet alan eski pilot Kerime Yıldırım'ın gözaltında tecavüz ve aileye zarar tehdidi beyanı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Beyan mahkeme tutanağına girmiş olarak aktarılıyor; kötü muamele iddialarının yargılama kaydına geçmesi, md. 3 ve delil kullanımı tartışmalarında izlenmesi gereken bir adım.",
+   "acildi": "2026-10-07",
+   "durum": "açık",
+   "son_hareket": "2026-10-07",
+   "kayitlar": [
+    "48e2e9153d"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-06T08:38+00:00",
- "acik": 80
+ "guncelleme": "2026-10-07T08:12+00:00",
+ "acik": 83
 }
