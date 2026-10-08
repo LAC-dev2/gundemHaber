@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-08",
- "olusturma": "2026-10-08T11:10+00:00",
+ "olusturma": "2026-10-08T11:44+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-08:A.E. v. Türkiye (16054/22): İran'a gönderme riski dosyası do",
@@ -55,12 +55,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-08:8",
+   "id": "saglik:2026-10-08:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "8 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Leiden Law Blog, Arrested Lawyers Initiative, Nordic Monitor, Frontex, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex, UN Counter-Terrorism Committee / CTED…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

@@ -1191,6 +1191,10 @@
 "checked": "2026-10-08T09:47:16+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:29711&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-08T11:44:00+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-01T09:39:14+00:00",
 "img": ""
@@ -3499,6 +3503,10 @@
 "checked": "2026-10-06T17:00:20+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-football-clubs-must-govern-like-banks-under-the-IFR.jpg"
 },
+"https://regtechanalyst.com/why-regulators-now-arrive-at-inspections-already-informed/": {
+"checked": "2026-10-08T11:44:00+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/SupTech-flips-the-intelligence-gap-on-compliance-teams.jpg"
+},
 "https://regtechanalyst.com/why-smb-verification-is-failing-where-volume-lives/": {
 "checked": "2026-10-05T11:11:48+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/The-long-tail-of-SMBs-is-where-fraud-now-hides.jpg"
@@ -4277,6 +4285,10 @@
 },
 "https://verfassungsblog.de/versicherheitlichung-der-universitat-wissenschaftsfreiheit/": {
 "checked": "2026-09-21T20:43:05+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/vulnerability-as-a-barrier-to-eviction/": {
+"checked": "2026-10-08T11:44:00+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/wahlanfechtung-afd/": {
