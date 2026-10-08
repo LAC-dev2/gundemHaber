@@ -1195,6 +1195,10 @@
 "checked": "2026-10-08T11:44:00+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:29721&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-08T12:43:18+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-01T09:39:14+00:00",
 "img": ""
@@ -4121,6 +4125,10 @@
 },
 "https://verfassungsblog.de/a-politician-withdrawn-in-eliminationist-times/": {
 "checked": "2026-10-06T17:00:20+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/antisemit-auserungsstrafrecht-beleidigung/": {
+"checked": "2026-10-08T12:43:18+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/associate-membership-of-the-eu/": {
