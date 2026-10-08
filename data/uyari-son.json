@@ -1,53 +1,66 @@
 {
- "gun": "2026-10-07",
- "olusturma": "2026-10-07T17:41+00:00",
+ "gun": "2026-10-08",
+ "olusturma": "2026-10-08T08:28+00:00",
  "uyarilar": [
+  {
+   "id": "alan:2026-10-08:A.E. v. Türkiye (16054/22): İran'a gönderme riski dosyası do",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "A.E. v. Türkiye (16054/22): İran'a gönderme riski dosyası dostane çözümle kayıttan düşürüldü",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Mahkeme md. 2 ve 3 bakımından esasa girmedi; giderim, hükümetin iki taahhüdüne indirgendi: dosyanın iç mahkemelerce yeniden incelenmesi ve yenilenmiş değerlendirme yapılmadan başvurucunun gönderilmemesi. Bu, merkezin geri göndermeme dosyalarında içtihadi kazanım üretmeyen ama bireysel korumayı sağlayan bir kapanma biçimini gösteriyor. Taahhüdün fiilen yerine getirilip getirilmediği kararın dışında kalıyor.",
+   "kayitlar": [
+    "001-253054"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-10-08:Rechtbank Den Haag: görüşmeye gelmeyen Türk başvurucunun ilt",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Rechtbank Den Haag: görüşmeye gelmeyen Türk başvurucunun iltica talebinin incelenmemesi hukuka uygun bulundu",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Hollanda idari yargısında Türkiye kaynaklı iltica dosyalarında usuli ret gerekçelerinin nasıl denetlendiğini gösteriyor: mahkeme, başvurucunun görüşmeye neden gelmediğini açıklamadığını ve bunun için fırsat bulduğunu belirterek kararı özenli saymış. Merkezin Hollanda iltica kararları izlemesinde (t15, t39, t43) usul ekseninin bir örneği.",
+   "kayitlar": [
+    "d9547f729e"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
   {
    "id": "karar:001-252630",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Bir haber sitesinde yayımlanan altı yazı nedeniyle araştırmacı gazetecinin tutuklanmasında ifade özgürlüğü",
+   "baslik": "Libya'daki askerî operasyonlara ilişkin haberler nedeniyle tutuklanan araştırmacı gazetecinin ifade özgürlüğü",
    "alan": "md. 10, 10-1, 10-2, 41",
-   "not": "Mahkeme md. 10 ihlali buldu: altı yazıdan beşi gizli bilgi ya da devlet sırrı açıklamadığı halde tutukluluk için ilgili ve yeterli gerekçe gösterilmemiş. Altıncı yazının Libya'daki askerî operasyonları yönetmekle görevlendirilen komutanın kimliğini açıklamasının millî güvenliğe 'ciddi zarar' verebileceğini ve komutanın güvenliğini etkileyebileceğini kabul etmekle birlikte, iç mahkemelerin müdahaleyi dosyanın tüm koşulları ışığında değerlendirmediğini saptadı. Manevi tazminat olarak 7.500 avro, üç ay içinde ödenmek üzere hükmedildi; maddi tazminat talebi reddedildi. Yargıç Yüksel kısmi karşı oyunda ihlal tespitinin tek başına adil tatmin sayılması gerektiğini yazdı.",
+   "not": "Mahkeme md. 10 ihlali buldu: bir haber sitesinde yayımlanan altı yazıdan beşinin gizli bilgi veya devlet sırrı açıklamadığı, bu yazılar bakımından tutukluluğa ilişkin ilgili ve yeterli gerekçe bulunmadığı belirtildi. Altıncı yazının Libya'daki operasyonları yönetmekle görevlendirilen komutanın kimliğini, geçmişini ve kişisel özelliklerini açıkladığı, bunun millî güvenliğe \"kayda değer zarar\" verebileceği ve komutanın güvenliğini etkileyebileceği kabul edildi; buna karşın iç mahkemelerin müdahaleyi davanın tüm koşulları ışığında değerlendirmediği saptandı. Manevi tazminat olarak 7.500 avro, kararın kesinleşmesinden itibaren üç ay içinde ödenmek üzere hükmedildi; maddi tazminat talebi reddedildi. Yargıç Yüksel, md. 41 yönünden ihlal tespitinin tek başına yeterli giderim oluşturacağı görüşüyle kısmen karşı oy yazdı.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-10-07:t27",
-   "tur": "dosya kapandı",
-   "duzey": "yüksek",
-   "baslik": "t27",
-   "alan": "",
-   "not": "İHK, Venezuela Bağımsız Gerçekleri Araştırma Misyonu'nun ve OHCHR'nin görev süresini iki yıl daha uzatan kararı oylayarak kabul etti; Amnesty kararı karşılama açıklaması yaptı. Takip maddesinin konusu olan uzatma gerçekleşti.",
-   "kayitlar": [
-    "430f415004"
-   ],
-   "neden": "İzlenen bir dosya kapandı."
-  },
-  {
-   "id": "takip:2026-10-07:toplu:5",
+   "id": "takip:2026-10-08:toplu:6",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "5 takip dosyasında hareket var",
+   "baslik": "6 takip dosyasında hareket var",
    "alan": "",
-   "not": "Kozinoğlu soruşturmasında eski Cihan Haber Ajansı mensuplarının gözalt; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Muhsin Yazıcıoğlu'nun 2009'daki ölümüne ilişkin soruşturmada iki gazet",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Ba; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmes; Müyesser Uğur v. Türkiye (45738/22) kararının icrası: üç aylık ödeme s",
    "kayitlar": [
-    "3fa2b40950",
+    "93f427a47f",
     "2ac488c9f0",
-    "fab586b14d",
-    "46a3969f6a",
-    "ed819af91d",
-    "3fa2b40950"
+    "001-252399",
+    "93f427a47f",
+    "93f427a47f",
+    "001-252630",
+    "fda4625f2d"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-07:9",
+   "id": "saglik:2026-10-08:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, UN Counter-Terrorism Committee / CTED, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
