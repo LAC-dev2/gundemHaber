@@ -1118,6 +1118,9 @@
 "179ecde840": {
 "dil": "tr"
 },
+"17abad6160": {
+"dil": "tr"
+},
 "17c1e1ea07": {
 "dil": "tr"
 },
@@ -1423,6 +1426,11 @@
 },
 "1f224fbfa0": {
 "dil": "tr"
+},
+"1f27dc9bf6": {
+"baslik": "Liam Coleman, Finansal Ombudsman Hizmetinin başkanı olarak atandı",
+"dil": "diger",
+"ozet": "FCA Kurulu, Hazine'nin onayıyla Liam Coleman'ı Finansal Ombudsman Hizmetinin başkanı olarak atamıştır. Liam, geçen yıl vekil başkan olarak görev yaptıktan sonra, 10 Ekim 2026'da 3 yıllık bir dönem için kalıcı göreve başlayacaktır. FCA başkanı Ashley Alder şu yorumda bulunmuştur: 'Liam güçlü liderlik getirmiştir..."
 },
 "1f52ff18d2": {
 "baslik": "FCA, Hunter Jones'u yasa dışı faaliyet nedeniyle Yüksek Mahkeme'ye götürüyor",
@@ -1863,6 +1871,11 @@
 "dil": "diger",
 "ozet": "Başbakan Edi Rama, İstihbarat Şefi Vlora Hyseni'nin derhal görevinden alındığını açıklandı. Savcılar onu manipüle edilmiş kamu sözleşmelerine ve delil imhasına karışmış olduğundan şüpheleniyorlardı."
 },
+"279aab6252": {
+"baslik": "Noktaları birleştiren düşünce AFC uyumunu yeniden şekillendiriyor",
+"dil": "diger",
+"ozet": "Finansal suç son on yılda dramatik bir şekilde evrimleşmiştir, ancak bunu reddetmek için inşa edilen sistemlerin ve işletme modellerinin çoğu neredeyse hareket etmemiştir. IMTF'ye göre, bu açık finansal kurumlar için ciddi körlükleri yaratmaktadır. On yıl önce, tespiti büyük ölçüde yığında iğne aramak olarak görülüyordu."
+},
 "27b022b3db": {
 "dil": "tr"
 },
@@ -2071,6 +2084,11 @@
 "baslik": "Özbekistan Cumhurbaşkanı'nın Damadı Kültür Başında Iken Gizlice BAE Pasaportu Edinmiş",
 "dil": "diger",
 "ozet": "Sızdırılan belgeler, Özbekistan liderinin damadı Otabek Umarov'un o sırada başkanlık güvenliğinin başkan yardımcısı olarak görev yaparken açıkça hukuki ihlal oluşturacak şekilde Emirlik vatandaşlığını gizlice edindiğini göstermektedir. Daha sonra Dubai'de milyonlarca dolarlık lüks gayrimenkul elde etmiştir."
+},
+"2c89e2eab7": {
+"baslik": "ECLI:NL:RBDHA:2026:29200 Rechtbank Den Haag, 02-10-2026, 09/319034-25 — İade kararı",
+"dil": "diger",
+"ozet": "İade hükümsüz kılındı, çifte cezalandırılabilirlik yoktur, Türkiye."
 },
 "2c8c9ba588": {
 "baslik": "Pakistan Afgan Tıp Öğrencilerini Sınır Dışı Etmeye Hazırlanıyor",
@@ -3106,6 +3124,11 @@
 "baslik": "İstanbul merkezli operasyonda altı ilde yirmi kişi gözaltına alındı; Bank Asya kayıtları, telefonla aramalar ve gizli tanık tanıklığı delil olarak kullanıldı",
 "dil": "diger",
 "ozet": "Yazı \"İstanbul merkezli operasyonda altı ilde yirmi kişi gözaltına alındı; Bank Asya kayıtları, telefonla aramalar ve gizli tanık tanıklığı delil olarak kullanıldı\" ilk olarak Solidarity with OTHERS'ta yayımlandı."
+},
+"436b62ec05": {
+"baslik": "Yapay zeka yarışında kazananları kaybedenlerden ayıran nedir?",
+"dil": "diger",
+"ozet": "Yapay zeka liderler ve geri kalanlar arasındaki ticari bölünme verimliliğinden daha çok sonra gelen şeylerle ilgilidir. Risk ve Uyum Alanında Yapay Zeka 2026 raporunun en son bulguları, bir şirketini devam eden yapay zeka yarışında kazanan veya kaybetan yapan anahtar bölünme çizgisini göstermektedir."
 },
 "4374379532": {
 "dil": "tr"
@@ -5128,6 +5151,9 @@
 "baslik": "İnsan hakları savunucularına ve gazetecilere karşı baskı şiddetleniyor",
 "dil": "diger",
 "ozet": "Mali'nin sivil alanı askeri yönetim altında daralmaya devam etmektedir; son dönemde savunucu ve gazetecileri hedef alan tekrarlanan baskı dalgaları yaşanmaktadır."
+},
+"712ded35fd": {
+"dil": "tr"
 },
 "716fa9e64d": {
 "dil": "tr"
@@ -7205,6 +7231,9 @@
 "9cb281548c": {
 "dil": "tr"
 },
+"9ccb8363fb": {
+"dil": "tr"
+},
 "9cf3cc446d": {
 "baslik": "Fiji: Protesto eylemlerinin kesintiye uğratılması, gazeteciye taciz ve polis yetkileri genişletme konularında endişeler",
 "dil": "diger",
@@ -7657,6 +7686,10 @@
 "baslik": "Amerikan mahkemesi Christa Pike'ın infazını durdurdu; 2023'ten bu yana infaz edilecek ilk kadın olacaktı",
 "dil": "diger",
 "ozet": "Amerikan federal istinaf mahkemesi, çarşamba günü Tennessee'de yapılması planlanan Christa Pike'ın infazını, mahkumun istinaf başvurularını incelemek için acil ülkede durdurmuştur."
+},
+"a7c3e0bb1e": {
+"baslik": "AMLA özel sektörü basitleştirilmiş durum tespiti (DDS) uygulanmasına ilişkin yuvarlak masa toplantılarına katılmaya davet etti",
+"dil": "diger"
 },
 "a7d8bbbd5d": {
 "dil": "tr"
@@ -11351,6 +11384,9 @@
 "dil": "diger",
 "ozet": "14 Eylül'de, FRA 'Ukrayna'nın İyileşmesinde Çarelere Erişim ve Sorumlu Ticari Davranış' hibrit konferansına katılacaktır. Etkinlik, hükümet, yargı, işletme, sivil toplum ve uluslararası kuruluş temsilcilerini bir araya getirerek Ukrayna'nın iyileşmesinde nasıl..."
 },
+"f6bb905731": {
+"dil": "tr"
+},
 "f6c8093fc2": {
 "dil": "tr"
 },
@@ -11386,6 +11422,11 @@
 "cevrilemedi": true,
 "deneme": 2,
 "dil": "diger"
+},
+"f7e7dcc53b": {
+"baslik": "RiskSmart ve Lagom futbolun Yönetim, Risk ve Uyum açığını kapatmak için yarışıyor",
+"dil": "diger",
+"ozet": "RiskSmart, oyuna odaklanmış uzman bir Yönetim, Risk ve Uyum ve finansal suçla mücadele danışmanı olan Lagom Spor Uyum Danışmanlığı ile bir sevk ortaklığı aracılığıyla profesyonel futbola girmiştir. Düzenlemeye göre Lagom, mümkün olan her yerde tuttuğu danışmanlık çalışmasının rutin bölümlerini RiskSmart üzerinde yürütecektir."
 },
 "f8395aa620": {
 "baslik": "ECLI:NL:RBAMS:2026:9462 — Amsterdam Yüksek Mahkemesi karar",
