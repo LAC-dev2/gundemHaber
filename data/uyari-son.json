@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-09",
- "olusturma": "2026-10-09T08:29+00:00",
+ "olusturma": "2026-10-09T09:53+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-09:Dimitras–Olsen yargılaması başladığı gün Nisan 2027'ye ertel",
@@ -44,10 +44,10 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-09:8",
+   "id": "saglik:2026-10-09:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "8 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex, CFATF…",
    "kayitlar": [],

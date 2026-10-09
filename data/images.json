@@ -1199,6 +1199,10 @@
 "checked": "2026-10-09T08:24:10+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:29155&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:29185&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-02T16:26:27+00:00",
 "img": ""
@@ -1449,6 +1453,10 @@
 },
 "https://ecre.org/eu-external-partners-ngos-demand-release-of-detained-journalists-in-egypt-%e2%80%95-egyptian-ngo-highlights-deaths-in-detention-and-during-deportation-procedures%e2%80%95-egyptian-government-reject-s/": {
 "checked": "2026-10-08T09:47:16+00:00",
+"img": ""
+},
+"https://ecre.org/european-emergency-response-framework/": {
+"checked": "2026-10-09T09:51:57+00:00",
 "img": ""
 },
 "https://ecre.org/latest-european-asylum-trends/": {
@@ -2043,6 +2051,10 @@
 "checked": "2026-09-28T18:19:27+00:00",
 "img": ""
 },
+"https://globalinitiative.net/analysis/irans-illicit-economies-after-six-months-of-war/": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": "https://globalinitiative.net/wp-content/uploads/2026/10/Credit-Avash-Media-Wikipedia-1920x1280.webp"
+},
 "https://globalinitiative.net/analysis/joburglary-assessing-the-crime-council-ecosystem-in-the-city-of-johannesburg/": {
 "checked": "2026-10-06T08:29:23+00:00",
 "img": "https://globalinitiative.net/wp-content/uploads/2026/10/jobulglary_header.jpg"
@@ -2402,6 +2414,14 @@
 "https://globalinvestigationsreview.com/just-sanctions/article/when-sanctioned-person-dies-the-next-compliance-problem": {
 "checked": "2026-09-24T13:10:17+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMDkvY29tYmluZWRfMTYwMHg5MDBfYncuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
+"https://globalinvestigationsreview.com/survey/corporate-sanctions-tracker/corporate-sanctions-tracker/article/ofac-flourish-table": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/survey/corporate-sanctions-tracker/corporate-sanctions-tracker/article/ofsi-flourish-table": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": ""
 },
 "https://ifade.org.tr/haberler/ifod-eylul-ayinda-yasanan-sansur-dalgasina-iliskin-basin-aciklamasi-yayimladi/": {
 "checked": "2026-10-02T11:48:05+00:00",
@@ -3231,9 +3251,17 @@
 "checked": "2026-09-24T13:10:17+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/jakub-zerdzicki-aGKspo5OIyg-unsplash.jpg"
 },
+"https://regtechanalyst.com/66-regulatory-deadlines-what-compliance-teams-face-this-month/": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Regulators-tighten-grip-as-October-deadlines-loom.jpg"
+},
 "https://regtechanalyst.com/agentic-payments-when-an-approved-payment-hides-fraud/": {
 "checked": "2026-10-07T17:37:08+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Agentic-payments-when-an-approved-payment-hides-fraud.jpg"
+},
+"https://regtechanalyst.com/ai-compliance-decisions-face-tougher-audit-scrutiny91887-2/": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Can-your-AI-compliance-decisions-survive-a-regulators-audit.jpg"
 },
 "https://regtechanalyst.com/allica-bank-bets-on-ai-to-fix-siloed-marketing-compliance/": {
 "checked": "2026-09-30T16:34:33+00:00",
@@ -3547,6 +3575,10 @@
 "checked": "2026-09-29T12:02:07+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Sumsub-council-tests-whether-AI-agents-can-be-trusted.jpg"
 },
+"https://regtechanalyst.com/sumsub-ends-repeat-kyc-checks-across-minipays-network/": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Sumsubs-reusable-KYC-ends-repeat-checks-for-MiniPay-users.jpg"
+},
 "https://regtechanalyst.com/teams-phone-recording-gaps-put-mifid-ii-compliance-at-risk/": {
 "checked": "2026-10-05T11:59:57+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Teams-Phone-recording-where-native-capture-fails-MiFID-II.jpg"
@@ -3626,6 +3658,10 @@
 "https://regtechanalyst.com/why-liveness-detection-is-now-a-core-kyc-control/": {
 "checked": "2026-10-06T08:29:23+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-liveness-detection-is-now-a-core-KYC-control.jpg"
+},
+"https://regtechanalyst.com/why-personal-trading-rules-keep-failing-under-pressure/": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-personal-trading-rules-keep-failing-under-pressure.jpg"
 },
 "https://regtechanalyst.com/why-post-2008-finance-is-footballs-governance-playbook/": {
 "checked": "2026-10-06T17:00:20+00:00",
@@ -4373,6 +4409,10 @@
 },
 "https://verfassungsblog.de/politisierung-der-wissenschaft/": {
 "checked": "2026-09-17T10:07:09+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/preparing-for-a-wider-but-more-unequal-union/": {
+"checked": "2026-10-09T09:51:57+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/resilienz-hier-und-dort/": {
@@ -5199,6 +5239,10 @@
 "checked": "2026-10-01T08:08:40+00:00",
 "img": ""
 },
+"https://www.article19.org/resources/malaysia-court-of-appeal-decision-a-blow-to-freedom-of-expression/": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": ""
+},
 "https://www.article19.org/resources/malaysia-expedite-the-political-will-to-guarantee-peoples-right-to-know/": {
 "checked": "2026-09-28T09:12:59+00:00",
 "img": ""
@@ -5407,6 +5451,10 @@
 "checked": "2026-10-09T08:24:10+00:00",
 "img": ""
 },
+"https://www.edpb.europa.eu/news/italian-dpa-fines-security-company-eur-39-000-for-violations-concerning-employees-data_en": {
+"checked": "2026-10-09T09:51:57+00:00",
+"img": ""
+},
 "https://www.edpb.europa.eu/news/swedish-dpa-fines-miljodata-i-karlskrona-approximately-eur-160-000-for-insufficient-technical_en": {
 "checked": "2026-10-08T17:40:16+00:00",
 "img": ""
@@ -5457,6 +5505,10 @@
 },
 "https://www.esma.europa.eu/press-news/esma-news/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private": {
 "checked": "2026-09-24T13:10:17+00:00",
+"img": ""
+},
+"https://www.esma.europa.eu/press-news/esma-news/esma-appoints-carlos-san-basilio-new-member-its-management-board": {
+"checked": "2026-10-09T09:51:57+00:00",
 "img": ""
 },
 "https://www.esma.europa.eu/press-news/esma-news/esma-calls-changes-make-mica-clearer-safer-and-ready-emerging-services": {
@@ -6769,6 +6821,10 @@
 },
 "https://www.law.kuleuven.be/fvr/nl/nieuwsoverzicht": {
 "checked": "2026-10-08T09:47:16+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/home/algemeen/agenda-2026-2027/doctoral-defence-sophie-vanassche": {
+"checked": "2026-10-09T09:51:57+00:00",
 "img": ""
 },
 "https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2025-2026/charlotte-somers-over-sociale-mediaverbod-voor-jongeren-en-vrije-meningsuiting": {
