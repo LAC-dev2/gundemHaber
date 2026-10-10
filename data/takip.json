@@ -1280,7 +1280,7 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-10",
    "kayitlar": [
     "2ac488c9f0"
    ],
@@ -1349,6 +1349,13 @@
      "kayitlar": [
       "2ac488c9f0"
      ]
+    },
+    {
+     "gun": "2026-10-10",
+     "not": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun Resmî Gazete akışında yeniden kayda düştü; kayıtta yalnızca başlık düzeyinde bilgi var, metin veya yürürlük ayrıntısı yok.",
+     "kayitlar": [
+      "2ac488c9f0"
+     ]
     }
    ]
   },
@@ -1385,7 +1392,7 @@
    "neden": "Dosya, kişi ve kuruluş bazlı yaptırım listelerinin sivil toplum ve mağdur temsili üzerindeki dolaylı etkisini bir mahkeme önünde tartışmaya açıyor; merkezin yaptırım listesi dosyalarında doğrudan emsal değeri izlenmeli.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-09-26",
+   "son_hareket": "2026-10-10",
    "kayitlar": [
     "9a0f5a3998"
    ],
@@ -1395,6 +1402,15 @@
      "not": "HRW, 11 Ağustos 2026'da açılan davada sekiz amicus dilekçesinin sunulduğunu duyurdu; davacılar American Friends Service Committee, Center for Constitutional Rights, Human Rights Watch ve Open Society Institute, yaptırımların durdurulması için ön ihtiyati tedbir talep etti. Dünkü kayıt 38 STK'nın amicus dilekçesinden söz ediyordu; bugünkü kayıt dilekçe sayısını (sekiz) veriyor, imzacı sayısını vermiyor.",
      "kayitlar": [
       "c7e76adb59"
+     ]
+    },
+    {
+     "gun": "2026-10-10",
+     "not": "ABD Dışişleri Bakanı Rubio 9 Ekim 2026'da ICC'ye kurum olarak yaptırım uygulandığını açıkladı; daha önce savcılar, dokuz yargıç, üç Filistinli kuruluş ve BM özel raportörü listelenmişti. Kayıtlarda 14203 sayılı kararnameye açılan davanın seyrine ilişkin yeni bir usul adımı yok.",
+     "kayitlar": [
+      "bbbb9bc2dc",
+      "6b15b07221",
+      "e56d0f201c"
      ]
     }
    ]
@@ -1455,7 +1471,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-04",
+   "son_hareket": "2026-10-10",
    "kayitlar": [
     "b290622139"
    ],
@@ -1489,6 +1505,13 @@
      "not": "Yeni engel listesinde borsa ve ekonomi üzerine paylaşım yapan bir hesap da yer alıyor; gerekçe yine millî güvenlik ve kamu düzeninin korunması olarak belirtilmiş.",
      "kayitlar": [
       "367443383a"
+     ]
+    },
+    {
+     "gun": "2026-10-10",
+     "not": "Fon skandalı haberciliğinde iki gazeteci (Kısa Dalga editörü Mustafa Balcı dahil) iktidar partisi sözcüsüne ilişkin iddialar nedeniyle 'yanıltıcı bilgi yayma' şüphesiyle gözaltına alındı. Dosya erişim engelinden gözaltı aşamasına geçmiş görünüyor.",
+     "kayitlar": [
+      "fd6152346b"
      ]
     }
    ]
@@ -1539,7 +1562,7 @@
    "neden": "Engelleme gerekçesinde 8/A'nın yanına ayrı bir ceza normunun eklenmesi, tedbirin dayanağını genişletiyor; Ankara Başsavcılığı soruşturmasının seyri izlenmeli.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-07",
+   "son_hareket": "2026-10-10",
    "kayitlar": [
     "ea0b93ee21"
    ],
@@ -1573,6 +1596,13 @@
      "kayitlar": [
       "fab586b14d",
       "46a3969f6a"
+     ]
+    },
+    {
+     "gun": "2026-10-10",
+     "not": "Ankara Cumhuriyet Başsavcılığı'nın iddianamesinde tutuklu gazeteci Ali Tarakcı için 3 yıla kadar hapis talep edildiği bildirildi; isnat, bir bakanın istifa edeceğini öngören sosyal medya paylaşımına dayanıyor.",
+     "kayitlar": [
+      "0d87d9b629"
      ]
     }
    ]
@@ -2291,11 +2321,19 @@
    "neden": "Delilin kaynağı ve zincirine ilişkin itiraz (belgeleri ilk kez gözaltında gördüğü beyanı) ileride md. 6 ve md. 10 tartışmasının çekirdeği olabilir. Tutukluluğun devamı ve iddianame izlenmeli.",
    "acildi": "2026-10-07",
    "durum": "açık",
-   "son_hareket": "2026-10-07",
+   "son_hareket": "2026-10-10",
    "kayitlar": [
     "0b70726200"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-10",
+     "not": "MLSA'nın 5 Ekim haftası bülteni, Derya Okatan'ın tutuklanmasını haftanın gelişmeleri arasında kayda geçirdi; kayıtta tutukluluğun seyrine veya iddianameye ilişkin yeni bilgi yok.",
+     "kayitlar": [
+      "6546377682"
+     ]
+    }
+   ]
   },
   {
    "id": "t83",
@@ -2408,8 +2446,60 @@
     "b5a6ef8e77"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t91",
+   "baslik": "Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın kangren tablosu ve ATK/sağlık kurulu raporlarının seyri",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "ATK'nın Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim 2026 tarihli değerlendirmeleri aynı yönde 'cezaevinde kalabilir' sonucuna varmış; infazın ertelenmesi talebinin akıbeti izlenmeli.",
+   "acildi": "2026-10-10",
+   "durum": "açık",
+   "son_hareket": "2026-10-10",
+   "kayitlar": [
+    "a167f2a926"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t92",
+   "baslik": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tutuklanması ve bazı belediyelere kayyım atanması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
+   "acildi": "2026-10-10",
+   "durum": "açık",
+   "son_hareket": "2026-10-10",
+   "kayitlar": [
+    "1768a5c012"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t93",
+   "baslik": "Cumhuriyet muhabiri Gülnur Saydam hakkında belediye arazi satışı haberi nedeniyle açılan dezenformasyon ve hakaret soruşturması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Belediyenin yazılı teyidine rağmen soruşturma açılması, 'yanıltıcı bilgi' isnadının doğrulanmış habere de uygulandığı iddiasını gündeme getiriyor; iddianame aşamasına geçip geçmeyeceği izlenmeli.",
+   "acildi": "2026-10-10",
+   "durum": "açık",
+   "son_hareket": "2026-10-10",
+   "kayitlar": [
+    "badcfb410c"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t94",
+   "baslik": "AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komiser Kos'un 'demokratik standartlar' açıklaması",
+   "alan": "Belçika ve AB mevzuatı",
+   "neden": "Genişleme sürecindeki resmî değerlendirmeler, merkezin AİHM ve icra dosyalarındaki bulguların AB düzeyinde nasıl kayda geçtiğini gösteriyor; kayıtta yalnızca sözlü açıklama var, yazılı rapor beklenmeli.",
+   "acildi": "2026-10-10",
+   "durum": "açık",
+   "son_hareket": "2026-10-10",
+   "kayitlar": [
+    "09aea85b31"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-09T08:29+00:00",
- "acik": 89
+ "guncelleme": "2026-10-10T08:07+00:00",
+ "acik": 93
 }

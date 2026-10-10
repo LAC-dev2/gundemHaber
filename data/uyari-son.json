@@ -1,47 +1,48 @@
 {
- "gun": "2026-10-09",
- "olusturma": "2026-10-09T17:17+00:00",
+ "gun": "2026-10-10",
+ "olusturma": "2026-10-10T08:07+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-09:Dimitras–Olsen yargılaması başladığı gün Nisan 2027'ye ertel",
+   "id": "alan:2026-10-10:ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Dimitras–Olsen yargılaması başladığı gün Nisan 2027'ye ertelendi",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "6 Ekim'de Rodos'ta başlayan duruşma, Dimitras'ın avukatının katılamaması üzerine kısa süre sonra ertelendi; bu, derdest ceza dosyasının ve Yunanistan'ın yürürlükteki yakalama kararlarının en az altı ay daha sürmesi anlamına geliyor. Norveç temyiz mahkemesinin EAW'yi reddetmiş olmasına rağmen Olsen bakımından hareket serbestisi kısıtı sürüyor (t66, t69).",
+   "baslik": "ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Daha önce kişi bazlı listelemelerle yürüyen uygulamanın mahkemenin kendisine yöneltildiği bildiriliyor; bu, merkezin 14203 sayılı kararname dosyasındaki (t40) kapsam tartışmasını değiştirir. Kayıtlara göre yaptırımların hedeflenenler üzerindeki etkileri arasında banka hesaplarının dondurulması veya kapatılması sayılıyor. Aynı gün 2026 Nobel Barış Ödülü'nün eski ICC yargıcı Navi Pillay'a verilmesi, iki kuruluşun açıklamalarında birlikte anılıyor.",
    "kayitlar": [
-    "aca35d0703"
+    "bbbb9bc2dc",
+    "6b15b07221",
+    "e56d0f201c"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "karar:001-252630",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Libya'daki Türk komutanın kimliğini de içeren altı yazı nedeniyle araştırmacı gazetecinin tutuklanması",
-   "alan": "md. 10, 10-1, 10-2, 41",
-   "not": "Mahkeme md. 10 ihlali buldu: altı yazıdan beşi bakımından tutukluluk için ilgili ve yeterli gerekçe gösterilmediğini, bu yazıların gizli bilgi ya da devlet sırrı açıklamadığını belirtti. Altıncı yazı Libya'daki askerî operasyonları yönetmekle görevlendirilen komutanın kimliğini, geçmişini ve kişisel özelliklerini açıkladığından millî güvenliğe 'kayda değer zarar' verebilecek ve güvenliğini etkileyebilecek nitelikte görüldü; ancak iç mahkemeler müdahaleyi olayın tüm ilgili koşulları ışığında değerlendirmedi. Md. 41 bakımından maddi tazminat talebi reddedildi, manevi tazminat olarak kararın kesinleşmesinden itibaren üç ay içinde ödenmek üzere 7.500 avro ve vergiler hükmedildi. Yargıç Yüksel, md. 41 bakımından kısmi muhalefet şerhiyle ihlal tespitinin başlı başına adil tazmin sayılması gerektiğini yazdı.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-10-09:toplu:12",
+   "id": "takip:2026-10-10:toplu:5",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "12 takip dosyasında hareket var",
+   "baslik": "5 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Ba; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek ; 29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar me; Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmes; Müyesser Uğur v. Türkiye (45738/22) kararının icrası: üç aylık ödeme s; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ",
+   "not": "Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Gazeteci Derya Okatan'ın daha önce el konulmuş harddiskte bulunduğu sö",
    "kayitlar": [
-    "001-252504",
-    "001-252505",
-    "001-252506",
-    "18292e7aad",
     "2ac488c9f0",
-    "001-252399",
-    "18292e7aad",
-    "001-252504"
+    "bbbb9bc2dc",
+    "6b15b07221",
+    "e56d0f201c",
+    "fd6152346b",
+    "0d87d9b629",
+    "6546377682"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-10-10:12",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "12 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: US State Department Human Rights Reports, FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
