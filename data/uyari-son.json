@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-10",
- "olusturma": "2026-10-10T10:26+00:00",
+ "olusturma": "2026-10-10T10:55+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-10:ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
@@ -33,16 +33,6 @@
     "6546377682"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "saglik:2026-10-10:9",
-   "tur": "kaynak akışı bozuk",
-   "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
-   "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: US State Department Human Rights Reports, FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, CFATF…",
-   "kayitlar": [],
-   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
