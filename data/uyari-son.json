@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-10",
- "olusturma": "2026-10-10T16:04+00:00",
+ "olusturma": "2026-10-10T20:25+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-10:ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
@@ -35,12 +35,29 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-10:9",
+   "id": "kritik:2026-10-10:9",
+   "tur": "kritik kayıt yığılması",
+   "duzey": "orta",
+   "baslik": "Bugün birincil kaynaktan 9 kritik öncelikli kayıt geldi",
+   "alan": "",
+   "not": "20261006-10.pdf - Resmi Gazete; 20261006-12.pdf - Resmi Gazete; 20261006-8.pdf - Resmi Gazete; 20261006-6.pdf - Resmi Gazete",
+   "kayitlar": [
+    "33a9b47f0e",
+    "a50cc3ecb2",
+    "79390c3dbd",
+    "0b8478c40e",
+    "0ca7bc1452",
+    "e845177e28"
+   ],
+   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
+  },
+  {
+   "id": "saglik:2026-10-10:8",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "8 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Nordic Monitor, Frontex, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
