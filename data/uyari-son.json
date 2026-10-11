@@ -1,63 +1,33 @@
 {
- "gun": "2026-10-10",
- "olusturma": "2026-10-10T20:25+00:00",
+ "gun": "2026-10-11",
+ "olusturma": "2026-10-11T08:21+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-10:ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Daha önce kişi bazlı listelemelerle yürüyen uygulamanın mahkemenin kendisine yöneltildiği bildiriliyor; bu, merkezin 14203 sayılı kararname dosyasındaki (t40) kapsam tartışmasını değiştirir. Kayıtlara göre yaptırımların hedeflenenler üzerindeki etkileri arasında banka hesaplarının dondurulması veya kapatılması sayılıyor. Aynı gün 2026 Nobel Barış Ödülü'nün eski ICC yargıcı Navi Pillay'a verilmesi, iki kuruluşun açıklamalarında birlikte anılıyor.",
-   "kayitlar": [
-    "bbbb9bc2dc",
-    "6b15b07221",
-    "e56d0f201c"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-10-10:toplu:5",
+   "id": "takip:2026-10-11:toplu:2",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "5 takip dosyasında hareket var",
+   "baslik": "2 takip dosyasında hareket var",
    "alan": "",
-   "not": "Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Gazeteci Derya Okatan'ın daha önce el konulmuş harddiskte bulunduğu sö",
+   "not": "Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Ba",
    "kayitlar": [
     "2ac488c9f0",
-    "bbbb9bc2dc",
-    "6b15b07221",
-    "e56d0f201c",
-    "fd6152346b",
-    "0d87d9b629",
-    "6546377682"
-   ],
-   "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "kritik:2026-10-10:9",
-   "tur": "kritik kayıt yığılması",
-   "duzey": "orta",
-   "baslik": "Bugün birincil kaynaktan 9 kritik öncelikli kayıt geldi",
-   "alan": "",
-   "not": "20261006-10.pdf - Resmi Gazete; 20261006-12.pdf - Resmi Gazete; 20261006-8.pdf - Resmi Gazete; 20261006-6.pdf - Resmi Gazete",
-   "kayitlar": [
     "33a9b47f0e",
     "a50cc3ecb2",
     "79390c3dbd",
     "0b8478c40e",
     "0ca7bc1452",
-    "e845177e28"
+    "e845177e28",
+    "a1bf0ef20a"
    ],
-   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
+   "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-10:8",
+   "id": "saglik:2026-10-11:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "8 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: US State Department Human Rights Reports, Human Rights Watch - Türkiye, FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Anadolu Ajansı…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

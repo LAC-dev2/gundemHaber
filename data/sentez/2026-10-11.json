@@ -1,0 +1,440 @@
+{
+ "baslik": "Engelleme dalgaları belgeleyen kuruluşlara uzandı, AİHM giderimi yeniden yargılamada",
+ "ozet": "Haftanın tekrar eden ekseni 5651 sayılı Kanun md. 8/A uyarınca verilen toplu erişim engelleri oldu; dalgalar 5, 6, 8 ve 9 Ekim kayıtlarında sürdü ve gazeteciden avukata, ekonomi yorumcusundan yabancı basın mensubuna yayıldı. Dalgaların ayırt edici yanı, engelleme verisini üreten İFÖD ve EngelliWeb hesaplarının da aynı mekanizmayla kapatılması; bu, merkezin veri kaynağının erişilebilirliğini doğrudan etkiliyor. Bakırköy 7. Sulh Ceza Hâkimliği'nin 30 Eylül tarihli 2026/9064 sayılı kararı, hafta içinde karar numarası ve hesap listesi birlikte elimize geçen tek dalga oldu; 4-5 Ekim ve 8 Ekim dalgalarında dayanak karar bilgisi gelmedi. AİHM tarafında yeni Daire kararı akışı durdu; hafta büyük ölçüde 29 Eylül tarihli üç ByLock kararı ile Tanrıverdi ve Müyesser Uğur metinlerinin doğrulanmasıyla geçti ve md. 7 grubunda giderimin tazminata değil CMK 311/1(f) uyarınca yeniden yargılamaya bağlandığı teyit edildi. TCK 217/A ekseni hem gazeteci olmayan kullanıcılara (Melek Karahan, 15 ay) hem fon soruşturması haberciliğine (gözaltılar, Tarakcı iddianamesi) yayıldı; erişim engelinden gözaltı ve kovuşturmaya geçiş görünür hale geldi. Cezaevi doluluğu ve sağlık erişimi üç ayrı kayıtla beslendi: CİSST verisi, CPT'nin iki raporu ve Metris'teki hükümlü hakkındaki dört ayrı 'cezaevinde kalabilir' değerlendirmesi. Buna karşılık 7595 sayılı Kanun yedi günün neredeyse tamamında yalnızca Resmî Gazete başlığı olarak kayda girdi; tekrar eden kayıt, dosyada ilerleme anlamına gelmiyor. Türkiye dışı tek büyük hareket, ABD'nin ICC'ye kurum düzeyinde yaptırım uyguladığının açıklanmasıydı.",
+ "egilimler": [
+  {
+   "baslik": "8/A toplu erişim engellerinin süreklileşmesi ve belgeleyen kuruluşlara yayılması",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "güçleniyor",
+   "not": "4-5 Ekim gecesi İFÖD hesabıyla birlikte en az 88, 5 Ekim'de en az 70, 8 Ekim'de en az 39 hesap engellendi; MLSA bülteni önceki haftayı dört dalga halinde (150, 147, 31, 88) saydı. Hedef grubu gazetecilerden avukat, ekonomi yorumcusu, emekli yargıç, siyasi parti ve yabancı basın mensubuna genişledi. Engelleme verisini üreten İFÖD ve EngelliWeb hesaplarının kendisi de engellendi; 2026/9064 sayılı karar ayrıca içeriklerin yayından çıkarılmasını öngörüyor. Dalgaların çoğunda karar numarası ve hâkimlik bilgisi kayıtlara girmedi.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08",
+    "2026-10-09"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Engelleme kararı ile platform uygulaması arasındaki zamanlama farkı",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "sabit",
+   "not": "Sky News muhabirinin hesabı 13 Eylül tarihli kararla engellenmişken X tarafından ancak 5 Ekim'de Türkiye'den görünmez kılındı; aynı gece İFÖD hesabı ise kararla eşzamanlı görünmez kılındı. 5 Ekim'deki 70 hesabın 'birçoğu' aynı gün, 30 Eylül tarihli karardaki hesapların bir kısmı ise 7 Ekim'de kayda geçti. Gecikme dosyadan dosyaya değişiyor ve kayıtlarda sayısallaştırılmıyor. 6 Ekim'de gazetecilik örgütleri ilk kez doğrudan platformu muhatap alarak talepleri reddetme çağrısı yaptı.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "TCK 217/A ve 'yanıltıcı bilgi' isnadının erişim engelinden kovuşturmaya geçişi",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "güçleniyor",
+   "not": "5 Ekim'de 15 Temmuz paylaşımları nedeniyle gazeteci olmayan bir kullanıcıya 15 ay hapis verildiği kaydedildi; CPJ aynı gün maddenin kaldırılmasını istedi. 9 Ekim'de fon skandalı haberciliği nedeniyle iki gazeteci 'yanıltıcı bilgi yayma' şüphesiyle gözaltına alındı, Ali Tarakcı için 3 yıla kadar hapis talep eden iddianame bildirildi ve bir muhabir hakkında dezenformasyon soruşturması açıldı. Daha önce yalnızca erişim engeline konu olan fon haberciliği dosyası böylece gözaltı aşamasına geçti.",
+   "gunler": [
+    "2026-10-07",
+    "2026-10-10"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "AİHM Türkiye kararlarında giderimin yeniden yargılamaya bağlanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "yon": "sabit",
+   "not": "Hafta boyunca yeni Daire kararı yerine mevcut kararların metinleri doğrulandı: Ünal'da md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7 ihlali; takip başvurularında tazminat ve masrafa hükmedilmedi. Korkmaz metni ihlal tespitini başlı başına yeterli adil tazmin sayarak giderimi CMK 311/1(f) uyarınca yeniden yargılamaya bağlıyor. Buna karşılık bireysel dosyalarda ödeme sürüyor: Tanrıverdi'de kişi başı 5.000 avro, Müyesser Uğur'da 7.500 avro, her ikisinde üç aylık süre. İcra denetiminde tartışma ödemeden yeniden yargılamanın niteliğine kayıyor.",
+   "gunler": [
+    "2026-10-06",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "Cezaevi doluluğu, sağlık erişimi ve ATK 'cezaevinde kalabilir' raporları",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "yon": "güçleniyor",
+   "not": "CİSST, 2 Ekim tarihli resmî veriye dayanarak 304.184 kapasiteli 402 hapishanede 434.337 mahpus bildirdi. CPT'nin Türkiye'ye ilişkin iki raporu dayak ve elektrik şoku iddiaları, uzun süreli tecrit ve yetersiz sağlık hizmeti tespitlerini kayda geçirdi. Metris'te tutulan 73 yaşındaki hükümlü hakkında ATK ve iki hastane kurulu, ileri kangren tablosuna rağmen infazın sürdürülebileceği yönünde değerlendirme yaptı; bu, daha önce İbrahim Halil Al dosyasında görülen pratiğin ikinci örneği.",
+   "gunler": [
+    "2026-10-07",
+    "2026-10-09",
+    "2026-10-10"
+   ],
+   "guven": "orta"
+  }
+ ],
+ "dosya_seyri": [
+  {
+   "id": "t1",
+   "baslik": "'Ailem Güvende' operasyonu: tutuklu sayısı, dernek kapatma davası, erişim engelleri",
+   "hareket": "yerinde",
+   "not": "MLSA bülteni T24 engelinin bu soruşturma kapsamında verildiğini ve savcılığın bir yıllık 118 içeriği 'LGBT propagandası' saydığını kaydetti; 8 Ekim'de 2026/9064 sayılı kararla on hesabın engellenmesi dosyaya eklendi. Tutuklu sayısı ve iki dernek hakkındaki kapatma davasında hafta boyunca yeni veri gelmedi.",
+   "gunler": [
+    "2026-10-06",
+    "2026-10-08"
+   ]
+  },
+  {
+   "id": "t2",
+   "baslik": "Ankara'daki 'evlilik ayarlama' iddialı Gülen soruşturmasında kalan yakalama kararları",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t3",
+   "baslik": "AİHM'deki Türkiye kaynaklı derdest başvuru birikimi ve Yalçınkaya grubu",
+   "hareket": "ilerledi",
+   "not": "PACE sonbahar oturumu özetinde Mahkeme Başkanı, görev süresi dolmuş dört yargıcın görevde kaldığını ve sürdürülebilir bütçe ihtiyacını dile getirdi; kayıt Türkiye birikimine değinmiyor. 9 Ekim'de üç Yalçınkaya izleği kararının metinleri, birikimin komite kararlarıyla toplu tasfiye edildiğini bir kez daha doğruladı.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t4",
+   "baslik": "KHK ihraçlarının istihdam ve mali durumuna ilişkin rapor verileri",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t5",
+   "baslik": "Boydak dosyası: işitme cihazı, koğuş doluluğu ve sağlık erişimi",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t6",
+   "baslik": "AYM'nin darbe/ihraç bağlantılı dosyalarda ihlal kararları",
+   "hareket": "ilerledi",
+   "not": "6 Ekim Resmî Gazete'sinde üç AYM kararı yayımlandı: Van Valiliği'nin 15 günlük etkinlik yasağı, H.A. dosyasında ihlal kararının 1 yıl 8 ay 16 gün yerine getirilmemesi ve cezaevindeki yedi başvurucuya ilişkin Genel Kurul kararı. Ayrıca Tayfun Kahraman hakkında yeniden yargılama ve 100 bin TL tazminat kararı kayda geçti.",
+   "gunler": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "id": "t7",
+   "baslik": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması ve Bakanlık genelgesi",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t16",
+   "baslik": "Demirtaş ve Yüksekdağ dosyasında icra denetimi ve yeni yasanın uygulanabilirliği",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t18",
+   "baslik": "Benli kararının icrası ve 15 Aralık 2026 ödeme süresi",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t20",
+   "baslik": "Kozinoğlu soruşturması ve eski Cihan Haber Ajansı mensupları",
+   "hareket": "yerinde",
+   "not": "ABD merkezli Alliance for Shared Values'un açıklaması Kozinoğlu ve Yazıcıoğlu soruşturmalarını tek bir siyasi iddia altında birleştirip hareketle bağlantı kurulmasını reddetti. Dosyada yeni usul adımı kaydedilmedi.",
+   "gunler": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "id": "t21",
+   "baslik": "PKK/KCK'ya ilişkin özel yasa iddiası ve Demirtaş dosyasıyla ilişkisi",
+   "hareket": "yerinde",
+   "not": "Adalet Bakanlığı'nın adliyelerden acil bilgi istediği ve ilk aşamada yaklaşık 4.500 tahliyeye yol açabilecek bir inceleme yürüttüğü tek kaynaklı ve başlık düzeyinde bildirildi; yasal dayanak ve takvim verilmedi. 11 Ekim'de İçişleri Bakanlığı akışından gelen 'taviz yok, pazarlık yok' başlığı dışında hafta içinde doğrulayıcı kayıt gelmedi.",
+   "gunler": [
+    "2026-10-06",
+    "2026-10-11"
+   ]
+  },
+  {
+   "id": "t24",
+   "baslik": "Kavala dosyasında Avrupa Konseyi'nin 'somut adım' talebi",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t31",
+   "baslik": "Avukatların mesleki faaliyetleri nedeniyle hapis cezası (Laevski, Chow Hang-tung)",
+   "hareket": "yerinde",
+   "not": "CIVICUS Monitor kaydı Hong Kong'da anma nöbetlerini örgütleyen aktivistlerin mahkûm edildiğini ve güvenlik yasalarının gazeteci ve aktivistlere karşı kullanıldığını bildirdi; kayıt isim, ceza ve tarih içermiyor. Belarus ayağında hareket yok.",
+   "gunler": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "id": "t33",
+   "baslik": "8/A ile ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
+   "hareket": "ilerledi",
+   "not": "Hafta içinde üç ayrı dalga kayda girdi: 4-5 Ekim gecesi İFÖD ile birlikte en az 88 hesap, 5 Ekim'de en az 70 hesap, 8 Ekim'de en az 39 hesap. Ekonomi-finans profilleri (Emre Şirin, Faruk Bakaç, Ayhan Dadaloğlu) listelerde yer almaya devam ediyor; Dadaloğlu'nun hesabı kullanıcı adı değişikliğinden sonra yeniden engellendi. Dalgaların karar numarası ve dayanak maddesi çoğunlukla kayda girmedi.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t34",
+   "baslik": "'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması",
+   "hareket": "ilerledi",
+   "not": "Bakırköy 4. Sulh Ceza Hâkimliği'nin 13 Eylül 2026 tarihli 2026/9112 sayılı kararının Sky News muhabiri Alex Crawford'un hesabını da kapsadığı kayda geçti; hesap 5 Ekim'de X tarafından Türkiye'den görünmez kılındı. Dosya böylece yabancı basın mensuplarına uzandı.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06"
+   ]
+  },
+  {
+   "id": "t37",
+   "baslik": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun",
+   "hareket": "yerinde",
+   "not": "Kanun kaydı haftanın altı gününde Resmî Gazete akışında yeniden göründü, ancak her seferinde yalnızca başlık düzeyinde kaldı; madde metni, kapsam veya yürürlük bilgisi hiç gelmedi. 11 Ekim'de ayrıca 6 Ekim sayısına ait sekiz belge yalnızca dosya adıyla kayda düştü ve bunların kanunla ilişkisi doğrulanmadı. Tekrar eden kayıt, dosyada ilerleme sayılmamalı.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11"
+   ]
+  },
+  {
+   "id": "t40",
+   "baslik": "14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan yaptırımlar",
+   "hareket": "ilerledi",
+   "not": "ABD Dışişleri Bakanı Rubio'nun 9 Ekim'de ICC'ye kurum olarak yaptırım uygulandığını açıkladığı bildirildi; daha önce savcılar, dokuz yargıç, üç Filistinli kuruluş ve bir BM özel raportörü listelenmişti. 14203 sayılı kararnameye karşı açılan davanın seyrine ilişkin yeni usul adımı kaydedilmedi.",
+   "gunler": [
+    "2026-10-10"
+   ]
+  },
+  {
+   "id": "t41",
+   "baslik": "Tanrıverdi v. Türkiye (16088/17): ödeme süresi ve Bakanlar Komitesi grubu",
+   "hareket": "ilerledi",
+   "not": "Karar metni birincil belge olarak doğrulandı: md. 5/3 ihlali, dört başvurucunun her birine 5.000 avro manevi tazminat, başvuru başına müştereken 250 avro masraf ve üç aylık ödeme süresi; karar 3 Eylül'de kabul edilip 24 Eylül'de tebliğ edilmiş. Metin, matbu ve tekrara dayalı tutukluluk gerekçelerine ilişkin Tercan ölçütünü uyguluyor. Dosyanın hangi md. 5/3 grubuna bağlanacağı kayıtlardan anlaşılmıyor.",
+   "gunler": [
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-11"
+   ]
+  },
+  {
+   "id": "t42",
+   "baslik": "'Fon krizi' haberlerine millî güvenlik gerekçeli erişim engelleri",
+   "hareket": "ilerledi",
+   "not": "Dosya erişim engeli aşamasından gözaltı aşamasına geçti: fon skandalı haberciliği nedeniyle Kısa Dalga editörü Mustafa Balcı dahil iki gazeteci 'yanıltıcı bilgi yayma' şüphesiyle gözaltına alındı.",
+   "gunler": [
+    "2026-10-10"
+   ]
+  },
+  {
+   "id": "t46",
+   "baslik": "TCK 217/A'nın erişim engeli ve kovuşturma gerekçesi olarak kullanılması",
+   "hareket": "ilerledi",
+   "not": "5 Ekim'de 15 Temmuz paylaşımları nedeniyle Melek Karahan'a 15 ay hapis verildiği, CPJ'nin aynı gün maddenin kaldırılmasını istediği kaydedildi. 9 Ekim'de Ankara Cumhuriyet Başsavcılığı'nın iddianamesinde tutuklu gazeteci Ali Tarakcı için 3 yıla kadar hapis talep edildiği bildirildi; isnat bir bakanın istifasını öngören paylaşıma dayanıyor.",
+   "gunler": [
+    "2026-10-07",
+    "2026-10-10"
+   ]
+  },
+  {
+   "id": "t47",
+   "baslik": "Engellenen hesapların X tarafından Türkiye'den görünmez kılınma zamanlaması",
+   "hareket": "ilerledi",
+   "not": "Zamanlama farkı hafta içinde dört ayrı örnekle belgelendi: Crawford dosyasında karar ile uygulama arasında yaklaşık üç hafta, İFÖD hesabında eşzamanlılık, 5 Ekim dalgasında aynı gün, 2026/9064 sayılı kararda ise kısmi uygulama. 6 Ekim'de IFJ'nin de içinde olduğu örgütler X'ten belirsiz ve ölçüsüz talepleri reddetmesini istedi; platformun yanıtı kaydedilmedi.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t56",
+   "baslik": "Üç ByLock kararının icrası: CMK 311/1(f) uyarınca yeniden yargılama talepleri",
+   "hareket": "ilerledi",
+   "not": "Üç kararın metni doğrulandı: Ünal'da yalnızca md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7 ihlali. Korkmaz metni ihlal tespitini yeterli adil tazmin sayıyor, takip başvurularında masraf ödenmediğini belirtiyor ve giderimi tamamen yeniden yargılamaya bağlıyor. İç hukukta açılmış yeniden yargılama talebine ilişkin kayıt gelmedi.",
+   "gunler": [
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t58",
+   "baslik": "Alican Uludağ hakkındaki iddianame",
+   "hareket": "yerinde",
+   "not": "Uludağ'ın daha önce engellenen hesabının ardından aynı kullanıcı adıyla açtığı yeni X hesabı da engellendi ve Türkiye'den görünmez kılındı. İddianameye ilişkin yeni usul adımı kaydedilmedi.",
+   "gunler": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "id": "t60",
+   "baslik": "T24 sitesinin ve X hesabının 2026/8894 sayılı kararla engellenmesi",
+   "hareket": "yerinde",
+   "not": "Kararın usul seyri ayrıntılandı: talep önce reddedilmiş, savcılığın itirazı üzerine dilekçedeki içeriklerle sınırlı kalmayıp tüm siteye engel getirilmiş; T24 içerikleri dört saat içinde kaldırdığını bildirmiş, yeni kullanıcı adı 2 Ekim'de aynı gerekçeyle engellenmiş. Rıza Türmen site genelindeki engelin 5651 md. 8/A'nın sayılı sebeplerine girmediğini savundu. İtiraz sonucuna ilişkin kayıt yok.",
+   "gunler": [
+    "2026-10-06",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t63",
+   "baslik": "Yazıcıoğlu soruşturmasında iki gazetecinin tutuklanması",
+   "hareket": "ilerledi",
+   "not": "Soruşturma tarihlendirildi: baskınlar 25 Eylül'de başladı, 29 Eylül'de 36 kişi tutuklandı; tutuklananlar arasında gazeteciler Emre Soncan ve Mehmet Yaşar Durukan var. İsnat kasten öldürmeye katılma ve kazanın aydınlatılmasını engelleme olarak aktarıldı.",
+   "gunler": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "id": "t64",
+   "baslik": "İbrahim Halil Al hakkında ATK'nın 'cezaevinde kalabilir' raporu",
+   "hareket": "sessiz",
+   "not": "",
+   "gunler": []
+  },
+  {
+   "id": "t66",
+   "baslik": "Dimitras–Olsen yargılaması",
+   "hareket": "ilerledi",
+   "not": "6 Ekim'de Rodos'ta başlayan duruşma, Dimitras'ın avukatının katılamaması üzerine kısa sürede Nisan 2027'ye ertelendi. Bu, derdest ceza dosyasının ve Yunanistan'ın yürürlükteki yakalama kararlarının en az altı ay daha sürmesi anlamına geliyor.",
+   "gunler": [
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t71",
+   "baslik": "Üç ByLock kararında başvuru sayılarının ve ihlal maddelerinin doğrulanması",
+   "hareket": "ilerledi",
+   "not": "Başvuru sayıları karar metinlerinden doğrulandı: Ünal 61641/19 ve 590 diğer, Parun 9991/20 ve 344 diğer, Korkmaz 36880/20 ve 10 diğer başvuru. İhlal maddeleri üç kararda farklılaşıyor; Parun ve Korkmaz'da tazminata hükmedilmedi.",
+   "gunler": [
+    "2026-10-06",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t74",
+   "baslik": "Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmesi",
+   "hareket": "ilerledi",
+   "not": "İFÖD hesabı 4-5 Ekim dalgasında engellendi ve dernek, iki haftadan kısa sürede kurucusunun hesabının da hedef alındığını açıkladı; Solidarity with OTHERS bunu beş gün içindeki dördüncü karar olarak niteledi. 30 Eylül tarihli 2026/9064 sayılı kararla EngelliWeb hesabı yeniden engellendi, bu kez içeriklerin yayından çıkarılması da öngörüldü. 8 Ekim dalgasında kapsam avukat ve gazetecilere genişledi; itiraz sonucuna dair kayıt gelmedi.",
+   "gunler": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t78",
+   "baslik": "Müyesser Uğur v. Türkiye (45738/22) kararının icrası",
+   "hareket": "ilerledi",
+   "not": "Karar metni doğrulandı: md. 10 ihlali, 7.500 avro manevi tazminat, maddi tazminat talebinin reddi, üç aylık ödeme süresi ve Yargıç Yüksel'in md. 41 yönünden kısmi muhalefeti. Mahkeme altı yazıyı ayrı ayrı değerlendirmiş, beşinde gerekçeyi yetersiz bulmuş. İç ceza yargılamasının sürdüğü ve AYM'nin 2022'de tutuklulukta ihlal bulmadığı aktarıldı; bu, icra denetiminde bireysel tedbir tartışmasını açık tutuyor.",
+   "gunler": [
+    "2026-10-06",
+    "2026-10-08",
+    "2026-10-09"
+   ]
+  },
+  {
+   "id": "t82",
+   "baslik": "Gazeteci Derya Okatan'ın gizli belge isnadıyla tutuklanması",
+   "hareket": "yerinde",
+   "not": "Tutuklama 7 Ekim'de kayda girdi; isnat daha önce el konulmuş harici diskte bulunduğu söylenen belgelere dayanıyor, gazeteci belgelerle bağını reddediyor. 10 Ekim'de yalnızca haftalık bültende tekrar edildi; delil tartışmasına veya tutukluluğun seyrine ilişkin yeni bilgi gelmedi.",
+   "gunler": [
+    "2026-10-07",
+    "2026-10-10"
+   ]
+  },
+  {
+   "id": "t83",
+   "baslik": "CİSST cezaevi doluluk verisi",
+   "hareket": "ilerledi",
+   "not": "CİSST, 2 Ekim tarihli resmî yayına dayanarak 304.184 kapasiteli 402 hapishanede 434.337 mahpus bildirdi. 9 Ekim'de CPT'nin iki raporu dayak ve elektrik şoku iddiaları ile uzun süreli tecrit ve yetersiz sağlık hizmetine ilişkin tespitleri ekledi; raporların ziyaret dönemi kayıtlarda yok.",
+   "gunler": [
+    "2026-10-07",
+    "2026-10-09"
+   ]
+  }
+ ],
+ "tek_seferlikler": [
+  {
+   "baslik": "Rabia Naz Vatan dosyasında AİHM'in AYM giderimini sorgulayan tebligatı",
+   "gun": "2026-10-07",
+   "not": "AYM ihlal bulup tazminata hükmettiği halde ceza soruşturmasının yeniden açılmaması md. 2 usul yükümlülüğü bakımından Hükümete soruldu; ayrıca AYM'deki yaklaşık beş yıllık sürenin md. 6 makul süre ölçütü tartışmaya açıldı. Hafta içinde devamı gelmedi."
+  },
+  {
+   "baslik": "A.E. v. Türkiye (16054/22): İran'a gönderme riski dosyasının dostane çözümle düşürülmesi",
+   "gun": "2026-10-08",
+   "not": "Md. 2 ve 3 şikâyetleri esastan incelenmeden, hükümetin iç yargıda yeniden inceleme ve göndermeme taahhüdü karşılığında kayıttan düşürüldü. Taahhüdün uygulanmasına ilişkin hafta içinde kayıt gelmedi."
+  },
+  {
+   "baslik": "ABD'nin ICC'ye kurum düzeyinde yaptırım uyguladığının açıklanması",
+   "gun": "2026-10-10",
+   "not": "Daha önce kişi bazlı yürüyen uygulamanın mahkemenin kendisine yöneltildiği bildirildi; resmî metin ve kapsam kayda girmedi. Aynı gün Nobel Barış Ödülü'nün eski ICC yargıcı Navi Pillay'a verilmesi iki kuruluşun açıklamalarında birlikte anıldı."
+  },
+  {
+   "baslik": "AB Komisyonu'nun Türkiye'ye ilişkin sözlü genişleme değerlendirmesi",
+   "gun": "2026-10-10",
+   "not": "Genişlemeden Sorumlu Komiser Kos, hak ihlallerinin üyelik başvurusunu zayıflattığını söyledi. Yazılı değerlendirme yayımlanmadı."
+  }
+ ],
+ "karsilanmayan_beklentiler": [
+  {
+   "beklenti": "4-5 Ekim engelleme dalgasının dayanağı: karar tarihi, hâkimlik ve engellenen hesapların tam listesi; 88 sayısının İFÖD'ü kapsayıp kapsamadığı",
+   "gun": "2026-10-05",
+   "not": "Hafta boyunca yalnızca 30 Eylül tarihli 2026/9064 sayılı kararda numara ve liste birlikte geldi; 4-5 Ekim ve 8 Ekim dalgalarında karar bilgisi hâlâ yok. Sayı uyuşmazlığı giderilmedi, izlenmeye devam etmeli."
+  },
+  {
+   "beklenti": "İFÖD, EngelliWeb ve diğer engellenen hesaplara yönelik itirazların sonucu",
+   "gun": "2026-10-06",
+   "not": "Beklenti 8 ve 9 Ekim brifinglerinde tekrarlandı; hiçbir itiraz başvurusu veya sonucu kayda girmedi. Engellerin tekrarlanarak uygulanması nedeniyle izlenmeli."
+  },
+  {
+   "beklenti": "Çetin v. Türkiye (4168/24) dosyasında hükümet görüşü ve Taşkın ve diğer başvurularla birleştirilip birleştirilmeyeceği",
+   "gun": "2026-10-05",
+   "not": "Tebliğ dışında hafta içinde hiçbir kayıt gelmedi. Memur ifade özgürlüğü dosyalarının gruplanması bakımından izlenmeye devam etmeli."
+  },
+  {
+   "beklenti": "PKK dosyalarının gözden geçirilmesine ilişkin resmî bir düzenleme veya genelge yayımlanıp yayımlanmadığı",
+   "gun": "2026-10-06",
+   "not": "4.500 tahliye iddiası tek kaynaklı kaldı; 11 Ekim'deki bakanlık açıklaması başlık düzeyinde olup düzenleme niteliği taşımıyor. Demirtaş icra dosyasıyla bağlantısı nedeniyle izlenmeli."
+  }
+ ],
+ "onumuzdeki_hafta": [
+  "Erişim engeli dalgalarının sürüp sürmediği; 2026/9064 ve sonraki dalgalara yönelik itirazların sonucu ile henüz kayda girmeyen karar numaraları",
+  "Tanrıverdi (16088/17) ve Müyesser Uğur (45738/22) kararlarında kesinleşme, üç aylık ödeme süreleri ve bağlanacakları Bakanlar Komitesi grupları; üç ByLock kararında CMK 311/1(f) taleplerinin iç hukuktaki seyri",
+  "7595 sayılı Kanun'un madde metni ile 6 Ekim 2026 Resmî Gazete sayısına ait sekiz belgenin içeriğinin belirlenmesi",
+  "TCK 217/A hattı: Tarakcı iddianamesinin kabulü, gözaltına alınan gazetecilerin akıbeti ve Melek Karahan kararının istinaf aşaması",
+  "Cezaevi sağlığı: CPT raporlarının tam metni ve ziyaret dönemi, hükümet yanıtı ile Abdullah Tırpan hakkındaki nakil/infaz erteleme taleplerine verilecek yanıt",
+  "10 Ekim 2026 tarihli yaş doğrulama yönetmeliğinin uygulanması ve AB Komisyonu'nun yazılı genişleme değerlendirmesi"
+ ],
+ "baslangic": "2026-10-05",
+ "bitis": "2026-10-11",
+ "gun_sayisi": 7,
+ "kullanilan_gunler": [
+  "2026-10-05",
+  "2026-10-06",
+  "2026-10-07",
+  "2026-10-08",
+  "2026-10-09",
+  "2026-10-10",
+  "2026-10-11"
+ ],
+ "olusturma": "2026-10-11T08:21+00:00",
+ "model": "claude-opus-5",
+ "maliyet_usd": 0.6595,
+ "uyari": "Bu sentez, günlük brifinglerin kendisine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz."
+}

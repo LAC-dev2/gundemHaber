@@ -1280,7 +1280,7 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-10",
+   "son_hareket": "2026-10-11",
    "kayitlar": [
     "2ac488c9f0"
    ],
@@ -1356,6 +1356,21 @@
      "kayitlar": [
       "2ac488c9f0"
      ]
+    },
+    {
+     "gun": "2026-10-11",
+     "not": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun, Resmî Gazete kaynağından yeni bir kayıt olarak yeniden geldi; kayıt başlık düzeyindedir, metin ya da madde içeriği taramada yok. Aynı pencerede Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz ayrı PDF de yalnızca dosya adıyla kayda girdi; bunların kanunla ilişkisi doğrulanmış değil.",
+     "kayitlar": [
+      "2ac488c9f0",
+      "33a9b47f0e",
+      "a50cc3ecb2",
+      "79390c3dbd",
+      "0b8478c40e",
+      "0ca7bc1452",
+      "e845177e28",
+      "a1bf0ef20a",
+      "b500a26354"
+     ]
     }
    ]
   },
@@ -1422,7 +1437,7 @@
    "neden": "Karar 24 Eylül 2026'da tebliğ edildi ve kesin; dört başvurucuya kişi başı 5.000 avro manevi tazminat ile ortak 250 avro masraf üç ay içinde ödenecek. Ödeme ve icra grubunun belirlenmesi izlenmeli.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-11",
    "kayitlar": [
     "001-252399"
    ],
@@ -1458,6 +1473,13 @@
     {
      "gun": "2026-10-09",
      "not": "Tanrıverdi v. Türkiye (16088/17) kararının metni birincil belge olarak elimize geçti: dört başvurucu bakımından md. 5/3 ihlali, her birine 5.000 avro manevi tazminat ve başvuru başına müştereken 250 avro masraf, üç ay içinde ödenecek. Hangi Bakanlar Komitesi grubuna gireceği kayıtlardan anlaşılmıyor.",
+     "kayitlar": [
+      "001-252399"
+     ]
+    },
+    {
+     "gun": "2026-10-11",
+     "not": "Tanrıverdi v. Türkiye (16088/17) kararının metni birincil belge olarak elimizde: md. 5/3 ihlali, dört başvurucunun her birine 5.000 avro manevi tazminat, ortak 250 avro masraf ve üç aylık ödeme süresi. Bu pencerede dosyaya ilişkin yeni haber kaydı yok; değerlendirme karar metnine dayanıyor.",
      "kayitlar": [
       "001-252399"
      ]
@@ -2498,8 +2520,42 @@
     "09aea85b31"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t95",
+   "baslik": "Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 ila -14) içeriğinin belirlenmesi",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Kayıtlar yalnızca dosya adı düzeyinde; aynı pencerede 7595 sayılı Kanun kaydıyla birlikte geldikleri için içeriklerinin merkezin icra ve el koyma dosyalarıyla ilgisi olup olmadığı doğrulanmalı.",
+   "acildi": "2026-10-11",
+   "durum": "açık",
+   "son_hareket": "2026-10-11",
+   "kayitlar": [
+    "33a9b47f0e",
+    "a50cc3ecb2",
+    "79390c3dbd",
+    "0b8478c40e",
+    "0ca7bc1452",
+    "e845177e28",
+    "a1bf0ef20a",
+    "b500a26354",
+    "2ac488c9f0"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t96",
+   "baslik": "10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Siber Güvenlik Başkanlığı'nca çıkarılan yönetmelik, sosyal ağ sağlayıcılarına yeni yükümlülükler getiriyor; merkezin 5651 sayılı Kanun kaynaklı erişim engeli dosyalarıyla aynı düzenleyici alanda duruyor.",
+   "acildi": "2026-10-11",
+   "durum": "açık",
+   "son_hareket": "2026-10-11",
+   "kayitlar": [
+    "9c64e0ccf0"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-10T08:07+00:00",
- "acik": 93
+ "guncelleme": "2026-10-11T08:18+00:00",
+ "acik": 95
 }

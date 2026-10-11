@@ -213,9 +213,17 @@
   {
    "id": "t37",
    "durum": "hareket var",
-   "not": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun Resmî Gazete akışında yeniden kayda düştü; kayıtta yalnızca başlık düzeyinde bilgi var, metin veya yürürlük ayrıntısı yok.",
+   "not": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun, Resmî Gazete kaynağından yeni bir kayıt olarak yeniden geldi; kayıt başlık düzeyindedir, metin ya da madde içeriği taramada yok. Aynı pencerede Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz ayrı PDF de yalnızca dosya adıyla kayda girdi; bunların kanunla ilişkisi doğrulanmış değil.",
    "kayitlar": [
-    "2ac488c9f0"
+    "2ac488c9f0",
+    "33a9b47f0e",
+    "a50cc3ecb2",
+    "79390c3dbd",
+    "0b8478c40e",
+    "0ca7bc1452",
+    "e845177e28",
+    "a1bf0ef20a",
+    "b500a26354"
    ]
   },
   {
@@ -232,27 +240,23 @@
   },
   {
    "id": "t40",
-   "durum": "hareket var",
-   "not": "ABD Dışişleri Bakanı Rubio 9 Ekim 2026'da ICC'ye kurum olarak yaptırım uygulandığını açıkladı; daha önce savcılar, dokuz yargıç, üç Filistinli kuruluş ve BM özel raportörü listelenmişti. Kayıtlarda 14203 sayılı kararnameye açılan davanın seyrine ilişkin yeni bir usul adımı yok.",
-   "kayitlar": [
-    "bbbb9bc2dc",
-    "6b15b07221",
-    "e56d0f201c"
-   ]
-  },
-  {
-   "id": "t41",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t42",
+   "id": "t41",
    "durum": "hareket var",
-   "not": "Fon skandalı haberciliğinde iki gazeteci (Kısa Dalga editörü Mustafa Balcı dahil) iktidar partisi sözcüsüne ilişkin iddialar nedeniyle 'yanıltıcı bilgi yayma' şüphesiyle gözaltına alındı. Dosya erişim engelinden gözaltı aşamasına geçmiş görünüyor.",
+   "not": "Tanrıverdi v. Türkiye (16088/17) kararının metni birincil belge olarak elimizde: md. 5/3 ihlali, dört başvurucunun her birine 5.000 avro manevi tazminat, ortak 250 avro masraf ve üç aylık ödeme süresi. Bu pencerede dosyaya ilişkin yeni haber kaydı yok; değerlendirme karar metnine dayanıyor.",
    "kayitlar": [
-    "fd6152346b"
+    "001-252399"
    ]
+  },
+  {
+   "id": "t42",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t43",
@@ -274,11 +278,9 @@
   },
   {
    "id": "t46",
-   "durum": "hareket var",
-   "not": "Ankara Cumhuriyet Başsavcılığı'nın iddianamesinde tutuklu gazeteci Ali Tarakcı için 3 yıla kadar hapis talep edildiği bildirildi; isnat, bir bakanın istifa edeceğini öngören sosyal medya paylaşımına dayanıyor.",
-   "kayitlar": [
-    "0d87d9b629"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t47",
@@ -492,11 +494,9 @@
   },
   {
    "id": "t82",
-   "durum": "hareket var",
-   "not": "MLSA'nın 5 Ekim haftası bülteni, Derya Okatan'ın tutuklanmasını haftanın gelişmeleri arasında kayda geçirdi; kayıtta tutukluluğun seyrine veya iddianameye ilişkin yeni bilgi yok.",
-   "kayitlar": [
-    "6546377682"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t83",
@@ -545,349 +545,291 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t91",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t92",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t93",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t94",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın kangren tablosu ve ATK/sağlık kurulu raporlarının seyri",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "ATK'nın Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim 2026 tarihli değerlendirmeleri aynı yönde 'cezaevinde kalabilir' sonucuna varmış; infazın ertelenmesi talebinin akıbeti izlenmeli.",
+   "baslik": "Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 ila -14) içeriğinin belirlenmesi",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Kayıtlar yalnızca dosya adı düzeyinde; aynı pencerede 7595 sayılı Kanun kaydıyla birlikte geldikleri için içeriklerinin merkezin icra ve el koyma dosyalarıyla ilgisi olup olmadığı doğrulanmalı.",
    "kayitlar": [
-    "a167f2a926"
+    "33a9b47f0e",
+    "a50cc3ecb2",
+    "79390c3dbd",
+    "0b8478c40e",
+    "0ca7bc1452",
+    "e845177e28",
+    "a1bf0ef20a",
+    "b500a26354",
+    "2ac488c9f0"
    ]
   },
   {
-   "baslik": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tutuklanması ve bazı belediyelere kayyım atanması",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
-   "kayitlar": [
-    "1768a5c012"
-   ]
-  },
-  {
-   "baslik": "Cumhuriyet muhabiri Gülnur Saydam hakkında belediye arazi satışı haberi nedeniyle açılan dezenformasyon ve hakaret soruşturması",
+   "baslik": "10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik",
    "alan": "İfade ve basın özgürlüğü",
-   "neden": "Belediyenin yazılı teyidine rağmen soruşturma açılması, 'yanıltıcı bilgi' isnadının doğrulanmış habere de uygulandığı iddiasını gündeme getiriyor; iddianame aşamasına geçip geçmeyeceği izlenmeli.",
+   "neden": "Siber Güvenlik Başkanlığı'nca çıkarılan yönetmelik, sosyal ağ sağlayıcılarına yeni yükümlülükler getiriyor; merkezin 5651 sayılı Kanun kaynaklı erişim engeli dosyalarıyla aynı düzenleyici alanda duruyor.",
    "kayitlar": [
-    "badcfb410c"
-   ]
-  },
-  {
-   "baslik": "AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komiser Kos'un 'demokratik standartlar' açıklaması",
-   "alan": "Belçika ve AB mevzuatı",
-   "neden": "Genişleme sürecindeki resmî değerlendirmeler, merkezin AİHM ve icra dosyalarındaki bulguların AB düzeyinde nasıl kayda geçtiğini gösteriyor; kayıtta yalnızca sözlü açıklama var, yazılı rapor beklenmeli.",
-   "kayitlar": [
-    "09aea85b31"
+    "9c64e0ccf0"
    ]
   }
  ],
  "birincil_notlar": [
   {
    "itemid": "001-252630",
-   "baslik": "Araştırmacı gazetecinin altı yazı nedeniyle tutuklanmasında ifade özgürlüğü incelemesi",
+   "baslik": "Soruşturmacı gazetecinin altı yazı nedeniyle tutuklanmasında ifade özgürlüğü",
    "maddeler": [
     "10",
     "10-1",
     "10-2",
     "41"
    ],
-   "ne_dedi": "Mahkeme md. 10 ihlali buldu: beş yazı bakımından tutukluluğa ilişkin 'ilgili ve yeterli' gerekçe bulunmadığını, bu yazıların gizli bilgi veya devlet sırrı açıklamadığını belirtti. Altıncı yazı bakımından, Libya'daki askerî operasyonları yönetmekle görevlendirilen komutanın kimliğinin, geçmişinin ve kişisel özelliklerinin açıklanmasının millî güvenliğe 'ciddi zarar' verebileceğini ve komutanın güvenliğini etkileyebileceğini kaydetti; yine de iç mahkemelerin müdahaleyi tüm somut koşullar ışığında değerlendirmediğini tespit etti. Manevi tazminat olarak 7.500 avro, kararın kesinleşmesinden itibaren üç ay içinde ödenmek üzere hükmedildi; maddi tazminat talebi reddedildi. Yargıç Yüksel, md. 41 yönünden kısmi muhalefet şerhinde ihlal tespitinin başlı başına yeterli giderim olacağı görüşünü yazdı.",
-   "merkez_icin": "Gazeteci tutukluluklarında md. 10 denetiminin yazı yazı yapıldığını ve tek bir yazının 'millî güvenliğe zarar verebilir' nitelendirilmesinin bütün tutukluluğu meşrulaştırmadığını gösteriyor; t78 kapsamındaki icra takibinde üç aylık ödeme süresi 6 Ekim 2026'dan işliyor.",
+   "ne_dedi": "Mahkeme md. 10 ihlali buldu: isnada konu altı yazıdan beşinin gizli bilgi ya da devlet sırrı açıklamadığı, bu nedenle tutukluluk için ilgili ve yeterli gerekçe bulunmadığı belirtildi. Altıncı yazının Libya'daki askerî operasyonları yönetmekle görevlendirilen komutanın kimliğini, geçmişini ve kişisel özelliklerini açıkladığı, bunun millî güvenliğe 'ciddi zarar' verebileceği kabul edildi; buna karşın iç mahkemelerin müdahaleyi davanın tüm koşulları ışığında değerlendirmediği saptandı. Maddi tazminat talebi reddedildi, manevi tazminat olarak kararın kesinleşmesinden itibaren üç ay içinde ödenmek üzere 7.500 avro hükmedildi. Yargıç Yüksel, ihlal tespitinin başlı başına yeterli adil tazmin oluşturacağı görüşüyle md. 41 yönünden kısmen karşı oy yazdı.",
+   "merkez_icin": "Gazeteci tutukluluklarında md. 10 gerekçelendirmesine ilişkin t78 dosyasının birincil dayanağıdır; ödeme süresi kararın md. 44/2 uyarınca kesinleşmesinden itibaren işler. Yazı bazında ayrıştırma yapılması, toplu isnatlara dayanan tutukluluk kararlarına karşı argümanlar açısından not edilmeli.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252504",
-   "baslik": "ByLock temelli FETÖ/PDY üyeliği mahkûmiyetlerinde adil yargılanma hakkı (591 başvuru)",
+   "baslik": "591 başvuruda FETÖ/PDY üyeliği mahkûmiyetlerinde adil yargılanma hakkı",
    "maddeler": [
     "6",
     "6-1"
    ],
-   "ne_dedi": "Komite, 61641/19 ve diğer 590 başvuruyu birleştirerek md. 6/1 (adil yargılanma) ihlali buldu. Başvurular md. 6/1 ve md. 7 şikâyetleriyle hükümete tebliğ edilmişti; HUDOC sonuç alanında yalnızca md. 6 ihlali görünüyor. Karar kesin olup yayın düzeltmesine tabi olabileceği belirtiliyor.",
-   "merkez_icin": "Yalçınkaya grubu takip başvurularında ihlal maddelerinin dosyadan dosyaya farklılaştığını doğruluyor; t56 ve t71 kapsamındaki icra ve yeniden yargılama taleplerinde hangi maddeye dayanılacağı dosyaya göre değişiyor.",
+   "ne_dedi": "Komite, 61641/19 ve diğer 590 başvuruyu birleştirerek md. 6/1 (adil yargılanma) ihlali buldu. Tebligat hem md. 6/1 hem md. 7 şikâyetleri yönünden yapılmıştı; HUDOC sonuç alanında yalnızca md. 6 ihlali yer alıyor. Karar kesin olmakla birlikte editoryal düzeltmeye tabi olabileceği belirtiliyor.",
+   "merkez_icin": "Yalçınkaya grubu takip kararlarında (t3, t56, t71) ihlal maddelerinin dosyadan dosyaya farklılaştığını gösteren üç karardan biri; icra dosyalarında hangi grubun hangi tedbire bağlanacağı bu ayrıma göre değişir.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252505",
-   "baslik": "ByLock temelli mahkûmiyetlerde hem adil yargılanma hem kanunsuz ceza olmaz ilkesi ihlali (345 başvuru)",
+   "baslik": "345 başvuruda FETÖ/PDY üyeliği mahkûmiyetlerinde md. 6/1 ve md. 7",
    "maddeler": [
     "6",
     "6-1",
     "7"
    ],
-   "ne_dedi": "Komite, 9991/20 ve diğer 344 başvuruyu birleştirerek hem md. 6/1 hem md. 7 ihlali buldu. Karar kesindir, yayın düzeltmesine tabi olabilir. Metnin sunulan bölümlerinde ayrı bir tazminat hükmü görünmüyor.",
-   "merkez_icin": "Aynı tarihte verilen üç karardan biri olarak, md. 7 ihlalinin yalnızca bazı dosyalarda tespit edildiğini gösteriyor; CMK 311/1(f) yoluyla yeniden yargılama taleplerinde dayanak madde dosyaya göre ayrıştırılmalı.",
+   "ne_dedi": "Komite, 9991/20 ve diğer 344 başvuruyu birleştirerek hem md. 6/1 hem md. 7 ihlali buldu. Tebligat her iki şikâyet yönünden yapılmıştı. Karar kesin, editoryal düzeltmeye tabi olabilir.",
+   "merkez_icin": "Aynı tarihli üç karar içinde md. 7 ihlalinin de bulunduğu dosya grubu budur; yeniden yargılama taleplerinde dayanılacak ihlal maddesi bakımından Ünal grubundan ayrışır (t71).",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252506",
-   "baslik": "FETÖ/PDY üyeliği mahkûmiyetlerinde kanunsuz ceza olmaz ilkesinin ihlali (11 başvuru)",
+   "baslik": "11 başvuruda FETÖ/PDY üyeliği mahkûmiyetinde kanunsuz ceza olmaz ilkesi",
    "maddeler": [
     "7"
    ],
-   "ne_dedi": "Mahkeme md. 7 ihlali buldu; kalan şikâyetlerin kabul edilebilirliğini ve esasını incelemeye gerek görmedi. Yüksel Yalçınkaya (§§ 404, 411, 412, 425) ve Demirhan ve Diğerleri'ne atıfla, ihlal tespitinin manevi zarar için başlı başına yeterli giderim oluşturduğuna hükmetti ve tazminat vermedi. Başvurucuların CMK 311/1(f) uyarınca yeniden yargılama talep edebileceğini, kararın 'sonuç ve ruhuna' uygun yeniden yargılamanın kural olarak en uygun giderim olacağını belirtti; bu tür takip başvurularında yargılama gideri de hükmetmedi.",
-   "merkez_icin": "Giderim rejiminin para tazminatından çıkarılıp tümüyle iç hukuktaki yeniden yargılamaya bağlandığını gösteriyor; t56'daki Bakanlar Komitesi denetiminde asıl mesele CMK 311/1(f) taleplerinin iç mahkemelerce nasıl karşılandığı olacak.",
+   "ne_dedi": "Komite yalnızca md. 7 ihlali buldu; kalan şikâyetlerin kabul edilebilirliğini ve esasını incelemeye gerek görmedi. Yüksel Yalçınkaya (§§ 404, 411, 412, 425) ve Demirhan ve Diğerleri'ne atıfla, ihlal tespitinin manevi zarar için başlı başına yeterli adil tazmin oluşturduğuna hükmetti; başvurucuların CMK md. 311/1(f) uyarınca yeniden yargılanma talep edebilecekleri ve kararın 'sonuç ve ruhuna' uygun yeniden yargılamanın kural olarak en uygun giderim olacağı belirtildi. Bu tür takip başvurularında masraf ve giderim de hükmedilmedi.",
+   "merkez_icin": "Giderimin tazminat yerine yeniden yargılamaya bağlandığını karar metninden doğrulayan en açık pasaj; t56 ve t71'deki icra tartışmasının dayanağıdır. İç hukukta yeniden yargılama talebinin reddi hâlinde icra denetiminde doğrudan bu paragraflara dayanılabilir.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252399",
-   "baslik": "Dört başvurucunun tutukluluk süresinin makul olmaması ve gerekçe yetersizliği",
+   "baslik": "Dört başvurucunun tutukluluk süresinin aşırı uzunluğu",
    "maddeler": [
     "5",
     "5-3"
    ],
-   "ne_dedi": "Mahkeme, Aziz, Muhittin, Murat ve Salih Tanrıverdi'nin tutukluluğun aşırı uzunluğuna ve ilgili-yeterli gerekçe bulunmamasına ilişkin şikâyetlerini kabul edilebilir bularak md. 5/3 ihlali tespit etti; başvurunun kalan kısmını kabul edilemez buldu. Ekli tabloda her bir başvurucuya 5.000 avro manevi tazminat ve başvuru başına 250 avro masraf, üç ay içinde ödenmek üzere hükmedildi. Tabloda Diyarbakır 1. ve 3. Sulh Ceza Hâkimlikleri ile Anayasa Mahkemesi'nin gerekçelerinin 'kırılganlığı ve tekrara dayalılığı' Tercan v. Türkiye (6158/18, § 183) ölçütüne atıfla anılıyor.",
-   "merkez_icin": "t41 kapsamında üç aylık ödeme süresi 24 Eylül 2026'dan işliyor; tekrara dayalı tutukluluk gerekçeleri ölçütü, merkezin md. 5/3 dosyalarında dayanak oluşturuyor.",
+   "ne_dedi": "Mahkeme, Aziz, Muhittin, Murat ve Salih Tanrıverdi'nin tutukluluk süresinin aşırı uzunluğuna ve tutuklulukta ilgili ve yeterli gerekçe bulunmamasına ilişkin şikâyetlerini kabul edilebilir buldu, başvurunun kalanını kabul edilemez ilan etti ve md. 5/3 ihlaline hükmetti. Ekli tabloda yetkili mahkemeler olarak Diyarbakır 1. ve 3. Sulh Ceza Hâkimlikleri ile Anayasa Mahkemesi gösterildi; gerekçelendirmenin 'kırılganlığı ve tekrara dayalılığı' bakımından Tercan v. Turkey (6158/18, § 183) kararına atıf yapıldı. Her bir başvurucuya 5.000 avro manevi tazminat, başvuruculara ortak 250 avro masraf hükmedildi; ödeme süresi üç ay. Başvuru 23 Ocak 2017'de yapılmış, karar 3 Eylül 2026'da kabul edilip 24 Eylül 2026'da tebliğ edilmiştir.",
+   "merkez_icin": "t41'in birincil dayanağı; ödeme süresinin başlangıcı ve tutarlar artık metinden doğrulanmış durumda. Gerekçe kalıplarına ilişkin Tercan atfı, 5/3 grubundaki diğer Türkiye dosyalarında tekrar eden gerekçe sorununu gösteriyor.",
    "haberle_fark": ""
   }
  ],
- "baslik": "ABD, ICC'ye kurum olarak yaptırım uyguladı; aynı gün Nobel Barış Ödülü Navi Pillay'a verildi",
- "brifing": "Pencerenin en somut gelişmesi, ABD Dışişleri Bakanı Rubio'nun 9 Ekim 2026'da Uluslararası Ceza Mahkemesi'ne kurum olarak yaptırım uygulandığını açıklaması; bu, merkezin 14203 sayılı Başkanlık Kararnamesi dosyasında (t40) 26 Eylül'den beri ilk hareket. Türkiye tarafında ifade ve basın özgürlüğü alanı yoğun: MLSA'nın haftalık bülteni 6-8 Ekim'de verilen hapis cezalarını derliyor, 9 Ekim'de fon skandalı haberciliği nedeniyle iki gazeteci gözaltına alındı, Ali Tarakcı için 3 yıla kadar hapis talep eden iddianame bildirildi ve Cumhuriyet muhabiri Gülnur Saydam hakkında dezenformasyon soruşturması açıldı. Gülen/KHK dosyalarında yeni bir sağlık vakası var: Metris'te tutulan 73 yaşındaki Abdullah Tırpan hakkında ATK ve iki ayrı hastane kurulu, ileri kangren tablosuna rağmen 'cezaevinde kalabilir' sonucuna varmış. AİHM tarafında bu pencerede yeni haber kaydı yok; verilen beş birincil karar metni daha önce değerlendirilmiş kararların metinleridir ve notları aşağıda ayrıca yazıldı. Erişim engeli, T24 ve Dimitras–Olsen dosyalarında yeni kayıt yok; sayılar önceki brifingteki düzeyde.",
+ "baslik": "Tanrıverdi (16088/17): md. 5/3'ten dört başvurucuya 5.000'er avro, ödeme süresi aralıkta",
+ "brifing": "Pencereye giren 11 kaydın dokuzu Resmî Gazete kaynaklı ve başlık/dosya adı düzeyinde; çekirdek alanlarda yeni bir yargı kararı, tebligat ya da idari işlem kaydı gelmedi. 7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun kaydı yeniden görünmekle birlikte içerik taramada yok; 6 Ekim 2026 sayısına ait sekiz belge de yalnızca dosya adıyla kayıtlı [2ac488c9f0, 33a9b47f0e, a50cc3ecb2, 79390c3dbd, 0b8478c40e, 0ca7bc1452, e845177e28, a1bf0ef20a, b500a26354]. Buna karşılık beş AİHM karar metni birincil belge olarak elimizde; bunlardan Tanrıverdi v. Türkiye (16088/17) t41'deki ödeme süresi ve tutar sorularını doğrudan yanıtlıyor [001-252399]. Erişim engelleri, Metris'teki sağlık dosyası ve fon soruşturması haberciliğine ilişkin kayıtlar bu pencerede yenilenmedi; sayılar önceki brifingteki düzeyde kaldı.",
  "one_cikanlar": [
   {
-   "baslik": "ABD, ICC'ye kurum düzeyinde yaptırım uyguladı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden_onemli": "Daha önce kişi bazlı listelemelerle yürüyen uygulamanın mahkemenin kendisine yöneltildiği bildiriliyor; bu, merkezin 14203 sayılı kararname dosyasındaki (t40) kapsam tartışmasını değiştirir. Kayıtlara göre yaptırımların hedeflenenler üzerindeki etkileri arasında banka hesaplarının dondurulması veya kapatılması sayılıyor. Aynı gün 2026 Nobel Barış Ödülü'nün eski ICC yargıcı Navi Pillay'a verilmesi, iki kuruluşun açıklamalarında birlikte anılıyor.",
-   "yenilik": "İlk kez: 9 Ekim 2026'da yaptırımın kurumun kendisine yöneltildiği açıklandı; t40'ta 26 Eylül'den beri ilk hareket.",
+   "baslik": "7595 sayılı Kanun ve 6 Ekim 2026 Resmî Gazete sayısına ait sekiz belge kayda girdi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun, 24 Eylül'den beri t37 altında izleniyor ve kapsamı merkezin icra dosyalarıyla kesişebilir. Bugünkü kayıtlar kanunun metnini değil yalnızca Resmî Gazete başlığını veriyor; aynı pencerede 6 Ekim sayısından sekiz PDF de içeriksiz biçimde kayda düştü. Bu belgelerin hangi düzenlemelere ilişkin olduğu doğrulanmadan kapsam değerlendirmesi yapılamaz.",
+   "yenilik": "Kanun kaydı 10 Ekim'de yeniden geldi ve yanına 6 Ekim sayısına ait sekiz ayrı belge eklendi; içerik hâlâ taramada yok.",
    "ayrintilar": [
-    "9 Ekim 2026: ABD Dışişleri Bakanı Marco Rubio yaptırım kararını açıkladı [bbbb9bc2dc]",
-    "Rubio'nun gerekçesi: ABD vatandaşlarını ICC soruşturma ve kovuşturmasından korumak [bbbb9bc2dc]",
-    "Daha önce listelenenler: ICC savcıları, dokuz ICC yargıcı, üç Filistinli insan hakları kuruluşu, BM özel raportörü [bbbb9bc2dc]",
-    "Aynı gün 2026 Nobel Barış Ödülü eski ICC yargıcı Navi Pillay'a verildi [e56d0f201c, bbbb9bc2dc]"
+    "Resmî Gazete dosya adları: 20261006-6, -8, -9, -10, -11, -12, -13, -14",
+    "11 Ekim 2026 tarihli Resmî Gazete (Sayı 33397) özetinde beş madde var; hepsi üniversite yönetmelikleri [8b36bf53f3]"
    ],
-   "mekanizma": "ABD yaptırım listesi / 14203 sayılı Başkanlık Kararnamesi",
-   "karsi_okuma": "Kayıtlar iki STK açıklamasına dayanıyor; listelemenin hukuki dayanağı, kapsamı, hangi kalemleri (varlık dondurma, vize, ikincil yaptırım) içerdiği ve resmî metni kayıtlarda yok. AB karşı tedbirlerine (blocking statute vb.) ilişkin bir bilgi de bulunmuyor.",
+   "mekanizma": "Resmî Gazete'de yayım",
+   "karsi_okuma": "Kayıtlar belgelerin konusunu göstermiyor; 7595 sayılı Kanun ile 6 Ekim sayısındaki sekiz belge arasında bir bağlantı bulunduğu doğrulanmış değildir.",
    "kayitlar": [
-    "bbbb9bc2dc",
-    "6b15b07221",
-    "e56d0f201c"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Bir hafta içinde gazetecilere verilen hapis cezaları ve yeni soruşturmalar",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "MLSA'nın 5 Ekim haftası bülteni, haber içeriği ve sosyal medya paylaşımı nedeniyle verilen dört ayrı ceza kararını tek yerde kayda geçiriyor; bunlar merkezin md. 10 dosyalarında iç hukuk yolu verisi oluşturur. Aynı hafta içinde bir gazetecinin 24 gün tutukluluktan sonra tahliye edilmesi ve bir başkasının tutuklanması, tutuklu yargılamanın sürdüğünü gösteriyor.",
-   "yenilik": "İlk kez: 6-8 Ekim duruşmalarının sonuçları bu bültenle kayda girdi.",
-   "ayrintilar": [
-    "6 Ekim, Mardin 2. Ağır Ceza: Öznur Değer'e 18 ay, Osman Akın'a 10 ay hapis; isnat 2024'te Nusaybin'de ev baskınında köylülere işkence yapıldığına dair haberler [6546377682]",
-    "6 Ekim, İstanbul 36. Asliye Ceza: LeMan çizeri Doğan Pehlevan'a 'cumhurbaşkanına hakaret'ten 11 ay 20 gün; savunma hesabın kendisine ait olmadığını ileri sürdü [6546377682]",
-    "7 Ekim, Bakırköy 17. Ağır Ceza: gazeteci Hakan Tosun cinayetinde iki sanığa müebbet [6546377682]",
-    "8 Ekim, İstanbul Anadolu 2. Asliye Ceza: Sedef Kabaş dosyasında birleştirme uyuşmazlığı nedeniyle istinafa gönderme [6546377682]",
-    "Gazeteci Hüseyin Aykan 24 günlük tutukluluktan sonra tahliye edildi [6546377682]"
-   ],
-   "mekanizma": "TCK 299 / AİHS md. 10",
-   "karsi_okuma": "Bülten tek kaynak; cezaların kesinleşip kesinleşmediği, ertelenip ertelenmediği ve istinaf durumu kayıtlarda yok. Haftalık derleme, bir eğilim ölçüsü vermez.",
-   "kayitlar": [
-    "6546377682"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Fon skandalı haberciliğinde iki gazeteci gözaltında, Tarakcı için 3 yıl talep edildi",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Yatırım fonu dosyasına ilişkin haberler daha önce erişim engeline konu olmuştu (t42); şimdi aynı konuda gözaltı uygulanıyor. Ali Tarakcı dosyasında ise soruşturma iddianame aşamasına geçti ve ceza talebi somutlaştı (t46).",
-   "yenilik": "Bugün: t42'de erişim engelinden gözaltıya geçiş; t46'da iddianamede 3 yıla kadar hapis talebi bildirildi.",
-   "ayrintilar": [
-    "Kısa Dalga editörü Mustafa Balcı dahil iki gazeteci, iktidar partisi sözcüsüne ilişkin iddialar nedeniyle 'yanıltıcı bilgi yayma' şüphesiyle gözaltına alındı [fd6152346b]",
-    "Ankara Cumhuriyet Başsavcılığı'nın iddianamesinde tutuklu gazeteci Ali Tarakcı için 3 yıla kadar hapis isteniyor; isnat bir bakanın istifa edeceğini öngören paylaşım [0d87d9b629]",
-    "Cumhuriyet muhabiri Gülnur Saydam hakkında, belediyenin yazılı teyidine rağmen arazi satışı haberi nedeniyle dezenformasyon ve hakaret soruşturması açıldı [badcfb410c]"
-   ],
-   "mekanizma": "TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma'",
-   "karsi_okuma": "Gözaltına alınanların akıbeti (serbest bırakma, tutuklama talebi) kayıtlarda yok; Tarakcı iddianamesinin kabul edilip edilmediği ve duruşma tarihi de bildirilmemiş.",
-   "kayitlar": [
-    "fd6152346b",
-    "0d87d9b629",
-    "badcfb410c"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Metris'te 73 yaşındaki Gülen hükümlüsü hakkında dört ayrı 'cezaevinde kalabilir' değerlendirmesi",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "İbrahim Halil Al dosyasında (t64) görülen ATK pratiğinin ikinci bir örneği: ileri evre hastalığa rağmen infazın sürdürülmesine dayanak oluşturan raporlar. Merkezin md. 3 bağlamındaki cezaevinde sağlık erişimi dosyalarıyla doğrudan ilgili.",
-   "yenilik": "İlk kez: Abdullah Tırpan dosyası kayıtlara girdi; en son 6 Ekim 2026 tarihli muayene de aynı yönde sonuçlandı.",
-   "ayrintilar": [
-    "Abdullah Tırpan, 73 yaşında, Metris Cezaevi; sol bacağında ileri kangren, açık yaralar, ayak amputasyonu riski [a167f2a926]",
-    "ATK Aralık 2025'te 'cezaevinde kalabilir' sonucuna vardı; Tekirdağ Şehir Hastanesi kurulları Mayıs ve Haziran 2026'da, 6 Ekim 2026'daki muayene de aynı yönde [a167f2a926]",
-    "Tekirdağ 3. Ağır Ceza Mahkemesi 8 Ağustos 2019'da 7 yıl 6 ay hapis verdi; Yargıtay 7 Mart 2022'de onadı [a167f2a926]",
-    "Bağımsız milletvekili Mustafa Yeneroğlu hastaneye yatış ve infazın ertelenmesini talep etti [a167f2a926]"
-   ],
-   "mekanizma": "ATK raporu / infazın ertelenmesi",
-   "karsi_okuma": "Bilgi tek bir ikincil kaynağın aktardığı milletvekili beyanına dayanıyor; rapor metinleri ve infaz ertelemesi talebine verilen yanıt kayıtlarda yok.",
-   "kayitlar": [
-    "a167f2a926"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "2024 yerel seçimlerinden bu yana 40 muhalefet belediye başkanı tutuklandı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden_onemli": "Seçilmiş görevlilerin görevden uzaklaştırılması ve bazı belediyelere kayyım atanması, merkezin kayyım/el koyma dosyalarındaki aynı idari mekanizmanın siyasi temsil alanındaki uygulaması. Sayı, bu dosyaların ölçeğine ilişkin bir referans noktası sağlar.",
-   "yenilik": "İlk kez: 40 rakamı bu pencerede kayda girdi.",
-   "ayrintilar": [
-    "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanı tutuklandı; kaynak İlke TV raporu [1768a5c012]",
-    "Soruşturmalar seçilmiş görevlilerin görevden uzaklaştırılmasına ve bazı belediyelere kayyım atanmasına yol açtı [1768a5c012]"
-   ],
-   "mekanizma": "Belediye başkanlarının görevden uzaklaştırılması / kayyım",
-   "karsi_okuma": "Tek kaynaklı ve başlık-özet düzeyinde; hangi belediyeler, hangi isnatlar, kaçının halen tutuklu olduğu kayıtlarda yok. Rakamın dönemi ve sayım ölçütü doğrulanmamıştır.",
-   "kayitlar": [
-    "1768a5c012"
+    "2ac488c9f0",
+    "33a9b47f0e",
+    "a50cc3ecb2",
+    "79390c3dbd",
+    "0b8478c40e",
+    "0ca7bc1452",
+    "e845177e28",
+    "a1bf0ef20a",
+    "b500a26354",
+    "8b36bf53f3"
    ],
    "guven": "düşük"
   },
   {
-   "baslik": "AB Komisyonu: hak ihlalleri Türkiye'nin üyelik başvurusunu zayıflatıyor",
-   "alan": "Belçika ve AB mevzuatı",
-   "neden_onemli": "Genişlemeden Sorumlu Komiser Kos'un açıklaması, merkezin AİHM ve icra dosyalarındaki bulguların AB düzeyindeki siyasi değerlendirmeye nasıl yansıdığını gösteriyor. Yazılı genişleme değerlendirmesinin içeriği için erken bir işaret.",
-   "yenilik": "İlk kez: Kos'un 9 Ekim tarihli açıklaması kayda girdi.",
+   "baslik": "İçişleri Bakanı'ndan 'terör örgütüne taviz yok, pazarlık yok' açıklaması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "Kayıt, İçişleri Bakanlığı'nın kendi duyuru akışından geliyor ve yalnızca başlık düzeyinde bilgi içeriyor. Merkezin t21 altında izlediği PKK/KCK'ya ilişkin düzenleme tartışmasının siyasi çerçevesine dair bir işaret olabilir; metin olmadan isnat, dosya ya da muhatap belirlenemiyor.",
+   "yenilik": "İlk kez; bu kaynaktan bu pencerede gelen tek siyasi açıklama kaydı.",
    "ayrintilar": [
-    "Komiser Marta Kos: 'Demokratik standartlara ilişkin endişelerimiz sürüyor' [09aea85b31]",
-    "Açıklama 9 Ekim 2026'da gazetecilere yapıldı [09aea85b31]"
+    "Kaynak: İçişleri Bakanlığı, 11 Ekim 2026 07:28"
    ],
-   "mekanizma": "AB genişleme süreci",
-   "karsi_okuma": "Sözlü bir açıklama; herhangi bir yazılı rapor, tavsiye ya da usul adımı kayıtlarda yok. Üyelik sürecinde somut bir karara işaret etmez.",
+   "mekanizma": "",
+   "karsi_okuma": "Açıklamanın hangi örgüte, sürece ya da yargı dosyasına ilişkin olduğu kayıttan anlaşılmıyor; t21'deki düzenleme tartışmasıyla bağlantısı varsayımdır.",
    "kayitlar": [
-    "09aea85b31"
+    "dbf60da6bf"
    ],
-   "guven": "orta"
+   "guven": "düşük"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "Bu pencerede dört ayrı mahkûmiyet kararı, bir tahliye, iki gözaltı, bir iddianame ve bir yeni soruşturma kayda girdi. Erişim engelleri dosyalarında (t33, t47, t74, t86) ise yeni kayıt yok; İFÖD'ün 39 hesaplık listesi önceki brifingte değerlendirilmişti.",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "olağan",
+   "not": "Bu pencerede yeni haber ya da tebligat kaydı yok; alan hareketi tümüyle birincil belgelerden geliyor: Müyesser Uğur (md. 10, 7.500 avro), Ünal ve Diğerleri (md. 6/1), Parun ve Diğerleri (md. 6/1 ve md. 7), Korkmaz ve Diğerleri (md. 7, tazminat yok) ve Tanrıverdi (md. 5/3, kişi başı 5.000 avro).",
    "kayitlar": [
-    "6546377682",
-    "fd6152346b",
-    "0d87d9b629",
-    "badcfb410c"
+    "001-252630",
+    "001-252504",
+    "001-252505",
+    "001-252506",
+    "001-252399"
    ]
   },
   {
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "durum": "hareketli",
-   "not": "ABD'nin ICC'ye kurum olarak yaptırım uyguladığı açıklandı; ayrıca 40 muhalefet belediye başkanının tutuklanması ve kayyım atamalarına ilişkin derleme veri geldi.",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "olağan",
+   "not": "Resmî Gazete kaynaklı dokuz kayıt başlık/dosya adı düzeyinde geldi; 11 Ekim sayısının özetindeki beş madde üniversite yönetmelikleridir ve merkezin dosyalarıyla ilgisi görünmüyor.",
    "kayitlar": [
-    "bbbb9bc2dc",
-    "6b15b07221",
-    "e56d0f201c",
-    "1768a5c012"
+    "2ac488c9f0",
+    "33a9b47f0e",
+    "a50cc3ecb2",
+    "79390c3dbd",
+    "0b8478c40e",
+    "0ca7bc1452",
+    "e845177e28",
+    "a1bf0ef20a",
+    "b500a26354",
+    "8b36bf53f3"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "durum": "hareketli",
-   "not": "Metris'te tutulan 73 yaşındaki hükümlü hakkında dört ayrı sağlık değerlendirmesinin aynı yönde sonuçlandığı bildirildi; ATK pratiğine ilişkin ikinci vaka.",
+   "durum": "sessiz",
+   "not": "Bu pencerede yeni kayıt yok; Metris'teki Abdullah Tırpan dosyası (t91) ve 40 belediye başkanı verisi (t92) önceki brifingte değerlendirilmişti, sayılar değişmedi. Tek yeni kayıt İçişleri Bakanı'nın başlık düzeyindeki açıklamasıdır.",
    "kayitlar": [
-    "a167f2a926"
-   ]
-  },
-  {
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "durum": "olağan",
-   "not": "Bu pencerede yeni haber kaydı yok. Verilen beş HUDOC metni (Müyesser Uğur, Ünal, Parun, Korkmaz, Tanrıverdi) daha önce değerlendirilen kararların metinleridir; notları ayrıca yazıldı. 7595 sayılı Kanun Resmî Gazete akışında yeniden göründü, kayıt başlık düzeyinde.",
-   "kayitlar": [
-    "2ac488c9f0"
-   ]
-  },
-  {
-   "alan": "İade, adli yardım ve iltica",
-   "durum": "olağan",
-   "not": "Rechtbank Den Haag, 9 Ekim 2026 tarihli NL26.11009 sayılı kararında Nijerya uyruklu başvurucunun kimlik ve insan kaçakçıları anlatımını inandırıcı bulmayarak talebi reddetti (ongegrond); kayıt özet düzeyinde. ECRE, von der Leyen'in 16 Eylül SOTEU konuşmasında duyurduğu 'Avrupa Acil Müdahale Çerçevesi' hazırlığını aktardı.",
-   "kayitlar": [
-    "7707852404",
-    "f45a3a64e2"
-   ]
-  },
-  {
-   "alan": "Belçika ve AB mevzuatı",
-   "durum": "olağan",
-   "not": "AB Komisyonu'nun Türkiye'ye ilişkin sözlü değerlendirmesi dışında, pencereye giren EBA, FCA ve FRA kayıtları merkezin dosyalarıyla doğrudan ilgili değil.",
-   "kayitlar": [
-    "09aea85b31",
-    "ebe0ad552d",
-    "1f27dc9bf6",
-    "26d3167cd8"
+    "dbf60da6bf",
+    "a167f2a926",
+    "1768a5c012"
    ]
   }
  ],
- "dosya_derinlesmesi": [],
+ "dosya_derinlesmesi": [
+  {
+   "baslik": "Tanrıverdi v. Türkiye (16088/17): md. 5/3 kararının ödeme süresi ve Bakanlar Komitesi denetimindeki yeri (t41)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "elimizde": "Karar metni birincil belge olarak elimizde: İkinci Bölüm Komitesi (Pisani, Lavapuro, Mercer) 3 Eylül 2026'da kabul edip 24 Eylül 2026'da tebliğ etti; başvuru 23 Ocak 2017 tarihli ve başvurucular Diyarbakır barosundan Av. M. Beştaş tarafından temsil edildi. Mahkeme Aziz, Muhittin, Murat ve Salih Tanrıverdi bakımından tutukluluğun aşırı uzunluğu ve yeterli gerekçe bulunmaması nedeniyle md. 5/3 ihlali buldu, başvurunun kalanını kabul edilemez ilan etti. Her başvurucuya 5.000 avro manevi tazminat, ortak 250 avro masraf hükmedildi; ödeme süresi üç ay. Ekli tabloda yetkili merciler Diyarbakır 1. ve 3. Sulh Ceza Hâkimlikleri ile Anayasa Mahkemesi olarak gösterilmiş, gerekçelerin 'kırılganlığı ve tekrara dayalılığı' için Tercan v. Turkey (6158/18, § 183) kararına atıf yapılmıştır [001-252399].",
+   "eksik": "Kararın Bakanlar Komitesi'nde hangi 5/3 grubuna (örneğin Tercan benzeri gruplara) bağlandığına dair bir belge taramada yok. Ödemenin yapılıp yapılmadığına, iç hukukta tutukluluk gerekçelerine ilişkin bir değişikliğe ve başvurucuların mevcut hukuki durumuna dair kayıt da bulunmuyor.",
+   "izlenecek_adim": "Üç aylık ödeme süresi, 24 Eylül 2026 tarihli tebliğden itibaren işliyor; süre dolduktan sonra gecikme faizi AMB marjinal kredi faizi artı üç puan olarak işler. Sırada kararın Bakanlar Komitesi'nin icra listesine girmesi ve hangi grup altında denetleneceğinin yayımlanması var.",
+   "dayanak": "Tercan atfı, Türkiye'deki tutukluluk kararlarında gerekçelerin kalıplaşmış ve tekrara dayalı olduğuna ilişkin yapısal tespitin sürdüğünü gösterir; merkezin md. 5/3 dosyalarında bireysel değil grup düzeyinde genel tedbir talebine dayanak oluşturabilir.",
+   "kayitlar": [
+    "001-252399"
+   ]
+  }
+ ],
  "kronoloji": [
   {
-   "tarih": "2026-10-06",
-   "adim": "Mardin 2. Ağır Ceza Mahkemesi Öznur Değer'e 18 ay, Osman Akın'a 10 ay hapis verdi; aynı gün İstanbul 36. Asliye Ceza, çizer Doğan Pehlevan'a 11 ay 20 gün hapis hükmetti.",
+   "tarih": "2017-01-23",
+   "adim": "Tanrıverdi başvurusu (16088/17) AİHM'e yapıldı.",
    "kayitlar": [
-    "6546377682"
+    "001-252399"
    ]
   },
   {
-   "tarih": "2026-10-07",
-   "adim": "Bakırköy 17. Ağır Ceza Mahkemesi, gazeteci Hakan Tosun'un öldürülmesi davasında iki tutuklu sanığa müebbet hapis verdi.",
+   "tarih": "2026-09-03",
+   "adim": "İkinci Bölüm Komitesi kararı müzakere edip kabul etti.",
    "kayitlar": [
-    "6546377682"
+    "001-252399"
    ]
   },
   {
-   "tarih": "2026-10-08",
-   "adim": "Sedef Kabaş'ın 'cumhurbaşkanına hakaret' davasında dosya birleştirme uyuşmazlığı nedeniyle esasa ilişkin karar verilmedi, dosya istinafa gönderildi.",
+   "tarih": "2026-09-24",
+   "adim": "Karar yazılı olarak tebliğ edildi: md. 5/3 ihlali, dört başvurucuya 5.000'er avro ve ortak 250 avro, üç aylık ödeme süresi.",
    "kayitlar": [
-    "6546377682"
+    "001-252399"
    ]
   },
   {
-   "tarih": "2026-10-09",
-   "adim": "Fon skandalı haberciliği nedeniyle Mustafa Balcı dahil iki gazeteci gözaltına alındı; Ali Tarakcı hakkındaki iddianamede 3 yıla kadar hapis talep edildiği, Gülnur Saydam hakkında dezenformasyon soruşturması açıldığı bildirildi.",
+   "tarih": "2026-09-25",
+   "adim": "Merkezde t41 takip maddesi açıldı: ödeme süresi ve Bakanlar Komitesi denetimindeki 5/3 grubu izlenmeye başlandı.",
    "kayitlar": [
-    "fd6152346b",
-    "0d87d9b629",
-    "badcfb410c"
+    "001-252399"
+   ]
+  },
+  {
+   "tarih": "2026-10-11",
+   "adim": "Bu pencerede dosyaya ilişkin yeni haber ya da icra kaydı gelmedi; değerlendirme karar metnine dayanıyor.",
+   "kayitlar": [
+    "001-252399"
    ]
   }
  ],
  "izlenecekler": [
-  "ABD'nin ICC'ye yönelik yaptırım kararının resmî metni, kapsamı ve 14203 sayılı kararname davasına (t40) etkisi",
-  "Gözaltına alınan Mustafa Balcı ve diğer gazetecinin akıbeti ile Ali Tarakcı iddianamesinin kabul edilip edilmediği",
-  "Abdullah Tırpan hakkındaki hastaneye yatış ve infazın ertelenmesi talebine verilecek yanıt",
-  "7595 sayılı Kanun'un metni ve AİHM icra dosyalarıyla ilişkisi (t37)",
-  "AB Komisyonu'nun Türkiye'ye ilişkin yazılı genişleme değerlendirmesinin yayımlanması"
+  "Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin içeriği ve 7595 sayılı Kanun'un madde metni (t37)",
+  "Tanrıverdi kararının üç aylık ödeme süresi ve Bakanlar Komitesi'nde hangi md. 5/3 grubuna bağlanacağı (t41)",
+  "Müyesser Uğur kararının md. 44/2 uyarınca kesinleşmesi ve 7.500 avroluk ödemenin süresi (t78)",
+  "29 Eylül 2026 tarihli üç ByLock kararında CMK 311/1(f) uyarınca yapılacak yeniden yargılama taleplerinin iç hukuktaki seyri (t56, t71)",
+  "Sosyal ağ sağlayıcılara yaş doğrulama yükümlülüğü getiren 10 Ekim 2026 tarihli yönetmeliğin uygulanması"
  ],
- "gun": "2026-10-10",
- "olusturma": "2026-10-10T08:07+00:00",
+ "gun": "2026-10-11",
+ "olusturma": "2026-10-11T08:17+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "84e024e6d5",
   "a167f2a926",
+  "33a9b47f0e",
+  "a50cc3ecb2",
+  "79390c3dbd",
+  "0b8478c40e",
+  "0ca7bc1452",
+  "e845177e28",
+  "a1bf0ef20a",
+  "b500a26354",
   "2ac488c9f0",
   "5be1d4ab0b",
   "7707852404",
   "26d3167cd8",
-  "bbbb9bc2dc",
   "e56d0f201c",
   "6546377682",
   "22ea7d6257",
-  "18292e7aad",
-  "aca35d0703",
-  "add48281e9",
   "ebe0ad552d",
   "38a1462619",
-  "516fc3c5fb",
   "1f27dc9bf6",
+  "dbf60da6bf",
+  "516fc3c5fb",
   "e9f673f0d0",
   "4f773d1a08",
-  "570423651b",
-  "9e5950476e",
-  "d2f19c42aa",
-  "83ddcd1ae9",
-  "5828ea99d4",
-  "e85aa89e88",
-  "a89b1e68fc",
-  "39c77bc98a",
-  "b27bc91b8f",
-  "2989742cc4",
+  "839d870457",
   "26f0aaebce",
   "c7e8adf7e4",
+  "f170d4f205",
   "6b15b07221",
   "ff80f3bd05",
   "1768a5c012",
@@ -896,16 +838,20 @@
   "0d87d9b629",
   "badcfb410c",
   "c5477ea33b",
+  "b9602ba8f1",
   "f45a3a64e2",
-  "6f767eed29",
-  "d8c82af41b",
   "d57152cb8a",
-  "b04d164d47",
-  "7eee5f9323"
+  "e6089d066f",
+  "8b36bf53f3",
+  "5556ee8e05",
+  "9c64e0ccf0",
+  "81227e395e",
+  "83590ae3ef",
+  "6584d00c6f"
  ],
- "maliyet_usd": 0.8872,
- "girdi_token": 52120,
- "cikti_token": 21111,
+ "maliyet_usd": 0.7409,
+ "girdi_token": 46746,
+ "cikti_token": 16849,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -916,31 +862,11 @@
    },
    {
     "id": "one1",
-    "hukum": "dayanaklı",
-    "not": ""
+    "hukum": "kısmen",
+    "not": "8b36bf53f3 özetinde yalnızca 3 madde metinde görünüyor (gerisi kesilmiş); kalan iki maddenin de üniversite yönetmeliği olduğu doğrulanamıyor, 'hepsi' ifadesi tam teyit edilemiyor."
    },
    {
     "id": "one2",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one3",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one4",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one5",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one6",
     "hukum": "dayanaklı",
     "not": ""
    },
@@ -970,12 +896,12 @@
     "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen kayıt ve birincil belgelerle örtüşüyor, olgusal dayanak sorunu tespit edilmedi.",
+  "genel": "İddiaların büyük çoğunluğu kayıtlarla doğrudan örtüşüyor; yalnızca 11 Ekim RG özetindeki 'hepsi üniversite yönetmeliği' ifadesi kesilmiş kaynak nedeniyle tam teyit edilemiyor.",
   "model": "claude-sonnet-5",
-  "girdi_token": 41318,
-  "cikti_token": 1621,
-  "maliyet_usd": 0.0988,
-  "iddia_sayisi": 12
+  "girdi_token": 32251,
+  "cikti_token": 2143,
+  "maliyet_usd": 0.0859,
+  "iddia_sayisi": 8
  },
  "takip_acik": [
   {
@@ -1263,8 +1189,8 @@
    "baslik": "Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun'un kapsamı",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-24",
-   "son_hareket": "2026-10-10",
-   "hareket_sayisi": 10
+   "son_hareket": "2026-10-11",
+   "hareket_sayisi": 11
   },
   {
    "id": "t38",
@@ -1295,8 +1221,8 @@
    "baslik": "Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Bakanlar Komitesi denetiminde hangi 5/3 grubuna gireceği",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-25",
-   "son_hareket": "2026-10-09",
-   "hareket_sayisi": 5
+   "son_hareket": "2026-10-11",
+   "hareket_sayisi": 6
   },
   {
    "id": "t42",
@@ -1720,6 +1646,22 @@
    "alan": "Belçika ve AB mevzuatı",
    "acildi": "2026-10-10",
    "son_hareket": "2026-10-10",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t95",
+   "baslik": "Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 ila -14) içeriğinin belirlenmesi",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-10-11",
+   "son_hareket": "2026-10-11",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t96",
+   "baslik": "10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-11",
+   "son_hareket": "2026-10-11",
    "hareket_sayisi": 0
   }
  ]
