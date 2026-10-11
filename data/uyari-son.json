@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-11",
- "olusturma": "2026-10-11T12:01+00:00",
+ "olusturma": "2026-10-11T16:29+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-10-11:toplu:2",
@@ -20,6 +20,16 @@
     "a1bf0ef20a"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
+  },
+  {
+   "id": "saglik:2026-10-11:10",
+   "tur": "kaynak akışı bozuk",
+   "duzey": "yüksek",
+   "baslik": "10 kaynağın akışı hata veriyor",
+   "alan": "kaynak sağlığı",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: US State Department Human Rights Reports, FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Nordic Monitor, Frontex…",
+   "kayitlar": [],
+   "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
  ]
 }
