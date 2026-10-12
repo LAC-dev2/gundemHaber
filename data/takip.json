@@ -7,7 +7,7 @@
    "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-08",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "164e080299",
     "6aa16a463f",
@@ -104,6 +104,14 @@
      "not": "EngelliWeb, Bakırköy 7. Sulh Ceza Hâkimliği'nin 30 Eylül 2026 tarihli ve 2026/9064 sayılı kararıyla kendi X hesabının ve dokuz gazeteci/yayın hesabının engellendiğini duyurdu; gerekçe \"kamu düzeninin bozulmasına yönelik olup suç işlenmesine teşvik\" olarak aktarılıyor. Dernek kapatma davası ve tutuklu sayısına ilişkin bu pencerede yeni kayıt yok.",
      "kayitlar": [
       "93f427a47f"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "HRW ve ARTICLE 19 öncülüğündeki ortak açıklama, engellemelerin önemli bölümünün LGBTİ+ haklarını savunan dernek ve aktivistlere yönelik süregelen geniş kapsamlı operasyon bağlamında verildiğini belirtiyor; engellenen hesaplar arasında Kaos GL, Amnesty Türkiye, MLSA ve Kadın Dernekleri Federasyonu sayılıyor.",
+     "kayitlar": [
+      "0742bf2c17",
+      "985c839586"
      ]
     }
    ]
@@ -612,7 +620,7 @@
    "neden": "Sekiz dosyanın birleştirildiği bir ulusal iltica kararı, merkezin AB içindeki iltica içtihadı takibi açısından ilgili olabilir; kayıtta yalnızca ECLI numarası ve dosya numaraları var, konu bilinmiyor [b5c491d48e].",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-21",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "b5c491d48e"
    ],
@@ -622,6 +630,13 @@
      "not": "Hollanda idari yargısından yeni bir iltica kararı geldi: Rechtbank Den Haag, 17 Eylül 2026 tarihli NL26.48114/NL26.48115 sayılı kararda Cezayir uyruklu başvurucunun kimliğini, cinsiyet kimliğini ve biseksüelliğini inandırıcı bulmayan idari değerlendirmeyi yerinde görerek başvuruyu reddetti. Zeeland-West-Brabant dosyalarından farklı bir mahkeme ve farklı bir menşe ülke söz konusu; bağlantı tematik (inandırıcılık denetimi).",
      "kayitlar": [
       "96968e9b1d"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Doğrudan Zeeland-West-Brabant dosyalarına değil, ama aynı içtihat hattına ait yeni bir karar kayda girdi: Rechtbank Den Haag'ın 28 Eylül 2026 tarihli NL25.35230 sayılı kararı (ECLI:NL:RBDHA:2026:28818), 2017'den bu yana sorun yaşanmamış olmasına dayanarak Türk başvurucunun makamlardan korku duymasını gerektiren bir durum bulunmadığı sonucunu hukuka uygun buldu.",
+     "kayitlar": [
+      "8f37aa29c0"
      ]
     }
    ]
@@ -1102,7 +1117,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1200,6 +1215,14 @@
      "kayitlar": [
       "18292e7aad"
      ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Ortak açıklama, Eylül 2026'da verilen kararların bir bölümünde gerekçe olarak belirsiz 'millî güvenlik ve kamu düzeni' ölçütünün kullanıldığını belirtiyor; aylık toplam en az 1.270 hesap olarak veriliyor.",
+     "kayitlar": [
+      "0742bf2c17",
+      "985c839586"
+     ]
     }
    ]
   },
@@ -1210,7 +1233,7 @@
    "neden": "Bakırköy Başsavcılığı'nın müstehcenlik soruşturması kapsamında bir meslek derneğinin X hesabının engellenmesi, 'Ailem Güvende' dosyasında kullanılan isnat kalıbının başka örgütlere uygulanıp uygulanmayacağı sorusunu doğuruyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-06",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "8bbdf842f8"
    ],
@@ -1243,6 +1266,13 @@
      "kayitlar": [
       "f9196af83e",
       "ff80b341b5"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Açıklamada LGBTİ+ örgütlerine yönelik engellemelerin devam eden geniş operasyonun parçası olduğu, Kaos GL dahil hesapların kapatıldığı belirtiliyor; müstehcenlik gerekçesine açıkça atıf yapılmıyor.",
+     "kayitlar": [
+      "0742bf2c17"
      ]
     }
    ]
@@ -1407,7 +1437,7 @@
    "neden": "Dosya, kişi ve kuruluş bazlı yaptırım listelerinin sivil toplum ve mağdur temsili üzerindeki dolaylı etkisini bir mahkeme önünde tartışmaya açıyor; merkezin yaptırım listesi dosyalarında doğrudan emsal değeri izlenmeli.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-10",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "9a0f5a3998"
    ],
@@ -1426,6 +1456,13 @@
       "bbbb9bc2dc",
       "6b15b07221",
       "e56d0f201c"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Opinio Juris'te ABD-ICC ilişkisini 'yıkıcı istisnacılık' çerçevesinde ele alan akademik bir yazı yayımlandı; 14203 sayılı Kararname davasında usul adımına ilişkin kayıt yok.",
+     "kayitlar": [
+      "cb14a37fd3"
      ]
     }
    ]
@@ -1636,7 +1673,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -1710,6 +1747,14 @@
      "not": "Yeni dalgada da hesapların büyük kısmının X tarafından Türkiye'den görünmez kılındığı kaydedildi; engelleme kararı ile platform uygulaması arasındaki zamanlama kayıtta ayrıca belirtilmiyor.",
      "kayitlar": [
       "18292e7aad"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Açıklamaya göre X, Eylül 2026'daki kararların en az yüzde 90'ına uyarak hesapları yalnızca Türkiye'den erişime kapattı (geo-blocking); bu, 'görünmez kılınma' pratiğinin oransal büyüklüğüne ilişkin ilk toplu veri.",
+     "kayitlar": [
+      "0742bf2c17",
+      "985c839586"
      ]
     }
    ]
@@ -1842,7 +1887,7 @@
    "neden": "Kararlar kesin ve manevi tazminat verilmedi; giderim yolu iç hukukta yeniden yargılamaya bağlandı. Yeniden yargılamaların 'kararın sonuç ve ruhuna uygun' yürütülüp yürütülmediği izlenmesi gereken tek somut ölçüt.",
    "acildi": "2026-09-30",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "001-252506",
     "001-252504",
@@ -1890,6 +1935,13 @@
      "kayitlar": [
       "001-252504",
       "001-252505",
+      "001-252506"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Korkmaz ve diğerleri kararının metni kayda girdi: Mahkeme, ihlal tespitinin yeterli adil tatmin oluşturduğunu, başvurucuların CMK 311/1(f) uyarınca yeniden yargılama talep edebileceğini ve bu tür takip başvurularında masraf ödenmediğini açıkça yazıyor.",
+     "kayitlar": [
       "001-252506"
      ]
     }
@@ -2139,7 +2191,7 @@
    "neden": "Ünal'da yalnızca md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7 ihlali bulunmuş; icra takibinde dosyaların hangi gruba gireceği ve yeniden yargılama taleplerinin dayanağı bu ayrıma bağlı.",
    "acildi": "2026-10-04",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "001-252504",
     "001-252505",
@@ -2157,6 +2209,15 @@
     {
      "gun": "2026-10-09",
      "not": "Başvuru sayıları karar metinlerinden doğrulandı: Ünal 61641/19 ve 590 diğer başvuru, Parun 9991/20 ve 344 diğer başvuru, Korkmaz 36880/20 ve 10 diğer başvuru. İhlal maddeleri üç kararda farklılaşıyor (6/1; 6/1+7; yalnız 7).",
+     "kayitlar": [
+      "001-252504",
+      "001-252505",
+      "001-252506"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Üç kararın metinleri kayda girdi ve başvuru sayıları doğrulandı: Ünal ve diğerleri 61641/19 ve 590 başvuru, Parun ve diğerleri 9991/20 ve 344 başvuru, Korkmaz ve diğerleri 36880/20 ve 10 başvuru. İhlal maddeleri farklılaşıyor: Ünal'da yalnızca md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7.",
      "kayitlar": [
       "001-252504",
       "001-252505",
@@ -2198,7 +2259,7 @@
    "neden": "Solidarity with OTHERS, İFÖD'ün çalışmasına yönelik beş gün içindeki dördüncü karar olduğunu bildiriyor; engelleri sayan kuruluşun kendi kanalının kapatılması, engelleme verisinin kamuya açıklığını doğrudan etkiliyor.",
    "acildi": "2026-10-05",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "06a8414aa5",
     "47102620eb"
@@ -2225,6 +2286,14 @@
      "not": "Engelleme dalgası yeni bir meslek grubuna daha yayıldı: en az 39 hesap arasında avukat Lale Demirkazan ve gazeteci Ayça Yılmaz da var; engellenen hesapların toplam takipçisi yaklaşık 465 bin.",
      "kayitlar": [
       "18292e7aad"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Ortak açıklama, X'in İFÖD'ün, kurucu ortağı Yaman Akdeniz'in ve engelleme kararlarını belgeleyen EngelliWeb hesabının erişimini kapattığını teyit ediyor ve bu hesabın sivil toplum için izleme işlevine vurgu yapıyor.",
+     "kayitlar": [
+      "0742bf2c17",
+      "985c839586"
      ]
     }
    ]
@@ -2275,7 +2344,7 @@
    "neden": "Karar, tutukluluğun kendisini md. 10 müdahalesi olarak ele alıyor ve iç hukuk mahkemelerinin dengeleme yapmadığını saptıyor; ödeme süresi ve Bakanlar Komitesi'nde hangi gruba gireceği izlenmeli.",
    "acildi": "2026-10-06",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "001-252630"
    ],
@@ -2291,6 +2360,13 @@
     {
      "gun": "2026-10-09",
      "not": "Kararın tam metni birincil belge olarak elimize geçti: md. 10 ihlali, 7.500 avro manevi tazminat, maddi tazminat talebi reddi, üç aylık ödeme süresi ve Yargıç Yüksel'in md. 41 bakımından kısmi muhalefeti.",
+     "kayitlar": [
+      "001-252630"
+     ]
+    },
+    {
+     "gun": "2026-10-12",
+     "not": "Müyesser Uğur kararının tam metni kayda girdi: 7.500 avro manevi tazminat, kararın kesinleşmesinden itibaren üç ay içinde ödenecek; maddi tazminat talebi reddedildi ve Yargıç Yüksel adil tatmin yönünden kısmi karşı oy yazdı.",
      "kayitlar": [
       "001-252630"
      ]
@@ -2411,11 +2487,19 @@
    "neden": "Tek kararla hem bir izleme kuruluşu hem bir haber ajansı hem de sekiz gazetecinin hesabı engellendi ve içeriklerin kaldırılmasına hükmedildi; aynı hesapların daha önce de engellenmiş olması tekrarlanan tedbir pratiğini gösteriyor.",
    "acildi": "2026-10-08",
    "durum": "açık",
-   "son_hareket": "2026-10-08",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "93f427a47f"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-12",
+     "not": "Ortak açıklamada EngelliWeb hesabının X tarafından erişime kapatıldığı teyit ediliyor; 2026/9064 sayılı karara karşı itirazın akıbetine ilişkin yeni bilgi yok.",
+     "kayitlar": [
+      "0742bf2c17"
+     ]
+    }
+   ]
   },
   {
    "id": "t87",
@@ -2476,11 +2560,19 @@
    "neden": "ATK'nın Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim 2026 tarihli değerlendirmeleri aynı yönde 'cezaevinde kalabilir' sonucuna varmış; infazın ertelenmesi talebinin akıbeti izlenmeli.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-10",
+   "son_hareket": "2026-10-12",
    "kayitlar": [
     "a167f2a926"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-12",
+     "not": "Solidarity with OTHERS, Abdullah Tırpan'ı yaşlı ve ağır hasta mahpuslar serisinde yeniden yayımladı; kayıt başlık düzeyinde olup sağlık kurulu veya ATK raporlarına ilişkin yeni veri içermiyor.",
+     "kayitlar": [
+      "6987201209"
+     ]
+    }
+   ]
   },
   {
    "id": "t92",
@@ -2554,8 +2646,61 @@
     "9c64e0ccf0"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t97",
+   "baslik": "Altaş v. Türkiye (14188/25): cezaevinde açlık grevine ilişkin iki mektup nedeniyle verilen 11 günlük hücre cezasının md. 10 denetimi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Başvuru 22 Eylül 2026'da tebliğ edilmiş, 12 Ekim 2026'da yayımlanmıştır; Mahkeme iç mahkemelerin dengeleme denetimi yapıp yapmadığını sormaktadır. Cezaevi disiplin yaptırımlarının ifade özgürlüğü boyutu merkezin tutukluluk ve infaz dosyalarıyla kesişir.",
+   "acildi": "2026-10-12",
+   "durum": "açık",
+   "son_hareket": "2026-10-12",
+   "kayitlar": [
+    "001-253138"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t98",
+   "baslik": "HRW, ARTICLE 19, İFÖD ve 18 kuruluşun platform sorumluluğu çağrısına X'in ve Türk makamlarının yanıtı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Açıklama ilk kez aylık toplu veri (en az 1.270 hesap, 35 milyon takipçi, en az yüzde 90 uyum) ortaya koyuyor ve doğrudan platforma yöneltilmiş bir talep içeriyor; yanıt verilip verilmeyeceği izlenmeli.",
+   "acildi": "2026-10-12",
+   "durum": "açık",
+   "son_hareket": "2026-10-12",
+   "kayitlar": [
+    "0742bf2c17",
+    "985c839586"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t99",
+   "baslik": "BM İnsan Hakları Konseyi'nin 12 Ekim 2026 seçimi: rekabetsiz bölgesel listeler ve Burundi'nin yeniden seçimi",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "On beş adayın tamamının rekabetsiz listelerle seçilmesi, Konsey'in üyelik ölçütlerinin (GK 60/251) uygulanabilirliğini ilgilendiriyor; merkezin BM mekanizmalarına yaptığı başvuruların kurumsal bağlamını etkiler.",
+   "acildi": "2026-10-12",
+   "durum": "açık",
+   "son_hareket": "2026-10-12",
+   "kayitlar": [
+    "ea60fd7da8"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t100",
+   "baslik": "Rechtbank Den Haag NL25.35230: Türkiye kaynaklı iltica taleplerinde 'geçen süre' ölçütünün belirleyici hale gelmesi",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Karar, 2017'den bu yana sorun yaşanmamış olmasını risk değerlendirmesinde esas alıyor; aynı ölçütün başka dosyalarda tekrarlanıp tekrarlanmayacağı izlenmeli.",
+   "acildi": "2026-10-12",
+   "durum": "açık",
+   "son_hareket": "2026-10-12",
+   "kayitlar": [
+    "8f37aa29c0"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-11T08:18+00:00",
- "acik": 95
+ "guncelleme": "2026-10-12T08:36+00:00",
+ "acik": 99
 }

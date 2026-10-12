@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-10-11T08:14+00:00",
+ "guncelleme": "2026-10-12T08:31+00:00",
  "pencere_gun": 21,
  "belgeler": [
   {
@@ -83,6 +83,37 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 1134,
    "giris": "CASE OF TANRIVERDİ v. TÜRKİYE (Application no. 16088/17) This judgment is final but it may be subject to editorial revision."
+  },
+  {
+   "itemid": "001-253138",
+   "ad": "ALTAŞ v. TÜRKİYE",
+   "tur": "komisyon",
+   "tarih": "2026-09-22",
+   "maddeler": [
+    "10",
+    "10-1"
+   ],
+   "sonuc": "Communicated",
+   "basvuru": "14188/25",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253138",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 285,
+   "giris": "Published on 12 October 2026 Application no. 14188/25 Musa ALTAŞ against Türkiye lodged on 24 April 2025 communicated on 22 September 2026 SUBJECT MATTER OF THE CASE"
+  },
+  {
+   "itemid": "001-253139",
+   "ad": "SILIK AND OTHERS v. TÜRKİYE",
+   "tur": "komisyon",
+   "tarih": "2026-09-22",
+   "maddeler": [
+    "3"
+   ],
+   "sonuc": "Communicated",
+   "basvuru": "30809/23",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253139",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 751,
+   "giris": "Published on 12 October 2026 Application no. 30809/23 Binefş SILIK and Others against Türkiye lodged on 26 July 2023 communicated on 22 September 2026 SUBJECT MATTER OF THE CASE"
   }
  ]
 }
