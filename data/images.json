@@ -1323,6 +1323,10 @@
 "checked": "2026-10-09T17:15:33+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:30057&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-01T09:39:14+00:00",
 "img": ""
@@ -2283,6 +2287,10 @@
 "checked": "2026-09-24T13:10:17+00:00",
 "img": ""
 },
+"https://globalinvestigationsreview.com/article/occs-350m-amex-fine-signals-aml-still-top-us-priority": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjUtMDEvc2h1dHRlcnN0b2NrXzE1ODIwODE2OTAuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
 "https://globalinvestigationsreview.com/article/ofcom-investigating-metas-compliance-illegal-content-rules": {
 "checked": "2026-10-06T17:00:20+00:00",
 "img": ""
@@ -2553,6 +2561,10 @@
 },
 "https://ihop.org.tr/22592-2/": {
 "checked": "2026-09-16T12:55:10+00:00",
+"img": ""
+},
+"https://inforjeunes.be/le-6-11-2026-ce-que-les-medias-font-du-droit/": {
+"checked": "2026-10-12T10:03:40+00:00",
 "img": ""
 },
 "https://jrsbelgium.org/jrs-zoekt-een-vrijwilliger-bezoek-aan-gezinnen-in-de-fitt-woonunits-m-v-x/": {
@@ -3475,6 +3487,10 @@
 "checked": "2026-09-30T16:34:33+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Allica-Bank-and-Adclear-turn-compliance-into-growth.jpg"
 },
+"https://regtechanalyst.com/amex-aml-failures-cost-350m-as-regulators-demand-overhaul/": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/American-Express-hit-with-350m-AML-penalty.jpg"
+},
 "https://regtechanalyst.com/aml-automation-where-compliance-needs-humans/": {
 "checked": "2026-10-01T11:18:21+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-AML-automation-still-needs-human-judgment.jpg"
@@ -3763,6 +3779,10 @@
 "checked": "2026-10-05T13:27:32+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/RegTech-hits-AI-roadblock-as-firms-struggle-to-trust.jpg"
 },
+"https://regtechanalyst.com/regulators-turn-their-gaze-on-ai-communications-in-2026/": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-88-of-firms-are-struggling-to-govern-workplace-AI.jpg"
+},
 "https://regtechanalyst.com/rein-security-bets-25m-that-runtime-is-the-new-perimeter/": {
 "checked": "2026-10-09T17:15:33+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Rein-Security-lands-25m-as-AI-agents-outrun-security.jpg"
@@ -3891,6 +3911,10 @@
 "checked": "2026-10-06T08:29:23+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-liveness-detection-is-now-a-core-KYC-control.jpg"
 },
+"https://regtechanalyst.com/why-news-api-source-counts-may-be-misleading-buyers/": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Inflated-coverage-claims-put-news-API-buyers-at-risk.jpg"
+},
 "https://regtechanalyst.com/why-personal-trading-rules-keep-failing-under-pressure/": {
 "checked": "2026-10-09T09:51:57+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-personal-trading-rules-keep-failing-under-pressure.jpg"
@@ -3937,6 +3961,10 @@
 },
 "https://rli.blogs.sas.ac.uk/2026/09/21/between-afghanistan-and-germany-rebuilding-belonging-across-borders/": {
 "checked": "2026-09-21T11:12:04+00:00",
+"img": ""
+},
+"https://rli.blogs.sas.ac.uk/2026/10/12/understanding-feminist-extalgia-in-gone/": {
+"checked": "2026-10-12T10:03:40+00:00",
 "img": ""
 },
 "https://securitylab.amnesty.org/latest/2026/08/strengthening-the-tools-behind-consensual-forensics-secure-design-assessment/": {
@@ -4103,6 +4131,10 @@
 "checked": "2026-10-11T10:37:12+00:00",
 "img": ""
 },
+"https://solidaritywithothers.com/eu-enlargement-commissioner-says-media-freedom-and-lgbtiq-rights-are-widening-the-gap-with-turkeys-membership-goal/?utm_source=rss&utm_medium=rss&utm_campaign=eu-enlargement-commissioner-says-media-freedom-and-lgbtiq-rights-are-widening-the-gap-with-turkeys-membership-goal": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://solidaritywithothers.com/wp-content/uploads/2026/10/featured-image-28.jpg"
+},
 "https://solidaritywithothers.com/european-court-of-human-rights-finds-violations-for-947-more-people-convicted-on-bylock-evidence-in-three-judgments-delivered-on-one-day/?utm_source=rss&utm_medium=rss&utm_campaign=european-court-of-human-rights-finds-violations-for-947-more-people-convicted-on-bylock-evidence-in-three-judgments-delivered-on-one-day": {
 "checked": "2026-09-29T11:01:17+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/09/featured-image-98.jpg"
@@ -4186,6 +4218,10 @@
 "https://solidaritywithothers.com/sincan-prison-confiscates-hearing-aid-from-imprisoned-erol-boydak-with-50-hearing-loss/?utm_source=rss&utm_medium=rss&utm_campaign=sincan-prison-confiscates-hearing-aid-from-imprisoned-erol-boydak-with-50-hearing-loss": {
 "checked": "2026-09-18T14:43:11+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/09/featured-image-50.jpg"
+},
+"https://solidaritywithothers.com/strasbourg-finds-turkiye-violated-article-10-by-detaining-journalist-muyesser-ugur-five-months-over-her-libya-reporting/?utm_source=rss&utm_medium=rss&utm_campaign=strasbourg-finds-turkiye-violated-article-10-by-detaining-journalist-muyesser-ugur-five-months-over-her-libya-reporting": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://solidaritywithothers.com/wp-content/uploads/2026/10/featured-image-29.jpg"
 },
 "https://solidaritywithothers.com/strasbourg-questions-turkey-over-custody-removed-from-an-acquitted-mother-because-an-appeal-court-called-her-a-gulen-movement-sympathiser/?utm_source=rss&utm_medium=rss&utm_campaign=strasbourg-questions-turkey-over-custody-removed-from-an-acquitted-mother-because-an-appeal-court-called-her-a-gulen-movement-sympathiser": {
 "checked": "2026-09-29T07:38:35+00:00",
@@ -5719,6 +5755,10 @@
 "checked": "2026-10-07T17:37:08+00:00",
 "img": ""
 },
+"https://www.cire.be/le-cire-engage-coordinateur-rice-mi-temps-fle/": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://www.cire.be/wp-content/uploads/2024/05/vue-dessus-emploi-note-ecrite-petit-papier-colore-notes-fond-clair-travail-bureau-scolaire-travail-couleur-bloc-notes.jpg"
+},
 "https://www.cire.be/le-cire-recrute-un%c2%b7e-coordinateur%c2%b7rice-pour-son-service-logement/": {
 "checked": "2026-09-16T12:55:59+00:00",
 "img": "https://www.cire.be/wp-content/uploads/2024/05/vue-dessus-emploi-note-ecrite-petit-papier-colore-notes-fond-clair-travail-bureau-scolaire-travail-couleur-bloc-notes.jpg"
@@ -5937,6 +5977,10 @@
 },
 "https://www.esma.europa.eu/press-news/esma-news/esma-host-data-day-2026-data-savings-and-investment-union-burden-opportunity": {
 "checked": "2026-09-24T13:10:17+00:00",
+"img": ""
+},
+"https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition": {
+"checked": "2026-10-12T10:03:40+00:00",
 "img": ""
 },
 "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenised-collateral-central-clearing": {
@@ -6305,6 +6349,10 @@
 },
 "https://www.fma.gv.at/die-fma-warnt-vor-angeboten-der-cmc-trading-eu-ltd/": {
 "checked": "2026-09-24T13:10:17+00:00",
+"img": ""
+},
+"https://www.fma.gv.at/die-fma-warnt-vor-angeboten-von-bull-trade24-ltd/": {
+"checked": "2026-10-12T10:03:40+00:00",
 "img": ""
 },
 "https://www.fma.gv.at/die-fma-warnt-vor-angeboten-von-coinmindz/": {
@@ -8582,6 +8630,10 @@
 "https://www.turkinfo.nl/hollandada-cami-saldirilari-icin-ulusal-ihbar-merkezi/44998": {
 "checked": "2026-09-18T14:43:11+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-cami-saldirilari-icin-ulusal-ihbar-merkezi_6aad32f7ad687.png"
+},
+"https://www.turkinfo.nl/hollandada-casinoda-kazandigi-24-bin-avroya-el-konuldu-gercek-sonradan-ortaya-cikti/45217": {
+"checked": "2026-10-12T10:03:40+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-casinoda-kazandigi-24-bin-avroya-el-konuldu-gercek-sonradan-ortaya-ci_6acca5812bd4b_h.png"
 },
 "https://www.turkinfo.nl/hollandada-cenaze-kurallari-degisiyor-ayni-tabutta-defin-ve-24-saat-kolayligi-teklifte/45088": {
 "checked": "2026-09-28T18:19:27+00:00",
