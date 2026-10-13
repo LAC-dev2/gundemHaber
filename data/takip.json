@@ -7,7 +7,7 @@
    "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "164e080299",
     "6aa16a463f",
@@ -113,6 +113,14 @@
       "0742bf2c17",
       "985c839586"
      ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "Ortak açıklamanın Türkçe duyurusu İFÖD tarafından yayımlandı; metinde en az 96 kuruluş ve kişiye ait site ve hesabın engellendiği, T24'ün 29 Eylül'de 118 yazı gerekçe gösterilerek engellendiği belirtiliyor. Kapatma davalarına ilişkin yeni kayıt yok.",
+     "kayitlar": [
+      "afb16f12ec",
+      "d6133750ae"
+     ]
     }
    ]
   },
@@ -152,7 +160,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -245,6 +253,15 @@
       "001-252504",
       "001-252505",
       "001-252506"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "Adalet Bakanlığı istatistiklerine dayanan derlemeye göre AİHM 2003-2025 arasında Türkiye aleyhine 1.004 adil yargılanma ihlali saptamış; 2025'te 24, 2024'te 13. Bugün ayrıca iki yeni md. 5 kararı (Ocak ve diğerleri, Kaya) yayımlandı.",
+     "kayitlar": [
+      "97d90898e4",
+      "001-252739",
+      "001-252752"
      ]
     }
    ]
@@ -882,7 +899,7 @@
    "neden": "Türkiye ilk gün konuşmacıları arasında; ayrıca uluslararası ceza ve insan hakları kurumlarının zayıflatılmasına ilişkin tartışma merkezin BM mekanizmaları dosyasını etkiler.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-09-26",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "94f64e4573",
     "47b34b0e34"
@@ -911,6 +928,13 @@
      "kayitlar": [
       "3d92d9c395",
       "a496186202"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "ICJ, BM Genel Kurulu 6. Komite'nin 'insanlığa karşı suçlar sözleşmesi konferansı' genel görüşmesi vesilesiyle sivil toplumun müzakerelere katılımı çağrısını yineledi.",
+     "kayitlar": [
+      "5698ac07b9"
      ]
     }
    ]
@@ -1013,7 +1037,7 @@
    "neden": "Rapor, kesin mahkûmiyet olmadan kayyım atanmasına ve şirketlerin satış/tasfiyesine izin veren kalıcı bir rejim tarifi yapıyor; bu, Uzan ve Diğerleri grubunda açık duran genel tedbir sorusunun kapsamını belirliyor. Rakamların bağımsız doğrulaması elimizde yok.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-23",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "676b86c517",
     "001-252500"
@@ -1026,6 +1050,13 @@
       "c7cade7796",
       "676b86c517"
      ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "Nakıboğlu dosyası üzerinden TMSF'ye devredilen Naksan Holding varlıklarının akıbetine ilişkin veri geldi: Naksan Plastik 2022'de 1,48 milyar liraya (yaklaşık 110 milyon dolar) satılmış, Royal Halı, Atlas Halı ve Nakpilsa varlıkları 2024'te özel bir şirkete devredilmiş.",
+     "kayitlar": [
+      "50f95ba584"
+     ]
     }
    ]
   },
@@ -1036,7 +1067,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-10-05",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1086,6 +1117,13 @@
      "kayitlar": [
       "d17a751506"
      ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "Lawyers for Lawyers ve imzacı barolar, Tanganyika Law Society Başkanı Boniface Mwabukusi'ye yönelik işlemler nedeniyle dayanışma açıklaması yayımladı; mesleğin bağımsızlığının korunmasını istedi.",
+     "kayitlar": [
+      "de619b983f"
+     ]
     }
    ]
   },
@@ -1096,7 +1134,7 @@
    "neden": "Cezaya karar verme metodolojisi ve DSA ile GDPR'ın kesiştiği veri işleme alanları, merkezin erişim engelleri ve elektronik delil dosyalarında dayanak oluşturabilir; kılavuz 13 Kasım 2026'ya kadar kamu istişaresinde.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-09-24",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "635da126b9"
    ],
@@ -1106,6 +1144,13 @@
      "not": "EDPB akışında İrlanda Veri Koruma Komisyonu'nun Google Ireland hakkında 403.000.000 avro idari para cezasına hükmettiği nihai karar duyuruldu; inceleme Şubat 2020'de açılmış, konum verisiyle ilgili üç özelliği 25 Mayıs 2018'den 4 Şubat 2020'ye kadar kapsıyor. Kılavuzun nihai hali ya da DSA-GDPR etkileşimi belgesi hakkında bu pencerede yeni bilgi yok.",
      "kayitlar": [
       "0328807ef5"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "EDPB duyurusuna göre İtalyan veri koruma otoritesi Wind Tre'ye hukuka aykırı telefonla pazarlama ve veri koruma ihlalleri nedeniyle 16.700.000 avro idari para cezası verdi. Kayıt başlık düzeyinde.",
+     "kayitlar": [
+      "972b3a0440"
      ]
     }
    ]
@@ -1310,7 +1355,7 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-11",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "2ac488c9f0"
    ],
@@ -1401,6 +1446,13 @@
       "a1bf0ef20a",
       "b500a26354"
      ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "7595 sayılı Kanun'a ait Resmî Gazete kaydı yeniden tarandı; içerik hâlâ başlık düzeyinde, maddelerin kapsamı kayıtlardan görülmüyor.",
+     "kayitlar": [
+      "2ac488c9f0"
+     ]
     }
    ]
   },
@@ -1437,7 +1489,7 @@
    "neden": "Dosya, kişi ve kuruluş bazlı yaptırım listelerinin sivil toplum ve mağdur temsili üzerindeki dolaylı etkisini bir mahkeme önünde tartışmaya açıyor; merkezin yaptırım listesi dosyalarında doğrudan emsal değeri izlenmeli.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "9a0f5a3998"
    ],
@@ -1463,6 +1515,13 @@
      "not": "Opinio Juris'te ABD-ICC ilişkisini 'yıkıcı istisnacılık' çerçevesinde ele alan akademik bir yazı yayımlandı; 14203 sayılı Kararname davasında usul adımına ilişkin kayıt yok.",
      "kayitlar": [
       "cb14a37fd3"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "CICC ve 60'tan fazla ülkeden 120'yi aşkın kuruluş ortak açıklamayla ABD'nin 9 Ekim 2026'da 14203 sayılı Kararname uyarınca ICC'ye kurum olarak uyguladığı yaptırımları kınadı; açıklama altı aylık tasfiye süresine ve ikincil yaptırım riskine dikkat çekiyor.",
+     "kayitlar": [
+      "0a404154d5"
      ]
     }
    ]
@@ -2001,7 +2060,7 @@
    "neden": "Bir ulusal haber sitesinin bütünüyle engellenmesi, 8/A ve müstehcenlik gerekçeli engel pratiğinin tek tek hesaplardan yayın kuruluşuna genişlediğini gösteriyor. Karara karşı itirazın akıbeti ve engelin kapsamı izlenmeli.",
    "acildi": "2026-10-01",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "49a4559fff",
     "ac0df84564"
@@ -2027,6 +2086,14 @@
      "not": "Eski AİHM yargıcı Rıza Türmen, T24'ün tüm sitesinin 118 yazı gerekçesiyle engellenmesini ölçüsüz bulduğunu ve 5651 md. 8/A'da 'aile yapısının zayıflatılması' diye bir sınırlama sebebi bulunmadığını söyledi; T24'ün söz konusu 118 yazıyı karar sonrası erişime kapattığını, dolayısıyla site genelinde engelleme için gerekli istisnai koşulların oluşmadığını belirtti.",
      "kayitlar": [
       "84e024e6d5"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "Ortak açıklamada T24 dosyası örnek olarak anlatılıyor: 29 Eylül'de site ve 1,9 milyon takipçili X hesabı 118 yazı gerekçesiyle engellendi, site 30 Eylül'den beri Türkiye'den erişilemiyor; T24 kullanıcı adını değiştirince yeni hesabı da engellendi.",
+     "kayitlar": [
+      "d6133750ae",
+      "afb16f12ec"
      ]
     }
    ]
@@ -2191,7 +2258,7 @@
    "neden": "Ünal'da yalnızca md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7 ihlali bulunmuş; icra takibinde dosyaların hangi gruba gireceği ve yeniden yargılama taleplerinin dayanağı bu ayrıma bağlı.",
    "acildi": "2026-10-04",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "001-252504",
     "001-252505",
@@ -2219,6 +2286,16 @@
      "gun": "2026-10-12",
      "not": "Üç kararın metinleri kayda girdi ve başvuru sayıları doğrulandı: Ünal ve diğerleri 61641/19 ve 590 başvuru, Parun ve diğerleri 9991/20 ve 344 başvuru, Korkmaz ve diğerleri 36880/20 ve 10 başvuru. İhlal maddeleri farklılaşıyor: Ünal'da yalnızca md. 6/1, Parun'da md. 6/1 ve md. 7, Korkmaz'da yalnızca md. 7.",
      "kayitlar": [
+      "001-252504",
+      "001-252505",
+      "001-252506"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "SCF derlemesi 29 Eylül 2026 tarihli üç kararın sayılarını yineledi: Ünal ve diğerleri 591 başvuruda md. 6, Parun ve diğerleri 345 başvuruda md. 6 ve md. 7, Korkmaz ve diğerleri 11 başvuruda md. 7. Bu rakamlar karar metinleriyle uyumlu.",
+     "kayitlar": [
+      "97d90898e4",
       "001-252504",
       "001-252505",
       "001-252506"
@@ -2487,7 +2564,7 @@
    "neden": "Tek kararla hem bir izleme kuruluşu hem bir haber ajansı hem de sekiz gazetecinin hesabı engellendi ve içeriklerin kaldırılmasına hükmedildi; aynı hesapların daha önce de engellenmiş olması tekrarlanan tedbir pratiğini gösteriyor.",
    "acildi": "2026-10-08",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "93f427a47f"
    ],
@@ -2497,6 +2574,13 @@
      "not": "Ortak açıklamada EngelliWeb hesabının X tarafından erişime kapatıldığı teyit ediliyor; 2026/9064 sayılı karara karşı itirazın akıbetine ilişkin yeni bilgi yok.",
      "kayitlar": [
       "0742bf2c17"
+     ]
+    },
+    {
+     "gun": "2026-10-13",
+     "not": "Ortak açıklamaya göre 400 bin takipçili bianet hesabının engellenmesinin ardından kurum X kullanıcı adını değiştirdi. İtiraz süreçlerinin akıbetine ilişkin kayıt yok.",
+     "kayitlar": [
+      "d6133750ae"
      ]
     }
    ]
@@ -2508,11 +2592,19 @@
    "neden": "Avrupa Konseyi işkenceyi önleme organının tespitleri, hem AİHM md. 3 başvurularında hem de iade/iltica dosyalarında geri gönderme riski değerlendirmesinde dayanak oluşturur. Raporların tam metni ve hükümet yanıtı izlenmeli.",
    "acildi": "2026-10-09",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "6ee08c8b19"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-13",
+     "not": "CPT raporlarının ikinci okuması kayda girdi: komite psikiyatri kurumlarını da inceledi, Türkiye'den ruh sağlığı yasası çıkarmasını ve çocuklu göçmen ailelerin idari gözetim altına alınmasından kaçınmasını istedi.",
+     "kayitlar": [
+      "3ce31131c9"
+     ]
+    }
+   ]
   },
   {
    "id": "t88",
@@ -2581,11 +2673,19 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-10",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "1768a5c012"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-13",
+     "not": "İstanbul Ataşehir Belediyesi'nde seçilmiş belediye başkanının tutuklanmasının ardından AKP yönetimi devraldı; muhalefet meclis üyeleri vekil başkan seçimini boykot etti.",
+     "kayitlar": [
+      "b413acb3ff"
+     ]
+    }
+   ]
   },
   {
    "id": "t93",
@@ -2620,7 +2720,7 @@
    "neden": "Kayıtlar yalnızca dosya adı düzeyinde; aynı pencerede 7595 sayılı Kanun kaydıyla birlikte geldikleri için içeriklerinin merkezin icra ve el koyma dosyalarıyla ilgisi olup olmadığı doğrulanmalı.",
    "acildi": "2026-10-11",
    "durum": "açık",
-   "son_hareket": "2026-10-11",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "33a9b47f0e",
     "a50cc3ecb2",
@@ -2632,7 +2732,17 @@
     "b500a26354",
     "2ac488c9f0"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-13",
+     "not": "6 Ekim 2026 tarihli Resmî Gazete'nin 20261006-10, -11 ve -12 sayılı belgeleri yeniden tarandı; içerikleri hâlâ dosya adı düzeyinde, konuları belirlenemiyor.",
+     "kayitlar": [
+      "33a9b47f0e",
+      "a1bf0ef20a",
+      "a50cc3ecb2"
+     ]
+    }
+   ]
   },
   {
    "id": "t96",
@@ -2667,12 +2777,21 @@
    "neden": "Açıklama ilk kez aylık toplu veri (en az 1.270 hesap, 35 milyon takipçi, en az yüzde 90 uyum) ortaya koyuyor ve doğrudan platforma yöneltilmiş bir talep içeriyor; yanıt verilip verilmeyeceği izlenmeli.",
    "acildi": "2026-10-12",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "0742bf2c17",
     "985c839586"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-13",
+     "not": "Açıklama İFÖD tarafından Türkçe olarak duyuruldu; metinde Eylül ayında engellenen en az 1.270 X hesabının toplam 35 milyon takipçiye sahip olduğu ve X'in kararların en az %90'ına uyduğu yineleniyor. X'ten ya da Türk makamlarından yanıt kaydı yok.",
+     "kayitlar": [
+      "afb16f12ec",
+      "d6133750ae"
+     ]
+    }
+   ]
   },
   {
    "id": "t99",
@@ -2681,11 +2800,19 @@
    "neden": "On beş adayın tamamının rekabetsiz listelerle seçilmesi, Konsey'in üyelik ölçütlerinin (GK 60/251) uygulanabilirliğini ilgilendiriyor; merkezin BM mekanizmalarına yaptığı başvuruların kurumsal bağlamını etkiler.",
    "acildi": "2026-10-12",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-10-13",
    "kayitlar": [
     "ea60fd7da8"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-13",
+     "not": "ICJ'nin değerlendirmesine göre İnsan Hakları Konseyi 7 Eylül-7 Ekim 2026 tarihli 63. oturumunda 37 karar aldı; bunların dokuzu ülke durumlarına (Afganistan, Burundi, Orta Afrika Cumhuriyeti, DRC, Gürcistan, Rusya, Sudan, Venezuela, Yemen) ilişkin.",
+     "kayitlar": [
+      "5455b41946"
+     ]
+    }
+   ]
   },
   {
    "id": "t100",
@@ -2699,8 +2826,63 @@
     "8f37aa29c0"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t101",
+   "baslik": "Türkiye'nin Yunanistan'dan Gülen bağlantılı kişilerin iadesini talep etmesi ve 2016'da Dedeağaç'a kaçan sekiz askerin dosyası",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "İçişleri Bakanı'nın Yunan makamlarıyla görüşmesinde iade talebini gündeme getirdiği, Yunan yetkililerin ise 'örgütlü ağ' tanımını reddettiği bildiriliyor; aynı pencerede sekiz askerin iltica mücadelesine ilişkin belgesel kayda girdi. İade baskısının kurumsal kanalı ve iltica korumasının seyri izlenmeli.",
+   "acildi": "2026-10-13",
+   "durum": "açık",
+   "son_hareket": "2026-10-13",
+   "kayitlar": [
+    "828680be0d",
+    "8473f412df"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t102",
+   "baslik": "Beraat kararına savcılık itirazı üzerine yeniden tutuklama: Taner Nakıboğlu (Gaziantep) dosyası",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "24 Eylül 2026 tarihli beraatten iki hafta sonra, 9 Ekim'de başka bir ağır ceza mahkemesince yakalama kararı verilmesi, kesinleşmemiş beraatlerin tutukluluğa dönüşmesi pratiğini gösteriyor. Dosya aynı zamanda TMSF'ye devredilen Naksan Holding varlıklarıyla bağlantılı.",
+   "acildi": "2026-10-13",
+   "durum": "açık",
+   "son_hareket": "2026-10-13",
+   "kayitlar": [
+    "50f95ba584"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t103",
+   "baslik": "Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararlarının icrası: üç aylık ödeme süreleri ve md. 5 gruplarındaki yeri",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "İki karar da Komite tarafından verildi ve kesin; Ocak'ta kişi başı 1.500 avro, Kaya'da 4.000 + 1.000 avro hükmedildi. Ödeme sürelerinin ve Bakanlar Komitesi denetiminde hangi 5/3 grubuna gireceklerinin izlenmesi gerekiyor.",
+   "acildi": "2026-10-13",
+   "durum": "açık",
+   "son_hareket": "2026-10-13",
+   "kayitlar": [
+    "001-252739",
+    "001-252752"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t104",
+   "baslik": "BM Çocuk Hakları Komitesi'nin Jas.K.B. ve diğerleri v. Çekya (193/2022) kararı: çocukların göç kaynaklı idari gözetimi",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Komitenin keyfi tutma ve kötü muamele yasağı ihlali saptadığı bildiriliyor; CPT'nin Türkiye'de çocuklu göçmen ailelerin gözetim altına alınmaması yönündeki tavsiyesiyle aynı hatta duruyor. Karar metni henüz kayıtlarda yok.",
+   "acildi": "2026-10-13",
+   "durum": "açık",
+   "son_hareket": "2026-10-13",
+   "kayitlar": [
+    "67e33c2713",
+    "3ce31131c9"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-12T08:36+00:00",
- "acik": 99
+ "guncelleme": "2026-10-13T08:59+00:00",
+ "acik": 103
 }

@@ -1,7 +1,40 @@
 {
- "guncelleme": "2026-10-12T08:31+00:00",
+ "guncelleme": "2026-10-13T08:54+00:00",
  "pencere_gun": 21,
  "belgeler": [
+  {
+   "itemid": "001-252739",
+   "ad": "CASE OF OCAK AND OTHERS v. TÜRKİYE",
+   "tur": "karar",
+   "tarih": "2026-10-13",
+   "maddeler": [
+    "5",
+    "5-3"
+   ],
+   "sonuc": "Violation of Article 5 - Right to liberty and security (Article 5-3 - Reasonableness of pre-trial detention)",
+   "basvuru": "54358/19;56868/19;7087/20;14807/20;15026/20;15638/20;21219/20;21239/20;23120/20;23376/20;23619/20;25539/20;25787/20;33412/20;33441/20;34888/20;39226/20;40911/20;44099/20;44213/20;45821/20;49538/20;51741/20;52095/20;40875/21;59143/21",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252739",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 3120,
+   "giris": "CASE OF OCAK AND OTHERS v. TÜRKİYE (Applications nos. 54358/19 and 25 others – This judgment is final but it may be subject to editorial revision."
+  },
+  {
+   "itemid": "001-252752",
+   "ad": "CASE OF KAYA v. TÜRKİYE",
+   "tur": "karar",
+   "tarih": "2026-10-13",
+   "maddeler": [
+    "5",
+    "5-1",
+    "5-3"
+   ],
+   "sonuc": "Violation of Article 5 - Right to liberty and security (Article 5-1 - Lawful arrest or detention);Violation of Article 5 - Right to liberty and security (Article 5-3 - Reasonableness of pre-trial detention)",
+   "basvuru": "17010/21",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252752",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 5453,
+   "giris": "(Application no. 17010/21) This judgment is final but it may be subject to editorial revision. In the case of Kaya v. Türkiye,"
+  },
   {
    "itemid": "001-252630",
    "ad": "CASE OF MÜYESSER UĞUR v. TÜRKİYE",
@@ -67,53 +100,6 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 2422,
    "giris": "CASE OF KORKMAZ AND OTHERS v. TÜRKİYE (Applications nos. 36880/20 and 10 others – This judgment is final but it may be subject to editorial revision."
-  },
-  {
-   "itemid": "001-252399",
-   "ad": "CASE OF TANRIVERDİ v. TÜRKİYE",
-   "tur": "karar",
-   "tarih": "2026-09-24",
-   "maddeler": [
-    "5",
-    "5-3"
-   ],
-   "sonuc": "Violation of Article 5 - Right to liberty and security (Article 5-3 - Length of pre-trial detention)",
-   "basvuru": "16088/17",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-252399",
-   "kaynak": "HUDOC / AİHM",
-   "kelime": 1134,
-   "giris": "CASE OF TANRIVERDİ v. TÜRKİYE (Application no. 16088/17) This judgment is final but it may be subject to editorial revision."
-  },
-  {
-   "itemid": "001-253138",
-   "ad": "ALTAŞ v. TÜRKİYE",
-   "tur": "komisyon",
-   "tarih": "2026-09-22",
-   "maddeler": [
-    "10",
-    "10-1"
-   ],
-   "sonuc": "Communicated",
-   "basvuru": "14188/25",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-253138",
-   "kaynak": "HUDOC / AİHM",
-   "kelime": 285,
-   "giris": "Published on 12 October 2026 Application no. 14188/25 Musa ALTAŞ against Türkiye lodged on 24 April 2025 communicated on 22 September 2026 SUBJECT MATTER OF THE CASE"
-  },
-  {
-   "itemid": "001-253139",
-   "ad": "SILIK AND OTHERS v. TÜRKİYE",
-   "tur": "komisyon",
-   "tarih": "2026-09-22",
-   "maddeler": [
-    "3"
-   ],
-   "sonuc": "Communicated",
-   "basvuru": "30809/23",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-253139",
-   "kaynak": "HUDOC / AİHM",
-   "kelime": 751,
-   "giris": "Published on 12 October 2026 Application no. 30809/23 Binefş SILIK and Others against Türkiye lodged on 26 July 2023 communicated on 22 September 2026 SUBJECT MATTER OF THE CASE"
   }
  ]
 }
