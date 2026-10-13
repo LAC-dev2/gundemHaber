@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-13",
- "olusturma": "2026-10-13T11:26+00:00",
+ "olusturma": "2026-10-13T12:26+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-13:Türkiye'nin Yunanistan'dan iade talebi ve 2016'da kaçan seki",
@@ -67,12 +67,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-13:11",
+   "id": "saglik:2026-10-13:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "12 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: US State Department Human Rights Reports, FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: US State Department Human Rights Reports, FIDH - Türkiye, Lawyers for Lawyers, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
