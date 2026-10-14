@@ -397,7 +397,7 @@
    "neden": "Gazetecinin iki yıl önce yayımlanmış bir yazı üzerinden tutuklanması ve bakanlık genelgesinin yargıya müdahale olarak nitelenmesi, 10. madde ve yargı bağımsızlığı dosyalarında ayrı bir izleme başlığı gerektiriyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-03",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "89ee1abf99",
     "fd403aaaec"
@@ -439,6 +439,13 @@
      "not": "PACE kararı, LGBTİ+ kişilere ve hak savunucularına yönelik ceza ve idari tedbirlerin sonlandırılmasını, ifade/toplanma/örgütlenme özgürlüğünden kaynaklanan isnatların düşürülmesini istedi. Gazetecilerin yargılandığı dosyaya özel bir atıf kayıtlarda yok.",
      "kayitlar": [
       "43997feb69"
+     ]
+    },
+    {
+     "gun": "2026-10-14",
+     "not": "Tuğba Tekerek'in avukatları tutukluluğun sona erdirilmesi için Anayasa Mahkemesi'ne başvurdu; savcılığın, Tekerek'in LGBTİ+ derneğinin Instagram hesabını yönettiği isnadını destekleyen delili paylaşmadığı ileri sürülüyor [7a4c5413ab]. Dosya iç hukukta AYM aşamasına geçmiş görünüyor.",
+     "kayitlar": [
+      "7a4c5413ab"
      ]
     }
    ]
@@ -1355,7 +1362,7 @@
    "neden": "Kayıtlarda yalnızca kanunun adı ve yayım bilgisi var; içeriği bilinmiyor. Bakanlar Komitesi'nin Demirtaş–Yüksekdağ dosyasında uygulanabilirliğini sorduğu yeni düzenleme tartışmasıyla ilişkili olup olmadığı metin görülmeden belirlenemez.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "2ac488c9f0"
    ],
@@ -1450,6 +1457,13 @@
     {
      "gun": "2026-10-13",
      "not": "7595 sayılı Kanun'a ait Resmî Gazete kaydı yeniden tarandı; içerik hâlâ başlık düzeyinde, maddelerin kapsamı kayıtlardan görülmüyor.",
+     "kayitlar": [
+      "2ac488c9f0"
+     ]
+    },
+    {
+     "gun": "2026-10-14",
+     "not": "7595 sayılı Kanun'a ait Resmî Gazete kaydı yeniden tarandı; kayıt hâlâ yalnızca başlık düzeyinde, kanunun içeriğine ilişkin metin gelmedi [2ac488c9f0].",
      "kayitlar": [
       "2ac488c9f0"
      ]
@@ -1589,7 +1603,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-10",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "b290622139"
    ],
@@ -1630,6 +1644,14 @@
      "not": "Fon skandalı haberciliğinde iki gazeteci (Kısa Dalga editörü Mustafa Balcı dahil) iktidar partisi sözcüsüne ilişkin iddialar nedeniyle 'yanıltıcı bilgi yayma' şüphesiyle gözaltına alındı. Dosya erişim engelinden gözaltı aşamasına geçmiş görünüyor.",
      "kayitlar": [
       "fd6152346b"
+     ]
+    },
+    {
+     "gun": "2026-10-14",
+     "not": "AKP, fon skandalı haberciliği ve eleştirisi nedeniyle iki gazeteci, bir bağımsız kanal ve bir muhalefet sözcüsünden 1,6 milyon lira (32.400 dolar) tazminat istedi [e810d4f2a3]. CPJ ise fon skandalı haberleri nedeniyle hapis ya da ev hapsinde bulunan dört gazetecinin serbest bırakılmasını istedi ve Türkiye'de en az 22 gazetecinin cezaevinde olduğunu bildirdi [2626d3e449]. Dosya erişim engelinden tazminat davası ve tutukluluk hattına genişliyor.",
+     "kayitlar": [
+      "e810d4f2a3",
+      "2626d3e449"
      ]
     }
    ]
@@ -2673,7 +2695,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -2683,6 +2705,13 @@
      "not": "İstanbul Ataşehir Belediyesi'nde seçilmiş belediye başkanının tutuklanmasının ardından AKP yönetimi devraldı; muhalefet meclis üyeleri vekil başkan seçimini boykot etti.",
      "kayitlar": [
       "b413acb3ff"
+     ]
+    },
+    {
+     "gun": "2026-10-14",
+     "not": "CHP milletvekili İbrahim Arslan, Mart 2024 yerel seçimlerinden bu yana parti değiştirme, kayyım atama ve yargı işlemleri yoluyla 156 belediyede seçmen tercihinin etkilendiğini ileri sürdü [38a450186d]. Bu, dosyada daha önce kayda giren 40 tutuklu CHP'li başkan rakamından farklı bir ölçüt; iki sayı aynı şeyi ölçmüyor.",
+     "kayitlar": [
+      "38a450186d"
      ]
     }
    ]
@@ -2720,7 +2749,7 @@
    "neden": "Kayıtlar yalnızca dosya adı düzeyinde; aynı pencerede 7595 sayılı Kanun kaydıyla birlikte geldikleri için içeriklerinin merkezin icra ve el koyma dosyalarıyla ilgisi olup olmadığı doğrulanmalı.",
    "acildi": "2026-10-11",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "33a9b47f0e",
     "a50cc3ecb2",
@@ -2741,6 +2770,15 @@
       "a1bf0ef20a",
       "a50cc3ecb2"
      ]
+    },
+    {
+     "gun": "2026-10-14",
+     "not": "6 Ekim 2026 tarihli Resmî Gazete'ye ait 20261006-8, -10 ve -11 sayılı belgeler yeniden tarandı; kayıtlar yalnızca dosya adı düzeyinde, içerik hâlâ belirlenemedi [79390c3dbd][33a9b47f0e][a1bf0ef20a].",
+     "kayitlar": [
+      "79390c3dbd",
+      "33a9b47f0e",
+      "a1bf0ef20a"
+     ]
     }
    ]
   },
@@ -2751,11 +2789,19 @@
    "neden": "Siber Güvenlik Başkanlığı'nca çıkarılan yönetmelik, sosyal ağ sağlayıcılarına yeni yükümlülükler getiriyor; merkezin 5651 sayılı Kanun kaynaklı erişim engeli dosyalarıyla aynı düzenleyici alanda duruyor.",
    "acildi": "2026-10-11",
    "durum": "açık",
-   "son_hareket": "2026-10-11",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "9c64e0ccf0"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-14",
+     "not": "İFÖD, yaş doğrulama Yönetmeliği hakkında basın açıklaması yayımladı ve Danıştay'da iptal ile yürütmenin durdurulması talebiyle dava açacağını duyurdu [255743849a]. Açıklamaya göre Yönetmelik yalnızca 15 yaş altını değil tüm kullanıcıları e-Devlet üzerinden üretilecek 'yaş doğrulama belirteci' ile doğrulamaya zorluyor; mevcut hesaplar için son tarih 31 Mart 2027.",
+     "kayitlar": [
+      "255743849a"
+     ]
+    }
+   ]
   },
   {
    "id": "t97",
@@ -2834,12 +2880,21 @@
    "neden": "İçişleri Bakanı'nın Yunan makamlarıyla görüşmesinde iade talebini gündeme getirdiği, Yunan yetkililerin ise 'örgütlü ağ' tanımını reddettiği bildiriliyor; aynı pencerede sekiz askerin iltica mücadelesine ilişkin belgesel kayda girdi. İade baskısının kurumsal kanalı ve iltica korumasının seyri izlenmeli.",
    "acildi": "2026-10-13",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "828680be0d",
     "8473f412df"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-14",
+     "not": "İçişleri Bakanı Mustafa Çiftçi'nin 8 Ekim Atina ziyaretine ilişkin ayrıntılar kayda girdi: Yunan gözetiminde olduğunu söylediği 60 kişi için hızlandırılmış iade usulü istenmiş, bir kısmının INTERPOL kırmızı bülteniyle arandığı ileri sürülmüş [e7b02265de]. Yunan Vatandaşın Korunması Bakanlığı kaynakları hareketin Yunanistan'da örgütlü bir kolu bulunduğu iddiasını reddetti; iade dosyalarına aşina bir kaynak, son dönemde Gülen bağlantısı ya da siyasi gerekçeyle kovuşturulan biri için resmî talep görünmediğini, gelen taleplerin cinayet, soygun ve adam kaçırma isnatlarına ilişkin olduğunu söyledi.",
+     "kayitlar": [
+      "e7b02265de",
+      "8473f412df"
+     ]
+    }
+   ]
   },
   {
    "id": "t102",
@@ -2861,12 +2916,21 @@
    "neden": "İki karar da Komite tarafından verildi ve kesin; Ocak'ta kişi başı 1.500 avro, Kaya'da 4.000 + 1.000 avro hükmedildi. Ödeme sürelerinin ve Bakanlar Komitesi denetiminde hangi 5/3 grubuna gireceklerinin izlenmesi gerekiyor.",
    "acildi": "2026-10-13",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-14",
    "kayitlar": [
     "001-252739",
     "001-252752"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-14",
+     "not": "Ocak ve diğerleri ile Kaya kararlarının HUDOC metinleri elimize geçti; Ocak'ta 26 başvurucuya kişi başı 1.500 avro (manevi tazminat ve masraflar birlikte), Kaya'da 4.000 avro manevi tazminat ve 1.000 avro masraf hükmedildi, ödeme süresi her ikisinde üç ay [001-252739][001-252752].",
+     "kayitlar": [
+      "001-252739",
+      "001-252752"
+     ]
+    }
+   ]
   },
   {
    "id": "t104",
@@ -2881,8 +2945,60 @@
     "3ce31131c9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t105",
+   "baslik": "Mouelhi v. Belçika: Rule 39 geçici tedbir taleplerinde yanıltıcı beyanın md. 35/3(a) 'başvuru hakkının kötüye kullanılması' sayılması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Karar, kötüye kullanma ölçütünü ilk kez geçici tedbir aşamasındaki beyanlara genişletiyor; merkezin sınır dışı ve iade dosyalarında Rule 39 talepleriyle çalışırken doğrudan etkili bir usul içtihadı.",
+   "acildi": "2026-10-14",
+   "durum": "açık",
+   "son_hareket": "2026-10-14",
+   "kayitlar": [
+    "b7a358bdb5"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t106",
+   "baslik": "HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestolarında soruşturma, gözaltı ve kötü muamele iddiaları",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
+   "acildi": "2026-10-14",
+   "durum": "açık",
+   "son_hareket": "2026-10-14",
+   "kayitlar": [
+    "469b99a869"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t107",
+   "baslik": "AYM'nin avukatın sosyal medya paylaşımları nedeniyle ev hapsini hukuka aykırı bulan 18 Mayıs tarihli kararı ve Adalet Bakanlığı izni koşulu",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Karar, avukatlar hakkındaki soruşturmalarda bakanlık izni usulünün ihlal sonucu doğurduğunu söylüyor; benzer isnatlarda iç hukuk yolu tartışmaları için izlenmeli.",
+   "acildi": "2026-10-14",
+   "durum": "açık",
+   "son_hareket": "2026-10-14",
+   "kayitlar": [
+    "7f169faa04"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t108",
+   "baslik": "Fransa'nın Taliban yönetimiyle zorla geri gönderme konusunda açtığı 'teknik diyalog'",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "AB üyesi bir devletin tanınmayan bir yönetimle geri gönderme görüşmesi yürütmesi, non-refoulement tartışmasında emsal oluşturabilir; kayıtta yalnızca başlık ve kısa özet düzeyinde bilgi var.",
+   "acildi": "2026-10-14",
+   "durum": "açık",
+   "son_hareket": "2026-10-14",
+   "kayitlar": [
+    "a197200025"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-13T08:59+00:00",
- "acik": 103
+ "guncelleme": "2026-10-14T07:09+00:00",
+ "acik": 107
 }

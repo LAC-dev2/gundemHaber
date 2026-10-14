@@ -1,39 +1,14 @@
 {
- "gun": "2026-10-13",
- "olusturma": "2026-10-13T17:54+00:00",
+ "gun": "2026-10-14",
+ "olusturma": "2026-10-14T07:09+00:00",
  "uyarilar": [
-  {
-   "id": "alan:2026-10-13:Türkiye'nin Yunanistan'dan iade talebi ve 2016'da kaçan seki",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Türkiye'nin Yunanistan'dan iade talebi ve 2016'da kaçan sekiz askerin dosyası",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "İçişleri Bakanı Mustafa Çiftçi'nin Gülen hareketiyle bağlantılı kişilerin iadesini gündeme getirdiği, Yunan yetkililerin ise Türkiyeli sığınmacıların varlığının örgütlü bir ağ anlamına gelmediğini söylediği bildiriliyor. Aynı pencerede yayımlanan belgesel, 16 Temmuz 2016'da helikopterle Dedeağaç'a inen sekiz askerin iltica süreci, iade baskısı ve Türk istihbaratınca kaçırılma korkusunu anlatıyor. İkisi birlikte, iade talebi ile iltica koruması arasındaki gerilimi aynı dosyada gösteriyor.",
-   "kayitlar": [
-    "828680be0d",
-    "8473f412df"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "alan:2026-10-13:ICC'ye yönelik ABD yaptırımlarına karşı 120'yi aşkın kuruluş",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "ICC'ye yönelik ABD yaptırımlarına karşı 120'yi aşkın kuruluşun ortak açıklaması",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "CICC ve 60'tan fazla ülkeden 120'yi aşkın kuruluş, ABD'nin 9 Ekim 2026'da 14203 sayılı Kararname uyarınca ICC'ye kurum olarak uyguladığı yaptırımları kınadı ve taraf devletlerden eşgüdümlü adım istedi. Açıklama, kararnamenin ABD kişilerine mal ve hizmet sağlama yasağı getirdiğini, ABD dışındaki kişiler için ikincil yaptırım riski doğurduğunu ve altı aylık bir tasfiye süresi içerdiğini belirtiyor; bu, merkezin yaptırım listeleri dosyasında uyum riski bakımından doğrudan karşılığı olan bir ayrıntı.",
-   "kayitlar": [
-    "0a404154d5"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
   {
    "id": "karar:001-252739",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Tutukluluğun uzatılmasında yeterli gerekçe bulunmaması nedeniyle 26 başvurucu hakkında md. 5/3 ihlali",
+   "baslik": "26 başvurunun birleştirildiği tutukluluk dosyasında tutuklama ve uzatma kararlarının gerekçesizliği",
    "alan": "md. 5, 5-3",
-   "not": "İkinci Bölüm Komitesi (Başkan Paczolay), 54358/19 ve diğer 25 başvuruyu birleştirerek, tutuklama ve tutukluluğun uzatılması kararlarında yeterli gerekçe bulunmaması nedeniyle oybirliğiyle md. 5/3 ihlali saptadı. Md. 5/1(c) şikâyetlerinin ayrıca incelenmesine gerek görülmedi; kalan md. 5 şikâyetlerinin kabul edilebilirliği ve esası incelenmedi. Mahkeme, Turan ve diğerleri kararındaki gerekçelerle ve başvurucuların tutukluluk sürelerinin önceki benzer dosyalara göre nispeten kısa olduğunu dikkate alarak maddi tazminat taleplerini reddetti ve her bir başvurucuya manevi tazminat ile masrafları kapsayan toplu 1.500 avro ödenmesine hükmetti; ödeme süresi üç ay.",
+   "not": "İkinci Daire Komite olarak, tutuklama ve uzatma kararlarında ilgili ve yeterli gerekçe bulunmadığı için md. 5/3'ün ihlal edildiğine oybirliğiyle karar verdi. Md. 5/1(c) şikâyetlerinin ayrıca esastan incelenmesine gerek görülmedi. Mahkeme, Turan ve diğerleri kararındaki gerekçelere ve bu dosyalardaki tutukluluk sürelerinin Türkiye'ye karşı önceki benzer davalara kıyasla görece kısalığına dayanarak maddi tazminat taleplerini reddetti ve her başvurucuya manevi tazminat ile masrafları kapsayan 1.500 avro götürü tutar ödenmesine, ödemenin üç ay içinde yapılmasına hükmetti.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
@@ -41,38 +16,38 @@
    "id": "karar:001-252752",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Diyarbakır'da yaşayan başvurucunun tutukluluğunda md. 5/1 ve 5/3 ihlali",
+   "baslik": "Diyarbakır'da yaşayan başvurucunun tutukluluğunda hem hukuka uygunluk hem makul süre yönünden ihlal",
    "alan": "md. 5, 5-1, 5-3",
-   "not": "İkinci Bölüm Komitesi (Başkan Ilievski), 16 Mart 2021'de yapılan 17010/21 sayılı başvuruda md. 5/1 ve 5/3 şikâyetlerini kabul edilebilir, md. 5/4 şikâyetlerini kabul edilemez buldu ve oybirliğiyle md. 5/1 ve 5/3 ihlali saptadı. Md. 18'in md. 5/1 ile birlikte incelenmesine ayrıca gerek görülmedi. Maddi tazminat talebi nedensellik bağı bulunmadığı için reddedildi; 4.000 avro manevi tazminat ve 1.000 avro masraf-gidere hükmedildi, ödeme süresi kararın kesinleşmesinden itibaren üç ay.",
+   "not": "Mahkeme, md. 5/1 ve 5/3'ün ihlal edildiğine oybirliğiyle karar verdi; md. 5/4 şikâyetlerini kabul edilemez buldu ve md. 18 ile md. 5/1 birlikte okunan şikâyetin ayrıca incelenmesine gerek görmedi. Maddi tazminat talebiyle ihlal arasında nedensellik bağı görülmedi; başvurucuya 4.000 avro manevi tazminat ve 1.000 avro masraf ödenmesine hükmedildi. Ödeme süresi, kararın md. 44/2 uyarınca kesinleşmesinden itibaren üç ay.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-10-13:toplu:16",
+   "id": "takip:2026-10-14:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "16 takip dosyasında hareket var",
+   "baslik": "8 takip dosyasında hareket var",
    "alan": "",
-   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve; Stichting Justice Square raporundaki el koyma verileri ve Şubat 2025 t; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; 29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar me; Bakırköy 7. Sulh Ceza Hâkimliği'nin 2026/9064 sayılı kararıyla engelle; CPT'nin Türkiye'ye ilişkin iki raporu: dayak ve elektrik şoku iddialar; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i; HRW, ARTICLE 19, İFÖD ve 18 kuruluşun platform sorumluluğu çağrısına X; BM İnsan Hakları Konseyi'nin 12 Ekim 2026 seçimi: rekabetsiz bölgesel ",
+   "not": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr; Türkiye'nin Yunanistan'dan Gülen bağlantılı kişilerin iadesini talep e; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla",
    "kayitlar": [
-    "afb16f12ec",
-    "d6133750ae",
-    "97d90898e4",
-    "001-252739",
-    "001-252752",
-    "5698ac07b9",
-    "50f95ba584",
-    "de619b983f"
+    "7a4c5413ab",
+    "2ac488c9f0",
+    "e810d4f2a3",
+    "2626d3e449",
+    "38a450186d",
+    "79390c3dbd",
+    "33a9b47f0e",
+    "a1bf0ef20a"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-13:11",
+   "id": "saglik:2026-10-14:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Nordic Monitor, Frontex, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
