@@ -1415,6 +1415,10 @@
 "checked": "2026-10-13T11:26:01+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:30243&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-01T09:39:14+00:00",
 "img": ""
@@ -1953,6 +1957,10 @@
 },
 "https://europeanlawblog.eu/the-balance-between-national-security-and-eu-public/": {
 "checked": "2026-09-21T16:43:17+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/the-child-is-not-the-marriage-a-a-v-the-netherlands-and/": {
+"checked": "2026-10-14T08:16:33+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
 "https://europeanlawblog.eu/the-manufacturable-employee-what-hortis-misses-about-remote/": {
@@ -2875,6 +2883,14 @@
 "checked": "2026-10-14T07:02:53+00:00",
 "img": "https://medyascope.tv/wp-content/uploads/2023/10/halktv.jpg"
 },
+"https://medyascope.tv/2026/10/14/halk-tvye-kayyum-olarak-atanan-ibrahim-pasali-kimdir/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://medyascope.tv/wp-content/uploads/2026/10/ibrahim-pasali.webp"
+},
+"https://medyascope.tv/2026/10/14/tmsf-yonetimine-gecen-medya-kuruluslari/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://medyascope.tv/wp-content/uploads/2026/10/Adsiz-tasarim-2.webp"
+},
 "https://mlsaturkey.com/en/aug-31-2026-freedom-of-expression-cases-and-other-developments": {
 "checked": "2026-09-16T12:55:10+00:00",
 "img": ""
@@ -3203,8 +3219,24 @@
 "checked": "2026-10-08T17:40:16+00:00",
 "img": ""
 },
+"https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZR1l0RjkzRUl5dnlrek0tNDg1bTFuMVMxVjVncEdFRzJtLVFzZXUxRlhoc3plcF8tbmItMDhrcEh5YTR5NnVIOWwxVENPelhaRjRLbmd1Z08ydFdIdkdwMlk4RFdiQXcybTJPY0dQaElZMF9TXzctY1VNZl8?oc=5": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMifEFVX3lxTE45S2pnVjRiM3poZE8wNlZ2RDZNRXlMb1FUenRVZXpnelo0M3ZOQTZ5RUxxVU93NjFVZF9VWnNkb3gxc1lkdFFTdERxVzlaaFBpSjNwY3ZMX1RfNFc0NEFwb0JvZVEyNklYOHQwUEc3UFI5cTU3dEJYUTRyWGY?oc=5": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": ""
+},
 "https://news.google.com/rss/articles/CBMifEFVX3lxTE83NXRhRXItdE91a3NjN3lBMXVpc1BsMEg4U3lyREZJem1QelVzX3dGM0hjZ1A1TmJZMzEzMmI5alYzZURaZUgzUWFzclVSNnNCd2I2M3prd2xjMlA2NGJrcHZwT1BMQzdTT2ZkdUk4am5KdXNaWlBhT3ZWVjI?oc=5": {
 "checked": "2026-09-27T19:55:57+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMifEFVX3lxTE8ta3NmcndQZ29uQ28tVkZlWkJVSGxOMVUxN082YS1pc2p1cTJCOFJnb1g0T1ZOekd2eWI3NlJxMjFSMGctOHZ1Q2pjeDVUUFZNeWFneW1ObDU3SXJuci04ejFHRFk2d2FKeGJSTU5iTEFpZmViX240UGt6MW0?oc=5": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMifEFVX3lxTE95WnczZENzM20zV1NVTG02OXhCSTgwYzctdjVrMXpDUjJxaFIxRUtfVEJlT29EMVZkMDBGX0RxWWh3RFNSZV9VWG00MmFSYl9NcHVxZkRmWEhEX215akkxNjFCcE9kQ2VEbGtlN2lGeTV3MnRERDdNZjZ0VE0?oc=5": {
+"checked": "2026-10-14T08:16:33+00:00",
 "img": ""
 },
 "https://news.google.com/rss/articles/CBMifEFVX3lxTE9haTl6Z1RjQUpkcjZ2dnU3SEdXUTk1VE1ubkJlRGNGVUhfRUt1elRYZE1YRF9CN0VqRDdjTWNBZlFGLWpCRkZGQWVTZkJNeW85aEgxLTdFVUpmZTNRSW1xU29GQjRzREJhcTNyWV9XOFV2X1RJQVN0VW8xQXg?oc=5": {
@@ -3289,6 +3321,10 @@
 },
 "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN3A5MXVwejZ2X3otRExBUzdNU0M3US1zUXJ2R0xlWmR2a1FPLUNlLUVJS1NrelRkWkc0M3RsVDROczFEUGhqdVdPbDllSk1MZVJDeUNRNFFlMGl3ekVzbnNidVBtU0UwS1g3WkZmYm85TFJ3c0RIcHNRVy1KSnYtX3ZIcDJod2JD?oc=5": {
 "checked": "2026-10-14T07:02:53+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRkVraVhabmhPN3dWcjlyVzFiWnh4RmExcnBPZmdnTVJaV2JkU1lTakd3VHA0MlYyV0d6czA3eDNiU2p3d0JUMFNuczh5d2oyVmNDYlpVM2pFalNsSV9ReHZ4bjJFQWFGcll4NjlWQnpJcjlKQ1l5Yk9XRkhpWU1oTFhxc2RnVGNW?oc=5": {
+"checked": "2026-10-14T08:16:33+00:00",
 "img": ""
 },
 "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSnRsY0x6N0JKc1NJdDlNd0FqQ0NYdFpCVXNkNFNHNEVFUkhabHg3dXhSVEZGWFlBdE9SbTRoQ3RIUUtPM0tNdmdlaUM4WUZSWW96WE5WMTFMOE9CQ1dYeVIxd2hhcGUzSFQteDVxZVA5UmFtanc5NU5BRkpUYkh5OFpza05zTmRR?oc=5": {
@@ -4459,6 +4495,10 @@
 "checked": "2026-09-16T12:55:10+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/09/featured-image-43.jpg"
 },
+"https://solidaritywithothers.com/halk-tv-raided-at-dawn-and-placed-under-the-same-trustee-appointed-to-tele1-haberturk-show-tv-and-flash-tv/?utm_source=rss&utm_medium=rss&utm_campaign=halk-tv-raided-at-dawn-and-placed-under-the-same-trustee-appointed-to-tele1-haberturk-show-tv-and-flash-tv": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://solidaritywithothers.com/wp-content/uploads/2026/10/featured-image-37.jpg"
+},
 "https://solidaritywithothers.com/inadequate-living-conditions-in-prison-4/?utm_source=rss&utm_medium=rss&utm_campaign=inadequate-living-conditions-in-prison-4": {
 "checked": "2026-09-24T09:40:21+00:00",
 "img": ""
@@ -4950,6 +4990,14 @@
 "https://turkishminute.com/2026/10/13/turkeys-crackdown-on-journalists-nears-crisis-point-cpj-says-after-arrests-over-fund-scandal-coverage/": {
 "checked": "2026-10-13T13:26:59+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2021/09/CPJ.jpg"
+},
+"https://turkishminute.com/2026/10/14/hrw-says-turkey-detained-investigated-anti-mining-protesters-ahead-of-cop31/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2026/10/protest-mine.jpg"
+},
+"https://turkishminute.com/2026/10/14/turkish-court-rejects-kavalas-release-and-retrial-despite-ecthr-ruling/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2021/09/osman-kavala.jpg"
 },
 "https://turkishminute.com/2026/10/14/un-experts-condemn-turkeys-crackdown-on-lgbtq-organizations/": {
 "checked": "2026-10-14T07:02:53+00:00",
@@ -7367,6 +7415,10 @@
 "checked": "2026-10-14T07:02:53+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610un_switzerland_human_rights_council.jpg?h=10d202d3&itok=ntCDISjf"
 },
+"https://www.hrw.org/news/2026/10/14/french-high-school-student-protests-met-with-excessive-force": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610eca_france_student_protest.jpg?h=77bd3ecb&itok=FLp7T1-D"
+},
 "https://www.hrw.org/news/2026/10/14/libya-eastern-authorities-carry-out-wave-of-executions": {
 "checked": "2026-10-14T07:02:53+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610mena_libya_hiftar.jpg?h=2992ba0a&itok=aOBkEG8p"
@@ -7639,6 +7691,10 @@
 "checked": "2026-09-16T12:58:29+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/09/tax-implications-selling-stocks-profit-ar-generative-ai_91296f94529a53a550be5af7e67a29d8_2000.jpg"
 },
+"https://www.jubel.be/meeslepende-passie-voor-justitie/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://www.jubel.be/wp-content/uploads/2024/09/Lamon-Carrousel-2.png"
+},
 "https://www.jubel.be/pater-dimitte-illis-lucas-2334-wat-god-met-onze-wrok-bedoelde/": {
 "checked": "2026-10-05T08:12:07+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/10/pexels-markus-winkler-1430818-30945519_1aef20c663b2db98bd2de5165e038486_2000.jpg"
@@ -7682,6 +7738,10 @@
 "https://www.jubel.be/wat-als-je-tijdens-je-renovatie-waardevolle-voorwerpen-vindt/": {
 "checked": "2026-09-16T12:58:29+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/09/man-die-woning-renoveertpng-1_02a6eb0755859bc7673a4d15ef54df98_2000.jpg"
+},
+"https://www.jubel.be/wat-je-niet-leerde-aan-de-universiteit-tips-van-een-ervaren-advocate/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://www.jubel.be/wp-content/uploads/2026/10/tips-van-een-ervaren-advocate_1be11db37a4c52b1b461abf6f01a5f1c_2000.png"
 },
 "https://www.jubel.be/wees-geen-juridische-waze-zombie/": {
 "checked": "2026-10-05T08:12:07+00:00",
@@ -9291,6 +9351,10 @@
 "checked": "2026-09-21T11:07:25+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-bebek-isimleri-kisaliyor-ulkenin-tercihi-ayni-friesland-farkli_6ab0d25e9db24_h.png"
 },
+"https://www.turkinfo.nl/hollandada-berberlere-pes-pese-saldirilar-yeni-patlama-berberler-savasi-endisesini-buyuttu/45234": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-berberlere-pes-pese-saldirilar-yeni-patlama-berberler-savasi-endisesi_6acf31199734a_h.png"
+},
 "https://www.turkinfo.nl/hollandada-botox-ve-dolgu-uyarisi-sikayetler-bes-kat-artti/44978": {
 "checked": "2026-09-16T12:55:59+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-botox-ve-dolgu-uyarisi-sikayetler-bes-kat-artti_6aaa2c7127534_h.png"
@@ -9527,6 +9591,10 @@
 "checked": "2026-09-17T08:07:10+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-saglik-sigortasina-tarihi-zam-aylik-ortalama-prim-169-euroya-cikiyor_6aab9aca39b45_h.png"
 },
+"https://www.turkinfo.nl/hollandada-silah-teslim-kampanyasinda-86-tehlikeli-esya-toplandi/45232": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-silah-teslim-kampanyasinda-86-tehlikeli-esya-toplandi_6acf2d0cd6a29_h.png"
+},
 "https://www.turkinfo.nl/hollandada-sinti-roman-ve-gezginler-icin-ayrimcilik-uyarisi/45090": {
 "checked": "2026-09-29T07:38:35+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-sinti-roman-ve-gezginler-icin-ayrimcilik-uyarisi_6abb5150024a3.png"
@@ -9622,6 +9690,10 @@
 "https://www.turkinfo.nl/hollandadan-rusya-bizim-dusmanimiz-cikisi-yesilgoz-neyi-degistirmek-istiyor/45181": {
 "checked": "2026-10-08T17:40:16+00:00",
 "img": "https://images.turkinfo.nl/media/2026/10/hollandadan-rusya-bizim-dusmanimiz-cikisi-yesilgoz-neyi-degistirmek-istiyor_6ac7c41f6aa65_h.png"
+},
+"https://www.turkinfo.nl/hollandadan-trumpa-tepki-rusya-ile-dizel-anlasmasi-iptal-edilsin/45233": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandadan-trumpa-tepki-rusya-ile-dizel-anlasmasi-iptal-edilsin_6acf3054dd02c.png"
 },
 "https://www.turkinfo.nl/hollandadan-yapay-zeka-destekli-siber-saldirilara-karsi-uyari/45060": {
 "checked": "2026-09-25T09:57:42+00:00",
@@ -9878,6 +9950,14 @@
 "https://www.turkishminute.com/2026/10/13/turkeys-crackdown-on-journalists-nears-crisis-point-cpj-says-after-arrests-over-fund-scandal-coverage/": {
 "checked": "2026-10-13T13:26:59+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2021/09/CPJ.jpg"
+},
+"https://www.turkishminute.com/2026/10/14/hrw-says-turkey-detained-investigated-anti-mining-protesters-ahead-of-cop31/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": ""
+},
+"https://www.turkishminute.com/2026/10/14/turkish-court-rejects-kavalas-release-and-retrial-despite-ecthr-ruling/": {
+"checked": "2026-10-14T08:16:33+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2021/09/osman-kavala.jpg"
 },
 "https://www.turkishminute.com/2026/10/14/un-experts-condemn-turkeys-crackdown-on-lgbtq-organizations/": {
 "checked": "2026-10-14T07:02:53+00:00",
