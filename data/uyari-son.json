@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-14",
- "olusturma": "2026-10-14T11:05+00:00",
+ "olusturma": "2026-10-14T15:41+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252739",
@@ -42,12 +42,26 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-14:10",
+   "id": "kritik:2026-10-14:3",
+   "tur": "kritik kayıt yığılması",
+   "duzey": "orta",
+   "baslik": "Bugün birincil kaynaktan 3 kritik öncelikli kayıt geldi",
+   "alan": "",
+   "not": "20261006-11.pdf - Resmi Gazete; 7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Ka; 20261006-8.pdf - Resmi Gazete",
+   "kayitlar": [
+    "a1bf0ef20a",
+    "2ac488c9f0",
+    "79390c3dbd"
+   ],
+   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
+  },
+  {
+   "id": "saglik:2026-10-14:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, ENNHRI, Arrested Lawyers Initiative, Nordic Monitor…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
