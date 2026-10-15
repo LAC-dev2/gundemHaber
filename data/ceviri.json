@@ -711,6 +711,11 @@
 "baslik": "Seminer — AB Hukuku'nun yapısal ilkeleri",
 "dil": "diger"
 },
+"0cf37f4c96": {
+"baslik": "Veteriner Londra Avukatı GIR'ın Olağanüstü Kariyer Ödülünü Alacak",
+"dil": "diger",
+"ozet": "Stephen Pollard, bu yıl beyaz yaka suçlarıyla ilgili yüksek profilli davaları yönetmek için geçirdiği dört dekattan dolayı Washington, DC'de düzenlenecek yıllık GIR Ödülleri töreninde Olağanüstü Kariyer Ödülünü alacaktır."
+},
 "0d04cb75e2": {
 "baslik": "Avrupa bakanları İkinci Munich Göç Toplantısı'nda ortak göç önceliklerini tartışıyor",
 "dil": "diger"
@@ -2337,6 +2342,11 @@
 "dil": "diger",
 "ozet": "Agentic yapay zekaya dayalı bir offensive güvenlik platformu olan Hadrian, toplam finansmanını 65 milyon dolara çıkararak EMEA ve ABD'de genişleme hazırlığında 40 milyon dolar yeni sermaye güvence altına aldı. Forgepoint Capital International ve SmartFin turu ortaklaşa yönetirken, HV Capital, Motive Partners, Picus Capital ve Oetker Ventures gibi mevcut yatırımcılar destekte bulundu."
 },
+"280cbeec50": {
+"baslik": "AİHM, Türkiye'nin Muhasır Gülen Bağlantılarıyla Hapsolanan 26 Kişinin Haklarını İhlal Ettiğini Tespit Etti",
+"dil": "diger",
+"ozet": "Avrupa İnsan Hakları Mahkemesi (AİHM), Salı günü, Gülen hareketine muhasır bağlantıları nedeniyle yargılanmak üzere tutuklanan 26 kişinin haklarını Türkiye tarafından ihlal edildiğine karar verdi ve 2016 darbe girişiminden sonra Türk mahkemelerinin tutukluluğu için yeterli gerekçe sunmadığını tespit etti."
+},
 "2815d78844": {
 "dil": "tr"
 },
@@ -3908,6 +3918,11 @@
 "baslik": "August Coenders — KU Leuven Hukuk Fakültesi personel sayfası",
 "dil": "diger"
 },
+"4454e940fa": {
+"baslik": "Kaliforniya Mahkemesi, Eşler Arasındaki İletişimin Soruşturmacılardan Korunduğunu Teyit Etti",
+"dil": "diger",
+"ozet": "Bir hakim, hükümete yolsuz pratikler suçlamasıyla yüzleşen iki gayrimenkul geliştiricisi ile onların eşleri arasındaki iletişime erişme girişimini reddetmiştir."
+},
 "44586f8821": {
 "baslik": "Kayıp Lao Eleştirmeni Tayland'da 'Kaybolduktan' Korkuluyor",
 "dil": "diger",
@@ -4406,6 +4421,11 @@
 "dil": "diger",
 "ozet": "Avukat Sezin Uçar serbest bırakıldı; Türkiye çapında 11 duruşmada 50 sanık yargılandı. Bu hafta Ankara, İstanbul ve Diyarbakır'da toplam 50 sanık 11 duruşmada yargılanmış, çeşitli işlemlerde adil yargılanma hakkı konusunda endişeler kaydedilmiştir. Sanıkların otuz yedisi..."
 },
+"4d060a2355": {
+"baslik": "Tayland'daki İstismar Niteliğindeki Bakım Tesisi Daha Geniş Endişeleri Gündeme Getiriyor",
+"dil": "diger",
+"ozet": "Kanchanaburi, Tayland'daki bir bakım tesisi, Ekim ayının başlarında tesisteki koşulları gösteren fotoğraflar (iddia edilen metal kafesler de dahil olmak üzere) viral hale geldiğinde manşetlere çıktı."
+},
 "4d47a11c17": {
 "baslik": "Batı Balkan uyuşturucu ağına karşı operasyonda yaklaşık 50 kişi gözaltına alındı",
 "dil": "diger",
@@ -4654,6 +4674,9 @@
 "baslik": "Güney Afrika ile İnsan Hakları Diyaloğu",
 "dil": "diger",
 "ozet": "FRA, Avrupa Dış Hizmetler Servisi tarafından düzenlenen Güney Afrika ile İnsan Hakları Diyaloğu'nda sunum yapacaktır. Tarih: 16 Ekim 2026, Saat: 13:00, Yer: Brüksel."
+},
+"51fd2a26ae": {
+"dil": "tr"
 },
 "5220aca618": {
 "baslik": "ECLI:NL:RBDHA:2026:27674 — Den Haag İdari Mahkemesi iltica ret kararı",
@@ -4991,10 +5014,18 @@
 "dil": "diger",
 "ozet": "gpatterson Cuma, 10/02/2026 - 16:49 Arşiv Hayır"
 },
+"584dfc0830": {
+"baslik": "Egemen Yapay Zeka vs. Paylaşılan İstihbarat: KYC'nin Yeni İkilemi",
+"dil": "diger",
+"ozet": "Finansal kurumlar için yapay zeka modelini seçmek artık yalnızca hangisinin en iyi performans gösterdiği meselesi değildir. Bir modelin nerede eğitildiği, onu kimin eğitttiği, hangi verileri kullandığı ve nerede çalıştığı giderek daha önemli hale gelmektedir."
+},
 "58684efc40": {
 "baslik": "Yapay zeka ajanları siber sigorta riskini nasıl değiştiriyor",
 "dil": "diger",
 "ozet": "Yapay zeka ajanları gerçek siber olaylarda görülmeye başlamış, bu durum düzenleyicilerde mevcut ihlal, veri koruma ve yönetim çerçevelerinin otonom yazılımlarla başa çıkmaya hazır olup olmadığı sorusunu gündeme getirmiştir. İspanya ve Avustralya'daki son vakalar, yapay zeka kodlama araçları hakkındaki araştırmalarla beraber, kurulu uyum denetim çerçevelerinin…"
+},
+"5878c1c229": {
+"dil": "tr"
 },
 "5887f9c047": {
 "baslik": "Avrupa Temel Haklar Ajansı — Ukrayna toplantısında insan hakları ve yerel yönetişim",
@@ -5008,6 +5039,11 @@
 },
 "590861a4b6": {
 "dil": "tr"
+},
+"590ea41399": {
+"baslik": "Türk Mahkemesi, 1970'ler Sol Militanı Lider Yazılarını İçeren Kitaba El Kondurmaya Karar Verdi, Editör Terör Yargılamasına Hakim",
+"dil": "diger",
+"ozet": "Bir Türk mahkemesi, 1970'ler sol militanı lider Mahir Çayan'ın yazılarını ve onun siyasi fikirlerini ve mirasını konu alan makaleleri içeren bir kitaba el konulmasına karar verdi; kitabın editörü ise terörist propaganda yayma suçundan yargılanmaktadır."
 },
 "59189d9eb5": {
 "baslik": "Hukukçular için akşam bilgi yarışmasından alınan dersler",
@@ -5240,6 +5276,9 @@
 "baslik": "Interpol Operasyonu Çocuk İstismarı Nedeniyle 95 Tutuklama Gerçekleştirdi",
 "dil": "diger",
 "ozet": "Interpol tarafından koordine edilen uluslararası bir operasyon, çocuk cinsel istismar ve suistimal materyali üreten ve dağıtan 95 kişinin tutuklanmasıyla sonuçlanmıştır. Perşembe açıklamasına göre Mart ve Eylül 2026 arasında yürütülen altı aylık operasyon, Latin Amerika genelindeki 17 ülkeyi kapsanmıştır."
+},
+"5d4f83fa31": {
+"dil": "tr"
 },
 "5d58f16350": {
 "dil": "tr"
@@ -5942,6 +5981,11 @@
 "dil": "diger",
 "ozet": "Avrupa İnsan Hakları Mahkemesi"
 },
+"69c7d143d5": {
+"baslik": "Bankalar Phishing Mağdurlarını Derhal Geri Ödemek Zorunda Olacak, Hatta İhmal Durumunda Bile: 'Bu Bomba'",
+"dil": "diger",
+"ozet": "Bu, Avrupa Adalet Divanı'nın kararından ortaya çıkmaktadır. Av. Lennsens, 'Bu bankalar için bomba' demektedir."
+},
 "69fbee5946": {
 "baslik": "Türkiye'de Siyasi Müdahale ve Soruşturmalar Akademik Özgürlüğü Aşındırıyor: Rapor",
 "dil": "diger",
@@ -6066,6 +6110,9 @@
 "baslik": "FRC iki denetim ve güvence standardını uluslararası etik kodla uyumlu hale getirmek için revize ediyor",
 "dil": "diger",
 "ozet": "Birleşik Krallık'ın denetim düzenleyicisi, her ikisi de etikle ilgili olan bir denetim ve bir güvence standardını revize etmiştir. FRC, yapılan değişikliklerin Birleşik Krallık standartlarının IAASB tarafından yayınlanan standartlarla uyumlu kalmasını sağladığını belirtmiştir. Yazı ilk olarak Compliance Week'te yayınlandı."
+},
+"6c12983bdf": {
+"dil": "tr"
 },
 "6c1c3d4d88": {
 "baslik": "ECLI:NL:RBDHA:2026:27870 — Den Haag Ticaret Mahkemesi kararı",
@@ -7403,6 +7450,10 @@
 "8425a3db25": {
 "dil": "tr"
 },
+"843b1df106": {
+"baslik": "Avusturya, Meinl Bank Eski Başkanı ve Yöneticileri Hakkında İddia Edilen Zimmet Suçundan Soruşturma Yürütüyor",
+"dil": "diger"
+},
 "84449245f5": {
 "baslik": "FATF: Kanada para aklama kovuşturmalarını önceliklendirmeli",
 "dil": "diger"
@@ -7459,6 +7510,11 @@
 "dil": "diger",
 "ozet": "24 Eylül 2026'de Avukatlar için Avukatlar Kuruluşu, İstanbul'daki 26. Ağır Ceza Mahkemesinde insan hakları avukatı Sezin Uçar aleyhine açılan davada ilk duruşmaya katılmıştır. Mahkeme Uçar'ı duruşmaya hazırlık gözaltısından hemen salıvermiştir. Davadaki yargılama 19 Ocak 2027'ye ertelenmiştir."
 },
+"84d90a15b7": {
+"baslik": "Türkiye'nin En Çok İzlenen Haber Kanalı El Konması Bir Perdedir: Halk TV Patronu",
+"dil": "diger",
+"ozet": "Halk TV, Türkiye'nin en çok izlenen haber kanalına el konulmasının, iktidarın yakın çevrelerine dahil olan milyar dolarlık bir yatırım fonu skandalından dikkat dağıtmak için tasarlanmış bir hamle olduğunu kanal sahibi Agence France-Presse'ye söyledi."
+},
 "84e024e6d5": {
 "baslik": "Eski Avrupa İnsan Hakları Mahkemesi hakimi Türkiye'nin T24 haber sitesine yönelik kapsamlı yasağının ifade özgürlüğünü ihlal ettiğini söyledi",
 "dil": "diger",
@@ -7501,6 +7557,11 @@
 },
 "85d46cbf74": {
 "dil": "tr"
+},
+"85e0207396": {
+"baslik": "Mısır'da Din Özgürlüğü — USCIRF Duruşması",
+"dil": "diger",
+"ozet": "ABD Uluslararası Din Özgürlüğü Komisyonu (USCIRF), 5 Kasım 2026'da Mısır'daki din özgürlüğü konusunda sanal bir duruşma düzenledi."
 },
 "85f1b70384": {
 "baslik": "Türkiye, iddia edilen Gülen hareketi bağlantıları nedeniyle 6 ilde 20 kişiyi gözaltına aldı",
@@ -7576,6 +7637,11 @@
 },
 "86f415ec05": {
 "dil": "tr"
+},
+"86f50976c9": {
+"baslik": "Vilnius Özgürlük Zirvesi, Bölgeler Genelinde Demokratik Liderleri ve Aktivistleri Birleştiriyor",
+"dil": "diger",
+"ozet": "Freedom House ve Litvanya Dışişleri Bakanlığı, Vilnius, Litvanya'da düzenlenen Vilnius Özgürlük Zirvesini ortaklaşa ev sahipliği yaptı."
 },
 "86fdb6469c": {
 "dil": "tr"
@@ -8032,6 +8098,9 @@
 "dil": "diger",
 "ozet": "EDPS GÖZETLEME RAPORU 02/2026 İnternet ile Karşı Karşıya Operasyonel Ortam Hızlı Müdahale Alanı ('IFOE-QRA') Üzerine Europol (AB Law Enforcement İşbirliği Ajansı) Tarafından İstenen Ön Danışma Konusunda yazısı ilk olarak Statewatch'te yayımlandı."
 },
+"8e12bf5b29": {
+"dil": "tr"
+},
 "8e686c47a8": {
 "baslik": "AB Cinsiyet Temelli Şiddet Araştırması — Teknik ve kalite raporu",
 "dil": "diger",
@@ -8242,6 +8311,11 @@
 },
 "91d1169012": {
 "dil": "tr"
+},
+"91dcceadef": {
+"baslik": "Tartışmalı Madencilik ve Kalkınma Projeleri Arkasında Yer Alan Türk Firmaları COP31 Ortağı Olarak Adlandırıldı",
+"dil": "diger",
+"ozet": "Tartışmalı kömür madenciliği, taş ocağı ve kıyıkent kalkınma projeleri arkasında yer alan birkaç Türk holdingi, gelecek ay Antalya'da yapılacak BM iklim konferansından önce Türkiye'nin zirvesi başkanlığında iklim destekçileri veya uygulama ortakları olarak adlandırılmıştır."
 },
 "91e542706b": {
 "baslik": "Fransa: Yetkililer Öğrenci Protestoları Sırasında Gerilimleri Azaltmalı",
@@ -8800,6 +8874,11 @@
 "baslik": "ECLI:NL:RBDHA:2026:29405 — Den Haag Hakim Mahkemesi iltica kararı",
 "dil": "diger",
 "ozet": "İltica, Eritrea, güvenilirlik, kimlik, uyrukluk ve menşe, referans çerçevesi, çocuğun menfaatleri. Başvuru reddedilmiştir."
+},
+"9b1e363028": {
+"baslik": "Sigorta Şirketleri Petrofac Sanıklarının Hukuki Savunma Masraflarını Ödemeliye Devam Etmek Zorundadır",
+"dil": "diger",
+"ozet": "Birleşik Krallık'taki iki eski petrol şirketi yöneticisi, sigorta şirketlerinin yabancı rüşvet suçlamasıyla yapılacak yargılamadan önce yasal savunmalarının finansmanını durdurma çabasına karşı başarılı olmuştur."
 },
 "9b25031c2f": {
 "baslik": "ECLI:NL:RBDHA:2026:28234 — Den Haag Bölge Mahkemesi kararı",
@@ -9566,6 +9645,11 @@
 "baslik": "AB Temel Haklar Ajansı antisemitizm izleme hakkında web semineri düzenliyor",
 "dil": "diger",
 "ozet": "15 Ekim'de AB Temel Haklar Ajansı, Antisemitizm Mücadelesi Hareketi tarafından düzenlenen \"Antisemitizmi İzleme: Politika ve Uygulama Arasında\" başlıklı web seminerde konuşacaktır. Seminer, antisemitik olayları izleme ve kayıt etmedeki zorlukları ve fırsatları inceleyecek, politika yapıcılarını, uygulamacıları ve uzmanlıkları bir araya getirecektir."
+},
+"a8c25f4c6e": {
+"baslik": "Jarvis Yatırım Yönetimi Limited Özel Yönetimi Altına Girdi",
+"dil": "diger",
+"ozet": "14 Ekim 2026'de, Jarvis Yatırım Yönetimi Limited (Jarvis Investment) özel yönetimi altına girmiştir. S&W Partners LLP'nin Adam Stephens ve Philip Hemming'i özel yöneticiler olarak atanmıştır."
 },
 "a8d67cf96b": {
 "baslik": "Brezilya'da Güney Amerika-Avrupa kokain hattına yönelik operasyonda yedi gözaltı",
@@ -10691,6 +10775,9 @@
 "bf233ead7b": {
 "dil": "tr"
 },
+"bf3be75b33": {
+"dil": "tr"
+},
 "bf852a096f": {
 "baslik": "10 Yıllık Kamulaştırma Yönetmeliği Seminer Günü — KU Leuven Hukuk Fakültesi",
 "dil": "diger"
@@ -10764,6 +10851,11 @@
 },
 "c0a62618b9": {
 "dil": "tr"
+},
+"c0bae6a53c": {
+"baslik": "İngiliz Hükümetine Göre: Hollandalı Tüccarın Sahte CIA Olayı Yaptırımlardan Çıkarılmasını Haklı Göstermemiştir",
+"dil": "diger",
+"ozet": "İngiltere'nin dışişleri bakanlığı, bir eski iş ortağının CIA ajanı olarak kılık değiştirerek onları Rus petrolü anlaşmalarına çektiğini iddia etmesine rağmen Hollandalı bir petrol tüccarı ve şirketini yaptırım listesinden çıkarmayı reddetti."
 },
 "c0e2da43ec": {
 "dil": "tr"
@@ -10988,6 +11080,11 @@
 "baslik": "ECLI:NL:RVS:2026:5615 — Devlet Şûrası kararı",
 "dil": "diger",
 "ozet": "12 Mayıs 2026 tarihli kararlarla Sığınma ve Göç Bakanı, tarafların belirli bir süre için sığınma ikamet izni verilmesine ilişkin başvurularını inceleme konusu yapmamıştır."
+},
+"c509e006d4": {
+"baslik": "AİHM, Türkiye'nin Muhasır Gülen Bağlantılarıyla Hapsolanan 26 Kişinin Haklarını İhlal Ettiğini Tespit Etti",
+"dil": "diger",
+"ozet": "Avrupa İnsan Hakları Mahkemesi (AİHM), Salı günü, Gülen hareketine muhasır bağlantıları nedeniyle yargılanmak üzere tutuklanan 26 kişinin haklarını Türkiye tarafından ihlal edildiğine karar verdi ve 2016 darbe girişiminden sonra Türk mahkemelerinin tutukluluğu için yeterli gerekçe sunmadığını tespit etti."
 },
 "c523d75dc4": {
 "baslik": "AB ve Yükselen Pazarlar göç eylem planı katkısı (FR)",
@@ -11994,6 +12091,9 @@
 "dil": "diger",
 "ozet": "Birincil tema: İltica İltica, göç ve sınırlar. Göçteki artış, Avrupa genelinde fırsatlar ve zorluklar yaratmıştır. AB Temel Hakları Ajansı hakklara uygun yanıtları teşvik etmektedir. Bu karmaşık konuda pratik uzmanlık sağlamaktayız. Buna düzenli güncellemeler, odak makaleleri ve araç takımı dahildir…"
 },
+"d62a68dc6f": {
+"dil": "tr"
+},
 "d62f5ecb81": {
 "baslik": "Erdoğan Hükümeti LGBTQ+ Baskısını Ulusal Güvenlik ve Casusluk Davasına Dönüştürüyor",
 "dil": "diger",
@@ -12062,6 +12162,11 @@
 "baslik": "5-11 Ekim Haftası Sansür Bülteni",
 "dil": "diger",
 "ozet": "Ekim 5-11 haftasında Türkiye'de uygulanan bir dizi erişim engeli, bianet ve Sky News muhabiri Alex Crawford dahil çok sayıda gazeteciye ve haber kuruluşlarına ait X hesaplarını hedef almıştır. Mezopotamya Ajanı'nın web sitesi, ajans bir haber raporunu kaldırdığından yaklaşık 30 dakika sonra tamamen engellenmiştir."
+},
+"d74da57bff": {
+"baslik": "15 Ekim 2026 Perşembe günü Karşılıklı Hukuki Yardım web semineri",
+"dil": "diger",
+"ozet": "Carla Reyes, Odebrecht davası kapsamında delil ve varlık transferi hakkında konuşacak olan Ariel Liniado'yu tanıtmış ve bunun Avrupa savunma uygulamasına etkisini ele almıştır."
 },
 "d76ee753da": {
 "baslik": "Çin Otomotiv Devi Portekiz Milli Futbol Takımını Destekliyor. Kamyonları Rusya'nın Ukrayna'ya Saldırı Yapması için Kullanılıyor",
@@ -12423,6 +12528,11 @@
 "baslik": "Geriye Yürürlük Bırakmamak Prensibini Kırmak",
 "dil": "diger",
 "ozet": "Siyasi olarak atanan bir mahkeme hala mahkeme midir? Kelsenyen anayasa mahkemeleriyle ilgili eski ikilem, Rumen Anayasa Mahkemesi'nin yakın zamanda her demokratik sistemi temelinde alan bir anayasa prensibini paramparça eden bir karar verdiği durumda hiç olmadığı kadar günceldir: geriye yürürlük bırakmamak prensibi."
+},
+"dda2129e94": {
+"baslik": "Kimlik Avı Dolandırıcılığı İngiltere'nin Emeklilik Tasarruflarını Tehdit Ediyor",
+"dil": "diger",
+"ozet": "Bir emeklilik fonunun oluşturulması on yıllar alırken, kaybetmek yalnızca bir talimat kadar kısa sürer. Kimlik doğrulama firması Identomat'a göre, emeklilik tasarruflarına karşı tehdit gelişiyor: dolandırıcılar artık tasarruf sahiplerini kötü kararlar almaya zorlamamakta, bunun yerine giderek artan şekilde onlar yerine geçerek tasarruf sahiplerini atlatmaktadırlar."
 },
 "ddae245558": {
 "baslik": "Macaristan, İstismar Niteliğindeki Göç Olağanüstü Hal Rejimini Uzatıyor",
@@ -13010,6 +13120,11 @@
 "dil": "diger",
 "ozet": "Abdullah Tırpan'ın Metris Cezaevi'nde gangren ve açık yaralar bulunmaktadır; Adli Tıp Enstitüsü tarafından yapılan tıbbi değerlendirme kendisinin cezaevinde kalabileceğini bulmuştur."
 },
+"e5cf0a35cf": {
+"baslik": "Panama, Panama Belgelerinden On Yıl Sonra AB'nin Vergi Cenneti 'Kara Listesinden' Çıkarıldı",
+"dil": "diger",
+"ozet": "Uluslararası Araştırmacı Gazeteciler Konsorsiyumu (ICIJ) soruşturmasının ülkeyi kurumsal bir haven olarak ortaya koyduktan on yıl sonra, itibar zararını gidermek için düzenlemeler ve denetimler uygulamaya konmuştur."
+},
 "e5d6918afc": {
 "dil": "tr"
 },
@@ -13099,6 +13214,9 @@
 "e6c03588a0": {
 "dil": "tr"
 },
+"e6cd8f96b0": {
+"dil": "tr"
+},
 "e6ce678e0f": {
 "baslik": "Türkiye'nin Adalet Bakanı 2028'de Erdoğan'ı Yeniden Seçmek İçin Seçim Yapılacağını Söyledi",
 "dil": "diger",
@@ -13172,6 +13290,11 @@
 "baslik": "Türk Jandarması Tarafından Gözaltına Alınan Kürt Köylünün Öldürücü Yaralanmalarının Otopsi Detayları",
 "dil": "diger",
 "ozet": "Kürt köylüsü Servet Turgut'un 2020 yılında Türkiye'nin güneydoğusunda Türk Jandarması tarafından gözaltına alındıktan sonra yaşadığı yaralanmalarını belgelemeye yönelik, ölümünden altı yıl sonra ortaya çıkan adli tıp raporu, onun ölümü konusundaki soruşturma halen devam ederken, birden fazla yaralanmayı tespit etmiştir. Türkiye'nin Adli Tıp Kurumu'ndan alınan rapor..."
+},
+"e7c7b4389b": {
+"baslik": "AİHM, Türkiye'nin Muhasır Gülen Bağlantılarıyla Hapsolanan 26 Kişinin Haklarını İhlal Ettiğini Tespit Etti",
+"dil": "diger",
+"ozet": "Avrupa İnsan Hakları Mahkemesi (AİHM), Salı günü, Gülen hareketine muhasır bağlantıları nedeniyle yargılanmak üzere tutuklanan 26 kişinin haklarını Türkiye tarafından ihlal edildiğine karar verdi ve 2016 darbe girişiminden sonra Türk mahkemelerinin tutukluluğu için yeterli gerekçe sunmadığını tespit etti."
 },
 "e7f096293f": {
 "baslik": "'Sürdürülebilirlik ve Rekabetçilik'ten 'Sürdürülebilirlik Karşısında Rekabetçilik'e: AB Yasal Çerçevesi Nasıl Basitleştirilir?",
@@ -13755,6 +13878,11 @@
 "dil": "diger",
 "ozet": "gpatterson Mon, 10/05/2026 - 10:06 Belge Teknik ve kalite raporu - AB cinsel şiddete karşı anket Dil en - İngilizce Yıl 2026 Arşiv Hayır"
 },
+"f1f19fc2e8": {
+"baslik": "Türk Mahkemesi, Ölü Bulunan 8 Yaşındaki Kızını Cinsel İstismar Suçlamasıyla Yargılanan Babasını Beraat Etti",
+"dil": "diger",
+"ozet": "Bir Türk mahkemesi, Mart ayında annesinin yanında ölü bulunan 8 yaşındaki kızını cinsel istismar suçlamasıyla yargılanan bir adamı, yetersiz kanıt nedeniyle beraat ettirdi. İstanbul Anadolu 2. Ağır Ceza Mahkemesi, Hifa İkra Şengüler'in babası Ayhan Şengüler'i beraat ettirdi."
+},
 "f1f4189fa8": {
 "baslik": "ECLI:NL:RBDHA:2026:27631 — Den Haag İcra Mahkemesi iltica işlemleri giderleri kararı",
 "dil": "diger",
@@ -13780,6 +13908,11 @@
 "baslik": "Küresel: Kadın İnsan Hakları Savunucuları mücadelelerini BM'de bir haftalık avukatlık toplantısında ortaya koymaktadır",
 "dil": "diger",
 "ozet": "Dünyanın dört bir yanından Kadın İnsan Hakları Savunucuları (WHRD) 21-25 Eylül'de Cenevre'de toplanacak, BM İnsan Hakları Konseyi hakkında bilgi edinecek, haklarını savunacak ve kendi hikayelerini genişleteceklerdir. Kadın İnsan Hakları Avukatlık Haftası olarak bilinen haftalık eğitim, dokuz insan hakları."
+},
+"f23558a053": {
+"baslik": "ePayments Systems Limited özel yönetimine girdi",
+"dil": "diger",
+"ozet": "15 Ekim 2026'de ePayments Systems Limited (EPS) özel yönetimine girmiştir. Opus Restructuring LLP'den (Opus) Mark Boast ve Allister Manson ortak özel yönetici olarak atanmışlardır. EPS, Elektronik Para Yönetmelikleri 2011 (EMRs) uyarınca FCA tarafından elektronik para ihraç etmeye yetkilidir."
 },
 "f24bbcc36a": {
 "dil": "tr"
