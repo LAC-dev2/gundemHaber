@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-15",
- "olusturma": "2026-10-15T07:54+00:00",
+ "olusturma": "2026-10-15T08:54+00:00",
  "uyarilar": [
   {
    "id": "karar:001-252739",
@@ -42,12 +42,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-15:11",
+   "id": "saglik:2026-10-15:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor, Frontex, EDRi…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, EDRi, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
