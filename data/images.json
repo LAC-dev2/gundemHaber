@@ -1531,6 +1531,10 @@
 "checked": "2026-10-15T08:53:10+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:30474&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-16T10:35:16+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-01T09:39:14+00:00",
 "img": ""
@@ -1761,6 +1765,10 @@
 },
 "https://ecre.org/ecre-policy-note-the-eu-pact-on-asylum-and-migration-putting-new-rules-to-the-test/": {
 "checked": "2026-10-15T08:53:10+00:00",
+"img": ""
+},
+"https://ecre.org/editorial-the-proposed-european-emergency-response-framework-old-habits-die-hard/": {
+"checked": "2026-10-16T10:35:16+00:00",
 "img": ""
 },
 "https://ecre.org/eu-eastern-borders-finland-completes-200km-border-fence-%e2%80%95-finnish-government-planning-to-extend-pushback-law%e2%80%95-latvian-ngo-accuses-government-of-repression-%e2%80%95/": {
@@ -2089,6 +2097,10 @@
 },
 "https://europeanlawblog.eu/sanctions-lawyers-and-the-limits-of-article-47-cfreu-the/": {
 "checked": "2026-10-13T08:52:45+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/saving-the-eu-eso-enhanced-cooperation-as-eu-inc-s-way-out/": {
+"checked": "2026-10-16T10:35:16+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
 "https://europeanlawblog.eu/the-balance-between-national-security-and-eu-public/": {
@@ -2501,6 +2513,10 @@
 },
 "https://globalinvestigationsreview.com/article/austria-investigating-meinl-bank-ex-chair-executives-alleged-embezzlement": {
 "checked": "2026-10-15T20:08:10+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/article/brazil-subsidiary-of-us-aluminium-producer-ordered-pay-39m-over-asbestos-findings": {
+"checked": "2026-10-16T10:35:16+00:00",
 "img": ""
 },
 "https://globalinvestigationsreview.com/article/california-court-confirms-spousal-communications-protected-investigators": {
@@ -3157,6 +3173,10 @@
 },
 "https://mlsaturkey.com/en/censorship-bulletin-for-sept-21-27": {
 "checked": "2026-09-28T18:19:27+00:00",
+"img": ""
+},
+"https://mlsaturkey.com/en/journalism-and-freedom-of-expression-bulletin-week-of-oct-12-2026": {
+"checked": "2026-10-16T10:35:16+00:00",
 "img": ""
 },
 "https://mlsaturkey.com/en/journalism-and-freedom-of-expression-bulletin-week-of-oct-5-2026": {
@@ -4318,6 +4338,10 @@
 "https://regtechanalyst.com/fragmented-checks-leave-fintechs-exposed-to-identity-theft/": {
 "checked": "2026-10-01T17:12:55+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Single-checks-are-failing-firms-against-identity-fraud.jpg"
+},
+"https://regtechanalyst.com/fsb-sets-12-ai-rules-financial-firms-cannot-ignore/": {
+"checked": "2026-10-16T10:35:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/FSB-puts-boards-on-the-hook-for-AI-risk-in-finance.jpg"
 },
 "https://regtechanalyst.com/global-ai-regulation-splits-what-compliance-teams-face/": {
 "checked": "2026-10-07T17:37:08+00:00",
@@ -7051,6 +7075,10 @@
 "checked": "2026-09-24T13:10:17+00:00",
 "img": ""
 },
+"https://www.esma.europa.eu/press-news/esma-news/esma-finalises-review-guidelines-delay-disclosure-inside-information": {
+"checked": "2026-10-16T10:35:16+00:00",
+"img": ""
+},
 "https://www.esma.europa.eu/press-news/esma-news/esma-host-data-day-2026-data-savings-and-investment-union-burden-opportunity": {
 "checked": "2026-09-24T13:10:17+00:00",
 "img": ""
@@ -7409,6 +7437,10 @@
 },
 "https://www.fca.org.uk/news/speeches/reforming-uk-capital-markets-ensure-they-work-well-our-economy": {
 "checked": "2026-10-05T09:52:28+00:00",
+"img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
+},
+"https://www.fca.org.uk/news/statements/libor-euribor-related-bans": {
+"checked": "2026-10-16T10:35:16+00:00",
 "img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
 },
 "https://www.fca.org.uk/news/statements/motor-finance-legal-challenge-be-heard-february-2027": {
@@ -9209,6 +9241,10 @@
 },
 "https://www.mlsaturkey.com/en/censorship-bulletin-for-sept-21-27": {
 "checked": "2026-09-28T18:19:27+00:00",
+"img": ""
+},
+"https://www.mlsaturkey.com/en/journalism-and-freedom-of-expression-bulletin-week-of-oct-12-2026": {
+"checked": "2026-10-16T10:35:16+00:00",
 "img": ""
 },
 "https://www.mlsaturkey.com/en/journalism-and-freedom-of-expression-bulletin-week-of-oct-5-2026": {
