@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-16",
- "olusturma": "2026-10-16T06:46+00:00",
+ "olusturma": "2026-10-16T07:46+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-16:FRA: zorla geri gönderme izlemesinde boşluklar, üç üye devle",
@@ -55,12 +55,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-16:9",
+   "id": "saglik:2026-10-16:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, Medimmigrant, Arrested Lawyers Initiative, Anadolu Ajansı…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
