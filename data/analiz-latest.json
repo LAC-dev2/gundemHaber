@@ -1,6 +1,175 @@
 {
  "sureklilik": [
   {
+   "id": "t109",
+   "durum": "hareket var",
+   "not": "Halk TV dosyasında iki yeni kayıt var: kanalın sahibi Londra'da AFP'ye konuşarak el koymanın fon skandalından dikkat kaydırma amacı taşıdığını söyledi [84d90a15b7]; ayrıca Halk TV programcısı gazeteci Bahadır Özgür'ün 163 bin takipçili X hesabı 'soruşturmanın gizliliğini ihlal' iddiasıyla gözaltının ardından engellendi [8e12bf5b29]. Hesap X tarafından henüz Türkiye'den görünmez kılınmadı.",
+   "kayitlar": [
+    "84d90a15b7",
+    "8e12bf5b29",
+    "83eebe1585",
+    "15e176aae1"
+   ]
+  },
+  {
+   "id": "t103",
+   "durum": "hareket var",
+   "not": "Ocak ve diğerleri ile Kaya kararlarının HUDOC metinleri elimizde; Ocak'ta 26 başvurucuya kişi başı 1.500 avro (manevi tazminat + masraf), Kaya'da 4.000 avro manevi tazminat ve 1.000 avro masraf hükmedildi, ödeme süresi her ikisinde üç ay [001-252739][001-252752]. SCF, Ocak kararını 26 kişi ve md. 5/3 ihlali olarak aktardı [e7c7b4389b].",
+   "kayitlar": [
+    "001-252739",
+    "001-252752",
+    "e7c7b4389b",
+    "99d978cbdb"
+   ]
+  },
+  {
+   "id": "t3",
+   "durum": "hareket var",
+   "not": "Ocak ve diğerleri kararı, Türkiye kaynaklı derdest başvuru birikimine 26 başvuruluk bir toplu karar daha ekledi; Turan ve diğerleri içtihadına atıfla toplu ve düşük tutarlı giderim formülü sürdürülüyor [001-252739].",
+   "kayitlar": [
+    "001-252739",
+    "e7c7b4389b"
+   ]
+  },
+  {
+   "id": "t47",
+   "durum": "hareket var",
+   "not": "Bahadır Özgür'ün engellenen X hesabı için de İFÖD 'X tarafından henüz Türkiye'den görünmez kılınmadı' notunu düştü [8e12bf5b29]; karar ile platform uygulaması arasındaki gecikme örüntüsü sürüyor.",
+   "kayitlar": [
+    "8e12bf5b29"
+   ]
+  },
+  {
+   "id": "t42",
+   "durum": "hareket var",
+   "not": "Halk TV sahibinin beyanı, el koyma ve yayın durdurma işlemini doğrudan fon skandalı haberciliğiyle ilişkilendiriyor [84d90a15b7]; Bahadır Özgür'ün gözaltı gerekçesi 'soruşturmanın gizliliğini ihlal' olarak kaydedildi [8e12bf5b29]. Bunlar kaynak beyanı düzeyindedir, resmî belge kayıtlarda yok.",
+   "kayitlar": [
+    "84d90a15b7",
+    "8e12bf5b29"
+   ]
+  },
+  {
+   "id": "t53",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t56",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t71",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t78",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t106",
+   "durum": "hareket var",
+   "not": "COP31 dosyasında yeni bir hat: BirGün'e dayanarak, tartışmalı kömür madenciliği, taş ocağı ve kıyı projeleri yürüten Türk holdinglerinin zirve başkanlığınca COP31 'iklim destekçisi' veya uygulama ortağı ilan edildiği bildirildi [91dcceadef]. Bu, madencilik karşıtı protestolara yönelik soruşturma verisiyle aynı dosyanın karşı tarafını oluşturuyor.",
+   "kayitlar": [
+    "91dcceadef"
+   ]
+  },
+  {
+   "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t37",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t24",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t110",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t111",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t112",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t33",
+   "durum": "hareket var",
+   "not": "8/A engelleri bu pencerede gazeteci hesabına uygulandı: Bahadır Özgür'ün X hesabı engellendi [8e12bf5b29]. Önceki günün TİP ve Halk TV hesapları kayıtları bağlam olarak duruyor [a22d6432c8][83eebe1585].",
+   "kayitlar": [
+    "8e12bf5b29"
+   ]
+  },
+  {
+   "id": "t92",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t101",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t87",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t12",
+   "durum": "hareket var",
+   "not": "FRA, Dönüşler konulu üst düzey ağ toplantısında zorla geri göndermelerin bağımsız izlenmesini ele aldı; rapora göre AB üyelerinin yarısından fazlası izleme bulgularını yayımlamıyor, üç üye devlette izleme kuruluşunun bağımsızlığı sorunlu ve ilk aşamada kelepçe gibi kısıtlama tedbirleri sistematik uygulanıyor [ec7457d148]. ECRE ise Göç ve İltica Paktı'nın ilk aylarına ilişkin politika notunda bağımsız izleme mekanizmalarının bazı üye devletlerde henüz işler olmadığını belirtti [971b359f22].",
+   "kayitlar": [
+    "ec7457d148",
+    "971b359f22"
+   ]
+  },
+  {
+   "id": "t100",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t39",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t15",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t1",
    "durum": "hareket yok",
    "not": "",
@@ -11,14 +180,6 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t3",
-   "durum": "hareket var",
-   "not": "Solidarity with OTHERS, 31 Ağustos 2026 itibarıyla Türkiye'nin AİHM'de derdest 58.100 başvurunun 23.850'sini (yüzde 41) oluşturduğunu aktarıyor; Yalçınkaya kararının icra edilmediği, Bakanlar Komitesi'nin Haziran 2026 sonuna kadar istediği bilginin yanıtsız kaldığı belirtiliyor.",
-   "kayitlar": [
-    "76c74a6b6f"
-   ]
   },
   {
    "id": "t4",
@@ -40,11 +201,9 @@
   },
   {
    "id": "t7",
-   "durum": "hareket var",
-   "not": "BM insan hakları uzmanları, Türkiye'de LGBTİ+ örgütlerine yönelik 'ağır baskı' olarak niteledikleri uygulamaları kınadı; bar, gece kulübü ve aktivist evlerine baskınlara atıf yapıldı. Tekerek dosyasında bugün yeni kayıt yok.",
-   "kayitlar": [
-    "f43bbe0394"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t8",
@@ -71,12 +230,6 @@
    "kayitlar": []
   },
   {
-   "id": "t12",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t13",
    "durum": "hareket yok",
    "not": "",
@@ -84,12 +237,6 @@
   },
   {
    "id": "t14",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t15",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -143,14 +290,6 @@
    "kayitlar": []
   },
   {
-   "id": "t24",
-   "durum": "hareket var",
-   "not": "İstanbul 13. Ağır Ceza Mahkemesi, AİHM Büyük Dairesi'nin 25 Ağustos tarihli kararına rağmen Kavala'nın tahliye ve yeniden yargılama taleplerini oybirliğiyle reddetti; gerekçede AİHM'in Türk yargısının üstünde bir temyiz mercii olmadığı ve iç hukuk yollarının tüketilmediği belirtildi. Talep CMK 311 uyarınca yapılmıştı.",
-   "kayitlar": [
-    "8d698ea69e"
-   ]
-  },
-  {
    "id": "t25",
    "durum": "hareket yok",
    "not": "",
@@ -193,15 +332,6 @@
    "kayitlar": []
   },
   {
-   "id": "t33",
-   "durum": "hareket var",
-   "not": "8/A kapsamındaki engel listesi bugün Halk TV'nin altı platformdaki hesabına ve Türkiye İşçi Partisi'nin 582 bin takipçili X hesabına genişledi; ekonomi hesaplarından sonra yayın kuruluşu ve siyasi parti hesaplarına yayılma kaydı.",
-   "kayitlar": [
-    "83eebe1585",
-    "a22d6432c8"
-   ]
-  },
-  {
    "id": "t34",
    "durum": "hareket yok",
    "not": "",
@@ -220,21 +350,7 @@
    "kayitlar": []
   },
   {
-   "id": "t37",
-   "durum": "hareket var",
-   "not": "7595 sayılı Kanun'a ait Resmî Gazete belgesi yeniden kayda girdi; içerik hâlâ başlık düzeyinde, metin özeti yok.",
-   "kayitlar": [
-    "2ac488c9f0"
-   ]
-  },
-  {
    "id": "t38",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t39",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -247,12 +363,6 @@
   },
   {
    "id": "t41",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t42",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -280,15 +390,6 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t47",
-   "durum": "hareket var",
-   "not": "Hem Halk TV hesapları hem TİP hesabı için kayıtlarda 'platformlar henüz Türkiye'den görünmez kılmadı' notu düşülmüş; engelleme kararı ile platform uygulaması arasındaki gecikme bu iki dosyada da sürüyor.",
-   "kayitlar": [
-    "83eebe1585",
-    "a22d6432c8"
-   ]
   },
   {
    "id": "t48",
@@ -321,14 +422,6 @@
    "kayitlar": []
   },
   {
-   "id": "t53",
-   "durum": "hareket var",
-   "not": "Lawyers for Lawyers, 24 Eylül 2026'da İstanbul 26. Ağır Ceza Mahkemesi'ndeki ilk duruşmaya gözlemci gönderdiğini ve mahkemenin Sezin Uçar'ı derhal tahliye ettiğini açıkladı; yargılama 19 Ocak 2027'ye ertelendi. Bu, dosyadaki duruşma gözlemine ilişkin ilk uluslararası kayıt.",
-   "kayitlar": [
-    "84d5287434"
-   ]
-  },
-  {
    "id": "t54",
    "durum": "hareket yok",
    "not": "",
@@ -339,14 +432,6 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t56",
-   "durum": "hareket var",
-   "not": "29 Eylül tarihli üç kararın üzerinden on beş gün geçtikten sonra Adalet Bakanı'nın ByLock, Bank Asya ve HTS kayıtlarına dayanan yeni gözaltıları duyurduğu kaydedildi; aynı kaynak Yalçınkaya'nın icra edilmediğini ve Bakanlar Komitesi'nin bilgi talebinin yanıtsız kaldığını belirtiyor.",
-   "kayitlar": [
-    "76c74a6b6f"
-   ]
   },
   {
    "id": "t57",
@@ -433,17 +518,6 @@
    "kayitlar": []
   },
   {
-   "id": "t71",
-   "durum": "hareket var",
-   "not": "Karar metinleri dosyaya girdi: Ünal ve diğerleri 591 başvuru (md. 6/1), Parun ve diğerleri 345 başvuru (md. 6/1 ve md. 7), Korkmaz ve diğerleri 11 başvuru (md. 7); toplam 947 doğrulanıyor. Korkmaz'da ihlal tespiti yeterli tazmin sayıldı ve masraf verilmedi.",
-   "kayitlar": [
-    "001-252504",
-    "001-252505",
-    "001-252506",
-    "76c74a6b6f"
-   ]
-  },
-  {
    "id": "t72",
    "durum": "hareket yok",
    "not": "",
@@ -478,14 +552,6 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t78",
-   "durum": "hareket var",
-   "not": "Kararın tam metni dosyaya girdi: md. 10 ihlali, 7.500 avro manevi tazminat, ödeme süresi kararın kesinleşmesinden itibaren üç ay. Yargıç Yüksel md. 41 yönünden kısmi muhalefet şerhi yazmış ve ihlal tespitinin kendisinin yeterli tazmin olduğu görüşünü bildirmiş.",
-   "kayitlar": [
-    "001-252630"
-   ]
   },
   {
    "id": "t79",
@@ -536,12 +602,6 @@
    "kayitlar": []
   },
   {
-   "id": "t87",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t88",
    "durum": "hareket yok",
    "not": "",
@@ -566,12 +626,6 @@
    "kayitlar": []
   },
   {
-   "id": "t92",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t93",
    "durum": "hareket yok",
    "not": "",
@@ -582,21 +636,6 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t95",
-   "durum": "hareket var",
-   "not": "6 Ekim sayısına ait yedi PDF (20261006-5, -8, -10, -11, -12, -13, -14) ve 7595 sayılı Kanun kaydı yeniden tarandı; kayıtlarda yalnızca dosya adı düzeyinde bilgi var, içerik hâlâ belirlenemiyor.",
-   "kayitlar": [
-    "79390c3dbd",
-    "a50cc3ecb2",
-    "33a9b47f0e",
-    "5415663243",
-    "e845177e28",
-    "a1bf0ef20a",
-    "b500a26354",
-    "2ac488c9f0"
-   ]
   },
   {
    "id": "t96",
@@ -623,32 +662,10 @@
    "kayitlar": []
   },
   {
-   "id": "t100",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t101",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t102",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t103",
-   "durum": "hareket var",
-   "not": "İki kararın metni dosyaya girdi. Ocak ve diğerleri: md. 5/3 ihlali, 26 başvurucunun her birine 1.500 avro (manevi tazminat ile masrafları kapsayan götürü tutar), üç ay içinde ödeme. Kaya: md. 5/1 ve 5/3 ihlali, 4.000 avro manevi tazminat ve 1.000 avro masraf.",
-   "kayitlar": [
-    "001-252739",
-    "001-252752",
-    "99d978cbdb"
-   ]
   },
   {
    "id": "t104",
@@ -658,12 +675,6 @@
   },
   {
    "id": "t105",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t106",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -683,335 +694,316 @@
  ],
  "yeni_takip": [
   {
-   "baslik": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi hakkındaki yakalama kararı ve altı platformdaki hesaplara uygulanan 8/A engeli",
+   "baslik": "Gazeteci Bahadır Özgür'ün gözaltısı ve 163 bin takipçili X hesabının 'soruşturmanın gizliliğini ihlal' gerekçesiyle engellenmesi",
    "alan": "İfade ve basın özgürlüğü",
-   "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
+   "neden": "Halk TV dosyasının kişi düzeyine yayıldığı ilk kayıt; gözaltı gerekçesi ile erişim engeli gerekçesinin aynı isnada dayanması, engel kararlarının ölçülülük denetimi açısından izlenmeyi gerektirir [8e12bf5b29].",
    "kayitlar": [
-    "db2250c34a",
-    "15e176aae1",
-    "83eebe1585"
+    "8e12bf5b29",
+    "84d90a15b7"
    ]
   },
   {
-   "baslik": "Abdi Cengiz dosyası: Sincan Cezaevi'nde aile görüşmelerinin bir yıl kaydedilmesine ilişkin md. 8 ihlali ve 1.500 avro tazminatın icrası",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Karar, Haziran 2021 tarihli mevzuata dayanan genel bir izleme politikasını bireyselleştirme eksikliği nedeniyle sorunlu buluyor; aynı politikaya tabi diğer mahpuslar için genel tedbir sorusu doğuruyor. Karar metni henüz dosyada yok.",
+   "baslik": "Ankara 8. mahkemesinin Mahir Çayan derlemesine el koyma kararı ve editör hakkındaki terör propagandası yargılaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kitap el koyma ve yayın yasağı kararları AYM'nin yayın el koyma içtihadı (t6) ile doğrudan ilişkili; yargılamanın seyri izlenmeli [590ea41399].",
    "kayitlar": [
-    "d26b0b8144"
+    "590ea41399"
    ]
   },
   {
-   "baslik": "Eskişehir ve İzmir savcılıklarının üç soruşturmasında gözaltına alınanların akıbeti ve ABD merkezli şirket üzerinden ödeme isnadı",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Gözaltı sayısı kaynaklara göre 32 ile 33 arasında değişiyor; delil kategorileri (ByLock, Bank Asya, HTS) Yalçınkaya içtihadının konusu. Tutuklama/serbest bırakma sonuçları henüz bilinmiyor.",
+   "baslik": "FRA'nın zorla geri gönderme izleme raporu: izleme bulgularını yayımlamayan üye devletler ve kısıtlama tedbirlerinin sistematik kullanımı",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Geri gönderme izleme mekanizmalarının bağımsızlığı, merkezin sınır dışı dosyalarında usul güvencesi argümanlarının dayanağını oluşturuyor; rapor AB çapında boşlukları adlandırıyor [ec7457d148][971b359f22].",
    "kayitlar": [
-    "cadd738460",
-    "76c74a6b6f"
+    "ec7457d148",
+    "971b359f22"
    ]
   },
   {
-   "baslik": "BM uzmanlarının Türkiye'de LGBTİ+ örgütlerine yönelik baskıya ilişkin 13 Ekim açıklaması ve izleyen mekanizma adımları",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden": "Açıklama ifade, toplanma ve örgütlenme özgürlüğüne atıfla 'güvenli ortam' talebi içeriyor; resmî iletişim (communication) metni ve Türkiye'nin yanıtı kayıtlarda yok.",
+   "baslik": "Norveç Devlet Emeklilik Fonu'nun etik çerçevesinde Gjedrem Komitesi önerileri: Etik Konsey'in dışlama yetkisinin kaldırılması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "İnsan hakları ihlalleriyle bağlantılı şirketlerin portföyden dışlanması mekanizması, yaptırım/listeleme dosyalarıyla komşu bir alandır; önerilerin yasalaşma seyri izlenmeli [b27788f7be].",
    "kayitlar": [
-    "f43bbe0394"
+    "b27788f7be"
    ]
   }
  ],
  "birincil_notlar": [
   {
    "itemid": "001-252739",
-   "baslik": "Ocak ve diğerleri v. Türkiye: 26 başvuruda tutukluluğun yeterli gerekçeye dayanmaması",
+   "baslik": "Ocak ve diğerleri v. Türkiye: 26 başvuruda tutukluluğun yeterli gerekçeye dayandırılmaması",
    "maddeler": [
     "5",
     "5-3"
    ],
-   "ne_dedi": "İkinci Daire Komitesi oybirliğiyle, tutuklama ve uzatma kararlarında yeterli gerekçe bulunmaması nedeniyle md. 5/3'ün ihlal edildiğine karar verdi. Md. 5/1(c) şikâyetinin ayrıca esastan incelenmesine gerek görülmedi; md. 5 kapsamındaki kalan şikâyetler de incelenmedi. Turan ve diğerleri kararına atıfla ve tutukluluk sürelerinin benzer önceki davalara göre nispeten kısa olduğu gerekçesiyle maddi tazminat talepleri reddedildi; her başvurucuya manevi tazminat ile masrafları kapsayan 1.500 avro götürü tutar, üç ay içinde ödenmek üzere hükmedildi.",
-   "merkez_icin": "Md. 5/3 grubundaki toplu komite kararları zincirine yeni bir halka; götürü 1.500 avro uygulaması ve maddi tazminatın reddi, Tanrıverdi'deki 5.000 avro ile karşılaştırıldığında Mahkeme'nin tutukluluk süresine göre farklılaşan tazminat pratiğini gösteriyor.",
-   "haberle_fark": ""
+   "ne_dedi": "İkinci Daire Komitesi, oybirliğiyle md. 5/3 ihlali buldu: tutuklama ve tutukluluğun uzatılması yeterli gerekçeye dayandırılmamış [001-252739]. Md. 5/1(c) bakımından ayrı inceleme gereği görülmedi, md. 5 altındaki kalan şikâyetlerin kabul edilebilirliği ve esası incelenmedi. Turan ve diğerleri (§§ 102-07) gerekçesiyle ve tutukluluk sürelerinin önceki benzer davalara göre görece kısa olması dikkate alınarak maddi tazminat talepleri reddedildi; her başvurucuya manevi tazminat ile masraf ve giderleri kapsayan toplu 1.500 avro, üç ay içinde ödenmek üzere hükmedildi.",
+   "merkez_icin": "Karar, md. 5/3 grubundaki toplu kararların giderim formülünü sürdürüyor: maddi tazminat yok, kişi başı sabit 1.500 avro, üç aylık ödeme süresi [001-252739]. Bakanlar Komitesi denetiminde md. 5/3 gruplarına ekleneceği için t103 ve t3 altında izlenmesi gereken bir dosya.",
+   "haberle_fark": "SCF haberi kararı 26 kişi ve md. 5/3 ihlali olarak doğru aktarıyor; ancak hükmedilen tutara (kişi başı 1.500 avro) ve md. 5/1(c) bakımından ayrı inceleme yapılmadığına değinmiyor [e7c7b4389b][001-252739]."
   },
   {
    "itemid": "001-252752",
-   "baslik": "Kaya v. Türkiye: Rosa Kadın Derneği başkanının 2020'deki tutukluluğunda makul şüphe ve gerekçe eksikliği",
+   "baslik": "Kaya v. Türkiye: Rosa Kadın Derneği başkanının 2020'deki tutukluluğunda makul şüphe ve gerekçe yokluğu",
    "maddeler": [
     "5",
     "5-1",
     "5-3"
    ],
-   "ne_dedi": "Mahkeme oybirliğiyle md. 5/1 ve 5/3'ün ihlal edildiğine; md. 5/4 şikâyetlerinin kabul edilemez olduğuna karar verdi. Md. 18'in md. 5/1 ile birlikte ayrıca incelenmesine gerek görülmedi. Maddi tazminat talebi nedensellik bağı bulunmadığı için reddedildi; 4.000 avro manevi tazminat ve 1.000 avro masraf, kararın kesinleşmesinden itibaren üç ay içinde ödenmek üzere hükmedildi.",
-   "merkez_icin": "Dernek faaliyeti, gösteri konuşmaları ve anonim tanık beyanının makul şüphe oluşturmaya yetmediği yönündeki değerlendirme, örgütlenme ve ifade temelli tutuklama dosyalarında dayanak oluşturur; ödeme süresi Bakanlar Komitesi takvimi için sabittir.",
-   "haberle_fark": "Haber kaydı yalnızca 'md. 5 ihlali' diyor ve tazminat tutarlarına yer vermiyor; karar metni md. 5/1 ile 5/3'ten ayrı ayrı ihlal buluyor, md. 5/4'ü kabul edilemez ilan ediyor ve 4.000 + 1.000 avro hükmediyor."
+   "ne_dedi": "Komite oybirliğiyle md. 5/1 ve 5/3 ihlali buldu; md. 5/4 şikâyetleri kabul edilemez ilan edildi, md. 18 ile md. 5/1 birlikte şikâyetinin ayrıca incelenmesine gerek görülmedi [001-252752]. Başvurucu 5.000 avro maddi, 20.000 avro manevi tazminat ve 5.613 avro masraf istemişti; Mahkeme maddi tazminat talebini nedensellik bağı bulunmadığı için reddetti, hakkaniyete göre 4.000 avro manevi tazminat ve 1.000 avro masraf ve gidere hükmetti, ödeme süresi kararın kesinleşmesinden itibaren üç ay.",
+   "merkez_icin": "Kaya, toplu md. 5/3 kararlarından farklı olarak tekil dosyada md. 5/1'den de ihlal bulunan ve dört kat tutar hükmedilen bir örnek; tutuklamaya dayanak gösterilen gizli tanık beyanı ve gösteri katılımının yetersizliği tespit edildi [001-252752][99d978cbdb].",
+   "haberle_fark": "SCF haberi ihlali 'md. 5' olarak genel biçimde veriyor; karar metni ihlali md. 5/1 ve 5/3 olarak ayrıştırıyor ve md. 5/4 şikâyetlerini kabul edilemez buluyor [99d978cbdb][001-252752]."
   },
   {
    "itemid": "001-252630",
-   "baslik": "Müyesser Uğur v. Türkiye: gazetecinin altı yazı nedeniyle tutuklanmasında md. 10 denetimi",
+   "baslik": "Müyesser Uğur v. Türkiye: gizli bilgi ifşası isnadıyla tutuklanan gazeteci hakkında md. 10 ihlali",
    "maddeler": [
     "10",
     "10-1",
     "10-2",
     "41"
    ],
-   "ne_dedi": "Mahkeme md. 10'un ihlal edildiğine karar verdi: altı yazıdan beşi gizli bilgi ya da devlet sırrı içermediği hâlde tutukluluk için ilgili ve yeterli gerekçe gösterilmemiştir. Altıncı yazının Libya'daki operasyonları yönetecek komutanın kimliğini açıkladığı ve bunun ulusal güvenliğe 'ciddi zarar' verme kapasitesi taşıdığı kabul edilmiş, ancak iç mahkemelerin müdahaleyi tüm koşullar ışığında değerlendirmediği belirtilmiştir. Maddi tazminat talebi reddedilmiş, 7.500 avro manevi tazminata hükmedilmiştir.",
-   "merkez_icin": "Gazeteci tutukluluklarında md. 10 gerekçelendirmesi için yazı yazı ayrım yapan bir ölçüt sunuyor; icra aşamasında ödeme süresi ve iç yargılamanın seyri izlenecek.",
+   "ne_dedi": "Mahkeme md. 10 ihlali buldu: altı haberden beşi gizli bilgi ya da devlet sırrı içermediği halde tutukluluk için ilgili ve yeterli gerekçe gösterilmemiş [001-252630]. Altıncı haberin Libya'daki askerî operasyonları yönetmekle görevlendirilen komutanın kimliğini, geçmişini ve kişisel özelliklerini açıkladığı, bunun millî güvenliğe 'ciddi zarar' verebileceği kaydedildi; buna karşın iç mahkemelerin müdahaleyi tüm koşullar ışığında değerlendirmediği tespit edildi. 7.500 avro manevi tazminata üç ay içinde ödenmek üzere hükmedildi; Yargıç Yüksel md. 41 bakımından kısmi karşı oy yazdı ve ihlal tespitinin tek başına yeterli giderim olacağı görüşünü belirtti.",
+   "merkez_icin": "Gazeteci tutukluluklarında md. 10 gerekçelendirmesi açısından dayanak oluşturan karar; t78 altındaki icra takibinde ödeme süresi ve iç hukuk denetimi için metin artık elimizde [001-252630].",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252504",
-   "baslik": "Ünal ve diğerleri v. Türkiye: 591 başvuruda darbe sonrası mahkûmiyetlerde adil yargılanma ihlali",
+   "baslik": "Ünal ve diğerleri v. Türkiye: 591 başvuruda darbe sonrası terör mahkûmiyetlerinde md. 6/1 ihlali",
    "maddeler": [
     "6",
     "6-1"
    ],
-   "ne_dedi": "Komite, md. 6/1 (adil yargılanma) yönünden ihlal bulundu sonucuna vardı. Karar 61641/19 ve diğer 590 başvuruyu birleştiriyor; şikâyetler md. 6/1 ve md. 7 kapsamında tebliğ edilmişti.",
-   "merkez_icin": "947 kişilik ByLock/darbe sonrası mahkûmiyet grubunun en büyük parçası; CMK 311/1(f) uyarınca yeniden yargılama taleplerinin hacmini belirliyor.",
+   "ne_dedi": "Komite, ekli listedeki başvurucular bakımından md. 6/1 (adil yargılanma) ihlali buldu [001-252504]. Şikâyetler md. 6/1 ve md. 7 bakımından hükümete tebliğ edilmişti.",
+   "merkez_icin": "Yalçınkaya grubundaki 29 Eylül 2026 tarihli üç karardan biri; t56 ve t71 kapsamında başvurucu sayısı ve ihlal maddesi ayrımının doğrulanmasına hizmet eder [001-252504].",
    "haberle_fark": ""
   },
   {
    "itemid": "001-252505",
-   "baslik": "Parun ve diğerleri v. Türkiye: 345 başvuruda hem adil yargılanma hem kanunsuz ceza olmaz ihlali",
+   "baslik": "Parun ve diğerleri v. Türkiye: 345 başvuruda md. 6/1 ve md. 7 ihlali",
    "maddeler": [
     "6",
     "6-1",
     "7"
    ],
-   "ne_dedi": "Komite, 9991/20 ve diğer 344 başvuruda md. 6/1'in ve md. 7'nin ihlal edildiğine karar verdi.",
-   "merkez_icin": "Md. 7 ihlalinin bu dosyada da bulunması, Yalçınkaya'nın suçun manevi unsuruna ilişkin tespitinin tek bir karara özgü olmadığını gösteriyor; yeniden yargılama talepleri açısından dayanak farklılaşıyor.",
-   "haberle_fark": "Solidarity with OTHERS kaydı Ünal ve Parun'u yalnızca md. 6/1 ihlali, Korkmaz'ı md. 7 ihlali olarak aktarıyor; karar metnine göre Parun ve diğerlerinde md. 6/1'in yanında md. 7 ihlali de bulunmuştur."
+   "ne_dedi": "Komite, md. 6/1 ve md. 7 ihlali buldu [001-252505]. Dosya, Ünal ve diğerleri ile aynı gün, aynı heyet tarafından karara bağlandı.",
+   "merkez_icin": "Aynı pencerede verilen üç ByLock kararı arasında md. 7 ihlalinin de bulunduğu dosya; ihlal maddelerinin dosyadan dosyaya farklılaştığını gösteriyor (t71) [001-252505].",
+   "haberle_fark": ""
   },
   {
    "itemid": "001-252506",
-   "baslik": "Korkmaz ve diğerleri v. Türkiye: 11 başvuruda FETÖ/PDY üyeliği mahkûmiyetinde md. 7 ihlali",
+   "baslik": "Korkmaz ve diğerleri v. Türkiye: 11 başvuruda FETÖ/PDY üyeliği mahkûmiyetleri nedeniyle md. 7 ihlali",
    "maddeler": [
     "7"
    ],
-   "ne_dedi": "Komite oybirliğiyle md. 7'nin ihlal edildiğine karar verdi; kalan şikâyetlerin kabul edilebilirliği ve esası incelenmedi. Yüksel Yalçınkaya ve Demirhan ve diğerleri kararlarına atıfla ihlal tespitinin kendisinin yeterli adil tazmin sayıldığı, başvurucuların CMK 311/1(f) uyarınca yeniden yargılama isteyebileceği ve bunun en uygun giderim olduğu belirtildi; bu tür takip başvurularında masraf ödenmedi.",
-   "merkez_icin": "Giderimin tazminat yerine yeniden yargılamaya bağlanması, Bakanlar Komitesi denetiminde iç hukuktaki yeniden yargılama pratiğinin etkililiğini merkezî soru hâline getiriyor.",
-   "haberle_fark": ""
+   "ne_dedi": "Komite oybirliğiyle md. 7 ihlali buldu [001-252506]. Yüksel Yalçınkaya (§§ 404, 411, 412, 425) ve Demirhan ve diğerleri gerekçesiyle, ihlal tespitinin manevi zarar için yeterli giderim sayıldığına hükmetti ve bu tür takip başvurularında masraf ve gidere hükmedilmedi. Karar, başvurucuların CMK 311/1(f) uyarınca yeniden yargılama talep edebileceğini, kararın 'sonuç ve ruhuna' uygun yeniden yargılamanın ilke olarak en uygun giderim olacağını kaydetti.",
+   "merkez_icin": "Giderimin tamamen iç hukuktaki yeniden yargılamaya bağlanması, t56'daki 947 başvurucunun CMK 311/1(f) taleplerinin akıbetini Bakanlar Komitesi denetiminin merkezine koyuyor [001-252506].",
+   "haberle_fark": "Solidarity with OTHERS, 29 Eylül kararlarını 947 başvurucu olarak toplulaştırıyor ve Yalçınkaya'nın icra edilmediğini belirtiyor; karar metinleri bu sayıyı doğrudan vermiyor, yalnızca dosya dosya başvuru listeleri içeriyor [76c74a6b6f][001-252504][001-252505][001-252506]."
   }
  ],
- "baslik": "Halk TV'ye kayyum: yayın durduruldu, 16 kişi için yakalama, hesaplara 8/A engeli",
- "brifing": "Pencerenin ana gelişmesi, Halk TV'ye kayyum atanması, yayınlarının durdurulması, binaya polis baskını ve sahibiyle birlikte 16 kişi hakkında yakalama kararı çıkarılmasıdır; aynı gün kanalın altı platformdaki hesabı 5651 md. 8/A kapsamında engellenmiştir [db2250c34a, 15e176aae1, 83eebe1585]. İkinci hat AİHM icrasıdır: İstanbul 13. Ağır Ceza Mahkemesi, Büyük Daire'nin 25 Ağustos tarihli kararına rağmen Kavala'nın tahliye ve yeniden yargılama taleplerini reddetmiş [8d698ea69e]; Adalet Bakanı ise 29 Eylül tarihli 947 başvuruculu üç karardan on beş gün sonra ByLock, Bank Asya ve HTS kayıtlarına dayanan yeni gözaltıları duyurmuştur [cadd738460, 76c74a6b6f]. Gözaltı sayısında kaynaklar ayrışıyor: SCF 32 gözaltı/34 hedef, Solidarity with OTHERS 33 gözaltı/35 hedef veriyor. AİHM cephesinde ayrıca Sincan Cezaevi'nde aile görüşmelerinin kaydedilmesine ilişkin md. 8 ihlali kararı kayda girdi [d26b0b8144]; 13 Ekim tarihli Ocak ve Kaya kararlarının metinleri tutarlarıyla birlikte doğrulandı [001-252739, 001-252752]. Resmî Gazete'nin 6 Ekim sayısına ait belgeler yeniden tarandı ancak içerik hâlâ başlık düzeyinde.",
+ "baslik": "Ocak ve diğerleri kararının metni: 26 başvurucuya kişi başı 1.500 avro, md. 5/3 ihlali",
+ "brifing": "Pencerenin tek sağlam hukuki dayanağı, 13 Ekim tarihli Ocak ve diğerleri ile Kaya kararlarının HUDOC metinleri: Ocak'ta 26 başvurucuya kişi başı 1.500 avro, Kaya'da md. 5/1 ve 5/3 ihlaliyle 4.000 + 1.000 avro [001-252739][001-252752]. Halk TV dosyası kişi düzeyine yayıldı: programcı Bahadır Özgür gözaltına alındı ve X hesabı 8/A kapsamında engellendi; kanal sahibi Londra'dan el koymayı fon skandalıyla ilişkilendirdi [8e12bf5b29][84d90a15b7]. Çekirdek alanlarda bunun dışında yeni usul adımı az; Yalçınkaya grubu, Kavala ve 7595 sayılı Kanun dosyalarında bu pencerede yeni kayıt yok. Kayıtların önemli bölümü AB kurumlarının rutin duyuruları ve Türkiye dışı insan hakları açıklamalarından oluşuyor; bunlar alan notlarında geçiyor.",
  "one_cikanlar": [
   {
-   "baslik": "Halk TV'ye kayyum, yayın durdurma ve altı platformda hesap engeli",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli tek günde birlikte uygulandı; bu, erişim engeli dosyalarıyla kayyum/malvarlığı dosyalarının kesiştiği bir örnek. Engel, 5651 md. 8/A'nın bir yayın kuruluşunun tüm sosyal medya varlığına uygulanmasını gösteriyor. HRW kaydı sahibi ve 16 kişi hakkında yakalama kararı çıkarıldığını aktarıyor.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "YouTube @Halktvkanali 2,59 milyon abone",
-    "X @halktvcomtr 3 milyon takipçi",
-    "Facebook halktvcomtr 1,5 milyon takipçi",
-    "Instagram @halktvcomtr 1,2 milyon takipçi",
-    "TikTok @halktv 256 bin takipçi",
-    "Telegram @halktvcomtr 5.247 abone",
-    "Sahibi ve 16 kişi hakkında yakalama kararı (HRW kaydı, 14 Ekim 2026)",
-    "Platformlar hesapları henüz Türkiye'den görünmez kılmadı"
-   ],
-   "mekanizma": "5651 sayılı Kanun md. 8/A; kayyum atama",
-   "karsi_okuma": "Kayyum kararının hukuki dayanağı, hangi mahkeme ya da kurum tarafından verildiği ve yakalama kararlarının isnadı kayıtlarda yok; engelleme kararının numarası ve veren hâkimlik de belirtilmemiş.",
-   "kayitlar": [
-    "db2250c34a",
-    "15e176aae1",
-    "83eebe1585"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Kavala: iç mahkeme Büyük Daire kararına rağmen tahliye ve yeniden yargılamayı reddetti",
+   "baslik": "Ocak ve diğerleri (54358/19 ve 25 başvuru): md. 5/3 ihlali, kişi başı 1.500 avro",
    "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "İstanbul 13. Ağır Ceza Mahkemesi, CMK 311 uyarınca yapılan talebi oybirliğiyle reddederek AİHM'in Türk yargısının üstünde bir temyiz mercii olmadığını ve iç hukuk yollarının tüketilmediğini gerekçe gösterdi. Büyük Daire ise Ağustos kararında AYM başvurusunun beklenmesinin istenemeyeceğini zaten tespit etmişti. Bu, md. 46 icra denetiminde doğrudan bir ret kaydıdır.",
-   "yenilik": "İlk kez: t24 açık dosyasında 30 Eylül'den beri hareket yoktu; bugün iç mahkemenin gerekçeli reddi kayda girdi.",
+   "neden_onemli": "Karar metni, tutuklama gerekçesinde suçun ağırlığı ve yasal karinelerin somut olgunun yerini alamayacağını teyit ediyor [001-252739][e7c7b4389b]. Giderim, Turan ve diğerleri formülüne göre maddi tazminatsız ve kişi başı sabit tutarla sınırlandı; bu, md. 5/3 toplu kararlarında yerleşik hale gelen düşük tutar çizgisini sürdürüyor. Dosya üç aylık ödeme süresiyle Bakanlar Komitesi denetimine girecek (t103).",
+   "yenilik": "Dün haber düzeyinde geçen karar bugün HUDOC metniyle doğrulandı: kişi başı 1.500 avro, md. 5/1(c) ayrıca incelenmedi.",
    "ayrintilar": [
-    "İstanbul 13. Ağır Ceza Mahkemesi, 13 Ekim 2026 (Salı) oybirliğiyle ret",
-    "Büyük Daire kararı 25 Ağustos 2026, kesin",
-    "Kavala Ekim 2017'den beri tutuklu, ağırlaştırılmış müebbet",
-    "Talep CMK 311 uyarınca, avukat Ahmet Köksal Bayraktar tarafından yapıldı",
-    "Savcılık AYM başvurusunun derdest olduğunu ileri sürdü"
+    "26 başvuru, lider dosya 54358/19 [001-252739]",
+    "İhlal: md. 5/3, oybirliği [001-252739]",
+    "Her başvurucuya 1.500 avro (manevi tazminat + masraf ve gider), üç ay içinde [001-252739]",
+    "Maddi tazminat talepleri reddedildi; gerekçe Turan ve diğerleri §§ 102-07 [001-252739]",
+    "SCF'ye göre tutukluluklar 11 aya kadar sürdü; delil kategorileri arasında ByLock, Bank Asya ve dernek üyeliği var [e7c7b4389b]"
    ],
-   "mekanizma": "AİHS md. 46; CMK md. 311",
-   "karsi_okuma": "Karar metni kayıtlarda yok; gerekçe ANKA üzerinden aktarılıyor. İtiraz yolunun kullanılıp kullanılmayacağı ve Bakanlar Komitesi'nin tepkisi bilinmiyor.",
+   "mekanizma": "AİHS md. 5/3",
+   "karsi_okuma": "Karar tutukluluğun gerekçesine ilişkindir; başvurucuların iç hukukta verilen mahkûmiyetlerinin esası hakkında bir tespit içermez. Metin, SCF'nin aktardığı delil kategorilerini ihlal gerekçesi olarak ayrıca değerlendirmiş değildir.",
    "kayitlar": [
-    "8d698ea69e"
+    "001-252739",
+    "e7c7b4389b"
    ],
-   "guven": "orta"
+   "guven": "yüksek"
   },
   {
-   "baslik": "ByLock, Bank Asya ve HTS kayıtlarına dayanan yeni gözaltılar: 32 ya da 33 kişi",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "Adalet Bakanı'nın duyurduğu delil kategorileri, AİHM'in 26 Eylül 2023 tarihli Yalçınkaya kararında ve 29 Eylül 2026 tarihli üç kararda ihlal tespitine konu olan kategorilerle aynı. Duyuru, 947 başvurucuya ilişkin kararlardan on beş gün sonra yapıldı. Eskişehir soruşturması ABD merkezli bir şirket üzerinden gıda ihracatı ödemelerine dayandırılıyor.",
-   "yenilik": "İlk kez: yeni operasyon dalgası ve bakan açıklaması bu pencerede kayda girdi.",
-   "ayrintilar": [
-    "SCF: 32 gözaltı, üç soruşturmada hedeflenen 34 kişi",
-    "Solidarity with OTHERS: 33 gözaltı, dört operasyonda aranan 35 kişi; biri yurt dışında, biri aranıyor",
-    "İller: Eskişehir, İzmir, Ağrı, Aydın",
-    "Eskişehir: 10 kişilik listeden 9'u gözaltında, ABD merkezli şirket üzerinden ödeme isnadı",
-    "İzmir: dört ilde 21 kişi, dijital materyallerde isim geçtiği iddiası",
-    "Üçüncü soruşturma: İzmir ve Aydın'da 2 kişi; ByLock, Bank Asya ve HTS kayıtları",
-    "Ağrı'daki bir dosya DEAŞ finansmanı isnadı (Solidarity with OTHERS)"
-   ],
-   "mekanizma": "AİHS md. 7 ve md. 6/1; Yalçınkaya içtihadı",
-   "karsi_okuma": "Tüm sayılar bakan açıklamasından geliyor; hiçbir dosyada mahkeme kararı yok, gözaltındakiler henüz ne iddianameye ne hükme konu. Gözaltıların kaçının tutuklamayla sonuçlandığı bilinmiyor; iki kaynağın verdiği sayılar örtüşmüyor.",
-   "kayitlar": [
-    "cadd738460",
-    "76c74a6b6f"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "AİHM: Sincan Cezaevi'nde aile görüşmelerinin bir yıl kaydedilmesi md. 8 ihlali",
+   "baslik": "Kaya (17010/21): dernek başkanlığı ve gösteri katılımına dayanan tutuklamada md. 5/1 ve 5/3 ihlali",
    "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Karar, eski Yargıtay üyesi Abdi Cengiz'in aile görüşmelerinin 16 Eylül 2021'den itibaren bir yıl boyunca kaydedilmesini, bireyselleştirilmiş değerlendirme yapılmadan uygulanan genel bir politika olarak nitelendiriyor. Haziran 2021 tarihli mevzuat, AYM'nin benzer uygulamayı kanuni dayanaksız bulan önceki kararının ardından çıkarılmıştı. Uygulama terör ve organize suç hükümlülerinin tamamını kapsadığı için genel tedbir boyutu var.",
-   "yenilik": "İlk kez.",
+   "neden_onemli": "Karar metni, toplu md. 5/3 kararlarından ayrışıyor: makul şüphe yokluğu nedeniyle md. 5/1'den de ihlal bulundu ve 4.000 avro manevi tazminat ile 1.000 avro masrafa hükmedildi [001-252752]. Haber kaydına göre tutuklamanın dayanağı gizli tanık beyanı, gösteri ve basın açıklamalarına katılım ve dinleme kayıtlarıydı; Mahkeme bu beyanları muğlak ve desteksiz buldu [99d978cbdb].",
+   "yenilik": "Karar metni elimize geçti: ihlalin md. 5/1 ve 5/3 olarak ayrıştığı, md. 5/4 şikâyetlerinin kabul edilemez bulunduğu ve tutarlar doğrulandı.",
    "ayrintilar": [
-    "Yedi yargıçlı daire, oybirliğiyle md. 8 ihlali",
-    "1.500 avro manevi tazminat",
-    "İzleme 16 Eylül 2021'den itibaren bir yıl için yetkilendirildi, politika Ağustos 2021'de duyuruldu",
-    "AYM başvurusu Nisan 2022'de standart gerekçeyle reddedilmiş"
+    "Başvuru no. 17010/21, 16 Mart 2021'de yapıldı [001-252752]",
+    "4.000 avro manevi tazminat + 1.000 avro masraf, üç ay [001-252752]",
+    "Talep edilen: 5.000 avro maddi, 20.000 avro manevi, 5.613 avro masraf; maddi talep reddedildi [001-252752]",
+    "Md. 18 ile md. 5/1 birlikte şikâyeti ayrıca incelenmedi [001-252752]",
+    "Haber kaydı: 22 Mayıs 2020 gözaltı, 18 Ağustos 2020 tahliye [99d978cbdb]"
    ],
-   "mekanizma": "AİHS md. 8",
-   "karsi_okuma": "Karar metni kayıtlarda yok; başvuru numarası, karar tarihi ve ödeme süresi haber kaydından çıkmıyor. İhlalin yalnızca bireyselleştirme eksikliğiyle mi sınırlı olduğu metinden doğrulanmalı.",
-   "kayitlar": [
-    "d26b0b8144"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Kaya ve Ocak kararlarının metinleri: tutarlar ve madde ayrımı doğrulandı",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Kaya'da md. 5/1 ve 5/3'ten ayrı ayrı ihlal bulundu, md. 5/4 kabul edilemez ilan edildi, md. 18 ayrıca incelenmedi; 4.000 avro manevi tazminat ve 1.000 avro masraf hükmedildi. Ocak ve diğerlerinde 26 başvurucuya kişi başı 1.500 avro götürü tutar verildi ve maddi tazminat talepleri Turan ve diğerleri gerekçesiyle reddedildi. İki karar da md. 5 icra gruplarına girecek.",
-   "yenilik": "Dün yalnızca kararların varlığı biliniyordu; bugün metinler dosyaya girdi ve tutarlar ile madde ayrımı doğrulandı.",
-   "ayrintilar": [
-    "Kaya (17010/21): 4.000 avro manevi + 1.000 avro masraf, üç ay",
-    "Kaya 22 Mayıs 2020'de gözaltına alındı, 23 Mayıs'ta tutuklandı, 18 Ağustos 2020'de tahliye edildi",
-    "Ocak ve diğerleri (54358/19 ve 25 başvuru): kişi başı 1.500 avro, üç ay",
-    "Ocak kararında md. 5/1(c) ayrıca incelenmedi"
-   ],
-   "mekanizma": "AİHS md. 5/1, md. 5/3; md. 41",
-   "karsi_okuma": "Kararların hangi Bakanlar Komitesi grubuna gireceği metinlerde yazmıyor; haber kaydı tutarları ve md. 5/4 kabul edilemezliğini aktarmıyor.",
+   "mekanizma": "AİHS md. 5/1 ve 5/3",
+   "karsi_okuma": "Mahkeme md. 18 şikâyetini ayrıca incelemediği için tutuklamanın gizli saikle yapıldığı yönünde bir tespit yoktur. Gösteri ve dernek faaliyetlerine ilişkin md. 10/11 değerlendirmeleri md. 5 incelemesi içindedir, ayrı ihlal kararı değildir.",
    "kayitlar": [
     "001-252752",
-    "001-252739",
     "99d978cbdb"
    ],
    "guven": "yüksek"
   },
   {
-   "baslik": "BM uzmanlarından Türkiye'de LGBTİ+ örgütlerine yönelik baskıya ilişkin açıklama",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden_onemli": "Uzmanlar, insan hakları savunucularına yönelik tacizin sona erdirilmesini ve ifade, barışçıl toplanma ve örgütlenme haklarının kullanılabileceği güvenli bir ortam sağlanmasını istedi. Açıklama, anti-LGBTİ+ operasyon dosyasına (t7) uluslararası mekanizma boyutu ekliyor.",
-   "yenilik": "İlk kez: bu dosyada BM özel prosedürleri kaynaklı bir kayıt ilk kez giriyor.",
+   "baslik": "Halk TV dosyası kişi düzeyine yayıldı: programcı Bahadır Özgür gözaltında, X hesabı engellendi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Kayyum ve yayın durdurmanın ardından, aynı kanalın programcısının gözaltına alınması ve 163 bin takipçili hesabının engellenmesi, kurumsal el koymanın bireysel hesaplara uzandığını gösteriyor [8e12bf5b29]. Gözaltı gerekçesi 'soruşturmanın gizliliğini ihlal' olarak kaydedilmiş; bu, 8/A engelleri ile ceza soruşturması gerekçelerinin üst üste bindiği yeni bir örnek (t33, t109).",
+   "yenilik": "Dün kurum hesapları engellenmişti; bugün ilk kez bireysel bir Halk TV programcısının gözaltısı ve hesap engeli kayda girdi, ayrıca kanal sahibi AFP'ye konuştu.",
    "ayrintilar": [
-    "Açıklama 13 Ekim 2026 (Salı) tarihli",
-    "Gay barlara, gece kulüplerine ve aktivist evlerine baskınlara atıf"
+    "@bahadir_ozgr, 163 bin takipçi, 5651 md. 8/A kapsamında engellendi [8e12bf5b29]",
+    "Gözaltı gerekçesi: 'soruşturmanın gizliliğini ihlal' [8e12bf5b29]",
+    "Hesap X tarafından henüz Türkiye'den görünmez kılınmadı [8e12bf5b29]",
+    "Kanal sahibi Londra'da AFP'ye, el koymanın fon skandalından dikkat kaydırmaya yönelik olduğunu söyledi [84d90a15b7]"
    ],
-   "mekanizma": "BM özel prosedürleri",
-   "karsi_okuma": "Hangi raportörlerin imzaladığı, resmî bir iletişim (communication) gönderilip gönderilmediği ve Türkiye'nin yanıt süresi kayıtlarda yok; metin ikincil kaynaktan aktarılıyor.",
+   "mekanizma": "5651 sayılı Kanun md. 8/A",
+   "karsi_okuma": "Gözaltı ile erişim engeli arasındaki nedensellik yalnızca İFÖD kaydının sıralamasına dayanıyor; engel kararının numarası, hâkimliği ve gerekçesi kayıtlarda yok. Kanal sahibinin beyanı taraf beyanıdır.",
    "kayitlar": [
-    "f43bbe0394"
+    "8e12bf5b29",
+    "84d90a15b7",
+    "83eebe1585",
+    "15e176aae1"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "COP31 ortaklığı: tartışmalı madencilik ve kıyı projeleri yürüten şirketler zirve ortağı ilan edildi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "HRW'nin 14 Ekim'de açıkladığı, madencilik karşıtı protestolara yönelik 55 kişilik soruşturma verisiyle aynı dosyanın diğer yüzü: protestoların hedefi olan projelerin yürütücüleri zirve ortağı olarak anılıyor [91dcceadef]. t106 altında, protestoculara yönelik soruşturmalarla birlikte izlenmesi gereken bir bağlam verisi.",
+   "yenilik": "İlk kez: COP31 dosyasında şirket ortaklıkları hattı açıldı.",
+   "ayrintilar": [
+    "Kaynak BirGün, aktaran SCF; kömür madenciliği, taş ocağı ve kıyı geliştirme projeleri yürüten holdingler [91dcceadef]",
+    "Zirve Kasım'da Antalya'da [91dcceadef]"
+   ],
+   "mekanizma": "",
+   "karsi_okuma": "Kayıt başlık ve özet düzeyindedir; şirket adları, ortaklık sözleşmeleri ve zirve başkanlığının yanıtı kayıtlarda yok. Protesto soruşturmalarıyla doğrudan hukuki bağlantı kurulmuş değil.",
+   "kayitlar": [
+    "91dcceadef"
+   ],
+   "guven": "düşük"
+  },
+  {
+   "baslik": "Ankara'da Mahir Çayan derlemesine el koyma, editör hakkında terör propagandası yargılaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Yayına el koyma kararları, AYM'nin yayın el koyma içtihadına ilişkin açık takip maddesiyle (t6) aynı hattadır. Kitap el koyma ile editör hakkında propaganda yargılamasının birlikte yürümesi, yayın yasağı ve ceza yargılamasının birbirini beslediği örüntüyü gösteriyor [590ea41399].",
+   "yenilik": "İlk kez.",
+   "ayrintilar": [
+    "Ankara 8. (mahkeme adı kayıtta kısaltılmış) mahkemesinin el koyma kararı; kaynak Cumhuriyet, aktaran SCF [590ea41399]",
+    "Editör hakkında terör propagandası yapmaktan yargılama [590ea41399]"
+   ],
+   "mekanizma": "terör propagandası isnadı / yayına el koyma",
+   "karsi_okuma": "Kayıt özet düzeyindedir; karar tarihi, dosya numarası, editörün adı ve savunma kayıtlarda yok.",
+   "kayitlar": [
+    "590ea41399"
+   ],
+   "guven": "düşük"
+  },
+  {
+   "baslik": "FRA: zorla geri gönderme izlemesinde boşluklar, üç üye devlette izleme kuruluşunun bağımsızlığı sorunlu",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Geri gönderme izleme mekanizmalarının bağımsızlığı ve kısıtlama tedbirlerinin sistematik uygulanması, merkezin sınır dışı dosyalarında usul güvencesi tartışmasının zeminini oluşturuyor [ec7457d148]. ECRE'nin Pakt notu, bağımsız izleme mekanizmalarının bazı üye devletlerde henüz işler olmadığını ayrıca kaydediyor [971b359f22].",
+   "yenilik": "İlk kez: FRA'nın Dönüşler üst düzey ağ toplantısındaki sunumu ve ECRE'nin Pakt politika notu bu pencerede geldi.",
+   "ayrintilar": [
+    "AB üyelerinin yarısından fazlası izleme bulgularını ve tavsiyelerini yayımlamıyor [ec7457d148]",
+    "Üç üye devlette izleme kuruluşunun bağımsızlığı sorunlu [ec7457d148]",
+    "Temel sorun: operasyonun ilk aşamasında kelepçe gibi kısıtlama tedbirlerinin sistematik uygulanması [ec7457d148]",
+    "ECRE notu: bağımsız izleme mekanizmaları bazı üye devletlerde işler değil, hareket özgürlüğü kısıtlamalarında usul güvencesi eksikliği [971b359f22]"
+   ],
+   "mekanizma": "AB Temel Haklar Şartı md. 4 ve 19",
+   "karsi_okuma": "FRA kaydı toplantı duyurusu düzeyindedir; sorunlu bulunan üç üye devletin adı ve rapor metni kayıtlarda yok. Türkiye kaynaklı dosyalarla doğrudan bağ kurulmuş değil.",
+   "kayitlar": [
+    "ec7457d148",
+    "971b359f22"
    ],
    "guven": "orta"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "Halk TV'ye kayyum atanması, yayın durdurma ve altı platformdaki hesaplara 8/A engeli günün ana hattı; aynı mekanizma Türkiye İşçi Partisi'nin 582 bin takipçili X hesabına da uygulandı. Her iki kayıtta da platformların hesapları henüz Türkiye'den görünmez kılmadığı not ediliyor. Sezin Uçar dosyasında Lawyers for Lawyers'ın duruşma gözlemi raporu yayımlandı.",
-   "kayitlar": [
-    "db2250c34a",
-    "15e176aae1",
-    "83eebe1585",
-    "a22d6432c8",
-    "84d5287434"
-   ]
-  },
-  {
    "alan": "AİHM başvuruları ve kararların icrası",
    "durum": "hareketli",
-   "not": "Kavala'da iç mahkeme Büyük Daire kararına rağmen tahliye ve yeniden yargılamayı reddetti; Sincan Cezaevi'nde aile görüşmelerinin kaydedilmesine ilişkin md. 8 ihlal kararı kayda girdi. Ocak, Kaya, Müyesser Uğur, Ünal, Parun ve Korkmaz kararlarının metinleri dosyada; Parun'da haberin aksine md. 7 ihlali de var.",
+   "not": "Ocak ve diğerleri ile Kaya kararlarının metinleri doğrulandı; Müyesser Uğur ve 29 Eylül tarihli üç ByLock kararının metinleri de bağlam olarak elimizde [001-252739][001-252752][001-252630][001-252504][001-252505][001-252506]. Kavala, Yalçınkaya icrası ve 7595 sayılı Kanun dosyalarında bu pencerede yeni kayıt yok.",
    "kayitlar": [
-    "8d698ea69e",
-    "d26b0b8144",
     "001-252739",
     "001-252752",
     "001-252630",
-    "001-252505"
+    "001-252504",
+    "001-252505",
+    "001-252506",
+    "e7c7b4389b"
+   ]
+  },
+  {
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "hareketli",
+   "not": "Halk TV dosyası programcı Bahadır Özgür'ün gözaltısı ve hesap engeliyle genişledi [8e12bf5b29][84d90a15b7]. Ayrı bir hat olarak kitap el koyma ve editör yargılaması kayda girdi [590ea41399].",
+   "kayitlar": [
+    "8e12bf5b29",
+    "84d90a15b7",
+    "590ea41399",
+    "91dcceadef"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "durum": "hareketli",
-   "not": "Adalet Bakanı Eskişehir, İzmir, Ağrı ve Aydın'daki operasyonlarda 32 ya da 33 kişinin gözaltına alındığını duyurdu; isnatlar ByLock, Bank Asya ve HTS kayıtlarına dayandırılıyor. Aynı kaynak Türkiye'nin 31 Ağustos 2026 itibarıyla AİHM'deki 58.100 derdest başvurunun 23.850'sini oluşturduğunu aktarıyor.",
-   "kayitlar": [
-    "cadd738460",
-    "76c74a6b6f"
-   ]
-  },
-  {
-   "alan": "BM insan hakları mekanizmaları",
    "durum": "olağan",
-   "not": "BM uzmanları Türkiye'de LGBTİ+ örgütlerine yönelik baskıyı kınayan bir açıklama yaptı; metnin kendisi kayıtlarda yok.",
+   "not": "Yeni gözaltı ya da operasyon kaydı bu pencerede yok; SCF'nin Türkiye içerikli diğer kayıtları (istismar davasında beraat [f1f19fc2e8]) merkezin dosyalarıyla doğrudan ilişkili değil. Freedom House'un Vilnius zirvesi ve Vietnamlı gazeteciler duyuruları sınıraşan baskı alanında genel nitelikte [86f50976c9][1e97f2c449].",
    "kayitlar": [
-    "f43bbe0394"
+    "f1f19fc2e8",
+    "86f50976c9",
+    "1e97f2c449"
    ]
   },
   {
    "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "FRA, AB dış sınırlarında temel hak izleme ve ihlal soruşturmalarına ilişkin 2026 güncellemesini yayımladı; rapora göre bağımsız izlemede boşluklar sürüyor. Kayıtta rapor bulguları başlık düzeyinde. Hollanda'dan gelen Rechtbank Midden-Nederland kararı trafik cezasına ilişkin olup merkezin dosyalarıyla ilgisiz.",
+   "not": "Rechtbank Den Haag'ın 12 Ekim tarihli NL25.63202 sayılı kararı kayda girdi: İran'a ilişkin karar moratoryumu bağlamında itiraz (verzet) kabul edildi; kayıt başlık/özet düzeyindedir, Türkiye bağlantısı belirtilmemiştir [982b52d8a4]. FRA ve ECRE kayıtları izleme mekanizmalarına ilişkin [ec7457d148][971b359f22].",
    "kayitlar": [
-    "f2b6d4a4f6",
-    "d292d82626",
-    "86cb1148bf"
+    "982b52d8a4",
+    "ec7457d148",
+    "971b359f22",
+    "da5a6934b2"
    ]
   },
   {
-   "alan": "Mevzuat izleme (çok alanlı)",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "durum": "olağan",
-   "not": "6 Ekim sayısına ait yedi PDF ile 7595 sayılı Kanun kaydı yeniden tarandı, içerik hâlâ belirlenemedi. 15 Ekim tarihli 33401 sayılı Resmî Gazete'de 32 madde özetlendi; BTK, elektronik haberleşme yetkilendirme yönetmeliği taslaklarını kamuoyu görüşüne açtı.",
+   "not": "Norveç Devlet Emeklilik Fonu'nun etik çerçevesinde Gjedrem Komitesi'nin, Etik Konsey'in dışlama tavsiyesi yetkisini kaldırmayı ve risk değerlendirmelerinin gizli tutulabilmesini öneren raporu Amnesty tarafından eleştirildi [b27788f7be]. ESMA'nın üçüncü yaptırım raporu ve FCA'nın Jarvis Investment özel idare kaydı merkezin dosyalarıyla doğrudan ilişkili değil [f377cafda0][a8c25f4c6e].",
    "kayitlar": [
-    "79390c3dbd",
-    "2ac488c9f0",
-    "c06bb58c14",
-    "0d58fb7545",
-    "9d8dfc830c"
+    "b27788f7be",
+    "f377cafda0",
+    "a8c25f4c6e"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
    "durum": "olağan",
-   "not": "EBA, USDC'yi AB'de ilk 'önemli e-para token'ı olarak sınıflandırdığını duyurdu; merkezin yaptırım ve malvarlığı dosyalarıyla doğrudan bağı kayıtlardan çıkmıyor.",
+   "not": "FRA'nın çocuk dostu adalet, Roma katılımı ve yaşlılarda dijital uçurum başlıklı duyuruları ile KVKK'nın yapay zekâ sempozyumu duyurusu rutin niteliktedir [8c95e988c5][ac2bd471aa][668e0a4526][6008df8ec4].",
    "kayitlar": [
-    "0b38da3413"
+    "8c95e988c5",
+    "ac2bd471aa",
+    "668e0a4526",
+    "6008df8ec4"
    ]
   }
  ],
- "dosya_derinlesmesi": [],
+ "dosya_derinlesmesi": [
+  {
+   "baslik": "Yalçınkaya grubunun icrası: 29 Eylül 2026 tarihli üç kararda giderimin tamamen CMK 311/1(f) yeniden yargılamasına bağlanması (t56/t71)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "elimizde": "Üç kararın metni elimizde: Ünal ve diğerleri (61641/19 ve 590 başvuru) md. 6/1'den, Parun ve diğerleri (9991/20 ve 344 başvuru) md. 6/1 ve md. 7'den, Korkmaz ve diğerleri (36880/20 ve 10 başvuru) md. 7'den ihlal buldu [001-252504][001-252505][001-252506]. Korkmaz'da Mahkeme, Yüksel Yalçınkaya §§ 404, 411, 412, 425 ve Demirhan ve diğerleri gerekçesiyle ihlal tespitinin tek başına yeterli giderim olduğuna hükmetti ve bu tür takip başvurularında masraf ve gidere hükmetmedi [001-252506]. Karar, başvurucuların CMK 311/1(f) uyarınca yeniden yargılama talep edebileceğini ve kararın 'sonuç ve ruhuna' uygun yeniden yargılamanın ilke olarak en uygun giderim olduğunu kaydediyor [001-252506].",
+   "eksik": "Kararların ekli tablolarında başvurucu sayıları dosya dosya veriliyor; Solidarity with OTHERS'ın verdiği '947 başvurucu' toplamı karar metinlerinde tek bir rakam olarak geçmiyor [76c74a6b6f][001-252504][001-252505][001-252506]. Yeniden yargılama taleplerinin iç hukukta kaç dosyada sonuçlandığına ve Bakanlar Komitesi'nin Haziran 2026 sonu için istediği bilgiye hükümetin yanıt verip vermediğine ilişkin belge kayıtlarda yok; bu bilgi yalnızca ikincil kaynağın beyanıdır [76c74a6b6f].",
+   "izlenecek_adim": "Üç kararın kesinleşmesinin ardından başvurucuların CMK 311/1(f) talepleri ve Bakanlar Komitesi'nin Yalçınkaya grubu için belirleyeceği bir sonraki inceleme oturumu izlenmeli. Korkmaz'da tazminat hükmedilmediği için icra denetimi tamamen genel tedbir ve yeniden yargılama üzerinden yürüyecek [001-252506].",
+   "dayanak": "Giderimin tamamen iç hukuktaki yeniden yargılamaya bağlanması, aynı delil kategorilerine (ByLock, Bank Asya, HTS) dayanan yeni gözaltıların sürdüğü iddiasıyla birlikte, genel tedbirin uygulanmadığı argümanına belge dayanağı sağlar [001-252506][76c74a6b6f].",
+   "kayitlar": [
+    "001-252504",
+    "001-252505",
+    "001-252506",
+    "76c74a6b6f"
+   ]
+  }
+ ],
  "kronoloji": [
   {
-   "tarih": "2023-09-26",
-   "adim": "Büyük Daire, Yüksel Yalçınkaya kararında ByLock, Bank Asya hesabı ve KHK ile kapatılan sendika/dernek üyeliğine dayanan mahkûmiyette md. 7, md. 6/1 ve md. 11 ihlali buldu ve sorunu sistemik niteledi.",
-   "kayitlar": [
-    "76c74a6b6f"
-   ]
-  },
-  {
-   "tarih": "2025-07",
-   "adim": "Mahkeme 239 ByLock başvurusunu karara bağladı ve Hükümete 5.000 başvurunun daha tebliğ edildiğini bildirdi.",
-   "kayitlar": [
-    "76c74a6b6f"
-   ]
-  },
-  {
-   "tarih": "2026-06 sonu",
-   "adim": "Bakanlar Komitesi'nin alınan önlemlere ilişkin bilgi talebinin süresi doldu, yanıt verilmedi; Yalçınkaya Kayseri'de yeniden yargılanıp aynı suçlamalarla yeniden mahkûm edildi.",
-   "kayitlar": [
-    "76c74a6b6f"
-   ]
-  },
-  {
    "tarih": "2026-09-29",
-   "adim": "AİHM, 947 başvurucuyu kapsayan üç karar verdi: Ünal ve diğerleri (591, md. 6/1), Parun ve diğerleri (345, md. 6/1 ve md. 7), Korkmaz ve diğerleri (11, md. 7); Korkmaz'da ihlal tespiti yeterli tazmin sayıldı ve giderim CMK 311/1(f) yeniden yargılamasına bağlandı.",
+   "adim": "AİHM üç karar verdi: Ünal ve diğerleri ile Parun ve diğerleri md. 6/1'den, Parun ve Korkmaz md. 7'den ihlal; Korkmaz'da tazminat yerine CMK 311/1(f) yeniden yargılama yolu gösterildi.",
    "kayitlar": [
     "001-252504",
     "001-252505",
@@ -1019,76 +1011,91 @@
    ]
   },
   {
-   "tarih": "2026-10-14",
-   "adim": "Adalet Bakanı Akın Gürlek, Eskişehir, İzmir, Ağrı ve Aydın'daki operasyonlarda ByLock, Bank Asya ve HTS kayıtlarına dayanarak 32 (SCF) ya da 33 (Solidarity with OTHERS) kişinin gözaltına alındığını açıkladı.",
+   "tarih": "2026-10-13",
+   "adim": "AİHM, Ocak ve diğerleri (26 başvuru) ile Kaya (17010/21) kararlarını tebliğ etti; Ocak'ta kişi başı 1.500 avro, Kaya'da 4.000 + 1.000 avro.",
    "kayitlar": [
-    "cadd738460",
-    "76c74a6b6f"
+    "001-252739",
+    "001-252752"
+   ]
+  },
+  {
+   "tarih": "2026-10-14",
+   "adim": "Adalet Bakanı, İzmir, Eskişehir, Ağrı ve Aydın'da ByLock, Bank Asya ve HTS kayıtlarına dayanan dört operasyonda 33 gözaltı duyurdu; aynı gün SCF Kaya kararını haberleştirdi.",
+   "kayitlar": [
+    "76c74a6b6f",
+    "99d978cbdb"
+   ]
+  },
+  {
+   "tarih": "2026-10-15",
+   "adim": "SCF, Ocak ve diğerleri kararını 26 kişi ve md. 5/3 ihlali olarak duyurdu; karar metni tutuklama gerekçelerinin genel ve kalıp nitelikte olduğunu tespit ediyor.",
+   "kayitlar": [
+    "e7c7b4389b",
+    "001-252739"
    ]
   }
  ],
  "izlenecekler": [
-  "Halk TV'ye kayyum atanması kararının dayanağı, yakalama kararlarının isnadı ve engelleme kararının numarası; itiraz yoluna başvurulup başvurulmadığı",
-  "Kavala dosyasında iç mahkemenin ret kararına itiraz, AYM başvurusunun seyri ve Bakanlar Komitesi'nin md. 46 denetimindeki bir sonraki adımı",
-  "Eskişehir/İzmir/Ağrı/Aydın operasyonlarında gözaltına alınanların kaçının tutuklandığı ve kaynaklar arasındaki 32/33 farkının hangi dosyadan kaynaklandığı",
-  "Abdi Cengiz kararının HUDOC metni: başvuru numarası, ödeme süresi ve Haziran 2021 tarihli mevzuata ilişkin genel tedbir değerlendirmesi",
-  "Halk TV ve TİP hesaplarında platformların 'Türkiye'den görünmez kılma' adımını ne zaman attığı",
-  "6 Ekim 2026 tarihli Resmî Gazete belgelerinin (20261006-5 ila -14) içeriğinin belirlenmesi"
+  "Ocak ve diğerleri ile Kaya kararlarının üç aylık ödeme sürelerinin ve Bakanlar Komitesi'nde hangi md. 5 grubuna ekleneceğinin izlenmesi (t103)",
+  "Bahadır Özgür'ün gözaltı sonrası hukuki durumu ve X hesabına ilişkin engel kararının numarası, hâkimliği ve itiraz süreci (t33, t109)",
+  "29 Eylül tarihli üç ByLock kararında CMK 311/1(f) yeniden yargılama taleplerinin iç hukuktaki akıbeti ve Bakanlar Komitesi'nin Yalçınkaya grubu incelemesi (t56, t71)",
+  "Ankara'daki kitap el koyma kararı ve editör hakkındaki terör propagandası yargılamasının duruşma takvimi",
+  "COP31 öncesinde zirve ortaklığı ilan edilen şirketler ile madencilik karşıtı protesto soruşturmalarının seyri (t106)"
  ],
- "gun": "2026-10-15",
- "olusturma": "2026-10-15T06:59+00:00",
+ "gun": "2026-10-16",
+ "olusturma": "2026-10-16T06:45+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "d26b0b8144",
+  "e7c7b4389b",
   "99d978cbdb",
   "83eebe1585",
-  "8d698ea69e",
-  "cadd738460",
   "79390c3dbd",
-  "a50cc3ecb2",
   "33a9b47f0e",
   "5415663243",
-  "e845177e28",
-  "a1bf0ef20a",
   "2ac488c9f0",
-  "b500a26354",
-  "da5d2b4096",
+  "982b52d8a4",
+  "ec7457d148",
   "76c74a6b6f",
   "f2b6d4a4f6",
-  "b7a358bdb5",
-  "f43bbe0394",
+  "8e12bf5b29",
+  "b27788f7be",
+  "971b359f22",
   "c293881dcd",
   "a22d6432c8",
-  "548c39562b",
-  "4e7b98aa41",
-  "469b99a869",
-  "ce0496ec1f",
-  "255743849a",
-  "ef7a503f54",
-  "95fe794368",
-  "a66504c4a5",
-  "86cb1148bf",
+  "f377cafda0",
+  "8c95e988c5",
+  "ac2bd471aa",
+  "668e0a4526",
+  "a8c25f4c6e",
   "c06bb58c14",
   "0b38da3413",
   "84d5287434",
   "696a1a44bd",
   "d292d82626",
-  "fe8bb8454a",
-  "a5c3f977d8",
-  "fec4cdfc32",
-  "0c2226847e",
+  "6850de1f77",
+  "8653a5b69b",
+  "f1f19fc2e8",
+  "86f50976c9",
+  "1e97f2c449",
+  "da5a6934b2",
+  "6008df8ec4",
+  "3cf1c2ad4b",
+  "84d90a15b7",
+  "590ea41399",
+  "91dcceadef",
   "0d58fb7545",
+  "bf3be75b33",
+  "b646b90753",
   "3a78203a17",
-  "9d8dfc830c",
-  "db2250c34a",
   "15e176aae1",
   "95288102cf",
-  "176869691b"
+  "176869691b",
+  "fdb7d63587"
  ],
- "maliyet_usd": 0.9242,
- "girdi_token": 52584,
- "cikti_token": 21951,
+ "maliyet_usd": 0.7922,
+ "girdi_token": 53807,
+ "cikti_token": 16904,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -1114,8 +1121,8 @@
    },
    {
     "id": "one4",
-    "hukum": "dayanaklı",
-    "not": ""
+    "hukum": "kısmen",
+    "not": "HRW'nin 14 Ekim'de açıkladığı 55 kişilik soruşturma verisi, bu iddia için gösterilen tek kayıt olan 91dcceadef'te yer almıyor; bu sayı ayrı bir kayıtla doğrulanmamış."
    },
    {
     "id": "one5",
@@ -1158,11 +1165,11 @@
     "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen ikincil ve birincil kayıtlarla, sayı, tarih ve madde ayrımları dahil olmak üzere tutarlı biçimde desteklenmektedir.",
+  "genel": "İddiaların büyük çoğunluğu HUDOC karar metinleri ve ikincil kayıtlarla doğrudan örtüşüyor; yalnızca COP31/HRW bağlantılı iddiada bir sayısal ayrıntı (55 kişi) gösterilen kayıtla doğrulanamadı.",
   "model": "claude-sonnet-5",
-  "girdi_token": 43561,
-  "cikti_token": 2540,
-  "maliyet_usd": 0.1125,
+  "girdi_token": 41297,
+  "cikti_token": 1799,
+  "maliyet_usd": 0.1006,
   "iddia_sayisi": 13
  },
  "takip_acik": [
@@ -1187,8 +1194,8 @@
    "baslik": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçınkaya grubu dosyaları",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-17",
-   "son_hareket": "2026-10-15",
-   "hareket_sayisi": 12
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 13
   },
   {
    "id": "t4",
@@ -1259,8 +1266,8 @@
    "baslik": "Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik belgesi ve EUAA 2026 yarı yıl iltica verileri",
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-09-18",
-   "son_hareket": "2026-09-26",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 3
   },
   {
    "id": "t13",
@@ -1419,8 +1426,8 @@
    "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-23",
-   "son_hareket": "2026-10-15",
-   "hareket_sayisi": 14
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 15
   },
   {
    "id": "t34",
@@ -1491,8 +1498,8 @@
    "baslik": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uygulanan erişim engelleri",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-25",
-   "son_hareket": "2026-10-14",
-   "hareket_sayisi": 6
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 7
   },
   {
    "id": "t43",
@@ -1531,8 +1538,8 @@
    "baslik": "Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' pratiğinin zamanlaması",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-27",
-   "son_hareket": "2026-10-15",
-   "hareket_sayisi": 11
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 12
   },
   {
    "id": "t48",
@@ -1979,8 +1986,8 @@
    "baslik": "Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararlarının icrası: üç aylık ödeme süreleri ve md. 5 gruplarındaki yeri",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-10-13",
-   "son_hareket": "2026-10-15",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 3
   },
   {
    "id": "t104",
@@ -2003,8 +2010,8 @@
    "baslik": "HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestolarında soruşturma, gözaltı ve kötü muamele iddiaları",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-14",
-   "son_hareket": "2026-10-14",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 1
   },
   {
    "id": "t107",
@@ -2027,8 +2034,8 @@
    "baslik": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi hakkındaki yakalama kararı ve altı platformdaki hesaplara uygulanan 8/A engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-15",
-   "son_hareket": "2026-10-15",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 1
   },
   {
    "id": "t110",
@@ -2052,6 +2059,38 @@
    "alan": "BM insan hakları mekanizmaları",
    "acildi": "2026-10-15",
    "son_hareket": "2026-10-15",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t113",
+   "baslik": "Gazeteci Bahadır Özgür'ün gözaltısı ve 163 bin takipçili X hesabının 'soruşturmanın gizliliğini ihlal' gerekçesiyle engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t114",
+   "baslik": "Ankara 8. mahkemesinin Mahir Çayan derlemesine el koyma kararı ve editör hakkındaki terör propagandası yargılaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t115",
+   "baslik": "FRA'nın zorla geri gönderme izleme raporu: izleme bulgularını yayımlamayan üye devletler ve kısıtlama tedbirlerinin sistematik kullanımı",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t116",
+   "baslik": "Norveç Devlet Emeklilik Fonu'nun etik çerçevesinde Gjedrem Komitesi önerileri: Etik Konsey'in dışlama yetkisinin kaldırılması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-16",
    "hareket_sayisi": 0
   }
  ]

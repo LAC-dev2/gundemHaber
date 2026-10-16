@@ -1,14 +1,27 @@
 {
- "gun": "2026-10-15",
- "olusturma": "2026-10-15T20:09+00:00",
+ "gun": "2026-10-16",
+ "olusturma": "2026-10-16T06:46+00:00",
  "uyarilar": [
+  {
+   "id": "alan:2026-10-16:FRA: zorla geri gönderme izlemesinde boşluklar, üç üye devle",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "FRA: zorla geri gönderme izlemesinde boşluklar, üç üye devlette izleme kuruluşunun bağımsızlığı sorunlu",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Geri gönderme izleme mekanizmalarının bağımsızlığı ve kısıtlama tedbirlerinin sistematik uygulanması, merkezin sınır dışı dosyalarında usul güvencesi tartışmasının zeminini oluşturuyor [ec7457d148]. ECRE'nin Pakt notu, bağımsız izleme mekanizmalarının bazı üye devletlerde henüz işler olmadığını ayrıca kaydediyor [971b359f22].",
+   "kayitlar": [
+    "ec7457d148",
+    "971b359f22"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
   {
    "id": "karar:001-252739",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Ocak ve diğerleri v. Türkiye: 26 başvuruda tutukluluğun yeterli gerekçeye dayanmaması",
+   "baslik": "Ocak ve diğerleri v. Türkiye: 26 başvuruda tutukluluğun yeterli gerekçeye dayandırılmaması",
    "alan": "md. 5, 5-3",
-   "not": "İkinci Daire Komitesi oybirliğiyle, tutuklama ve uzatma kararlarında yeterli gerekçe bulunmaması nedeniyle md. 5/3'ün ihlal edildiğine karar verdi. Md. 5/1(c) şikâyetinin ayrıca esastan incelenmesine gerek görülmedi; md. 5 kapsamındaki kalan şikâyetler de incelenmedi. Turan ve diğerleri kararına atıfla ve tutukluluk sürelerinin benzer önceki davalara göre nispeten kısa olduğu gerekçesiyle maddi tazminat talepleri reddedildi; her başvurucuya manevi tazminat ile masrafları kapsayan 1.500 avro götürü tutar, üç ay içinde ödenmek üzere hükmedildi.",
+   "not": "İkinci Daire Komitesi, oybirliğiyle md. 5/3 ihlali buldu: tutuklama ve tutukluluğun uzatılması yeterli gerekçeye dayandırılmamış [001-252739]. Md. 5/1(c) bakımından ayrı inceleme gereği görülmedi, md. 5 altındaki kalan şikâyetlerin kabul edilebilirliği ve esası incelenmedi. Turan ve diğerleri (§§ 102-07) gerekçesiyle ve tutukluluk sürelerinin önceki benzer davalara göre görece kısa olması dikkate alınarak maddi tazminat talepleri reddedildi; her başvurucuya manevi tazminat ile masraf ve giderleri kapsayan toplu 1.500 avro, üç ay içinde ödenmek üzere hükmedildi.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
@@ -16,38 +29,38 @@
    "id": "karar:001-252752",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Kaya v. Türkiye: Rosa Kadın Derneği başkanının 2020'deki tutukluluğunda makul şüphe ve gerekçe eksikliği",
+   "baslik": "Kaya v. Türkiye: Rosa Kadın Derneği başkanının 2020'deki tutukluluğunda makul şüphe ve gerekçe yokluğu",
    "alan": "md. 5, 5-1, 5-3",
-   "not": "Mahkeme oybirliğiyle md. 5/1 ve 5/3'ün ihlal edildiğine; md. 5/4 şikâyetlerinin kabul edilemez olduğuna karar verdi. Md. 18'in md. 5/1 ile birlikte ayrıca incelenmesine gerek görülmedi. Maddi tazminat talebi nedensellik bağı bulunmadığı için reddedildi; 4.000 avro manevi tazminat ve 1.000 avro masraf, kararın kesinleşmesinden itibaren üç ay içinde ödenmek üzere hükmedildi.",
+   "not": "Komite oybirliğiyle md. 5/1 ve 5/3 ihlali buldu; md. 5/4 şikâyetleri kabul edilemez ilan edildi, md. 18 ile md. 5/1 birlikte şikâyetinin ayrıca incelenmesine gerek görülmedi [001-252752]. Başvurucu 5.000 avro maddi, 20.000 avro manevi tazminat ve 5.613 avro masraf istemişti; Mahkeme maddi tazminat talebini nedensellik bağı bulunmadığı için reddetti, hakkaniyete göre 4.000 avro manevi tazminat ve 1.000 avro masraf ve gidere hükmetti, ödeme süresi kararın kesinleşmesinden itibaren üç ay.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-10-15:toplu:12",
+   "id": "takip:2026-10-16:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "12 takip dosyasında hareket var",
+   "baslik": "8 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bü; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Avukat Sezin Uçar davası: iddianameye giren itirafçı beyanının duruşma; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; 29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar me; Müyesser Uğur v. Türkiye (45738/22) kararının icrası: üç aylık ödeme s; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla",
+   "not": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be",
    "kayitlar": [
-    "76c74a6b6f",
-    "f43bbe0394",
-    "8d698ea69e",
+    "84d90a15b7",
+    "8e12bf5b29",
     "83eebe1585",
-    "a22d6432c8",
-    "2ac488c9f0",
-    "83eebe1585",
-    "a22d6432c8"
+    "15e176aae1",
+    "001-252739",
+    "001-252752",
+    "e7c7b4389b",
+    "99d978cbdb"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-15:12",
+   "id": "saglik:2026-10-16:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Amnesty International - Türkiye, FIDH - Türkiye, ENNHRI, Arrested Lawyers Initiative, Anadolu Ajansı, Nordic Monitor…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, Arrested Lawyers Initiative, Nordic Monitor, Frontex, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
