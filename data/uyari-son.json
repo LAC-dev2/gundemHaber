@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-17",
- "olusturma": "2026-10-17T14:00+00:00",
+ "olusturma": "2026-10-17T18:58+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-17:Uluslararası hukuk kuruluşlarından ICC'ye yönelik 9 Ekim tar",
@@ -34,12 +34,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-17:17",
+   "id": "saglik:2026-10-17:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "17 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, CCBE Human Rights Letters, International Observatory for Lawyers in Danger - OIAD, ENNHRI, Odysseus Academic Network…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Nordic Monitor, Dışişleri Bakanlığı, Frontex, Alomaliye, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
