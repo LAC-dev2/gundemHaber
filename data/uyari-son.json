@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-17",
- "olusturma": "2026-10-17T06:36+00:00",
+ "olusturma": "2026-10-17T07:24+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-17:Uluslararası hukuk kuruluşlarından ICC'ye yönelik 9 Ekim tar",
@@ -39,7 +39,7 @@
    "duzey": "yüksek",
    "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, Nordic Monitor, Frontex, Alomaliye, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
