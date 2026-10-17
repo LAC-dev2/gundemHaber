@@ -1,66 +1,45 @@
 {
- "gun": "2026-10-16",
- "olusturma": "2026-10-16T19:48+00:00",
+ "gun": "2026-10-17",
+ "olusturma": "2026-10-17T06:36+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-16:FRA: zorla geri gönderme izlemesinde boşluklar, üç üye devle",
+   "id": "alan:2026-10-17:Uluslararası hukuk kuruluşlarından ICC'ye yönelik 9 Ekim tar",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "FRA: zorla geri gönderme izlemesinde boşluklar, üç üye devlette izleme kuruluşunun bağımsızlığı sorunlu",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Geri gönderme izleme mekanizmalarının bağımsızlığı ve kısıtlama tedbirlerinin sistematik uygulanması, merkezin sınır dışı dosyalarında usul güvencesi tartışmasının zeminini oluşturuyor [ec7457d148]. ECRE'nin Pakt notu, bağımsız izleme mekanizmalarının bazı üye devletlerde henüz işler olmadığını ayrıca kaydediyor [971b359f22].",
+   "baslik": "Uluslararası hukuk kuruluşlarından ICC'ye yönelik 9 Ekim tarihli OFAC yaptırımlarına ortak kınama",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Kurum düzeyindeki ICC yaptırımları merkezin yaptırım listeleri dosyasında açık takipte; bugünkü kayıt, 9 Ekim 2026 tarihli OFAC işleminin varlığını ve imzacı kuruluşların tepkisini belgeliyor. Yargı organına yönelik yaptırımların meslek örgütleri tarafından nasıl konumlandırıldığını gösteriyor.",
    "kayitlar": [
-    "ec7457d148",
-    "971b359f22"
+    "0f60b97a84"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "karar:001-252739",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Ocak ve diğerleri v. Türkiye: 26 başvuruda tutukluluğun yeterli gerekçeye dayandırılmaması",
-   "alan": "md. 5, 5-3",
-   "not": "İkinci Daire Komitesi, oybirliğiyle md. 5/3 ihlali buldu: tutuklama ve tutukluluğun uzatılması yeterli gerekçeye dayandırılmamış [001-252739]. Md. 5/1(c) bakımından ayrı inceleme gereği görülmedi, md. 5 altındaki kalan şikâyetlerin kabul edilebilirliği ve esası incelenmedi. Turan ve diğerleri (§§ 102-07) gerekçesiyle ve tutukluluk sürelerinin önceki benzer davalara göre görece kısa olması dikkate alınarak maddi tazminat talepleri reddedildi; her başvurucuya manevi tazminat ile masraf ve giderleri kapsayan toplu 1.500 avro, üç ay içinde ödenmek üzere hükmedildi.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-252752",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Kaya v. Türkiye: Rosa Kadın Derneği başkanının 2020'deki tutukluluğunda makul şüphe ve gerekçe yokluğu",
-   "alan": "md. 5, 5-1, 5-3",
-   "not": "Komite oybirliğiyle md. 5/1 ve 5/3 ihlali buldu; md. 5/4 şikâyetleri kabul edilemez ilan edildi, md. 18 ile md. 5/1 birlikte şikâyetinin ayrıca incelenmesine gerek görülmedi [001-252752]. Başvurucu 5.000 avro maddi, 20.000 avro manevi tazminat ve 5.613 avro masraf istemişti; Mahkeme maddi tazminat talebini nedensellik bağı bulunmadığı için reddetti, hakkaniyete göre 4.000 avro manevi tazminat ve 1.000 avro masraf ve gidere hükmetti, ödeme süresi kararın kesinleşmesinden itibaren üç ay.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-10-16:toplu:8",
+   "id": "takip:2026-10-17:toplu:10",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "8 takip dosyasında hareket var",
+   "baslik": "10 takip dosyasında hareket var",
    "alan": "",
-   "not": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be",
+   "not": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; Stichting Justice Square raporundaki el koyma verileri ve Şubat 2025 t; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; 16 ilde DEAŞ isnadıyla yürütülen operasyonda yakalanan 51 şüphelinin a; Sosyal medya paylaşımı nedeniyle gözaltı pratiğinin siyasi yorum alanı; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Gazeteci Bahadır Özgür'ün gözaltısı ve 163 bin takipçili X hesabının '",
    "kayitlar": [
-    "84d90a15b7",
-    "8e12bf5b29",
-    "83eebe1585",
-    "15e176aae1",
-    "001-252739",
-    "001-252752",
-    "e7c7b4389b",
-    "99d978cbdb"
+    "1ea39b5e38",
+    "045505b63e",
+    "99fd3e891b",
+    "f4872354c9",
+    "1ea39b5e38",
+    "0f60b97a84",
+    "2acf61a3bf",
+    "7e237f7857"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-16:9",
+   "id": "saglik:2026-10-17:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
    "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, Nordic Monitor, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
