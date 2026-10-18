@@ -852,7 +852,7 @@
    "neden": "Komite'nin sorduğu \"Meclis'ten geçen yeni yasa\" hâlâ tanımlanmadı; elimizdeki tek değinme bir köşe yazısı. Yasanın metni ve kapsamı, dosyanın icra kategorisini belirleyecek.",
    "acildi": "2026-09-20",
    "durum": "açık",
-   "son_hareket": "2026-10-06",
+   "son_hareket": "2026-10-18",
    "kayitlar": [
     "dfe62c4828",
     "7b967d6b61"
@@ -870,6 +870,14 @@
      "not": "SCF'ye göre Adalet Bakanlığı, PKK bağlantılı dosyaların gözden geçirilmesi için adliyelerden acil bilgi istedi; haber, ilk aşamada yaklaşık 4.500 tutuklu ve hükümlünün tahliyesine yol açabilecek bir incelemeden söz ediyor. Kayıt başlık ve özet düzeyinde; yasal dayanak ya da takvim verilmemiş.",
      "kayitlar": [
       "874135c3ac"
+     ]
+    },
+    {
+     "gun": "2026-10-18",
+     "not": "İçişleri Bakanlığı bu pencerede iki kayıt yayımladı: bölge valileriyle yapılan 'Terörsüz Türkiye' toplantısı ve 'Terörsüz Türkiye bir devlet politikası hâline geldi' başlıklı açıklama. Her iki kayıt da başlık düzeyindedir; PKK/KCK'ya ilişkin iddia edilen özel yasa ya da Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle doğrudan bir bağ kurulmuş değildir.",
+     "kayitlar": [
+      "e39529e2c8",
+      "46edd48883"
      ]
     }
    ]
@@ -3406,8 +3414,22 @@
     "f4872354c9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t121",
+   "baslik": "İçişleri Bakanlığı'nın 'Terörsüz Türkiye' çerçevesini bölge valileri düzeyinde idari bir programa dönüştürmesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı / terörle mücadele politikası",
+   "neden": "Kayıtlar başlık düzeyinde olsa da, çerçevenin 'devlet politikası' olarak adlandırılması ve valiler üzerinden yürütülmesi, merkezin terör isnatlı soruşturma ve icra dosyalarında (özellikle t21 ve t16) idari uygulama tarafını etkileyebilir. Çerçevenin içeriğinin yayımlanıp yayımlanmayacağı izlenmeli.",
+   "acildi": "2026-10-18",
+   "durum": "açık",
+   "son_hareket": "2026-10-18",
+   "kayitlar": [
+    "e39529e2c8",
+    "46edd48883"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-17T06:36+00:00",
- "acik": 119
+ "guncelleme": "2026-10-18T06:59+00:00",
+ "acik": 120
 }

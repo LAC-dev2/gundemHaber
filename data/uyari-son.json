@@ -1,45 +1,27 @@
 {
- "gun": "2026-10-17",
- "olusturma": "2026-10-17T18:58+00:00",
+ "gun": "2026-10-18",
+ "olusturma": "2026-10-18T07:03+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-17:Uluslararası hukuk kuruluşlarından ICC'ye yönelik 9 Ekim tar",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Uluslararası hukuk kuruluşlarından ICC'ye yönelik 9 Ekim tarihli OFAC yaptırımlarına ortak kınama",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Kurum düzeyindeki ICC yaptırımları merkezin yaptırım listeleri dosyasında açık takipte; bugünkü kayıt, 9 Ekim 2026 tarihli OFAC işleminin varlığını ve imzacı kuruluşların tepkisini belgeliyor. Yargı organına yönelik yaptırımların meslek örgütleri tarafından nasıl konumlandırıldığını gösteriyor.",
-   "kayitlar": [
-    "0f60b97a84"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-10-17:toplu:10",
+   "id": "takip:2026-10-18:t21",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "10 takip dosyasında hareket var",
-   "alan": "",
-   "not": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; Stichting Justice Square raporundaki el koyma verileri ve Şubat 2025 t; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; 16 ilde DEAŞ isnadıyla yürütülen operasyonda yakalanan 51 şüphelinin a; Sosyal medya paylaşımı nedeniyle gözaltı pratiğinin siyasi yorum alanı; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Gazeteci Bahadır Özgür'ün gözaltısı ve 163 bin takipçili X hesabının '",
+   "baslik": "PKK/KCK'ya ilişkin özel yasa iddiası ve Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle ilişkisi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "not": "İçişleri Bakanlığı bu pencerede iki kayıt yayımladı: bölge valileriyle yapılan 'Terörsüz Türkiye' toplantısı ve 'Terörsüz Türkiye bir devlet politikası hâline geldi' başlıklı açıklama. Her iki kayıt da başlık düzeyindedir; PKK/KCK'ya ilişkin iddia edilen özel yasa ya da Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle doğrudan bir bağ kurulmuş değildir.",
    "kayitlar": [
-    "1ea39b5e38",
-    "045505b63e",
-    "99fd3e891b",
-    "f4872354c9",
-    "1ea39b5e38",
-    "0f60b97a84",
-    "2acf61a3bf",
-    "7e237f7857"
+    "e39529e2c8",
+    "46edd48883"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-17:9",
+   "id": "saglik:2026-10-18:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Nordic Monitor, Dışişleri Bakanlığı, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Nordic Monitor, Dışişleri Bakanlığı, Frontex…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
