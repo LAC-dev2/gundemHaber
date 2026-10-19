@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-19",
- "olusturma": "2026-10-19T07:20+00:00",
+ "olusturma": "2026-10-19T08:21+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-19:Süleymancılar soruşturmasında 12 ilde yeni operasyon",
@@ -63,7 +63,7 @@
    "duzey": "yüksek",
    "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
