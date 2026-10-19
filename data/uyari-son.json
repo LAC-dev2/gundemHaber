@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-19",
- "olusturma": "2026-10-19T11:59+00:00",
+ "olusturma": "2026-10-19T17:18+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-19:Süleymancılar soruşturmasında 12 ilde yeni operasyon",
@@ -58,12 +58,26 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-19:10",
+   "id": "kritik:2026-10-19:3",
+   "tur": "kritik kayıt yığılması",
+   "duzey": "orta",
+   "baslik": "Bugün birincil kaynaktan 3 kritik öncelikli kayıt geldi",
+   "alan": "",
+   "not": "20261006-8.pdf - Resmi Gazete; Sağlık Raporları Yönetmeliği - Resmi Gazete; Yargı Harçları - Resmi Gazete",
+   "kayitlar": [
+    "79390c3dbd",
+    "61e0c35ac5",
+    "673dd445f6"
+   ],
+   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
+  },
+  {
+   "id": "saglik:2026-10-19:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Asylos, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
