@@ -1,27 +1,69 @@
 {
- "gun": "2026-10-18",
- "olusturma": "2026-10-18T19:08+00:00",
+ "gun": "2026-10-19",
+ "olusturma": "2026-10-19T07:20+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-10-18:t21",
+   "id": "alan:2026-10-19:Süleymancılar soruşturmasında 12 ilde yeni operasyon",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Süleymancılar soruşturmasında 12 ilde yeni operasyon",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Eylül ayında 23 şirkete kayyım atanması ve 29 gözaltıyla açılan dosya (t19) bir aydan uzun süre sonra ilk kez yeniden hareketleniyor. Operasyonun 12 ile yayılması, soruşturmanın cemaat yapılanmasının mali ve kurumsal ağına yönelmiş olabileceğine işaret ediyor; ancak isnatlar kayıtta kesik aktarılmış.",
+   "kayitlar": [
+    "a4f971dd7f"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-10-19:Aklama soruşturmasında 17 kişi adliyeye sevk edildi; araları",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Aklama soruşturmasında 17 kişi adliyeye sevk edildi; aralarında gazeteci Murat Ağırel var",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Ağırel'in ev hapsinin ardından ikinci bir soruşturmada gözaltına alınması 17 Ekim'de kaydedilmişti (t120); bugün dosya adli aşamaya geçti. Gazetecinin mali suç isnadıyla yürüyen bir soruşturmada diğer şüphelilerle birlikte sevk edilmesi, haber faaliyeti ile aklama isnadı arasındaki sınırın dosyada nasıl kurulduğunu izlemeyi gerektiriyor.",
+   "kayitlar": [
+    "e8f6330539"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-10-19:Rechtbank Den Haag: iç koruma alternatifi gerekçesi yetersiz",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Rechtbank Den Haag: iç koruma alternatifi gerekçesi yetersiz bulunarak ret kararı bozuldu",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Karar Kolombiya uyruklu başvurucularla ilgili; iltica anlatısı inandırıcı bulunduktan sonra idarenin, başvurucuların ülke içinde başka bir yerde paramiliter korkusu olmadan yaşayabileceğini yeterince açıklamadığı saptanmış. Aynı mahkemenin Türkiye kaynaklı dosyalarda uyguladığı gerekçelendirme denetimiyle karşılaştırma imkânı veriyor.",
+   "kayitlar": [
+    "f3291bb251"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-10-19:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "PKK/KCK'ya ilişkin özel yasa iddiası ve Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle ilişkisi",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "not": "İçişleri Bakanlığı bu pencerede iki kayıt yayımladı: bölge valileriyle yapılan 'Terörsüz Türkiye' toplantısı ve 'Terörsüz Türkiye bir devlet politikası hâline geldi' başlıklı açıklama. Her iki kayıt da başlık düzeyindedir; PKK/KCK'ya ilişkin iddia edilen özel yasa ya da Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle doğrudan bir bağ kurulmuş değildir.",
+   "baslik": "8 takip dosyasında hareket var",
+   "alan": "",
+   "not": "Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve ; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; 29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar me; Müyesser Uğur v. Türkiye (45738/22) kararının icrası: üç aylık ödeme s; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla; Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözal",
    "kayitlar": [
-    "e39529e2c8",
-    "46edd48883"
+    "a4f971dd7f",
+    "53c6d2b19c",
+    "001-252506",
+    "001-252504",
+    "001-252505",
+    "001-252506",
+    "001-252630",
+    "ff4c652d8d"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-18:9",
+   "id": "saglik:2026-10-19:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, CFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
