@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-20",
- "olusturma": "2026-10-20T10:53+00:00",
+ "olusturma": "2026-10-20T15:32+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-20:BM özel raportörleri Türkiye'yi, idama mahkûm edildiği bildi",
@@ -34,12 +34,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-20:22",
+   "id": "saglik:2026-10-20:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "22 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, Amnesty International - Türkiye, FIDH - Türkiye, CCBE Human Rights Letters, International Observatory for Lawyers in Danger - OIAD, Odysseus Academic Network…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Nordic Monitor, Frontex, Alomaliye, CFATF, AML Intelligence…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
