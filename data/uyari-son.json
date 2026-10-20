@@ -1,83 +1,45 @@
 {
- "gun": "2026-10-19",
- "olusturma": "2026-10-19T17:18+00:00",
+ "gun": "2026-10-20",
+ "olusturma": "2026-10-20T07:11+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-19:Süleymancılar soruşturmasında 12 ilde yeni operasyon",
+   "id": "alan:2026-10-20:BM özel raportörleri Türkiye'yi, idama mahkûm edildiği bildi",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Süleymancılar soruşturmasında 12 ilde yeni operasyon",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Eylül ayında 23 şirkete kayyım atanması ve 29 gözaltıyla açılan dosya (t19) bir aydan uzun süre sonra ilk kez yeniden hareketleniyor. Operasyonun 12 ile yayılması, soruşturmanın cemaat yapılanmasının mali ve kurumsal ağına yönelmiş olabileceğine işaret ediyor; ancak isnatlar kayıtta kesik aktarılmış.",
+   "baslik": "BM özel raportörleri Türkiye'yi, idama mahkûm edildiği bildirilen İranlı insan hakları savunucusunu sınır dışı etmemesi için uyardı",
+   "alan": "BM insan hakları mekanizmaları / İade, adli yardım ve iltica",
+   "not": "Yedi BM mandate sahibinin ortak mektubu, Türkiye'nin uluslararası koruma başvurularında bireyselleştirilmiş risk değerlendirmesi yapıp yapmadığını doğrudan sorguluyor. Dosya, idari gözetim, yinelenen başvurunun 'aynı gerekçelere dayandığı' için kabul edilemez sayılması ve idare mahkemesi denetiminin sınırlılığı unsurlarını bir arada içeriyor; merkezin non-refoulement dosyalarıyla aynı yapıda.",
    "kayitlar": [
-    "a4f971dd7f"
+    "a70e3bc152"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "alan:2026-10-19:Aklama soruşturmasında 17 kişi adliyeye sevk edildi; araları",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Aklama soruşturmasında 17 kişi adliyeye sevk edildi; aralarında gazeteci Murat Ağırel var",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Ağırel'in ev hapsinin ardından ikinci bir soruşturmada gözaltına alınması 17 Ekim'de kaydedilmişti (t120); bugün dosya adli aşamaya geçti. Gazetecinin mali suç isnadıyla yürüyen bir soruşturmada diğer şüphelilerle birlikte sevk edilmesi, haber faaliyeti ile aklama isnadı arasındaki sınırın dosyada nasıl kurulduğunu izlemeyi gerektiriyor.",
-   "kayitlar": [
-    "e8f6330539"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "alan:2026-10-19:Rechtbank Den Haag: iç koruma alternatifi gerekçesi yetersiz",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Rechtbank Den Haag: iç koruma alternatifi gerekçesi yetersiz bulunarak ret kararı bozuldu",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Karar Kolombiya uyruklu başvurucularla ilgili; iltica anlatısı inandırıcı bulunduktan sonra idarenin, başvurucuların ülke içinde başka bir yerde paramiliter korkusu olmadan yaşayabileceğini yeterince açıklamadığı saptanmış. Aynı mahkemenin Türkiye kaynaklı dosyalarda uyguladığı gerekçelendirme denetimiyle karşılaştırma imkânı veriyor.",
-   "kayitlar": [
-    "f3291bb251"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-10-19:toplu:8",
+   "id": "takip:2026-10-20:toplu:9",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "8 takip dosyasında hareket var",
+   "baslik": "9 takip dosyasında hareket var",
    "alan": "",
-   "not": "Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve ; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; 29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar me; Müyesser Uğur v. Türkiye (45738/22) kararının icrası: üç aylık ödeme s; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla; Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözal",
+   "not": "Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve ; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek ; Norveç temyiz mahkemesinin EAW reddine rağmen Yunanistan'ın Tommy Olse; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Freedom House'un 22 Ekim 2026'da yayımlanacağını duyurduğu Freedom on ",
    "kayitlar": [
-    "a4f971dd7f",
-    "53c6d2b19c",
-    "001-252506",
-    "001-252504",
-    "001-252505",
-    "001-252506",
-    "001-252630",
-    "ff4c652d8d"
+    "08fa98c971",
+    "bc47a256a3",
+    "aac0b71ca5",
+    "2f6d2caffd",
+    "2f6d2caffd",
+    "bf0d97231a",
+    "8dc168f678",
+    "8dc168f678"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "kritik:2026-10-19:3",
-   "tur": "kritik kayıt yığılması",
-   "duzey": "orta",
-   "baslik": "Bugün birincil kaynaktan 3 kritik öncelikli kayıt geldi",
-   "alan": "",
-   "not": "20261006-8.pdf - Resmi Gazete; Sağlık Raporları Yönetmeliği - Resmi Gazete; Yargı Harçları - Resmi Gazete",
-   "kayitlar": [
-    "79390c3dbd",
-    "61e0c35ac5",
-    "673dd445f6"
-   ],
-   "neden": "Birincil kaynaklardan bugün olağandışı sayıda kritik kayıt geldi."
-  },
-  {
-   "id": "saglik:2026-10-19:11",
+   "id": "saglik:2026-10-20:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Asylos, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Amnesty International - Türkiye, FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Amnesty Security Lab…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
