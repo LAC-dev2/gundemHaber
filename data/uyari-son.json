@@ -1,45 +1,56 @@
 {
- "gun": "2026-10-20",
- "olusturma": "2026-10-20T20:15+00:00",
+ "gun": "2026-10-21",
+ "olusturma": "2026-10-21T07:03+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-20:BM özel raportörleri Türkiye'yi, idama mahkûm edildiği bildi",
+   "id": "alan:2026-10-21:Aklama soruşturmasında Murat Ağırel ve 14 kişi tutuklandı; i",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "BM özel raportörleri Türkiye'yi, idama mahkûm edildiği bildirilen İranlı insan hakları savunucusunu sınır dışı etmemesi için uyardı",
-   "alan": "BM insan hakları mekanizmaları / İade, adli yardım ve iltica",
-   "not": "Yedi BM mandate sahibinin ortak mektubu, Türkiye'nin uluslararası koruma başvurularında bireyselleştirilmiş risk değerlendirmesi yapıp yapmadığını doğrudan sorguluyor. Dosya, idari gözetim, yinelenen başvurunun 'aynı gerekçelere dayandığı' için kabul edilemez sayılması ve idare mahkemesi denetiminin sınırlılığı unsurlarını bir arada içeriyor; merkezin non-refoulement dosyalarıyla aynı yapıda.",
+   "baslik": "Aklama soruşturmasında Murat Ağırel ve 14 kişi tutuklandı; ihale soruşturmasında Milas Belediye Başkanı gözaltında",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Ağırel dosyası adli kontrol aşamasından tutukluluğa geçti; tutuklananlar arasında muhalefet milletvekili Mustafa Sarıgül'ün oğlu Ömer ve eski eşi, siyasetçi Aylin Kotil de var. Aynı pencerede Milas Belediye Başkanı Fevzi Topuz, oğlu ve 27 kişi daha ihalelerde sahte yeterlik belgesi iddiasıyla gözaltına alındı. İki dosya da merkezin mali soruşturma–siyasi temsil kesişimi takibini (t92, t120) besliyor.",
    "kayitlar": [
-    "a70e3bc152"
+    "9f2fa150bd",
+    "d2b5cef667"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "takip:2026-10-20:toplu:9",
+   "id": "karar:001-252903",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Gerekçeli karar hakkı: hürriyetten yoksun bırakma mahkûmiyetinde ihlal yok, tecavüz mahkûmiyetinde md. 6/1 ihlali",
+   "alan": "md. 6, 6-1",
+   "not": "Mahkeme oybirliğiyle, başvurucunun kişiyi hürriyetinden yoksun bırakma suçundan mahkûmiyetinde md. 6/1 ihlali bulunmadığına karar verdi; mağdurun istikrarlı beyanlarına ağırlık verilmesini keyfilik ya da açık makul dışılık saymadı. Tecavüz suçundan mahkûmiyette ise, aleyhteki ana delil olan mağdur beyanındaki değişiklikten doğan şüphenin ilk derece mahkemesince gereğince karşılanmadığını, üst mahkemelerin ve Anayasa Mahkemesi'nin bu eksikliği gidermediğini belirterek md. 6/1 ihlali saptadı (§§ 56-57). Başvurucu Rule 60 uyarınca adil tazmin talebi sunmadığından ve Nagmetov anlamında istisnai durum görülmediğinden tazminata hükmedilmedi (§ 59). Mahkeme, ihlal tespitinin başvurucunun haksız mahkûm edildiği anlamına gelmediğini vurgulayarak en uygun giderimin, talep etmesi halinde CMK md. 311 uyarınca yeniden yargılama olduğunu belirtti (§ 60).",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "takip:2026-10-21:toplu:7",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "9 takip dosyasında hareket var",
+   "baslik": "7 takip dosyasında hareket var",
    "alan": "",
-   "not": "Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve ; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek ; Norveç temyiz mahkemesinin EAW reddine rağmen Yunanistan'ın Tommy Olse; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Freedom House'un 22 Ekim 2026'da yayımlanacağını duyurduğu Freedom on ",
+   "not": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Beraat kararına savcılık itirazı üzerine yeniden tutuklama: Taner Nakı; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözal; Bakırköy'ün Adalet Bakanı Akın Gürlek'in mal varlığına ilişkin 10 habe",
    "kayitlar": [
-    "08fa98c971",
+    "e230b3bf64",
+    "e230b3bf64",
+    "d2b5cef667",
+    "a5a6bb7020",
+    "e230b3bf64",
     "bc47a256a3",
-    "aac0b71ca5",
-    "2f6d2caffd",
-    "2f6d2caffd",
-    "bf0d97231a",
-    "8dc168f678",
-    "8dc168f678"
+    "9f2fa150bd",
+    "b4ace910c9"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-20:11",
+   "id": "saglik:2026-10-21:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
    "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, CFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Nordic Monitor, Frontex, Alomaliye, CFATF, AML Intelligence…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

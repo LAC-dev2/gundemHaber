@@ -1264,7 +1264,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-20",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1393,6 +1393,13 @@
       "bc47a256a3",
       "aac0b71ca5",
       "2f6d2caffd"
+     ]
+    },
+    {
+     "gun": "2026-10-21",
+     "not": "Halk TV'nin 14 Ekim'de 5651 md. 8/A kapsamında engellenen X hesabı, 21 Ekim'de X tarafından Türkiye'den görünmez kılındı; 8/A engellerinin platform tarafında uygulanmasına yeni bir örnek eklendi.",
+     "kayitlar": [
+      "e230b3bf64"
      ]
     }
    ]
@@ -1912,7 +1919,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-16",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -2009,6 +2016,13 @@
      "not": "Bahadır Özgür'ün engellenen X hesabı için de İFÖD 'X tarafından henüz Türkiye'den görünmez kılınmadı' notunu düştü [8e12bf5b29]; karar ile platform uygulaması arasındaki gecikme örüntüsü sürüyor.",
      "kayitlar": [
       "8e12bf5b29"
+     ]
+    },
+    {
+     "gun": "2026-10-21",
+     "not": "İFÖD'e göre 14 Ekim tarihli 8/A kararından yedi gün sonra, 21 Ekim'de Halk TV'nin 3 milyon takipçili X hesabı Türkiye'den görünmez kılındı. Hesabın kullanıcı adı bu süreçte @halktvcomtr'den @halktveu'ya değiştirilmişti.",
+     "kayitlar": [
+      "e230b3bf64"
      ]
     }
    ]
@@ -2955,7 +2969,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-20",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -2986,6 +3000,13 @@
      "not": "Anadolu Ajansı'na dayanan habere göre jandarma, Çukurova Belediye Başkanı Emrah Kozay'ın yanı sıra 43 kişiyi daha gözaltına aldı; gözaltındakiler arasında önceki başkan Soner Çetin ve dört başkan yardımcısı var. İsnat rüşvet, ihaleye fesat ve dolandırıcılık olarak aktarılıyor. Dünkü kayıtta yalnızca başkan hakkında gözaltı kararı vardı; bugün gözaltı sayısı ve isimler eklendi.",
      "kayitlar": [
       "903679c3ca"
+     ]
+    },
+    {
+     "gun": "2026-10-21",
+     "not": "Milas Belediye Başkanı Fevzi Topuz, oğlu ve toplam 29 kişi, belediyenin şirketlere ihalelere girmek için sahte yeterlik belgesi sağladığı iddiasıyla gözaltına alındı. Kayıt gözaltı aşamasında; tutuklama ya da kayyım bilgisi yok.",
+     "kayitlar": [
+      "d2b5cef667"
      ]
     }
    ]
@@ -3198,11 +3219,19 @@
    "neden": "24 Eylül 2026 tarihli beraatten iki hafta sonra, 9 Ekim'de başka bir ağır ceza mahkemesince yakalama kararı verilmesi, kesinleşmemiş beraatlerin tutukluluğa dönüşmesi pratiğini gösteriyor. Dosya aynı zamanda TMSF'ye devredilen Naksan Holding varlıklarıyla bağlantılı.",
    "acildi": "2026-10-13",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "50f95ba584"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-21",
+     "not": "Nakıboğlu dosyasında yeni kayıt yok; ancak aynı usul mekanizması (savcılık itirazı üzerine tahliye sonrası yeniden tutuklama) yeni bir dosyada görüldü: Gaziantep 2. Ağır Ceza Mahkemesi'nin 24 Eylül'de yedi yılı aşkın ceza verip tahliye ettiği Mehmet Daylak, savcılık itirazı üzerine 7 Ekim'de Aksaray'da gözaltına alındı ve cezaevine konuldu.",
+     "kayitlar": [
+      "a5a6bb7020"
+     ]
+    }
+   ]
   },
   {
    "id": "t103",
@@ -3335,7 +3364,7 @@
    "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-10-20",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "db2250c34a",
     "15e176aae1",
@@ -3369,6 +3398,14 @@
       "bc47a256a3",
       "aac0b71ca5",
       "cfbc1e08c7"
+     ]
+    },
+    {
+     "gun": "2026-10-21",
+     "not": "Kayyum, yayın durdurma ve altı platformdaki engellerden sonra bugünkü adım platform tarafında: Halk TV'nin X hesabı 21 Ekim'de Türkiye'den görünmez kılındı.",
+     "kayitlar": [
+      "e230b3bf64",
+      "bc47a256a3"
      ]
     }
    ]
@@ -3522,7 +3559,7 @@
    "neden": "Milyonlarca avroluk işlem isnadıyla yürütülen aklama soruşturmasında bir gazeteci ile muhalif bir milletvekilinin aile üyelerinin birlikte gözaltına alınması, mali soruşturma ile haber yapma faaliyeti arasındaki bağın izlenmesini gerektiriyor.",
    "acildi": "2026-10-17",
    "durum": "açık",
-   "son_hareket": "2026-10-19",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "67804b754a",
     "f4872354c9"
@@ -3533,6 +3570,13 @@
      "not": "İstanbul Başsavcılığı'nın aklama soruşturmasında gözaltına alınan 17 kişi adliyeye sevk edildi; şüpheliler arasında Ömer Sarıgül, Aylin Kotil, Volkan Aslanbaş, Cavidan Tanrah Artuner ve gazeteci Murat Ağırel bulunuyor. Sevk sonrası tutuklama/serbest bırakma kararı kayıtta yok.",
      "kayitlar": [
       "e8f6330539"
+     ]
+    },
+    {
+     "gun": "2026-10-21",
+     "not": "Gazeteci Murat Ağırel ve 14 kişi, İstanbul'da aklama soruşturmasında tutuklandı. Tutuklananlar arasında muhalefet milletvekili Mustafa Sarıgül'ün oğlu Ömer ve eski eşi, siyasetçi Aylin Kotil da var; dosya adli kontrol aşamasından tutukluluğa geçti.",
+     "kayitlar": [
+      "9f2fa150bd"
      ]
     }
    ]
@@ -3633,13 +3677,73 @@
    "neden": "Engelleme doğrudan adalet bakanının mal varlığı iddialarını konu alan haberleri hedef alıyor; fon krizi engellemelerinden ayrı bir hat olarak itiraz ve ölçülülük denetimi izlenmeli.",
    "acildi": "2026-10-20",
    "durum": "açık",
-   "son_hareket": "2026-10-20",
+   "son_hareket": "2026-10-21",
    "kayitlar": [
     "2f6d2caffd"
+   ],
+   "gelismeler": [
+    {
+     "gun": "2026-10-21",
+     "not": "Erişim engellerine konu olan aynı iddialar hukuk davasına da taşındı: İstanbul'da bir mahkeme, CHP Genel Başkanı Özgür Özel'in Adalet Bakanı Akın Gürlek'in maaşıyla alamayacağı taşınmaz edindiği yönündeki iddiaları nedeniyle 750.000 lira (yaklaşık 15.000 dolar) tazminat ödemesine karar verdi.",
+     "kayitlar": [
+      "b4ace910c9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t128",
+   "baslik": "Bakırköy 7. Ağır Ceza Mahkemesi'nde 22 eski hâkim ve savcı hakkında 50 yıla kadar hapis istemiyle açılan dava",
+   "alan": "Gülen hareketi/KHK dosyaları",
+   "neden": "Yargı mensuplarının 2009-2012 arasında verdikleri tutukluluk kararları nedeniyle kişiyi hürriyetinden yoksun bırakma suçundan yargılanması, karar verme faaliyetinin ceza sorumluluğuna dönüştürülmesine ilişkin bir hat açıyor. İddianamenin kabulünden sonraki duruşma takvimi ve delil tartışması izlenmeli.",
+   "acildi": "2026-10-21",
+   "durum": "açık",
+   "son_hareket": "2026-10-21",
+   "kayitlar": [
+    "74d27e8b71"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t129",
+   "baslik": "Mehmet Daylak dosyası: ileri evre kanser tedavisi görmüş hükümlünün tahliyeden 13 gün sonra yeniden tutuklanması ve PET taramasına erişememesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Savcılık itirazı üzerine tahliyenin geri alınması ile ağır hastalık halinde sağlık erişimi iddiaları aynı dosyada birleşiyor; merkezin cezaevi sağlık dosyalarıyla (t64, t91) aynı tipte.",
+   "acildi": "2026-10-21",
+   "durum": "açık",
+   "son_hareket": "2026-10-21",
+   "kayitlar": [
+    "a5a6bb7020"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t130",
+   "baslik": "Güray Gür v. Türkiye (33372/19) kararının icrası: adil tazmin talebi sunulmamış bir md. 6/1 ihlalinde giderimin CMK 311 yeniden yargılamasına bağlanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Mahkeme tazminat vermedi ve en uygun giderim olarak yeniden yargılamayı gösterdi; Bakanlar Komitesi denetiminde bireysel tedbirin tek dayanağının iç hukuk yolunun işleyişi olacağı bir örnek.",
+   "acildi": "2026-10-21",
+   "durum": "açık",
+   "son_hareket": "2026-10-21",
+   "kayitlar": [
+    "001-252903"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t131",
+   "baslik": "İçişleri Bakanı Çiftçi'nin Belçika'dan 'terörle mücadelede somut adımlar' beklediği açıklaması",
+   "alan": "Belçika ve AB mevzuatı",
+   "neden": "Türkiye'nin AB üyesi bir devletten terörle mücadele adımı talebi, merkezin iade ve sınıraşan baskı dosyalarıyla doğrudan kesişebilir; kayıtta şimdilik yalnızca başlık düzeyinde bilgi var, içeriğin ve muhatap dosyaların belirlenmesi gerekiyor.",
+   "acildi": "2026-10-21",
+   "durum": "açık",
+   "son_hareket": "2026-10-21",
+   "kayitlar": [
+    "8ceda097b3"
    ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-20T07:11+00:00",
- "acik": 126
+ "guncelleme": "2026-10-21T07:03+00:00",
+ "acik": 130
 }
