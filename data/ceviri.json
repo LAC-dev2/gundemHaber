@@ -70,6 +70,11 @@
 "dil": "diger",
 "ozet": "Eski Fransa Adalet Bakanı ve Kültür Bakanı Rachida Dati, 2010 ile 2012 yılları arasında Renault-Nissan'ın yan kuruluşundan aldığı 900.000 avro avukat ücretinden dolayı yolsuzluk suçundan yargılanacak."
 },
+"016fb1d4e1": {
+"baslik": "Hacettepe Üniversitesi öğrencisi polislerin kendisini Ankara caddesinden kaçırdığını ve üç saat tepelerde tuttuğunu söylüyor",
+"dil": "diger",
+"ozet": "Hacettepe Üniversitesi öğrencisi polislerin kendisini Ankara caddesinden kaçırdığını ve üç saat tepelerde tuttuğunu söylemiştir."
+},
 "0171ddb8e6": {
 "baslik": "Quinten Jacobs'un bütçe sorunları ve yeni bir devlet reformu hakkındaki yazısı",
 "dil": "diger"
@@ -447,6 +452,11 @@
 },
 "07002379c9": {
 "dil": "tr"
+},
+"070f1f1b93": {
+"baslik": "Türk basın kuruluşları sansüre karşı ülke genelinde gösteri çağrısında bulunuyor, medya baskısının artması nedeniyle",
+"dil": "diger",
+"ozet": "Türk basın örgütleri gazetecileri ve halkı, gazeteci tutuklamamaları, muhalif medyanın devlet tarafından ele geçirilmesi ve haber sitelerine ile sosyal medya hesaplarına getirilen kısıtlamalara karşı Türkiye genelinde gösteri düzenlemesi çağrısında bulunmuştur. 24 Ekim tarihinde saat 14.00'de başlanacak gösteriler, bu olayların birinci yıldönümünü işaretleyecektir."
 },
 "07234384e0": {
 "baslik": "Türk Gazeteciler Milliyetçi Parti Lideri Hakkında Yapılan Eleştiriler Nedeniyle, 4 İddianame Red Edişinden Sonra Yargılanıyor",
@@ -1863,6 +1873,11 @@
 "dil": "diger",
 "ozet": "Orhan Sait Berber, Washington, D.C. İnsan hakları savunucuları Cuma günü Türk Büyükelçiliği önünde Türkiye'nin LGBTQ grupları ve aktivistlerine yönelik ülke çapında baskısını protesto etmek için toplandılar. Gösteri, Küresel Eşitlik Konseyi, Amnesty International USA, Outright International ve Sağlık...tarafından organize edildi."
 },
+"1d3ed0e571": {
+"baslik": "Yeni Zelanda düzenleyicileri yönetim kurullarını yapay zeka riski konusunda uyarıyor",
+"dil": "diger",
+"ozet": "Yeni Zelanda'nın iki temel mali düzenleyicisi olan Yeni Zelanda Merkez Bankası (Te Pūtea Matua) ve Mali Piyasalar Otoritesi (Te Mana Tātai Hokohoko), düzenlenmiş kuruluşlarının sınır teknolojileri yapay zekadan doğan siber tehditleri nasıl ele almasını beklediklerini açıklamıştır."
+},
 "1d4236f58b": {
 "dil": "tr"
 },
@@ -2270,8 +2285,18 @@
 "dil": "diger",
 "ozet": "Ekim 2022'den beri, AB merkezli avukatlar Rus hükümetine ve Rusya'da kurulu şirketlere belli yasal tavsiyeler vermekten men edilmektedir. İlk bakışta bu, AB'nin yaptırımları içinde derin bir yere gömülü dar ve teknik bir kısıtlama gibi görünmektedir..."
 },
+"2301217eaf": {
+"baslik": "Utanç ve Aşağılanma: Sosyal Güvenlik Sistemleri İçin Bir Zorluk",
+"dil": "diger",
+"ozet": "Yaptırımlar, parasal yardım yerine ayni yardımlar, ödeme kartları: Sosyal hukuk giderek yardım alanları aşağılayabilecek ve damgalayabilecek önlemleri benimsemektedir. Sosyal güvenlik sistemlerinin utancı önlemesi görevi midir? Yoksa devlet talep ve destek ilkesini uygulamak için utancı kasıtlı olarak kullanabilir mi?"
+},
 "23044eeafb": {
 "dil": "tr"
+},
+"23196a2669": {
+"baslik": "Hapsedilmiş Türk gazetecisi düzeltilen sosyal medya gönderisi nedeniyle 4,5 yıla kadar hapis cezasıyla karşı karşıya",
+"dil": "diger",
+"ozet": "Türk savcılar, hapsedilmiş gazeteci Fatih Ergin hakkında, vefat eden bir doktor'un mesleki geçmişi yanlış belirten bir sosyal medya gönderisi nedeniyle dört buçuk yıla kadar hapis cezası talep etmektedir; söz konusu hata Ergin tarafından yaklaşık 90 dakika sonra düzeltilmiştir."
 },
 "232566f9fc": {
 "dil": "tr"
@@ -4614,6 +4639,9 @@
 "dil": "diger",
 "ozet": "AB Temel Haklar Ajansı, Uluslararası Holokost Hatırlama İttifakı'nın (IHRA) Antisemitizm ve Holokost İnkârı Komitesi toplantısına, yaklaşan IHRA Genel Kurul toplantısı kapsamında katılacaktır."
 },
+"46d6e5a3ea": {
+"dil": "tr"
+},
 "46e893fc2c": {
 "baslik": "ABD: Nebraskalilar Medicaid Değişiklikleri Nedeniyle Teminatı Kaybediyor",
 "dil": "diger",
@@ -6713,6 +6741,11 @@
 "dil": "diger",
 "ozet": "Hukuk devleti baskı altındadır. Bu baskı iki yönden gelmektedir: vatandaşların adalete olan güveni iki şekilde zedelenemektedir."
 },
+"68fac3b86b": {
+"baslik": "FMA Velmato Edge teklifleri konusunda uyarıyor",
+"dil": "diger",
+"ozet": "Dikkat! FMA bu sağlayıcıyla işlem yapılması konusunda uyarı yayınlamıştır."
+},
 "69007b8933": {
 "dil": "tr"
 },
@@ -6857,6 +6890,11 @@
 "baslik": "Ankara'da ByLock gerekçesiyle on kişi gözaltına alındı. Aralarında bir öğretmen ve bir psikolog var",
 "dil": "diger",
 "ozet": "Ankara'da ByLock gerekçesiyle on kişi gözaltına alındı. Aralarında bir öğretmen ve bir psikolog var. Solidarity with OTHERS."
+},
+"6b2ef8a67b": {
+"baslik": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen'in İmtiyazının Sona Ermesi",
+"dil": "diger",
+"ozet": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen'in imtiyazı, bu bankanın Raiffeisenbank Burgenland Mitte eGen ile birleşmesinin 17 Eylül 2026'da Ticari Sicile kaydedilmesi nedeniyle sona ermiştir."
 },
 "6b5e000cea": {
 "baslik": "Andorra Polisi, Europol'un güvenli iletişim ağına katıldı",
@@ -7538,11 +7576,19 @@
 "dil": "diger",
 "ozet": ""
 },
+"7676f30a00": {
+"dil": "tr"
+},
 "767b49de0c": {
 "dil": "tr"
 },
 "767c5bae2c": {
 "dil": "tr"
+},
+"76983db168": {
+"baslik": "Türkiye muhalefet TV istasyonu sahibinin sosyal medya hesabını devlet devralmından sonra engellemeyi emrediyor",
+"dil": "diger",
+"ozet": "Türk yetkililer, geçen hafta devlet tarafından ele geçirilen muhalif yayın yapan Halk TV'nin sahibi Cafer Mahiroğlu'nun kişisel sosyal medya hesabına erişim engellenmesini emretmiş, hesap sahibini halka kışkırtma amacı güden açıklamalar yaptığı gerekçesiyle suçlamıştır."
 },
 "769ec9c879": {
 "baslik": "Göçmenlere Zarar Veren Teknolojiler Rehberi: Gözetim Arşenali",
@@ -9564,6 +9610,11 @@
 "949d7947ed": {
 "dil": "tr"
 },
+"94a3f4415a": {
+"baslik": "Sırbistan: Medya Özgürlüğü Demokratik Seçimlerin Temel Taşı",
+"dil": "diger",
+"ozet": "Medya Özgürlüğü Hızlı Müdahale (MFRR) ve Güvenli Gazeteciler Ağı (SJN) ortakları, Sırbistan'ın 25 Ekim tarihindeki milletvekili seçimlerinden önceki dönemde, gazetecilere yönelik şiddetin artışı ve medya özgürlüğü çevresi durumundan endişe duymaktadırlar. Sırp yetkilileri gazetecilerin ve medya kuruluşlarının güvenliğini ve özgürlüğünü garantilemek için çağrıda bulunmaktadırlar."
+},
 "94b69aa545": {
 "dil": "tr"
 },
@@ -9656,6 +9707,11 @@
 "baslik": "Hindistan: GANHRI'ye İnsan Hakları Kurumu akreditasyon durumu gözden geçirmesi hakkında ortak başvuru",
 "dil": "diger",
 "ozet": "Bağlı kuruluşlar olarak imzalayanlar, bölgesel ve uluslararası insan hakları sivil toplum kuruluşları ve bireyler Hindistan İnsan Hakları Kurumu (NHRCI) gelişmeleri konusunda endişe taşımaktadırlar. Başvuran kuruluşların NHRCI ile değişik düzeyde doğrudan çalışması bulunmaktadır. Çoğumuz daha önce kurum ile ilişki kurmuş durumdayız."
+},
+"9608f94214": {
+"baslik": "FMA esmartfinance teklifleri konusunda uyarıyor",
+"dil": "diger",
+"ozet": "Dikkat! FMA bu sağlayıcıyla işlem yapılması konusunda uyarı yayınlamıştır."
 },
 "960907a438": {
 "dil": "tr"
@@ -11023,6 +11079,11 @@
 "dil": "diger",
 "ozet": "Kazakistan Almatı'da Uluslararası Kadınlar Günü mitingine katılanlar, 8 Mart 2022. © 2022 Stanislav Beketov. Birleşmiş Milletler Kadına Karşı Her Türlü Ayrımcılığın Ortadan Kaldırılması Komitesi (CEDAW) tarafından 6 Ekim tarihinde yapılan değerlendirme sırasında Kazakistan, ev içi şiddeti suç haline getirmek için yeni mevzuat için taahhüt vermişdir."
 },
+"ab868ea2e8": {
+"baslik": "ECLI:NL:RBDHA:2026:30960 – Den Haag Bölge Mahkemesi, belirli süreli iltica müracaatı hakkında zamanında karar verilmemesi hakkında istinaf başvurusu",
+"dil": "diger",
+"ozet": "Belirli süreli iltica müracaatı üzerine zamanında karar verilmemesi hakkında tekrarlanan istinaf başvurusu. Karar: Hükmen desteklenen / Esas itibariyle uygun görülen."
+},
 "ab8970956a": {
 "dil": "tr"
 },
@@ -11218,6 +11279,11 @@
 "ae7c9e48b5": {
 "dil": "tr"
 },
+"ae83680c64": {
+"baslik": "Türk basın kuruluşları sansüre karşı ülke genelinde gösteri çağrısında bulunuyor, medya baskısının artması nedeniyle",
+"dil": "diger",
+"ozet": "Türk basın örgütleri gazetecileri ve halkı, gazeteci tutuklamamaları, muhalif medyanın devlet tarafından ele geçirilmesi ve haber sitelerine ile sosyal medya hesaplarına getirilen kısıtlamalara karşı Türkiye genelinde gösteri düzenlemesi çağrısında bulunmuştur. 24 Ekim tarihinde saat 14.00'de başlanacak gösteriler, bu olayların birinci yıldönümünü işaretleyecektir."
+},
 "ae987e9b96": {
 "baslik": "EBA E-posta Uyarısı 16 Eylül 2026",
 "dil": "diger",
@@ -11313,6 +11379,11 @@
 "dil": "diger",
 "ozet": "Tehditler, tacizler ve gasp davalarının konu alındığı makale."
 },
+"b01f4e07e4": {
+"baslik": "AiPrise'ın KYB'nin geleceğini nasıl inşa ettiği",
+"dil": "diger",
+"ozet": "2026 AiPrise için parlak bir yıl olmuştur. Şirket geçen yıl güçlü bir biçimde büyümüş ve yavaşlama belirtisi göstermemektedir. Bu çarpıcı büyümeyi neyin yönlendirdiği sorusu karşısında AiPrise CEO'su Chaitanya Sarda, büyümenin temel belirtisinin müşteri sayısının artması olduğunu ifade etmiştir."
+},
 "b01feaeba2": {
 "baslik": "Mahkeme Hindistan hukuk sisteminin en büyük sorununu erteledi: kıdemli avukat",
 "dil": "diger",
@@ -11360,6 +11431,11 @@
 "b13d25065f": {
 "dil": "tr"
 },
+"b14746ade9": {
+"baslik": "Düzenlemeleri Kasıtlı Olarak Yeniden Şekillendirmek",
+"dil": "diger",
+"ozet": "Finans Davranış Otoritesi (FCA) başkan yardımcısı Sarah Pritchard tarafından Yatırım Birliği Yıllık Akşam Yemeği 2026'da yapılan konuşma. Reform: kurallar yazmaktan daha fazlası. Bu sektörde, azami kural yapma aşamasını geçtik. Değişimin ölçeği önemli ve kasıtlı olmuştur. Ancak henüz bitmedi. Tüketicilere fayda sağlayan, rekabeti destekleyen ve büyümeyi teşvik eden bir düzenleme görmek istiyoruz."
+},
 "b14c3cdc03": {
 "baslik": "Yirmibeş Siyasi Tutuklunun Serbest Bırakılması, Belarus'tan Sınır Dışı Edilmesi",
 "dil": "diger",
@@ -11378,6 +11454,9 @@
 "dil": "tr"
 },
 "b18500a946": {
+"dil": "tr"
+},
+"b1b5a7b4f0": {
 "dil": "tr"
 },
 "b1e4321837": {
@@ -11403,6 +11482,11 @@
 "baslik": "Frontex ve üçüncü ülkeler arasında 2025 yılı işbirliği — Göç ve Göçün Dış Yönlerine İlişkin Çalışma Grubu'na sunuş, 15 Temmuz 2026",
 "dil": "diger",
 "ozet": "Frontex ve üçüncü ülkeler arasında 2025 yılı işbirliği — Göç ve Göçün Dış Yönlerine İlişkin Çalışma Grubu'na sunuş başlıklı yazı ilk olarak Statewatch'ta yayımlanmıştır."
+},
+"b259f76562": {
+"baslik": "EDRi Küresel Şifreleme Günü 2026'yı kutluyor",
+"dil": "diger",
+"ozet": "21 Ekim 2026'da Küresel Şifreleme Günü'nü kutluyoruz! EDRi'nin KISS kampanyasının bir parçası olarak, bu günü ortaklarımız, çevrim içi olarak, Brüksel'de ve farklı Avrupa başkentlerinde kutluyoruz."
 },
 "b27788f7be": {
 "baslik": "Norveç: Önerilen Egemen Servet Fonu Reformları 20 Yıldır İnsan Hakları Safeguardlarının En Büyük Gerileşmesini Temsil Edecektir",
@@ -12329,6 +12413,11 @@
 "dil": "diger",
 "ozet": "Bağımsız medya kuruluşu Mada Masr'ın genel yayın yönetmeni Lina Atallah'ın bugün Mısır'ın Yüksek Devlet Güvenlik Savcılığı (SSSP) önünde kendisine karşı açılan yeni bir ceza davasında sorgulanmak üzere hazır bulunmak üzere çağrıldığına ilişkin haberlere yanıt olarak Uluslararası Af Örgütü Bölgesel Etki Kıdemli Direktörü Yasmine Ahmed..."
 },
+"c1cb688f1d": {
+"baslik": "Yapay zeka geliştirmede açıklık: uzun vadeli bağımsızlığa giden yol",
+"dil": "diger",
+"ozet": "Bu blog yazısı, yapay zeka geliştirmedeki açıklığın insanların yapay zeka üzerindeki etkinliğini nasıl artırabileceğini ve kamu çıkarı teknolojisinin geliştirilmesini nasıl ilerletebileceğini gösteren somut girişimleri irdelemektedir."
+},
 "c1d4cfab47": {
 "baslik": "AKP, Muhalefet Baskı İddialarıyla Diğer İstanbul Belediyesinin Kontrolünü Ele Geçirdi",
 "dil": "diger",
@@ -12626,6 +12715,11 @@
 "c622500b92": {
 "dil": "tr"
 },
+"c62d8aec6e": {
+"baslik": "Türk nöroşirurjanı Gülen hareketine bağlantısı nedeniyle hapsediliyor, planlanmış ameliyatlara rağmen",
+"dil": "diger",
+"ozet": "Türk mahkemesi, Gülen hareketine bağlantısı öne sürülen nedenle bir nöroşirurjanı hapsemiştir; polis tarafından alıkonulan cerrah planlanmış ameliyatlar yapma talep etmiş olsa da bu talep reddedilmiştir. 33 yaşındaki cerrah batı Türkiye'deki bir devlet hastanesinde çalışmaktaydı."
+},
 "c6399cb268": {
 "baslik": "KU Leuven BT ve IP Hukuku Merkezi — veri koruma risk değerlendirmesi araştırması",
 "dil": "diger"
@@ -12637,6 +12731,11 @@
 },
 "c67e3d10e6": {
 "dil": "tr"
+},
+"c6837f4581": {
+"baslik": "Gülen hareketine bağlantısı öne sürülen hapsedilmiş Türk hastası bacağının amputasyonu ile karşı karşıya; aile ceza infaz duraksamasını talep ediyor",
+"dil": "diger",
+"ozet": "Gülen hareketine bağlantısı öne sürülen nedenle hapsedilen 73 yaşındaki Türk, ileri derece gangren nedeniyle hastaneye yatırılmış olup bacağının amputasyonundan geçmesi beklenmektedir. Kızı 20 Ekim'de X'te paylaştığı mesajda bu duruma işaret etmiş ve ceza infaz duraksamasının uygulanmasına yönelik çağrılar yenilemiştir."
 },
 "c6973d64a7": {
 "baslik": "Flóra Merész — Deepfake Çağında Sivil Koruma Akademik Makalesi",
@@ -12883,6 +12982,11 @@
 },
 "c9f50abe6e": {
 "dil": "tr"
+},
+"ca04d5d5e3": {
+"baslik": "Türkiye Belçika'dan Gülen hareketi bağlantılı kişilerin iadesini ve PKK'ya karşı işlem yapılmasını talep ediyor",
+"dil": "diger",
+"ozet": "Türkiye, Salı günü Brüksel'de yapılan görüşmelerde Gülen hareketine bağlantısı öne sürülen kişilerin iadesini ve hareketle ilişkili olduğunu düşündüğü kuruluşların kapatılmasını ve yasadışı Kürdistan İşçileri Partisi'nin (PKK) kapatılmasını ve karşı işlem yapılmasını Belçika'dan talep etmiştir."
 },
 "ca1183073c": {
 "dil": "tr"
@@ -13805,6 +13909,11 @@
 "baslik": "Veerle Colaert, Euroclear'da Rus varlıklarının hukuki risikleri hakkında",
 "dil": "diger"
 },
+"d7db9ee841": {
+"baslik": "Bangladeş'in Yeni Siber Hukuku ve İfade Özgürlüğü Alanının Daralmması",
+"dil": "diger",
+"ozet": "Bangladeş Anayasası'nın 39. maddesi düşünce ve vicdan özgürlüğünü ve her yurttaşın konuşma ve ifade özgürlüğünü garanti etmektedir. Ancak siyasi görüş ayrımı gözetmeksizin ardı ardına gelen hükümetler bu özgürlükleri tekrar tekrar kısıtlamış ve ifade nedeniyle yurttaşlara karşı ceza hukuku uygulamıştır."
+},
 "d7f80dee4f": {
 "dil": "tr"
 },
@@ -14203,6 +14312,11 @@
 "baslik": "Honeywell, Scribd'i hassas teknik kılavuzları yayınlamaktan dava ediyor",
 "dil": "diger",
 "ozet": "Web sitesi ayrıca ABD silah ticareti düzenlemelerine tabi Honeywell ürünlerine yönelik teknik kılavuzları yayınlamış görülmektedir."
+},
+"de1dfc9bd3": {
+"baslik": "CPJ Sudan'daki gazetecilere yönelik saldırıları besleyen uluslararası ağların rolünü vurgulayıp duyuruyor",
+"dil": "diger",
+"ozet": "New York, 21 Ekim 2026 – Gazetecileri Koruma Komitesi, Sudan'daki savaşı besleyen uluslararası ağlar hakkında 21 Ekim'de yapacağı bilgilendirme toplantısı öncesinde Tom Lantos İnsan Hakları Komisyonu'na tanıklık sunmuş, yabancı silahların, finansmanın, personelin ve lojistik desteğin silahlı aktörleri nasıl sürdürdüğünü vurgulayıp duyurmuştur."
 },
 "de1e452636": {
 "dil": "tr"
@@ -14633,6 +14747,11 @@
 },
 "e39529e2c8": {
 "dil": "tr"
+},
+"e39d235951": {
+"baslik": "Türkiye Belçika'dan Gülen hareketi bağlantılı kişilerin iadesini ve PKK'ya karşı işlem yapılmasını talep ediyor",
+"dil": "diger",
+"ozet": "Türkiye, Salı günü Brüksel'de yapılan görüşmelerde Gülen hareketine bağlantısı öne sürülen kişilerin iadesini ve hareketle ilişkili olduğunu düşündüğü kuruluşların kapatılmasını ve yasadışı Kürdistan İşçileri Partisi'nin (PKK) kapatılmasını ve karşı işlem yapılmasını Belçika'dan talep etmiştir."
 },
 "e39d49bd6c": {
 "baslik": "Bank of America Kara Para Aklamaya Karşı Denetim Başarısızlıklarından Dolayı 1,21 Milyar Dolar Cezaya Çarptırıldı",
@@ -15122,6 +15241,11 @@
 "baslik": "Sınırlar Arasında: Gözaltı Mekanları ve Koşulları (ECRE)",
 "dil": "diger",
 "ozet": ""
+},
+"e9ccc71734": {
+"baslik": "Türk basın kuruluşları sansüre karşı ülke genelinde gösteri çağrısında bulunuyor, medya baskısının artması nedeniyle",
+"dil": "diger",
+"ozet": "Türk basın örgütleri gazetecileri ve halkı, gazeteci tutuklamamaları, muhalif medyanın devlet tarafından ele geçirilmesi ve haber sitelerine ile sosyal medya hesaplarına getirilen kısıtlamalara karşı Türkiye genelinde gösteri düzenlemesi çağrısında bulunmuştur. 24 Ekim tarihinde saat 14.00'de başlanacak gösteriler, bu olayların birinci yıldönümünü işaretleyecektir."
 },
 "e9f673f0d0": {
 "baslik": "İtalyan KVK, doğrudan pazarlamaya karşı itiraz konusunda başarısız olan BBVA'ya 5.508.000 EUR ceza verdi",
@@ -15940,6 +16064,9 @@
 "dil": "diger",
 "ozet": "Türkiye Anayasa Mahkemesi, 2016'da darbe girişimine katılmakla suçlanarak 12 yıldan fazla hapis cezasına çarptırılan eski bir astsubayın adil yargılanma hakkının ihlal edildiğine karar vermiştir. Mahkeme, Serdar Uzel'in hakkının temel hakların bir parçası olarak korunan gerekçeli karar alma hakkının ihlal edildiğini..."
 },
+"f6552d0872": {
+"dil": "tr"
+},
 "f65ca9bd65": {
 "baslik": "APMSO, merkezi takas kurumlarında tokenleştirilmiş teminat kullanımına ilişkin kanıt talep ediyor",
 "dil": "diger",
@@ -16632,6 +16759,11 @@
 "baslik": "CIRÉ Konut Hizmetleri için Koordinatör/Koordinatris Alıyor",
 "dil": "diger",
 "ozet": "Yedek sözleşmeyle, yakın gelecekte kadrolu pozisyon mümkün (19/10/2026'dan itibaren görev başlangıcı). CIRÉ, Belçika'da mülteci ve yabancı kişilerin hakları için faaliyet gösteren 32 kuruluşu bir araya getiren bir koordinasyondur. Konut Hizmeti..."
+},
+"ff71d38da6": {
+"baslik": "Mali suç uyum sağlamada yapay zekanın ilerlemesini durduran altı zor gerçek",
+"dil": "diger",
+"ozet": "Mali suç uyum sağlamada yapay zeka pilot projeleri teknoloji nedeniyle başarısız olmamaktadır. Vivox AI'ye göre, sorun etkileyici bir gösterimin ve sistemin ürettiğine imza atmaya hazır bir uyum sağlama görevlisinin olması arasındaki boşlukta oluşmaktadır. Bu gerilim, Vivox AI tarafından 5 Ekim'de Dublin'deki The Shelbourne'de düzenlenen özel bir akşam yemeğinde hâkim olmuştur."
 },
 "ff7246983c": {
 "baslik": "NATO'lar Arası: İhtilaf Konusunda Üstün Kurumlar",
