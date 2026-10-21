@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-21",
- "olusturma": "2026-10-21T08:11+00:00",
+ "olusturma": "2026-10-21T09:08+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-21:Aklama soruşturmasında Murat Ağırel ve 14 kişi tutuklandı; i",
@@ -45,10 +45,10 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-21:12",
+   "id": "saglik:2026-10-21:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, CFATF…",
    "kayitlar": [],
