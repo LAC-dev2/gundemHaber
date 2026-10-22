@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-22",
- "olusturma": "2026-10-22T15:47+00:00",
+ "olusturma": "2026-10-22T20:23+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-22:Brüksel'de bakanlar düzeyinde iade görüşmesi: iltica korumas",
@@ -62,7 +62,7 @@
    "duzey": "yüksek",
    "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: ProtectDefenders.eu, FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Columbia Global Freedom of Expression, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
