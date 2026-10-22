@@ -1,17 +1,17 @@
 {
- "gun": "2026-10-21",
- "olusturma": "2026-10-21T20:26+00:00",
+ "gun": "2026-10-22",
+ "olusturma": "2026-10-22T07:07+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-21:Aklama soruşturmasında Murat Ağırel ve 14 kişi tutuklandı; i",
+   "id": "alan:2026-10-22:Brüksel'de bakanlar düzeyinde iade görüşmesi: iltica korumas",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Aklama soruşturmasında Murat Ağırel ve 14 kişi tutuklandı; ihale soruşturmasında Milas Belediye Başkanı gözaltında",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Ağırel dosyası adli kontrol aşamasından tutukluluğa geçti; tutuklananlar arasında muhalefet milletvekili Mustafa Sarıgül'ün oğlu Ömer ve eski eşi, siyasetçi Aylin Kotil de var. Aynı pencerede Milas Belediye Başkanı Fevzi Topuz, oğlu ve 27 kişi daha ihalelerde sahte yeterlik belgesi iddiasıyla gözaltına alındı. İki dosya da merkezin mali soruşturma–siyasi temsil kesişimi takibini (t92, t120) besliyor.",
+   "baslik": "Brüksel'de bakanlar düzeyinde iade görüşmesi: iltica koruması ve iade usulü tartışması",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "not": "Talep merkezin bulunduğu yargı çevresine yönelik ve yalnızca kişi iadesiyle sınırlı değil; okul ve derneklerin denetlenmesi de istenmiş. Adalet Bakanı'nın iltica korumalarının iade usulünü engellememesi gerektiği yönündeki ifadesi, merkezin takip ettiği non-refoulement ve mülteci statüsünün iade engeli işlevi tartışmasının doğrudan konusu. İmzalandığı belirtilen 2027-2028 polis işbirliği planı, veri paylaşımının hızlanmasını öngörüyor.",
    "kayitlar": [
-    "9f2fa150bd",
-    "d2b5cef667"
+    "81304436ff",
+    "8ceda097b3"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
@@ -19,38 +19,50 @@
    "id": "karar:001-252903",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Gerekçeli karar hakkı: hürriyetten yoksun bırakma mahkûmiyetinde ihlal yok, tecavüz mahkûmiyetinde md. 6/1 ihlali",
+   "baslik": "Aynı başvuruda iki mahkûmiyetin gerekçeli karar hakkı bakımından ayrıştırılması",
    "alan": "md. 6, 6-1",
-   "not": "Mahkeme oybirliğiyle, başvurucunun kişiyi hürriyetinden yoksun bırakma suçundan mahkûmiyetinde md. 6/1 ihlali bulunmadığına karar verdi; mağdurun istikrarlı beyanlarına ağırlık verilmesini keyfilik ya da açık makul dışılık saymadı. Tecavüz suçundan mahkûmiyette ise, aleyhteki ana delil olan mağdur beyanındaki değişiklikten doğan şüphenin ilk derece mahkemesince gereğince karşılanmadığını, üst mahkemelerin ve Anayasa Mahkemesi'nin bu eksikliği gidermediğini belirterek md. 6/1 ihlali saptadı (§§ 56-57). Başvurucu Rule 60 uyarınca adil tazmin talebi sunmadığından ve Nagmetov anlamında istisnai durum görülmediğinden tazminata hükmedilmedi (§ 59). Mahkeme, ihlal tespitinin başvurucunun haksız mahkûm edildiği anlamına gelmediğini vurgulayarak en uygun giderimin, talep etmesi halinde CMK md. 311 uyarınca yeniden yargılama olduğunu belirtti (§ 60).",
+   "not": "Mahkeme, hürriyetten yoksun bırakma mahkûmiyeti yönünden md. 6/1 ihlali bulmadı: mağdurun tutarlı beyanlarına savunmadan daha fazla ağırlık verilmesi gerekçe göstermeme sayılmadı, keyfilik ya da açık makul dışılık saptanmadı. Tecavüz mahkûmiyeti yönünden ise ihlal buldu; ilk derece mahkemesi aleyhteki esas delil olan mağdur beyanlarındaki değişiklikten doğan şüpheyi gereği gibi karşılamadı, üst mahkemeler de bu eksikliği gidermedi (§56-57). Başvurucu Mahkeme İç Tüzüğü md. 60 uyarınca adil tazmin talebi sunmadığından tazminata hükmedilmedi (§59); Mahkeme en uygun giderimin, başvurucunun talep etmesi hâlinde CMK md. 311 uyarınca yeniden yargılama olduğunu belirtti (§60). Karar oybirliğiyle alındı ve 20 Ekim 2026'da tebliğ edildi.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-10-21:toplu:7",
+   "id": "takip:2026-10-22:t122",
+   "tur": "dosya kapandı",
+   "duzey": "yüksek",
+   "baslik": "t122",
+   "alan": "",
+   "not": "Rapor 22 Ekim 2026'da yayımlandı: küresel internet özgürlüğü 16. yıl üst üste geriledi, 38 ülkenin 16'sında kötüleşme, 8'inde iyileşme kaydedildi. Kayıtta Türkiye'ye ilişkin puan ya da bölüm bilgisi yer almıyor; bu yönüyle ayrı bir takip maddesi açıldı.",
+   "kayitlar": [
+    "92cbfa5ddc"
+   ],
+   "neden": "İzlenen bir dosya kapandı."
+  },
+  {
+   "id": "takip:2026-10-22:toplu:7",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
    "baslik": "7 takip dosyasında hareket var",
    "alan": "",
-   "not": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Beraat kararına savcılık itirazı üzerine yeniden tutuklama: Taner Nakı; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözal; Bakırköy'ün Adalet Bakanı Akın Gürlek'in mal varlığına ilişkin 10 habe",
+   "not": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpa; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Erdoğan'ın yurt dışındaki Gülen bağlantılı okullara yönelik kampanya b; İçişleri Bakanı Çiftçi'nin Belçika'dan 'terörle mücadelede somut adıml",
    "kayitlar": [
-    "e230b3bf64",
-    "e230b3bf64",
-    "d2b5cef667",
-    "a5a6bb7020",
-    "e230b3bf64",
-    "bc47a256a3",
-    "9f2fa150bd",
-    "b4ace910c9"
+    "5517112a49",
+    "668c049906",
+    "23196a2669",
+    "c6837f4581",
+    "92cbfa5ddc",
+    "76983db168",
+    "070f1f1b93",
+    "81304436ff"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-21:20",
+   "id": "saglik:2026-10-22:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "20 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: USCIRF, Amnesty International - Türkiye, FIDH - Türkiye, Leiden Law Blog, ENNHRI, Nordic Monitor…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Leiden Law Blog, Nordic Monitor, Frontex, European Criminal Bar Association - ECBA, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
