@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-22",
- "olusturma": "2026-10-22T09:11+00:00",
+ "olusturma": "2026-10-22T09:48+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-22:Brüksel'de bakanlar düzeyinde iade görüşmesi: iltica korumas",
@@ -57,12 +57,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-22:15",
+   "id": "saglik:2026-10-22:17",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "15 kaynağın akışı hata veriyor",
+   "baslik": "17 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Opinio Juris, Leiden Law Blog, Nordic Monitor, Frontex, European Criminal Bar Association - ECBA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Opinio Juris, Leiden Law Blog, ENNHRI, Anadolu Ajansı, Nordic Monitor…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
