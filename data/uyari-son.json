@@ -1,68 +1,65 @@
 {
- "gun": "2026-10-22",
- "olusturma": "2026-10-22T20:23+00:00",
+ "gun": "2026-10-23",
+ "olusturma": "2026-10-23T07:00+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-22:Brüksel'de bakanlar düzeyinde iade görüşmesi: iltica korumas",
+   "id": "alan:2026-10-23:Almanya'dan sınır dışı edilen Tacik muhalif dönüşte 17 yıl h",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Brüksel'de bakanlar düzeyinde iade görüşmesi: iltica koruması ve iade usulü tartışması",
-   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
-   "not": "Talep merkezin bulunduğu yargı çevresine yönelik ve yalnızca kişi iadesiyle sınırlı değil; okul ve derneklerin denetlenmesi de istenmiş. Adalet Bakanı'nın iltica korumalarının iade usulünü engellememesi gerektiği yönündeki ifadesi, merkezin takip ettiği non-refoulement ve mülteci statüsünün iade engeli işlevi tartışmasının doğrudan konusu. İmzalandığı belirtilen 2027-2028 polis işbirliği planı, veri paylaşımının hızlanmasını öngörüyor.",
+   "baslik": "Almanya'dan sınır dışı edilen Tacik muhalif dönüşte 17 yıl hapis cezası aldı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "HRW'ye göre 20 Haziran'da sınır dışı edilen Asadullo Boboev 21 Eylül'de, aralarında 'internet yoluyla aşırıcılık' da bulunan üç maddeden mahkûm edildi; 2023'ten bu yana aynı ülkeye gönderilen üç muhalif de 7, 10 ve 8 yıl ceza almış. Bir AB üyesinin, somut uyarılara rağmen muhalifleri geri göndermeyi sürdürmesi, merkezin non-refoulement ve geri gönderme riski dosyalarında doğrudan karşılaştırma malzemesi.",
    "kayitlar": [
-    "81304436ff",
-    "8ceda097b3"
+    "4998d46646"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "karar:001-252890",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Hâkim olan başvurucunun HSK kararına karşı yargı yoluna başvuramaması",
+   "alan": "md. 6, 6-1",
+   "not": "İkinci Daire Komitesi, HSK Genel Kurulu'nun 1 Haziran 2022 tarihli kararına karşı yargısal denetim yolunun bulunmamasını mahkemeye erişim hakkı yönünden kabul edilebilir buldu ve oybirliğiyle md. 6/1 ihlali saptadı. Başvurucunun nakil talebinin reddine ilişkin şikâyeti ise iç hukukun 'coğrafi güvence' ya da istediği yere atanma hakkı tanımadığı gerekçesiyle Bilgen kararına atıfla konu bakımından bağdaşmaz bulunarak kabul edilemez ilan edildi. Tazminat, Gülcü ve diğerleri (37013/15 ve 42 başvuru, 23 Nisan 2024) içtihadına atıfla ek tabloda gösterilen tutar olarak hükmedildi; tutar sağlanan metinde yer almıyor. Ödeme süresi üç ay, gecikme faizi AMB marjinal kredi oranı artı üç puan.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
    "id": "karar:001-252903",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Aynı başvuruda iki mahkûmiyetin gerekçeli karar hakkı bakımından ayrıştırılması",
+   "baslik": "Tecavüz mahkûmiyetinde gerekçeli karar yükümlülüğünün yerine getirilmemesi",
    "alan": "md. 6, 6-1",
-   "not": "Mahkeme, hürriyetten yoksun bırakma mahkûmiyeti yönünden md. 6/1 ihlali bulmadı: mağdurun tutarlı beyanlarına savunmadan daha fazla ağırlık verilmesi gerekçe göstermeme sayılmadı, keyfilik ya da açık makul dışılık saptanmadı. Tecavüz mahkûmiyeti yönünden ise ihlal buldu; ilk derece mahkemesi aleyhteki esas delil olan mağdur beyanlarındaki değişiklikten doğan şüpheyi gereği gibi karşılamadı, üst mahkemeler de bu eksikliği gidermedi (§56-57). Başvurucu Mahkeme İç Tüzüğü md. 60 uyarınca adil tazmin talebi sunmadığından tazminata hükmedilmedi (§59); Mahkeme en uygun giderimin, başvurucunun talep etmesi hâlinde CMK md. 311 uyarınca yeniden yargılama olduğunu belirtti (§60). Karar oybirliğiyle alındı ve 20 Ekim 2026'da tebliğ edildi.",
+   "not": "Mahkeme, kişiyi hürriyetinden yoksun bırakma mahkûmiyeti yönünden md. 6/1 ihlali bulunmadığına; tecavüz mahkûmiyeti yönünden ise mağdurun beyanlarındaki değişiklikten doğan şüphenin gereği gibi karşılanmaması nedeniyle md. 6/1 ihlaline oybirliğiyle karar verdi. Eksikliğin üst mahkemelerce giderilmediği belirtildi. Başvurucu Mahkeme İç Tüzüğü md. 60 uyarınca adil tazmin talebi sunmadığı için Nagmetov ölçütü çerçevesinde tazminata hükmedilmedi. Mahkeme, ihlal tespitinin başvurucunun haksız mahkûm edildiği anlamına gelmediğini, en uygun giderimin talebi halinde CMK 311 uyarınca yeniden yargılama olacağını belirtti.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-10-22:t122",
-   "tur": "dosya kapandı",
-   "duzey": "yüksek",
-   "baslik": "t122",
-   "alan": "",
-   "not": "Rapor 22 Ekim 2026'da yayımlandı: küresel internet özgürlüğü 16. yıl üst üste geriledi, 38 ülkenin 16'sında kötüleşme, 8'inde iyileşme kaydedildi. Kayıtta Türkiye'ye ilişkin puan ya da bölüm bilgisi yer almıyor; bu yönüyle ayrı bir takip maddesi açıldı.",
-   "kayitlar": [
-    "92cbfa5ddc"
-   ],
-   "neden": "İzlenen bir dosya kapandı."
-  },
-  {
-   "id": "takip:2026-10-22:toplu:7",
+   "id": "takip:2026-10-23:toplu:11",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "7 takip dosyasında hareket var",
+   "baslik": "11 takip dosyasında hareket var",
    "alan": "",
-   "not": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpa; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; Erdoğan'ın yurt dışındaki Gülen bağlantılı okullara yönelik kampanya b; İçişleri Bakanı Çiftçi'nin Belçika'dan 'terörle mücadelede somut adıml",
+   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be; Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiy; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komis; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr; Freedom on the Net 2026 raporunun Türkiye bölümü ve puanı",
    "kayitlar": [
-    "5517112a49",
-    "668c049906",
-    "23196a2669",
-    "c6837f4581",
-    "92cbfa5ddc",
-    "76983db168",
-    "070f1f1b93",
-    "81304436ff"
+    "001-252890",
+    "001-253442",
+    "001-253440",
+    "c4cc075f02",
+    "8f3ef6ad1d",
+    "de7201fbee",
+    "43a9b2bcbe",
+    "9eaccac23a"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-22:14",
+   "id": "saglik:2026-10-23:16",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "14 kaynağın akışı hata veriyor",
+   "baslik": "16 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Columbia Global Freedom of Expression, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, Anadolu Ajansı, Nordic Monitor, Frontex…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

@@ -1,7 +1,23 @@
 {
- "guncelleme": "2026-10-22T07:02+00:00",
+ "guncelleme": "2026-10-23T06:54+00:00",
  "pencere_gun": 21,
  "belgeler": [
+  {
+   "itemid": "001-252890",
+   "ad": "CASE OF KÖSE v. TÜRKİYE",
+   "tur": "karar",
+   "tarih": "2026-10-22",
+   "maddeler": [
+    "6",
+    "6-1"
+   ],
+   "sonuc": "Violation of Article 6 - Right to a fair trial (Article 6 - Disciplinary proceedings;Article 6-1 - Access to court)",
+   "basvuru": "54253/22",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-252890",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 1218,
+   "giris": "(Application no. 54253/22) This judgment is final but it may be subject to editorial revision. In the case of Köse v. Türkiye,"
+  },
   {
    "itemid": "001-252903",
    "ad": "CASE OF GÜRAY GÜR v. TÜRKİYE",
@@ -52,22 +68,34 @@
    "giris": "(Application no. 17010/21) This judgment is final but it may be subject to editorial revision. In the case of Kaya v. Türkiye,"
   },
   {
-   "itemid": "001-252630",
-   "ad": "CASE OF MÜYESSER UĞUR v. TÜRKİYE",
-   "tur": "karar",
-   "tarih": "2026-10-06",
+   "itemid": "001-253442",
+   "ad": "CASE OF ÇELİK AGAINST TÜRKİYE",
+   "tur": "icra kararı",
+   "tarih": "2026-10-07",
    "maddeler": [
-    "10",
-    "10-1",
-    "10-2",
-    "41"
+    "46"
    ],
-   "sonuc": "Violation of Article 10 - Freedom of expression - {general} (Article 10-1 - Freedom of expression);Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage;Just satisfaction);Non-pecuniary damage - award (Article 41 - Non-pecuniary damage;Just satisfaction)",
-   "basvuru": "45738/22",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-252630",
+   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
+   "basvuru": "19840/21",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253442",
    "kaynak": "HUDOC / AİHM",
-   "kelime": 12564,
-   "giris": "CASE OF MÜYESSER UĞUR v. TÜRKİYE (Application no. 45738/22) Art 10 • Freedom of expression • Pre-trial detention of an investigative journalist charged with disclosing confidential information relating to the security and political interests of the State in six articles published on a news website • Lack of relevant and sufficient reasons in relation to five of the articles which did not disclose "
+   "kelime": 411,
+   "giris": "Resolution CM/ResDH(2026)252 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 7 October 2026 at the 1571st meeting of the Ministers’ Deputies)"
+  },
+  {
+   "itemid": "001-253440",
+   "ad": "CASE OF MUSTAFA AYDIN AGAINST TÜRKİYE",
+   "tur": "icra kararı",
+   "tarih": "2026-10-07",
+   "maddeler": [
+    "46"
+   ],
+   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
+   "basvuru": "6696/20",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253440",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 437,
+   "giris": "Resolution CM/ResDH(2026)251 Execution of the judgment of the European Court of Human Rights Mustafa Aydın against Türkiye"
   }
  ]
 }
