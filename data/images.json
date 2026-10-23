@@ -1307,6 +1307,10 @@
 "checked": "2026-09-29T12:02:07+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2019:10167&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-23T09:42:31+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2020:15522&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-16T13:16:06+00:00",
 "img": ""
@@ -2465,6 +2469,10 @@
 },
 "https://fra.europa.eu/en/content/fra-press-release-gaps-persist-fundamental-rights-monitoring-and-investigations-rights": {
 "checked": "2026-10-15T06:53:43+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/content/joint-factsheet-european-arrest-warrant-and-fundamental-rights-ecthr-and-cjeu-case-law": {
+"checked": "2026-10-23T09:42:31+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/content/law-enforcement-directive-data-protection-challenges-practice-embargoed": {
@@ -8507,6 +8515,10 @@
 "checked": "2026-09-16T12:52:15+00:00",
 "img": "https://www.europarl.europa.eu/news/img/meta-facebook.jpg"
 },
+"https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation": {
+"checked": "2026-10-23T09:42:31+00:00",
+"img": "https://www.europol.europa.eu/cms/sites/default/files/styles/800x/public/images/261023-Labour-Exploitation-Action-27-Arrests-248-Victims-lead.png?itok=KWHUW9Y0"
+},
 "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims": {
 "checked": "2026-10-22T09:47:47+00:00",
 "img": "https://www.europol.europa.eu/cms/sites/default/files/styles/900x/public/images/261022-EMPACT-Hackathon-lead.jpg?itok=Xp0nc8YG"
@@ -8687,6 +8699,10 @@
 "checked": "2026-09-24T13:10:17+00:00",
 "img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
 },
+"https://www.fca.org.uk/news/press-releases/fca-calls-private-market-firms-manage-conflicts-interest-line-rapid-growth": {
+"checked": "2026-10-23T09:42:31+00:00",
+"img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
+},
 "https://www.fca.org.uk/news/press-releases/fca-opens-gateway-regulated-crypto": {
 "checked": "2026-09-30T09:11:43+00:00",
 "img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
@@ -8749,6 +8765,10 @@
 },
 "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-crispin-odey-ban": {
 "checked": "2026-09-24T13:10:17+00:00",
+"img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
+},
+"https://www.fca.org.uk/news/speeches/beyond-borders-regulating-risks-we-share": {
+"checked": "2026-10-23T09:42:31+00:00",
 "img": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg"
 },
 "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai": {
