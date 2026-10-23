@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-23",
- "olusturma": "2026-10-23T09:43+00:00",
+ "olusturma": "2026-10-23T10:57+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-23:Almanya'dan sınır dışı edilen Tacik muhalif dönüşte 17 yıl h",
@@ -54,10 +54,10 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-23:12",
+   "id": "saglik:2026-10-23:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Alomaliye, ESMA…",
    "kayitlar": [],
