@@ -618,12 +618,20 @@
    "neden": "Kaftancıoğlu, dört yılı aşan ceza istemli davada söz konusu paylaşımın Cumhurbaşkanı'nın kendi sözlerine dayandığını savundu [2b435c5cd2]; başka bir dosyada iddianame üç mahkeme tarafından dört kez reddedildikten sonra değişmemiş haliyle kabul edildi [07234384e0]. İkinci husus iddianame denetiminin işleyişi bakımından izlenmeye değer.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-09-18",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "2b435c5cd2",
     "07234384e0"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-24",
+     "not": "MHP lideri Devlet Bahçeli'nin şikâyetçi olduğu dosyada gazeteciler Gözde Şeker Fırtına ve İbrahim Kahveci'nin ilk duruşması Ankara 52. Asliye Ceza Mahkemesi'nde görüldü ve esas hakkında mütalaa için 4 Kasım 2026'ya ertelendi; bir gözlemcinin salona alınmadığı, sonradan kabul edildiği bildiriliyor [8bb7ab2a7e].",
+     "kayitlar": [
+      "8bb7ab2a7e"
+     ]
+    }
+   ]
   },
   {
    "id": "t12",
@@ -826,7 +834,7 @@
    "neden": "Kayyım kararlarının bireyselleştirilmiş gerekçe taşıyıp taşımadığı, Bakanlar Komitesi'nin Uzan grubunda açık tuttuğu \"bireysel yargısal denetim olmaksızın otomatik dondurma\" başlığıyla doğrudan kesişiyor.",
    "acildi": "2026-09-20",
    "durum": "açık",
-   "son_hareket": "2026-10-20",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "34948cbe40",
     "001-252500"
@@ -852,6 +860,13 @@
      "not": "SCF, Ankara Başsavcılığı'nın talimatıyla 12 ilde 22 kişinin gözaltına alındığını ve cemaat liderinin Ağustos'tan bu yana tutuklu olduğunu bildiriyor. Sayı ve il bilgisi bir önceki brifingteki düzeyde; yeni gözaltı ya da adli aşama bilgisi yok.",
      "kayitlar": [
       "08fa98c971"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "Süleymanlılar mali suç soruşturmasının yeni aşamasında 24 şüpheliden 19'u tutuklandı, 5'i adli kontrolle serbest bırakıldı [b293452e25]. Bu, 19 Ekim'deki 12 ilde 38 gözaltı kararına ilişkin aşamadan sonraki yeni tutuklama dalgası; kayıtta kayyım atamalarına ilişkin yeni bilgi yok.",
+     "kayitlar": [
+      "b293452e25"
      ]
     }
    ]
@@ -1194,7 +1209,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-10-17",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1257,6 +1272,13 @@
      "not": "Takip maddesi Belarus ve Hong Kong dosyalarıyla açılmıştı; bugün Türkiye ayağı eklendi. OIAD, 14 Eylül'de İzmir'de bir avukatın gösteride gözaltına alındığını, 15 Eylül'de Çağlayan önünde aralarında avukatların da bulunduğu 100'den fazla kişinin gözaltına alındığını aktarıyor.",
      "kayitlar": [
       "1ea39b5e38"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "OIAD ve imzacı kuruluşlar, El Salvador'da avukat Roxana Cardona'ya yönelik tekrarlanan polis tacizine karşı koruma güvenceleri çağrısı yaptı; iki kaynak aynı gelişmeyi verdi [806ac7884e]. Türkiye dışı bir dosya ama avukatların mesleki faaliyet nedeniyle hedef alınması başlığına giriyor.",
+     "kayitlar": [
+      "806ac7884e"
      ]
     }
    ]
@@ -1796,7 +1818,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-22",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "b290622139"
    ],
@@ -1878,6 +1900,13 @@
      "kayitlar": [
       "5517112a49"
      ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "AKP, BirGün ve gazeteci Zafer Arapkirli hakkında BirGün TV'deki fon skandalı yorumları nedeniyle yeni bir dava açtı [709c7dfb1a]. Fon krizi dosyasında erişim engelinin yanına hukuk/ceza davası bileşeni ekleniyor.",
+     "kayitlar": [
+      "709c7dfb1a"
+     ]
     }
    ]
   },
@@ -1927,7 +1956,7 @@
    "neden": "Engelleme gerekçesinde 8/A'nın yanına ayrı bir ceza normunun eklenmesi, tedbirin dayanağını genişletiyor; Ankara Başsavcılığı soruşturmasının seyri izlenmeli.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-22",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "ea0b93ee21"
    ],
@@ -1976,6 +2005,13 @@
      "kayitlar": [
       "668c049906",
       "23196a2669"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "Gazeteci Fatma Sibel Gürcihan, Berat Albayrak'a ilişkin paylaşımı nedeniyle yargılandığı 'halkı yanıltıcı bilgiyi alenen yayma' ve tehdit suçlamalarından İstanbul Anadolu 78. Asliye Ceza Mahkemesi'nce ikinci duruşmada beraat etti; bir ay tutuklu kalmış, sonra yurt dışı yasağıyla serbest bırakılmıştı [8bb7ab2a7e].",
+     "kayitlar": [
+      "8bb7ab2a7e"
      ]
     }
    ]
@@ -2879,7 +2915,7 @@
    "neden": "Doluluk oranı, merkezin sağlık erişimi ve tutma koşulları dosyalarında (Boydak, ATK raporlu hükümlüler) olgusal zemin sağlıyor. Aylık serinin seyri izlenmeli.",
    "acildi": "2026-10-07",
    "durum": "açık",
-   "son_hareket": "2026-10-09",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "d024f7fb66"
    ],
@@ -2889,6 +2925,13 @@
      "not": "CPT, Türkiye'deki gözaltı ve ceza infaz kurumlarında dayak ve elektrik şoku iddialarını belgeleyen ve uzun süreli hücre tecridi ile yetersiz sağlık hizmetine dikkat çeken iki rapor yayımladı. Kayıtta yalnızca özet düzeyinde bilgi var; raporların hangi ziyaret dönemine ait olduğu belirtilmemiş.",
      "kayitlar": [
       "6ee08c8b19"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "CİSST, engelli mahpus sayısına ilişkin CİMER bilgi edinme başvurularının Adalet Bakanlığı'nca reddedilmesi üzerine 12 Haziran 2026'da Kamu Denetçiliği Kurumu'na başvurduğunu ve Ombudsmanlığın Bakanlığa tavsiyede bulunduğunu duyurdu [de451c3adc]. Tavsiyenin içeriği kayıtta başlık düzeyinde.",
+     "kayitlar": [
+      "de451c3adc"
      ]
     }
    ]
@@ -3023,7 +3066,7 @@
    "neden": "ATK'nın Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim 2026 tarihli değerlendirmeleri aynı yönde 'cezaevinde kalabilir' sonucuna varmış; infazın ertelenmesi talebinin akıbeti izlenmeli.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-22",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "a167f2a926"
    ],
@@ -3041,6 +3084,13 @@
      "kayitlar": [
       "c6837f4581"
      ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "Metris'te tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın sol bacağı diz altından kesildi; aile, enfeksiyon yayıldığı için diz üstünden ikinci bir ameliyat planlandığını bildiriyor [69bdac8d9d]. Kayda göre ATK 17 Aralık 2025'te, Tekirdağ Şehir Hastanesi kurulları 7 Mayıs ve 30 Haziran 2026'da, son muayene ise 6 Ekim 2026'da cezaevinde kalmasına engel bulunmadığı sonucuna varmıştı. Ampütasyon sonrası yeni bir sağlık değerlendirmesi başlatılıp başlatılmadığı kayıtta belirsiz.",
+     "kayitlar": [
+      "69bdac8d9d"
+     ]
     }
    ]
   },
@@ -3051,7 +3101,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-21",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -3089,6 +3139,13 @@
      "not": "Milas Belediye Başkanı Fevzi Topuz, oğlu ve toplam 29 kişi, belediyenin şirketlere ihalelere girmek için sahte yeterlik belgesi sağladığı iddiasıyla gözaltına alındı. Kayıt gözaltı aşamasında; tutuklama ya da kayyım bilgisi yok.",
      "kayitlar": [
       "d2b5cef667"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "Çukurova Belediyesi soruşturmasında Başkan Emrah Kozay, selefi Soner Çetin ve 32 kişi tutuklandı, 15 kişi serbest bırakıldı [fd3d9920fa]. 19 Ekim'de jandarma operasyonu ve gözaltı kararı olarak kaydedilen dosya tutuklama aşamasına geçti.",
+     "kayitlar": [
+      "fd3d9920fa"
      ]
     }
    ]
@@ -3344,7 +3401,7 @@
    "neden": "İki karar da Komite tarafından verildi ve kesin; Ocak'ta kişi başı 1.500 avro, Kaya'da 4.000 + 1.000 avro hükmedildi. Ödeme sürelerinin ve Bakanlar Komitesi denetiminde hangi 5/3 grubuna gireceklerinin izlenmesi gerekiyor.",
    "acildi": "2026-10-13",
    "durum": "açık",
-   "son_hareket": "2026-10-19",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "001-252739",
     "001-252752"
@@ -3380,6 +3437,14 @@
     {
      "gun": "2026-10-19",
      "not": "Karar metinleri tutarları doğruluyor: Ocak ve diğerlerinde her başvurucuya 1.500 avro (manevi tazminat ile masrafları birlikte kapsayan götürü tutar), Kaya'da 4.000 avro manevi tazminat ve 1.000 avro masraf. İki kararda da ödeme süresi üç ay.",
+     "kayitlar": [
+      "001-252739",
+      "001-252752"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "Ocak ve diğerleri ile Kaya kararlarının metinleri elde edildi: Ocak'ta 26 başvurucuya kişi başı 1.500 avro (manevi tazminat ile masraflar birlikte), Kaya'da 4.000 avro manevi tazminat ve 1.000 avro masraf; her ikisinde de üç aylık ödeme süresi [001-252739][001-252752].",
      "kayitlar": [
       "001-252739",
       "001-252752"
@@ -3468,7 +3533,7 @@
    "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-10-22",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "db2250c34a",
     "15e176aae1",
@@ -3518,6 +3583,13 @@
      "kayitlar": [
       "76983db168",
       "070f1f1b93"
+     ]
+    },
+    {
+     "gun": "2026-10-24",
+     "not": "14 Ekim'de kullanıcı adı üzerinden engellenen Halk TV'nin 2,6 milyon aboneli YouTube kanalı, bu kez kanal kimliği (UCf_ResXZzE-o18zACUEmyvQ) üzerindeki URL ile de engellendi; kanalın kullanıcı adı @Halktv-eu olarak değiştirilmişti [edb83a5877].",
+     "kayitlar": [
+      "edb83a5877"
      ]
     }
    ]
@@ -3852,11 +3924,19 @@
    "neden": "Mahkeme tazminat vermedi ve en uygun giderim olarak yeniden yargılamayı gösterdi; Bakanlar Komitesi denetiminde bireysel tedbirin tek dayanağının iç hukuk yolunun işleyişi olacağı bir örnek.",
    "acildi": "2026-10-21",
    "durum": "açık",
-   "son_hareket": "2026-10-21",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "001-252903"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-24",
+     "not": "Güray Gür kararının metni elde: tecavüz mahkûmiyetinde md. 6/1 ihlali, hürriyetten yoksun bırakma mahkûmiyetinde ihlal yok; adil tazmin talebi sunulmadığı için tazminata hükmedilmedi ve en uygun giderim CMK 311 uyarınca yeniden yargılama olarak gösterildi [001-252903].",
+     "kayitlar": [
+      "001-252903"
+     ]
+    }
+   ]
   },
   {
    "id": "t131",
@@ -3948,11 +4028,20 @@
    "neden": "Karar metni tutarı ek tabloya bırakıyor; tutar ve ödeme süresi doğrulanmalı. HSK kararlarının yargı denetimine kapalı olması Bilgen/Gülcü hattında süregelen bir genel tedbir sorunu olduğundan dosyanın hangi Bakanlar Komitesi grubuna gireceği izlenmeli.",
    "acildi": "2026-10-23",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "001-252890"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-24",
+     "not": "Köse kararının metni birincil belge olarak elde: ihlal md. 6/1 (mahkemeye erişim), HSK'nın 1 Haziran 2022 tarihli kararı, üç aylık ödeme süresi ve ek tabloda belirtilen manevi tazminat [001-252890]. Haber kaydı tutarı 2.000 avro olarak veriyor; karar metninde tutar ek tabloya bırakılmış, metinde rakam geçmiyor [fd8985ece2].",
+     "kayitlar": [
+      "001-252890",
+      "fd8985ece2"
+     ]
+    }
+   ]
   },
   {
    "id": "t137",
@@ -3987,14 +4076,75 @@
    "neden": "Çelik ve Mustafa Aydın dosyalarında bireysel tedbir sorunu çözülmüş sayılırken genel tedbirler ayrı gruplarda açık tutuldu; Mustafa Aydın'da yeniden yargılama beraatle sonuçlandı. Yeniden yargılamaya bağlanan giderim tartışmasında (CMK 311) Bakanlar Komitesi pratiğini göstermesi bakımından izlenmeli.",
    "acildi": "2026-10-23",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-10-24",
    "kayitlar": [
     "001-253442",
     "001-253440"
    ],
+   "gelismeler": [
+    {
+     "gun": "2026-10-24",
+     "not": "Mustafa Aydın (6696/20) ve Çelik (19840/21) icra kararlarının metinleri elde: Aydın'da başvurucu yeniden yargılamada beraat ettiği için bireysel tedbir sorunu çözülmüş sayıldı, genel tedbirler Deryan grubunda; Çelik'te iç yargılama sona erdiği için dosya kapatıldı, genel tedbirler Ayvaz grubunda sürüyor [001-253440][001-253442].",
+     "kayitlar": [
+      "001-253440",
+      "001-253442"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t140",
+   "baslik": "Hacettepe Üniversitesi öğrencisi Hasan Basri Usta'nın polis olduğunu söylediği kişilerce kaçırılma, işkence ve muhbirliğe zorlanma beyanı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Beyan, gözaltı dışı yöntemlerle bilgi toplama ve muhbirleştirme iddiasına ilişkin; savcılık soruşturması açılıp açılmayacağı ve ATK/adli muayene adımları izlenmeli.",
+   "acildi": "2026-10-24",
+   "durum": "açık",
+   "son_hareket": "2026-10-24",
+   "kayitlar": [
+    "3a5714d75c"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t141",
+   "baslik": "Siber Güvenlik Başkanlığı'nın 23 Ekim 2026 tarihli kararıyla WordPress/Jetpack CDN alt alan adı i0.wp.com'un engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Engelin tek bir içeriği değil, çok sayıda sitenin görsel dağıtım altyapısını hedeflemesi ölçülülük bakımından ayrı bir soru üretiyor; kararın kaldırılıp kaldırılmayacağı izlenmeli.",
+   "acildi": "2026-10-24",
+   "durum": "açık",
+   "son_hareket": "2026-10-24",
+   "kayitlar": [
+    "b637ea5a8e"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t142",
+   "baslik": "FRA'nın Avrupa Tutuklama Müzekkeresi ve temel haklar konulu AİHM–ABAD içtihat ortak bilgi notu",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "EAW dosyalarında temel hak itirazlarının nasıl çerçeveleneceğine ilişkin kurumsal derleme; merkezin iade ve teslim dosyalarında referans belge olabilir. Kayıtta yalnızca belge künyesi var.",
+   "acildi": "2026-10-24",
+   "durum": "açık",
+   "son_hareket": "2026-10-24",
+   "kayitlar": [
+    "c353aa5f7d"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t143",
+   "baslik": "Çukurova Belediyesi soruşturmasında tutuklanan 34 kişinin ve serbest bırakılan 15 kişinin dosya seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Belediye başkanı ve selefinin birlikte tutuklanması, kayyım atanıp atanmayacağı sorusunu doğuruyor; t92 kapsamındaki tutuklu belediye başkanı sayısını etkiliyor.",
+   "acildi": "2026-10-24",
+   "durum": "açık",
+   "son_hareket": "2026-10-24",
+   "kayitlar": [
+    "fd3d9920fa"
+   ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-23T07:00+00:00",
- "acik": 137
+ "guncelleme": "2026-10-24T06:54+00:00",
+ "acik": 141
 }

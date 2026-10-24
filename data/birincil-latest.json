@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-10-23T06:54+00:00",
+ "guncelleme": "2026-10-24T06:50+00:00",
  "pencere_gun": 21,
  "belgeler": [
   {
@@ -68,21 +68,6 @@
    "giris": "(Application no. 17010/21) This judgment is final but it may be subject to editorial revision. In the case of Kaya v. Türkiye,"
   },
   {
-   "itemid": "001-253442",
-   "ad": "CASE OF ÇELİK AGAINST TÜRKİYE",
-   "tur": "icra kararı",
-   "tarih": "2026-10-07",
-   "maddeler": [
-    "46"
-   ],
-   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
-   "basvuru": "19840/21",
-   "url": "https://hudoc.echr.coe.int/eng?i=001-253442",
-   "kaynak": "HUDOC / AİHM",
-   "kelime": 411,
-   "giris": "Resolution CM/ResDH(2026)252 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 7 October 2026 at the 1571st meeting of the Ministers’ Deputies)"
-  },
-  {
    "itemid": "001-253440",
    "ad": "CASE OF MUSTAFA AYDIN AGAINST TÜRKİYE",
    "tur": "icra kararı",
@@ -96,6 +81,21 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 437,
    "giris": "Resolution CM/ResDH(2026)251 Execution of the judgment of the European Court of Human Rights Mustafa Aydın against Türkiye"
+  },
+  {
+   "itemid": "001-253442",
+   "ad": "CASE OF ÇELİK AGAINST TÜRKİYE",
+   "tur": "icra kararı",
+   "tarih": "2026-10-07",
+   "maddeler": [
+    "46"
+   ],
+   "sonuc": "Information given by the government concerning measures taken to prevent new violations. Payment of the sums provided for in the judgment",
+   "basvuru": "19840/21",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-253442",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 411,
+   "giris": "Resolution CM/ResDH(2026)252 Execution of the judgment of the European Court of Human Rights (Adopted by the Committee of Ministers on 7 October 2026 at the 1571st meeting of the Ministers’ Deputies)"
   }
  ]
 }
