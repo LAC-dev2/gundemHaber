@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-24",
- "olusturma": "2026-10-24T06:54+00:00",
+ "olusturma": "2026-10-24T07:48+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-24:Süleymanlılar soruşturmasında 19 tutuklama; Çukurova Belediy",
@@ -45,10 +45,10 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-24:13",
+   "id": "saglik:2026-10-24:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "13 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Nordic Monitor, Frontex, Alomaliye, ESMA…",
    "kayitlar": [],
