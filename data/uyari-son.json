@@ -1,56 +1,14 @@
 {
- "gun": "2026-10-24",
- "olusturma": "2026-10-24T19:11+00:00",
+ "gun": "2026-10-25",
+ "olusturma": "2026-10-25T07:20+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-24:Süleymanlılar soruşturmasında 19 tutuklama; Çukurova Belediy",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Süleymanlılar soruşturmasında 19 tutuklama; Çukurova Belediyesi'nde başkan dahil 34 tutuklama",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "İki ayrı dosya aynı gün tutuklama aşamasına geçti: Süleymanlılar mali suç soruşturmasında 24 şüpheliden 19'u tutuklandı, 5'i adli kontrolle serbest; Çukurova'da Başkan Emrah Kozay, selefi Soner Çetin ve 32 kişi tutuklandı, 15 kişi serbest bırakıldı. Her iki dosya da merkezin kayyım/malvarlığı izleme başlıklarına bağlı.",
-   "kayitlar": [
-    "b293452e25",
-    "fd3d9920fa"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "karar:001-252890",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "HSK'nın disiplin uyarısına karşı yargı yolunun bulunmaması nedeniyle hâkimin mahkemeye erişim hakkının ihlali",
-   "alan": "md. 6, 6-1",
-   "not": "Mahkeme oybirliğiyle, HSK'nın 1 Haziran 2022 tarihli kararına karşı yargı yoluna başvurulamamasının md. 6/1 kapsamında mahkemeye erişim hakkını ihlal ettiğine karar verdi; başvurunun geri kalanını kabul edilemez buldu. Başvurucunun aile nedenleriyle naklinin reddine ilişkin şikâyeti, iç hukukun hâkime 'coğrafi güvence' ya da istediği yere atanma hakkı tanımadığı gerekçesiyle Bilgen'e atıfla konu bakımından bağdaşmaz (md. 35/3(a)) sayıldı. Md. 41 bakımından Gülcü ve Diğerleri'ne atıfla ek tabloda gösterilen tutara hükmedildi; tutar karar metninde değil ek tabloda. Ödeme süresi üç ay, gecikme faizi AMB marjinal kredi oranı artı üç puan.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-10-24:toplu:13",
-   "tur": "izlenen dosyada hareket",
-   "duzey": "orta",
-   "baslik": "13 takip dosyasında hareket var",
-   "alan": "",
-   "not": "Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpa; Köse v. Türkiye (54253/22) kararının icrası: ek tablodaki tazminat tut; Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve ; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Güray Gür v. Türkiye (33372/19) kararının icrası: adil tazmin talebi s; Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararla; 7 Ekim 2026 tarihli iki kapatma kararı: Ayvaz ve Deryan gruplarında ge; Siyasetçi ve gazetecilere yönelik hakaret/eleştiri davaları: Kaftancıo; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar",
-   "kayitlar": [
-    "69bdac8d9d",
-    "001-252890",
-    "fd8985ece2",
-    "b293452e25",
-    "fd3d9920fa",
-    "edb83a5877",
-    "709c7dfb1a",
-    "001-252903"
-   ],
-   "neden": "Takip listesindeki dosyalarda bugün hareket var."
-  },
-  {
-   "id": "saglik:2026-10-24:12",
+   "id": "saglik:2026-10-25:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Nordic Monitor, Frontex, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Frontex, Alomaliye, ESMA, AML Intelligence…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

@@ -1,233 +1,6 @@
 {
  "sureklilik": [
   {
-   "id": "t91",
-   "durum": "hareket var",
-   "not": "Metris'te tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın sol bacağı diz altından kesildi; aile, enfeksiyon yayıldığı için diz üstünden ikinci bir ameliyat planlandığını bildiriyor [69bdac8d9d]. Kayda göre ATK 17 Aralık 2025'te, Tekirdağ Şehir Hastanesi kurulları 7 Mayıs ve 30 Haziran 2026'da, son muayene ise 6 Ekim 2026'da cezaevinde kalmasına engel bulunmadığı sonucuna varmıştı. Ampütasyon sonrası yeni bir sağlık değerlendirmesi başlatılıp başlatılmadığı kayıtta belirsiz.",
-   "kayitlar": [
-    "69bdac8d9d"
-   ]
-  },
-  {
-   "id": "t136",
-   "durum": "hareket var",
-   "not": "Köse kararının metni birincil belge olarak elde: ihlal md. 6/1 (mahkemeye erişim), HSK'nın 1 Haziran 2022 tarihli kararı, üç aylık ödeme süresi ve ek tabloda belirtilen manevi tazminat [001-252890]. Haber kaydı tutarı 2.000 avro olarak veriyor; karar metninde tutar ek tabloya bırakılmış, metinde rakam geçmiyor [fd8985ece2].",
-   "kayitlar": [
-    "001-252890",
-    "fd8985ece2"
-   ]
-  },
-  {
-   "id": "t19",
-   "durum": "hareket var",
-   "not": "Süleymanlılar mali suç soruşturmasının yeni aşamasında 24 şüpheliden 19'u tutuklandı, 5'i adli kontrolle serbest bırakıldı [b293452e25]. Bu, 19 Ekim'deki 12 ilde 38 gözaltı kararına ilişkin aşamadan sonraki yeni tutuklama dalgası; kayıtta kayyım atamalarına ilişkin yeni bilgi yok.",
-   "kayitlar": [
-    "b293452e25"
-   ]
-  },
-  {
-   "id": "t92",
-   "durum": "hareket var",
-   "not": "Çukurova Belediyesi soruşturmasında Başkan Emrah Kozay, selefi Soner Çetin ve 32 kişi tutuklandı, 15 kişi serbest bırakıldı [fd3d9920fa]. 19 Ekim'de jandarma operasyonu ve gözaltı kararı olarak kaydedilen dosya tutuklama aşamasına geçti.",
-   "kayitlar": [
-    "fd3d9920fa"
-   ]
-  },
-  {
-   "id": "t109",
-   "durum": "hareket var",
-   "not": "14 Ekim'de kullanıcı adı üzerinden engellenen Halk TV'nin 2,6 milyon aboneli YouTube kanalı, bu kez kanal kimliği (UCf_ResXZzE-o18zACUEmyvQ) üzerindeki URL ile de engellendi; kanalın kullanıcı adı @Halktv-eu olarak değiştirilmişti [edb83a5877].",
-   "kayitlar": [
-    "edb83a5877"
-   ]
-  },
-  {
-   "id": "t42",
-   "durum": "hareket var",
-   "not": "AKP, BirGün ve gazeteci Zafer Arapkirli hakkında BirGün TV'deki fon skandalı yorumları nedeniyle yeni bir dava açtı [709c7dfb1a]. Fon krizi dosyasında erişim engelinin yanına hukuk/ceza davası bileşeni ekleniyor.",
-   "kayitlar": [
-    "709c7dfb1a"
-   ]
-  },
-  {
-   "id": "t130",
-   "durum": "hareket var",
-   "not": "Güray Gür kararının metni elde: tecavüz mahkûmiyetinde md. 6/1 ihlali, hürriyetten yoksun bırakma mahkûmiyetinde ihlal yok; adil tazmin talebi sunulmadığı için tazminata hükmedilmedi ve en uygun giderim CMK 311 uyarınca yeniden yargılama olarak gösterildi [001-252903].",
-   "kayitlar": [
-    "001-252903"
-   ]
-  },
-  {
-   "id": "t103",
-   "durum": "hareket var",
-   "not": "Ocak ve diğerleri ile Kaya kararlarının metinleri elde edildi: Ocak'ta 26 başvurucuya kişi başı 1.500 avro (manevi tazminat ile masraflar birlikte), Kaya'da 4.000 avro manevi tazminat ve 1.000 avro masraf; her ikisinde de üç aylık ödeme süresi [001-252739][001-252752].",
-   "kayitlar": [
-    "001-252739",
-    "001-252752"
-   ]
-  },
-  {
-   "id": "t139",
-   "durum": "hareket var",
-   "not": "Mustafa Aydın (6696/20) ve Çelik (19840/21) icra kararlarının metinleri elde: Aydın'da başvurucu yeniden yargılamada beraat ettiği için bireysel tedbir sorunu çözülmüş sayıldı, genel tedbirler Deryan grubunda; Çelik'te iç yargılama sona erdiği için dosya kapatıldı, genel tedbirler Ayvaz grubunda sürüyor [001-253440][001-253442].",
-   "kayitlar": [
-    "001-253440",
-    "001-253442"
-   ]
-  },
-  {
-   "id": "t33",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t47",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t34",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t96",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t133",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t137",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t138",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t3",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t6",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t24",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t132",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t131",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t94",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t126",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t128",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t129",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t102",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t120",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t12",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t11",
-   "durum": "hareket var",
-   "not": "MHP lideri Devlet Bahçeli'nin şikâyetçi olduğu dosyada gazeteciler Gözde Şeker Fırtına ve İbrahim Kahveci'nin ilk duruşması Ankara 52. Asliye Ceza Mahkemesi'nde görüldü ve esas hakkında mütalaa için 4 Kasım 2026'ya ertelendi; bir gözlemcinin salona alınmadığı, sonradan kabul edildiği bildiriliyor [8bb7ab2a7e].",
-   "kayitlar": [
-    "8bb7ab2a7e"
-   ]
-  },
-  {
-   "id": "t46",
-   "durum": "hareket var",
-   "not": "Gazeteci Fatma Sibel Gürcihan, Berat Albayrak'a ilişkin paylaşımı nedeniyle yargılandığı 'halkı yanıltıcı bilgiyi alenen yayma' ve tehdit suçlamalarından İstanbul Anadolu 78. Asliye Ceza Mahkemesi'nce ikinci duruşmada beraat etti; bir ay tutuklu kalmış, sonra yurt dışı yasağıyla serbest bırakılmıştı [8bb7ab2a7e].",
-   "kayitlar": [
-    "8bb7ab2a7e"
-   ]
-  },
-  {
-   "id": "t83",
-   "durum": "hareket var",
-   "not": "CİSST, engelli mahpus sayısına ilişkin CİMER bilgi edinme başvurularının Adalet Bakanlığı'nca reddedilmesi üzerine 12 Haziran 2026'da Kamu Denetçiliği Kurumu'na başvurduğunu ve Ombudsmanlığın Bakanlığa tavsiyede bulunduğunu duyurdu [de451c3adc]. Tavsiyenin içeriği kayıtta başlık düzeyinde.",
-   "kayitlar": [
-    "de451c3adc"
-   ]
-  },
-  {
-   "id": "t31",
-   "durum": "hareket var",
-   "not": "OIAD ve imzacı kuruluşlar, El Salvador'da avukat Roxana Cardona'ya yönelik tekrarlanan polis tacizine karşı koruma güvenceleri çağrısı yaptı; iki kaynak aynı gelişmeyi verdi [806ac7884e]. Türkiye dışı bir dosya ama avukatların mesleki faaliyet nedeniyle hedef alınması başlığına giriyor.",
-   "kayitlar": [
-    "806ac7884e"
-   ]
-  },
-  {
-   "id": "t9",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t1",
    "durum": "hareket yok",
    "not": "",
@@ -235,6 +8,12 @@
   },
   {
    "id": "t2",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t3",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -252,6 +31,12 @@
    "kayitlar": []
   },
   {
+   "id": "t6",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t7",
    "durum": "hareket yok",
    "not": "",
@@ -264,7 +49,25 @@
    "kayitlar": []
   },
   {
+   "id": "t9",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t10",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t11",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t12",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -306,6 +109,12 @@
    "kayitlar": []
   },
   {
+   "id": "t19",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t20",
    "durum": "hareket yok",
    "not": "",
@@ -325,6 +134,12 @@
   },
   {
    "id": "t23",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t24",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -360,7 +175,25 @@
    "kayitlar": []
   },
   {
+   "id": "t31",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t32",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t33",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t34",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -408,6 +241,12 @@
    "kayitlar": []
   },
   {
+   "id": "t42",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t43",
    "durum": "hareket yok",
    "not": "",
@@ -421,6 +260,18 @@
   },
   {
    "id": "t45",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t46",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t47",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -636,6 +487,12 @@
    "kayitlar": []
   },
   {
+   "id": "t83",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t84",
    "durum": "hareket yok",
    "not": "",
@@ -678,13 +535,37 @@
    "kayitlar": []
   },
   {
+   "id": "t91",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t92",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t93",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
+   "id": "t94",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t96",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -720,6 +601,18 @@
    "kayitlar": []
   },
   {
+   "id": "t102",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t103",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t104",
    "durum": "hareket yok",
    "not": "",
@@ -745,6 +638,12 @@
   },
   {
    "id": "t108",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t109",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -810,6 +709,12 @@
    "kayitlar": []
   },
   {
+   "id": "t120",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t121",
    "durum": "hareket yok",
    "not": "",
@@ -834,7 +739,49 @@
    "kayitlar": []
   },
   {
+   "id": "t126",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t127",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t128",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t129",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t130",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t131",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t132",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t133",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -850,373 +797,144 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t136",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t137",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t138",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t139",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t140",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t141",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t142",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t143",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Hacettepe Üniversitesi öğrencisi Hasan Basri Usta'nın polis olduğunu söylediği kişilerce kaçırılma, işkence ve muhbirliğe zorlanma beyanı",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Beyan, gözaltı dışı yöntemlerle bilgi toplama ve muhbirleştirme iddiasına ilişkin; savcılık soruşturması açılıp açılmayacağı ve ATK/adli muayene adımları izlenmeli.",
+   "baslik": "AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan Komisyon önerisi ve buna dayanak yapılan 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışması",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "neden": "Statewatch, hazırlanan önerinin kişisel veri güvencelerini azaltıp gözetimi genişleteceğini bildiriyor; merkezin geri gönderme, veri paylaşımı ve non-refoulement dosyalarında doğrudan etkisi olabilecek bir mevzuat adımı. Şu an yalnızca başlık ve özet düzeyinde bilgi var, önerinin metni ve takvimi izlenmeli.",
    "kayitlar": [
-    "3a5714d75c"
-   ]
-  },
-  {
-   "baslik": "Siber Güvenlik Başkanlığı'nın 23 Ekim 2026 tarihli kararıyla WordPress/Jetpack CDN alt alan adı i0.wp.com'un engellenmesi",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Engelin tek bir içeriği değil, çok sayıda sitenin görsel dağıtım altyapısını hedeflemesi ölçülülük bakımından ayrı bir soru üretiyor; kararın kaldırılıp kaldırılmayacağı izlenmeli.",
-   "kayitlar": [
-    "b637ea5a8e"
-   ]
-  },
-  {
-   "baslik": "FRA'nın Avrupa Tutuklama Müzekkeresi ve temel haklar konulu AİHM–ABAD içtihat ortak bilgi notu",
-   "alan": "İade, adli yardım ve iltica",
-   "neden": "EAW dosyalarında temel hak itirazlarının nasıl çerçeveleneceğine ilişkin kurumsal derleme; merkezin iade ve teslim dosyalarında referans belge olabilir. Kayıtta yalnızca belge künyesi var.",
-   "kayitlar": [
-    "c353aa5f7d"
-   ]
-  },
-  {
-   "baslik": "Çukurova Belediyesi soruşturmasında tutuklanan 34 kişinin ve serbest bırakılan 15 kişinin dosya seyri",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden": "Belediye başkanı ve selefinin birlikte tutuklanması, kayyım atanıp atanmayacağı sorusunu doğuruyor; t92 kapsamındaki tutuklu belediye başkanı sayısını etkiliyor.",
-   "kayitlar": [
-    "fd3d9920fa"
+    "557f648b38",
+    "f23dbe3944"
    ]
   }
  ],
- "birincil_notlar": [
-  {
-   "itemid": "001-252890",
-   "baslik": "HSK'nın disiplin uyarısına karşı yargı yolunun bulunmaması nedeniyle hâkimin mahkemeye erişim hakkının ihlali",
-   "maddeler": [
-    "6",
-    "6-1"
-   ],
-   "ne_dedi": "Mahkeme oybirliğiyle, HSK'nın 1 Haziran 2022 tarihli kararına karşı yargı yoluna başvurulamamasının md. 6/1 kapsamında mahkemeye erişim hakkını ihlal ettiğine karar verdi; başvurunun geri kalanını kabul edilemez buldu. Başvurucunun aile nedenleriyle naklinin reddine ilişkin şikâyeti, iç hukukun hâkime 'coğrafi güvence' ya da istediği yere atanma hakkı tanımadığı gerekçesiyle Bilgen'e atıfla konu bakımından bağdaşmaz (md. 35/3(a)) sayıldı. Md. 41 bakımından Gülcü ve Diğerleri'ne atıfla ek tabloda gösterilen tutara hükmedildi; tutar karar metninde değil ek tabloda. Ödeme süresi üç ay, gecikme faizi AMB marjinal kredi oranı artı üç puan.",
-   "merkez_icin": "HSK kararlarına karşı yargı yolunun kapalılığı, hâkim–savcı ihraç ve disiplin dosyalarında mahkemeye erişim argümanı için komite kararı düzeyinde güncel bir dayanak sağlıyor. Nakil taleplerinin md. 6 kapsamı dışında tutulması, bu tür şikâyetlerin ayrı değerlendirilmesi gerektiğini gösteriyor.",
-   "haberle_fark": "SCF kaydı tazminatı 2.000 avro olarak veriyor ve Mahkeme'nin disiplin kararlarının yargı denetimi dışında bırakılmasının 'meşru bir amaca hizmet etmediğini' söylediğini aktarıyor [fd8985ece2]; eldeki karar metninde tutar ek tabloya bırakılmış, bu gerekçe cümlesi ise metnin atlanan bölümlerinde kalıyor — tutar metinden doğrulanamıyor."
-  },
-  {
-   "itemid": "001-252903",
-   "baslik": "Tecavüz mahkûmiyetinde gerekçeli karar yükümlülüğünün yerine getirilmemesi",
-   "maddeler": [
-    "6",
-    "6-1"
-   ],
-   "ne_dedi": "Mahkeme oybirliğiyle, hürriyetten yoksun bırakma mahkûmiyeti bakımından md. 6/1'in ihlal edilmediğine; tecavüz mahkûmiyeti bakımından ise ihlal edildiğine karar verdi. Gerekçe, ilk derece mahkemesinin aleyhteki ana delil olan mağdur beyanlarındaki değişiklikten doğan kuşkuyu gereğince karşılamaması ve bu eksikliğin üst mahkemelerce giderilmemesi. Başvurucu Rule 60 uyarınca adil tazmin talebi sunmadığı için Nagmetov ölçütlerinde istisnai durum görülmedi ve tazminata hükmedilmedi; Mahkeme en uygun giderimin, başvurucu talep ederse CMK md. 311 uyarınca yeniden yargılama olduğunu belirtti.",
-   "merkez_icin": "Gerekçeli karar hakkı ihlallerinde giderimin tazminat yerine yeniden yargılamaya bağlanması, Deryan grubundaki genel tedbir denetimiyle doğrudan ilişkili. Ayrıca ihlal bulgusunun mahkûmiyetin yanlış olduğu anlamına gelmediği açıkça yazılmış.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-252739",
-   "baslik": "Yirmi altı başvuruda tutukluluğun ilgili ve yeterli gerekçeye dayanmaması",
-   "maddeler": [
-    "5",
-    "5-3"
-   ],
-   "ne_dedi": "Mahkeme oybirliğiyle, tutuklama ve uzatma kararlarında yeterli gerekçe bulunmaması nedeniyle md. 5/3'ün ihlal edildiğine karar verdi; md. 5/1(c) şikâyetlerinin ayrıca esastan incelenmesine gerek görmedi. Turan ve Diğerleri'ne atıfla ve tutukluluğun önceki benzer dosyalara göre görece kısa sürdüğü gözetilerek maddi tazminat talepleri reddedildi. Her bir başvurucuya manevi tazminat ile masrafları birlikte kapsayan 1.500 avro ödenmesine, üç ay içinde, hükmedildi.",
-   "merkez_icin": "Toplu md. 5/3 kararlarında Turan çizgisinin ve kişi başı 1.500 avroluk toplu tutarın sürdüğünü doğruluyor; Bakanlar Komitesi'ndeki md. 5 gruplarına girecek dosya sayısını artırıyor.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-252752",
-   "baslik": "Diyarbakır'da bir başvurucunun tutukluluğunda md. 5/1 ve 5/3 ihlali",
-   "maddeler": [
-    "5",
-    "5-1",
-    "5-3"
-   ],
-   "ne_dedi": "Mahkeme oybirliğiyle md. 5/1 ve 5/3'ün ihlal edildiğine karar verdi; md. 5/4 şikâyetlerini kabul edilemez buldu ve md. 18'i ayrıca incelemeye gerek görmedi. Maddi tazminat talebiyle ihlal arasında nedensellik bağı görülmedi; hakkaniyete dayanarak 4.000 avro manevi tazminat ve 1.000 avro masraf ödenmesine hükmedildi, ödeme süresi kararın kesinleşmesinden itibaren üç ay.",
-   "merkez_icin": "Toplu komite kararlarındaki 1.500 avroluk standart tutara karşılık bireysel dosyada 4.000 avro + 1.000 avro masraf verilmesi, tazminat düzeyinin dosya türüne göre ayrıştığını gösteriyor. Md. 18 şikâyetinin ayrıca incelenmemesi kalıbı sürüyor.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-253440",
-   "baslik": "Mustafa Aydın kararının icrasının kapatılması; genel tedbirlerin Deryan grubunda sürmesi",
-   "maddeler": [
-    "46"
-   ],
-   "ne_dedi": "Bakanlar Komitesi 7 Ekim 2026 tarihli 1571. toplantısında, başvurucunun yeniden açılan iç yargılamada beraat etmesi nedeniyle bireysel tedbir sorununun çözüldüğü sonucuna vardı ve dosyanın incelenmesini kapattı. Mahkeme kararlarında ilgili ve yeterli gerekçe bulunmamasına ilişkin genel tedbirlerin Deryan v. Turkey (41721/04) grubu çerçevesinde incelenmeye devam edeceği, kapatmanın bu değerlendirmeye halel getirmediği belirtildi. Adil tazminin ödendiği, hükümetin eylem raporuna (DH-DD(2026)589) dayanılarak kaydedildi.",
-   "merkez_icin": "Yeniden yargılama sonucu beraatin bireysel tedbir açısından yeterli sayılması, gerekçeli karar ihlallerinde CMK 311 yolunun Komite nezdinde kabul gördüğünü gösteriyor; Güray Gür dosyasının izleyeceği yolla aynı çerçeve.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-253442",
-   "baslik": "Çelik kararının icrasının kapatılması; yargılama süresine ilişkin genel tedbirlerin Ayvaz grubunda sürmesi",
-   "maddeler": [
-    "46"
-   ],
-   "ne_dedi": "Komite, 7 Ekim 2026 tarihli 1571. toplantısında, iç yargılamanın sona ermesi nedeniyle bireysel tedbir sorununun çözüldüğünü saptayarak dosyayı kapattı. Yargılama süresinin aşırı uzunluğuna, özellikle Anayasa Mahkemesi önündeki sürelere ilişkin genel tedbirlerin Ayvaz grubunda incelenmeye devam edeceği kaydedildi. Adil tazminin ödendiği DH-DD(2025)952 sayılı eylem raporuna dayanılarak belirtildi.",
-   "merkez_icin": "AYM önündeki yargılama sürelerinin genel tedbir olarak hâlâ açık tutulması, bireysel başvuru yolunun etkililiğine ilişkin tartışmada Komite düzeyinde dayanak sağlıyor.",
-   "haberle_fark": ""
-  }
- ],
- "baslik": "Metris'te tutulan Abdullah Tırpan'ın bacağı, dört 'cezaevinde kalabilir' raporunun ardından kesildi",
- "brifing": "Pencerenin en ağır gelişmesi, hakkında 17 Aralık 2025'ten 6 Ekim 2026'ya kadar dört kez 'cezaevinde kalabilir' değerlendirmesi yapılan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın sol bacağının diz altından kesilmesi; aile, enfeksiyon yayıldığı için ikinci ameliyat planlandığını bildiriyor [69bdac8d9d]. AİHM cephesinde yeni karar yok ama altı birincil belge elimize geçti: Köse, Güray Gür, Ocak ve Diğerleri, Kaya kararlarının metinleri ile Mustafa Aydın ve Çelik dosyalarına ilişkin 7 Ekim 2026 tarihli iki Bakanlar Komitesi kapatma kararı [001-252890][001-252903][001-252739][001-252752][001-253440][001-253442]. Köse'de haber kaydı 2.000 avro veriyor, karar metninde tutar ek tabloya bırakılmış; tek rakama indirmiyoruz [fd8985ece2][001-252890]. Süleymanlılar dosyasında 19 yeni tutuklama, Çukurova Belediyesi dosyasında başkan dahil 34 tutuklama kaydedildi [b293452e25][fd3d9920fa]. İfade özgürlüğü tarafında Halk TV'nin YouTube kanalına ikinci bir engel, WordPress/Jetpack CDN alt alan adına engel ve AKP'nin BirGün'e karşı yeni davası var [edb83a5877][b637ea5a8e][709c7dfb1a].",
+ "birincil_notlar": [],
+ "baslik": "AB sınır dışı sisteminin dijitalleştirilmesi önerisi: Statewatch veri güvencelerinin daraltılacağını bildiriyor",
+ "brifing": "Pencereye giren dört kayıttan yalnızca ikisi merkezin çalışma alanlarına değiyor: Statewatch'un AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan öneriye ve buna eşlik eden 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışmasına dair iki notu [557f648b38, f23dbe3944]. Her ikisi de başlık ve kısa özet düzeyinde; önerinin metni, hukuki dayanağı ve takvimi kayıtlarda yok. Türkiye kaynaklı çekirdek dosyalarda (Tırpan sağlık dosyası, Köse icrası, Halk TV engelleri, Süleymanlılar ve Çukurova soruşturmaları) bu pencerede yeni kayıt gelmedi; sayılar önceki brifingteki düzeyinde. Resmî Gazete'nin 25 Ekim tarihli 33411 sayılı nüshasında merkezin alanlarına giren bir düzenleme görünmüyor [1f4f547075]. Gün zayıf olduğu için cezaevi doluluğu ve mahpus sağlığı dosyası (t83) derinleştirildi.",
  "one_cikanlar": [
   {
-   "baslik": "Abdullah Tırpan'ın bacağı kesildi: dört 'cezaevinde kalabilir' raporunun ardından ampütasyon",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "Dosya, sağlık nedeniyle infazın ertelenmemesinin somut sonucunu belgeliyor; merkezin cezaevinde sağlık erişimi ve ATK raporlarının güvenilirliği argümanına doğrudan veri sağlıyor. Son değerlendirme ampütasyondan üç haftadan kısa süre önce yapılmış. Aile infazın ertelenmesini talep etmeye devam ediyor.",
-   "yenilik": "22 Ekim'de 'bacağının kesileceğinin bildirilmesi' olarak kaydedilen durum gerçekleşti: ameliyat yapıldı ve diz üstünden ikinci ameliyat planlanıyor.",
+   "baslik": "AB sınır dışı (geri gönderme) sisteminin dijitalleştirilmesine ilişkin öneri hazırlanıyor",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "neden_onemli": "Statewatch'a göre hazırlanmakta olan öneri, sınır dışı işlemlerinin dijitalleştirilmesiyle kişisel veri güvencelerini daha da azaltacak ve gözetimi genişletecek [557f648b38]. Aynı gün yayımlanan ikinci kayıt, 'bütüncül, entegre ve dijitalleştirilmiş AB göç yönetim sistemi' başlıklı bir çalışmayı aktarıyor [f23dbe3944]. Merkezin iade–geri gönderme dosyalarında veri paylaşımı ve bireysel itiraz imkânı doğrudan etkilenebilir.",
+   "yenilik": "İlk kez.",
    "ayrintilar": [
-    "Ameliyat İstanbul Başakşehir Çam ve Sakura Şehir Hastanesi'nde, Metris'ten nakilden sonra yapıldı",
-    "ATK 17 Aralık 2025; Tekirdağ Şehir Hastanesi kurulları 7 Mayıs ve 30 Haziran 2026; ayrıca 6 Ekim 2026 muayenesi — hepsi cezaevinde kalabilir sonucuna varmış",
-    "Milletvekili Mustafa Yeneroğlu 9 Ekim'de ileri evre kangren, geniş açık yara ve ayağa kalkamama tablosunu bildirmişti",
-    "Kızı Esra Tırpan Yakut 20 Ekim'de ailenin ampütasyon onayı verdiğini duyurmuştu",
-    "İnfazın ertelenmesi talebi 5275 sayılı kanunun 16. maddesine dayandırılıyor"
+    "İki kayıt da 24 Ekim 2026 tarihli, kaynak Statewatch [557f648b38, f23dbe3944]",
+    "Kayıtlar başlık ve kısa özet düzeyinde; öneri metni, numarası ve yayım tarihi verilmemiş"
    ],
-   "mekanizma": "İnfaz Kanunu md. 16 / AİHS md. 3",
-   "karsi_okuma": "Tüm bilgi ailenin beyanına ve TR724 aktarımına dayanıyor; rapor metinleri elimizde yok, ampütasyon sonrası yeni bir ATK değerlendirmesi başlatılıp başlatılmadığı bilinmiyor.",
+   "mekanizma": "AB geri gönderme mevzuatı / veri koruma",
+   "karsi_okuma": "Kayıtlar önerinin içeriğini, hukuki dayanağını veya hangi güvencelerin kaldırılacağını göstermiyor; 'güvencelerin azaltılması' değerlendirmesi Statewatch'un kendi ifadesidir, belge üzerinden doğrulanmamıştır.",
    "kayitlar": [
-    "69bdac8d9d"
+    "557f648b38",
+    "f23dbe3944"
    ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Köse kararının metni: HSK disiplin kararlarına yargı yolu kapalılığı md. 6/1 ihlali, tutar ek tabloda",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Karar metni elimize geçti; Mahkeme HSK'nın 1 Haziran 2022 tarihli kararına karşı yargı yolu bulunmamasını md. 6/1 ihlali saydı ve Bilgen, Eminağaoğlu, Oktay Alkan çizgisini sürdürdü. Nakil talebinin reddine ilişkin şikâyeti ise konu bakımından bağdaşmaz bularak md. 6 kapsamı dışında tuttu. Bu ayrım, hâkim–savcı dosyalarında hangi şikâyetin hangi maddeden ilerleyebileceğini belirliyor.",
-   "yenilik": "Dün haber başlığı düzeyinde değerlendirilen karar bugün birincil metin olarak elde; tazminatın karar metninde değil ek tabloda olduğu ve nakil şikâyetinin md. 35/3(a)'dan reddedildiği doğrulandı.",
-   "ayrintilar": [
-    "Başvuru no. 54253/22, 17 Ekim 2022'de yapılmış",
-    "Karar 1 Ekim 2026'da alındı, 22 Ekim 2026'da tebliğ edildi; üç kişilik Komite (Pisani, Lavapuro, Mercer)",
-    "İhlal: md. 6/1 mahkemeye erişim; başvurunun kalanı kabul edilemez",
-    "Ödeme süresi üç ay; gecikmede AMB marjinal kredi oranı + 3 puan",
-    "SCF kaydı tazminatı 2.000 avro olarak veriyor; karar metninde tutar ek tabloda"
-   ],
-   "mekanizma": "AİHS md. 6/1 — mahkemeye erişim",
-   "karsi_okuma": "Karar bir Komite kararı; HSK'nın yargı denetimine kapalılığına ilişkin genel tedbirin alınacağını ya da Bakanlar Komitesi'nde nasıl gruplanacağını göstermiyor. Tazminat rakamı eldeki metinden doğrulanamıyor.",
-   "kayitlar": [
-    "001-252890",
-    "fd8985ece2"
-   ],
-   "guven": "yüksek"
-  },
-  {
-   "baslik": "Bakanlar Komitesi, Mustafa Aydın ve Çelik dosyalarını kapattı; genel tedbirler Deryan ve Ayvaz gruplarında açık",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "7 Ekim 2026 tarihli 1571. toplantıda alınan iki kararın metni elimizde: Aydın'da yeniden yargılamada beraat, Çelik'te iç yargılamanın sona ermesi bireysel tedbir açısından yeterli sayıldı. Her iki kararda da kapatmanın genel tedbir değerlendirmesine halel getirmediği açıkça yazılı. Gerekçesiz mahkûmiyet (Deryan) ve AYM önündeki yargılama süresi (Ayvaz) başlıkları denetimde kalıyor.",
-   "yenilik": "Dün yalnızca 'iki kapatma kararı' olarak kaydedilmişti; bugün metinlerden bireysel tedbir gerekçeleri ve eylem raporu numaraları (DH-DD(2026)589 ve DH-DD(2025)952) doğrulandı.",
-   "ayrintilar": [
-    "CM/ResDH(2026)251 — Mustafa Aydın, başvuru no. 6696/20, Deryan v. Turkey (41721/04) grubu",
-    "CM/ResDH(2026)252 — Çelik, başvuru no. 19840/21, Ayvaz grubu",
-    "Her iki karar da 7 Ekim 2026, 1571. Bakan Yardımcıları toplantısı",
-    "Aydın'da başvurucu yeniden açılan yargılamada beraat etti"
-   ],
-   "mekanizma": "AİHS md. 46/2 — icra denetimi",
-   "karsi_okuma": "Dosyaların kapatılması, aynı ihlal türünde yeni başvuruların önlendiği anlamına gelmiyor; Komite genel tedbirlerin hâlâ alınmadığını kaydediyor.",
-   "kayitlar": [
-    "001-253440",
-    "001-253442"
-   ],
-   "guven": "yüksek"
-  },
-  {
-   "baslik": "Süleymanlılar soruşturmasında 19 tutuklama; Çukurova Belediyesi'nde başkan dahil 34 tutuklama",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden_onemli": "İki ayrı dosya aynı gün tutuklama aşamasına geçti: Süleymanlılar mali suç soruşturmasında 24 şüpheliden 19'u tutuklandı, 5'i adli kontrolle serbest; Çukurova'da Başkan Emrah Kozay, selefi Soner Çetin ve 32 kişi tutuklandı, 15 kişi serbest bırakıldı. Her iki dosya da merkezin kayyım/malvarlığı izleme başlıklarına bağlı.",
-   "yenilik": "19 Ekim'de gözaltı kararı olarak kaydedilen Çukurova dosyası ile 19 Ekim'deki Süleymanlılar operasyonu tutuklama kararlarıyla sonuçlandı.",
-   "ayrintilar": [
-    "Süleymanlılar: 24 şüpheliden 19 tutuklu, 5 adli kontrol (DHA)",
-    "Çukurova: Kozay, Çetin ve 32 kişi tutuklu, 15 kişi serbest (Anadolu Ajansı)",
-    "Çukurova dosyası yolsuzluk, Süleymanlılar dosyası mali suç isnadıyla yürütülüyor"
-   ],
-   "mekanizma": "CMK tutuklama / kayyım rejimi",
-   "karsi_okuma": "Kayıtlar isnatların içeriğini, el koyma ya da kayyım atanıp atanmadığını göstermiyor; iki dosya arasında hukuki bağ kurulamaz.",
-   "kayitlar": [
-    "b293452e25",
-    "fd3d9920fa"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Halk TV'nin YouTube kanalına kanal kimliği üzerinden ikinci engel; WordPress CDN alt alan adı engellendi",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Halk TV dosyasında engelleme, kullanıcı adı değiştirildikten sonra kanal kimliğine dayalı URL'ye genişletildi; bu, engelin kaçınma girişimlerini izleyerek güncellendiğini gösteriyor. Ayrı bir kararla WordPress/Jetpack'in görsel dağıtım alt alan adı i0.wp.com engellendi; bu engel tek bir içeriği değil çok sayıda sitenin altyapısını etkiliyor.",
-   "yenilik": "İlk kez: 14 Ekim'deki kullanıcı adı engeline ek olarak kanal kimliği engeli ve ayrı bir CDN alt alan adı engeli kaydedildi.",
-   "ayrintilar": [
-    "Halk TV YouTube kanalı 2,6 milyon aboneli; kanal kimliği UCf_ResXZzE-o18zACUEmyvQ",
-    "Kullanıcı adı @Halktvkanali'den @Halktv-eu'ya değiştirilmişti",
-    "i0.wp.com, Siber Güvenlik Başkanının 23 Ekim 2026 tarihli 490.05.01.2026.-1186645 sayılı kararıyla engellendi"
-   ],
-   "mekanizma": "5651 sayılı Kanun kapsamında erişim engeli",
-   "karsi_okuma": "CDN engelinin hangi içerik ya da gerekçeye dayandığı kayıtta yok; Halk TV engeliyle aynı dosyadan geldiğine dair bir veri bulunmuyor.",
-   "kayitlar": [
-    "edb83a5877",
-    "b637ea5a8e"
-   ],
-   "guven": "yüksek"
-  },
-  {
-   "baslik": "MLSA haftalık bülteni: bir beraat, bir düşme, Bahçeli'nin şikâyetçi olduğu dosyada erteleme",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "19 Ekim haftasında izlenen duruşmalarda Sibel Gürcihan 'halkı yanıltıcı bilgi' ve tehdit isnadından beraat etti, Tuğçe Yılmaz hakkındaki TCK 301 dosyası süre yönünden düştü, ÇHD üyesi avukat Doğa İncesu tahliye edildi. TCK 217/A dosyalarında beraat çıkması, merkezin bu madde üzerine açtığı takip için karşılaştırma verisi sağlıyor.",
-   "yenilik": "İlk kez: Gürcihan beraatı, Yılmaz dosyasının düşmesi ve Bahçeli'nin şikâyetçi olduğu dosyanın 4 Kasım 2026'ya ertelenmesi bu pencerede kaydedildi.",
-   "ayrintilar": [
-    "Gürcihan: İstanbul Anadolu 78. Asliye Ceza, ikinci duruşmada beraat; bir ay tutuklu kalmış, yurt dışı yasağıyla serbest bırakılmıştı",
-    "Yılmaz: İstanbul 2. Asliye Ceza, üçüncü duruşmada dava açma süresinin kaçırılması nedeniyle düşme; isnat Bianet'in '109 yıllık yas' haberine dayanıyordu",
-    "Şeker Fırtına ve Kahveci: Ankara 52. Asliye Ceza, 4 Kasım 2026'ya ertelendi, şikâyetçi Devlet Bahçeli",
-    "Baransu: İstanbul Anadolu 2. Asliye Ceza, dördüncü duruşma 11 Şubat 2027'ye ertelendi; duruşmaya kelepçeli getirildiği bildirildi",
-    "Basın örgütleri 10 ilde sansüre karşı gösteri çağrısı yaptı"
-   ],
-   "mekanizma": "TCK 217/A, TCK 301, hakaret davaları",
-   "karsi_okuma": "Tek bir haftanın duruşma sonuçları yargı pratiğinde yön değişikliği göstermez; beraat ve düşme kararlarının kesinleşip kesinleşmediği kayıtta yok.",
-   "kayitlar": [
-    "8bb7ab2a7e"
-   ],
-   "guven": "orta"
+   "guven": "düşük"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "durum": "hareketli",
-   "not": "Bu pencerede yeni AİHM kararı duyurusu yok; ancak dört karar metni (Köse, Güray Gür, Ocak ve Diğerleri, Kaya) ile iki icra kararı birincil belge olarak elde edildi. Tazminat düzeyi dosya türüne göre ayrışıyor: toplu md. 5/3 dosyasında kişi başı 1.500 avro, bireysel md. 5 dosyasında 4.000 + 1.000 avro, adil tazmin talebi sunulmayan md. 6 dosyasında tazminat yok.",
-   "kayitlar": [
-    "001-252890",
-    "001-252903",
-    "001-252739",
-    "001-252752",
-    "001-253440",
-    "001-253442",
-    "fd8985ece2"
-   ]
-  },
-  {
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "durum": "hareketli",
-   "not": "Tırpan dosyasında ampütasyon gerçekleşti [69bdac8d9d]. Ayrıca Hacettepe öğrencisi Hasan Basri Usta, polis olduğunu söylediği kişilerce kaçırılıp muhbirliğe zorlanmak için işkence gördüğünü beyan etti [3a5714d75c]; beyan tek kaynakta, doğrulama yok.",
-   "kayitlar": [
-    "69bdac8d9d",
-    "3a5714d75c"
-   ]
-  },
-  {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "İki yeni erişim engeli (Halk TV YouTube kanal kimliği, i0.wp.com CDN alt alan adı) ve AKP'nin BirGün ile Zafer Arapkirli hakkında fon skandalı yorumları nedeniyle açtığı yeni dava kaydedildi [edb83a5877][b637ea5a8e][709c7dfb1a]. MLSA bülteni haftalık duruşma dökümü verdi [8bb7ab2a7e].",
-   "kayitlar": [
-    "edb83a5877",
-    "b637ea5a8e",
-    "709c7dfb1a",
-    "8bb7ab2a7e"
-   ]
-  },
-  {
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "durum": "hareketli",
-   "not": "Süleymanlılar soruşturmasında 19, Çukurova Belediyesi soruşturmasında 34 tutuklama kararı verildi [b293452e25][fd3d9920fa].",
-   "kayitlar": [
-    "b293452e25",
-    "fd3d9920fa"
-   ]
-  },
-  {
    "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "FRA, Avrupa Tutuklama Müzekkeresi ve temel haklar konulu AİHM–ABAD içtihat ortak bilgi notu yayımladı; kayıtta yalnızca künye var [c353aa5f7d]. ECRE bülteni Frontex'in Ocak–Eylül 2026 verilerini aktarıyor: Doğu sınırları rotasında 4.498 geçiş (%51 düşüş), tüm rotalarda 91 binin biraz üzerinde geçiş [c6b86c868a]. Rechtbank Den Haag NL26.3560'ta başvurucunun gönüllü dönüşü ve vekiliyle irtibatını kesmesi nedeniyle başvuru kabul edilemez bulundu [d91c39d9c8].",
+   "not": "Pencerenin tek alan hareketi, AB sınır dışı sisteminin dijitalleştirilmesine ilişkin iki Statewatch notu [557f648b38, f23dbe3944]. Derdest Hollanda iltica dosyalarında ve Türkiye'ye yönelik iade taleplerinde bu pencerede yeni kayıt yok.",
    "kayitlar": [
-    "c353aa5f7d",
-    "c6b86c868a",
-    "d91c39d9c8"
+    "557f648b38",
+    "f23dbe3944"
    ]
   },
   {
-   "alan": "Belçika ve AB mevzuatı",
-   "durum": "olağan",
-   "not": "FRA'dan içerik dışı idari kayıtlar ve etkinlik duyuruları geldi; Brüksel havalimanında temel haklar ve biyometri eğitimi duyurusu dışında merkezin dosyalarına değen yeni bir belge yok [039fc71510][e1b78fb6f6].",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "sessiz",
+   "not": "25 Ekim 2026 tarihli 33411 sayılı Resmî Gazete'de özetlenen yedi maddenin tamamı üniversite yönetmelikleri ve dahilde işleme izin belgesi listeleri; merkezin alanlarına giren bir düzenleme görünmüyor [1f4f547075].",
    "kayitlar": [
-    "039fc71510",
-    "e1b78fb6f6"
-   ]
-  },
-  {
-   "alan": "BM ve Avrupa insan hakları mekanizmaları",
-   "durum": "olağan",
-   "not": "CİSST, engelli mahpus sayılarına ilişkin bilgi edinme başvurularının reddi üzerine yaptığı başvuruda Kamu Denetçiliği Kurumu'nun Adalet Bakanlığı'na tavsiyede bulunduğunu duyurdu; tavsiyenin içeriği kayıtta yok [de451c3adc].",
-   "kayitlar": [
-    "de451c3adc"
+    "1f4f547075"
    ]
   }
  ],
- "dosya_derinlesmesi": [],
- "kronoloji": [
+ "dosya_derinlesmesi": [
   {
-   "tarih": "2025-12-17",
-   "adim": "Adli Tıp Kurumu, Abdullah Tırpan'ın cezaevinde kalabileceği sonucuna vardı.",
+   "baslik": "Cezaevi doluluğu ve mahpus sağlığı: CİSST verisi, engelli mahpus sayısının gizlenmesi ve Yasak v. Türkiye'nin md. 3 eşiği",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı / AİHM kararlarının icrası",
+   "elimizde": "CİSST'in Ekim 2026 verisine göre 304.184 kapasiteli 402 hapishanede 434.337 mahpus bulunuyor (t83). CİSST'in engelli mahpusların sayısını engel türü ve cinsiyete göre ayrıştırılmış biçimde öğrenmek için CİMER üzerinden yaptığı bilgi edinme başvuruları Adalet Bakanlığı tarafından reddedilmiş, 12 Haziran 2026'da Kamu Denetçiliği Kurumu'na başvurulmuş ve Ombudsmanlık Bakanlığa tavsiyede bulunmuştur [de451c3adc]. Büyük Daire'nin Yasak v. Türkiye kararında, 2016 darbe girişimi sonrası mahpus artışına bağlı doluluk nedeniyle Çorum Cezaevi'nde yaklaşık dört yıllık tutulma koşulları dokuza sekiz oyla md. 3 eşiğini aştı; başvurucunun kişisel alanı önce 3,6-4,6 m², sonra 4-6 m² arasındaydı ve Mahkeme üç metrekarenin altı için uyguladığı 'güçlü karine'yi uygulamadı [135336260f]. Bu pencerede dosyada yeni kayıt yok.",
+   "eksik": "Ombudsmanlık tavsiyesinin tam metni, tarihi ve Bakanlığın yanıt süresi kayıtlarda yok; engelli mahpus sayısına ilişkin resmî veri hâlâ açıklanmış değil. CİSST'in toplam mahpus/kapasite rakamlarının resmî kaynakla karşılaştırması da elimizde değil.",
+   "izlenecek_adim": "Adalet Bakanlığı'nın Ombudsmanlık tavsiyesine vereceği yanıt ve ayrıştırılmış engelli mahpus verisinin yayımlanıp yayımlanmayacağı izlenmeli; Yasak kararının icrası Bakanlar Komitesi'nde doluluk kaynaklı genel tedbir başlığı altında gündeme gelebilir.",
+   "dayanak": "Doluluk oranı verisi ile Yasak'taki kümülatif değerlendirme ölçütü, 3 m² altı eşiğe girmeyen koşullarda da md. 3 iddiasının kurulabileceğini gösteriyor; veri talebinin reddi ise sağlık ve engellilik temelli tutulma koşulu iddialarında kanıt erişimi sorununu belgeliyor.",
    "kayitlar": [
-    "69bdac8d9d"
-   ]
-  },
-  {
-   "tarih": "2026-05-07 / 2026-06-30",
-   "adim": "Tekirdağ Şehir Hastanesi sağlık kurulları aynı yönde rapor verdi; Haziran raporu kronik hastalıkları belgelemekle birlikte günlük ihtiyaçlarını yardımsız karşılayabildiğini ve infazın ertelenmesini gerektirmediğini belirtti.",
-   "kayitlar": [
-    "69bdac8d9d"
-   ]
-  },
-  {
-   "tarih": "2026-10-06",
-   "adim": "Yeni bir muayenede de cezaevinde kalmasına tıbbi engel bulunmadığı sonucuna varıldı.",
-   "kayitlar": [
-    "69bdac8d9d"
-   ]
-  },
-  {
-   "tarih": "2026-10-09",
-   "adim": "Metris'te ziyaret eden bağımsız milletvekili Mustafa Yeneroğlu, ileri evre kangren ve geniş açık yaralar bildirerek acil müdahale olmazsa ölebileceği uyarısında bulundu.",
-   "kayitlar": [
-    "69bdac8d9d"
-   ]
-  },
-  {
-   "tarih": "2026-10-20",
-   "adim": "Kızı Esra Tırpan Yakut, doktorların ampütasyon için aile onayı aldığını açıkladı ve infazın ertelenmesini talep etti.",
-   "kayitlar": [
-    "69bdac8d9d"
-   ]
-  },
-  {
-   "tarih": "2026-10-23",
-   "adim": "Başakşehir Çam ve Sakura Şehir Hastanesi'nde sol bacak diz altından kesildi; enfeksiyonun yayılması nedeniyle diz üstünden ikinci ameliyat planlandığı bildirildi.",
-   "kayitlar": [
-    "69bdac8d9d"
+    "de451c3adc",
+    "135336260f"
    ]
   }
  ],
+ "kronoloji": [],
  "izlenecekler": [
-  "Tırpan dosyasında ampütasyon sonrası yeni bir ATK/sağlık kurulu değerlendirmesi başlatılıp başlatılmadığı ve infazın ertelenmesi talebinin akıbeti",
-  "Köse kararının ek tablosundaki tazminat tutarının ve üç aylık ödeme süresinin başlangıç tarihinin belgelenmesi; dosyanın hangi Bakanlar Komitesi grubuna gireceği",
-  "Süleymanlılar soruşturmasında tutuklanan 19 kişi ile Çukurova'da tutuklanan 34 kişinin dosya seyri ve kayyım/el koyma kararı verilip verilmeyeceği",
-  "Halk TV engellerinin kapsam genişlemesi ve i0.wp.com CDN engeline itiraz edilip edilmediği",
-  "Bahçeli'nin şikâyetçi olduğu gazeteci dosyasında 4 Kasım 2026 oturumu ve Baransu dosyasında 11 Şubat 2027 oturumu"
+  "AB sınır dışı dijitalleştirme önerisinin metni, hukuki dayanağı ve yayım takvimi [557f648b38, f23dbe3944]",
+  "Adalet Bakanlığı'nın engelli mahpus verisine ilişkin Ombudsmanlık tavsiyesine yanıtı [de451c3adc]",
+  "Abdullah Tırpan dosyasında ampütasyon sonrası yeni bir ATK/sağlık kurulu değerlendirmesi yapılıp yapılmadığı (t91)",
+  "Köse v. Türkiye kararının icrası: 2.000 avronun ödenmesi ve HSK kararlarına yargı yolu genel tedbiri (t136)",
+  "Süleymanlılar ve Çukurova soruşturmalarında tutuklananların dosya seyri (t19, t143)"
  ],
- "gun": "2026-10-24",
- "olusturma": "2026-10-24T06:54+00:00",
+ "gun": "2026-10-25",
+ "olusturma": "2026-10-25T07:16+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
   "fd8985ece2",
   "8bb7ab2a7e",
   "69bdac8d9d",
-  "79acc4f94a",
-  "937f6d08dd",
   "d91c39d9c8",
   "e1b78fb6f6",
   "c353aa5f7d",
   "039fc71510",
-  "a2b25a6669",
   "1bf0908afb",
   "c6b86c868a",
-  "bdfc2d787a",
-  "de7201fbee",
-  "15a6d79a6c",
-  "4998d46646",
-  "9eaccac23a",
-  "43a9b2bcbe",
   "f0683bd48a",
   "135336260f",
   "4821b17947",
@@ -1225,11 +943,6 @@
   "6ef38ef578",
   "26247ac9c4",
   "2e5eca952f",
-  "104edcffa1",
-  "73c6b010e9",
-  "d23208d3c3",
-  "9ddd992965",
-  "39725a713e",
   "b637ea5a8e",
   "edb83a5877",
   "3126ab5c3d",
@@ -1242,12 +955,26 @@
   "de451c3adc",
   "806ac7884e",
   "0df95a6c61",
-  "38ad843e0c",
-  "8407d7e847"
+  "1f4f547075",
+  "df0034aeff",
+  "5dcdbd2b47",
+  "73944e03f0",
+  "1b10bb5aee",
+  "d35e4fb85c",
+  "557f648b38",
+  "f23dbe3944",
+  "bc9eaa0d38",
+  "b668490fef",
+  "66c1aa46e0",
+  "4aca5ba892",
+  "e61c852e1b",
+  "3a4a8a87d3",
+  "6d51e0ac65",
+  "8088169a1e"
  ],
- "maliyet_usd": 0.8212,
- "girdi_token": 52599,
- "cikti_token": 18470,
+ "maliyet_usd": 0.5066,
+ "girdi_token": 44319,
+ "cikti_token": 9587,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -1260,69 +987,14 @@
     "id": "one1",
     "hukum": "dayanaklı",
     "not": ""
-   },
-   {
-    "id": "one2",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one3",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one4",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one5",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one6",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "bir1",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "bir2",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "bir3",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "bir4",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "bir5",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "bir6",
-    "hukum": "dayanaklı",
-    "not": ""
    }
   ],
-  "genel": "Tüm iddialardaki olgular gösterilen birincil belge ve ikincil kayıtlarla ya da önceki gün başlıklarıyla doğrulanmaktadır.",
+  "genel": "İki iddia da gösterilen kayıtlarla uyumlu ve dayanaklı bulundu.",
   "model": "claude-sonnet-5",
-  "girdi_token": 37307,
-  "cikti_token": 2190,
-  "maliyet_usd": 0.0965,
-  "iddia_sayisi": 13
+  "girdi_token": 21446,
+  "cikti_token": 240,
+  "maliyet_usd": 0.0453,
+  "iddia_sayisi": 2
  },
  "takip_acik": [
   {
@@ -2451,6 +2123,14 @@
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-10-24",
    "son_hareket": "2026-10-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t144",
+   "baslik": "AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan Komisyon önerisi ve buna dayanak yapılan 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışması",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "acildi": "2026-10-25",
+   "son_hareket": "2026-10-25",
    "hareket_sayisi": 0
   }
  ]
