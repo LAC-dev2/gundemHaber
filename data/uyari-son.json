@@ -1,14 +1,14 @@
 {
  "gun": "2026-10-25",
- "olusturma": "2026-10-25T10:37+00:00",
+ "olusturma": "2026-10-25T14:44+00:00",
  "uyarilar": [
   {
-   "id": "saglik:2026-10-25:9",
+   "id": "saglik:2026-10-25:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Frontex, Alomaliye, ESMA, AML Intelligence…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: ProtectDefenders.eu, FIDH - Türkiye, MLSA, Anadolu Ajansı, Frontex, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
