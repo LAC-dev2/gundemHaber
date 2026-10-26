@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-26",
- "olusturma": "2026-10-26T07:25+00:00",
+ "olusturma": "2026-10-26T08:21+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-26:Fon soruşturmasında eski AKP milletvekili Ertan Aydın ev hap",
@@ -38,7 +38,7 @@
    "duzey": "yüksek",
    "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Frontex, Alomaliye, ESMA, Turkey Tribunal…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Frontex, Alomaliye, ESMA, Turkey Tribunal…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
