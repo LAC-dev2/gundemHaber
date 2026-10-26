@@ -1818,7 +1818,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-24",
+   "son_hareket": "2026-10-26",
    "kayitlar": [
     "b290622139"
    ],
@@ -1906,6 +1906,13 @@
      "not": "AKP, BirGün ve gazeteci Zafer Arapkirli hakkında BirGün TV'deki fon skandalı yorumları nedeniyle yeni bir dava açtı [709c7dfb1a]. Fon krizi dosyasında erişim engelinin yanına hukuk/ceza davası bileşeni ekleniyor.",
      "kayitlar": [
       "709c7dfb1a"
+     ]
+    },
+    {
+     "gun": "2026-10-26",
+     "not": "Nordic Monitor, fon skandalının Erdoğan'ın ailesi ve yakın çevresini ilgilendirdiğini ve muhalefet tahminlerine göre borsa değerlemesinden 100 milyar doları aşkın kayba yol açtığını yazıyor [5c2a9a8d6f]. Haber kaynağın kendi iddiasıdır; erişim engeli kararlarına ilişkin yeni bir karar kayıtlarda yok.",
+     "kayitlar": [
+      "5c2a9a8d6f"
      ]
     }
    ]
@@ -2402,7 +2409,7 @@
    "neden": "Bir ulusal haber sitesinin bütünüyle engellenmesi, 8/A ve müstehcenlik gerekçeli engel pratiğinin tek tek hesaplardan yayın kuruluşuna genişlediğini gösteriyor. Karara karşı itirazın akıbeti ve engelin kapsamı izlenmeli.",
    "acildi": "2026-10-01",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-10-26",
    "kayitlar": [
     "49a4559fff",
     "ac0df84564"
@@ -2436,6 +2443,13 @@
      "kayitlar": [
       "d6133750ae",
       "afb16f12ec"
+     ]
+    },
+    {
+     "gun": "2026-10-26",
+     "not": "SCF, T24 sitesinin ve sosyal medya hesaplarının engellenmesini, yetkililerin 'LGBT propagandası' olarak nitelediği gerekçeye bağlayarak aktarıyor; bu gerekçe nitelemesi protesto haberinde tekrarlanıyor [904ede2d22]. Engelleme kararına ilişkin yeni bir itiraz sonucu kayıtlarda yok.",
+     "kayitlar": [
+      "904ede2d22"
      ]
     }
    ]
@@ -3066,7 +3080,7 @@
    "neden": "ATK'nın Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim 2026 tarihli değerlendirmeleri aynı yönde 'cezaevinde kalabilir' sonucuna varmış; infazın ertelenmesi talebinin akıbeti izlenmeli.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-24",
+   "son_hareket": "2026-10-26",
    "kayitlar": [
     "a167f2a926"
    ],
@@ -3090,6 +3104,13 @@
      "not": "Metris'te tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın sol bacağı diz altından kesildi; aile, enfeksiyon yayıldığı için diz üstünden ikinci bir ameliyat planlandığını bildiriyor [69bdac8d9d]. Kayda göre ATK 17 Aralık 2025'te, Tekirdağ Şehir Hastanesi kurulları 7 Mayıs ve 30 Haziran 2026'da, son muayene ise 6 Ekim 2026'da cezaevinde kalmasına engel bulunmadığı sonucuna varmıştı. Ampütasyon sonrası yeni bir sağlık değerlendirmesi başlatılıp başlatılmadığı kayıtta belirsiz.",
      "kayitlar": [
       "69bdac8d9d"
+     ]
+    },
+    {
+     "gun": "2026-10-26",
+     "not": "Cross Border Jurists'in 19-25 Ekim bültenin özeti, 'siyasi mahpusun bacağının adli ve tıbbi ihmal nedeniyle kesildiği' ifadesiyle dosyayı haftalık derlemeye taşıdı [0d548d6ef5]. Kayıtta isim ve rapor dökümü yok; başlık düzeyinde bilgi var.",
+     "kayitlar": [
+      "0d548d6ef5"
      ]
     }
    ]
@@ -3533,7 +3554,7 @@
    "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-10-24",
+   "son_hareket": "2026-10-26",
    "kayitlar": [
     "db2250c34a",
     "15e176aae1",
@@ -3590,6 +3611,13 @@
      "not": "14 Ekim'de kullanıcı adı üzerinden engellenen Halk TV'nin 2,6 milyon aboneli YouTube kanalı, bu kez kanal kimliği (UCf_ResXZzE-o18zACUEmyvQ) üzerindeki URL ile de engellendi; kanalın kullanıcı adı @Halktv-eu olarak değiştirilmişti [edb83a5877].",
      "kayitlar": [
       "edb83a5877"
+     ]
+    },
+    {
+     "gun": "2026-10-26",
+     "not": "Halk TV'ye kayyım atanması ve yayının durdurulması, 24 Ekim Cumartesi günü İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşlerinde protestocuların gerekçeleri arasında anıldı; kayıtta Halk TV baskını ve kayyım atanması tekrar aktarılıyor, dosyada yeni bir usul adımı bildirilmiyor [904ede2d22].",
+     "kayitlar": [
+      "904ede2d22"
      ]
     }
    ]
@@ -3743,7 +3771,7 @@
    "neden": "Milyonlarca avroluk işlem isnadıyla yürütülen aklama soruşturmasında bir gazeteci ile muhalif bir milletvekilinin aile üyelerinin birlikte gözaltına alınması, mali soruşturma ile haber yapma faaliyeti arasındaki bağın izlenmesini gerektiriyor.",
    "acildi": "2026-10-17",
    "durum": "açık",
-   "son_hareket": "2026-10-21",
+   "son_hareket": "2026-10-26",
    "kayitlar": [
     "67804b754a",
     "f4872354c9"
@@ -3761,6 +3789,13 @@
      "not": "Gazeteci Murat Ağırel ve 14 kişi, İstanbul'da aklama soruşturmasında tutuklandı. Tutuklananlar arasında muhalefet milletvekili Mustafa Sarıgül'ün oğlu Ömer ve eski eşi, siyasetçi Aylin Kotil da var; dosya adli kontrol aşamasından tutukluluğa geçti.",
      "kayitlar": [
       "9f2fa150bd"
+     ]
+    },
+    {
+     "gun": "2026-10-26",
+     "not": "Fon soruşturmasında eski AKP milletvekili Ertan Aydın, ev hapsi kararına savcılık itirazı üzerine yeniden gözaltına alınıp tutuklandı; Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer de gözaltına alınarak tutuklama talebiyle mahkemeye sevk edildi [d3ce4a9693]. 'Ev hapsi kararına savcılık itirazıyla yeniden tutuklama' kalıbı, Ağırel dosyasındaki seyirle aynı usul izini taşıyor.",
+     "kayitlar": [
+      "d3ce4a9693"
      ]
     }
    ]
@@ -3856,7 +3891,7 @@
    "neden": "Devlet başkanı düzeyinde yurt dışı kampanyanın sürdürüleceği açıkça beyan edildi; beyandaki '50'den fazla ülke' ifadesi ile belgelenmiş veri (29 ülke, 162 kurum) arasındaki fark, kapsamın doğrulanmasını gerektiriyor.",
    "acildi": "2026-10-20",
    "durum": "açık",
-   "son_hareket": "2026-10-22",
+   "son_hareket": "2026-10-26",
    "kayitlar": [
     "de37456ca6"
    ],
@@ -3866,6 +3901,14 @@
      "not": "Beyan düzeyinden ikili görüşmeye geçti: Adalet Bakanı Gürlek, Brüksel'de Belçika'dan hareketle bağlantılı saydığı okul ve dernekleri incelemesini istedi.",
      "kayitlar": [
       "81304436ff"
+     ]
+    },
+    {
+     "gun": "2026-10-26",
+     "not": "Madrid'de Universidad CEU San Pablo ev sahipliğinde, İspanya'nın eski Washington büyükelçisi Javier Rupérez'in moderatörlüğünde Gülen'e ilişkin bir program düzenlendi; Köln'de 15 ülkeden 30 filmin katıldığı kısa film yarışması sonuçlandı [0fa228b09c, 22a6e337d2]. Bunlar hareketin diaspora faaliyetine ilişkin kayıtlardır, okul devralmalarına dair yeni veri içermez.",
+     "kayitlar": [
+      "0fa228b09c",
+      "22a6e337d2"
      ]
     }
    ]
@@ -4157,8 +4200,47 @@
     "f23dbe3944"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t145",
+   "baslik": "24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşleri ve TGS'nin 'son iki ayda 11 gazeteci tutuklandı' sayımı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kayıt, gazeteci tutuklamalarına ilişkin örgütlü bir sayım (TGS) ve kitlesel protesto verisi sunuyor; sayının ilerleyen günlerde nasıl güncellendiği ve protestoculara karşı işlem yapılıp yapılmadığı izlenmeli.",
+   "acildi": "2026-10-26",
+   "durum": "açık",
+   "son_hareket": "2026-10-26",
+   "kayitlar": [
+    "904ede2d22"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t146",
+   "baslik": "Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeniden tutuklama pratiği (Ertan Aydın, Gürol Sami Özer)",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Adli kontrol/ev hapsi kararlarının savcılık itirazıyla tutuklamaya çevrilmesi, merkezin birden çok dosyasında (Ağırel, Daylak, Nakıboğlu) görülen aynı usul kalıbı; fon soruşturmasında da kullanıldığının doğrulanması gerekiyor.",
+   "acildi": "2026-10-26",
+   "durum": "açık",
+   "son_hareket": "2026-10-26",
+   "kayitlar": [
+    "d3ce4a9693"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t147",
+   "baslik": "Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue 5, 19-25 Ekim 2026) içeriğinin dökümü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Bülten, merkezin izlediği dosyaları haftalık olarak derliyor; tam metni alındığında Tırpan dosyası dahil birçok takip maddesi için ikincil doğrulama kaynağı olabilir.",
+   "acildi": "2026-10-26",
+   "durum": "açık",
+   "son_hareket": "2026-10-26",
+   "kayitlar": [
+    "0d548d6ef5"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-25T07:17+00:00",
- "acik": 142
+ "guncelleme": "2026-10-26T07:25+00:00",
+ "acik": 145
 }

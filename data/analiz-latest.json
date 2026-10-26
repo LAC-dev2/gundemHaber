@@ -1,6 +1,55 @@
 {
  "sureklilik": [
   {
+   "id": "t109",
+   "durum": "hareket var",
+   "not": "Halk TV'ye kayyım atanması ve yayının durdurulması, 24 Ekim Cumartesi günü İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşlerinde protestocuların gerekçeleri arasında anıldı; kayıtta Halk TV baskını ve kayyım atanması tekrar aktarılıyor, dosyada yeni bir usul adımı bildirilmiyor [904ede2d22].",
+   "kayitlar": [
+    "904ede2d22"
+   ]
+  },
+  {
+   "id": "t60",
+   "durum": "hareket var",
+   "not": "SCF, T24 sitesinin ve sosyal medya hesaplarının engellenmesini, yetkililerin 'LGBT propagandası' olarak nitelediği gerekçeye bağlayarak aktarıyor; bu gerekçe nitelemesi protesto haberinde tekrarlanıyor [904ede2d22]. Engelleme kararına ilişkin yeni bir itiraz sonucu kayıtlarda yok.",
+   "kayitlar": [
+    "904ede2d22"
+   ]
+  },
+  {
+   "id": "t42",
+   "durum": "hareket var",
+   "not": "Nordic Monitor, fon skandalının Erdoğan'ın ailesi ve yakın çevresini ilgilendirdiğini ve muhalefet tahminlerine göre borsa değerlemesinden 100 milyar doları aşkın kayba yol açtığını yazıyor [5c2a9a8d6f]. Haber kaynağın kendi iddiasıdır; erişim engeli kararlarına ilişkin yeni bir karar kayıtlarda yok.",
+   "kayitlar": [
+    "5c2a9a8d6f"
+   ]
+  },
+  {
+   "id": "t120",
+   "durum": "hareket var",
+   "not": "Fon soruşturmasında eski AKP milletvekili Ertan Aydın, ev hapsi kararına savcılık itirazı üzerine yeniden gözaltına alınıp tutuklandı; Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer de gözaltına alınarak tutuklama talebiyle mahkemeye sevk edildi [d3ce4a9693]. 'Ev hapsi kararına savcılık itirazıyla yeniden tutuklama' kalıbı, Ağırel dosyasındaki seyirle aynı usul izini taşıyor.",
+   "kayitlar": [
+    "d3ce4a9693"
+   ]
+  },
+  {
+   "id": "t91",
+   "durum": "hareket var",
+   "not": "Cross Border Jurists'in 19-25 Ekim bültenin özeti, 'siyasi mahpusun bacağının adli ve tıbbi ihmal nedeniyle kesildiği' ifadesiyle dosyayı haftalık derlemeye taşıdı [0d548d6ef5]. Kayıtta isim ve rapor dökümü yok; başlık düzeyinde bilgi var.",
+   "kayitlar": [
+    "0d548d6ef5"
+   ]
+  },
+  {
+   "id": "t126",
+   "durum": "hareket var",
+   "not": "Madrid'de Universidad CEU San Pablo ev sahipliğinde, İspanya'nın eski Washington büyükelçisi Javier Rupérez'in moderatörlüğünde Gülen'e ilişkin bir program düzenlendi; Köln'de 15 ülkeden 30 filmin katıldığı kısa film yarışması sonuçlandı [0fa228b09c, 22a6e337d2]. Bunlar hareketin diaspora faaliyetine ilişkin kayıtlardır, okul devralmalarına dair yeni veri içermez.",
+   "kayitlar": [
+    "0fa228b09c",
+    "22a6e337d2"
+   ]
+  },
+  {
    "id": "t1",
    "durum": "hareket yok",
    "not": "",
@@ -241,12 +290,6 @@
    "kayitlar": []
   },
   {
-   "id": "t42",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t43",
    "durum": "hareket yok",
    "not": "",
@@ -344,12 +387,6 @@
   },
   {
    "id": "t59",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t60",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -535,12 +572,6 @@
    "kayitlar": []
   },
   {
-   "id": "t91",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t92",
    "durum": "hareket yok",
    "not": "",
@@ -643,12 +674,6 @@
    "kayitlar": []
   },
   {
-   "id": "t109",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t110",
    "durum": "hareket yok",
    "not": "",
@@ -709,12 +734,6 @@
    "kayitlar": []
   },
   {
-   "id": "t120",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t121",
    "durum": "hareket yok",
    "not": "",
@@ -734,12 +753,6 @@
   },
   {
    "id": "t125",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t126",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -845,136 +858,248 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t144",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan Komisyon önerisi ve buna dayanak yapılan 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışması",
-   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
-   "neden": "Statewatch, hazırlanan önerinin kişisel veri güvencelerini azaltıp gözetimi genişleteceğini bildiriyor; merkezin geri gönderme, veri paylaşımı ve non-refoulement dosyalarında doğrudan etkisi olabilecek bir mevzuat adımı. Şu an yalnızca başlık ve özet düzeyinde bilgi var, önerinin metni ve takvimi izlenmeli.",
+   "baslik": "24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşleri ve TGS'nin 'son iki ayda 11 gazeteci tutuklandı' sayımı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kayıt, gazeteci tutuklamalarına ilişkin örgütlü bir sayım (TGS) ve kitlesel protesto verisi sunuyor; sayının ilerleyen günlerde nasıl güncellendiği ve protestoculara karşı işlem yapılıp yapılmadığı izlenmeli.",
    "kayitlar": [
-    "557f648b38",
-    "f23dbe3944"
+    "904ede2d22"
+   ]
+  },
+  {
+   "baslik": "Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeniden tutuklama pratiği (Ertan Aydın, Gürol Sami Özer)",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Adli kontrol/ev hapsi kararlarının savcılık itirazıyla tutuklamaya çevrilmesi, merkezin birden çok dosyasında (Ağırel, Daylak, Nakıboğlu) görülen aynı usul kalıbı; fon soruşturmasında da kullanıldığının doğrulanması gerekiyor.",
+   "kayitlar": [
+    "d3ce4a9693"
+   ]
+  },
+  {
+   "baslik": "Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue 5, 19-25 Ekim 2026) içeriğinin dökümü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Bülten, merkezin izlediği dosyaları haftalık olarak derliyor; tam metni alındığında Tırpan dosyası dahil birçok takip maddesi için ikincil doğrulama kaynağı olabilir.",
+   "kayitlar": [
+    "0d548d6ef5"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "AB sınır dışı sisteminin dijitalleştirilmesi önerisi: Statewatch veri güvencelerinin daraltılacağını bildiriyor",
- "brifing": "Pencereye giren dört kayıttan yalnızca ikisi merkezin çalışma alanlarına değiyor: Statewatch'un AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan öneriye ve buna eşlik eden 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışmasına dair iki notu [557f648b38, f23dbe3944]. Her ikisi de başlık ve kısa özet düzeyinde; önerinin metni, hukuki dayanağı ve takvimi kayıtlarda yok. Türkiye kaynaklı çekirdek dosyalarda (Tırpan sağlık dosyası, Köse icrası, Halk TV engelleri, Süleymanlılar ve Çukurova soruşturmaları) bu pencerede yeni kayıt gelmedi; sayılar önceki brifingteki düzeyinde. Resmî Gazete'nin 25 Ekim tarihli 33411 sayılı nüshasında merkezin alanlarına giren bir düzenleme görünmüyor [1f4f547075]. Gün zayıf olduğu için cezaevi doluluğu ve mahpus sağlığı dosyası (t83) derinleştirildi.",
+ "baslik": "İstanbul ve Ankara'da basın özgürlüğü yürüyüşleri: TGS iki ayda 11 gazetecinin tutuklandığını bildirdi",
+ "brifing": "Pencerenin merkez dosyalarına değen üç kaydı var: 24 Ekim'de İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşleri [904ede2d22], fon soruşturmasında eski AKP milletvekili Ertan Aydın'ın ev hapsine savcılık itirazı üzerine tutuklanması [d3ce4a9693] ve fon skandalının mali boyutuna ilişkin Nordic Monitor değerlendirmesi [5c2a9a8d6f]. Kayıtların büyük bölümü merkezin alanları dışında (Hollanda hava durumu, Brezilya seçimi, Güney Kore, Brunei, Solomon Adaları) ya da daha önce değerlendirilmiş. AİHM'den birincil belge gelmedi; Resmî Gazete kayıtları özet düzeyinde kaldı, 26 Ekim sayısının üç maddesi üniversite yönetmeliklerinin yürürlükten kaldırılmasına ilişkin [edb3fbf584], 'Yargı Harçları' kaydı ise yalnızca başlık düzeyinde [673dd445f6]. Çekirdek alanlarda bu pencerede yeni belge olmadığı için bir açık dosya derinleştirildi.",
  "one_cikanlar": [
   {
-   "baslik": "AB sınır dışı (geri gönderme) sisteminin dijitalleştirilmesine ilişkin öneri hazırlanıyor",
-   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
-   "neden_onemli": "Statewatch'a göre hazırlanmakta olan öneri, sınır dışı işlemlerinin dijitalleştirilmesiyle kişisel veri güvencelerini daha da azaltacak ve gözetimi genişletecek [557f648b38]. Aynı gün yayımlanan ikinci kayıt, 'bütüncül, entegre ve dijitalleştirilmiş AB göç yönetim sistemi' başlıklı bir çalışmayı aktarıyor [f23dbe3944]. Merkezin iade–geri gönderme dosyalarında veri paylaşımı ve bireysel itiraz imkânı doğrudan etkilenebilir.",
-   "yenilik": "İlk kez.",
+   "baslik": "İstanbul ve Ankara'da basın özgürlüğü yürüyüşleri; TGS son iki ayda 11 gazetecinin tutuklandığını bildirdi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Kayıt, merkezin ayrı ayrı izlediği dosyaları (Halk TV kayyımı, T24 engeli, gazeteci tutuklamaları) tek bir sayım altında toplayan örgütlü bir kaynak beyanı içeriyor: TGS'ye göre son iki ayda 11 gazeteci tutuklandı ve birkaç yayın organı kapatıldı. TGS başkanı Gökhan Durmuş'un 'kısıtlamaların, erişim yasaklarının ve kayyım atamalarının en çok izlenen yayıncıları hedef aldığı' değerlendirmesi, münferit dosyalar yerine yapısal bir örüntü iddiasıdır. Polis sayımına göre her iki protestoya en az 3.000 kişi katıldı.",
+   "yenilik": "İlk kez: Halk TV ve T24 dosyaları daha önce ayrı ayrı yazılmıştı; bugün ilk kez kitlesel protesto ve TGS'nin iki aylık toplu tutuklama sayısı kayda girdi.",
    "ayrintilar": [
-    "İki kayıt da 24 Ekim 2026 tarihli, kaynak Statewatch [557f648b38, f23dbe3944]",
-    "Kayıtlar başlık ve kısa özet düzeyinde; öneri metni, numarası ve yayım tarihi verilmemiş"
+    "Protestolar 24 Ekim Cumartesi günü İstanbul ve Ankara'da yapıldı [904ede2d22]",
+    "Polis sayımına göre her iki protestoya en az 3.000'er kişi katıldı [904ede2d22]",
+    "TGS: son iki ayda 11 gazeteci tutuklandı, birkaç yayın organı kapatıldı [904ede2d22]",
+    "Halk TV'ye polis baskını, yayının durdurulması ve hükümet atamalı yönetici; T24'ün sitesi ve sosyal medya hesapları 'LGBT propagandası' gerekçesiyle engellendi [904ede2d22]",
+    "BirGün yazarı Zafer Arapkirli kendisinin de davalarla karşı karşıya olduğunu söyledi [904ede2d22]"
    ],
-   "mekanizma": "AB geri gönderme mevzuatı / veri koruma",
-   "karsi_okuma": "Kayıtlar önerinin içeriğini, hukuki dayanağını veya hangi güvencelerin kaldırılacağını göstermiyor; 'güvencelerin azaltılması' değerlendirmesi Statewatch'un kendi ifadesidir, belge üzerinden doğrulanmamıştır.",
+   "mekanizma": "AİHS md. 10 ve md. 11",
+   "karsi_okuma": "Kayıt bir haber ajansı aktarımıdır; 11 tutuklama sayısı TGS'nin kendi sayımıdır, resmî bir listeyle doğrulanmamıştır. Katılım sayısı polis kaynaklıdır ve bağımsız teyidi yoktur. Protestolara idari ya da cezai bir işlem yapılıp yapılmadığı kayıtta yok.",
    "kayitlar": [
-    "557f648b38",
-    "f23dbe3944"
+    "904ede2d22"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Fon soruşturmasında eski AKP milletvekili Ertan Aydın ev hapsine savcılık itirazı üzerine tutuklandı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden_onemli": "Soruşturmanın iktidar partisi çevresine uzandığını gösteren ilk kayıt bu pencerede geldi; ayrıca merkezin birkaç dosyasında (Ağırel, Daylak, Nakıboğlu) izlediği 'hafif tedbire savcılık itirazı → tutuklama' kalıbı burada da görünüyor. Aynı soruşturmada Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer de gözaltına alınıp tutuklama talebiyle mahkemeye sevk edildi.",
+   "yenilik": "İlk kez: fon soruşturmasında bugüne kadar gazeteciler ve Sarıgül yakınları izleniyordu; bugün ilk kez eski bir AKP milletvekilinin tutuklanması kayda girdi.",
+   "ayrintilar": [
+    "Eski AKP milletvekili Ertan Aydın hakkındaki ev hapsi kararına savcılık itiraz etti; yeniden gözaltına alınıp tutuklandı [d3ce4a9693]",
+    "Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer gözaltına alındı ve tutuklama talebiyle mahkemeye sevk edildi [d3ce4a9693]"
+   ],
+   "mekanizma": "Adli kontrole savcılık itirazı / CMK tutuklama",
+   "karsi_okuma": "Kayıt başlık-özet düzeyindedir; isnat edilen suç, dosya numarası ve mahkeme bilgisi yok. Özer hakkında tutuklama kararı verilip verilmediği kayıtta belirtilmemiş.",
+   "kayitlar": [
+    "d3ce4a9693"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Nordic Monitor: fon skandalı Erdoğan'ın ailesine ve yakın çevresine uzanıyor, borsa kaybı 100 milyar doların üzerinde",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden_onemli": "Merkezin fon soruşturması dosyasının mali büyüklüğüne ve iddia edilen aktör çevresine ilişkin ilk nicel değerlendirme. Aynı dosyada süren erişim engelleri (t42) ve RTÜK cezaları (t119) ile birlikte okunduğunda, haber kısıtlamalarının konusunun ne olduğunu gösteriyor.",
+   "yenilik": "İlk kez: fon dosyasında mali büyüklük tahmini ve aile/yakın çevre bağlantısı iddiası bu pencerede kayda girdi.",
+   "ayrintilar": [
+    "Muhalefet tahminlerine göre borsa değerlemesinden 100 milyar doları aşkın kayıp [5c2a9a8d6f]",
+    "Haber, Türkiye'nin resesyon riski taşıdığını ve finansal sisteme güvenin zedelendiğini ileri sürüyor [5c2a9a8d6f]"
+   ],
+   "mekanizma": "",
+   "karsi_okuma": "Rakam muhalefet tahmini olarak aktarılıyor, resmî veri değil; 'aile ve yakın çevre' bağlantısı kaynağın iddiasıdır, yargı kararıyla doğrulanmamıştır.",
+   "kayitlar": [
+    "5c2a9a8d6f"
    ],
    "guven": "düşük"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "İade, adli yardım ve iltica",
-   "durum": "olağan",
-   "not": "Pencerenin tek alan hareketi, AB sınır dışı sisteminin dijitalleştirilmesine ilişkin iki Statewatch notu [557f648b38, f23dbe3944]. Derdest Hollanda iltica dosyalarında ve Türkiye'ye yönelik iade taleplerinde bu pencerede yeni kayıt yok.",
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "hareketli",
+   "not": "İstanbul ve Ankara'daki yürüyüşler, Halk TV kayyımı ve T24 engelini tek başlık altında topladı; TGS iki aylık tutuklama sayısı verdi [904ede2d22]. CIVICUS'un Brunei ve Solomon Adaları notları merkezin dosyalarıyla doğrudan ilgili değil, karşılaştırmalı malzeme olarak kayda geçti [8747c4cfa6, 0a5828ac4c].",
    "kayitlar": [
+    "904ede2d22",
+    "8747c4cfa6",
+    "0a5828ac4c"
+   ]
+  },
+  {
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "hareketli",
+   "not": "Fon soruşturmasında iki yeni tutuklama/sevk kaydı ve dosyanın mali büyüklüğüne ilişkin bir değerlendirme geldi [d3ce4a9693, 5c2a9a8d6f]. Ev hapsine savcılık itirazı üzerine tutuklama kalıbı yineleniyor.",
+   "kayitlar": [
+    "d3ce4a9693",
+    "5c2a9a8d6f"
+   ]
+  },
+  {
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "durum": "olağan",
+   "not": "Cross Border Jurists haftalık bülteninin 5. sayısı yayımlandı; özetinde ampütasyon dosyası öne çıkarılmış [0d548d6ef5]. Madrid ve Köln'deki diaspora etkinlikleri kayda girdi, hukuki bir gelişme içermiyor [0fa228b09c, 22a6e337d2].",
+   "kayitlar": [
+    "0d548d6ef5",
+    "0fa228b09c",
+    "22a6e337d2"
+   ]
+  },
+  {
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "olağan",
+   "not": "26 Ekim tarihli 33412 sayılı Resmî Gazete'de özetlenen üç madde Bingöl Üniversitesi'ne ait iki merkez yönetmeliğinin yürürlükten kaldırılmasına ilişkin; özet üretimi teknik hatayla tamamlanamamış [edb3fbf584]. 'Yargı Harçları' kaydı yalnızca başlık düzeyinde, içerik yok [673dd445f6].",
+   "kayitlar": [
+    "edb3fbf584",
+    "673dd445f6"
+   ]
+  },
+  {
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "sessiz",
+   "not": "Bu pencerede Türkiye kaynaklı yeni iltica içtihadı gelmedi; Rechtbank Limburg kararı çevre/su yönetimi ruhsatına ilişkindir ve merkezin dosyalarıyla ilgisi yok [69824380cf]. AB sınır dışı dijitalleştirme önerisine ilişkin kayıtlar önceki brifingte değerlendirildi [557f648b38, f23dbe3944].",
+   "kayitlar": [
+    "69824380cf",
     "557f648b38",
     "f23dbe3944"
    ]
   },
   {
-   "alan": "Mevzuat izleme (çok alanlı)",
+   "alan": "Belçika ve AB mevzuatı",
    "durum": "sessiz",
-   "not": "25 Ekim 2026 tarihli 33411 sayılı Resmî Gazete'de özetlenen yedi maddenin tamamı üniversite yönetmelikleri ve dahilde işleme izin belgesi listeleri; merkezin alanlarına giren bir düzenleme görünmüyor [1f4f547075].",
+   "not": "KU Leuven CiTiP-CeBIL atölyesi yalnızca başlık düzeyinde kayıtta; içerik ve merkez dosyalarıyla bağlantı bilgisi yok [8e74969107].",
    "kayitlar": [
-    "1f4f547075"
+    "8e74969107"
    ]
   }
  ],
  "dosya_derinlesmesi": [
   {
-   "baslik": "Cezaevi doluluğu ve mahpus sağlığı: CİSST verisi, engelli mahpus sayısının gizlenmesi ve Yasak v. Türkiye'nin md. 3 eşiği",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı / AİHM kararlarının icrası",
-   "elimizde": "CİSST'in Ekim 2026 verisine göre 304.184 kapasiteli 402 hapishanede 434.337 mahpus bulunuyor (t83). CİSST'in engelli mahpusların sayısını engel türü ve cinsiyete göre ayrıştırılmış biçimde öğrenmek için CİMER üzerinden yaptığı bilgi edinme başvuruları Adalet Bakanlığı tarafından reddedilmiş, 12 Haziran 2026'da Kamu Denetçiliği Kurumu'na başvurulmuş ve Ombudsmanlık Bakanlığa tavsiyede bulunmuştur [de451c3adc]. Büyük Daire'nin Yasak v. Türkiye kararında, 2016 darbe girişimi sonrası mahpus artışına bağlı doluluk nedeniyle Çorum Cezaevi'nde yaklaşık dört yıllık tutulma koşulları dokuza sekiz oyla md. 3 eşiğini aştı; başvurucunun kişisel alanı önce 3,6-4,6 m², sonra 4-6 m² arasındaydı ve Mahkeme üç metrekarenin altı için uyguladığı 'güçlü karine'yi uygulamadı [135336260f]. Bu pencerede dosyada yeni kayıt yok.",
-   "eksik": "Ombudsmanlık tavsiyesinin tam metni, tarihi ve Bakanlığın yanıt süresi kayıtlarda yok; engelli mahpus sayısına ilişkin resmî veri hâlâ açıklanmış değil. CİSST'in toplam mahpus/kapasite rakamlarının resmî kaynakla karşılaştırması da elimizde değil.",
-   "izlenecek_adim": "Adalet Bakanlığı'nın Ombudsmanlık tavsiyesine vereceği yanıt ve ayrıştırılmış engelli mahpus verisinin yayımlanıp yayımlanmayacağı izlenmeli; Yasak kararının icrası Bakanlar Komitesi'nde doluluk kaynaklı genel tedbir başlığı altında gündeme gelebilir.",
-   "dayanak": "Doluluk oranı verisi ile Yasak'taki kümülatif değerlendirme ölçütü, 3 m² altı eşiğe girmeyen koşullarda da md. 3 iddiasının kurulabileceğini gösteriyor; veri talebinin reddi ise sağlık ve engellilik temelli tutulma koşulu iddialarında kanıt erişimi sorununu belgeliyor.",
+   "baslik": "Halk TV dosyası (t109): kayyım atanması, yayının durdurulması, sahibi ve 16 kişi hakkındaki yakalama kararı",
+   "alan": "İfade ve basın özgürlüğü",
+   "elimizde": "Kayıtlara göre polis Türkiye'nin en çok izlenen haber kanalı Halk TV'yi bastı, yayını durdurdu ve hükümet tarafından atanan bir yönetici göreve başladı [904ede2d22]. Takip maddesinde dosyanın unsurları olarak kayyum atanması, yayının durdurulması, kanalın sahibi ve 16 kişi hakkındaki yakalama kararı ile altı platformdaki hesaplara uygulanan 5651 md. 8/A engeli sayılıyor; bu unsurlar 15 Ekim'den beri izleniyor. 24 Ekim'deki protestolarda TGS başkanı, kısıtlamaların, erişim yasaklarının ve kayyım atamalarının en çok izlenen yayıncıları hedeflediğini söyledi [904ede2d22]. Aynı dönemde T24'ün sitesi ve hesapları engellendi [904ede2d22].",
+   "eksik": "Kayyım atama kararının hangi mahkeme/merci tarafından, hangi yasal dayanakla (TMSF kayyım rejimi mi, CMK 133 mü) verildiği kayıtlarda yok. Yakalama kararlarının isnadı, 16 kişinin kimliği ve kaçının yakalandığı; yayının durdurulmasının RTÜK kararıyla mı yoksa yargı kararıyla mı yapıldığı doğrulanmadı. Kayyıma ve engellemelere karşı itiraz yollarının kullanılıp kullanılmadığına dair bilgi de yok.",
+   "izlenecek_adim": "Kayyım kararına karşı itirazın sonucu ile 8/A engellerine ilişkin sulh ceza hâkimliği itirazlarının sonuçları izlenmeli; ayrıca yakalama kararı verilen kişilerin sorgu ve tutuklama kararları, kayıtlarda tarih verilmediği için belirsiz bir takvimde beklenmelidir.",
+   "dayanak": "Yayın organına kayyım atanması, yayının durdurulması ve sahibi hakkında yakalama kararının aynı dosyada birleşmesi, merkezin AİHS md. 10 kapsamında savunduğu 'editoryal bağımsızlığa idari/cezai araçlarla toplu müdahale' argümanına; mal varlığı yönüyle de kayyım rejiminin malvarlığı dondurma işlevine dayanak oluşturabilir.",
    "kayitlar": [
-    "de451c3adc",
-    "135336260f"
+    "904ede2d22"
    ]
   }
  ],
- "kronoloji": [],
- "izlenecekler": [
-  "AB sınır dışı dijitalleştirme önerisinin metni, hukuki dayanağı ve yayım takvimi [557f648b38, f23dbe3944]",
-  "Adalet Bakanlığı'nın engelli mahpus verisine ilişkin Ombudsmanlık tavsiyesine yanıtı [de451c3adc]",
-  "Abdullah Tırpan dosyasında ampütasyon sonrası yeni bir ATK/sağlık kurulu değerlendirmesi yapılıp yapılmadığı (t91)",
-  "Köse v. Türkiye kararının icrası: 2.000 avronun ödenmesi ve HSK kararlarına yargı yolu genel tedbiri (t136)",
-  "Süleymanlılar ve Çukurova soruşturmalarında tutuklananların dosya seyri (t19, t143)"
+ "kronoloji": [
+  {
+   "tarih": "2026-10-15",
+   "adim": "Halk TV'ye kayyum atandı, yayın durduruldu; sahibi ve 16 kişi hakkında yakalama kararı verildi ve altı platformdaki hesaplara 5651 md. 8/A engeli uygulandı (takip maddesi t109'un açılış kaydı).",
+   "kayitlar": []
+  },
+  {
+   "tarih": "2026-10-22",
+   "adim": "Dezenformasyon isnadıyla iki yeni gazeteci dosyası açıldı ve Halk TV'ye yönelik müdahale kanalın sahibine yayıldı (önceki analiz başlığı).",
+   "kayitlar": []
+  },
+  {
+   "tarih": "2026-10-24",
+   "adim": "İstanbul ve Ankara'da basın özgürlüğü yürüyüşleri yapıldı; polis sayımına göre her iki protestoya en az 3.000'er kişi katıldı, protestocular tutuklu gazetecilerin fotoğraflarını taşıdı.",
+   "kayitlar": [
+    "904ede2d22"
+   ]
+  },
+  {
+   "tarih": "2026-10-25",
+   "adim": "SCF protestoları aktardı; TGS'ye göre son iki ayda 11 gazeteci tutuklandı, birkaç yayın organı kapatıldı, T24 'LGBT propagandası' gerekçesiyle engellendi.",
+   "kayitlar": [
+    "904ede2d22"
+   ]
+  }
  ],
- "gun": "2026-10-25",
- "olusturma": "2026-10-25T07:16+00:00",
+ "izlenecekler": [
+  "TGS'nin 'son iki ayda 11 gazeteci tutuklandı' sayımının güncellenmesi ve 24 Ekim protestolarına idari/cezai işlem yapılıp yapılmadığı [904ede2d22]",
+  "Fon soruşturmasında Ertan Aydın ve Gürol Sami Özer dosyalarında isnat, dosya numarası ve tutuklama kararlarının netleşmesi [d3ce4a9693]",
+  "Halk TV kayyım kararına ve 8/A engellerine karşı itirazların sonucu (t109)",
+  "Cross Border Jurists haftalık bülteninin (Issue 5) tam metninin alınması ve Tırpan dosyasına ilişkin kaydettiği ayrıntılar [0d548d6ef5]",
+  "28 Ekim 2026'da Komisyon'un sunması beklenen AB sınır dışı dijitalleştirme önerisinin yayımlanması (t144) [557f648b38]"
+ ],
+ "gun": "2026-10-26",
+ "olusturma": "2026-10-26T07:25+00:00",
  "model": "claude-opus-5",
- "kayit_sayisi": 45,
+ "kayit_sayisi": 39,
  "kullanilan_kayitlar": [
-  "fd8985ece2",
-  "8bb7ab2a7e",
-  "69bdac8d9d",
-  "d91c39d9c8",
-  "e1b78fb6f6",
-  "c353aa5f7d",
-  "039fc71510",
-  "1bf0908afb",
-  "c6b86c868a",
-  "f0683bd48a",
-  "135336260f",
-  "4821b17947",
-  "8f7410fe8d",
-  "526eab05c9",
-  "6ef38ef578",
-  "26247ac9c4",
-  "2e5eca952f",
-  "b637ea5a8e",
-  "edb83a5877",
-  "3126ab5c3d",
-  "709c7dfb1a",
-  "fd3d9920fa",
-  "b293452e25",
-  "3a5714d75c",
-  "3b203df816",
-  "6d1c5f5370",
-  "de451c3adc",
-  "806ac7884e",
-  "0df95a6c61",
-  "1f4f547075",
-  "df0034aeff",
-  "5dcdbd2b47",
-  "73944e03f0",
-  "1b10bb5aee",
-  "d35e4fb85c",
+  "673dd445f6",
+  "6cff56c681",
+  "69824380cf",
+  "98a1f29e29",
+  "904ede2d22",
+  "edb3fbf584",
+  "0fa228b09c",
+  "8747c4cfa6",
+  "0a5828ac4c",
+  "f460239a64",
   "557f648b38",
   "f23dbe3944",
   "bc9eaa0d38",
-  "b668490fef",
-  "66c1aa46e0",
-  "4aca5ba892",
-  "e61c852e1b",
-  "3a4a8a87d3",
-  "6d51e0ac65",
-  "8088169a1e"
+  "4707469358",
+  "7316c3bb78",
+  "323cf3b423",
+  "a3d031bf31",
+  "22a6e337d2",
+  "d3ce4a9693",
+  "20c0506296",
+  "c4ebcec090",
+  "0d548d6ef5",
+  "79849a25ae",
+  "937c0e861b",
+  "f294ee825a",
+  "e8eaf04dd7",
+  "bcf25dde20",
+  "3bae4ab34e",
+  "5e456200e9",
+  "1b6509f6c1",
+  "6578c78514",
+  "e4e7af67ca",
+  "8e74969107",
+  "5c2a9a8d6f",
+  "2b50f3f55c",
+  "5ec6b30d22",
+  "3b9d9da0eb",
+  "2226421c3b",
+  "84d10cdf59"
  ],
- "maliyet_usd": 0.5066,
- "girdi_token": 44319,
- "cikti_token": 9587,
+ "maliyet_usd": 0.5664,
+ "girdi_token": 42950,
+ "cikti_token": 12021,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -987,14 +1112,24 @@
     "id": "one1",
     "hukum": "dayanaklı",
     "not": ""
+   },
+   {
+    "id": "one2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one3",
+    "hukum": "dayanaklı",
+    "not": ""
    }
   ],
-  "genel": "İki iddia da gösterilen kayıtlarla uyumlu ve dayanaklı bulundu.",
+  "genel": "Denetlenen tüm iddialar gösterilen kayıtlarla uyumludur, olgusal eksiklik tespit edilmemiştir.",
   "model": "claude-sonnet-5",
-  "girdi_token": 21446,
-  "cikti_token": 240,
-  "maliyet_usd": 0.0453,
-  "iddia_sayisi": 2
+  "girdi_token": 23610,
+  "cikti_token": 388,
+  "maliyet_usd": 0.0511,
+  "iddia_sayisi": 4
  },
  "takip_acik": [
   {
@@ -1322,8 +1457,8 @@
    "baslik": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uygulanan erişim engelleri",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-25",
-   "son_hareket": "2026-10-24",
-   "hareket_sayisi": 11
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 12
   },
   {
    "id": "t43",
@@ -1466,8 +1601,8 @@
    "baslik": "T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/8894 sayılı kararıyla erişime engellenmesi",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-01",
-   "son_hareket": "2026-10-13",
-   "hareket_sayisi": 4
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 5
   },
   {
    "id": "t61",
@@ -1714,8 +1849,8 @@
    "baslik": "Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın kangren tablosu ve ATK/sağlık kurulu raporlarının seyri",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-10",
-   "son_hareket": "2026-10-24",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 4
   },
   {
    "id": "t92",
@@ -1858,8 +1993,8 @@
    "baslik": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi hakkındaki yakalama kararı ve altı platformdaki hesaplara uygulanan 8/A engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-15",
-   "son_hareket": "2026-10-24",
-   "hareket_sayisi": 6
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 7
   },
   {
    "id": "t110",
@@ -1946,8 +2081,8 @@
    "baslik": "Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözaltına alınması ve Sarıgül yakınlarının aklama soruşturması",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-10-17",
-   "son_hareket": "2026-10-21",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 3
   },
   {
    "id": "t121",
@@ -1986,8 +2121,8 @@
    "baslik": "Erdoğan'ın yurt dışındaki Gülen bağlantılı okullara yönelik kampanya beyanı ve TMV devralmalarının ülke/okul dökümü",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-20",
-   "son_hareket": "2026-10-22",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 2
   },
   {
    "id": "t127",
@@ -2131,6 +2266,30 @@
    "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
    "acildi": "2026-10-25",
    "son_hareket": "2026-10-25",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t145",
+   "baslik": "24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşleri ve TGS'nin 'son iki ayda 11 gazeteci tutuklandı' sayımı",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-26",
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t146",
+   "baslik": "Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeniden tutuklama pratiği (Ertan Aydın, Gürol Sami Özer)",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-26",
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t147",
+   "baslik": "Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue 5, 19-25 Ekim 2026) içeriğinin dökümü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-26",
+   "son_hareket": "2026-10-26",
    "hareket_sayisi": 0
   }
  ]

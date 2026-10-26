@@ -1,5 +1,5 @@
-# analiz adimi 2026-10-25 07:17 UTC · cikis kodu 0
-denetim token: 21446 girdi / 240 çıktı
-denetim (claude-sonnet-5): 2 iddia, 0 işaretlendi · +$0.045
-analiz: 2026-10-25 · 1 öne çıkan · 2 alan notu · takip: 142 açık (0 hareket), 1 yeni
-token: 44319 girdi / 9587 çıktı · maliyet ≈ $0.507 · model claude-opus-5
+# analiz adimi 2026-10-26 07:25 UTC · cikis kodu 0
+denetim token: 23610 girdi / 388 çıktı
+denetim (claude-sonnet-5): 4 iddia, 0 işaretlendi · +$0.051
+analiz: 2026-10-26 · 3 öne çıkan · 6 alan notu · takip: 145 açık (6 hareket), 3 yeni
+token: 42950 girdi / 12021 çıktı · maliyet ≈ $0.566 · model claude-opus-5
