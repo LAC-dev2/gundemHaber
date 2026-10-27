@@ -1,44 +1,45 @@
 {
- "gun": "2026-10-26",
- "olusturma": "2026-10-26T17:06+00:00",
+ "gun": "2026-10-27",
+ "olusturma": "2026-10-27T07:18+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-26:Fon soruşturmasında eski AKP milletvekili Ertan Aydın ev hap",
+   "id": "alan:2026-10-27:7596 sayılı kanunla tasfiyesine karar verilen yatırım fonlar",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Fon soruşturmasında eski AKP milletvekili Ertan Aydın ev hapsine savcılık itirazı üzerine tutuklandı",
+   "baslik": "7596 sayılı kanunla tasfiyesine karar verilen yatırım fonları için özel geri kazanım usulü kuruldu",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Soruşturmanın iktidar partisi çevresine uzandığını gösteren ilk kayıt bu pencerede geldi; ayrıca merkezin birkaç dosyasında (Ağırel, Daylak, Nakıboğlu) izlediği 'hafif tedbire savcılık itirazı → tutuklama' kalıbı burada da görünüyor. Aynı soruşturmada Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer de gözaltına alınıp tutuklama talebiyle mahkemeye sevk edildi.",
+   "not": "Kanun, SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen ve tasfiyesi tamamlanmamış fonlar için fon malvarlığının geri kazanılmasını, sorumluların şahsi takibini ve pay sahiplerine ödemeyi düzenliyor. Merkezin el koyma, kayyım ve malvarlığı dondurma dosyalarında, ceza soruşturmasına paralel yürüyen idari-mali bir tasfiye rejiminin yasa düzeyine taşınması anlamına geliyor.",
    "kayitlar": [
-    "d3ce4a9693"
+    "67730e474d"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "takip:2026-10-26:toplu:6",
+   "id": "takip:2026-10-27:toplu:7",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "7 takip dosyasında hareket var",
    "alan": "",
-   "not": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözal; Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpa; Erdoğan'ın yurt dışındaki Gülen bağlantılı okullara yönelik kampanya b",
+   "not": "Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpa; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komis; Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması",
    "kayitlar": [
-    "904ede2d22",
-    "904ede2d22",
-    "5c2a9a8d6f",
-    "d3ce4a9693",
-    "0d548d6ef5",
-    "0fa228b09c",
-    "22a6e337d2"
+    "24d915b896",
+    "8f874bfd70",
+    "c5e7db4e2e",
+    "c5e7db4e2e",
+    "bd3e3f20f3",
+    "107183882b",
+    "f381294c13",
+    "107183882b"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-26:12",
+   "id": "saglik:2026-10-27:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Türkiye İnsan Hakları Vakfı - TİHV, İnsan Hakları Ortak Platformu - İHOP, ENNHRI, Anadolu Ajansı, Frontex…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Türkiye İnsan Hakları Vakfı - TİHV, Anadolu Ajansı, Dışişleri Bakanlığı, Frontex, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

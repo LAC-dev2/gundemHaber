@@ -956,7 +956,7 @@
    "neden": "Tasarruf finansman şirketlerine yönelik ceza soruşturmalarının şirket yönetimine el koyma ve malvarlığı tedbirleriyle birlikte yürüyüp yürümediği, merkezin kayyım/dondurma dosyalarıyla doğrudan ilgili. Kayıtta yalnızca gözaltı ve şüpheli sayıları var, tedbir kararı bilgisi yok.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-09-21",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "66a0a60070"
    ],
@@ -966,6 +966,13 @@
      "not": "Kayda göre Katılımevim Tasarruf Finansman AŞ doğrudan operasyonun merkezine alındı; şirket paylarında piyasa dolandırıcılığı iddiasıyla 25 şüpheli hakkında işlem başlatıldı, 15 kişi gözaltına alındı, 10 kişi için yakalama çalışması sürüyor. Gözaltına alınanların kimliği, sevk edildikleri mahkeme ve şirkete yönelik bir tedbir kararı olup olmadığı kayıtta yok.",
      "kayitlar": [
       "66a0a60070"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "27 Ekim tarihli Resmî Gazete'de (sayı 33413) 7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun yayımlandı; kanun SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen ve tasfiyesi tamamlanmamış fonların malvarlığının geri kazanılmasını, sorumluların şahsi takibini ve pay sahiplerine ödemeyi düzenliyor. Kanunun Katılımevim dosyasını kapsayıp kapsamadığı kayıtlarda yazmıyor.",
+     "kayitlar": [
+      "67730e474d"
      ]
     }
    ]
@@ -1318,7 +1325,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1461,6 +1468,13 @@
      "not": "137 bin takipçili @AhmetBeyefendi adlı X hesabı, Ankara 1. Sulh Ceza Hâkimliği'nin 21 Ekim 2026 tarihli ve 2026/15325 sayılı kararıyla 5651 sayılı Kanun md. 8/A kapsamında erişime engellendi. Ekonomi ve sermaye piyasası yorumu yapan hesaplara yönelik seri sürüyor.",
      "kayitlar": [
       "4f236b646d"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "26 Ekim'de 5651 md. 8/A kapsamında en az 31 X hesabı engellendi; engellenenler arasında gazeteciler Birsen Altuntaş ve Erk Acarer var. Kayıt, engelin ekonomi/finans hesapları dışına, doğrudan gazeteci hesaplarına yayıldığını gösteriyor.",
+     "kayitlar": [
+      "c5e7db4e2e"
      ]
     }
    ]
@@ -1818,7 +1832,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-26",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "b290622139"
    ],
@@ -1913,6 +1927,14 @@
      "not": "Nordic Monitor, fon skandalının Erdoğan'ın ailesi ve yakın çevresini ilgilendirdiğini ve muhalefet tahminlerine göre borsa değerlemesinden 100 milyar doları aşkın kayba yol açtığını yazıyor [5c2a9a8d6f]. Haber kaynağın kendi iddiasıdır; erişim engeli kararlarına ilişkin yeni bir karar kayıtlarda yok.",
      "kayitlar": [
       "5c2a9a8d6f"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "MLSA'nın 19-25 Ekim haftalık sansür bülteni, Hazine ve Maliye Bakanı Mehmet Şimşek'e ilişkin altı haberin tek bir mahkeme kararıyla engellendiğini bildiriyor. Bülten ayrıca Yeni Yaşam'ın X hesabının dokuzuncu kez kısıtlandığını aktarıyor.",
+     "kayitlar": [
+      "107183882b",
+      "f381294c13"
      ]
     }
    ]
@@ -2030,7 +2052,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -2141,6 +2163,14 @@
      "not": "İFÖD kaydı, 2026/15325 sayılı kararla engellenen hesaba X tarafından da işlem yapıldığını belirtiyor; kaydın metni kesik olduğundan 'görünmez kılma' tarihinin kararla aynı gün olup olmadığı doğrulanamıyor.",
      "kayitlar": [
       "4f236b646d"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "EngelliWeb kaydına göre 26 Ekim tarihli 31 hesaplık karar henüz X tarafından Türkiye'den görünmez kılınmamışken, aynı gün SYKP Genel Merkezi ve İstanbul İl Örgütü'nün Instagram hesapları hem engellendi hem Instagram tarafından Türkiye'den görünmez kılındı. Platformlar arası uygulama farkı sürüyor.",
+     "kayitlar": [
+      "c5e7db4e2e",
+      "bd3e3f20f3"
      ]
     }
    ]
@@ -3080,7 +3110,7 @@
    "neden": "ATK'nın Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim 2026 tarihli değerlendirmeleri aynı yönde 'cezaevinde kalabilir' sonucuna varmış; infazın ertelenmesi talebinin akıbeti izlenmeli.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-26",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "a167f2a926"
    ],
@@ -3111,6 +3141,14 @@
      "not": "Cross Border Jurists'in 19-25 Ekim bültenin özeti, 'siyasi mahpusun bacağının adli ve tıbbi ihmal nedeniyle kesildiği' ifadesiyle dosyayı haftalık derlemeye taşıdı [0d548d6ef5]. Kayıtta isim ve rapor dökümü yok; başlık düzeyinde bilgi var.",
      "kayitlar": [
       "0d548d6ef5"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "Metris'ten Başakşehir Çam ve Sakura Şehir Hastanesi'ne nakledilen 73 yaşındaki Abdullah Tırpan, 22 Ekim'deki diz altı ampütasyonun ardından 26 Ekim Pazartesi öldü; kayda göre enfeksiyonun yayılması üzerine ikinci ameliyat düşünülmüş, Pazar günü yoğun bakıma alınıp entübe edilmişti. ATK 17 Aralık 2025'te, Tekirdağ Şehir Hastanesi kurulları Mayıs ve Haziran 2026'da, son muayene ise 6 Ekim'de cezaevinde kalmasına engel görmemişti. Takip maddesi rapor zincirinin akıbeti bakımından açık kalıyor.",
+     "kayitlar": [
+      "24d915b896",
+      "8f874bfd70"
      ]
     }
    ]
@@ -3191,7 +3229,7 @@
    "neden": "Genişleme sürecindeki resmî değerlendirmeler, merkezin AİHM ve icra dosyalarındaki bulguların AB düzeyinde nasıl kayda geçtiğini gösteriyor; kayıtta yalnızca sözlü açıklama var, yazılı rapor beklenmeli.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "09aea85b31"
    ],
@@ -3201,6 +3239,13 @@
      "not": "Avrupa Parlamentosu üyesi Kathleen Van Brempt, TR724'te yayımlanan söyleşide AB'nin Türkiye'nin stratejik önemi nedeniyle baskıya verdiği yanıtı yumuşattığını söyledi. Komisyon'un genişleme değerlendirmesine ilişkin yeni bir belge kayıtlarda yok.",
      "kayitlar": [
       "f5c231b3c4"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "Avrupa Parlamentosu Türkiye raportörü Nacho Sánchez Amor, Cumhuriyet'e verdiği söyleşide Komisyon'un yıllık raporunun 28 Ekim'de yayımlanmasının beklendiğini ve geçen yılkinden daha olumsuz bir tablo çizeceğini söyledi. Beyan rapordan önce verilmiş bir öngörüdür, rapor metni elimizde yok.",
+     "kayitlar": [
+      "db91c910e0"
      ]
     }
    ]
@@ -3554,7 +3599,7 @@
    "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-10-26",
+   "son_hareket": "2026-10-27",
    "kayitlar": [
     "db2250c34a",
     "15e176aae1",
@@ -3618,6 +3663,14 @@
      "not": "Halk TV'ye kayyım atanması ve yayının durdurulması, 24 Ekim Cumartesi günü İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşlerinde protestocuların gerekçeleri arasında anıldı; kayıtta Halk TV baskını ve kayyım atanması tekrar aktarılıyor, dosyada yeni bir usul adımı bildirilmiyor [904ede2d22].",
      "kayitlar": [
       "904ede2d22"
+     ]
+    },
+    {
+     "gun": "2026-10-27",
+     "not": "MLSA bülteni, kayyım atanan Halk TV'nin sosyal medya hesaplarına ilişkin kısıtlamaları haftalık dökümüne dahil ediyor; kayıt özet düzeyinde, yeni karar numarası verilmiyor.",
+     "kayitlar": [
+      "107183882b",
+      "f381294c13"
      ]
     }
    ]
@@ -4239,8 +4292,60 @@
     "0d548d6ef5"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t148",
+   "baslik": "7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun'un kapsamı ve uygulaması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Kanun, SPK'nın 17 Eylül 2026 kararlarıyla tasfiyeye hükmedilen fonlarda malvarlığının geri kazanılması ve sorumluların şahsi takibi için özel bir usul kuruyor; merkezin izlediği fon soruşturması ve kayyım/el koyma dosyalarıyla kesişme ihtimali var. Hangi fonları kapsadığı henüz kayıtlardan belli değil.",
+   "acildi": "2026-10-27",
+   "durum": "açık",
+   "son_hareket": "2026-10-27",
+   "kayitlar": [
+    "67730e474d"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t149",
+   "baslik": "1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri ve Google'ın Türkiye temsilciliği kaydı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Google İstanbul Bilgi Teknolojileri Ltd. Şti.'nin ana sözleşmesine Google Play oyun platformu temsilciliğinin eklenmesi, 5651 rejiminin yeni bir içerik alanına yerel temsilcilik yükümlülüğüyle genişlediğini gösteriyor. Erişim engeli ve içerik kaldırma pratiğinin bu alana nasıl taşınacağı izlenmeli.",
+   "acildi": "2026-10-27",
+   "durum": "açık",
+   "son_hareket": "2026-10-27",
+   "kayitlar": [
+    "cb4866c6dc"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t150",
+   "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisinin tutuklanması (Nehir Dizdar, Nevin Tekin)",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Siyasi talep içeren bir pankartın 'tehdit' olarak nitelenip tutuklamaya dayanak yapılması, merkezin izlediği ifade suçları kataloğunda yeni bir nitelendirme biçimi. Yargılamanın seyri ve tutukluluk denetimi izlenmeli.",
+   "acildi": "2026-10-27",
+   "durum": "açık",
+   "son_hareket": "2026-10-27",
+   "kayitlar": [
+    "60ccfbec35"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t151",
+   "baslik": "Memorial İnsan Hakları Merkezi'nden Anna Karetnikova hakkında sürgünde 'aşırıcılık' ve 'yabancı ajan yükümlülüğünden kaçınma' soruşturması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Moskova Lefortovo Savcılığı'nın 26 Ekim'de açıkladığı dosya, yurt dışındaki hak savunucularının gıyabi ceza yargılamasıyla hedeflenmesine örnek; merkezin sınıraşan baskı ve kırmızı bülten dosyalarında benzer kalıpların karşılaştırılması için izlenmeli.",
+   "acildi": "2026-10-27",
+   "durum": "açık",
+   "son_hareket": "2026-10-27",
+   "kayitlar": [
+    "002b23d4f9"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-26T07:25+00:00",
- "acik": 145
+ "guncelleme": "2026-10-27T07:18+00:00",
+ "acik": 149
 }
