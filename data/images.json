@@ -51,6 +51,10 @@
 "checked": "2026-10-04T11:42:54+00:00",
 "img": ""
 },
+"http://fra.europa.eu/en/event/2026/annual-general-meeting-2026-fundamental-rights-platform": {
+"checked": "2026-10-27T10:09:41+00:00",
+"img": ""
+},
 "http://fra.europa.eu/en/event/2026/conference-explore-who-protects-rule-law-when-ai-goes-wrong": {
 "checked": "2026-09-18T19:21:11+00:00",
 "img": ""
@@ -1869,6 +1873,10 @@
 },
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:31554&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-26T17:04:32+00:00",
+"img": ""
+},
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:31569&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-27T10:09:41+00:00",
 "img": ""
 },
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7170&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
@@ -5234,6 +5242,10 @@
 "https://regtechanalyst.com/asic-puts-banks-customer-facing-ai-under-the-microscope/": {
 "checked": "2026-09-30T16:34:33+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Australian-banks-face-ASIC-scrutiny-over-AI-and-lending.jpg"
+},
+"https://regtechanalyst.com/asset-manager-strengthens-aml-controls-with-finscan/": {
+"checked": "2026-10-27T10:09:41+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/wolfgang-weiser-CChgFm_W5c4-unsplash.jpg"
 },
 "https://regtechanalyst.com/asymptote-labs-raises-5-5m-to-tame-unchecked-ai-agents/": {
 "checked": "2026-10-21T20:25:13+00:00",
@@ -12750,6 +12762,10 @@
 "https://www.turkinfo.nl/hollandada-calisamayacak-kadar-hastayim-dedi-hyrox-yarisina-katildi-isinden-oldu/45042": {
 "checked": "2026-09-23T19:55:13+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-calisamayacak-kadar-hastayim-dedi-hyrox-yarisina-katildi-isinden-oldu_6ab40d3903f30_h.png"
+},
+"https://www.turkinfo.nl/hollandada-calisan-indirimlerine-vergi-muafiyeti-kaldirilabilir/45347": {
+"checked": "2026-10-27T10:09:41+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-calisan-indirimlerine-vergi-muafiyeti-kaldirilabilir_6ae072155eff2_h.png"
 },
 "https://www.turkinfo.nl/hollandada-calisanlarin-sayisi-yerinde-sayiyor-85-milyon-kisi-calismiyor/44985": {
 "checked": "2026-09-17T07:44:25+00:00",
