@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-27",
- "olusturma": "2026-10-27T08:33+00:00",
+ "olusturma": "2026-10-27T09:38+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-27:7596 sayılı kanunla tasfiyesine karar verilen yatırım fonlar",
@@ -39,7 +39,7 @@
    "duzey": "yüksek",
    "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Türkiye İnsan Hakları Vakfı - TİHV, Anadolu Ajansı, Frontex, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Türkiye İnsan Hakları Vakfı - TİHV, Frontex, Alomaliye, ESMA, AML Intelligence…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
