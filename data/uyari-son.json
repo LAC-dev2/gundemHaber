@@ -1,45 +1,29 @@
 {
- "gun": "2026-10-27",
- "olusturma": "2026-10-27T21:04+00:00",
+ "gun": "2026-10-28",
+ "olusturma": "2026-10-28T07:55+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-27:7596 sayılı kanunla tasfiyesine karar verilen yatırım fonlar",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "7596 sayılı kanunla tasfiyesine karar verilen yatırım fonları için özel geri kazanım usulü kuruldu",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Kanun, SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen ve tasfiyesi tamamlanmamış fonlar için fon malvarlığının geri kazanılmasını, sorumluların şahsi takibini ve pay sahiplerine ödemeyi düzenliyor. Merkezin el koyma, kayyım ve malvarlığı dondurma dosyalarında, ceza soruşturmasına paralel yürüyen idari-mali bir tasfiye rejiminin yasa düzeyine taşınması anlamına geliyor.",
-   "kayitlar": [
-    "67730e474d"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-10-27:toplu:7",
+   "id": "takip:2026-10-28:toplu:3",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "7 takip dosyasında hareket var",
+   "baslik": "3 takip dosyasında hareket var",
    "alan": "",
-   "not": "Metris Cezaevi'nde tutulan 73 yaşındaki Gülen hükümlüsü Abdullah Tırpa; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komis; Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması",
+   "not": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki ünive; 24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşl",
    "kayitlar": [
-    "24d915b896",
-    "8f874bfd70",
-    "c5e7db4e2e",
-    "c5e7db4e2e",
-    "bd3e3f20f3",
-    "107183882b",
-    "f381294c13",
-    "107183882b"
+    "a3ee825dac",
+    "c7f3529080",
+    "c7f3529080",
+    "397e605837"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-27:10",
+   "id": "saglik:2026-10-28:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Türkiye İnsan Hakları Vakfı - TİHV, Frontex, Alomaliye, ESMA, AML Intelligence…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Türkiye İnsan Hakları Vakfı - TİHV, Anadolu Ajansı, Frontex, Alomaliye, ESMA…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

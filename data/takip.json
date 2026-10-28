@@ -3160,7 +3160,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-24",
+   "son_hareket": "2026-10-28",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -3205,6 +3205,13 @@
      "not": "Çukurova Belediyesi soruşturmasında Başkan Emrah Kozay, selefi Soner Çetin ve 32 kişi tutuklandı, 15 kişi serbest bırakıldı [fd3d9920fa]. 19 Ekim'de jandarma operasyonu ve gözaltı kararı olarak kaydedilen dosya tutuklama aşamasına geçti.",
      "kayitlar": [
       "fd3d9920fa"
+     ]
+    },
+    {
+     "gun": "2026-10-28",
+     "not": "Bakırköy Cumhuriyet Başsavcılığı'nın yürüttüğü yolsuzluk soruşturmasında CHP'li Bakırköy Belediyesi'nde 5 belediye başkan yardımcısı ve 2 meclis üyesi dahil 56 kişi gözaltına alındı [a3ee825dac]. Kayıt gözaltı aşamasını veriyor; tutuklama ya da kayyım kararına ilişkin bilgi yok.",
+     "kayitlar": [
+      "a3ee825dac"
      ]
     }
    ]
@@ -4261,11 +4268,20 @@
    "neden": "Kayıt, gazeteci tutuklamalarına ilişkin örgütlü bir sayım (TGS) ve kitlesel protesto verisi sunuyor; sayının ilerleyen günlerde nasıl güncellendiği ve protestoculara karşı işlem yapılıp yapılmadığı izlenmeli.",
    "acildi": "2026-10-26",
    "durum": "açık",
-   "son_hareket": "2026-10-26",
+   "son_hareket": "2026-10-28",
    "kayitlar": [
     "904ede2d22"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-28",
+     "not": "Sözcü'den iki editörün kısa süreli gözaltısı ve Köklü Değişim yazarı Ahmet Sapa'nın evinden gözaltına alınması, TGS'nin sayımını izleyen günlerde gazetecilere yönelik yeni gözaltı kayıtları ekliyor [c7f3529080][397e605837].",
+     "kayitlar": [
+      "c7f3529080",
+      "397e605837"
+     ]
+    }
+   ]
   },
   {
    "id": "t146",
@@ -4326,11 +4342,19 @@
    "neden": "Siyasi talep içeren bir pankartın 'tehdit' olarak nitelenip tutuklamaya dayanak yapılması, merkezin izlediği ifade suçları kataloğunda yeni bir nitelendirme biçimi. Yargılamanın seyri ve tutukluluk denetimi izlenmeli.",
    "acildi": "2026-10-27",
    "durum": "açık",
-   "son_hareket": "2026-10-27",
+   "son_hareket": "2026-10-28",
    "kayitlar": [
     "60ccfbec35"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-28",
+     "not": "Tutuklanan iki öğrenciyi lise öğrencisi olarak gösteren haber nedeniyle Sözcü'nün internet sitesi genel yayın yönetmeni Ercüment İşleyen ve Tuğba Nu... adlı editör kısa süreli gözaltına alındı [c7f3529080]. Dosya, öğrencilerin tutukluluğundan haberin kendisine yönelen bir soruşturmaya genişlemiş görünüyor.",
+     "kayitlar": [
+      "c7f3529080"
+     ]
+    }
+   ]
   },
   {
    "id": "t151",
@@ -4344,8 +4368,60 @@
     "002b23d4f9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t152",
+   "baslik": "Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin hazırladığı AİHM başvurusu ve iç hukuk yollarının tüketilmesi sorunu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Başvurunun Yargıtay incelemesi sonuçlanmadan yapılacağı bildiriliyor; md. 35/1 bakımından kabul edilebilirlik tartışması doğacak. Merkezin siyasi parti içi yargı müdahalesi dosyaları açısından usul seyri izlenmeli.",
+   "acildi": "2026-10-28",
+   "durum": "açık",
+   "son_hareket": "2026-10-28",
+   "kayitlar": [
+    "8f5b62807e"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t153",
+   "baslik": "Türk polisinin Norveç, Finlandiya ve Danimarka'daki gösterilere katılanları profilleyip bilgileri yurt içi ceza dosyalarına aktarması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Yurt dışındaki barışçıl gösteri katılımının Türkiye'deki derdest yargılamalara delil olarak aktarıldığı iddiası, merkezin sınıraşan baskı dosyalarında belge düzeyinde bir örnek oluşturuyor. İlgili ülkelerin ve veri koruma makamlarının tepkisi izlenmeli.",
+   "acildi": "2026-10-28",
+   "durum": "açık",
+   "son_hareket": "2026-10-28",
+   "kayitlar": [
+    "4e53c1dfe9"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t154",
+   "baslik": "İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat ve anayasa hukuku profesörü hakkında başlatılan ceza soruşturması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Soruşturmanın konusu, AYM kararlarına uymayan ve tutuklama kararı veren hâkimlere yönelik meslek içi eleştiri; avukatların mesleki beyan bağışıklığı tartışmasına Türkiye ayağı ekliyor.",
+   "acildi": "2026-10-28",
+   "durum": "açık",
+   "son_hareket": "2026-10-28",
+   "kayitlar": [
+    "5a76f2f83d"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t155",
+   "baslik": "Adana Bölge Adliye Mahkemesi'nin 22 Ekim 2026 kararıyla 2015 barış mitingi çağrısı yürüyüşü nedeniyle 10 sendikacı ve aktivistin hapis cezasının onanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "On bir yıl önceki bir gösteri nedeniyle verilen cezaların istinafta onanması, toplanma özgürlüğü temelli mahkûmiyetlerde kesinleşme ve olası AİHM başvurusu aşamasını gündeme getiriyor.",
+   "acildi": "2026-10-28",
+   "durum": "açık",
+   "son_hareket": "2026-10-28",
+   "kayitlar": [
+    "868b1b7a77"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-27T07:18+00:00",
- "acik": 149
+ "guncelleme": "2026-10-28T07:55+00:00",
+ "acik": 153
 }

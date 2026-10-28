@@ -1,103 +1,38 @@
 {
  "sureklilik": [
   {
-   "id": "t91",
+   "id": "t92",
    "durum": "hareket var",
-   "not": "Metris'ten Başakşehir Çam ve Sakura Şehir Hastanesi'ne nakledilen 73 yaşındaki Abdullah Tırpan, 22 Ekim'deki diz altı ampütasyonun ardından 26 Ekim Pazartesi öldü; kayda göre enfeksiyonun yayılması üzerine ikinci ameliyat düşünülmüş, Pazar günü yoğun bakıma alınıp entübe edilmişti. ATK 17 Aralık 2025'te, Tekirdağ Şehir Hastanesi kurulları Mayıs ve Haziran 2026'da, son muayene ise 6 Ekim'de cezaevinde kalmasına engel görmemişti. Takip maddesi rapor zincirinin akıbeti bakımından açık kalıyor.",
+   "not": "Bakırköy Cumhuriyet Başsavcılığı'nın yürüttüğü yolsuzluk soruşturmasında CHP'li Bakırköy Belediyesi'nde 5 belediye başkan yardımcısı ve 2 meclis üyesi dahil 56 kişi gözaltına alındı [a3ee825dac]. Kayıt gözaltı aşamasını veriyor; tutuklama ya da kayyım kararına ilişkin bilgi yok.",
    "kayitlar": [
-    "24d915b896",
-    "8f874bfd70"
+    "a3ee825dac"
    ]
   },
   {
-   "id": "t33",
+   "id": "t150",
    "durum": "hareket var",
-   "not": "26 Ekim'de 5651 md. 8/A kapsamında en az 31 X hesabı engellendi; engellenenler arasında gazeteciler Birsen Altuntaş ve Erk Acarer var. Kayıt, engelin ekonomi/finans hesapları dışına, doğrudan gazeteci hesaplarına yayıldığını gösteriyor.",
+   "not": "Tutuklanan iki öğrenciyi lise öğrencisi olarak gösteren haber nedeniyle Sözcü'nün internet sitesi genel yayın yönetmeni Ercüment İşleyen ve Tuğba Nu... adlı editör kısa süreli gözaltına alındı [c7f3529080]. Dosya, öğrencilerin tutukluluğundan haberin kendisine yönelen bir soruşturmaya genişlemiş görünüyor.",
    "kayitlar": [
-    "c5e7db4e2e"
+    "c7f3529080"
    ]
-  },
-  {
-   "id": "t47",
-   "durum": "hareket var",
-   "not": "EngelliWeb kaydına göre 26 Ekim tarihli 31 hesaplık karar henüz X tarafından Türkiye'den görünmez kılınmamışken, aynı gün SYKP Genel Merkezi ve İstanbul İl Örgütü'nün Instagram hesapları hem engellendi hem Instagram tarafından Türkiye'den görünmez kılındı. Platformlar arası uygulama farkı sürüyor.",
-   "kayitlar": [
-    "c5e7db4e2e",
-    "bd3e3f20f3"
-   ]
-  },
-  {
-   "id": "t42",
-   "durum": "hareket var",
-   "not": "MLSA'nın 19-25 Ekim haftalık sansür bülteni, Hazine ve Maliye Bakanı Mehmet Şimşek'e ilişkin altı haberin tek bir mahkeme kararıyla engellendiğini bildiriyor. Bülten ayrıca Yeni Yaşam'ın X hesabının dokuzuncu kez kısıtlandığını aktarıyor.",
-   "kayitlar": [
-    "107183882b",
-    "f381294c13"
-   ]
-  },
-  {
-   "id": "t109",
-   "durum": "hareket var",
-   "not": "MLSA bülteni, kayyım atanan Halk TV'nin sosyal medya hesaplarına ilişkin kısıtlamaları haftalık dökümüne dahil ediyor; kayıt özet düzeyinde, yeni karar numarası verilmiyor.",
-   "kayitlar": [
-    "107183882b",
-    "f381294c13"
-   ]
-  },
-  {
-   "id": "t94",
-   "durum": "hareket var",
-   "not": "Avrupa Parlamentosu Türkiye raportörü Nacho Sánchez Amor, Cumhuriyet'e verdiği söyleşide Komisyon'un yıllık raporunun 28 Ekim'de yayımlanmasının beklendiğini ve geçen yılkinden daha olumsuz bir tablo çizeceğini söyledi. Beyan rapordan önce verilmiş bir öngörüdür, rapor metni elimizde yok.",
-   "kayitlar": [
-    "db91c910e0"
-   ]
-  },
-  {
-   "id": "t23",
-   "durum": "hareket var",
-   "not": "27 Ekim tarihli Resmî Gazete'de (sayı 33413) 7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun yayımlandı; kanun SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen ve tasfiyesi tamamlanmamış fonların malvarlığının geri kazanılmasını, sorumluların şahsi takibini ve pay sahiplerine ödemeyi düzenliyor. Kanunun Katılımevim dosyasını kapsayıp kapsamadığı kayıtlarda yazmıyor.",
-   "kayitlar": [
-    "67730e474d"
-   ]
-  },
-  {
-   "id": "t146",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
   },
   {
    "id": "t145",
+   "durum": "hareket var",
+   "not": "Sözcü'den iki editörün kısa süreli gözaltısı ve Köklü Değişim yazarı Ahmet Sapa'nın evinden gözaltına alınması, TGS'nin sayımını izleyen günlerde gazetecilere yönelik yeni gözaltı kayıtları ekliyor [c7f3529080][397e605837].",
+   "kayitlar": [
+    "c7f3529080",
+    "397e605837"
+   ]
+  },
+  {
+   "id": "t31",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t83",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t64",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t129",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t96",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t144",
+   "id": "t107",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -109,31 +44,79 @@
    "kayitlar": []
   },
   {
-   "id": "t136",
+   "id": "t94",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t139",
+   "id": "t33",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t40",
+   "id": "t42",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t31",
+   "id": "t47",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t147",
+   "id": "t109",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t148",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t151",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t91",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t23",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t146",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t143",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t54",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t137",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -145,13 +128,7 @@
    "kayitlar": []
   },
   {
-   "id": "t92",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t60",
+   "id": "t131",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -163,7 +140,49 @@
    "kayitlar": []
   },
   {
-   "id": "t120",
+   "id": "t136",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t56",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t71",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t4",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t12",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t144",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t147",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -171,401 +190,152 @@
  ],
  "yeni_takip": [
   {
-   "baslik": "7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun'un kapsamı ve uygulaması",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden": "Kanun, SPK'nın 17 Eylül 2026 kararlarıyla tasfiyeye hükmedilen fonlarda malvarlığının geri kazanılması ve sorumluların şahsi takibi için özel bir usul kuruyor; merkezin izlediği fon soruşturması ve kayyım/el koyma dosyalarıyla kesişme ihtimali var. Hangi fonları kapsadığı henüz kayıtlardan belli değil.",
+   "baslik": "Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin hazırladığı AİHM başvurusu ve iç hukuk yollarının tüketilmesi sorunu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Başvurunun Yargıtay incelemesi sonuçlanmadan yapılacağı bildiriliyor; md. 35/1 bakımından kabul edilebilirlik tartışması doğacak. Merkezin siyasi parti içi yargı müdahalesi dosyaları açısından usul seyri izlenmeli.",
    "kayitlar": [
-    "67730e474d"
+    "8f5b62807e"
    ]
   },
   {
-   "baslik": "1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri ve Google'ın Türkiye temsilciliği kaydı",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Google İstanbul Bilgi Teknolojileri Ltd. Şti.'nin ana sözleşmesine Google Play oyun platformu temsilciliğinin eklenmesi, 5651 rejiminin yeni bir içerik alanına yerel temsilcilik yükümlülüğüyle genişlediğini gösteriyor. Erişim engeli ve içerik kaldırma pratiğinin bu alana nasıl taşınacağı izlenmeli.",
-   "kayitlar": [
-    "cb4866c6dc"
-   ]
-  },
-  {
-   "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisinin tutuklanması (Nehir Dizdar, Nevin Tekin)",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Siyasi talep içeren bir pankartın 'tehdit' olarak nitelenip tutuklamaya dayanak yapılması, merkezin izlediği ifade suçları kataloğunda yeni bir nitelendirme biçimi. Yargılamanın seyri ve tutukluluk denetimi izlenmeli.",
-   "kayitlar": [
-    "60ccfbec35"
-   ]
-  },
-  {
-   "baslik": "Memorial İnsan Hakları Merkezi'nden Anna Karetnikova hakkında sürgünde 'aşırıcılık' ve 'yabancı ajan yükümlülüğünden kaçınma' soruşturması",
+   "baslik": "Türk polisinin Norveç, Finlandiya ve Danimarka'daki gösterilere katılanları profilleyip bilgileri yurt içi ceza dosyalarına aktarması",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Moskova Lefortovo Savcılığı'nın 26 Ekim'de açıkladığı dosya, yurt dışındaki hak savunucularının gıyabi ceza yargılamasıyla hedeflenmesine örnek; merkezin sınıraşan baskı ve kırmızı bülten dosyalarında benzer kalıpların karşılaştırılması için izlenmeli.",
+   "neden": "Yurt dışındaki barışçıl gösteri katılımının Türkiye'deki derdest yargılamalara delil olarak aktarıldığı iddiası, merkezin sınıraşan baskı dosyalarında belge düzeyinde bir örnek oluşturuyor. İlgili ülkelerin ve veri koruma makamlarının tepkisi izlenmeli.",
    "kayitlar": [
-    "002b23d4f9"
+    "4e53c1dfe9"
+   ]
+  },
+  {
+   "baslik": "İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat ve anayasa hukuku profesörü hakkında başlatılan ceza soruşturması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Soruşturmanın konusu, AYM kararlarına uymayan ve tutuklama kararı veren hâkimlere yönelik meslek içi eleştiri; avukatların mesleki beyan bağışıklığı tartışmasına Türkiye ayağı ekliyor.",
+   "kayitlar": [
+    "5a76f2f83d"
+   ]
+  },
+  {
+   "baslik": "Adana Bölge Adliye Mahkemesi'nin 22 Ekim 2026 kararıyla 2015 barış mitingi çağrısı yürüyüşü nedeniyle 10 sendikacı ve aktivistin hapis cezasının onanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "On bir yıl önceki bir gösteri nedeniyle verilen cezaların istinafta onanması, toplanma özgürlüğü temelli mahkûmiyetlerde kesinleşme ve olası AİHM başvurusu aşamasını gündeme getiriyor.",
+   "kayitlar": [
+    "868b1b7a77"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "Abdullah Tırpan, ampütasyondan dört gün sonra hastanede öldü",
- "brifing": "Pencerenin merkez dosyalarına değen ana gelişmesi, Metris Cezaevi'nden nakledildiği hastanede ölen 73 yaşındaki Gülen hükümlüsü Abdullah Tırpan'ın ölümü; dosya 24 Ekim'de ampütasyon aşamasında kaydedilmişti, bugün ATK ve sağlık kurulu raporlarının tamamı geriye dönük olarak tartışmaya açılıyor [24d915b896][8f874bfd70]. İfade özgürlüğü alanında 26 Ekim'de en az 31 X hesabına ve iki parti Instagram hesabına 8/A engeli uygulandı; MLSA'nın haftalık dökümü maliye bakanına ilişkin altı haberin tek kararla engellendiğini bildiriyor [c5e7db4e2e][bd3e3f20f3][107183882b]. Resmî Gazete'de yayımlanan 7596 sayılı kanun, tasfiyesine karar verilen yatırım fonlarında malvarlığı geri kazanımı ve sorumluların şahsi takibi için özel bir usul kuruyor [67730e474d]. AİHM ve Bakanlar Komitesi dosyalarında bu pencerede yeni kayıt gelmedi; icra takvimleri önceki brifingteki düzeyde. Statewatch'ın yayımladığı AB göç-güvenlik belge seti ile üçüncü ülkelere ilişkin kayıtlar başlık düzeyinde kaldı, içerik değerlendirmesi yapılamıyor.",
- "one_cikanlar": [
-  {
-   "baslik": "Abdullah Tırpan cezaevi nakli sonrası hastanede öldü; dört ayrı rapor 'cezaevinde kalabilir' demişti",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "Merkezin 10 Ekim'den beri izlediği dosya ölümle sonuçlandı; sağlık nedeniyle infazın ertelenmesi taleplerinin reddinde dayanak yapılan ATK ve hastane kurulu raporlarının zinciri artık tamamlanmış bir vaka olarak belgelenebilir durumda. Aynı rapor pratiği merkezin İbrahim Halil Al ve Mehmet Daylak dosyalarında da kayıtlıydı. Ailenin yoğun bakım bilgisini e-Nabız üzerinden öğrendiği beyanı, bildirim yükümlülüğü bakımından ayrı bir başlık.",
-   "yenilik": "24 Ekim'de ampütasyon kaydedilmişti; bugün ölüm, yoğun bakım/entübasyon ve 6 Ekim tarihli son 'engel yok' muayenesi bilgisi eklendi.",
-   "ayrintilar": [
-    "Ölüm 26 Ekim Pazartesi, Başakşehir Çam ve Sakura Şehir Hastanesi; Metris'ten geçen hafta nakledilmişti [24d915b896]",
-    "Sol bacak 22 Ekim'de ileri gangren nedeniyle diz altından ampüte edildi; enfeksiyonun yayılması üzerine ikinci ameliyat düşünüldü [24d915b896]",
-    "ATK 17 Aralık 2025: cezaevinde kalabilir [24d915b896]",
-    "Tekirdağ Şehir Hastanesi kurulları Mayıs ve Haziran 2026'da aynı sonuca vardı; Haziran raporu günlük işlerini yardımsız yürütebileceğini belirtti [24d915b896]",
-    "6 Ekim 2026 tarihli muayenede de cezaevinde kalmasına engel görülmedi [24d915b896]",
-    "Bağımsız milletvekili Mustafa Yeneroğlu 9 Ekim'de acil müdahale olmazsa ölebileceği uyarısını yaptı [24d915b896]",
-    "Kızı Esra Tırpan Yakut, yoğun bakıma alındığını e-Nabız üzerinden öğrendiklerini söyledi [24d915b896]"
-   ],
-   "mekanizma": "İnfazın sağlık nedeniyle ertelenmesi; ATK raporu",
-   "karsi_okuma": "Kayıtlar ölüm nedeni ile rapor zinciri arasında resmî olarak kurulmuş bir nedensellik ya da açılmış bir soruşturma göstermiyor; aktarım TR724 ve SCF üzerinden, adli bir tespit raporu elimizde yok.",
-   "kayitlar": [
-    "24d915b896",
-    "8f874bfd70"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "26 Ekim'de en az 31 X hesabına ve iki SYKP Instagram hesabına 5651 md. 8/A engeli",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "8/A kapsamındaki toplu engelleme pratiği, merkezin ekonomi/finans hesapları başlığı altında izlediği çizgiden çıkıp doğrudan gazeteci ve siyasi parti hesaplarına genişliyor. X ile Instagram'ın uygulama hızı arasındaki fark aynı gün içinde gözlemlenebiliyor: X kararı henüz uygulamamışken Instagram hesapları Türkiye'den görünmez kılınmış durumda.",
-   "yenilik": "Yeni tarihli (26 Ekim) karar ve yeni sayı: en az 31 X hesabı; ayrıca iki parti Instagram hesabında platformun engeli uyguladığı kaydedildi.",
-   "ayrintilar": [
-    "En az 31 X hesabı, 5651 md. 8/A kapsamında engellendi [c5e7db4e2e]",
-    "Engellenenler arasında gazeteciler Birsen Altuntaş ve Erk Acarer var [c5e7db4e2e]",
-    "Hesaplar kayıt anında X tarafından Türkiye'den görünmez kılınmamıştı [c5e7db4e2e]",
-    "SYKP Genel Merkezi ve SYKP İstanbul İl Örgütü Instagram hesapları engellendi ve Instagram tarafından Türkiye'den görünmez kılındı [bd3e3f20f3]"
-   ],
-   "mekanizma": "5651 sayılı Kanun md. 8/A",
-   "karsi_okuma": "Kayıtlar kararı veren hâkimliği, karar numarasını ve engel gerekçesini vermiyor; 31 hesabın tamamının gazeteci ya da siyasi hesap olduğu da doğrulanmış değil.",
-   "kayitlar": [
-    "c5e7db4e2e",
-    "bd3e3f20f3"
-   ],
-   "guven": "yüksek"
-  },
-  {
-   "baslik": "7596 sayılı kanunla tasfiyesine karar verilen yatırım fonları için özel geri kazanım usulü kuruldu",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "neden_onemli": "Kanun, SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen ve tasfiyesi tamamlanmamış fonlar için fon malvarlığının geri kazanılmasını, sorumluların şahsi takibini ve pay sahiplerine ödemeyi düzenliyor. Merkezin el koyma, kayyım ve malvarlığı dondurma dosyalarında, ceza soruşturmasına paralel yürüyen idari-mali bir tasfiye rejiminin yasa düzeyine taşınması anlamına geliyor.",
-   "yenilik": "İlk kez: kanun 27 Ekim 2026 tarihli ve 33413 sayılı Resmî Gazete'de yayımlandı.",
-   "ayrintilar": [
-    "7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun, 27.10.2026 tarihli ve 33413 sayılı Resmî Gazete'de yayımlandı [67730e474d]",
-    "Kapsam: SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen ve tasfiyesi henüz tamamlanmamış yatırım fonları [67730e474d]",
-    "Kanun fon malvarlığının geri kazanılmasını, sorumluların şahsi takibini ve fon pay sahiplerine ödeme yapılmasını düzenliyor [67730e474d]"
-   ],
-   "mekanizma": "7596 sayılı Kanun; SPK tasfiye kararı",
-   "karsi_okuma": "Elimizdeki kayıt Resmî Gazete özeti; kanun metni, kapsadığı fonların listesi ve merkezin izlediği fon soruşturmasıyla bağlantısı doğrulanmış değil.",
-   "kayitlar": [
-    "67730e474d"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "MLSA haftalık bülteni: maliye bakanına ilişkin altı habere tek kararla engel, Yeni Yaşam'ın X hesabına dokuzuncu kısıtlama",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Merkezin ayrı ayrı izlediği erişim engeli dosyalarını (fon krizi haberleri, Halk TV, gazete hesapları) haftalık bir sayımda birleştiren ikincil kaynak verisi. Tek kararla altı haberin engellenmesi, toplu engel kararlarının bakan düzeyindeki kişilere ilişkin haberlerde sürdüğünü gösteriyor.",
-   "yenilik": "Yeni haftalık döküm (19-25 Ekim): Şimşek haberlerine ilişkin altı engel ve Yeni Yaşam'da dokuzuncu kısıtlama sayısı ilk kez bu bültenle geliyor.",
-   "ayrintilar": [
-    "Hazine ve Maliye Bakanı Mehmet Şimşek'e ilişkin altı haber tek bir mahkeme kararıyla engellendi [107183882b]",
-    "Yeni Yaşam gazetesinin X hesabı dokuzuncu kez kısıtlandı [107183882b]",
-    "Kayyım atanan Halk TV'nin sosyal medya hesapları bültende yer alıyor [f381294c13]"
-   ],
-   "mekanizma": "Erişim engeli kararı; 5651 rejimi",
-   "karsi_okuma": "Bülten özet düzeyinde; karar numaraları, hâkimlikler ve engellenen haberlerin içerikleri kayıtta yok.",
-   "kayitlar": [
-    "107183882b",
-    "f381294c13"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "AP Türkiye raportörü: Komisyon'un 28 Ekim'de beklenen raporu geçen yıldan daha olumsuz olacak",
-   "alan": "Belçika ve AB mevzuatı",
-   "neden_onemli": "Merkezin genişleme değerlendirmesi dosyasında rapor tarihini ve beklenen yönü veren ilk somut kayıt. Rapor metni, erişim engelleri, kayyım uygulamaları ve yargı bağımsızlığı başlıklarında merkezin izlediği vakalarla karşılaştırılabilir bir referans oluşturacak.",
-   "yenilik": "İlk kez tarih veriliyor: rapor 28 Ekim'de bekleniyor; raportör beyanı 26 Ekim'de yayımlandı.",
-   "ayrintilar": [
-    "Nacho Sánchez Amor (Avrupa Parlamentosu Türkiye raportörü), Cumhuriyet'e verdiği söyleşide konuştu; söyleşi Pazartesi yayımlandı [db91c910e0]",
-    "Komisyon'un yıllık raporunun 28 Ekim'de yayımlanmasının beklendiği belirtildi [db91c910e0]",
-    "Raportör muhalefete yönelik baskı ve temel özgürlüklerdeki kısıtlamaları gerekçe gösterdi [db91c910e0]"
-   ],
-   "mekanizma": "AB genişleme yıllık raporu",
-   "karsi_okuma": "Bu bir raportör öngörüsüdür, Komisyon metni değil; raporun içeriği ve yayım tarihi teyit edilmiş sayılmaz.",
-   "kayitlar": [
-    "db91c910e0"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisi tutuklandı",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "İstifa talebi içeren bir pankartın bakana 'tehdit' olarak nitelenmesi ve tutuklama tedbirine dayanak yapılması, merkezin izlediği ifade temelli tutuklama kataloğuna yeni bir nitelendirme ekliyor. Öğrenci dosyalarında tutukluluğun eğitim hakkına etkisi daha önce Nuda Kartal dosyasında kaydedilmişti.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "Galatasaray Üniversitesi siyaset bilimi öğrencisi Nehir Dizdar ve İstanbul Üniversitesi öğrencisi Nevin Tekin tutuklandı [60ccfbec35]",
-    "İsnat: Milli Eğitim Bakanı Yusuf Tekin'in istifasını isteyen pankartla tehdit [60ccfbec35]"
-   ],
-   "mekanizma": "Tutuklama tedbiri; tehdit isnadı",
-   "karsi_okuma": "Kayıt yalnızca Türk medyasına atıfla özet düzeyinde; mahkeme, dosya numarası ve tutuklama gerekçesinin metni yok.",
-   "kayitlar": [
-    "60ccfbec35"
-   ],
-   "guven": "orta"
-  }
- ],
- "alan_notlari": [
-  {
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "durum": "hareketli",
-   "not": "Abdullah Tırpan'ın ölümü pencerenin ana kaydı; iki kaynak aynı gelişmeyi veriyor [24d915b896][8f874bfd70]. Ayrıca Rusya'da Memorial'dan sürgündeki Anna Karetnikova hakkında gıyabi 'aşırıcılık' ve 'yabancı ajan' soruşturması açıklandı; bu, hak savunucularının yurt dışındayken ceza yargılamasıyla hedeflenmesine dair karşılaştırılabilir bir örnek [002b23d4f9].",
-   "kayitlar": [
-    "24d915b896",
-    "8f874bfd70",
-    "002b23d4f9"
-   ]
-  },
-  {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "26 Ekim'de en az 31 X hesabı ve iki SYKP Instagram hesabı 8/A kapsamında engellendi [c5e7db4e2e][bd3e3f20f3]; MLSA haftalık bülteni Şimşek haberlerine tek kararla altı engel ve Yeni Yaşam'a dokuzuncu kısıtlamayı bildiriyor [107183882b]. Pankart nedeniyle iki öğrenci tutuklandı [60ccfbec35]. Google'ın Türkiye şirketi, 1 Kasım'da yürürlüğe girecek 5651 oyun platformu hükümleri kapsamında Google Play oyun platformu temsilciliğini faaliyet alanına ekledi [cb4866c6dc]. Türkiye dışı kayıtlar: Mısır'da Mada Masr genel yayın yönetmeni Lina Attalah'ın lisanssız site işletme isnadıyla yargılanması [fe5cf59319].",
-   "kayitlar": [
-    "c5e7db4e2e",
-    "bd3e3f20f3",
-    "107183882b",
-    "f381294c13",
-    "60ccfbec35",
-    "cb4866c6dc",
-    "fe5cf59319"
-   ]
-  },
-  {
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "durum": "hareketli",
-   "not": "7596 sayılı kanunla tasfiyesine karar verilen yatırım fonlarında malvarlığı geri kazanımı ve sorumluların şahsi takibi için özel usul getirildi [67730e474d]. ARTICLE 19 ayrıca ödeme platformları üzerinden yürütülen finansal sınıraşan baskıya karşı aktivistlere yönelik bir el kitabı yayımladı; kayıt başlık ve özet düzeyinde [c1ba309e8b].",
-   "kayitlar": [
-    "67730e474d",
-    "c1ba309e8b"
-   ]
-  },
-  {
-   "alan": "Belçika ve AB mevzuatı",
-   "durum": "olağan",
-   "not": "AP raportörü Komisyon'un Türkiye raporunun 28 Ekim'de ve daha olumsuz bir içerikle beklendiğini söyledi [db91c910e0]. Almanya'da Dernekler Kanunu'nda 'yabancı dernekleri'ne ilişkin özel kuralların sıkılaştırılmasına dair tasarı Bundestag'da görüşülüyor; kayıt akademik yorum düzeyinde [302639ba3d]. Fransa'da protestoculara üçüncü kişilerin verdiği zararın ödetilmesini öngören tasarı Senato'da görüşülüyor [c9788a256b].",
-   "kayitlar": [
-    "db91c910e0",
-    "302639ba3d",
-    "c9788a256b"
-   ]
-  },
-  {
-   "alan": "İade, adli yardım ve iltica",
-   "durum": "olağan",
-   "not": "Rechtbank Den Haag'ın NL26.4815 sayılı kararı, bakanlığın iltica başvurusunda süresinde karar vermemesine karşı açılan davada verilen hükme itirazı (verzet) konu alıyor; kayıt yalnızca özet düzeyinde [16e9341df2]. Statewatch, Frontex-Europol çalışma düzenlemesi, MOCADEM çalışma yöntemleri, Lübnan'la işbirliği, EIBM politika döngüsü değerlendirmesi ve 2026/2027 Frontex risk analizi sunumu dahil bir AB göç-güvenlik belge seti yayımladı; hepsi başlık düzeyinde, içerik değerlendirmesi yapılamıyor [17a56d03e1][55331c17ea][b901ee3c32][5a9a7b1073][c855177751][87ea501c79][e1c069f7d7][bd3c92ef91][6b1983530c][d43a845238].",
-   "kayitlar": [
-    "16e9341df2",
-    "17a56d03e1",
-    "55331c17ea",
-    "b901ee3c32",
-    "5a9a7b1073",
-    "c855177751",
-    "87ea501c79",
-    "e1c069f7d7",
-    "bd3c92ef91",
-    "6b1983530c",
-    "d43a845238"
-   ]
-  },
-  {
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "durum": "olağan",
-   "not": "27 Ekim tarihli Resmî Gazete'de (sayı 33413) altı madde özetlendi; merkez açısından ilgili olan 7596 sayılı kanun [67730e474d]. 26 Ekim tarihli 'Yargı Harçları' kaydı yalnızca başlık düzeyinde, içeriği belirlenemedi [673dd445f6].",
-   "kayitlar": [
-    "67730e474d",
-    "673dd445f6"
-   ]
-  },
-  {
-   "alan": "Avukat ve yargıç hakları",
-   "durum": "olağan",
-   "not": "Kolombiya'da CAJAR avukatları Yessika Hoyos Morales ve Alirio Uribe ile üç MOVICE üyesine 18 Ekim'de ölüm tehdidi mesajı gönderildiği bildirildi [737c26b92b]. MEDEL, 21-23 Ekim'deki Juezas y Jueces para la Democracia kongresinde ICC'ye yönelik yaptırımları ele aldı; kayıt özet düzeyinde [beee4e2b08].",
-   "kayitlar": [
-    "737c26b92b",
-    "beee4e2b08"
-   ]
-  },
-  {
-   "alan": "Sivil toplum alanı",
-   "durum": "olağan",
-   "not": "CIVICUS Monitor'ün Türkiye akışında 'koşullu tahliyelere yeni tutuklamaların eşlik ettiği' başlıklı bir güncelleme yayımlandı; kayıt yalnızca başlık düzeyinde olduğundan hangi vakaları kapsadığı belirlenemiyor [68fcd18766].",
-   "kayitlar": [
-    "68fcd18766"
-   ]
-  }
- ],
+ "baslik": "Nordic Monitor: Türk polisi Norveç, Finlandiya ve Danimarka'daki gösterileri izledi",
+ "brifing": "Pencerenin merkez dosyaları açısından en ağırlıklı kaydı, Türk polisinin üç İskandinav ülkesindeki barışçıl gösterileri izleyip katılımcı bilgilerini Türkiye'deki ceza dosyalarına aktardığı iddiası; iddia tarihli ve imzalı iki polis belgesine dayandırılıyor [4e53c1dfe9]. İkinci başlık, Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin Yargıtay kararını beklemeden AİHM'e başvuru hazırlığı [8f5b62807e]. İfade özgürlüğü alanında gün yoğun: Sözcü'den iki editörün, bir köşe yazarının ve maden kazasında oğlunu kaybeden bir babanın ifadeye çağrılması ya da gözaltına alınması aynı pencereye düşüyor [c7f3529080][397e605837][e0072f22ed]. Bakırköy Belediyesi'nde 56 gözaltı, CHP'li belediyelere yönelik soruşturma hattını sürdürüyor [a3ee825dac]. Bu pencerede AİHM karar metni gelmedi; birincil belge olarak yalnızca başlık düzeyinde Resmî Gazete ve Danıştay kayıtları var [3c6d62814b][15404c9854].",
+ "one_cikanlar": [],
+ "alan_notlari": [],
  "dosya_derinlesmesi": [],
- "kronoloji": [
-  {
-   "tarih": "2025-12-17",
-   "adim": "Adli Tıp Kurumu, Abdullah Tırpan'ın cezasını çekmeye devam edebileceği sonucuna vardı.",
-   "kayitlar": [
-    "24d915b896"
-   ]
-  },
-  {
-   "tarih": "2026-05 / 2026-06",
-   "adim": "Tekirdağ Şehir Hastanesi sağlık kurulları aynı yönde rapor verdi; Haziran raporu kronik hastalıkları saydı ancak günlük işlerini yardımsız yürütebileceğini ve infazın ertelenmesinin gerekmediğini belirtti.",
-   "kayitlar": [
-    "24d915b896"
-   ]
-  },
-  {
-   "tarih": "2026-10-06",
-   "adim": "Yeni bir muayenede de cezaevinde kalmasına tıbbi engel bulunmadığı bildirildi.",
-   "kayitlar": [
-    "24d915b896"
-   ]
-  },
-  {
-   "tarih": "2026-10-09",
-   "adim": "Metris'te ziyaret eden bağımsız milletvekili Mustafa Yeneroğlu, ileri gangren ve açık yaraları aktararak acil müdahale olmazsa ölebileceği uyarısında bulundu.",
-   "kayitlar": [
-    "24d915b896"
-   ]
-  },
-  {
-   "tarih": "2026-10-22",
-   "adim": "Sol bacağı ileri gangren nedeniyle diz altından ampüte edildi; enfeksiyonun yayılması üzerine ikinci ameliyat gündeme geldi.",
-   "kayitlar": [
-    "24d915b896"
-   ]
-  },
-  {
-   "tarih": "2026-10-25",
-   "adim": "Durumu ağırlaşarak yoğun bakıma alındı ve ventilatöre bağlandı; ailesi nakli e-Nabız kayıtlarından öğrendiğini açıkladı.",
-   "kayitlar": [
-    "24d915b896"
-   ]
-  },
-  {
-   "tarih": "2026-10-26",
-   "adim": "Başakşehir Çam ve Sakura Şehir Hastanesi'nde öldü.",
-   "kayitlar": [
-    "24d915b896",
-    "8f874bfd70"
-   ]
-  }
- ],
+ "kronoloji": [],
  "izlenecekler": [
-  "Abdullah Tırpan'ın ölümü sonrası ATK ve hastane sağlık kurulu raporlarına ilişkin herhangi bir idari ya da cezai inceleme açılıp açılmadığı",
-  "28 Ekim'de beklenen AB Komisyonu Türkiye raporunun metni ve erişim engeli/kayyım başlıklarındaki bulguları",
-  "7596 sayılı kanunun kapsadığı fonların listesi ve kanunun devam eden fon ceza soruşturmalarıyla ilişkisi",
-  "26 Ekim tarihli 31 hesaplık 8/A kararının X tarafından uygulanıp uygulanmayacağı ve itiraz süreci",
-  "1 Kasım 2026'da yürürlüğe girecek 5651 oyun platformu hükümlerinin uygulanması",
-  "Pankart nedeniyle tutuklanan iki üniversite öğrencisinin tutukluluk incelemesi ve iddianame"
+  ""
  ],
- "gun": "2026-10-27",
- "olusturma": "2026-10-27T07:18+00:00",
+ "gun": "2026-10-28",
+ "olusturma": "2026-10-28T07:55+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "673dd445f6",
-  "24d915b896",
+  "8f5b62807e",
+  "6b84027977",
+  "a56a04649f",
+  "4e53c1dfe9",
   "c5e7db4e2e",
+  "3c6d62814b",
+  "09f2d88a42",
+  "ebdfee96de",
+  "7355fafd74",
+  "2dd1e5ea22",
+  "29243457b8",
+  "dc537e943a",
+  "2c388eab78",
   "67730e474d",
-  "16e9341df2",
-  "fe5cf59319",
+  "3f10dcbbc8",
   "bd3e3f20f3",
   "002b23d4f9",
   "44f1c54f94",
   "6cff56c681",
+  "9b83095f83",
+  "4e1d5f0b3c",
+  "1cab7e9b27",
+  "c3c0bec0df",
   "737c26b92b",
   "3a3782a5e1",
   "fdd783ba6c",
+  "5c44a4228a",
+  "262e20f1a7",
+  "f24428bf28",
+  "3fcc93369b",
+  "15404c9854",
+  "b301db9e86",
+  "5a76f2f83d",
+  "c7f3529080",
+  "5ee3c37967",
+  "a3ee825dac",
+  "e0072f22ed",
+  "db79ad23a3",
+  "397e605837",
+  "868b1b7a77",
+  "d3de206a31",
+  "fe5cf59319",
   "58ce0135f9",
   "c9788a256b",
-  "4855d28f09",
-  "db91c910e0",
-  "cb4866c6dc",
-  "60ccfbec35",
-  "b412d50950",
-  "0a99054573",
-  "107183882b",
-  "f381294c13",
-  "98a1f29e29",
-  "904ede2d22",
-  "594bea3ebf",
-  "d43a845238",
-  "c1ba309e8b",
-  "71d6e0e477",
-  "6b1983530c",
-  "55331c17ea",
-  "b901ee3c32",
-  "87ea501c79",
-  "17a56d03e1",
-  "5a9a7b1073",
-  "c855177751",
-  "e1c069f7d7",
-  "bd3c92ef91",
-  "beee4e2b08",
-  "68fcd18766",
-  "b1341fd9c8",
-  "302639ba3d",
-  "29fd208c79",
-  "8f874bfd70",
-  "3d26a1ac0e"
+  "4855d28f09"
  ],
- "maliyet_usd": 0.7085,
- "girdi_token": 46022,
- "cikti_token": 16517,
+ "maliyet_usd": 0.4383,
+ "girdi_token": 41850,
+ "cikti_token": 6835,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
    {
-    "id": "brifing",
+    "id": "4e53c1dfe9",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "one1",
+    "id": "8f5b62807e",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "one2",
+    "id": "c7f3529080",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "one3",
+    "id": "397e605837",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "one4",
+    "id": "e0072f22ed",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "one5",
+    "id": "a3ee825dac",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "one6",
+    "id": "3c6d62814b",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "15404c9854",
     "hukum": "dayanaklı",
     "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen kayıtlarla ve önceki gün başlıklarıyla tutarlı, olgusal destek eksiği bulunmadı.",
+  "genel": "Brifingdeki tüm olgu iddiaları gösterilen kayıtlarla örtüşüyor, dayanaksız veya kısmi unsur tespit edilmedi.",
   "model": "claude-sonnet-5",
-  "girdi_token": 28660,
-  "cikti_token": 821,
-  "maliyet_usd": 0.0655,
-  "iddia_sayisi": 7
+  "girdi_token": 24655,
+  "cikti_token": 885,
+  "maliyet_usd": 0.0582,
+  "iddia_sayisi": 1
  },
  "takip_acik": [
   {
@@ -1293,8 +1063,8 @@
    "baslik": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tutuklanması ve bazı belediyelere kayyım atanması",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-10-10",
-   "son_hareket": "2026-10-24",
-   "hareket_sayisi": 6
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 7
   },
   {
    "id": "t93",
@@ -1709,8 +1479,8 @@
    "baslik": "24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşleri ve TGS'nin 'son iki ayda 11 gazeteci tutuklandı' sayımı",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-26",
-   "son_hareket": "2026-10-26",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 1
   },
   {
    "id": "t146",
@@ -1749,8 +1519,8 @@
    "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisinin tutuklanması (Nehir Dizdar, Nevin Tekin)",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-27",
-   "son_hareket": "2026-10-27",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 1
   },
   {
    "id": "t151",
@@ -1758,6 +1528,38 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-27",
    "son_hareket": "2026-10-27",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t152",
+   "baslik": "Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin hazırladığı AİHM başvurusu ve iç hukuk yollarının tüketilmesi sorunu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t153",
+   "baslik": "Türk polisinin Norveç, Finlandiya ve Danimarka'daki gösterilere katılanları profilleyip bilgileri yurt içi ceza dosyalarına aktarması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t154",
+   "baslik": "İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat ve anayasa hukuku profesörü hakkında başlatılan ceza soruşturması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t155",
+   "baslik": "Adana Bölge Adliye Mahkemesi'nin 22 Ekim 2026 kararıyla 2015 barış mitingi çağrısı yürüyüşü nedeniyle 10 sendikacı ve aktivistin hapis cezasının onanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
    "hareket_sayisi": 0
   }
  ]
