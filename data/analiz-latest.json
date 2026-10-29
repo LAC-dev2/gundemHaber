@@ -1,38 +1,13 @@
 {
  "sureklilik": [
   {
-   "id": "t92",
-   "durum": "hareket var",
-   "not": "Bakırköy Cumhuriyet Başsavcılığı'nın yürüttüğü yolsuzluk soruşturmasında CHP'li Bakırköy Belediyesi'nde 5 belediye başkan yardımcısı ve 2 meclis üyesi dahil 56 kişi gözaltına alındı [a3ee825dac]. Kayıt gözaltı aşamasını veriyor; tutuklama ya da kayyım kararına ilişkin bilgi yok.",
-   "kayitlar": [
-    "a3ee825dac"
-   ]
-  },
-  {
-   "id": "t150",
-   "durum": "hareket var",
-   "not": "Tutuklanan iki öğrenciyi lise öğrencisi olarak gösteren haber nedeniyle Sözcü'nün internet sitesi genel yayın yönetmeni Ercüment İşleyen ve Tuğba Nu... adlı editör kısa süreli gözaltına alındı [c7f3529080]. Dosya, öğrencilerin tutukluluğundan haberin kendisine yönelen bir soruşturmaya genişlemiş görünüyor.",
-   "kayitlar": [
-    "c7f3529080"
-   ]
-  },
-  {
-   "id": "t145",
-   "durum": "hareket var",
-   "not": "Sözcü'den iki editörün kısa süreli gözaltısı ve Köklü Değişim yazarı Ahmet Sapa'nın evinden gözaltına alınması, TGS'nin sayımını izleyen günlerde gazetecilere yönelik yeni gözaltı kayıtları ekliyor [c7f3529080][397e605837].",
-   "kayitlar": [
-    "c7f3529080",
-    "397e605837"
-   ]
-  },
-  {
-   "id": "t31",
+   "id": "t1",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t107",
+   "id": "t2",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -44,127 +19,49 @@
    "kayitlar": []
   },
   {
-   "id": "t94",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t33",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t42",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t47",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t109",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t148",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t151",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t91",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t23",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t146",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t143",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t54",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t137",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t132",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t131",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t126",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t136",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t56",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t71",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t4",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t95",
+   "id": "t5",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t6",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t7",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t8",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t9",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t10",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t11",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -176,7 +73,799 @@
    "kayitlar": []
   },
   {
+   "id": "t13",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t14",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t15",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t16",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t17",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t18",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t19",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t20",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t21",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t22",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t23",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t24",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t25",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t26",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t28",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t29",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t30",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t31",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t32",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t33",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t34",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t35",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t36",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t37",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t38",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t39",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t40",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t41",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t42",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t43",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t44",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t45",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t46",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t47",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t48",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t49",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t50",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t51",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t52",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t53",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t54",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t55",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t56",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t57",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t58",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t59",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t60",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t61",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t62",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t63",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t64",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t65",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t66",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t67",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t68",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t69",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t70",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t71",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t72",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t73",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t74",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t75",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t76",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t77",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t78",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t79",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t80",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t81",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t82",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t83",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t84",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t85",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t86",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t87",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t88",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t89",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t90",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t91",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t92",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t93",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t94",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t96",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t97",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t98",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t99",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t100",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t101",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t102",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t103",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t104",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t105",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t106",
+   "durum": "hareket var",
+   "not": "Amnesty International, gelecek ay Antalya'da yapılacak COP31 görüşmeleri öncesinde hükümetlerin sivil özgürlükleri koruması ve fosil yakıt lobisinin etkisini sınırlaması çağrısı yaptı. Kayıt başlık/özet düzeyinde; Türkiye'deki protesto soruşturmalarına ilişkin yeni veri içermiyor.",
+   "kayitlar": [
+    "53b97841b2"
+   ]
+  },
+  {
+   "id": "t107",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t108",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t109",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t110",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t111",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t112",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t113",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t114",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t115",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t116",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t117",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t118",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t119",
+   "durum": "hareket var",
+   "not": "RTÜK 28 Ekim Çarşamba günü iki televizyon kanalına, tutuklu bir gazeteciye ve yatırım fonu skandalına ilişkin yayınları nedeniyle iki haftadan kısa sürede ikinci kez para cezası verdi; kurul üyelerinden biri tekrarlanan cezaların basın özgürlüğünü kısıtladığını söyledi. Bugünkü kayıt kanal adlarını ve tutuklu gazetecinin adını vermiyor; takip maddesindeki Sözcü TV–Koza TV eşleşmesi doğrulanmış değil.",
+   "kayitlar": [
+    "d8e337af3d"
+   ]
+  },
+  {
+   "id": "t120",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t121",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t123",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t124",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t125",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t126",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t127",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t128",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t129",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t130",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t131",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t132",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t133",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t134",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t135",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t136",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t137",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t138",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t139",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t140",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t141",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t142",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t143",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t144",
+   "durum": "hareket var",
+   "not": "Amnesty International'ın aktardığına göre Komisyon 27 Ekim'de iki öneriyi birlikte sundu: Avrupa Sınır ve Sahil Güvenlik (Frontex) Tüzüğü'nde değişiklik ve geri gönderme, geri kabul ile yeniden entegrasyon usullerinin dijitalleştirilmesine ilişkin tüzük. Önceki brifingte 'hazırlanan öneri' olarak izlenen metin böylece resmen masaya geldi.",
+   "kayitlar": [
+    "e3bf8ff006"
+   ]
+  },
+  {
+   "id": "t145",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t146",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -186,156 +875,404 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t148",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t149",
+   "durum": "hareket var",
+   "not": "İFÖD'ün EngelliWeb projesi, sulh ceza hâkimliği kararlarıyla Steam'de Türkiye'den erişime engellenen oyun sayfası sayısının 767'ye yükseldiğini bildirdi. Veri, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe girmesinden birkaç gün önce geldi.",
+   "kayitlar": [
+    "aadb4a74ce"
+   ]
+  },
+  {
+   "id": "t150",
+   "durum": "hareket var",
+   "not": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki öğrencinin tutuklanmasını protesto eden dört üniversite öğrencisi 28 Ekim'de İstanbul'da kısa süreliğine gözaltına alındı; kaynak Medyascope. Tutuklu iki öğrencinin durumuna ilişkin bugün yeni kayıt yok.",
+   "kayitlar": [
+    "c4dba7bc06"
+   ]
+  },
+  {
+   "id": "t151",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t152",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t153",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t154",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t155",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin hazırladığı AİHM başvurusu ve iç hukuk yollarının tüketilmesi sorunu",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Başvurunun Yargıtay incelemesi sonuçlanmadan yapılacağı bildiriliyor; md. 35/1 bakımından kabul edilebilirlik tartışması doğacak. Merkezin siyasi parti içi yargı müdahalesi dosyaları açısından usul seyri izlenmeli.",
+   "baslik": "Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülkeler arasında zorla geri gönderme yetkisi ve 'return hub' tartışması",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "neden": "Öneri, ajansın AB dışındaki operasyonel rolünü ve geri gönderme yetkisini genişletiyor; merkezin non-refoulement ve sınır dışı dosyalarında doğrudan dayanak oluşturacak bir mevzuat süreci başlıyor. Yasama sürecinde metnin hangi insan hakları güvenceleriyle çıkacağı izlenmeli.",
    "kayitlar": [
-    "8f5b62807e"
+    "e3bf8ff006"
    ]
   },
   {
-   "baslik": "Türk polisinin Norveç, Finlandiya ve Danimarka'daki gösterilere katılanları profilleyip bilgileri yurt içi ceza dosyalarına aktarması",
+   "baslik": "Hollanda idari yargısında AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin dava açma süresinin kaçırılmasını mazur kılmayacağı yönündeki yaklaşım",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Rechtbank Den Haag 28 Ekim tarihli kararında başvuruyu süre aşımından kabul edilemez buldu ve Pakt'ın yürürlüğe girişini sonradan doğan bir koşul saydı. Türkiye kaynaklı iltica dosyalarında usul engeli olarak tekrar edip etmeyeceği izlenmeli.",
+   "kayitlar": [
+    "15562d66b5"
+   ]
+  },
+  {
+   "baslik": "Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı gün içinde önce bozulup sonra onanması",
+   "alan": "AİHM başvuruları ve kararların icrası / Gülen hareketi–KHK dosyaları",
+   "neden": "Aynı talep hakkında kısa aralıkla çelişkili iki yargı kararı, aile hayatı ve cezaevi idaresi denetimi bakımından merkezin md. 8 dosyalarıyla örtüşüyor. Kararın gerekçesi ve itiraz yolu izlenmeli.",
+   "kayitlar": [
+    "83f0aad1f3"
+   ]
+  },
+  {
+   "baslik": "'Vulnerable Behind Bars' raporu: bebekleriyle cezaevinde tutulan annelerin sağlık randevularına refakat edememesi",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Yurt dışındaki barışçıl gösteri katılımının Türkiye'deki derdest yargılamalara delil olarak aktarıldığı iddiası, merkezin sınıraşan baskı dosyalarında belge düzeyinde bir örnek oluşturuyor. İlgili ülkelerin ve veri koruma makamlarının tepkisi izlenmeli.",
+   "neden": "Rapor, cezaevi sağlık erişimi dosyasına çocuklu anneler boyutunu ekliyor; merkezin CPT ve md. 3 argümanlarında kullanılabilecek yeni bir veri kümesi. Raporu yayımlayan kuruluşun adı kayıtta kesik, tam metnin görülmesi gerekiyor.",
    "kayitlar": [
-    "4e53c1dfe9"
-   ]
-  },
-  {
-   "baslik": "İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat ve anayasa hukuku profesörü hakkında başlatılan ceza soruşturması",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Soruşturmanın konusu, AYM kararlarına uymayan ve tutuklama kararı veren hâkimlere yönelik meslek içi eleştiri; avukatların mesleki beyan bağışıklığı tartışmasına Türkiye ayağı ekliyor.",
-   "kayitlar": [
-    "5a76f2f83d"
-   ]
-  },
-  {
-   "baslik": "Adana Bölge Adliye Mahkemesi'nin 22 Ekim 2026 kararıyla 2015 barış mitingi çağrısı yürüyüşü nedeniyle 10 sendikacı ve aktivistin hapis cezasının onanması",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "On bir yıl önceki bir gösteri nedeniyle verilen cezaların istinafta onanması, toplanma özgürlüğü temelli mahkûmiyetlerde kesinleşme ve olası AİHM başvurusu aşamasını gündeme getiriyor.",
-   "kayitlar": [
-    "868b1b7a77"
+    "8a1da943ed"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "Nordic Monitor: Türk polisi Norveç, Finlandiya ve Danimarka'daki gösterileri izledi",
- "brifing": "Pencerenin merkez dosyaları açısından en ağırlıklı kaydı, Türk polisinin üç İskandinav ülkesindeki barışçıl gösterileri izleyip katılımcı bilgilerini Türkiye'deki ceza dosyalarına aktardığı iddiası; iddia tarihli ve imzalı iki polis belgesine dayandırılıyor [4e53c1dfe9]. İkinci başlık, Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin Yargıtay kararını beklemeden AİHM'e başvuru hazırlığı [8f5b62807e]. İfade özgürlüğü alanında gün yoğun: Sözcü'den iki editörün, bir köşe yazarının ve maden kazasında oğlunu kaybeden bir babanın ifadeye çağrılması ya da gözaltına alınması aynı pencereye düşüyor [c7f3529080][397e605837][e0072f22ed]. Bakırköy Belediyesi'nde 56 gözaltı, CHP'li belediyelere yönelik soruşturma hattını sürdürüyor [a3ee825dac]. Bu pencerede AİHM karar metni gelmedi; birincil belge olarak yalnızca başlık düzeyinde Resmî Gazete ve Danıştay kayıtları var [3c6d62814b][15404c9854].",
- "one_cikanlar": [],
- "alan_notlari": [],
- "dosya_derinlesmesi": [],
- "kronoloji": [],
- "izlenecekler": [
-  ""
+ "baslik": "Komisyon Frontex reformunu sundu: 30.000 personel ve üçüncü ülkeler arası geri gönderme",
+ "brifing": "Pencerenin merkezle ilgili en ağırlıklı gelişmesi, Avrupa Komisyonu'nun 27 Ekim'de Frontex Tüzüğü değişikliği ile geri gönderme–geri kabul–yeniden entegrasyon usullerinin dijitalleştirilmesine ilişkin iki öneriyi birlikte sunması; bu, 25 Ekim'de yalnızca hazırlık aşamasında izlenen dosyanın metne dönüşmesi anlamına geliyor [e3bf8ff006]. Türkiye tarafında RTÜK'ün aynı iki kanala iki haftadan kısa sürede ikinci kez para cezası vermesi, fon skandalı yayınlarına yönelik idari yaptırımın tekrarlandığını gösteriyor [d8e337af3d]. İfade özgürlüğü alanında İFÖD'ün Steam'de engellenen oyun sayfası sayısını 767 olarak bildirmesi, 1 Kasım'da yürürlüğe girecek 5651 oyun hükümleri öncesinde taban veriyi veriyor [aadb4a74ce]. Cezaevi koşulları ve ziyaret hakkı dosyalarına iki yeni kayıt girdi; AİHM'den bu pencerede karar metni gelmedi, birincil belge yok [83f0aad1f3][8a1da943ed]. Kayıtların önemli bölümü Türkiye dışı insan hakları raporlarından oluşuyor ve merkezin dosyalarıyla doğrudan ilişkili değil.",
+ "one_cikanlar": [
+  {
+   "baslik": "Komisyon'un Frontex ve geri gönderme dijitalleştirme önerileri: Amnesty 'reddedilmeli' dedi",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "neden_onemli": "Öneri, Frontex'in personel sayısını 30.000'e çıkarıyor, ajansa geri gönderme ve 'kriz müdahalesi' alanında daha geniş rol veriyor ve AB dışı ülkeler arasında zorla geri gönderme yetkisi tanıyor. Amnesty'ye göre bu, üçüncü ülkelerdeki 'return hub' uygulamasının önünü açıyor ve ajansın insan hakları yükümlülükleri aynı ölçüde genişletilmiyor. Merkezin non-refoulement ve sınır dışı dosyalarında dayanılacak AB mevzuatı bu süreçte şekillenecek.",
+   "yenilik": "25 Ekim'de hazırlık aşamasında izlenen öneri 27 Ekim'de resmen sunuldu; personel sayısı (30.000) ve üçüncü ülkeler arası geri gönderme yetkisi ilk kez somut olarak kayda girdi.",
+   "ayrintilar": [
+    "27 Ekim 2026: Komisyon iki öneri sundu — EBCG (Frontex) Tüzüğü değişikliği ve geri gönderme/geri kabul/yeniden entegrasyon usullerinin dijitalleştirilmesi tüzüğü [e3bf8ff006]",
+    "Frontex personel sayısının 30.000'e çıkarılması öngörülüyor [e3bf8ff006]",
+    "Frontex bütçesi 2026 için yıllık 1 milyar avronun üzerinde [e3bf8ff006]",
+    "Amnesty 2012'den 2022 sonuna kadar Frontex Temel Haklar Danışma Forumu üyesiydi [e3bf8ff006]"
+   ],
+   "mekanizma": "EBCG Tüzüğü değişikliği önerisi",
+   "karsi_okuma": "Elimizde Komisyon metninin kendisi değil, bir STK'nın tepki açıklaması var; önerinin madde metinleri, insan hakları güvencelerine ilişkin hükümleri ve yasama takvimi kayıtlarda yok.",
+   "kayitlar": [
+    "e3bf8ff006"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "RTÜK iki televizyon kanalına iki hafta içinde ikinci kez ceza verdi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Cezaların konusu bir tutuklu gazeteciye ve yatırım fonu skandalına ilişkin yayınlar; aynı yayın konusunda kısa aralıkla tekrarlanan idari yaptırım, erişim engeli dışında ikinci bir baskı kanalının işlediğini gösteriyor. Kurul üyelerinden birinin tekrarlanan cezaların basın özgürlüğünü kısıtladığını söylemesi, kararın kurul içinde de tartışmalı olduğunu ortaya koyuyor.",
+   "yenilik": "17 Ekim'de kaydedilen ilk ceza turundan sonra bugün aynı konuda ikinci ceza turu geldi; muhalif kurul üyesi değerlendirmesi ilk kez kayda girdi.",
+   "ayrintilar": [
+    "Cezalar 28 Ekim Çarşamba günü verildi; iki haftadan kısa sürede ikinci kez [d8e337af3d]",
+    "Konu: tutuklu bir gazeteci ve büyük bir yatırım fonu skandalına ilişkin yayınlar [d8e337af3d]",
+    "Kayıt kanal adlarını, ceza tutarlarını ve tutuklu gazetecinin adını vermiyor [d8e337af3d]",
+    "Aynı gelişmeyi iki kaynak bildirdi [d8e337af3d]"
+   ],
+   "mekanizma": "RTÜK idari para cezası",
+   "karsi_okuma": "Kanalların kimliği, ceza miktarı ve dayanak maddeler kayıtta yok; takip maddesindeki Sözcü TV–Koza TV eşleşmesi bu kayıttan doğrulanamaz.",
+   "kayitlar": [
+    "d8e337af3d"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Steam'de erişime engelli oyun sayfası sayısı 767",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "İFÖD'ün EngelliWeb verisi, sulh ceza hâkimliklerinin erişim engeli pratiğinin oyun platformlarına ölçek olarak yayıldığını belgeliyor. Veri, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe girmesinden hemen önce geldiği için, sonraki artışın karşılaştırılacağı taban rakamı sağlıyor.",
+   "yenilik": "İlk kez: engellenen Steam oyun sayfası sayısı 767 olarak kayda girdi.",
+   "ayrintilar": [
+    "767 oyunun Steam sayfası hakkında erişim engeli ve/veya içerik çıkarma kararı verildi [aadb4a74ce]",
+    "Kararlar sulh ceza hâkimlikleri tarafından veriliyor [aadb4a74ce]",
+    "Kaynak: İFÖD EngelliWeb projesi araştırması [aadb4a74ce]"
+   ],
+   "mekanizma": "5651 sayılı Kanun — erişim engeli",
+   "karsi_okuma": "Sayının hangi tarih aralığını kapsadığı, kararların gerekçeleri ve itiraz sonuçları kayıtta yok; 1 Kasım'da yürürlüğe girecek hükümlerle nedensel bir bağ kurulamaz.",
+   "kayitlar": [
+    "aadb4a74ce"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Pankart davasını protesto eden dört öğrenci gözaltına alındı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "İki öğrencinin pankart nedeniyle tutuklanmasının ardından, bu tutuklamayı protesto eden dört öğrenci de gözaltına alındı. Dosya, ifade nedeniyle başlatılan bir cezai sürecin kendisini protesto etmenin de gözaltı sebebi haline gelmesi bakımından izleniyor.",
+   "yenilik": "27 Ekim'de kaydedilen iki öğrencinin tutuklanmasına bugün dört kişilik yeni bir gözaltı eklendi.",
+   "ayrintilar": [
+    "Gözaltı 28 Ekim Çarşamba günü İstanbul'da gerçekleşti, dört üniversite öğrencisi kısa süre sonra serbest bırakıldı [c4dba7bc06]",
+    "Protestonun konusu: Milli Eğitim Bakanı Yusuf Tekin'in istifasını isteyen pankart nedeniyle iki öğrencinin tutuklanması [c4dba7bc06]",
+    "Kaynak: Medyascope [c4dba7bc06]"
+   ],
+   "mekanizma": "Toplantı ve gösteri — gözaltı",
+   "karsi_okuma": "Gözaltının hukuki dayanağı, soruşturma açılıp açılmadığı ve tutuklu iki öğrencinin güncel durumu kayıtlarda yok.",
+   "kayitlar": [
+    "c4dba7bc06"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Bebekleriyle cezaevinde tutulan anneler: sağlık randevularına refakat engeli",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "28 Ekim'de yayımlanan 'Vulnerable Behind Bars' raporuna göre bazı anneler, cezaevi personeli refakate izin vermediği için bebekleri adına sağlık hizmeti talep etmekten kaçındıklarını söyledi. Merkezin cezaevi sağlık erişimi dosyalarına çocuklu mahpuslar boyutunu ekliyor.",
+   "yenilik": "İlk kez: bebekli annelerin sağlık erişimine ilişkin ayrı bir rapor kayda girdi.",
+   "ayrintilar": [
+    "Rapor 28 Ekim 2026 Çarşamba günü yayımlandı, adı 'Vulnerable Behind Bars' [8a1da943ed]",
+    "Anneler, personel refakat etmediği için bebekleri için tıbbi başvurudan kaçındıklarını beyan etti [8a1da943ed]",
+    "Yayımlayan kuruluşun adı kayıtta kesik [8a1da943ed]"
+   ],
+   "mekanizma": "AİHS md. 3 — cezaevinde sağlık erişimi",
+   "karsi_okuma": "Rapor kaç kişiyle görüşmeye dayanıyor, hangi cezaevlerini kapsıyor ve idarenin yanıtı nedir — bunlar kayıtta yok; vaka sayısı bilinmiyor.",
+   "kayitlar": [
+    "8a1da943ed"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Rechtbank Den Haag: Pakt'ın yürürlüğe girmesi süre aşımını mazur kılmaz (NL26.36921)",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Heyet, iltica başvurusunu süre aşımı nedeniyle kabul edilemez buldu ve AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin, süreyi kaçırmayı mazur gösterecek bir koşul olmadığını, bu koşulun süre dolduktan sonra doğduğunu belirtti. Hollanda idari yargısında usul süresi itirazlarının nasıl değerlendirileceğine ilişkin bir ölçüt veriyor.",
+   "yenilik": "İlk kez: Pakt'ın yürürlüğe girişinin süre aşımı mazereti sayılmaması bu dosyada kayda girdi.",
+   "ayrintilar": [
+    "ECLI:NL:RBDHA:2026:31696, Rechtbank Den Haag, 28-10-2026, dosya no NL26.36921 [15562d66b5]",
+    "Karar çok hâkimli heyet (meervoudige kamer) tarafından verildi, sonuç: kabul edilemez (niet-ontvankelijk) [15562d66b5]",
+    "Gerekçe: Pakt'ın 12 Haziran 2026'da yürürlüğe girmesi, süre dolduktan sonra ortaya çıkan bir koşuldur [15562d66b5]"
+   ],
+   "mekanizma": "Hollanda idari usul — süre aşımı (niet-ontvankelijk)",
+   "karsi_okuma": "Başvurucunun uyruğu, esas iddiaları ve sürenin ne kadar aşıldığı kayıtta yok; kararın Türkiye kaynaklı dosyalarla ilgisi kurulamaz.",
+   "kayitlar": [
+    "15562d66b5"
+   ],
+   "guven": "yüksek"
+  }
  ],
- "gun": "2026-10-28",
- "olusturma": "2026-10-28T07:55+00:00",
+ "alan_notlari": [
+  {
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "hareketli",
+   "not": "RTÜK'ün ikinci ceza turu, Steam'de 767 oyun sayfasına erişim engeli ve pankart davasını protesto eden dört öğrencinin gözaltısı bu pencerede geldi [d8e337af3d][aadb4a74ce][c4dba7bc06]. CPJ, 30 Ekim Siyasi Mahpuslar Günü için ortak açıklamaya katıldı; 1 Aralık 2025 itibarıyla dünyada 300'den fazla gazetecinin hapiste olduğunu, Çin'de en az 50, Myanmar'da 30, İsrail'de 29, Azerbaycan'da 24 gazeteci bulunduğunu bildirdi — açıklamada Türkiye'ye özgü sayı yok [e5acbca2fd].",
+   "kayitlar": [
+    "d8e337af3d",
+    "aadb4a74ce",
+    "c4dba7bc06",
+    "e5acbca2fd"
+   ]
+  },
+  {
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "hareketli",
+   "not": "Komisyon'un Frontex ve geri gönderme dijitalleştirme önerileri sunuldu [e3bf8ff006]. Rechtbank Den Haag süre aşımı gerekçesiyle bir iltica başvurusunu kabul edilemez buldu [15562d66b5].",
+   "kayitlar": [
+    "e3bf8ff006",
+    "15562d66b5"
+   ]
+  },
+  {
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "durum": "olağan",
+   "not": "Bir mahkeme, tutuklu vaiz Alparslan Kuytul'un çocuklarının hafta sonu ziyaretine izin verilmemesine ilişkin cezaevi idaresi kararını onadı; aynı ret kararı altı gün önce bozulmuştu [83f0aad1f3]. Bebekleriyle cezaevinde tutulan annelerin sağlık erişimine ilişkin rapor yayımlandı [8a1da943ed]. Nordic Monitor'ün İskandinav ülkelerindeki gösteri izleme belgelerine ilişkin dosyada bu pencerede yeni kayıt yok.",
+   "kayitlar": [
+    "83f0aad1f3",
+    "8a1da943ed",
+    "4e53c1dfe9"
+   ]
+  },
+  {
+   "alan": "Belçika ve AB mevzuatı",
+   "durum": "olağan",
+   "not": "FRA, 2040'a dönük stratejik öngörü çalışmasına ilişkin iki belge (yöntem notu ve 'Inventory of Factors of Change') ile FRANET veri toplama hizmetleri ihale duyurusunu yayımladı; içerik kayıtlarda başlık düzeyinde [9f3c1e1a2d][3dc4b8fd7d][9afd52a63c].",
+   "kayitlar": [
+    "9f3c1e1a2d",
+    "3dc4b8fd7d",
+    "9afd52a63c"
+   ]
+  },
+  {
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "olağan",
+   "not": "Resmî Gazete'de 'Yargı Harçları' başlıklı bir belge yayımlandı; kayıtta yalnızca başlık var, kapsamı ve yargıya erişime etkisi belirlenemiyor [673dd445f6]. Adalet Bakanlığı Ceza ve Tevkifevleri Genel Müdürlüğü 334 sözleşmeli personel alımında tercih süresini uzattı [b4b76c64fb]. İçişleri Bakanlığı 69 ilde 402 kaçakçılık operasyonunda 494 şüphelinin yakalandığını duyurdu [f67d8fa2e0].",
+   "kayitlar": [
+    "673dd445f6",
+    "b4b76c64fb",
+    "f67d8fa2e0"
+   ]
+  },
+  {
+   "alan": "BM insan hakları mekanizmaları",
+   "durum": "olağan",
+   "not": "Freedom House'un sınıraşan baskı bölümü, Küba heyetinin BM'de bir etkinliği kesintiye uğratmasını ve siyasi mahpus yakınlarının tanıklıklarını işleyen iki yorum yazısı yayımladı; her ikisi de özet düzeyinde ve Türkiye dosyalarıyla doğrudan bağ kurmuyor [3453e66a1f][d8af14dce0].",
+   "kayitlar": [
+    "3453e66a1f",
+    "d8af14dce0"
+   ]
+  }
+ ],
+ "dosya_derinlesmesi": [
+  {
+   "baslik": "5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri (1 Kasım 2026) ve Steam engelleri (t149)",
+   "alan": "İfade ve basın özgürlüğü",
+   "elimizde": "Bugün İFÖD'ün EngelliWeb araştırması, Steam'de Türkiye'den erişime engellenen oyun sayfası sayısını 767 olarak bildirdi; kararlar sulh ceza hâkimlikleri tarafından veriliyor [aadb4a74ce]. Önceki brifingte, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe gireceği ve Google'ın Türkiye temsilciliği kaydının yapıldığı kaydedilmişti. Bu iki veri birlikte, engelleme pratiğinin yeni rejim yürürlüğe girmeden önce ulaştığı hacmi gösteriyor.",
+   "eksik": "767 sayısının hangi dönemde biriktiği, kararların dayandığı maddeler (8/A mı, genel 8 mi), hangi hâkimliklerin karar verdiği ve kaç kararda itiraz yoluna gidildiği kayıtlarda yok. Steam'in ya da yayıncıların yanıtı da bilinmiyor.",
+   "izlenecek_adim": "1 Kasım 2026'da yürürlüğe girecek hükümlerin ardından engel sayısındaki değişim ve ilk uygulama kararları izlenecek; İFÖD'ün sonraki EngelliWeb güncellemesi karşılaştırma zemini sağlayacak.",
+   "dayanak": "Ölçülülük tartışmasında, bir platformun yüzlerce alt sayfasının ayrı ayrı yargı kararlarıyla kapatılmasının kapsam genişliğine ilişkin sayısal dayanak oluşturur.",
+   "kayitlar": [
+    "aadb4a74ce"
+   ]
+  }
+ ],
+ "kronoloji": [
+  {
+   "tarih": "2026-10-25",
+   "adim": "Önceki brifingte, AB sınır dışı (geri gönderme) sisteminin dijitalleştirilmesine ilişkin bir Komisyon önerisinin hazırlandığı ve veri güvencelerinin daraltılabileceği kaydedilmişti (yalnızca başlık düzeyinde bilgi).",
+   "kayitlar": []
+  },
+  {
+   "tarih": "2026-10-27",
+   "adim": "Komisyon iki öneriyi sundu: Frontex Tüzüğü değişikliği (30.000 personel, geri gönderme ve kriz müdahalesinde genişletilmiş rol) ve geri gönderme–geri kabul–yeniden entegrasyon usullerinin dijitalleştirilmesi tüzüğü.",
+   "kayitlar": [
+    "e3bf8ff006"
+   ]
+  },
+  {
+   "tarih": "2026-10-28",
+   "adim": "Amnesty International, önerinin ajansa AB dışı ülkeler arasında zorla geri gönderme yetkisi tanıdığını ve 'return hub' uygulamasının önünü açtığını belirterek metnin tümüyle reddedilmesini istedi.",
+   "kayitlar": [
+    "e3bf8ff006"
+   ]
+  }
+ ],
+ "izlenecekler": [
+  "Frontex Tüzüğü değişikliği ve geri gönderme dijitalleştirme tüzüğü önerilerinin madde metinleri ile Parlamento/Konsey'deki yasama takvimi",
+  "1 Kasım 2026'da yürürlüğe girecek 5651 oyun platformu hükümlerinin ilk uygulamaları ve Steam engel sayısındaki değişim",
+  "RTÜK'ün fon skandalı ve tutuklu gazeteci yayınlarına ilişkin cezalarında kanal adları, tutarlar ve yargı yoluna başvurulup başvurulmadığı",
+  "Pankart davasında tutuklu iki öğrencinin durumu ve 28 Ekim'de gözaltına alınan dört öğrenci hakkında soruşturma açılıp açılmadığı",
+  "Alparslan Kuytul dosyasında ziyaret gününe ilişkin son kararın gerekçesi ve itiraz süreci"
+ ],
+ "gun": "2026-10-29",
+ "olusturma": "2026-10-29T08:02+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "8f5b62807e",
+  "673dd445f6",
   "6b84027977",
   "a56a04649f",
   "4e53c1dfe9",
-  "c5e7db4e2e",
-  "3c6d62814b",
+  "15562d66b5",
   "09f2d88a42",
   "ebdfee96de",
   "7355fafd74",
   "2dd1e5ea22",
   "29243457b8",
-  "dc537e943a",
-  "2c388eab78",
+  "e5acbca2fd",
+  "e3bf8ff006",
   "67730e474d",
   "3f10dcbbc8",
-  "bd3e3f20f3",
-  "002b23d4f9",
-  "44f1c54f94",
-  "6cff56c681",
-  "9b83095f83",
-  "4e1d5f0b3c",
+  "9f3c1e1a2d",
+  "3dc4b8fd7d",
+  "9afd52a63c",
   "1cab7e9b27",
   "c3c0bec0df",
-  "737c26b92b",
-  "3a3782a5e1",
-  "fdd783ba6c",
+  "25576f868a",
+  "47544ed89c",
+  "ee851af9ec",
+  "3453e66a1f",
+  "25f1dc35fd",
+  "d8af14dce0",
+  "6032ef8807",
+  "53b97841b2",
+  "8005143d71",
+  "d4445488ba",
+  "e0951cb98f",
+  "20e410b7cf",
+  "b4b76c64fb",
+  "e2f2995f8e",
+  "37e0ecb746",
+  "83f0aad1f3",
+  "d8e337af3d",
+  "c4dba7bc06",
+  "aadb4a74ce",
+  "8a1da943ed",
+  "50ae73c7bb",
+  "f67d8fa2e0",
   "5c44a4228a",
   "262e20f1a7",
   "f24428bf28",
-  "3fcc93369b",
-  "15404c9854",
-  "b301db9e86",
-  "5a76f2f83d",
-  "c7f3529080",
-  "5ee3c37967",
-  "a3ee825dac",
-  "e0072f22ed",
-  "db79ad23a3",
-  "397e605837",
-  "868b1b7a77",
-  "d3de206a31",
-  "fe5cf59319",
-  "58ce0135f9",
-  "c9788a256b",
-  "4855d28f09"
+  "47ff991003"
  ],
- "maliyet_usd": 0.4383,
- "girdi_token": 41850,
- "cikti_token": 6835,
+ "maliyet_usd": 0.792,
+ "girdi_token": 41508,
+ "cikti_token": 21052,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
    {
-    "id": "4e53c1dfe9",
+    "id": "brifing",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "8f5b62807e",
+    "id": "one1",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "c7f3529080",
+    "id": "one2",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "397e605837",
+    "id": "one3",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "e0072f22ed",
+    "id": "one4",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "a3ee825dac",
+    "id": "one5",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
-    "id": "3c6d62814b",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "15404c9854",
+    "id": "one6",
     "hukum": "dayanaklı",
     "not": ""
    }
   ],
-  "genel": "Brifingdeki tüm olgu iddiaları gösterilen kayıtlarla örtüşüyor, dayanaksız veya kısmi unsur tespit edilmedi.",
+  "genel": "Tüm iddialar gösterilen kayıtlarla ve önceki gün takip maddeleriyle örtüşüyor, olgusal dayanak sorunu bulunmadı.",
   "model": "claude-sonnet-5",
-  "girdi_token": 24655,
-  "cikti_token": 885,
+  "girdi_token": 26112,
+  "cikti_token": 595,
   "maliyet_usd": 0.0582,
-  "iddia_sayisi": 1
+  "iddia_sayisi": 7
  },
  "takip_acik": [
   {
@@ -1175,8 +2112,8 @@
    "baslik": "HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestolarında soruşturma, gözaltı ve kötü muamele iddiaları",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-14",
-   "son_hareket": "2026-10-16",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 2
   },
   {
    "id": "t107",
@@ -1279,8 +2216,8 @@
    "baslik": "RTÜK'ün fon skandalı yayınları nedeniyle Sözcü TV ve Koza TV'ye verdiği para cezaları",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-17",
-   "son_hareket": "2026-10-17",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 1
   },
   {
    "id": "t120",
@@ -1471,8 +2408,8 @@
    "baslik": "AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan Komisyon önerisi ve buna dayanak yapılan 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışması",
    "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
    "acildi": "2026-10-25",
-   "son_hareket": "2026-10-25",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 1
   },
   {
    "id": "t145",
@@ -1511,16 +2448,16 @@
    "baslik": "1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri ve Google'ın Türkiye temsilciliği kaydı",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-27",
-   "son_hareket": "2026-10-27",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 1
   },
   {
    "id": "t150",
    "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisinin tutuklanması (Nehir Dizdar, Nevin Tekin)",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-27",
-   "son_hareket": "2026-10-28",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 2
   },
   {
    "id": "t151",
@@ -1560,6 +2497,38 @@
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-28",
    "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t156",
+   "baslik": "Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülkeler arasında zorla geri gönderme yetkisi ve 'return hub' tartışması",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t157",
+   "baslik": "Hollanda idari yargısında AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin dava açma süresinin kaçırılmasını mazur kılmayacağı yönündeki yaklaşım",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t158",
+   "baslik": "Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı gün içinde önce bozulup sonra onanması",
+   "alan": "AİHM başvuruları ve kararların icrası / Gülen hareketi–KHK dosyaları",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t159",
+   "baslik": "'Vulnerable Behind Bars' raporu: bebekleriyle cezaevinde tutulan annelerin sağlık randevularına refakat edememesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-10-29",
    "hareket_sayisi": 0
   }
  ]

@@ -3559,7 +3559,7 @@
    "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
    "acildi": "2026-10-14",
    "durum": "açık",
-   "son_hareket": "2026-10-16",
+   "son_hareket": "2026-10-29",
    "kayitlar": [
     "469b99a869"
    ],
@@ -3569,6 +3569,13 @@
      "not": "COP31 dosyasında yeni bir hat: BirGün'e dayanarak, tartışmalı kömür madenciliği, taş ocağı ve kıyı projeleri yürüten Türk holdinglerinin zirve başkanlığınca COP31 'iklim destekçisi' veya uygulama ortağı ilan edildiği bildirildi [91dcceadef]. Bu, madencilik karşıtı protestolara yönelik soruşturma verisiyle aynı dosyanın karşı tarafını oluşturuyor.",
      "kayitlar": [
       "91dcceadef"
+     ]
+    },
+    {
+     "gun": "2026-10-29",
+     "not": "Amnesty International, gelecek ay Antalya'da yapılacak COP31 görüşmeleri öncesinde hükümetlerin sivil özgürlükleri koruması ve fosil yakıt lobisinin etkisini sınırlaması çağrısı yaptı. Kayıt başlık/özet düzeyinde; Türkiye'deki protesto soruşturmalarına ilişkin yeni veri içermiyor.",
+     "kayitlar": [
+      "53b97841b2"
      ]
     }
    ]
@@ -3818,11 +3825,19 @@
    "neden": "Aynı haber konusunda erişim engeli ve ceza soruşturmasından sonra idari yayın yaptırımının devreye girmesi, tek konuda üç ayrı müdahale aracının biriktiğini gösteriyor; ceza miktarları ve dayanak madde kayıtlarda yok.",
    "acildi": "2026-10-17",
    "durum": "açık",
-   "son_hareket": "2026-10-17",
+   "son_hareket": "2026-10-29",
    "kayitlar": [
     "2acf61a3bf"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-29",
+     "not": "RTÜK 28 Ekim Çarşamba günü iki televizyon kanalına, tutuklu bir gazeteciye ve yatırım fonu skandalına ilişkin yayınları nedeniyle iki haftadan kısa sürede ikinci kez para cezası verdi; kurul üyelerinden biri tekrarlanan cezaların basın özgürlüğünü kısıtladığını söyledi. Bugünkü kayıt kanal adlarını ve tutuklu gazetecinin adını vermiyor; takip maddesindeki Sözcü TV–Koza TV eşleşmesi doğrulanmış değil.",
+     "kayitlar": [
+      "d8e337af3d"
+     ]
+    }
+   ]
   },
   {
    "id": "t120",
@@ -4254,12 +4269,20 @@
    "neden": "Statewatch, hazırlanan önerinin kişisel veri güvencelerini azaltıp gözetimi genişleteceğini bildiriyor; merkezin geri gönderme, veri paylaşımı ve non-refoulement dosyalarında doğrudan etkisi olabilecek bir mevzuat adımı. Şu an yalnızca başlık ve özet düzeyinde bilgi var, önerinin metni ve takvimi izlenmeli.",
    "acildi": "2026-10-25",
    "durum": "açık",
-   "son_hareket": "2026-10-25",
+   "son_hareket": "2026-10-29",
    "kayitlar": [
     "557f648b38",
     "f23dbe3944"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-29",
+     "not": "Amnesty International'ın aktardığına göre Komisyon 27 Ekim'de iki öneriyi birlikte sundu: Avrupa Sınır ve Sahil Güvenlik (Frontex) Tüzüğü'nde değişiklik ve geri gönderme, geri kabul ile yeniden entegrasyon usullerinin dijitalleştirilmesine ilişkin tüzük. Önceki brifingte 'hazırlanan öneri' olarak izlenen metin böylece resmen masaya geldi.",
+     "kayitlar": [
+      "e3bf8ff006"
+     ]
+    }
+   ]
   },
   {
    "id": "t145",
@@ -4329,11 +4352,19 @@
    "neden": "Google İstanbul Bilgi Teknolojileri Ltd. Şti.'nin ana sözleşmesine Google Play oyun platformu temsilciliğinin eklenmesi, 5651 rejiminin yeni bir içerik alanına yerel temsilcilik yükümlülüğüyle genişlediğini gösteriyor. Erişim engeli ve içerik kaldırma pratiğinin bu alana nasıl taşınacağı izlenmeli.",
    "acildi": "2026-10-27",
    "durum": "açık",
-   "son_hareket": "2026-10-27",
+   "son_hareket": "2026-10-29",
    "kayitlar": [
     "cb4866c6dc"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-10-29",
+     "not": "İFÖD'ün EngelliWeb projesi, sulh ceza hâkimliği kararlarıyla Steam'de Türkiye'den erişime engellenen oyun sayfası sayısının 767'ye yükseldiğini bildirdi. Veri, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe girmesinden birkaç gün önce geldi.",
+     "kayitlar": [
+      "aadb4a74ce"
+     ]
+    }
+   ]
   },
   {
    "id": "t150",
@@ -4342,7 +4373,7 @@
    "neden": "Siyasi talep içeren bir pankartın 'tehdit' olarak nitelenip tutuklamaya dayanak yapılması, merkezin izlediği ifade suçları kataloğunda yeni bir nitelendirme biçimi. Yargılamanın seyri ve tutukluluk denetimi izlenmeli.",
    "acildi": "2026-10-27",
    "durum": "açık",
-   "son_hareket": "2026-10-28",
+   "son_hareket": "2026-10-29",
    "kayitlar": [
     "60ccfbec35"
    ],
@@ -4352,6 +4383,13 @@
      "not": "Tutuklanan iki öğrenciyi lise öğrencisi olarak gösteren haber nedeniyle Sözcü'nün internet sitesi genel yayın yönetmeni Ercüment İşleyen ve Tuğba Nu... adlı editör kısa süreli gözaltına alındı [c7f3529080]. Dosya, öğrencilerin tutukluluğundan haberin kendisine yönelen bir soruşturmaya genişlemiş görünüyor.",
      "kayitlar": [
       "c7f3529080"
+     ]
+    },
+    {
+     "gun": "2026-10-29",
+     "not": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki öğrencinin tutuklanmasını protesto eden dört üniversite öğrencisi 28 Ekim'de İstanbul'da kısa süreliğine gözaltına alındı; kaynak Medyascope. Tutuklu iki öğrencinin durumuna ilişkin bugün yeni kayıt yok.",
+     "kayitlar": [
+      "c4dba7bc06"
      ]
     }
    ]
@@ -4420,8 +4458,60 @@
     "868b1b7a77"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t156",
+   "baslik": "Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülkeler arasında zorla geri gönderme yetkisi ve 'return hub' tartışması",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "neden": "Öneri, ajansın AB dışındaki operasyonel rolünü ve geri gönderme yetkisini genişletiyor; merkezin non-refoulement ve sınır dışı dosyalarında doğrudan dayanak oluşturacak bir mevzuat süreci başlıyor. Yasama sürecinde metnin hangi insan hakları güvenceleriyle çıkacağı izlenmeli.",
+   "acildi": "2026-10-29",
+   "durum": "açık",
+   "son_hareket": "2026-10-29",
+   "kayitlar": [
+    "e3bf8ff006"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t157",
+   "baslik": "Hollanda idari yargısında AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin dava açma süresinin kaçırılmasını mazur kılmayacağı yönündeki yaklaşım",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Rechtbank Den Haag 28 Ekim tarihli kararında başvuruyu süre aşımından kabul edilemez buldu ve Pakt'ın yürürlüğe girişini sonradan doğan bir koşul saydı. Türkiye kaynaklı iltica dosyalarında usul engeli olarak tekrar edip etmeyeceği izlenmeli.",
+   "acildi": "2026-10-29",
+   "durum": "açık",
+   "son_hareket": "2026-10-29",
+   "kayitlar": [
+    "15562d66b5"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t158",
+   "baslik": "Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı gün içinde önce bozulup sonra onanması",
+   "alan": "AİHM başvuruları ve kararların icrası / Gülen hareketi–KHK dosyaları",
+   "neden": "Aynı talep hakkında kısa aralıkla çelişkili iki yargı kararı, aile hayatı ve cezaevi idaresi denetimi bakımından merkezin md. 8 dosyalarıyla örtüşüyor. Kararın gerekçesi ve itiraz yolu izlenmeli.",
+   "acildi": "2026-10-29",
+   "durum": "açık",
+   "son_hareket": "2026-10-29",
+   "kayitlar": [
+    "83f0aad1f3"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t159",
+   "baslik": "'Vulnerable Behind Bars' raporu: bebekleriyle cezaevinde tutulan annelerin sağlık randevularına refakat edememesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Rapor, cezaevi sağlık erişimi dosyasına çocuklu anneler boyutunu ekliyor; merkezin CPT ve md. 3 argümanlarında kullanılabilecek yeni bir veri kümesi. Raporu yayımlayan kuruluşun adı kayıtta kesik, tam metnin görülmesi gerekiyor.",
+   "acildi": "2026-10-29",
+   "durum": "açık",
+   "son_hareket": "2026-10-29",
+   "kayitlar": [
+    "8a1da943ed"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-28T07:55+00:00",
- "acik": 153
+ "guncelleme": "2026-10-29T08:02+00:00",
+ "acik": 157
 }

@@ -2675,12 +2675,20 @@
 "checked": "2026-10-15T06:53:43+00:00",
 "img": ""
 },
+"https://fra.europa.eu/en/content/inventory-factors-change-supporting-fras-strategic-foresight-exercise-fundamental-rights": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": ""
+},
 "https://fra.europa.eu/en/content/joint-factsheet-european-arrest-warrant-and-fundamental-rights-ecthr-and-cjeu-case-law": {
 "checked": "2026-10-23T09:42:31+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/content/law-enforcement-directive-data-protection-challenges-practice-embargoed": {
 "checked": "2026-10-06T08:29:23+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/content/methodology-fras-foresight-process": {
+"checked": "2026-10-29T07:57:02+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/content/migration-monitoring-update-press-release-embargoed": {
@@ -7727,6 +7735,10 @@
 "checked": "2026-10-18T09:17:33+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/18/thumbs_b_c_5779cc1238d0223b61ab6a3048970265.jpg"
 },
+"https://www.aa.com.tr/tr/dunya/ingiltere-deniz-ticaret-operasyonlari-hurmuz-bogazinda-bir-gemide-yangin-cikti/4104543": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/29/thumbs_b_c_80d20e6d8818130bad772e6782dcc57d.jpg"
+},
 "https://www.aa.com.tr/tr/dunya/ingiltere-deniz-ticaret-operasyonlari-hurmuz-bogazinda-vurulan-bir-tankerde-yangin-cikti/4085328": {
 "checked": "2026-10-11T16:28:23+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/11/thumbs_b_c_0c1f3e051c62b401eee3e80da80f265a.jpg"
@@ -7778,6 +7790,10 @@
 "https://www.aa.com.tr/tr/ekonomi/yakit-maliyetlerindeki-keskin-artis-abdli-hava-yolu-sirketlerinin-karliligini-baskiliyor/4099272": {
 "checked": "2026-10-24T09:15:20+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/24/thumbs_b_c_7476df5fd6b1bc1661b1b92a0f176209.jpg"
+},
+"https://www.aa.com.tr/tr/gundem/aile-ve-sosyal-hizmetler-bakanligindan-bir-cocugun-sunnet-goruntulerinin-paylasilmasina-iliskin-aciklama/4104538": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/29/thumbs_b_c_696cb898a4707dd198c4320dbc1a69ff.jpg"
 },
 "https://www.aa.com.tr/tr/gundem/ankara-merkezli-operasyonda-daltonlar-suc-orgutuyle-baglantili-10-supheli-gozaltina-alindi/4094316": {
 "checked": "2026-10-20T09:08:56+00:00",
@@ -8646,6 +8662,10 @@
 "https://www.amnesty.org/en/latest/news/2026/10/chinas-crackdown-on-house-churches-an-interview-with-su-ziming-wife-of-detained-chinese-pastor-wang-lin/": {
 "checked": "2026-10-08T08:21:15+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/10/319560-scaled.jpg"
+},
+"https://www.amnesty.org/en/latest/news/2026/10/cop31-must-amplify-people-power-not-oil-lobby-voices/": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.amnesty.org/en/wp-content/uploads/2026/10/GettyImages-2301044672.jpg"
 },
 "https://www.amnesty.org/en/latest/news/2026/10/cuba-a-dos-anos-de-su-nombramiento-como-presos-de-conciencia-felix-navarro-sayli-navarro-y-roberto-perez-fonseca-deben-ser-liberados/": {
 "checked": "2026-10-23T15:33:57+00:00",
@@ -10583,6 +10603,18 @@
 "checked": "2026-10-28T07:52:08+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/09/202609americas_brazil_rio_complexodapenha-protest.jpg?h=4df5cd6d&itok=S2rSzWmh"
 },
+"https://www.hrw.org/news/2026/10/28/india-mass-voter-roll-exclusions-deeply-flawed": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610asia_india_sir.jpg?h=961327c3&itok=y7tn_JgY"
+},
+"https://www.hrw.org/news/2026/10/28/indonesia-landmark-ruling-allows-civilian-trials-of-soldiers": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610asia_indonesia_constitutional_court.jpg?h=790be497&itok=XfKlqi9a"
+},
+"https://www.hrw.org/news/2026/10/28/niger-prominent-journalist-disappeared-for-2-months": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/09/202609africa_niger_moussa_kala.jpg?h=ef5d2f7d&itok=a4WWOpcy"
+},
 "https://www.hrw.org/news/2026/10/28/no-accountability-one-year-after-tanzania-election-violence": {
 "checked": "2026-10-28T21:28:39+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610afr_tanzania_elections.jpg?h=e994d543&itok=GOPNy-aW"
@@ -10594,6 +10626,14 @@
 "https://www.hrw.org/news/2026/10/29/sri-lanka-organized-crime-bill-violates-rights-standards": {
 "checked": "2026-10-28T21:28:39+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/01/202601asia_sri%20lanka_police.jpg?h=790be497&itok=oWzbwUfJ"
+},
+"https://www.hrw.org/news/2026/10/29/us-new-hurdles-to-having-votes-counted": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610usp_us_mail_in_ballots.jpg?h=4e6d555b&itok=pHe16oi4"
+},
+"https://www.hrw.org/news/2026/10/29/yemen-houthis-depriving-taizz-civilians-of-food-medicine": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610mena_yemen_taizz_road.jpg?h=a51a5cf9&itok=GgPpV0EU"
 },
 "https://www.icij.org/donate/": {
 "checked": "2026-09-24T13:10:17+00:00",
@@ -11022,6 +11062,10 @@
 "https://www.jubel.be/wat-je-niet-leerde-aan-de-universiteit-tips-van-een-ervaren-advocate/": {
 "checked": "2026-10-14T08:16:33+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/10/tips-van-een-ervaren-advocate_1be11db37a4c52b1b461abf6f01a5f1c_2000.png"
+},
+"https://www.jubel.be/wat-kunt-u-doen-tegen-een-seksuele-deepfake-of-deepnude-in-belgie/": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://www.jubel.be/wp-content/uploads/2026/10/pexels-karola-g-4379964_76b90a5dd3a1bf4da8916684eb982bee_2000.jpg"
 },
 "https://www.jubel.be/wees-geen-juridische-waze-zombie/": {
 "checked": "2026-10-05T08:12:07+00:00",
@@ -12999,6 +13043,10 @@
 "checked": "2026-09-21T07:13:13+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollanda-bilimde-dunya-devleriyle-yarisiyor-turkiye-90-universiteyle-kuresel-lig_6ab0c50e4a7f3_h.png"
 },
+"https://www.turkinfo.nl/hollanda-cin-kritik-hammadde-bagimliligi/45367": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollanda-cin-kritik-hammadde-bagimliligi_6ae2df41c51a8_h.png"
+},
 "https://www.turkinfo.nl/hollanda-dark-web-kiralik-cinayet-siparisi-enschede/44994": {
 "checked": "2026-09-18T07:48:52+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollanda-dark-web-kiralik-cinayet-siparisi-enschede_6aacc9dc103de_h.png"
@@ -13034,6 +13082,10 @@
 "https://www.turkinfo.nl/hollanda-hava-durumu-19-25-ekim-2026/45270": {
 "checked": "2026-10-19T08:20:43+00:00",
 "img": "https://images.turkinfo.nl/media/2026/10/hollanda-hava-durumu-19-25-ekim-2026_6ad5c7bac3f75_h.png"
+},
+"https://www.turkinfo.nl/hollanda-hukumetine-abd-ve-israil-konusunda-secici-hukuk-elestirisi/45368": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollanda-hukumetine-abd-ve-israil-konusunda-secici-hukuk-elestirisi_6ae2e62956245.png"
 },
 "https://www.turkinfo.nl/hollanda-ile-osmanliyi-bulusturan-testa-ailesi-beyoglunda-yeniden-hatirlandi/45200": {
 "checked": "2026-10-11T08:13:17+00:00",
@@ -13750,6 +13802,10 @@
 "https://www.turkinfo.nl/limburgda-iki-polis-gizli-bilgi-suphesiyle-uzaklastirildi/44968": {
 "checked": "2026-09-16T12:55:59+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/limburgda-iki-polis-gizli-bilgi-suphesiyle-uzaklastirildi_6aa8db62979f0.png"
+},
+"https://www.turkinfo.nl/limburgda-siber-suc-operasyonu-duzinelerce-sunucuya-el-konuldu/45365": {
+"checked": "2026-10-29T07:57:02+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/limburgda-siber-suc-operasyonu-duzinelerce-sunucuya-el-konuldu_6ae2dcea57194_h.png"
 },
 "https://www.turkinfo.nl/maastricht-universitesinde-gazzeden-gelen-ogrenciye-video-nedeniyle-uzaklastirma/45082": {
 "checked": "2026-09-28T08:09:31+00:00",

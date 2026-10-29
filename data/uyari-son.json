@@ -1,27 +1,52 @@
 {
- "gun": "2026-10-28",
- "olusturma": "2026-10-28T21:29+00:00",
+ "gun": "2026-10-29",
+ "olusturma": "2026-10-29T08:02+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-10-28:toplu:3",
+   "id": "alan:2026-10-29:Komisyon'un Frontex ve geri gönderme dijitalleştirme önerile",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Komisyon'un Frontex ve geri gönderme dijitalleştirme önerileri: Amnesty 'reddedilmeli' dedi",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "not": "Öneri, Frontex'in personel sayısını 30.000'e çıkarıyor, ajansa geri gönderme ve 'kriz müdahalesi' alanında daha geniş rol veriyor ve AB dışı ülkeler arasında zorla geri gönderme yetkisi tanıyor. Amnesty'ye göre bu, üçüncü ülkelerdeki 'return hub' uygulamasının önünü açıyor ve ajansın insan hakları yükümlülükleri aynı ölçüde genişletilmiyor. Merkezin non-refoulement ve sınır dışı dosyalarında dayanılacak AB mevzuatı bu süreçte şekillenecek.",
+   "kayitlar": [
+    "e3bf8ff006"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-10-29:Rechtbank Den Haag: Pakt'ın yürürlüğe girmesi süre aşımını m",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Rechtbank Den Haag: Pakt'ın yürürlüğe girmesi süre aşımını mazur kılmaz (NL26.36921)",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Heyet, iltica başvurusunu süre aşımı nedeniyle kabul edilemez buldu ve AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin, süreyi kaçırmayı mazur gösterecek bir koşul olmadığını, bu koşulun süre dolduktan sonra doğduğunu belirtti. Hollanda idari yargısında usul süresi itirazlarının nasıl değerlendirileceğine ilişkin bir ölçüt veriyor.",
+   "kayitlar": [
+    "15562d66b5"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-10-29:toplu:5",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "3 takip dosyasında hareket var",
+   "baslik": "5 takip dosyasında hareket var",
    "alan": "",
-   "not": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki ünive; 24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşl",
+   "not": "HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; RTÜK'ün fon skandalı yayınları nedeniyle Sözcü TV ve Koza TV'ye verdiğ; AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan Komisy; 1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformla; Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki ünive",
    "kayitlar": [
-    "a3ee825dac",
-    "c7f3529080",
-    "c7f3529080",
-    "397e605837"
+    "53b97841b2",
+    "d8e337af3d",
+    "e3bf8ff006",
+    "aadb4a74ce",
+    "c4dba7bc06"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-28:8",
+   "id": "saglik:2026-10-29:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "8 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Frontex, Alomaliye, ESMA, AML Intelligence, FIRM / IFDH…",
    "kayitlar": [],
