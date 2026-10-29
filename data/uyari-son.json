@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-29",
- "olusturma": "2026-10-29T10:44+00:00",
+ "olusturma": "2026-10-29T11:14+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-29:Komisyon'un Frontex ve geri gönderme dijitalleştirme önerile",
@@ -43,12 +43,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-29:11",
+   "id": "saglik:2026-10-29:8",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "8 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Frontex, Alomaliye, ESMA, AML Intelligence…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Frontex, Alomaliye, ESMA, AML Intelligence, FIRM / IFDH…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
