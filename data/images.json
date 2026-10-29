@@ -1935,6 +1935,10 @@
 "checked": "2026-10-20T10:52:07+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:8330&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBLIM:2026:11117&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-26T07:21:37+00:00",
 "img": ""
@@ -2295,6 +2299,10 @@
 "checked": "2026-10-08T08:21:15+00:00",
 "img": "https://edri.org/wp-content/uploads/2026/10/D3-brings-class-actions-on-addictiveArtboard-18.png"
 },
+"https://edri.org/our-work/draconian-access-block-orders-in-turkey/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://edri.org/wp-content/uploads/2026/10/DraconianAccessBlock.png"
+},
 "https://edri.org/our-work/edri-celebrates-global-encryption-day-2026/": {
 "checked": "2026-10-21T15:46:54+00:00",
 "img": "https://edri.org/wp-content/uploads/2026/10/GlobalEncryptionDayArtboard-29.png"
@@ -2302,6 +2310,10 @@
 "https://edri.org/our-work/edri-gram-23-september-2026/": {
 "checked": "2026-09-23T09:41:17+00:00",
 "img": "https://edri.org/wp-content/uploads/2026/09/2026_1Artboard-12-1.png"
+},
+"https://edri.org/our-work/edri-gram-29-october-2026/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://edri.org/wp-content/uploads/2026/10/28_OCTOBER_2026Artboard-30.png"
 },
 "https://edri.org/our-work/edri-gram-8-october-2026/": {
 "checked": "2026-10-08T11:09:08+00:00",
@@ -2339,13 +2351,25 @@
 "checked": "2026-09-16T12:58:29+00:00",
 "img": "https://edri.org/wp-content/uploads/2026/07/Spyware.png"
 },
+"https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://edri.org/wp-content/uploads/2026/10/Surveillanceintimeof.Artboard-20.png"
+},
 "https://edri.org/our-work/the-cloud-and-ai-development-act-cada-represents-everything-thats-wrong-with-europes-approach-to-digital-sovereignty/": {
 "checked": "2026-10-08T08:21:15+00:00",
 "img": "https://edri.org/wp-content/uploads/2026/10/CADA-represents-everythingArtboard-2.png"
 },
+"https://edri.org/our-work/the-internet-should-not-demand-constant-self-defence-fairness-starts-before-the-click/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://edri.org/wp-content/uploads/2026/10/SUPER_ARTICLEArtboard-31.png"
+},
 "https://edri.org/our-work/the-kids-act-will-make-the-internet-less-safe/": {
 "checked": "2026-09-30T16:34:33+00:00",
 "img": "https://edri.org/wp-content/uploads/2026/09/1200-675-max.png"
+},
+"https://edri.org/our-work/what-the-new-convention-on-decent-work-in-the-platform-economy-means-for-workers-and-whats-next-for-implementation/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://edri.org/wp-content/uploads/2026/10/PrivacyInternationalArticleArtboard-28.png"
 },
 "https://edri.org/our-work/what-you-need-to-know-about-the-eus-new-digital-deportation-regime/": {
 "checked": "2026-09-23T08:09:49+00:00",
@@ -4623,6 +4647,10 @@
 "checked": "2026-10-15T15:25:13+00:00",
 "img": ""
 },
+"https://news.google.com/rss/articles/CBMifkFVX3lxTE5mcXdkSTRUNndSWmZOMTh6b2pkbi1uSEoyZFE2N2tDc0wzUHJULVppTHNqcHlNWk1PZUlNRzdzUU0zN0xOcG14N2hhazg0MFFMNEhRMFVwUUJJWFZ6djFYMlg4aVhfeFprZU8yTTBSNDNDZ2dFcTRsTVFvZ3NuZw?oc=5": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": ""
+},
 "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pZy1ReDJWelBNaXE4SmFMcWItTVpLdDVFUlp3M3hXdF9hcGJ4ems2dFBpamF2YW5fZnJ1ZFd3a2xOdWdsbGJ6SUstTTlMY3F0Z1gxRmhHa1hIUDFZdm9vYl9MUkM1cVJMbDI5UzhhYTV3ekVfRTUtZFV6R0FSZw?oc=5": {
 "checked": "2026-10-24T07:47:46+00:00",
 "img": ""
@@ -4981,6 +5009,10 @@
 },
 "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV0pKQl9QUVRadFdlZlV3OUlIN1BGMkZCb1g2Y2lyN3FxWWVaMkh5ZldWNGdpcEdjQ0xyeFJiOVY2aUFhOTVJNjQ2NjV4ZGRaN042MlpqbmRXc2xud0M3cnNGMjZhMFhDUjRqdWsxT2UwaDhOV3ZlaDNub09QMHJlUDA1WENoZ0xsUVlUWG16QmNHNm9TMVh0STZrUjlTREVoWUY5bEJsSUZiODNtUHhlTkR3?oc=5": {
 "checked": "2026-10-07T09:37:01+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMiswFBVV95cUxNMng5M09kbkN1TEV5TW1pbEhTdG9hTzdGRVRSbTFGS2pfY0RTdTZER3B0NFdPY2d6VXk4TmRNR2J4bG9Hd1hMbFctenN6aWdCNU00MEJmMW93WUphQUdtMDRBeDhkbHFRS3NyeG5tMjNqQ2kyT3BuUkxkNUVxMEIzQlZaa1RmdHVfMEtTUElPQUF4U0tYVDR6X0FEUWxjN1BUTUFzRzNoakx0U1FtaUk2ZGR0WQ?oc=5": {
+"checked": "2026-10-29T09:10:58+00:00",
 "img": ""
 },
 "https://news.google.com/rss/articles/CBMiswFBVV95cUxON0U2QnZFRm91MmRBbXJTTHlDb3lDSWNmeWxJVnFlMkhWYnpNWjFNN01WNzdJYWdSNzBzNDlBNGFuWUFYNFd5YTBsVFVYSjl1N2VGOUR0b2FsaGtpclZfVkZiZUJ3bXBPNTYyVzlZdUdTYmxzcUplNUNROUxSZFZaTWlMNExVVlROX2dyWGdSXzRXNzAwcUZYVGoyaDdaVUgwLXBhOFJaQTE2MWtpRFBzZDZUVQ?oc=5": {
@@ -6571,6 +6603,10 @@
 "checked": "2026-10-12T11:40:28+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/10/featured-image-30.jpg"
 },
+"https://solidaritywithothers.com/germanys-kurdish-community-says-its-members-cannot-leave-turkey-and-that-up-to-e10000-has-been-demanded-to-lift-bans/?utm_source=rss&utm_medium=rss&utm_campaign=germanys-kurdish-community-says-its-members-cannot-leave-turkey-and-that-up-to-e10000-has-been-demanded-to-lift-bans": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://solidaritywithothers.com/wp-content/uploads/2026/10/featured-image-80.jpg"
+},
 "https://solidaritywithothers.com/hague-court-orders-refugee-status-in-three-gulen-related-cases-citing-johan-vande-lanotte-january-2025-dated-report/?utm_source=rss&utm_medium=rss&utm_campaign=hague-court-orders-refugee-status-in-three-gulen-related-cases-citing-johan-vande-lanotte-january-2025-dated-report": {
 "checked": "2026-09-16T12:55:10+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/09/featured-image-43.jpg"
@@ -7602,6 +7638,10 @@
 "https://verfassungsblog.de/shame-sanctions/": {
 "checked": "2026-10-22T07:00:40+00:00",
 "img": ""
+},
+"https://verfassungsblog.de/sharifu-lecture-reflex/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/sonderrecht-jugendhilfe/": {
 "checked": "2026-10-01T12:20:07+00:00",
@@ -10791,6 +10831,10 @@
 "checked": "2026-09-22T07:13:25+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/09/newsletter-3-scaled_9c246c3db240600a5cf979f050a4db16_2000.jpg"
 },
+"https://www.jubel.be/betogers-zijn-geen-relschoppers/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://www.jubel.be/wp-content/uploads/2026/10/pexels-mikael-blomkvist-8689809_0dabd6ed0526d1b61b82132ae7bc8c7f_2000.jpg"
+},
 "https://www.jubel.be/burn-out-en-werkstress-onderschatten-we-onze-inbox/": {
 "checked": "2026-10-09T08:24:10+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/10/visual-10-26-1_b4dab70f3d426b7a07ad319faa3df5ab_2000.jpg"
@@ -12711,6 +12755,10 @@
 "checked": "2026-10-14T15:39:11+00:00",
 "img": "https://media.tr724.com/wp-content/uploads/2026/10/14/halt-tv-surgun-gazeteciler-1.webp"
 },
+"https://www.tr724.com/israilde-asiri-sagci-bakan-ben-gvir-sandikta-buyuk-basari-elde-eden-arap-parti-liderleri-icin-tutuklama-istedi/": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://media.tr724.com/wp-content/uploads/2026/10/29/AFP__20261028__D4QL7RV__v5__HighRes__TopshotIsraelPalestinianVoteProtest.webp"
+},
 "https://www.tr724.com/jon-pahl-fethullah-gulenin-hosgoru-ve-diyalog-mirasini-madrid-ve-barselonada-anlatti/": {
 "checked": "2026-10-25T14:42:28+00:00",
 "img": "https://media.tr724.com/wp-content/uploads/2026/10/25/Screenshot-2026-10-25-at-15.13.37.webp"
@@ -13274,6 +13322,10 @@
 "https://www.turkinfo.nl/hollandada-bebek-isimleri-kisaliyor-ulkenin-tercihi-ayni-friesland-farkli/45016": {
 "checked": "2026-09-21T11:07:25+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-bebek-isimleri-kisaliyor-ulkenin-tercihi-ayni-friesland-farkli_6ab0d25e9db24_h.png"
+},
+"https://www.turkinfo.nl/hollandada-benzin-fiyatlari-geriledi-litrede-18-sent-fark/45370": {
+"checked": "2026-10-29T09:10:58+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-benzin-fiyatlari-geriledi-litrede-18-sent-fark_6ae3053c2c088.png"
 },
 "https://www.turkinfo.nl/hollandada-berberlere-pes-pese-saldirilar-yeni-patlama-berberler-savasi-endisesini-buyuttu/45234": {
 "checked": "2026-10-14T08:16:33+00:00",
