@@ -1967,6 +1967,10 @@
 "checked": "2026-10-29T10:42:59+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:31797&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:31822&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-29T17:13:02+00:00",
 "img": ""
@@ -2343,6 +2347,46 @@
 "checked": "2026-10-30T07:59:32+00:00",
 "img": ""
 },
+"https://digitallibrary.un.org/record/4131477": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131482": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131483": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131485": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131488": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131490": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131491": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131492": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131511": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131512": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
 "https://echrblog.com/book-discussion-hate-speech-and-the-ecthr/?utm_source=rss&utm_medium=rss&utm_campaign=book-discussion-hate-speech-and-the-ecthr": {
 "checked": "2026-10-22T15:45:10+00:00",
 "img": "https://echrblog.com/wp-content/uploads/2026/10/9781032909240.webp"
@@ -2641,6 +2685,10 @@
 },
 "https://emnbelgium.be/news/european-commission-proposes-new-rules-fair-labour-mobility-and-recognition-qualifications": {
 "checked": "2026-09-18T19:21:11+00:00",
+"img": ""
+},
+"https://emnbelgium.be/news/european-commission-proposes-strengthen-frontexs-role-border-management-and-returns": {
+"checked": "2026-10-30T16:54:16+00:00",
 "img": ""
 },
 "https://emnbelgium.be/news/european-ministers-discuss-common-migration-priorities-second-munich-migration-meeting": {
@@ -3587,6 +3635,10 @@
 "checked": "2026-10-22T20:21:37+00:00",
 "img": ""
 },
+"https://globalinvestigationsreview.com/article/people-news-kalshi-hires-former-edny-prosecutor": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvc2h1dHRlcnN0b2NrXzQyMTM5MDk3NTcuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
 "https://globalinvestigationsreview.com/article/people-news-olsen-returns-uber": {
 "checked": "2026-09-25T12:55:24+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMDkvc2h1dHRlcnN0b2NrXzI1NTgxNTA5NzcuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
@@ -3626,6 +3678,10 @@
 "https://globalinvestigationsreview.com/article/singapore-indonesia-warn-companies-behind-transboundary-haze-of-coordinated-crackdown": {
 "checked": "2026-10-28T16:55:29+00:00",
 "img": ""
+},
+"https://globalinvestigationsreview.com/article/singapore-picks-fti-wongpartnership-haze-investigation-panel": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvc2h1dHRlcnN0b2NrXzI4NDgyOTUwOTUuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
 },
 "https://globalinvestigationsreview.com/article/sra-take-privilege-ruling-uk-supreme-court": {
 "checked": "2026-10-06T17:00:20+00:00",
@@ -5987,9 +6043,17 @@
 "checked": "2026-10-05T09:52:28+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Curvestone-AI-joins-Barclays-Eagle-Labs-Scaleup-Programme.jpg"
 },
+"https://regtechanalyst.com/can-identity-verification-survive-the-age-of-synthetic-identities/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Can-identity-verification-survive-the-age-of-synthetic-identities.jpg"
+},
 "https://regtechanalyst.com/canadas-aml-net-widens-as-fintrac-eyes-revocation-powers/": {
 "checked": "2026-10-15T10:47:11+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/FINTRAC-enrolment-puts-Canadian-firms-in-the-spotlight.jpg"
+},
+"https://regtechanalyst.com/cmc-markets-halves-regulatory-monitoring-time-with-cube/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/CMC-Markets-halves-regulatory-monitoring-time-with-CUBE.jpg"
 },
 "https://regtechanalyst.com/cocomplys-1-9m-bet-on-fixing-contractor-compliance-gaps/": {
 "checked": "2026-10-20T20:14:17+00:00",
@@ -6335,9 +6399,17 @@
 "checked": "2026-10-07T10:51:43+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Mule-chains-expose-blind-spots-in-single-account-AML-monitoring.jpg"
 },
+"https://regtechanalyst.com/napier-ai-3-05tn-at-stake-as-money-laundering-declines/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Napier-AI-3.05tn-at-stake-as-money-laundering-declines.jpg"
+},
 "https://regtechanalyst.com/napier-ai-explainability-not-hype-will-win-ai-in-aml/": {
 "checked": "2026-10-28T16:55:29+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Napier-AI-explainability-not-hype-will-win-AI-in-AML.jpg"
+},
+"https://regtechanalyst.com/napier-ai-taps-lseg-world-check-for-real-time-screening/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Napier-AI-taps-LSEG-World-Check-for-real-time-screening.jpg"
 },
 "https://regtechanalyst.com/new-mas-ai-rules-leave-no-room-to-blame-vendors/": {
 "checked": "2026-10-08T17:40:16+00:00",
@@ -6646,6 +6718,10 @@
 "https://regtechanalyst.com/why-aml-teams-cant-rely-on-llms-alone-to-fight-fraud/": {
 "checked": "2026-10-05T11:11:48+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/WorkFusions-Isaac-rethinks-the-AML-investigators-role.jpg"
+},
+"https://regtechanalyst.com/why-ascentai-makes-obligations-the-unit-of-regtech-change/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Why-AscentAI-makes-obligations-the-unit-of-RegTech-change.avif"
 },
 "https://regtechanalyst.com/why-banks-cant-trust-ai-compliance-without-guardrails/": {
 "checked": "2026-10-02T16:26:27+00:00",
@@ -7147,6 +7223,10 @@
 "checked": "2026-09-16T12:52:15+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/09/featured-image-39.jpg"
 },
+"https://solidaritywithothers.com/prisoners-who-died-in-custody-abdullah-tirpan/?utm_source=rss&utm_medium=rss&utm_campaign=prisoners-who-died-in-custody-abdullah-tirpan": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
 "https://solidaritywithothers.com/prisoners-who-died-in-custody-siyar-cicek/?utm_source=rss&utm_medium=rss&utm_campaign=prisoners-who-died-in-custody-siyar-cicek": {
 "checked": "2026-09-27T15:28:29+00:00",
 "img": ""
@@ -7587,6 +7667,10 @@
 "checked": "2026-10-27T16:07:38+00:00",
 "img": "https://strasbourgobservers.com/wp-content/uploads/2021/08/strasbourg-observers.jpeg"
 },
+"https://strasbourgobservers.com/2026/10/30/lebedeva-and-others-v-russia-rewarding-non-compliance-does-not-ensure-the-long-term-effectiveness-of-the-convention-system/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://strasbourgobservers.com/wp-content/uploads/2021/08/strasbourg-observers.jpeg"
+},
 "https://tgs.org.tr/artik-yeter-nefes-alamiyoruz/": {
 "checked": "2026-10-27T16:07:38+00:00",
 "img": "https://tgs.org.tr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-10.39.29-2-1.jpeg"
@@ -7787,6 +7871,10 @@
 "checked": "2026-10-29T17:13:02+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2026/07/sinem-dedetas-1.jpg"
 },
+"https://turkishminute.com/2026/10/30/turkey-detains-10-over-alleged-gulen-links-in-3-provinces/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2026/09/detention.jpg"
+},
 "https://verfassungsblog.de/a-graveyard-for-europeanisation/": {
 "checked": "2026-09-18T07:48:52+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -7801,6 +7889,10 @@
 },
 "https://verfassungsblog.de/afd-polizeihochschule-wehrhafte-demokratie/": {
 "checked": "2026-10-21T11:04:27+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/african-constitutionalism-beyond-reception/": {
+"checked": "2026-10-30T16:54:16+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/agg-reform-kritik/": {
@@ -7877,6 +7969,10 @@
 },
 "https://verfassungsblog.de/common-good-ideology-seeks-to-colonize-canada/": {
 "checked": "2026-10-24T14:11:11+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/confluence-constitutionalism/": {
+"checked": "2026-10-30T16:54:16+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/cornell-and-criminalization/": {
@@ -9322,6 +9418,10 @@
 "https://www.amnesty.org/en/latest/news/2026/10/russia-african-leaders-must-use-summit-to-call-for-an-end-to-trafficking-of-africans-into-russian-military/": {
 "checked": "2026-10-27T21:03:35+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/10/GettyImages-2301612843-1024x685.jpg"
+},
+"https://www.amnesty.org/en/latest/news/2026/10/russia-closure-of-novaya-gazeta-is-a-devastating-loss-for-embattled-media-freedom/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://www.amnesty.org/en/wp-content/uploads/2026/10/GettyImages-2298283714-1-scaled.jpg"
 },
 "https://www.amnesty.org/en/latest/news/2026/10/russia-exiled-advocate-faces-extremism-charges-over-human-rights-work-for-nobel-peace-prize-winning-ngo-memorial/": {
 "checked": "2026-10-27T07:13:14+00:00",
@@ -11239,6 +11339,14 @@
 "checked": "2026-10-30T07:59:32+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/05/202605afr_mali_Mountaga%20Tall.jpeg?h=e961bbc5&itok=odWM_GNi"
 },
+"https://www.hrw.org/news/2026/10/30/new-us-sanctions-target-rwandas-abusive-role-in-eastern-congo": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610afr_drc_m23.jpg?h=790be497&itok=zBZwJ3xP"
+},
+"https://www.hrw.org/news/2026/10/30/they-killed-us": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610eca_russia_nobel_Dmitry%20Muratov.jpg?h=b80721de&itok=5hbfKpoi"
+},
 "https://www.icij.org/donate/": {
 "checked": "2026-09-24T13:10:17+00:00",
 "img": "https://media.icij.org/uploads/2023/12/Give.jpg"
@@ -11703,6 +11811,14 @@
 "checked": "2026-09-16T12:59:39+00:00",
 "img": ""
 },
+"https://www.law.kuleuven.be/Forms/the-warmest-christmas-market": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/Forms/warmste-kerstmarkt": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
 "https://www.law.kuleuven.be/activiteiten/evaluaties/puc-notariaat/puc-notariaat-2026-2027": {
 "checked": "2026-10-16T08:46:02+00:00",
 "img": ""
@@ -11883,6 +11999,10 @@
 "checked": "2026-09-22T09:35:45+00:00",
 "img": ""
 },
+"https://www.law.kuleuven.be/citip/en/staff-members/visiting-researchers/how-to-apply-for-a-research-stay": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
+},
 "https://www.law.kuleuven.be/english/global-week/gw2026-global-professors-photos": {
 "checked": "2026-09-29T09:21:13+00:00",
 "img": ""
@@ -11929,6 +12049,10 @@
 },
 "https://www.law.kuleuven.be/eur/en/ll-m-clinics-on-contemporary-issues-of-eu-constitutional-law-european-democrac-y-ies-what-role-for-the-european-union": {
 "checked": "2026-09-16T12:59:39+00:00",
+"img": ""
+},
+"https://www.law.kuleuven.be/eur/en/llm-clinic-a-critical-investigation-into-how-students-are-being-taught-the-dynamics-of-eu-law-making": {
+"checked": "2026-10-30T16:54:16+00:00",
 "img": ""
 },
 "https://www.law.kuleuven.be/eur/nl/Leden/00096621": {
@@ -12753,6 +12877,10 @@
 },
 "https://www.mlsaturkey.com/en/week-of-sept-21-2026-journalism-and-freedom-of-expression-bulletin": {
 "checked": "2026-09-28T12:46:29+00:00",
+"img": ""
+},
+"https://www.nbb.be/en/news/annual-report-roadshow": {
+"checked": "2026-10-30T16:54:16+00:00",
 "img": ""
 },
 "https://www.nbb.be/en/news/monetary-policy-decisions-october-2026": {
@@ -13719,6 +13847,10 @@
 "checked": "2026-10-27T07:13:14+00:00",
 "img": "https://images.turkinfo.nl/media/2026/10/hollanda-25-bin-kamu-kadrosu-uwv-ind_6adf8d6eda880_h.png"
 },
+"https://www.turkinfo.nl/hollanda-31-ekim-protesto-cagrilari-sehirlerde-tedirginlik/45387": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-31-ekim-cagrilari-bircok-sehre-yayildi-esnaf-ve-aileler-tedirgin_6ae4b6eccc1e7_h.png"
+},
 "https://www.turkinfo.nl/hollanda-asgari-ucret-2027-saatlik-15-29-euro/45376": {
 "checked": "2026-10-30T07:59:32+00:00",
 "img": "https://images.turkinfo.nl/media/2026/10/hollanda-asgari-ucret-2027-saatlik-15-29-euro_6ae3a2a191dc7_h.png"
@@ -14286,6 +14418,10 @@
 "https://www.turkinfo.nl/hollandada-saglik-sigortasina-tarihi-zam-aylik-ortalama-prim-169-euroya-cikiyor/44988": {
 "checked": "2026-09-17T08:07:10+00:00",
 "img": "https://images.turkinfo.nl/media/2026/09/hollandada-saglik-sigortasina-tarihi-zam-aylik-ortalama-prim-169-euroya-cikiyor_6aab9aca39b45_h.png"
+},
+"https://www.turkinfo.nl/hollandada-sakin-sonbahar-hafta-sonu-sis-ve-bulutlar-etkili-olacak/45384": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": "https://images.turkinfo.nl/media/2026/10/hollandada-sakin-sonbahar-hafta-sonu-sis-ve-bulutlar-etkili-olacak_6ae48ea099484_h.png"
 },
 "https://www.turkinfo.nl/hollandada-silah-teslim-kampanyasinda-86-tehlikeli-esya-toplandi/45232": {
 "checked": "2026-10-14T08:16:33+00:00",
@@ -14878,6 +15014,10 @@
 "https://www.turkishminute.com/2026/10/29/opposition-district-mayor-in-istanbul-released-after-90-days-put-under-house-arrest/": {
 "checked": "2026-10-29T17:13:02+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2026/07/sinem-dedetas-1.jpg"
+},
+"https://www.turkishminute.com/2026/10/30/turkey-detains-10-over-alleged-gulen-links-in-3-provinces/": {
+"checked": "2026-10-30T16:54:16+00:00",
+"img": ""
 },
 "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/aishatu-musa": {
 "checked": "2026-09-25T20:11:42+00:00",
