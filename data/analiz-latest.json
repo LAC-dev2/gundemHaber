@@ -176,9 +176,11 @@
   },
   {
    "id": "t31",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Pakistan'da İslamabad Terörle Mücadele Mahkemesi, insan hakları avukatları Imaan Mazari-Hazir ve Hadi Ali Chattha'yı on yıl hapse mahkûm etti; Amnesty, isnatların savunuculuk faaliyetini cezalandırmak için kullanıldığını belirtiyor. Takip maddesinin adlandırdığı Belarus ve Hong Kong dosyalarında bu pencerede kayıt yok; hareket üçüncü bir ülkeden geldi.",
+   "kayitlar": [
+    "b39a7090c1"
+   ]
   },
   {
    "id": "t32",
@@ -542,9 +544,11 @@
   },
   {
    "id": "t92",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "İstanbul Üsküdar'ın görevden uzaklaştırılmış muhalefetli belediye başkanı Sinem Dedetaş, yolsuzluk isnadıyla geçen 90 günlük tutukluluğun ardından ev hapsi kararıyla tahliye edildi; bilgi avukatından geliyor ve iki kaynak tarafından verildi. Kayıtlarda tutukluluğun sona erme gerekçesi ya da dosyanın esasına ilişkin bir karar yok.",
+   "kayitlar": [
+    "6004e0ce79"
+   ]
   },
   {
    "id": "t93",
@@ -626,11 +630,9 @@
   },
   {
    "id": "t106",
-   "durum": "hareket var",
-   "not": "Amnesty International, gelecek ay Antalya'da yapılacak COP31 görüşmeleri öncesinde hükümetlerin sivil özgürlükleri koruması ve fosil yakıt lobisinin etkisini sınırlaması çağrısı yaptı. Kayıt başlık/özet düzeyinde; Türkiye'deki protesto soruşturmalarına ilişkin yeni veri içermiyor.",
-   "kayitlar": [
-    "53b97841b2"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t107",
@@ -706,11 +708,9 @@
   },
   {
    "id": "t119",
-   "durum": "hareket var",
-   "not": "RTÜK 28 Ekim Çarşamba günü iki televizyon kanalına, tutuklu bir gazeteciye ve yatırım fonu skandalına ilişkin yayınları nedeniyle iki haftadan kısa sürede ikinci kez para cezası verdi; kurul üyelerinden biri tekrarlanan cezaların basın özgürlüğünü kısıtladığını söyledi. Bugünkü kayıt kanal adlarını ve tutuklu gazetecinin adını vermiyor; takip maddesindeki Sözcü TV–Koza TV eşleşmesi doğrulanmış değil.",
-   "kayitlar": [
-    "d8e337af3d"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t120",
@@ -852,11 +852,9 @@
   },
   {
    "id": "t144",
-   "durum": "hareket var",
-   "not": "Amnesty International'ın aktardığına göre Komisyon 27 Ekim'de iki öneriyi birlikte sundu: Avrupa Sınır ve Sahil Güvenlik (Frontex) Tüzüğü'nde değişiklik ve geri gönderme, geri kabul ile yeniden entegrasyon usullerinin dijitalleştirilmesine ilişkin tüzük. Önceki brifingte 'hazırlanan öneri' olarak izlenen metin böylece resmen masaya geldi.",
-   "kayitlar": [
-    "e3bf8ff006"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t145",
@@ -885,18 +883,16 @@
   {
    "id": "t149",
    "durum": "hareket var",
-   "not": "İFÖD'ün EngelliWeb projesi, sulh ceza hâkimliği kararlarıyla Steam'de Türkiye'den erişime engellenen oyun sayfası sayısının 767'ye yükseldiğini bildirdi. Veri, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe girmesinden birkaç gün önce geldi.",
+   "not": "Stockholm Center for Freedom, Diken üzerinden İFÖD/EngelliWeb verisini aktararak Steam'de engellenen oyun sayfası sayısını 767 olarak verdi ve bunun yaklaşık bir ayda üçe katlandığını belirtti. Sayı önceki brifingte değerlendirilen düzeyle aynı; bugün yeni bir rakam ya da yeni bir karar yok, yalnızca ikinci bir kaynak aynı veriyi tekrarlıyor.",
    "kayitlar": [
-    "aadb4a74ce"
+    "2c237f1c56"
    ]
   },
   {
    "id": "t150",
-   "durum": "hareket var",
-   "not": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki öğrencinin tutuklanmasını protesto eden dört üniversite öğrencisi 28 Ekim'de İstanbul'da kısa süreliğine gözaltına alındı; kaynak Medyascope. Tutuklu iki öğrencinin durumuna ilişkin bugün yeni kayıt yok.",
-   "kayitlar": [
-    "c4dba7bc06"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t151",
@@ -927,307 +923,299 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t156",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t157",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t158",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t159",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülkeler arasında zorla geri gönderme yetkisi ve 'return hub' tartışması",
-   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
-   "neden": "Öneri, ajansın AB dışındaki operasyonel rolünü ve geri gönderme yetkisini genişletiyor; merkezin non-refoulement ve sınır dışı dosyalarında doğrudan dayanak oluşturacak bir mevzuat süreci başlıyor. Yasama sürecinde metnin hangi insan hakları güvenceleriyle çıkacağı izlenmeli.",
-   "kayitlar": [
-    "e3bf8ff006"
-   ]
-  },
-  {
-   "baslik": "Hollanda idari yargısında AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin dava açma süresinin kaçırılmasını mazur kılmayacağı yönündeki yaklaşım",
-   "alan": "İade, adli yardım ve iltica",
-   "neden": "Rechtbank Den Haag 28 Ekim tarihli kararında başvuruyu süre aşımından kabul edilemez buldu ve Pakt'ın yürürlüğe girişini sonradan doğan bir koşul saydı. Türkiye kaynaklı iltica dosyalarında usul engeli olarak tekrar edip etmeyeceği izlenmeli.",
-   "kayitlar": [
-    "15562d66b5"
-   ]
-  },
-  {
-   "baslik": "Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı gün içinde önce bozulup sonra onanması",
-   "alan": "AİHM başvuruları ve kararların icrası / Gülen hareketi–KHK dosyaları",
-   "neden": "Aynı talep hakkında kısa aralıkla çelişkili iki yargı kararı, aile hayatı ve cezaevi idaresi denetimi bakımından merkezin md. 8 dosyalarıyla örtüşüyor. Kararın gerekçesi ve itiraz yolu izlenmeli.",
-   "kayitlar": [
-    "83f0aad1f3"
-   ]
-  },
-  {
-   "baslik": "'Vulnerable Behind Bars' raporu: bebekleriyle cezaevinde tutulan annelerin sağlık randevularına refakat edememesi",
+   "baslik": "Almanya'da yaşayan Kürt ziyaretçilere Türkiye'de yurt dışına çıkış yasağı konulduğu iddiası ve Almanya'dan istenen diplomatik müdahale",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Rapor, cezaevi sağlık erişimi dosyasına çocuklu anneler boyutunu ekliyor; merkezin CPT ve md. 3 argümanlarında kullanılabilecek yeni bir veri kümesi. Raporu yayımlayan kuruluşun adı kayıtta kesik, tam metnin görülmesi gerekiyor.",
+   "neden": "İddia, Türkiye'nin AB'de ikamet eden kişiler üzerinde çıkış yasağı yoluyla doğrudan etki kurduğuna ilişkin; doğrulanırsa merkezin sınıraşan baskı ve konsolosluk/diplomatik koruma dosyalarıyla kesişir. Şu an tek kaynak ve bir dernek beyanı düzeyinde olduğu için seyrinin izlenmesi gerekir.",
    "kayitlar": [
-    "8a1da943ed"
+    "f3f56c046f"
+   ]
+  },
+  {
+   "baslik": "Kalp krizi geçiren 56 yaşındaki Kürt mahpusun infazının ertelenmesi talebinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "neden": "Ağır sağlık tablosuna rağmen tahliye/erteleme taleplerinin karşılanmaması, merkezin AİHS md. 3 kapsamındaki mahpus sağlığı dosyalarıyla aynı örüntüde. Talep hakkında henüz karar verilmemiş olması takibi gerektiriyor.",
+   "kayitlar": [
+    "9b8f490eab"
+   ]
+  },
+  {
+   "baslik": "Hakkari Ağır Ceza Mahkemesi'nin 2025 Newroz kutlaması nedeniyle 11 kişiye verdiği 10'ar aylık propaganda cezasının kesinleşme seyri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Toplantı ve gösteriye katılımın terör propagandası sayılması, merkezin md. 10/11 dosyalarında yinelenen bir isnat kalıbı. İstinaf aşaması ve infaz biçimi izlenmeli.",
+   "kayitlar": [
+    "f3750c4c18"
+   ]
+  },
+  {
+   "baslik": "İspanya'nın AB İltica ve Göç Paktı uyum mevzuatı: İçişleri Bakanlığı'nın 11 Haziran 2026 talimatları ile iltica kanunu ve 4/2000 sayılı Organik Kanun ön taslakları",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Pakt'ın ulusal uygulamasında geçiş dönemi düzenlemeleri, merkezin Türkiye kaynaklı iltica dosyalarında usul güvencelerinin hangi metne göre değerlendirileceğini belirliyor. Hollanda içtihadıyla birlikte karşılaştırmalı izlenmesi gerekir.",
+   "kayitlar": [
+    "812849c50f"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "Komisyon Frontex reformunu sundu: 30.000 personel ve üçüncü ülkeler arası geri gönderme",
- "brifing": "Pencerenin merkezle ilgili en ağırlıklı gelişmesi, Avrupa Komisyonu'nun 27 Ekim'de Frontex Tüzüğü değişikliği ile geri gönderme–geri kabul–yeniden entegrasyon usullerinin dijitalleştirilmesine ilişkin iki öneriyi birlikte sunması; bu, 25 Ekim'de yalnızca hazırlık aşamasında izlenen dosyanın metne dönüşmesi anlamına geliyor [e3bf8ff006]. Türkiye tarafında RTÜK'ün aynı iki kanala iki haftadan kısa sürede ikinci kez para cezası vermesi, fon skandalı yayınlarına yönelik idari yaptırımın tekrarlandığını gösteriyor [d8e337af3d]. İfade özgürlüğü alanında İFÖD'ün Steam'de engellenen oyun sayfası sayısını 767 olarak bildirmesi, 1 Kasım'da yürürlüğe girecek 5651 oyun hükümleri öncesinde taban veriyi veriyor [aadb4a74ce]. Cezaevi koşulları ve ziyaret hakkı dosyalarına iki yeni kayıt girdi; AİHM'den bu pencerede karar metni gelmedi, birincil belge yok [83f0aad1f3][8a1da943ed]. Kayıtların önemli bölümü Türkiye dışı insan hakları raporlarından oluşuyor ve merkezin dosyalarıyla doğrudan ilişkili değil.",
+ "baslik": "Üsküdar Belediye Başkanı Dedetaş 90 günlük tutukluluğun ardından ev hapsiyle tahliye edildi",
+ "brifing": "Son brifingten bu yana geçen yaklaşık 24 saatte gelen 36 yeni kaydın büyük bölümü FRA, UN Digital Library, FCA ve EBA'nın rutin kurumsal akışları; merkezin çekirdek alanlarına değen Türkiye kaynaklı kayıt sayısı dört. Bunlardan biri yargısal bir adım: Üsküdar Belediye Başkanı Sinem Dedetaş'ın 90 günlük tutukluluk sonrası ev hapsiyle tahliyesi [6004e0ce79]. Diğer üçü Kürt dosyalarında yoğunlaşıyor: Almanya'da yaşayan Kürtlere çıkış yasağı konulduğu iddiası [f3f56c046f], Hakkari'de Newroz katılımı nedeniyle 11 kişiye verilen hapis cezası [f3750c4c18] ve kalp krizi geçirmesine rağmen tahliye edilmeyen bir mahpus [9b8f490eab]. Bu pencerede HUDOC birincil belgesi gelmedi; Steam engelleri dosyasında da yeni sayı yok, 767 rakamı önceki brifingteki düzeyinde [2c237f1c56]. Türkiye dışı hareket, Pakistan'da iki insan hakları avukatının terörle mücadele mahkemesinde on yıl hapse mahkûm edilmesi ve Mısır'da Mada Masr genel yayın yönetmeninin mahkûmiyetiyle sınırlı [b39a7090c1, 43ddffb049].",
  "one_cikanlar": [
   {
-   "baslik": "Komisyon'un Frontex ve geri gönderme dijitalleştirme önerileri: Amnesty 'reddedilmeli' dedi",
-   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
-   "neden_onemli": "Öneri, Frontex'in personel sayısını 30.000'e çıkarıyor, ajansa geri gönderme ve 'kriz müdahalesi' alanında daha geniş rol veriyor ve AB dışı ülkeler arasında zorla geri gönderme yetkisi tanıyor. Amnesty'ye göre bu, üçüncü ülkelerdeki 'return hub' uygulamasının önünü açıyor ve ajansın insan hakları yükümlülükleri aynı ölçüde genişletilmiyor. Merkezin non-refoulement ve sınır dışı dosyalarında dayanılacak AB mevzuatı bu süreçte şekillenecek.",
-   "yenilik": "25 Ekim'de hazırlık aşamasında izlenen öneri 27 Ekim'de resmen sunuldu; personel sayısı (30.000) ve üçüncü ülkeler arası geri gönderme yetkisi ilk kez somut olarak kayda girdi.",
+   "baslik": "Üsküdar Belediye Başkanı Sinem Dedetaş 90 gün tutukluluktan sonra ev hapsine çıkarıldı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma (belediyelere yönelik soruşturmalar)",
+   "neden_onemli": "Muhalefetli belediye başkanlarına yönelik tutuklamalarda, merkezin t92 dosyasında izlediği örüntünün ters yönde bir adımı: tutukluluk ev hapsiyle ikame edildi. Tedbirin tamamen kaldırılmaması, yolsuzluk isnadının ve adli kontrolün sürdüğünü gösteriyor. Tutukluluğun 90 güne ulaşması, AİHS md. 5/3 bakımından süre ve gerekçe denetimini gündemde tutuyor.",
+   "yenilik": "İlk kez: bu dosyada Dedetaş'ın tahliyesi bugünkü kayıtla geliyor.",
    "ayrintilar": [
-    "27 Ekim 2026: Komisyon iki öneri sundu — EBCG (Frontex) Tüzüğü değişikliği ve geri gönderme/geri kabul/yeniden entegrasyon usullerinin dijitalleştirilmesi tüzüğü [e3bf8ff006]",
-    "Frontex personel sayısının 30.000'e çıkarılması öngörülüyor [e3bf8ff006]",
-    "Frontex bütçesi 2026 için yıllık 1 milyar avronun üzerinde [e3bf8ff006]",
-    "Amnesty 2012'den 2022 sonuna kadar Frontex Temel Haklar Danışma Forumu üyesiydi [e3bf8ff006]"
+    "Sinem Dedetaş, İstanbul Üsküdar'ın görevden uzaklaştırılmış muhalefetli belediye başkanı [6004e0ce79]",
+    "90 gün tutuklu kaldıktan sonra Perşembe günü ev hapsiyle tahliye edildi; bilgi avukatından [6004e0ce79]",
+    "İsnat: yolsuzluk [6004e0ce79]",
+    "Kayıt iki kaynak tarafından doğrulanmış olarak işaretli [6004e0ce79]"
    ],
-   "mekanizma": "EBCG Tüzüğü değişikliği önerisi",
-   "karsi_okuma": "Elimizde Komisyon metninin kendisi değil, bir STK'nın tepki açıklaması var; önerinin madde metinleri, insan hakları güvencelerine ilişkin hükümleri ve yasama takvimi kayıtlarda yok.",
+   "mekanizma": "AİHS md. 5/3 – tutukluluk ve adli kontrol",
+   "karsi_okuma": "Kayıt, kovuşturmanın düştüğünü ya da isnatların kaldırıldığını göstermiyor; ev hapsi de bir özgürlük kısıtlamasıdır. Tahliye gerekçesi ve kararı veren mahkeme kayıtta yok.",
    "kayitlar": [
-    "e3bf8ff006"
+    "6004e0ce79"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "RTÜK iki televizyon kanalına iki hafta içinde ikinci kez ceza verdi",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Cezaların konusu bir tutuklu gazeteciye ve yatırım fonu skandalına ilişkin yayınlar; aynı yayın konusunda kısa aralıkla tekrarlanan idari yaptırım, erişim engeli dışında ikinci bir baskı kanalının işlediğini gösteriyor. Kurul üyelerinden birinin tekrarlanan cezaların basın özgürlüğünü kısıtladığını söylemesi, kararın kurul içinde de tartışmalı olduğunu ortaya koyuyor.",
-   "yenilik": "17 Ekim'de kaydedilen ilk ceza turundan sonra bugün aynı konuda ikinci ceza turu geldi; muhalif kurul üyesi değerlendirmesi ilk kez kayda girdi.",
-   "ayrintilar": [
-    "Cezalar 28 Ekim Çarşamba günü verildi; iki haftadan kısa sürede ikinci kez [d8e337af3d]",
-    "Konu: tutuklu bir gazeteci ve büyük bir yatırım fonu skandalına ilişkin yayınlar [d8e337af3d]",
-    "Kayıt kanal adlarını, ceza tutarlarını ve tutuklu gazetecinin adını vermiyor [d8e337af3d]",
-    "Aynı gelişmeyi iki kaynak bildirdi [d8e337af3d]"
-   ],
-   "mekanizma": "RTÜK idari para cezası",
-   "karsi_okuma": "Kanalların kimliği, ceza miktarı ve dayanak maddeler kayıtta yok; takip maddesindeki Sözcü TV–Koza TV eşleşmesi bu kayıttan doğrulanamaz.",
-   "kayitlar": [
-    "d8e337af3d"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Steam'de erişime engelli oyun sayfası sayısı 767",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "İFÖD'ün EngelliWeb verisi, sulh ceza hâkimliklerinin erişim engeli pratiğinin oyun platformlarına ölçek olarak yayıldığını belgeliyor. Veri, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe girmesinden hemen önce geldiği için, sonraki artışın karşılaştırılacağı taban rakamı sağlıyor.",
-   "yenilik": "İlk kez: engellenen Steam oyun sayfası sayısı 767 olarak kayda girdi.",
-   "ayrintilar": [
-    "767 oyunun Steam sayfası hakkında erişim engeli ve/veya içerik çıkarma kararı verildi [aadb4a74ce]",
-    "Kararlar sulh ceza hâkimlikleri tarafından veriliyor [aadb4a74ce]",
-    "Kaynak: İFÖD EngelliWeb projesi araştırması [aadb4a74ce]"
-   ],
-   "mekanizma": "5651 sayılı Kanun — erişim engeli",
-   "karsi_okuma": "Sayının hangi tarih aralığını kapsadığı, kararların gerekçeleri ve itiraz sonuçları kayıtta yok; 1 Kasım'da yürürlüğe girecek hükümlerle nedensel bir bağ kurulamaz.",
-   "kayitlar": [
-    "aadb4a74ce"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Pankart davasını protesto eden dört öğrenci gözaltına alındı",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "İki öğrencinin pankart nedeniyle tutuklanmasının ardından, bu tutuklamayı protesto eden dört öğrenci de gözaltına alındı. Dosya, ifade nedeniyle başlatılan bir cezai sürecin kendisini protesto etmenin de gözaltı sebebi haline gelmesi bakımından izleniyor.",
-   "yenilik": "27 Ekim'de kaydedilen iki öğrencinin tutuklanmasına bugün dört kişilik yeni bir gözaltı eklendi.",
-   "ayrintilar": [
-    "Gözaltı 28 Ekim Çarşamba günü İstanbul'da gerçekleşti, dört üniversite öğrencisi kısa süre sonra serbest bırakıldı [c4dba7bc06]",
-    "Protestonun konusu: Milli Eğitim Bakanı Yusuf Tekin'in istifasını isteyen pankart nedeniyle iki öğrencinin tutuklanması [c4dba7bc06]",
-    "Kaynak: Medyascope [c4dba7bc06]"
-   ],
-   "mekanizma": "Toplantı ve gösteri — gözaltı",
-   "karsi_okuma": "Gözaltının hukuki dayanağı, soruşturma açılıp açılmadığı ve tutuklu iki öğrencinin güncel durumu kayıtlarda yok.",
-   "kayitlar": [
-    "c4dba7bc06"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Bebekleriyle cezaevinde tutulan anneler: sağlık randevularına refakat engeli",
+   "baslik": "Almanya'da yaşayan Kürt ziyaretçilerin çıkış yasağıyla dönüşlerinin engellendiği iddiası",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "28 Ekim'de yayımlanan 'Vulnerable Behind Bars' raporuna göre bazı anneler, cezaevi personeli refakate izin vermediği için bebekleri adına sağlık hizmeti talep etmekten kaçındıklarını söyledi. Merkezin cezaevi sağlık erişimi dosyalarına çocuklu mahpuslar boyutunu ekliyor.",
-   "yenilik": "İlk kez: bebekli annelerin sağlık erişimine ilişkin ayrı bir rapor kayda girdi.",
+   "neden_onemli": "İddia doğrulanırsa, Türkiye'nin bir AB üyesinde ikamet eden kişiler üzerinde ülkeye giriş sonrası çıkış yasağı yoluyla etki kurduğu bir baskı kanalı söz konusudur; bu, merkezin sınıraşan baskı dosyalarında kırmızı bülten ve pasaport tedbirlerinin yanına eklenecek bir araçtır. Alman hükümetinden diplomatik müdahale istenmesi, konunun ikili düzeye taşındığını gösteriyor.",
+   "yenilik": "İlk kez: bu konu önceki günlerin başlıklarında geçmiyor.",
    "ayrintilar": [
-    "Rapor 28 Ekim 2026 Çarşamba günü yayımlandı, adı 'Vulnerable Behind Bars' [8a1da943ed]",
-    "Anneler, personel refakat etmediği için bebekleri için tıbbi başvurudan kaçındıklarını beyan etti [8a1da943ed]",
-    "Yayımlayan kuruluşun adı kayıtta kesik [8a1da943ed]"
+    "Kurdish Community in Germany (KGD) Çarşamba günü açıklama yaptı; bildirimlerin arttığını belirtti [f3f56c046f]",
+    "Talep: Alman makamlarından diplomatik müdahale [f3f56c046f]",
+    "Kaynak zinciri: Deutsche Welle haberi, Stockholm Center for Freedom aktarımı [f3f56c046f]"
    ],
-   "mekanizma": "AİHS md. 3 — cezaevinde sağlık erişimi",
-   "karsi_okuma": "Rapor kaç kişiyle görüşmeye dayanıyor, hangi cezaevlerini kapsıyor ve idarenin yanıtı nedir — bunlar kayıtta yok; vaka sayısı bilinmiyor.",
+   "mekanizma": "Yurt dışına çıkış yasağı",
+   "karsi_okuma": "Kayıtlarda yasakların sayısı, hukuki dayanağı, hangi makamca verildiği ve etkilenen kişilerin kimliği yok; bir dernek beyanının tek kaynaktan aktarımıdır, sistematik uygulama kanıtlanmış değildir.",
    "kayitlar": [
-    "8a1da943ed"
+    "f3f56c046f"
+   ],
+   "guven": "düşük"
+  },
+  {
+   "baslik": "Hakkari'de 2025 Newroz kutlamasına katılan 11 kişiye 10'ar ay hapis",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Toplantıya katılımın terör propagandası sayılması, merkezin md. 10 ve md. 11 dosyalarındaki isnat kalıbını sürdürüyor. Adana Bölge Adliye Mahkemesi'nin 2015 barış mitingi dosyasındaki onama kararıyla aynı hafta içinde gelmesi, gösteri kaynaklı mahkûmiyetlerin derece mahkemelerinde devam ettiğini gösteriyor.",
+   "yenilik": "İlk kez: Hakkari dosyası bugün kayda giriyor.",
+   "ayrintilar": [
+    "Hakkari Ağır Ceza Mahkemesi, 11 kişiye ayrı ayrı 10 ay hapis cezası verdi [f3750c4c18]",
+    "İsnat: terör propagandası yayma; olay 2025 Newroz kutlaması [f3750c4c18]",
+    "Kaynak: Mezopotamya ajansı, Perşembe [f3750c4c18]"
+   ],
+   "mekanizma": "Terör propagandası isnadı",
+   "karsi_okuma": "Karar metni, gerekçe ve hükmün açıklanmasının geri bırakılıp bırakılmadığı kayıtlarda yok; kesinleşmiş değildir.",
+   "kayitlar": [
+    "f3750c4c18"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Rechtbank Den Haag: Pakt'ın yürürlüğe girmesi süre aşımını mazur kılmaz (NL26.36921)",
-   "alan": "İade, adli yardım ve iltica",
-   "neden_onemli": "Heyet, iltica başvurusunu süre aşımı nedeniyle kabul edilemez buldu ve AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin, süreyi kaçırmayı mazur gösterecek bir koşul olmadığını, bu koşulun süre dolduktan sonra doğduğunu belirtti. Hollanda idari yargısında usul süresi itirazlarının nasıl değerlendirileceğine ilişkin bir ölçüt veriyor.",
-   "yenilik": "İlk kez: Pakt'ın yürürlüğe girişinin süre aşımı mazereti sayılmaması bu dosyada kayda girdi.",
+   "baslik": "Kalp krizi geçiren 56 yaşındaki mahpus, kalp fonksiyonlarının ağır bozulduğu rapora rağmen cezaevinde",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "neden_onemli": "Merkezin Tırpan (t91), Daylak (t129) ve İbrahim Halil Al (t64) dosyalarındaki örüntü yineleniyor: ağır tıbbi tablo, buna rağmen sürdürülen infaz ve karara bağlanmamış erteleme talebi. Bu dosyalar AİHS md. 3 kapsamındaki tutma koşulları değerlendirmesinde toplu olarak ağırlık taşıyor.",
+   "yenilik": "İlk kez: bu mahpusun dosyası bugünkü kayıtla geliyor.",
    "ayrintilar": [
-    "ECLI:NL:RBDHA:2026:31696, Rechtbank Den Haag, 28-10-2026, dosya no NL26.36921 [15562d66b5]",
-    "Karar çok hâkimli heyet (meervoudige kamer) tarafından verildi, sonuç: kabul edilemez (niet-ontvankelijk) [15562d66b5]",
-    "Gerekçe: Pakt'ın 12 Haziran 2026'da yürürlüğe girmesi, süre dolduktan sonra ortaya çıkan bir koşuldur [15562d66b5]"
+    "56 yaşındaki Kürt mahpus kalp krizi geçirdi; tıbbi değerlendirmede kalp fonksiyonlarının ciddi biçimde bozulduğu belirtiliyor [9b8f490eab]",
+    "Cezanın sağlık nedeniyle ertelenmesi talebi hakkında karar beklenmekte [9b8f490eab]",
+    "Durum Çarşamba günü bir basın toplantısında aktarıldı; kaynak Mezopotamya ajansı [9b8f490eab]"
    ],
-   "mekanizma": "Hollanda idari usul — süre aşımı (niet-ontvankelijk)",
-   "karsi_okuma": "Başvurucunun uyruğu, esas iddiaları ve sürenin ne kadar aşıldığı kayıtta yok; kararın Türkiye kaynaklı dosyalarla ilgisi kurulamaz.",
+   "mekanizma": "AİHS md. 3 – infazın sağlık nedeniyle ertelenmesi",
+   "karsi_okuma": "Mahpusun adı, bulunduğu cezaevi, ATK raporunun olup olmadığı ve talebi inceleyen merci kayıtlarda yok.",
    "kayitlar": [
-    "15562d66b5"
+    "9b8f490eab"
    ],
-   "guven": "yüksek"
+   "guven": "orta"
+  },
+  {
+   "baslik": "Pakistan'da iki insan hakları avukatına terörle mücadele mahkemesinden on yıl hapis",
+   "alan": "İfade ve basın özgürlüğü / avukatların korunması",
+   "neden_onemli": "Merkezin t31 maddesinde izlediği 'mesleki faaliyet nedeniyle avukatın cezalandırılması' örüntüsü üçüncü bir ülkede yineleniyor. Yüksek Mahkeme'nin kefalet kararının aynı gün ikinci bir isnatla etkisizleştirilmesi, tahliye kararlarının paralel soruşturmalarla boşa çıkarılması pratiğinin örneğidir; bu pratik merkezin Türkiye dosyalarında da kayıtlıdır.",
+   "yenilik": "İlk kez: t31 maddesine Pakistan ayağı bugün ekleniyor.",
+   "ayrintilar": [
+    "İslamabad Terörle Mücadele Mahkemesi, Imaan Mazari-Hazir ve Hadi Ali Chattha'yı on yıl hapse mahkûm etti [b39a7090c1]",
+    "24 Ocak 2026'da PECA uyarınca sosyal medya paylaşımları nedeniyle 10 ila 17 yıl hapis cezası verilmişti [b39a7090c1]",
+    "Yüksek Mahkeme 17 Eylül'de cezaları durdurup kefalet verdi; aynı gün terör isnadıyla yeniden yakalandılar [b39a7090c1]",
+    "Duruşmalar cezaevi içinde, kafes benzeri bir yapı arkasında yapıldı; sanıklar başlangıçta duruşmalara bizzat katılmaktan men edildi [b39a7090c1]"
+   ],
+   "mekanizma": "Terörle mücadele mevzuatı / PECA",
+   "karsi_okuma": "Bilgi Amnesty açıklamasına dayanıyor; karar metni ve isnatların dosya numaraları kayıtlarda yok. Gerekçeli hüküm görülmeden ihlal değerlendirmesi yapılamaz.",
+   "kayitlar": [
+    "b39a7090c1"
+   ],
+   "guven": "orta"
   }
  ],
  "alan_notlari": [
   {
    "alan": "İfade ve basın özgürlüğü",
    "durum": "hareketli",
-   "not": "RTÜK'ün ikinci ceza turu, Steam'de 767 oyun sayfasına erişim engeli ve pankart davasını protesto eden dört öğrencinin gözaltısı bu pencerede geldi [d8e337af3d][aadb4a74ce][c4dba7bc06]. CPJ, 30 Ekim Siyasi Mahpuslar Günü için ortak açıklamaya katıldı; 1 Aralık 2025 itibarıyla dünyada 300'den fazla gazetecinin hapiste olduğunu, Çin'de en az 50, Myanmar'da 30, İsrail'de 29, Azerbaycan'da 24 gazeteci bulunduğunu bildirdi — açıklamada Türkiye'ye özgü sayı yok [e5acbca2fd].",
+   "not": "Türkiye'de gösteri kaynaklı mahkûmiyet (Hakkari, 11 kişi) kayda girdi [f3750c4c18]; Steam engellerinde yeni sayı yok, 767 rakamı ikinci kaynaktan tekrarlandı [2c237f1c56]. Türkiye dışında ICJ, Mada Masr genel yayın yönetmeni Lina Attalah'ın 27 Ekim 2026'da lisanssız internet sitesi işletmekten mahkûm edilmesini ve sitenin kapatılması emrini kınadı [43ddffb049]; CPJ'nin 30 Ekim Siyasi Mahpuslar Günü ortak açıklaması bir önceki pencerede değerlendirildi [e5acbca2fd].",
    "kayitlar": [
-    "d8e337af3d",
-    "aadb4a74ce",
-    "c4dba7bc06",
+    "f3750c4c18",
+    "2c237f1c56",
+    "43ddffb049",
     "e5acbca2fd"
    ]
   },
   {
-   "alan": "İade, adli yardım ve iltica",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "durum": "hareketli",
-   "not": "Komisyon'un Frontex ve geri gönderme dijitalleştirme önerileri sunuldu [e3bf8ff006]. Rechtbank Den Haag süre aşımı gerekçesiyle bir iltica başvurusunu kabul edilemez buldu [15562d66b5].",
+   "not": "Almanya'da yaşayan Kürtlere çıkış yasağı konulduğu iddiası ve kalp krizi geçiren mahpusun infazının sürmesi bu alandaki iki yeni kayıt [f3f56c046f, 9b8f490eab]. Her ikisi de tek kaynaklı ve resmî belgeyle desteklenmiş değil.",
    "kayitlar": [
-    "e3bf8ff006",
-    "15562d66b5"
+    "f3f56c046f",
+    "9b8f490eab"
    ]
   },
   {
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "Bir mahkeme, tutuklu vaiz Alparslan Kuytul'un çocuklarının hafta sonu ziyaretine izin verilmemesine ilişkin cezaevi idaresi kararını onadı; aynı ret kararı altı gün önce bozulmuştu [83f0aad1f3]. Bebekleriyle cezaevinde tutulan annelerin sağlık erişimine ilişkin rapor yayımlandı [8a1da943ed]. Nordic Monitor'ün İskandinav ülkelerindeki gösteri izleme belgelerine ilişkin dosyada bu pencerede yeni kayıt yok.",
+   "not": "ECRE'nin MPDL söyleşisi, İspanya'nın Pakt'a uyumda geçiş dönemini anlatıyor: 11 Haziran 2026 tarihli İçişleri talimatları, 2024/1348 ve 2024/1351 sayılı tüzüklerin doğrudan uygulanması, iltica kanunu ve 4/2000 sayılı Organik Kanun değişikliği ön taslakları [812849c50f]. ECRE ayrıca 2026'nın ilk dokuz ayında Batı Afrika rotasında düzensiz geçişlerde belirgin düşüş bildiriyor [e6f8a6040c]. Hollanda içtihat akışından gelen tek karar idari (çevre izni/dwangsom) ve merkezin dosyalarıyla ilgisiz [9a9ffaa8ed].",
    "kayitlar": [
-    "83f0aad1f3",
-    "8a1da943ed",
-    "4e53c1dfe9"
+    "812849c50f",
+    "e6f8a6040c",
+    "9a9ffaa8ed"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
    "durum": "olağan",
-   "not": "FRA, 2040'a dönük stratejik öngörü çalışmasına ilişkin iki belge (yöntem notu ve 'Inventory of Factors of Change') ile FRANET veri toplama hizmetleri ihale duyurusunu yayımladı; içerik kayıtlarda başlık düzeyinde [9f3c1e1a2d][3dc4b8fd7d][9afd52a63c].",
+   "not": "FRA, 3 Kasım'da Brüksel'de AB İltica ve Göç Paktı ile kırılgan durumdaki kişilerin korunması üzerine bir politika diyaloğuna katılacağını duyurdu [09845aedad]; ayrıca 2040 ufkuna dair beş senaryolu temel haklar öngörü belgesini yayımladı [e38786f294]. Diğer FRA duyuruları (IHRA toplantısı, Roma Platformu, Trust Conference) takvim niteliğinde [08133ba0f7, 13fa518bf4, 8ca405276a]. ECB faiz kararı ve FCA/EBA duyuruları merkezin yaptırım dosyalarıyla doğrudan ilişkili değil [30d6801541, 2bbb58fbf3, f377f09e38, b6f36ab091, 7929603d4c].",
    "kayitlar": [
-    "9f3c1e1a2d",
-    "3dc4b8fd7d",
-    "9afd52a63c"
-   ]
-  },
-  {
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "durum": "olağan",
-   "not": "Resmî Gazete'de 'Yargı Harçları' başlıklı bir belge yayımlandı; kayıtta yalnızca başlık var, kapsamı ve yargıya erişime etkisi belirlenemiyor [673dd445f6]. Adalet Bakanlığı Ceza ve Tevkifevleri Genel Müdürlüğü 334 sözleşmeli personel alımında tercih süresini uzattı [b4b76c64fb]. İçişleri Bakanlığı 69 ilde 402 kaçakçılık operasyonunda 494 şüphelinin yakalandığını duyurdu [f67d8fa2e0].",
-   "kayitlar": [
-    "673dd445f6",
-    "b4b76c64fb",
-    "f67d8fa2e0"
+    "09845aedad",
+    "e38786f294",
+    "08133ba0f7",
+    "13fa518bf4",
+    "8ca405276a",
+    "30d6801541",
+    "2bbb58fbf3"
    ]
   },
   {
    "alan": "BM insan hakları mekanizmaları",
    "durum": "olağan",
-   "not": "Freedom House'un sınıraşan baskı bölümü, Küba heyetinin BM'de bir etkinliği kesintiye uğratmasını ve siyasi mahpus yakınlarının tanıklıklarını işleyen iki yorum yazısı yayımladı; her ikisi de özet düzeyinde ve Türkiye dosyalarıyla doğrudan bağ kurmuyor [3453e66a1f][d8af14dce0].",
+   "not": "UN Digital Library akışı büyük ölçüde usul belgesi ve basın bülteni; merkezin dosyalarıyla doğrudan kesişen bir metin yok [3f4b3bdb8d, 950f241627, 50b00a0b5c, 0772019f25, 5293c2d260]. HRW aktarımına göre bir BM Soruşturma Komisyonu 14 Ekim'de Filistinli çocuklara yönelik yaşa dayalı zulüm (insanlığa karşı suç) tespiti yaptı [cb9454dd39]; Göçmen İşçiler Komitesi'nin 2 Haziran 2026 tarihli 633. oturum tutanağı yayımlandı [950f241627].",
    "kayitlar": [
-    "3453e66a1f",
-    "d8af14dce0"
+    "3f4b3bdb8d",
+    "950f241627",
+    "cb9454dd39",
+    "50b00a0b5c"
+   ]
+  },
+  {
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "sessiz",
+   "not": "Resmî Gazete kaydı 'Yargı Harçları' başlığıyla sınırlı; kayıtlarda yalnızca başlık düzeyinde bilgi var [673dd445f6]. Adalet Bakanlığı kaydı da ('Ulaştırma Birimi', Kayseri Açık Ceza İnfaz Kurumu) içerik taşımıyor [4493d26335].",
+   "kayitlar": [
+    "673dd445f6",
+    "4493d26335"
    ]
   }
  ],
  "dosya_derinlesmesi": [
   {
-   "baslik": "5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri (1 Kasım 2026) ve Steam engelleri (t149)",
-   "alan": "İfade ve basın özgürlüğü",
-   "elimizde": "Bugün İFÖD'ün EngelliWeb araştırması, Steam'de Türkiye'den erişime engellenen oyun sayfası sayısını 767 olarak bildirdi; kararlar sulh ceza hâkimlikleri tarafından veriliyor [aadb4a74ce]. Önceki brifingte, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe gireceği ve Google'ın Türkiye temsilciliği kaydının yapıldığı kaydedilmişti. Bu iki veri birlikte, engelleme pratiğinin yeni rejim yürürlüğe girmeden önce ulaştığı hacmi gösteriyor.",
-   "eksik": "767 sayısının hangi dönemde biriktiği, kararların dayandığı maddeler (8/A mı, genel 8 mi), hangi hâkimliklerin karar verdiği ve kaç kararda itiraz yoluna gidildiği kayıtlarda yok. Steam'in ya da yayıncıların yanıtı da bilinmiyor.",
-   "izlenecek_adim": "1 Kasım 2026'da yürürlüğe girecek hükümlerin ardından engel sayısındaki değişim ve ilk uygulama kararları izlenecek; İFÖD'ün sonraki EngelliWeb güncellemesi karşılaştırma zemini sağlayacak.",
-   "dayanak": "Ölçülülük tartışmasında, bir platformun yüzlerce alt sayfasının ayrı ayrı yargı kararlarıyla kapatılmasının kapsam genişliğine ilişkin sayısal dayanak oluşturur.",
+   "baslik": "Muhalefetli belediye başkanlarına yönelik tutuklamalar ve kayyım dosyası (t92): tutukluluğun ev hapsiyle ikamesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma (belediyelere yönelik soruşturmalar)",
+   "elimizde": "Bugün bu dosyada yeni bir usul adımı var: Üsküdar Belediye Başkanı Sinem Dedetaş 90 günlük tutukluluğun ardından ev hapsiyle tahliye edildi; isnat yolsuzluk, bilgi avukatından geliyor ve kayıt iki kaynakla doğrulanmış işaretli [6004e0ce79]. Dosyanın önceki seyrine ilişkin elimizdeki tek şey takip maddesinin kendi formülasyonu (Mart 2024 yerel seçimlerinden bu yana 40 CHP'li başkanın tutuklanması ve bazı belediyelere kayyım atanması) ve önceki gün başlıklarında geçen Çukurova Belediyesi soruşturmasıdır; bu pencerede o dosyalara ilişkin yeni kayıt gelmedi. Aynı dönemde fon soruşturmasında savcılık itirazı üzerine ev hapsinin tutuklulukla değiştirildiği örnekler t146'da kayıtlıdır.",
+   "eksik": "Tahliye kararını veren mahkeme, gerekçesi, savcılığın itiraz edip etmediği ve Dedetaş'ın görevden uzaklaştırma işleminin akıbeti kayıtlarda yok. Belediyeye kayyım atanıp atanmadığına dair bu pencerede bilgi bulunmuyor.",
+   "izlenecek_adim": "Savcılığın ev hapsi kararına itiraz edip etmediği ve dosyada iddianame düzenlenip düzenlenmediği izlenmeli; t146'daki örüntü nedeniyle itiraz üzerine yeniden tutuklama ihtimali kısa vadede takip edilmelidir.",
+   "dayanak": "90 günlük tutukluluğun sonunda ev hapsine geçilmesi, tutukluluğun gerekçelendirilmesine ilişkin AİHS md. 5/3 denetiminde ve tedbirlerin seçilmiş yerel yöneticiler üzerindeki etkisine ilişkin değerlendirmelerde kullanılabilecek somut bir veridir.",
    "kayitlar": [
-    "aadb4a74ce"
+    "6004e0ce79"
    ]
   }
  ],
- "kronoloji": [
-  {
-   "tarih": "2026-10-25",
-   "adim": "Önceki brifingte, AB sınır dışı (geri gönderme) sisteminin dijitalleştirilmesine ilişkin bir Komisyon önerisinin hazırlandığı ve veri güvencelerinin daraltılabileceği kaydedilmişti (yalnızca başlık düzeyinde bilgi).",
-   "kayitlar": []
-  },
-  {
-   "tarih": "2026-10-27",
-   "adim": "Komisyon iki öneriyi sundu: Frontex Tüzüğü değişikliği (30.000 personel, geri gönderme ve kriz müdahalesinde genişletilmiş rol) ve geri gönderme–geri kabul–yeniden entegrasyon usullerinin dijitalleştirilmesi tüzüğü.",
-   "kayitlar": [
-    "e3bf8ff006"
-   ]
-  },
-  {
-   "tarih": "2026-10-28",
-   "adim": "Amnesty International, önerinin ajansa AB dışı ülkeler arasında zorla geri gönderme yetkisi tanıdığını ve 'return hub' uygulamasının önünü açtığını belirterek metnin tümüyle reddedilmesini istedi.",
-   "kayitlar": [
-    "e3bf8ff006"
-   ]
-  }
- ],
+ "kronoloji": [],
  "izlenecekler": [
-  "Frontex Tüzüğü değişikliği ve geri gönderme dijitalleştirme tüzüğü önerilerinin madde metinleri ile Parlamento/Konsey'deki yasama takvimi",
-  "1 Kasım 2026'da yürürlüğe girecek 5651 oyun platformu hükümlerinin ilk uygulamaları ve Steam engel sayısındaki değişim",
-  "RTÜK'ün fon skandalı ve tutuklu gazeteci yayınlarına ilişkin cezalarında kanal adları, tutarlar ve yargı yoluna başvurulup başvurulmadığı",
-  "Pankart davasında tutuklu iki öğrencinin durumu ve 28 Ekim'de gözaltına alınan dört öğrenci hakkında soruşturma açılıp açılmadığı",
-  "Alparslan Kuytul dosyasında ziyaret gününe ilişkin son kararın gerekçesi ve itiraz süreci"
+  "Dedetaş hakkındaki ev hapsi kararına savcılık itirazı gelip gelmediği ve dosyada iddianame aşaması [6004e0ce79]",
+  "Almanya'da yaşayan Kürtlere yönelik çıkış yasağı iddiasının ikinci bir kaynakla ya da resmî belgeyle doğrulanıp doğrulanmayacağı ve Alman makamlarının yanıtı [f3f56c046f]",
+  "Kalp krizi geçiren mahpusun infazının ertelenmesi talebi hakkında verilecek karar [9b8f490eab]",
+  "Hakkari Ağır Ceza kararının istinaf seyri ve benzer gösteri dosyalarındaki onamalarla birlikte değerlendirilmesi [f3750c4c18]",
+  "3 Kasım'daki FRA–Komisyon Pakt diyaloğunda kırılgan gruplara ilişkin uygulama ölçütlerinin nasıl tanımlanacağı ve İspanya'nın iltica kanunu ön taslağının seyri [09845aedad, 812849c50f]"
  ],
- "gun": "2026-10-29",
- "olusturma": "2026-10-29T08:02+00:00",
+ "gun": "2026-10-30",
+ "olusturma": "2026-10-30T08:07+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
   "673dd445f6",
-  "6b84027977",
-  "a56a04649f",
-  "4e53c1dfe9",
-  "15562d66b5",
-  "09f2d88a42",
-  "ebdfee96de",
-  "7355fafd74",
-  "2dd1e5ea22",
-  "29243457b8",
+  "09845aedad",
+  "2bbb58fbf3",
+  "b39a7090c1",
+  "812849c50f",
   "e5acbca2fd",
+  "374545d39e",
   "e3bf8ff006",
-  "67730e474d",
-  "3f10dcbbc8",
+  "9a9ffaa8ed",
+  "08133ba0f7",
+  "13fa518bf4",
+  "8ca405276a",
+  "3f4b3bdb8d",
+  "7929603d4c",
+  "950f241627",
+  "30d6801541",
+  "e38786f294",
+  "50b00a0b5c",
+  "64cdc2a1af",
+  "0772019f25",
+  "5293c2d260",
+  "dfe7f5cf75",
+  "0d7eb0f932",
+  "e4a41a7fd0",
+  "f377f09e38",
+  "b6f36ab091",
+  "9a4dd072df",
   "9f3c1e1a2d",
   "3dc4b8fd7d",
+  "d8cb26a258",
   "9afd52a63c",
-  "1cab7e9b27",
-  "c3c0bec0df",
-  "25576f868a",
-  "47544ed89c",
-  "ee851af9ec",
-  "3453e66a1f",
-  "25f1dc35fd",
-  "d8af14dce0",
-  "6032ef8807",
-  "53b97841b2",
-  "8005143d71",
-  "d4445488ba",
-  "e0951cb98f",
-  "20e410b7cf",
-  "b4b76c64fb",
-  "e2f2995f8e",
-  "37e0ecb746",
-  "83f0aad1f3",
-  "d8e337af3d",
-  "c4dba7bc06",
-  "aadb4a74ce",
-  "8a1da943ed",
-  "50ae73c7bb",
-  "f67d8fa2e0",
-  "5c44a4228a",
-  "262e20f1a7",
-  "f24428bf28",
-  "47ff991003"
+  "5fda7bfe30",
+  "89c696463d",
+  "4c38e10bfe",
+  "947f2c999b",
+  "4493d26335",
+  "cb9454dd39",
+  "3623ab46d5",
+  "e6f8a6040c",
+  "2c237f1c56",
+  "43ddffb049",
+  "f3f56c046f",
+  "f3750c4c18",
+  "6004e0ce79",
+  "9b8f490eab"
  ],
- "maliyet_usd": 0.792,
- "girdi_token": 41508,
- "cikti_token": 21052,
+ "maliyet_usd": 0.7801,
+ "girdi_token": 41053,
+ "cikti_token": 20466,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -1260,19 +1248,14 @@
     "id": "one5",
     "hukum": "dayanaklı",
     "not": ""
-   },
-   {
-    "id": "one6",
-    "hukum": "dayanaklı",
-    "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen kayıtlarla ve önceki gün takip maddeleriyle örtüşüyor, olgusal dayanak sorunu bulunmadı.",
+  "genel": "Tüm iddialardaki olgular gösterilen kayıtlarla ve önceki gün başlıklarıyla uyumlu bulundu.",
   "model": "claude-sonnet-5",
-  "girdi_token": 26112,
-  "cikti_token": 595,
-  "maliyet_usd": 0.0582,
-  "iddia_sayisi": 7
+  "girdi_token": 27035,
+  "cikti_token": 913,
+  "maliyet_usd": 0.0632,
+  "iddia_sayisi": 6
  },
  "takip_acik": [
   {
@@ -1512,8 +1495,8 @@
    "baslik": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çarptırılması: Belarus'ta Dmitri Laevski, Hong Kong'da Chow Hang-tung",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-22",
-   "son_hareket": "2026-10-24",
-   "hareket_sayisi": 9
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 10
   },
   {
    "id": "t32",
@@ -2000,8 +1983,8 @@
    "baslik": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tutuklanması ve bazı belediyelere kayyım atanması",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-10-10",
-   "son_hareket": "2026-10-28",
-   "hareket_sayisi": 7
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 8
   },
   {
    "id": "t93",
@@ -2448,8 +2431,8 @@
    "baslik": "1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri ve Google'ın Türkiye temsilciliği kaydı",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-27",
-   "son_hareket": "2026-10-29",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 2
   },
   {
    "id": "t150",
@@ -2529,6 +2512,38 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-29",
    "son_hareket": "2026-10-29",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t160",
+   "baslik": "Almanya'da yaşayan Kürt ziyaretçilere Türkiye'de yurt dışına çıkış yasağı konulduğu iddiası ve Almanya'dan istenen diplomatik müdahale",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t161",
+   "baslik": "Kalp krizi geçiren 56 yaşındaki Kürt mahpusun infazının ertelenmesi talebinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t162",
+   "baslik": "Hakkari Ağır Ceza Mahkemesi'nin 2025 Newroz kutlaması nedeniyle 11 kişiye verdiği 10'ar aylık propaganda cezasının kesinleşme seyri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t163",
+   "baslik": "İspanya'nın AB İltica ve Göç Paktı uyum mevzuatı: İçişleri Bakanlığı'nın 11 Haziran 2026 talimatları ile iltica kanunu ve 4/2000 sayılı Organik Kanun ön taslakları",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
    "hareket_sayisi": 0
   }
  ]

@@ -1216,7 +1216,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-10-24",
+   "son_hareket": "2026-10-30",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1286,6 +1286,13 @@
      "not": "OIAD ve imzacı kuruluşlar, El Salvador'da avukat Roxana Cardona'ya yönelik tekrarlanan polis tacizine karşı koruma güvenceleri çağrısı yaptı; iki kaynak aynı gelişmeyi verdi [806ac7884e]. Türkiye dışı bir dosya ama avukatların mesleki faaliyet nedeniyle hedef alınması başlığına giriyor.",
      "kayitlar": [
       "806ac7884e"
+     ]
+    },
+    {
+     "gun": "2026-10-30",
+     "not": "Pakistan'da İslamabad Terörle Mücadele Mahkemesi, insan hakları avukatları Imaan Mazari-Hazir ve Hadi Ali Chattha'yı on yıl hapse mahkûm etti; Amnesty, isnatların savunuculuk faaliyetini cezalandırmak için kullanıldığını belirtiyor. Takip maddesinin adlandırdığı Belarus ve Hong Kong dosyalarında bu pencerede kayıt yok; hareket üçüncü bir ülkeden geldi.",
+     "kayitlar": [
+      "b39a7090c1"
      ]
     }
    ]
@@ -3160,7 +3167,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-28",
+   "son_hareket": "2026-10-30",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -3212,6 +3219,13 @@
      "not": "Bakırköy Cumhuriyet Başsavcılığı'nın yürüttüğü yolsuzluk soruşturmasında CHP'li Bakırköy Belediyesi'nde 5 belediye başkan yardımcısı ve 2 meclis üyesi dahil 56 kişi gözaltına alındı [a3ee825dac]. Kayıt gözaltı aşamasını veriyor; tutuklama ya da kayyım kararına ilişkin bilgi yok.",
      "kayitlar": [
       "a3ee825dac"
+     ]
+    },
+    {
+     "gun": "2026-10-30",
+     "not": "İstanbul Üsküdar'ın görevden uzaklaştırılmış muhalefetli belediye başkanı Sinem Dedetaş, yolsuzluk isnadıyla geçen 90 günlük tutukluluğun ardından ev hapsi kararıyla tahliye edildi; bilgi avukatından geliyor ve iki kaynak tarafından verildi. Kayıtlarda tutukluluğun sona erme gerekçesi ya da dosyanın esasına ilişkin bir karar yok.",
+     "kayitlar": [
+      "6004e0ce79"
      ]
     }
    ]
@@ -4352,7 +4366,7 @@
    "neden": "Google İstanbul Bilgi Teknolojileri Ltd. Şti.'nin ana sözleşmesine Google Play oyun platformu temsilciliğinin eklenmesi, 5651 rejiminin yeni bir içerik alanına yerel temsilcilik yükümlülüğüyle genişlediğini gösteriyor. Erişim engeli ve içerik kaldırma pratiğinin bu alana nasıl taşınacağı izlenmeli.",
    "acildi": "2026-10-27",
    "durum": "açık",
-   "son_hareket": "2026-10-29",
+   "son_hareket": "2026-10-30",
    "kayitlar": [
     "cb4866c6dc"
    ],
@@ -4362,6 +4376,13 @@
      "not": "İFÖD'ün EngelliWeb projesi, sulh ceza hâkimliği kararlarıyla Steam'de Türkiye'den erişime engellenen oyun sayfası sayısının 767'ye yükseldiğini bildirdi. Veri, 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümlerinin 1 Kasım 2026'da yürürlüğe girmesinden birkaç gün önce geldi.",
      "kayitlar": [
       "aadb4a74ce"
+     ]
+    },
+    {
+     "gun": "2026-10-30",
+     "not": "Stockholm Center for Freedom, Diken üzerinden İFÖD/EngelliWeb verisini aktararak Steam'de engellenen oyun sayfası sayısını 767 olarak verdi ve bunun yaklaşık bir ayda üçe katlandığını belirtti. Sayı önceki brifingte değerlendirilen düzeyle aynı; bugün yeni bir rakam ya da yeni bir karar yok, yalnızca ikinci bir kaynak aynı veriyi tekrarlıyor.",
+     "kayitlar": [
+      "2c237f1c56"
      ]
     }
    ]
@@ -4510,8 +4531,60 @@
     "8a1da943ed"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t160",
+   "baslik": "Almanya'da yaşayan Kürt ziyaretçilere Türkiye'de yurt dışına çıkış yasağı konulduğu iddiası ve Almanya'dan istenen diplomatik müdahale",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "İddia, Türkiye'nin AB'de ikamet eden kişiler üzerinde çıkış yasağı yoluyla doğrudan etki kurduğuna ilişkin; doğrulanırsa merkezin sınıraşan baskı ve konsolosluk/diplomatik koruma dosyalarıyla kesişir. Şu an tek kaynak ve bir dernek beyanı düzeyinde olduğu için seyrinin izlenmesi gerekir.",
+   "acildi": "2026-10-30",
+   "durum": "açık",
+   "son_hareket": "2026-10-30",
+   "kayitlar": [
+    "f3f56c046f"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t161",
+   "baslik": "Kalp krizi geçiren 56 yaşındaki Kürt mahpusun infazının ertelenmesi talebinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "neden": "Ağır sağlık tablosuna rağmen tahliye/erteleme taleplerinin karşılanmaması, merkezin AİHS md. 3 kapsamındaki mahpus sağlığı dosyalarıyla aynı örüntüde. Talep hakkında henüz karar verilmemiş olması takibi gerektiriyor.",
+   "acildi": "2026-10-30",
+   "durum": "açık",
+   "son_hareket": "2026-10-30",
+   "kayitlar": [
+    "9b8f490eab"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t162",
+   "baslik": "Hakkari Ağır Ceza Mahkemesi'nin 2025 Newroz kutlaması nedeniyle 11 kişiye verdiği 10'ar aylık propaganda cezasının kesinleşme seyri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Toplantı ve gösteriye katılımın terör propagandası sayılması, merkezin md. 10/11 dosyalarında yinelenen bir isnat kalıbı. İstinaf aşaması ve infaz biçimi izlenmeli.",
+   "acildi": "2026-10-30",
+   "durum": "açık",
+   "son_hareket": "2026-10-30",
+   "kayitlar": [
+    "f3750c4c18"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t163",
+   "baslik": "İspanya'nın AB İltica ve Göç Paktı uyum mevzuatı: İçişleri Bakanlığı'nın 11 Haziran 2026 talimatları ile iltica kanunu ve 4/2000 sayılı Organik Kanun ön taslakları",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Pakt'ın ulusal uygulamasında geçiş dönemi düzenlemeleri, merkezin Türkiye kaynaklı iltica dosyalarında usul güvencelerinin hangi metne göre değerlendirileceğini belirliyor. Hollanda içtihadıyla birlikte karşılaştırmalı izlenmesi gerekir.",
+   "acildi": "2026-10-30",
+   "durum": "açık",
+   "son_hareket": "2026-10-30",
+   "kayitlar": [
+    "812849c50f"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-29T08:02+00:00",
- "acik": 157
+ "guncelleme": "2026-10-30T08:07+00:00",
+ "acik": 161
 }
