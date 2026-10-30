@@ -1951,6 +1951,10 @@
 "checked": "2026-10-28T12:01:24+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:31677&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:31696&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-28T16:55:29+00:00",
 "img": ""
@@ -3679,6 +3683,106 @@
 "checked": "2026-10-15T08:53:10+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMDYvZ2lyX3RoZV9ndWlkZV90b19zYW5jdGlvbnNfZWRpdGlvbl83X3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyN19kcnVwYWxfdjEuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
 },
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/data-protection-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/directors-duties-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/directors-duties-the-us-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/employee-rights-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/extradition-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/extraterritoriality-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/fines-disgorgement-injunctions-debarment-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/forensic-accounting-skills-in-investigations-the-us-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/france-new-era-of-corporate-accountability-and-cross-border-investigations": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/germany-combating-white-collar-crime-and-sanctions-violations": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/greece-comprehensive-overview-of-corporate-investigation-and-compliance-intricacies": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/individual-penalties-and-third-party-rights-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/injunctive-relief-in-investigations-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/ireland-understanding-the-regulatory-framework-amid-fresh-legislative-developments": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/overview-of-emerging-trends-in-the-asia-pacific-region": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/privilege-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/privilege-the-us-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/publicity-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/romania-eu-reforms-drive-corporate-accountability": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/self-reporting-the-authorities-and-other-disclosure-obligations-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/spain-new-dawn-in-corporate-crime-enforcement": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/thailand-corporate-fraud-and-accounting-scandals-reveal-cracks-in-governance-and-public-trust": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/the-evolution-of-risk-management-in-global-investigations": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/whistleblowers-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/guide/the-practitioners-guide-global-investigations/2027/article/witness-interviews-in-internal-investigations-the-uk-perspective": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvZ2lyX1RoZV9QcmFjdGl0aW9uZXLigJlzX0d1aWRlX3RvX0dsb2JhbF9JbnZlc3RpZ2F0aW9uc19FbGV2ZW50aF9FZGl0aW9uX3NpdGVfbGVhZF9pbWFnZV8xMjAweDYyNy5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
 "https://globalinvestigationsreview.com/just-anti-corruption/article/balt-exec-accused-of-foreign-bribery-urges-court-call-former-colleague": {
 "checked": "2026-10-16T19:46:28+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvc2h1dHRlcnN0b2NrXzIxMDc0NDU3MjYuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
@@ -4737,6 +4841,10 @@
 },
 "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yYjBtdXJoVl9CWkxwOWFDRjlLOEFkWkgxOWJVMVlvMXVPZ1VFMkJxNVF3NFZHRXcyRWUwc2dhZjdWUUxhUmVFTWlqUXQtRHFQSUF1d09hWEF1YXh5ZktuVkRFQmV1ZEhXRWxjajF3dF9zS0RZcWc?oc=5": {
 "checked": "2026-10-10T08:01:26+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMie0FVX3lxTE43MDdqa3I2XzZhbF9XT1l0RHJ3czRTeHdTYWxwZWZULXBibzJjQ29xM0hHTFZydWFaVzloUGMxQ2tHbXJ0R1hTMmNmTkd4d1Eyb2NtMEhYcXFBX0ZOekFrOEdwNFdqbkZXa1BQMVpYZV9YSGFPdFlZOXpCUQ?oc=5": {
+"checked": "2026-10-30T10:43:09+00:00",
 "img": ""
 },
 "https://news.google.com/rss/articles/CBMieEFVX3lxTE15bVFiMDViQ3h5SmJERl9iQ0dSajR2blExVGdEd3hLMnE3WGhJNkdCaFBKWTh4eUZKRXRuU24tMVk0VEZ0Q1RxRkUwcWVhWXg1bGJMN3piQTFlekE4LW8xNTgwN0IyX21TOTI2Njk5ZUZvRE1WTXhobg?oc=5": {
@@ -5995,6 +6103,10 @@
 "checked": "2026-09-28T18:19:27+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Money-mules-shift-to-EMIs-and-challenger-banks-FCA-finds.jpg"
 },
+"https://regtechanalyst.com/fca-review-puts-private-equity-governance-under-pressure/": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/FCA-warns-private-markets-over-conflicts-of-interest-gaps.jpg"
+},
 "https://regtechanalyst.com/fca-warns-ai-disclaimers-are-needed-as-consumers-seek-advice/": {
 "checked": "2026-10-26T10:42:51+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/FCA-builds-agentic-finance-rules-as-AI-reshapes-UK-markets.jpg"
@@ -6339,9 +6451,17 @@
 "checked": "2026-10-05T09:52:28+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2025/02/zhan-zhang-FeYB9-O15NE-unsplash-scaled.jpg"
 },
+"https://regtechanalyst.com/sec-targets-conflicts-cyber-risk-and-digital-assets-in-2027/": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/SEC-2027-exam-priorities-put-compliance-controls-on-trial.jpg"
+},
 "https://regtechanalyst.com/seismic-and-theta-lake-target-ai-execution-gap-in-finance/": {
 "checked": "2026-10-20T20:14:17+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Seismic-and-Theta-Lake-target-the-AI-execution-gap.jpg"
+},
+"https://regtechanalyst.com/sgx-board-shake-up-puts-independence-under-the-spotlight/": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Singapore-caps-board-seats-as-governance-overhaul-looms.jpg"
 },
 "https://regtechanalyst.com/shield-appoints-former-hsbc-executive-to-strengthen-ai-driven-surveillance-strategy/": {
 "checked": "2026-10-14T15:39:11+00:00",
@@ -6538,6 +6658,10 @@
 "https://regtechanalyst.com/why-imf-and-world-bank-fear-fraud-could-erode-digital-trust/": {
 "checked": "2026-10-19T09:36:56+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Bangkok-Blueprint-sets-global-playbook-against-cyber-fraud.jpg"
+},
+"https://regtechanalyst.com/why-itgc-failures-can-undo-your-compliance-programme/": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Weak-IT-general-controls-put-every-audit-at-risk.jpg"
 },
 "https://regtechanalyst.com/why-launderers-see-life-insurance-as-south-africas-soft-target/": {
 "checked": "2026-10-06T09:39:55+00:00",
@@ -7867,6 +7991,10 @@
 "checked": "2026-10-13T08:52:45+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/liberal-constitutionalism-beyond-the-west/": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/nachrichtendienstreform-auskunftsrecht/": {
 "checked": "2026-09-24T20:13:35+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -8166,6 +8294,10 @@
 "https://www.aa.com.tr/tr/gundem/avrupa-konseyi-gorunurluk-haftasi-vesilesiyle-resepsiyon-duzenlendi/4099113": {
 "checked": "2026-10-24T06:49:30+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/24/thumbs_b_c_6441117946fd6d9207933d4c7c400224.jpg"
+},
+"https://www.aa.com.tr/tr/gundem/aymden-eksik-odenen-memur-maaslarina-iliskin-ihlal-karari/4106120": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/30/thumbs_b_c_a908d56f0175c1351238b6e620a8cb99.jpg"
 },
 "https://www.aa.com.tr/tr/gundem/bakan-gurlek-interpolun-kirmizi-bultenle-aradigi-abdli-schuelerin-yakalandigini-bildirdi/4091693": {
 "checked": "2026-10-17T08:16:36+00:00",
@@ -9910,6 +10042,10 @@
 "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats": {
 "checked": "2026-10-07T09:37:01+00:00",
 "img": "https://www.europol.europa.eu/cms/sites/default/files/styles/800x/public/images/261007-Quantum-computing-lead.png?itok=xCTUaPoA"
+},
+"https://www.europol.europa.eu/media-press/newsroom/news/five-tefaf-robbery-suspects-added-to-eu-most-wanted": {
+"checked": "2026-10-30T10:43:09+00:00",
+"img": "https://www.europol.europa.eu/cms/sites/default/files/styles/800x/public/images/EUMW-2025-visual-PR-preview.png?itok=Y9tNc00g"
 },
 "https://www.europol.europa.eu/media-press/newsroom/news/global-public-private-operation-disrupts-sality-botnet-active-for-two-decades": {
 "checked": "2026-09-16T12:55:10+00:00",
