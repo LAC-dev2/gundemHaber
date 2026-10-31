@@ -1,6 +1,6 @@
 {
  "gun": "2026-10-31",
- "olusturma": "2026-10-31T11:38+00:00",
+ "olusturma": "2026-10-31T15:55+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-10-31:Estonya'nın iltica talebini reddettiği Kürt şair Tekin Ağacı",
@@ -32,12 +32,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-31:12",
+   "id": "saglik:2026-10-31:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Dışişleri Bakanlığı, Frontex, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Frontex, Scholars at Risk, Alomaliye, ESMA, AML Intelligence…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
