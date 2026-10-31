@@ -1,40 +1,43 @@
 {
- "gun": "2026-10-30",
- "olusturma": "2026-10-30T21:17+00:00",
+ "gun": "2026-10-31",
+ "olusturma": "2026-10-31T08:01+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-30:Üsküdar Belediye Başkanı Sinem Dedetaş 90 gün tutukluluktan ",
+   "id": "alan:2026-10-31:Estonya'nın iltica talebini reddettiği Kürt şair Tekin Ağacı",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Üsküdar Belediye Başkanı Sinem Dedetaş 90 gün tutukluluktan sonra ev hapsine çıkarıldı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma (belediyelere yönelik soruşturmalar)",
-   "not": "Muhalefetli belediye başkanlarına yönelik tutuklamalarda, merkezin t92 dosyasında izlediği örüntünün ters yönde bir adımı: tutukluluk ev hapsiyle ikame edildi. Tedbirin tamamen kaldırılmaması, yolsuzluk isnadının ve adli kontrolün sürdüğünü gösteriyor. Tutukluluğun 90 güne ulaşması, AİHS md. 5/3 bakımından süre ve gerekçe denetimini gündemde tutuyor.",
+   "baslik": "Estonya'nın iltica talebini reddettiği Kürt şair Tekin Ağacık, Türkiye'ye dönüşünde gözaltına alındı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Bir AB üyesinin iltica talebini reddedip geri gönderdiği kişinin varış anında terör isnadıyla gözaltına alınması, geri gönderme kararında yapılan risk değerlendirmesini doğrudan sınayan bir vakadır. Kayda göre sorgulanacağı 18 dosyanın 17'si Cumhurbaşkanına hakaret veya terör propagandası iddiasıyla sosyal medya paylaşımlarına ilişkin; bu, isnadın büyük ölçüde ifade temelli olduğunu gösterir. Merkezin iltica ve sınıraşan baskı dosyalarında, menşe ülkeye dönüşte gerçekleşen yargısal işlemlerin belgelenmesi açısından izlenmesi gereken bir dosya.",
    "kayitlar": [
-    "6004e0ce79"
+    "b586e2df07"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "takip:2026-10-30:toplu:3",
+   "id": "takip:2026-10-31:toplu:6",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "3 takip dosyasında hareket var",
+   "baslik": "6 takip dosyasında hareket var",
    "alan": "",
-   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; 1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformla",
+   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; Rechtbank Den Haag'ın 23 Eylül 2026 tarihli NL26.19608 sayılı kararı (; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; AİHM'in kurumsal kapasitesi: görev süresi dolan dört yargıç, bütçe bağ; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ; İsmail Arı dosyası: eski RTÜK başkanının şikâyeti üzerine gazetecinin ",
    "kayitlar": [
-    "b39a7090c1",
-    "6004e0ce79",
-    "2c237f1c56"
+    "5b883f3dd4",
+    "5018b66e45",
+    "dc9d5f7ca0",
+    "d891caa95f",
+    "ffc76f51f6",
+    "bc04464dc1"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-30:12",
+   "id": "saglik:2026-10-31:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Frontex, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: ProtectDefenders.eu, FIDH - Türkiye, Frontex, Scholars at Risk, Alomaliye, ESMA…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
