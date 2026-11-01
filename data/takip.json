@@ -1339,7 +1339,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-10-27",
+   "son_hareket": "2026-11-01",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1489,6 +1489,13 @@
      "not": "26 Ekim'de 5651 md. 8/A kapsamında en az 31 X hesabı engellendi; engellenenler arasında gazeteciler Birsen Altuntaş ve Erk Acarer var. Kayıt, engelin ekonomi/finans hesapları dışına, doğrudan gazeteci hesaplarına yayıldığını gösteriyor.",
      "kayitlar": [
       "c5e7db4e2e"
+     ]
+    },
+    {
+     "gun": "2026-11-01",
+     "not": "İFÖD, Yeni Yaşam Gazetesi'nin yeniyasamgazetesi9.com alan adının millî güvenlik ve kamu düzeni gerekçesiyle engellendiğini bildirdi. Gerekçe kalıbı, t33'te izlenen 8/A tipi toplu engel kararlarıyla aynı; ancak bu kez hedef bir gazete alan adı.",
+     "kayitlar": [
+      "9e654699e9"
      ]
     }
    ]
@@ -1846,7 +1853,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-10-27",
+   "son_hareket": "2026-11-01",
    "kayitlar": [
     "b290622139"
    ],
@@ -1949,6 +1956,13 @@
      "kayitlar": [
       "107183882b",
       "f381294c13"
+     ]
+    },
+    {
+     "gun": "2026-11-01",
+     "not": "Millî güvenlik/kamu düzeni gerekçeli erişim engeli pratiği bu pencerede bir gazetenin alan adına uygulandı (İstanbul 10. Sulh Ceza Hâkimliği, 31 Ekim 2026, 2026/11556).",
+     "kayitlar": [
+      "9e654699e9"
      ]
     }
    ]
@@ -3315,7 +3329,7 @@
    "neden": "Kayıtlar yalnızca dosya adı düzeyinde; aynı pencerede 7595 sayılı Kanun kaydıyla birlikte geldikleri için içeriklerinin merkezin icra ve el koyma dosyalarıyla ilgisi olup olmadığı doğrulanmalı.",
    "acildi": "2026-10-11",
    "durum": "açık",
-   "son_hareket": "2026-10-20",
+   "son_hareket": "2026-11-01",
    "kayitlar": [
     "33a9b47f0e",
     "a50cc3ecb2",
@@ -3365,6 +3379,15 @@
      "not": "Resmî Gazete kaynağından 20261006-8.pdf yalnızca dosya adı düzeyinde geldi; içerik belirlenemedi. Sekiz belgenin kalanına ilişkin yeni bilgi yok.",
      "kayitlar": [
       "79390c3dbd"
+     ]
+    },
+    {
+     "gun": "2026-11-01",
+     "not": "Resmî Gazete'nin 1 Kasım 2026 tarihli 33417 sayılı sayısına ilişkin özet altı maddeyi kapsıyor (Cumhurbaşkanlığı atama kararları 2026/363-371, bir üniversite yönetmeliği ve dört spor federasyonu ana statüsü). Aynı pencerede 'Yargı Harçları' ve 'HSK Terfi Listesi' başlıklı iki ayrı Resmî Gazete kaydı var; bunların içeriği ve özetle ilişkisi kayıtlardan çıkmıyor.",
+     "kayitlar": [
+      "9a1503b893",
+      "673dd445f6",
+      "7d4e21102c"
      ]
     }
    ]
@@ -4675,13 +4698,49 @@
    "neden": "Köse kararının genel tedbir boyutu HSK kararlarına karşı yargı yolu sorununa ilişkin; terfi listelerinin içeriği HSK kararlarının denetlenebilirliği tartışmasında veri oluşturur. Kayıtta yalnızca başlık düzeyinde bilgi var.",
    "acildi": "2026-10-31",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-01",
    "kayitlar": [
     "7d4e21102c"
+   ],
+   "gelismeler": [
+    {
+     "gun": "2026-11-01",
+     "not": "Resmî Gazete kaynağı 1 Kasım 02:24'te yeniden 'HSK Terfi Listesi' başlıklı bir kayıt üretti; kayıtta yalnızca başlık düzeyinde bilgi var, liste içeriği (ad, sayı, kademe) görünmüyor. Aynı güne ait Resmî Gazete özetinde (sayı 33417, 6 madde) HSK terfi listesi yer almıyor; bu nedenle hangi sayıda yayımlandığı kayıtlardan doğrulanamıyor.",
+     "kayitlar": [
+      "7d4e21102c",
+      "9a1503b893"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t168",
+   "baslik": "Yeni Yaşam Gazetesi'nin ardışık alan adlarına uygulanan erişim engelleri ve 2026/11556 sayılı karara itiraz",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Gazetenin alan adı numaralandırılarak değiştirildikçe yeni kararlarla engellendiği, İFÖD kaydının önceki alan adlarına atfından anlaşılıyor; engelin site genelinde ve millî güvenlik gerekçesiyle verilmesi ölçülülük denetimini doğrudan ilgilendiriyor.",
+   "acildi": "2026-11-01",
+   "durum": "açık",
+   "son_hareket": "2026-11-01",
+   "kayitlar": [
+    "9e654699e9"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t169",
+   "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
+   "acildi": "2026-11-01",
+   "durum": "açık",
+   "son_hareket": "2026-11-01",
+   "kayitlar": [
+    "673dd445f6",
+    "9a1503b893"
    ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-10-31T08:01+00:00",
- "acik": 165
+ "guncelleme": "2026-11-01T08:41+00:00",
+ "acik": 167
 }

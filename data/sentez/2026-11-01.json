@@ -1,0 +1,559 @@
+{
+ "baslik": "Erişim engelleri hesap ve alan adı düzeyine taşındı; mahpus sağlığı dosyası ölümle kapandı",
+ "ozet": "Hafta boyunca ifade özgürlüğü alanında ağırlık, tek habere yönelik kararlardan hesap, alan adı ve platform düzeyindeki toplu engellere kaydı: 26 Ekim'de en az 31 X hesabı ve iki parti Instagram hesabı 8/A kapsamında engellendi, maliye bakanına ilişkin altı haber tek kararla kapatıldı, Steam'de engelli oyun sayfası sayısı 767 olarak bildirildi ve hafta 31 Ekim tarihli kararla Yeni Yaşam'ın alan adının engellenmesiyle kapandı. Mahpus sağlığı dosyalarında merkezin 10 Ekim'den beri izlediği Abdullah Tırpan vakası ölümle sonuçlandı; aynı hafta bebekleriyle tutulan annelere ilişkin rapor, kalp krizi geçiren bir mahpusun infazının sürmesi ve CİSST'in izleme kurulları raporu aynı başlığa eklendi. Gazetecilere yönelik tedbirler haberin kendisinden haberi yapan editöre ve protestocuya doğru genişledi: Sözcü'den iki editörün gözaltısı, RTÜK'ün iki hafta içinde ikinci ceza turu ve İsmail Arı iddianamesinin kabulü aynı çizgide. Sınıraşan baskı tarafında üç ayrı kanal kayda girdi: İskandinav ülkelerindeki gösterilerin profillenmesi iddiası, Almanya'da yaşayan Kürtlere çıkış yasağı iddiası ve Estonya'nın geri gönderdiği Tekin Ağacık'ın varışta gözaltına alınması. Malvarlığı tarafında fon soruşturması iktidar partisi çevresine uzandı, 7596 sayılı kanunla tasfiye edilen fonlar için özel bir geri kazanım usulü kuruldu; belediye dosyalarında Bakırköy'de 56 gözaltı ile Dedetaş'ın 90 gün sonra ev hapsine çıkarılması aynı hafta içinde yer aldı. AB tarafında Komisyon 27 Ekim'de Frontex ve geri gönderme dijitalleştirme önerilerini sundu. Buna karşılık yedi günün tamamında AİHM'den karar metni, Bakanlar Komitesi'nden icra kaydı gelmedi; 28 Ekim'de beklenen Komisyon genişleme raporunun metni de brifinglere yansımadı.",
+ "egilimler": [
+  {
+   "baslik": "Erişim engelinin birimi habere değil hesaba, alan adına ve platforma kayıyor",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "güçleniyor",
+   "not": "26 Ekim'de en az 31 X hesabı ile iki SYKP Instagram hesabı 8/A kapsamında engellendi; MLSA aynı hafta maliye bakanına ilişkin altı haberin tek kararla engellendiğini ve Yeni Yaşam'ın X hesabına dokuzuncu kısıtlamayı bildirdi. Steam'de engelli oyun sayfası sayısı 767 olarak iki ayrı kaynaktan verildi. Hafta, bir gazetenin alan adının tamamına millî güvenlik/kamu düzeni gerekçesiyle getirilen engelle kapandı.",
+   "gunler": [
+    "2026-10-27",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-11-01"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "Mahpus sağlığı: rapor zinciri ve sürdürülen infaz",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "yon": "güçleniyor",
+   "not": "73 yaşındaki Abdullah Tırpan, dört ayrı rapor 'cezaevinde kalabilir' dedikten sonra ampütasyonu izleyen günlerde hastanede öldü. Aynı hafta bebekleriyle tutulan annelerin refakat engeli, kalp krizi geçirmesine rağmen tahliye edilmeyen 56 yaşındaki mahpus ve CİSST'in 2025 izleme kurulları raporu kayda girdi. Dosyalar ortak bir örüntüye işaret ediyor: ağır tıbbi tablo, karara bağlanmamış erteleme talebi, iç başvuru yollarının etkililiği sorunu.",
+   "gunler": [
+    "2026-10-27",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "İfade kaynaklı cezai tedbirlerin halkası genişliyor: olay, haber, haberi yapan, protesto eden",
+   "alan": "İfade ve basın özgürlüğü",
+   "yon": "güçleniyor",
+   "not": "Pankart nedeniyle iki öğrencinin tutuklanmasının ardından haberi yapan Sözcü editörleri gözaltına alındı, tutuklamayı protesto eden dört öğrenci de gözaltına alındı. Aynı hafta RTÜK iki haftadan kısa sürede aynı iki kanala ikinci kez para cezası verdi ve tutuklu gazeteci İsmail Arı hakkındaki iddianame kabul edildi. TGS'nin son iki ayda 11 gazetecinin tutuklandığı sayımı bu kayıtların öncesinde verilmişti.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-31"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Sınıraşan baskı araçlarında çeşitlenme",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "yon": "güçleniyor",
+   "not": "Hafta içinde üç ayrı kanal kaydedildi: Türk polisinin Norveç, Finlandiya ve Danimarka'daki gösterileri izleyip bilgileri yurt içi ceza dosyalarına aktardığı iddiası, Almanya'da yaşayan Kürt ziyaretçilere Türkiye'de çıkış yasağı konulduğu iddiası ve Estonya'nın geri gönderdiği Tekin Ağacık'ın varışta gözaltına alınması. İlk iki kayıt tek kaynaklı ve resmî belgeyle desteklenmiş değil; üçüncüsü bir AB üyesinin risk değerlendirmesini doğrudan sınıyor.",
+   "gunler": [
+    "2026-10-28",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "AİHM ve Bakanlar Komitesi tarafında birincil belge akışı durdu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "yon": "zayıflıyor",
+   "not": "Yedi günün tamamında HUDOC'tan karar metni, Bakanlar Komitesi'nden yeni icra kaydı gelmediği not edildi; icra takvimleri önceki düzeyde kaldı. Alandaki tek kayıt, Lebedeva ve Diğerleri v. Rusya kararının kayıttan düşürme gerekçesine ilişkin akademik bir değerlendirme oldu. Buna karşılık saha tarafında ByLock ve Bank Asya ölçütlerine dayanan gözaltılar sürdü; icra sorununun uygulama karşılığı belgelenmeye devam ediyor.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "guven": "yüksek"
+  }
+ ],
+ "dosya_seyri": [
+  {
+   "id": "t91",
+   "baslik": "Abdullah Tırpan dosyası (Metris, kangren)",
+   "hareket": "ilerledi",
+   "not": "Dosya ölümle sonuçlandı: 22 Ekim'deki diz altı ampütasyonun ardından 26 Ekim'de hastanede öldü. ATK'nın 17 Aralık 2025, Tekirdağ Şehir Hastanesi kurullarının Mayıs–Haziran 2026 ve 6 Ekim tarihli muayenenin 'cezaevinde kalabilir' değerlendirmeleri geriye dönük olarak tartışmaya açıldı. Rapor zincirine ilişkin herhangi bir idari ya da cezai inceleme kaydı gelmedi.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t33",
+   "baslik": "5651 md. 8/A ile toplu erişim engelleri",
+   "hareket": "ilerledi",
+   "not": "26 Ekim'de en az 31 X hesabı engellendi; engellenenler arasında gazeteciler Birsen Altuntaş ve Erk Acarer var, yani uygulama ekonomi/finans hesaplarının dışına çıktı. 31 Ekim tarihli kararla aynı gerekçe kalıbı bir gazetenin alan adına uygulandı.",
+   "gunler": [
+    "2026-10-27",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t47",
+   "baslik": "Engellenen hesapların platformlarca görünmez kılınması",
+   "hareket": "ilerledi",
+   "not": "26 Ekim tarihli 31 hesaplık karar X tarafından henüz uygulanmamışken, aynı gün SYKP'nin iki Instagram hesabı hem engellendi hem Türkiye'den görünmez kılındı. Platformlar arası uygulama hızı farkı sürüyor; kararın X tarafından uygulanıp uygulanmadığına dair izleyen günlerde kayıt gelmedi.",
+   "gunler": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t42",
+   "baslik": "Fon krizi haberlerine millî güvenlik gerekçeli engeller",
+   "hareket": "ilerledi",
+   "not": "MLSA'nın 19-25 Ekim bülteni Hazine ve Maliye Bakanı'na ilişkin altı haberin tek mahkeme kararıyla engellendiğini bildirdi. Nordic Monitor, soruşturmanın mali büyüklüğüne ilişkin ilk nicel değerlendirmeyi verdi (kaynağın kendi iddiası). 1 Kasım'da aynı gerekçe kalıbı Yeni Yaşam alan adında görüldü.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t109",
+   "baslik": "Halk TV kayyımı ve 8/A engelleri",
+   "hareket": "yerinde",
+   "not": "Dosya 24 Ekim protestolarının gerekçeleri arasında ve MLSA haftalık dökümünde anıldı; yeni usul adımı, karar numarası ya da itiraz sonucu bildirilmedi. Haftanın kalanında kayıt gelmedi.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t60",
+   "baslik": "T24 engeli (2026/8894)",
+   "hareket": "yerinde",
+   "not": "Engelin yetkililerce 'LGBT propagandası' olarak nitelenen gerekçeye bağlandığı protesto haberinde tekrarlandı. İtiraz sonucuna ilişkin kayıt yok.",
+   "gunler": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "id": "t119",
+   "baslik": "RTÜK'ün fon skandalı yayınlarına para cezaları",
+   "hareket": "ilerledi",
+   "not": "RTÜK 28 Ekim'de iki televizyon kanalına, tutuklu bir gazeteciye ve yatırım fonu skandalına ilişkin yayınlar nedeniyle iki haftadan kısa sürede ikinci kez ceza verdi. Kayıtta kanal adları ve tutar yok; takip maddesindeki Sözcü TV–Koza TV eşleşmesi doğrulanmadı. Bir kurul üyesi cezaların basın özgürlüğünü kısıtladığını belirtti.",
+   "gunler": [
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t120",
+   "baslik": "Ağırel dosyası ve fon soruşturmasında yeniden gözaltılar",
+   "hareket": "ilerledi",
+   "not": "Eski AKP milletvekili Ertan Aydın ev hapsi kararına savcılık itirazı üzerine yeniden gözaltına alınıp tutuklandı; Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer tutuklama talebiyle mahkemeye sevk edildi. Soruşturmanın iktidar partisi çevresine uzandığını gösteren ilk kayıt.",
+   "gunler": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "id": "t146",
+   "baslik": "Ev hapsine savcılık itirazı üzerine yeniden tutuklama pratiği",
+   "hareket": "ilerledi",
+   "not": "Aydın ve Özer dosyalarıyla kalıp bir kez daha kayda geçti. İsnat, dosya numarası ve tutuklama kararlarının içeriği hafta sonuna kadar netleşmedi.",
+   "gunler": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "id": "t23",
+   "baslik": "Katılımevim fon soruşturması",
+   "hareket": "ilerledi",
+   "not": "27 Ekim tarihli Resmî Gazete'de 7596 sayılı kanun yayımlandı; SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen fonlarda malvarlığı geri kazanımı ve sorumluların şahsi takibi düzenleniyor. Kanunun Katılımevim dosyasını kapsayıp kapsamadığı kayıtlarda yok.",
+   "gunler": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t148",
+   "baslik": "7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun",
+   "hareket": "ilerledi",
+   "not": "Kanun Resmî Gazete'de yayımlandı ve ceza soruşturmasına paralel yürüyen idari-mali bir tasfiye rejimini yasa düzeyine taşıdı. Kapsadığı fonların listesi ve devam eden ceza soruşturmalarıyla ilişkisi hafta içinde belirlenemedi.",
+   "gunler": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t92",
+   "baslik": "CHP'li belediye başkanlarına yönelik tutuklamalar ve kayyımlar",
+   "hareket": "ilerledi",
+   "not": "Bakırköy Belediyesi'nde 5 başkan yardımcısı ve 2 meclis üyesi dahil 56 kişi gözaltına alındı; tutuklama veya kayyım kararına ilişkin bilgi gelmedi. İki gün sonra Üsküdar Belediye Başkanı Sinem Dedetaş 90 günlük tutukluluğun ardından ev hapsiyle tahliye edildi; tedbir tamamen kaldırılmadı.",
+   "gunler": [
+    "2026-10-28",
+    "2026-10-30"
+   ]
+  },
+  {
+   "id": "t94",
+   "baslik": "AB Komisyonu genişleme değerlendirmesi",
+   "hareket": "yerinde",
+   "not": "AP Türkiye raportörü, raporun 28 Ekim'de yayımlanmasının beklendiğini ve geçen yılkinden daha olumsuz olacağını söyledi. Beyan rapordan önce verilmiş bir öngörü; rapor metnine ilişkin kayıt hafta içinde gelmedi.",
+   "gunler": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t126",
+   "baslik": "Yurt dışındaki Gülen bağlantılı okullar ve TMV devralmaları",
+   "hareket": "yerinde",
+   "not": "Madrid'deki program ve Köln'deki kısa film yarışması diaspora faaliyetine ilişkin kayıtlar; okul devralmalarına dair yeni veri içermiyor.",
+   "gunler": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "id": "t145",
+   "baslik": "Basın özgürlüğü yürüyüşleri ve TGS tutuklama sayımı",
+   "hareket": "ilerledi",
+   "not": "24 Ekim'de İstanbul ve Ankara'da polis sayımına göre en az 3.000'er kişinin katıldığı yürüyüşler yapıldı; TGS son iki ayda 11 gazetecinin tutuklandığını bildirdi. İzleyen günlerde Sözcü'den iki editörün ve bir köşe yazarının gözaltısı sayıma yeni kayıtlar ekledi; sayımın güncellenmiş hali gelmedi.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-28"
+   ]
+  },
+  {
+   "id": "t150",
+   "baslik": "Pankart nedeniyle iki üniversite öğrencisinin tutuklanması",
+   "hareket": "ilerledi",
+   "not": "Dosya üç gün üst üste genişledi: tutuklamanın ardından haberi yapan Sözcü editörleri gözaltına alındı, 28 Ekim'de tutuklamayı protesto eden dört öğrenci kısa süreliğine gözaltına alındı. Tutuklu iki öğrencinin tutukluluk incelemesi ve iddianameye ilişkin kayıt gelmedi.",
+   "gunler": [
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t149",
+   "baslik": "5651'in oyun platformu hükümleri ve Google temsilciliği",
+   "hareket": "ilerledi",
+   "not": "Google'ın Türkiye şirketi, 1 Kasım'da yürürlüğe girecek hükümler kapsamında Google Play oyun platformu temsilciliğini faaliyet alanına ekledi. İFÖD, Steam'de engelli oyun sayfası sayısını 767 olarak bildirdi; rakam ertesi gün ikinci bir kaynakta tekrarlandı ve yaklaşık bir ayda üçe katlandığı belirtildi. 1 Kasım'da yürürlük sonrası ilk uygulamaya dair kayıt yok.",
+   "gunler": [
+    "2026-10-27",
+    "2026-10-29",
+    "2026-10-30"
+   ]
+  },
+  {
+   "id": "t144",
+   "baslik": "AB sınır dışı sisteminin dijitalleştirilmesi önerisi",
+   "hareket": "ilerledi",
+   "not": "26 Ekim'de 28 Ekim için beklenen metin, 27 Ekim'de Frontex Tüzüğü değişikliğiyle birlikte sunuldu. Öneri Frontex personelini 30.000'e çıkarıyor ve AB dışı ülkeler arasında zorla geri gönderme yetkisi tanıyor; Amnesty reddedilmesini istedi.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t156",
+   "baslik": "Frontex mandasının genişletilmesi önerisi",
+   "hareket": "ilerledi",
+   "not": "Öneri metne dönüştü; 'return hub' tartışması ve ajansın insan hakları yükümlülüklerinin aynı ölçüde genişletilmemesi eleştirisi kayda girdi. Parlamento/Konsey takvimi henüz belirsiz.",
+   "gunler": [
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t106",
+   "baslik": "HRW COP31 öncesi protesto soruşturmaları raporu",
+   "hareket": "yerinde",
+   "not": "Amnesty, Antalya'daki COP31 öncesi sivil özgürlüklerin korunması çağrısı yaptı; kayıt başlık/özet düzeyinde ve Türkiye'deki protesto soruşturmalarına yeni veri eklemiyor.",
+   "gunler": [
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t31",
+   "baslik": "Avukatların mesleki faaliyet nedeniyle cezalandırılması",
+   "hareket": "ilerledi",
+   "not": "Hareket iki gün üst üste Pakistan'dan geldi: İslamabad Terörle Mücadele Mahkemesi iki insan hakları avukatına 10'ar yıl hapis verdi; HRW yargılamanın cezaevi içinde yapıldığını, savunma avukatı seçme ve dosyaya erişimin kısıtlandığını aktardı. Maddenin adlandırdığı Belarus ve Hong Kong dosyalarında kayıt yok.",
+   "gunler": [
+    "2026-10-30",
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t43",
+   "baslik": "'Kruisjesformulier' gerekçeli Hollanda iltica kararları",
+   "hareket": "ilerledi",
+   "not": "Rechtbank Den Haag 27 Ekim tarihli NL26.23721 sayılı kararında aynı gerekçeyle başvuruyu kabul etti. Kayıt ECLI ve özet etiketi düzeyinde; gerekçenin tam metni elde değil.",
+   "gunler": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t56",
+   "baslik": "29 Eylül ByLock kararlarının icrası",
+   "hareket": "ilerledi",
+   "not": "30 Ekim'de üç ildeki gözaltılarda isnat gerekçeleri arasında geçmişte ByLock kullanımı ve Bank Asya mevduat artışı sayılmaya devam etti. Bu, kararların genel tedbir boyutuyla doğrudan ilgili bir uygulama kaydı; Bakanlar Komitesi tarafında hareket yok.",
+   "gunler": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t75",
+   "baslik": "AİHM'in kurumsal kapasitesi ve md. 37/2 tartışması",
+   "hareket": "ilerledi",
+   "not": "Lebedeva ve Diğerleri v. Rusya kararına ilişkin akademik değerlendirme yayımlandı: 3 Eylül'de yaklaşık 900 başvuru esas incelenmeden kayıttan düşürülmüştü. Yazı, devletin işbirliği yapmamasının kayıttan düşürme gerekçesine dahil edilmesini eleştiriyor.",
+   "gunler": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t83",
+   "baslik": "CİSST cezaevi verileri",
+   "hareket": "ilerledi",
+   "not": "CİSST, izleme kurullarına, il/ilçe insan hakları kurullarına, Adalet Bakanlığı'na ve Kamu Denetçiliği Kurumu'na 2025 boyunca yapılan başvuruları değerlendiren raporunu yayımladı. Kayıtta sayısal döküm yok.",
+   "gunler": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t134",
+   "baslik": "İsmail Arı dosyası",
+   "hareket": "ilerledi",
+   "not": "Ankara 32. Asliye Ceza Mahkemesi iddianameyi kabul etti; savcılık yatırım fonu soruşturmasına ilişkin sosyal medya paylaşımları nedeniyle 5 yıl 4 ay hapis istiyor. Gazetecinin tutukluluğu sürüyor; duruşma tarihi kayıtlarda yok.",
+   "gunler": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t164",
+   "baslik": "Tekin Ağacık dosyası",
+   "hareket": "ilerledi",
+   "not": "Estonya'nın iltica talebini reddedip geri gönderdiği şair, İstanbul Havalimanı'nda gözaltına alındı ve 18 ayrı dosya üzerinden sorgulanacağı bildirildi; bunların 17'si Cumhurbaşkanına hakaret veya terör propagandası iddiasıyla sosyal medya paylaşımlarına ilişkin. Gözaltının sevk sonucu ertesi gün kayda girmedi.",
+   "gunler": [
+    "2026-10-31",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t165",
+   "baslik": "30 Ekim Gülen operasyonu (İstanbul, Aydın, İzmir)",
+   "hareket": "ilerledi",
+   "not": "Üç ilde 10 kişi gözaltına alındı, 12,85 milyon TL değerinde varlığa el konuldu; isnat ölçütleri ByLock ve Bank Asya mevduat artışı. Sulh ceza hâkimliğine sevk sonucu hafta sonunda bildirilmedi.",
+   "gunler": [
+    "2026-10-31",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t167",
+   "baslik": "Resmî Gazete HSK terfi listesi",
+   "hareket": "yerinde",
+   "not": "Kaynak iki gün üst üste 'HSK Terfi Listesi' başlıklı kayıt üretti, ancak her ikisi de başlık düzeyinde kaldı. 1 Kasım tarihli 33417 sayılı Resmî Gazete özetinde liste yer almıyor; hangi sayıda yayımlandığı doğrulanamıyor.",
+   "gunler": [
+    "2026-10-31",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t95",
+   "baslik": "6 Ekim tarihli Resmî Gazete belgelerinin içeriği",
+   "hareket": "yerinde",
+   "not": "Resmî Gazete akışı hafta boyunca başlık/özet kopukluğu üretmeye devam etti: 'Yargı Harçları' kaydı dört kez başlık düzeyinde göründü, 26 Ekim sayısının özeti teknik hatayla tamamlanamadı, 1 Kasım özetinde iki ayrı kayıt yer almadı. İçerik belirleme sorunu çözülmedi.",
+   "gunler": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-29",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t168",
+   "baslik": "Yeni Yaşam Gazetesi alan adı engelleri",
+   "hareket": "ilerledi",
+   "not": "İstanbul 10. Sulh Ceza Hâkimliği'nin 31 Ekim 2026 tarihli 2026/11556 sayılı kararıyla yeniyasamgazetesi9.com millî güvenlik ve kamu düzeni gerekçesiyle engellendi. İFÖD kaydı, gazetenin önceki alan adlarının da engellendiğini belirtiyor; karara itiraz edilip edilmediği bilinmiyor.",
+   "gunler": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t169",
+   "baslik": "1 Kasım tarihli yargı harçları düzenlemesi",
+   "hareket": "yerinde",
+   "not": "Kayıt yalnızca başlık düzeyinde geldi ve günün Resmî Gazete özetinde yer almıyor; kapsamı ve yargıya erişim maliyetine etkisi belirlenemiyor.",
+   "gunler": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t117",
+   "baslik": "Belçika'da yabancı uyruklulara polis 'ev ziyareti' yasası",
+   "hareket": "yerinde",
+   "not": "Dosya, oylamanın 5 Kasım'da yapılacağı bildirilerek derinleştirildi; metinde yeni bir parlamento adımı kaydedilmedi.",
+   "gunler": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "t158",
+   "baslik": "Alparslan Kuytul dosyası (ziyaret günü kararı)",
+   "hareket": "ilerledi",
+   "not": "Bir mahkeme, çocuklarının hafta sonu ziyaretine izin verilmemesine ilişkin cezaevi idaresi kararını onadı; aynı ret kararı altı gün önce bozulmuştu. Son kararın gerekçesi ve itiraz süreci kayıtlarda yok.",
+   "gunler": [
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t159",
+   "baslik": "'Vulnerable Behind Bars' raporu",
+   "hareket": "ilerledi",
+   "not": "28 Ekim'de yayımlanan rapora göre bazı anneler, personel refakate izin vermediği için bebekleri adına sağlık hizmeti talep etmekten kaçındıklarını belirtti. Cezaevi sağlık erişimi dosyalarına çocuklu mahpus boyutu eklendi.",
+   "gunler": [
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t153",
+   "baslik": "İskandinav ülkelerindeki gösterilerin Türk polisince profillenmesi",
+   "hareket": "ilerledi",
+   "not": "İddia tarihli ve imzalı iki polis belgesine dayandırılarak kaydedildi; katılımcı bilgilerinin Türkiye'deki ceza dosyalarına aktarıldığı belirtiliyor. Ertesi gün dosyada yeni kayıt gelmedi, ikinci kaynak doğrulaması yok.",
+   "gunler": [
+    "2026-10-28"
+   ]
+  },
+  {
+   "id": "t160",
+   "baslik": "Almanya'da yaşayan Kürtlere çıkış yasağı iddiası",
+   "hareket": "ilerledi",
+   "not": "Tek kaynaklı ve resmî belgeyle desteklenmemiş bir iddia olarak kayda girdi; Alman hükümetinden diplomatik müdahale istendiği bildirildi. Doğrulama ve Alman makamlarının yanıtı gelmedi.",
+   "gunler": [
+    "2026-10-30"
+   ]
+  },
+  {
+   "id": "t161",
+   "baslik": "Kalp krizi geçiren mahpusun infazının ertelenmesi talebi",
+   "hareket": "ilerledi",
+   "not": "56 yaşındaki mahpusun kalp fonksiyonlarının ağır bozulduğuna dair rapora rağmen infazın sürdüğü, erteleme talebinin karara bağlanmadığı bildirildi. Hafta sonuna kadar karar kaydı gelmedi.",
+   "gunler": [
+    "2026-10-30"
+   ]
+  },
+  {
+   "id": "t162",
+   "baslik": "Hakkari Newroz propaganda cezaları",
+   "hareket": "ilerledi",
+   "not": "2025 Newroz kutlamasına katılan 11 kişiye 10'ar ay hapis verildiği kaydedildi; karar, Adana Bölge Adliye Mahkemesi'nin 2015 barış mitingi dosyasındaki onamasıyla aynı hafta içinde geldi. İstinaf seyri bilinmiyor.",
+   "gunler": [
+    "2026-10-30"
+   ]
+  },
+  {
+   "id": "t157",
+   "baslik": "Pakt'ın yürürlüğe girmesinin süre aşımını mazur kılmaması",
+   "hareket": "ilerledi",
+   "not": "Rechtbank Den Haag NL26.36921 sayılı kararında başvuruyu süre aşımından kabul edilemez buldu ve Pakt'ın 12 Haziran 2026'da yürürlüğe girmesinin süreyi kaçırmayı mazur göstermeyeceğini belirtti.",
+   "gunler": [
+    "2026-10-29"
+   ]
+  },
+  {
+   "id": "t163",
+   "baslik": "İspanya'nın Pakt uyum mevzuatı",
+   "hareket": "ilerledi",
+   "not": "ECRE söyleşisi, 11 Haziran 2026 tarihli İçişleri talimatlarını, 2024/1348 ve 2024/1351 sayılı tüzüklerin doğrudan uygulanmasını ve iltica kanunu ile 4/2000 sayılı Organik Kanun ön taslaklarını aktardı.",
+   "gunler": [
+    "2026-10-30"
+   ]
+  },
+  {
+   "id": "t166",
+   "baslik": "Belçika CCE'nin 9ter menfaat yokluğu kararı",
+   "hareket": "ilerledi",
+   "not": "CCE, 9bis uyarınca ikamet izni almış kişinin 9ter tıbbi ikamet reddine karşı başvurusunda menfaati bulunmadığına hükmetti. Karar tek kayıt düzeyinde.",
+   "gunler": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "id": "t151",
+   "baslik": "Anna Karetnikova hakkında sürgünde soruşturma",
+   "hareket": "ilerledi",
+   "not": "Memorial İnsan Hakları Merkezi'nden Karetnikova hakkında gıyabi 'aşırıcılık' ve 'yabancı ajan' soruşturması açıldığı bildirildi; hak savunucularının yurt dışındayken ceza yargılamasıyla hedeflenmesine karşılaştırılabilir örnek.",
+   "gunler": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "id": "t152",
+   "baslik": "Özgür Özel dosyasında New Party'nin AİHM başvuru hazırlığı",
+   "hareket": "ilerledi",
+   "not": "Yargıtay kararı beklenmeden başvuru hazırlandığı bildirildi; iç hukuk yollarının tüketilmesi sorunu açık. Haftanın kalanında kayıt gelmedi.",
+   "gunler": [
+    "2026-10-28"
+   ]
+  }
+ ],
+ "tek_seferlikler": [
+  {
+   "baslik": "7596 sayılı kanunla fon tasfiyesinde özel geri kazanım usulü",
+   "gun": "2026-10-27",
+   "not": "SPK'nın 17 Eylül 2026 tarihli kararlarıyla tasfiyesine hükmedilen fonlar için malvarlığı geri kazanımı, sorumluların şahsi takibi ve pay sahiplerine ödeme düzenlendi. Kapsadığı fonların listesi hafta içinde belirlenemedi."
+  },
+  {
+   "baslik": "Türk polisinin İskandinav gösterilerini izlediği iddiası",
+   "gun": "2026-10-28",
+   "not": "İki tarihli ve imzalı polis belgesine dayandırılan iddia haftanın en ağır sınıraşan baskı kaydıydı; ertesi gün dosyada yeni kayıt gelmediği açıkça not edildi."
+  },
+  {
+   "baslik": "New Party'nin Özgür Özel dosyasında AİHM başvurusu hazırlığı",
+   "gun": "2026-10-28",
+   "not": "Yargıtay kararı beklenmeden başvuru hazırlandığı bildirildi; iç hukuk yollarının tüketilmesi sorunu kayıtta açık bırakıldı."
+  },
+  {
+   "baslik": "Lebedeva ve Diğerleri v. Rusya'da 900 başvurunun kayıttan düşürülmesine eleştiri",
+   "gun": "2026-10-31",
+   "not": "Akademik değerlendirme, devletin işbirliği yapmamasının kayıttan düşürme gerekçesine dahil edilmesinin uyum göstermeyen devletleri ödüllendirdiğini savunuyor. Haftanın AİHM alanındaki tek kaydıydı."
+  }
+ ],
+ "karsilanmayan_beklentiler": [
+  {
+   "beklenti": "28 Ekim'de beklenen AB Komisyonu Türkiye raporunun metni ve erişim engeli/kayyım başlıklarındaki bulguları",
+   "gun": "2026-10-27",
+   "not": "Rapor tarihine ilişkin yalnızca AP raportörünün öngörüsü kayda girdi; 28 Ekim ve sonrasındaki brifinglerde metne dair kayıt yok. İzlenmeye devam etmeli."
+  },
+  {
+   "beklenti": "Tırpan'ın ölümü sonrası ATK ve hastane sağlık kurulu raporlarına ilişkin idari ya da cezai inceleme açılıp açılmadığı",
+   "gun": "2026-10-27",
+   "not": "Hafta boyunca inceleme kaydı gelmedi. Dört raporun 'cezaevinde kalabilir' değerlendirmesi karşısında merkezin izlemesi gereken ana başlık."
+  },
+  {
+   "beklenti": "26 Ekim tarihli 31 hesaplık 8/A kararının X tarafından uygulanıp uygulanmayacağı ve itiraz süreci",
+   "gun": "2026-10-27",
+   "not": "Platform uygulaması ve itirazla ilgili izleyen günlerde kayıt gelmedi; t47'deki uygulama farkı ölçümü için izlenmeli."
+  },
+  {
+   "beklenti": "Pankart davasında tutuklu iki öğrencinin tutukluluk incelemesi ve iddianame",
+   "gun": "2026-10-27",
+   "not": "29 Ekim'de dosyada yeni kayıt olmadığı açıkça belirtildi; dosya haberi yapan editörlere ve protestoculara genişlerken asıl tutukluluk durumu belirsiz kaldı."
+  }
+ ],
+ "onumuzdeki_hafta": [
+  "AB Komisyonu'nun Türkiye raporu metni ve erişim engeli/kayyım/yargı bağımsızlığı başlıklarının merkez dosyalarıyla karşılaştırılması (t94)",
+  "1 Kasım'da yürürlüğe giren 5651 oyun platformu hükümlerinin ilk uygulamaları ve Steam'deki 767 rakamının seyri (t149)",
+  "Tekin Ağacık'ın gözaltısının sonucu ile 30 Ekim operasyonunda 10 kişinin sevk kararı ve 12,85 milyon TL'lik el koymanın akıbeti (t164, t165)",
+  "Tırpan dosyasında rapor zincirine ilişkin inceleme ile Daylak, İbrahim Halil Al ve kalp krizi geçiren mahpus dosyalarında erteleme taleplerinin karara bağlanması (t91, t129, t161, t64)",
+  "Frontex Tüzüğü ve geri gönderme dijitalleştirme önerilerinin madde metinleri ile Parlamento/Konsey takvimi; 5 Kasım'daki Belçika ev ziyareti yasası oylaması (t144, t156, t117)",
+  "Yeni Yaşam'ın 2026/11556 sayılı engelleme kararına itiraz ve ardışık alan adlarına yeni karar çıkıp çıkmayacağı; HSK terfi listesi ile yargı harçları düzenlemesinin içeriği (t168, t167, t169)"
+ ],
+ "baslangic": "2026-10-26",
+ "bitis": "2026-11-01",
+ "gun_sayisi": 7,
+ "kullanilan_gunler": [
+  "2026-10-26",
+  "2026-10-27",
+  "2026-10-28",
+  "2026-10-29",
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01"
+ ],
+ "olusturma": "2026-11-01T08:44+00:00",
+ "model": "claude-opus-5",
+ "maliyet_usd": 0.6917,
+ "uyari": "Bu sentez, günlük brifinglerin kendisine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz."
+}

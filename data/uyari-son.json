@@ -1,43 +1,32 @@
 {
- "gun": "2026-10-31",
- "olusturma": "2026-10-31T20:23+00:00",
+ "gun": "2026-11-01",
+ "olusturma": "2026-11-01T08:44+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-10-31:Estonya'nın iltica talebini reddettiği Kürt şair Tekin Ağacı",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Estonya'nın iltica talebini reddettiği Kürt şair Tekin Ağacık, Türkiye'ye dönüşünde gözaltına alındı",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Bir AB üyesinin iltica talebini reddedip geri gönderdiği kişinin varış anında terör isnadıyla gözaltına alınması, geri gönderme kararında yapılan risk değerlendirmesini doğrudan sınayan bir vakadır. Kayda göre sorgulanacağı 18 dosyanın 17'si Cumhurbaşkanına hakaret veya terör propagandası iddiasıyla sosyal medya paylaşımlarına ilişkin; bu, isnadın büyük ölçüde ifade temelli olduğunu gösterir. Merkezin iltica ve sınıraşan baskı dosyalarında, menşe ülkeye dönüşte gerçekleşen yargısal işlemlerin belgelenmesi açısından izlenmesi gereken bir dosya.",
-   "kayitlar": [
-    "b586e2df07"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-10-31:toplu:6",
+   "id": "takip:2026-11-01:toplu:4",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "4 takip dosyasında hareket var",
    "alan": "",
-   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; Rechtbank Den Haag'ın 23 Eylül 2026 tarihli NL26.19608 sayılı kararı (; 29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK; AİHM'in kurumsal kapasitesi: görev süresi dolan dört yargıç, bütçe bağ; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ; İsmail Arı dosyası: eski RTÜK başkanının şikâyeti üzerine gazetecinin ",
+   "not": "Resmî Gazete'de yayımlanan HSK terfi listesinin içeriği; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i",
    "kayitlar": [
-    "5b883f3dd4",
-    "5018b66e45",
-    "dc9d5f7ca0",
-    "d891caa95f",
-    "ffc76f51f6",
-    "bc04464dc1"
+    "7d4e21102c",
+    "9a1503b893",
+    "9e654699e9",
+    "9e654699e9",
+    "9a1503b893",
+    "673dd445f6",
+    "7d4e21102c"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-10-31:10",
+   "id": "saglik:2026-11-01:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, Anadolu Ajansı, Frontex, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Frontex, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
