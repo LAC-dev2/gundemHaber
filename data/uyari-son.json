@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-01",
- "olusturma": "2026-11-01T09:57+00:00",
+ "olusturma": "2026-11-01T11:03+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-11-01:toplu:4",
@@ -21,12 +21,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-01:11",
+   "id": "saglik:2026-11-01:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Frontex, Scholars at Risk, Alomaliye, ESMA, GAFILAT…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Diken, Frontex, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
