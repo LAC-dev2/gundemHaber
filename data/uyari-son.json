@@ -1,32 +1,33 @@
 {
- "gun": "2026-11-01",
- "olusturma": "2026-11-01T20:58+00:00",
+ "gun": "2026-11-02",
+ "olusturma": "2026-11-02T08:52+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-01:toplu:4",
+   "id": "takip:2026-11-02:toplu:12",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "4 takip dosyasında hareket var",
+   "baslik": "12 takip dosyasında hareket var",
    "alan": "",
-   "not": "Resmî Gazete'de yayımlanan HSK terfi listesinin içeriği; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i",
+   "not": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Yeni Yaşam Gazetesi'nin ardışık alan adlarına uygulanan erişim engelle; 1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformla; Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmes; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması; Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue ; Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki ünive; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr",
    "kayitlar": [
-    "7d4e21102c",
-    "9a1503b893",
+    "44e97e1221",
+    "c69674a394",
+    "0157815439",
+    "c69674a394",
+    "0157815439",
     "9e654699e9",
-    "9e654699e9",
-    "9a1503b893",
-    "673dd445f6",
-    "7d4e21102c"
+    "44e97e1221",
+    "44e97e1221"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-01:11",
+   "id": "saglik:2026-11-02:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "12 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Frontex, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Frontex, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

@@ -1,44 +1,580 @@
 {
  "sureklilik": [
   {
-   "id": "t167",
+   "id": "t33",
    "durum": "hareket var",
-   "not": "Resmî Gazete kaynağı 1 Kasım 02:24'te yeniden 'HSK Terfi Listesi' başlıklı bir kayıt üretti; kayıtta yalnızca başlık düzeyinde bilgi var, liste içeriği (ad, sayı, kademe) görünmüyor. Aynı güne ait Resmî Gazete özetinde (sayı 33417, 6 madde) HSK terfi listesi yer almıyor; bu nedenle hangi sayıda yayımlandığı kayıtlardan doğrulanamıyor.",
+   "not": "İFÖD'ün EngelliWeb aylık açıklaması, 1-31 Ekim 2026 arasında 5651 md. 8 ve 8/A kapsamında en az 867 X hesabının engellendiğini, Eylül'deki 1.270 hesapla birlikte iki ayda toplamın 2.137'ye ulaştığını bildiriyor; dernek bunu 2015-2025 döneminde 8/A ile engellenen 4.800'ü aşkın hesapla karşılaştırıyor. Engellenenler arasında ekonomi yorumcuları, gazeteciler, siyasi partiler, akademisyenler ve avukatlar sayılıyor. MLSA bülteni 26 Ekim'de en az 31 X hesabına karar verildiğini yineliyor.",
    "kayitlar": [
-    "7d4e21102c",
-    "9a1503b893"
+    "44e97e1221",
+    "c69674a394",
+    "0157815439"
    ]
   },
   {
-   "id": "t33",
+   "id": "t168",
    "durum": "hareket var",
-   "not": "İFÖD, Yeni Yaşam Gazetesi'nin yeniyasamgazetesi9.com alan adının millî güvenlik ve kamu düzeni gerekçesiyle engellendiğini bildirdi. Gerekçe kalıbı, t33'te izlenen 8/A tipi toplu engel kararlarıyla aynı; ancak bu kez hedef bir gazete alan adı.",
+   "not": "MLSA haftalık bülteni, İstanbul 10. Sulh Ceza Hâkimliği'nin 31 Ekim 2026 tarihli 2026/11556 sayılı kararını doğruluyor ve bunun 2019'dan beri engellenen Yeni Yaşam alan adı sayısını 10'a çıkardığını, gazetenin yeni bir alan adından yayına devam ettiğini belirtiyor. Önceki dokuz alan adının farklı illerdeki sulh ceza hâkimliklerince engellendiği kaydediliyor. İtiraza ilişkin kayıt yok.",
    "kayitlar": [
+    "c69674a394",
+    "0157815439",
     "9e654699e9"
+   ]
+  },
+  {
+   "id": "t149",
+   "durum": "hareket var",
+   "not": "İFÖD, 1 Kasım 2026'da yürürlüğe giren yaş doğrulama ve oyun platformu düzenlemelerinin yürürlüğe girdiğini ve ilk uygulamalarını değerlendirdi; sosyal medya kullanımının e-Devlet üzerinden yaş doğrulamasına bağlandığını belirtti. Steam'de Türkiye'den erişime engelli oyun sayfası sayısı 28 Ekim itibarıyla 767 olarak veriliyor; bu, 29 Ekim brifingindeki sayıyla aynı düzeyde.",
+   "kayitlar": [
+    "44e97e1221"
+   ]
+  },
+  {
+   "id": "t74",
+   "durum": "hareket var",
+   "not": "İFÖD, Ekim ayı engellemeleri arasında kendi hesabının ve EngelliWeb hesabının da bulunduğunu, EngelliWeb'e ilişkin kararın ortaya çıktığını ancak İFÖD hesabına yönelik kararın kendileriyle hâlâ paylaşılmadığını açıkladı.",
+   "kayitlar": [
+    "44e97e1221"
+   ]
+  },
+  {
+   "id": "t109",
+   "durum": "hareket var",
+   "not": "İFÖD'ün Ekim dökümünde Halk TV ve T24 hesapları, engellenen hesaplar arasında yeniden sayılıyor; kullanıcı adını değiştiren veya yeni hesap açanların hesaplarının da yeniden engellendiği belirtiliyor. Yeni bir karar numarası ya da usul adımı kayıtlarda yok.",
+   "kayitlar": [
+    "44e97e1221"
+   ]
+  },
+  {
+   "id": "t60",
+   "durum": "hareket var",
+   "not": "T24 hesabı, İFÖD'ün Ekim 2026 engelleme dökümünde engellenen kuruluş hesapları arasında anılıyor; dosyada yeni karar bilgisi verilmiyor.",
+   "kayitlar": [
+    "44e97e1221"
    ]
   },
   {
    "id": "t42",
    "durum": "hareket var",
-   "not": "Millî güvenlik/kamu düzeni gerekçeli erişim engeli pratiği bu pencerede bir gazetenin alan adına uygulandı (İstanbul 10. Sulh Ceza Hâkimliği, 31 Ekim 2026, 2026/11556).",
+   "not": "Bold Medya, fon soruşturmasında iki aydır kamuoyuna kapsamlı bilgi verilmediğini, çok sayıda gözaltı ve tutuklamaya rağmen dosyanın tüm boyutlarıyla açıklanmadığını ileri sürüyor. Kayıt başlık ve özet düzeyinde; yeni erişim engeli kararı bildirilmiyor.",
    "kayitlar": [
-    "9e654699e9"
+    "5614ba1e23"
    ]
   },
   {
+   "id": "t23",
+   "durum": "hareket var",
+   "not": "Fon soruşturmasına ilişkin tek kayıt, iki aylık 'sessizlik' iddiasını içeren bir yorum haberi; yeni gözaltı, tutuklama ya da yakalama kararı sayısı verilmiyor.",
+   "kayitlar": [
+    "5614ba1e23"
+   ]
+  },
+  {
+   "id": "t147",
+   "durum": "hareket var",
+   "not": "Cross Border Jurists bülteninin Issue 6'sı (26 Ekim-1 Kasım 2026) yayımlandı; kayıtta yalnızca başlık ve 'Eğitim Bakanı'nı protesto eden öğrencilerin tutuklanması' vurgusu var, içerik dökümü verilmemiş.",
+   "kayitlar": [
+    "7b2742f642"
+   ]
+  },
+  {
+   "id": "t150",
+   "durum": "hareket var",
+   "not": "Cross Border Jurists bülteninin haftalık özetinde öne çıkan başlık, Eğitim Bakanı'nı protesto eden öğrencilerin tutuklanması; kayıt başlık düzeyinde, isim ve usul adımı içermiyor.",
+   "kayitlar": [
+    "7b2742f642"
+   ]
+  },
+  {
+   "id": "t169",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t167",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t1",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t2",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t3",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t4",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t5",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t6",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t7",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t8",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t9",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t10",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t11",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t12",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t13",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t14",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t15",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t16",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t17",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t18",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t19",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t20",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t21",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t22",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t24",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t25",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t26",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t28",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t29",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t30",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t31",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t32",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t34",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t35",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t36",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t37",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t38",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t39",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t40",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t41",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t43",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t44",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t45",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t46",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t47",
+   "durum": "hareket var",
+   "not": "MLSA bülteni, 26 Ekim'deki 31 hesaba ilişkin kararlarda X'in o tarih itibarıyla hesapları Türkiye'den henüz görünmez kılmadığını; buna karşılık Instagram'ın SYKP hesaplarını ve içerik üreticisi Özlem Altınok Öz'ün hesabını Türkiye'den erişime kapattığını bildiriyor. Platformlar arası uygulama zamanlaması farkı sürüyor.",
+   "kayitlar": [
+    "c69674a394",
+    "0157815439"
+   ]
+  },
+  {
+   "id": "t48",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t60",
+   "id": "t49",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t74",
+   "id": "t50",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t51",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t52",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t53",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t54",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t55",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t56",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t57",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t58",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t59",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t61",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t62",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t63",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t64",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t65",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t66",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t67",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t68",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t69",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t70",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t71",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t72",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t73",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t75",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t76",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t77",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t78",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t79",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t80",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t81",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t82",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t83",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t84",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t85",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -50,7 +586,171 @@
    "kayitlar": []
   },
   {
-   "id": "t109",
+   "id": "t87",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t88",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t89",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t90",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t91",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t92",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t93",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t94",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t96",
+   "durum": "hareket var",
+   "not": "İFÖD, 10 Ekim tarihli yaş doğrulama yönetmeliğinin de dahil olduğu düzenlemelerin 1 Kasım 2026'da yürürlüğe girdiğini ve sosyal medya kullanımının e-Devlet üzerinden yaş doğrulamasına bağlandığını açıkladı; ilk uygulamalara değinildiği belirtiliyor ancak ayrıntı verilmiyor.",
+   "kayitlar": [
+    "44e97e1221"
+   ]
+  },
+  {
+   "id": "t97",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t98",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t99",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t100",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t101",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t102",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t103",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t104",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t105",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t106",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t107",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t108",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t110",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t111",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t112",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t113",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t114",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t115",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t116",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -62,13 +762,253 @@
    "kayitlar": []
   },
   {
+   "id": "t118",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t119",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t120",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t121",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t123",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t124",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t125",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t126",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t127",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t128",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t129",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t130",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t131",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t132",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t133",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t134",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t149",
+   "id": "t135",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t136",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t137",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t138",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t139",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t140",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t141",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t142",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t143",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t144",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t145",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t146",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t148",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t151",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t152",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t153",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t154",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t155",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t156",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t157",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t158",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t159",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t160",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t161",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t162",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t163",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -90,258 +1030,291 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  },
-  {
-   "id": "t95",
-   "durum": "hareket var",
-   "not": "Resmî Gazete'nin 1 Kasım 2026 tarihli 33417 sayılı sayısına ilişkin özet altı maddeyi kapsıyor (Cumhurbaşkanlığı atama kararları 2026/363-371, bir üniversite yönetmeliği ve dört spor federasyonu ana statüsü). Aynı pencerede 'Yargı Harçları' ve 'HSK Terfi Listesi' başlıklı iki ayrı Resmî Gazete kaydı var; bunların içeriği ve özetle ilişkisi kayıtlardan çıkmıyor.",
-   "kayitlar": [
-    "9a1503b893",
-    "673dd445f6",
-    "7d4e21102c"
-   ]
-  },
-  {
-   "id": "t56",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t71",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t75",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t83",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t31",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t153",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t3",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Yeni Yaşam Gazetesi'nin ardışık alan adlarına uygulanan erişim engelleri ve 2026/11556 sayılı karara itiraz",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Gazetenin alan adı numaralandırılarak değiştirildikçe yeni kararlarla engellendiği, İFÖD kaydının önceki alan adlarına atfından anlaşılıyor; engelin site genelinde ve millî güvenlik gerekçesiyle verilmesi ölçülülük denetimini doğrudan ilgilendiriyor.",
+   "baslik": "Yargıtay'ın Fransa'nın uyuşturucu ve aklama isnadıyla iadesini istediği Cezayir asıllı kişi hakkındaki iade kararını bozması",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "İade kararının yüksek mahkeme düzeyinde kaldırılması, Türkiye'nin AB üyesi bir devletten gelen iade taleplerini hangi gerekçelerle reddettiğini gösterir; merkezin karşılıklı iade pratiğini izlediği dosyalarla doğrudan ilgili. Şu an yalnızca tek kaynaklı haber özeti var, karar metni yok.",
    "kayitlar": [
-    "9e654699e9"
+    "fabf4e512c"
    ]
   },
   {
-   "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
+   "baslik": "İçerik üreticisi Özlem Altınok Öz'ün YouTube ve Instagram hesaplarına Aile ve Sosyal Hizmetler Bakanlığı başvurusu üzerine getirilen 5651 engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Bir bakanlığın 5651 kapsamında doğrudan başvurarak milyonlarca takipçili hesapların engellenmesini sağlaması, engelleme mekanizmasının idari başvuruyla işletilmesine örnek; kararı veren merci ve numara açıklanmamış.",
    "kayitlar": [
-    "673dd445f6",
-    "9a1503b893"
+    "c69674a394",
+    "0157815439"
+   ]
+  },
+  {
+   "baslik": "İmamoğlu'nun kitabından alıntı paylaşan @milletsahidim X hesabına uygulanan erişim engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Tutuklu bir siyasetçinin kitabından alıntı paylaşımının engellenmesi, engelleme pratiğinin yayımlanmış kitap içeriğine uzanması bakımından izlenmeli; kararı veren mahkeme, numara ve gerekçe açıklanmamış.",
+   "kayitlar": [
+    "c69674a394",
+    "0157815439"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "Yeni Yaşam'ın yeniyasamgazetesi9.com alan adı millî güvenlik gerekçesiyle engellendi",
- "brifing": "Pencereye giren altı kaydın yalnızca biri merkezin çekirdek dosyalarına doğrudan temas ediyor: İFÖD'ün bildirdiği, Yeni Yaşam Gazetesi'nin alan adına İstanbul 10. Sulh Ceza Hâkimliği'nin 31 Ekim 2026 tarihli ve 2026/11556 sayılı kararıyla getirilen erişim engeli [9e654699e9]. İki Resmî Gazete kaydı (yargı harçları ve HSK terfi listesi) yalnızca başlık düzeyinde geldi; aynı güne ait Resmî Gazete özeti bu iki maddeyi içermiyor, dolayısıyla içerikleri doğrulanamıyor [673dd445f6, 7d4e21102c, 9a1503b893]. Gülen/KHK, AİHM ve iade dosyalarında bu pencerede yeni kayıt yok; dünkü brifingte değerlendirilen Ağacık (t164), 30 Ekim operasyonu (t165) ve İsmail Arı (t134) dosyalarında sayılar önceki brifingteki düzeyde. Bu nedenle brifing, oylaması 5 Kasım'da yapılacağı bildirilen Belçika ev baskını yasası dosyasını (t117) derinleştiriyor.",
+ "baslik": "İFÖD: Ekim'de en az 867 X hesabı engellendi, iki aylık toplam 2.137",
+ "brifing": "Pencerenin merkez alanlarına giren kayıtları İFÖD'ün Ekim 2026 EngelliWeb açıklaması ve MLSA'nın 26 Ekim-1 Kasım haftalık sansür bülteni oluşturuyor; ikisi de 5651 md. 8/A uygulamasının ölçeğine dair yeni sayı veriyor [44e97e1221][c69674a394]. İFÖD'ün verisi, iki aylık engelleme hacmini (2.137 hesap) 2015-2025 döneminin toplamıyla (4.800'ü aşkın hesap) karşılaştırarak t33 dosyasına nicel bir eşik ekliyor. Yeni Yaşam dosyasında dünkü bulgu doğrulandı ve engellenen alan adı sayısının 10'a ulaştığı bilgisi eklendi [c69674a394]. Bunun dışında Nordic Monitor'ün Yargıtay'ın Fransa'ya iade kararını bozduğu yönündeki haberi iade dosyası için yeni bir başlık; tek kaynaklı ve karar metni elimizde yok [fabf4e512c]. Hollanda yerel haberleri, Zambiya, Avustralya ve Ukrayna raporları merkezin dosyalarıyla doğrudan bağlantılı değil; birincil AİHM belgesi bu pencerede yok.",
  "one_cikanlar": [
   {
-   "baslik": "Yeni Yaşam Gazetesi'nin alan adına millî güvenlik ve kamu düzeni gerekçeli erişim engeli",
+   "baslik": "İFÖD: Ekim 2026'da en az 867 X hesabı engellendi; iki aylık toplam 2.137",
    "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Engel, tek bir habere değil gazetenin alan adının tamamına uygulanıyor ve gerekçe olarak 5651 çerçevesinde kullanılan millî güvenlik/kamu düzeni kalıbı gösteriliyor. İFÖD kaydı, gazetenin daha önce de başka alan adlarının engellendiğini belirtiyor; bu, yayın yeni alan adına taşındıkça kararların yenilendiği bir örüntüye işaret ediyor. Merkezin t33, t42 ve t60'ta izlediği site genelinde engelleme ve ölçülülük tartışmasına yeni bir örnek ekliyor.",
-   "yenilik": "İlk kez: 31 Ekim 2026 tarihli ve 2026/11556 sayılı yeni karar ve yeniyasamgazetesi9.com alan adı bu brifingte kaydediliyor.",
+   "neden_onemli": "İFÖD'ün aylık dökümü, 5651 md. 8 ve 8/A uygulamasının hacmine ilişkin merkezin t33 dosyasında kullanılabilecek ilk toplu Ekim verisi. Dernek, iki aylık engelleme sayısının on yılı aşkın dönemin toplamının yaklaşık yarısına ulaştığını söylüyor; bu, uygulamanın istisnai bir tedbirden rutin bir araca dönüştüğü argümanını sayısallaştırıyor. Engellenenler arasında gazeteciler, haber kuruluşları, siyasi partiler, akademisyenler, avukatlar ve ekonomi yorumcuları sayılıyor; engelleme kararlarını belgeleyen İFÖD ve EngelliWeb hesapları da listede.",
+   "yenilik": "İlk kez: Ekim ayının tam sayısı (867) ve Eylül ile birlikte iki aylık toplam (2.137) bugün açıklandı.",
    "ayrintilar": [
-    "İstanbul 10. Sulh Ceza Hâkimliği, 31 Ekim 2026 tarih ve 2026/11556 sayılı karar",
-    "Engellenen alan adı: yeniyasamgazetesi9.com",
-    "Gerekçe: millî güvenlik ve kamu düzeninin korunması",
-    "İFÖD, gazetenin daha önce de alan adlarının engellendiğini belirtiyor; kayıtta liste tam görünmüyor"
+    "1-31 Ekim 2026: en az 867 X hesabı, 5651 md. 8 ve 8/A kapsamında engellendi",
+    "Eylül 2026: 1.270 hesap; iki aylık toplam 2.137",
+    "Karşılaştırma: 2015-2025 arasında 8/A ile engellenen 4.800'ü aşkın X hesabı",
+    "Engellenenler arasında Halk TV, T24, Türkiye İşçi Partisi, İFÖD ve EngelliWeb hesapları",
+    "İFÖD hesabına ilişkin karar derneğe hâlâ tebliğ edilmemiş; EngelliWeb kararı ortaya çıkmış",
+    "Kullanıcı adını değiştiren ya da yeni hesap açanların hesapları yeniden engellenmiş"
    ],
-   "mekanizma": "5651 sayılı Kanun, sulh ceza hâkimliği erişim engeli",
-   "karsi_okuma": "Kayıt, engelin hangi içeriğe dayandığını, itiraz yoluna başvurulup başvurulmadığını ve önceki kaç alan adının engellendiğini göstermiyor; karar metni elimizde değil. Engelin kalıcı olup olmadığı da doğrulanmış değil.",
+   "mekanizma": "5651 sayılı Kanun md. 8 ve 8/A",
+   "karsi_okuma": "Sayılar İFÖD'ün kendi tespitine dayanıyor ve 'en az' kaydıyla veriliyor; kararların hangi hâkimliklerce, hangi gerekçelerle verildiği açıklanmadığı için engellemelerin dağılımına ve hukuki dayanağına ilişkin bağımsız doğrulama yok.",
    "kayitlar": [
+    "44e97e1221"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Yeni Yaşam'ın engellenen alan adı sayısı 10'a çıktı; 26 Ekim'de en az 31 X hesabına karar",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "MLSA'nın haftalık bülteni, dün tespit edilen 2026/11556 sayılı İstanbul 10. Sulh Ceza Hâkimliği kararını bağımsız olarak doğruluyor ve dosyaya seri bilgisini ekliyor: 2019'dan bu yana gazetenin 10 alan adı engellendi, önceki dokuzu farklı illerdeki sulh ceza hâkimliklerince. Bu, tek bir habere değil yayın kuruluşunun kimliğine yönelen bir engelleme pratiğinin süreklilik gösterdiğini belgeliyor. Gazete yeni bir alan adından yayına devam ediyor.",
+   "yenilik": "Dünkü İFÖD duyurusuna göre yenilik: engellenen alan adı sayısının 10'a ulaştığı ve önceki dokuzunun farklı illerde verildiği bilgisi ile aynı hafta içindeki diğer kararların dökümü.",
+   "ayrintilar": [
+    "İstanbul 10. Sulh Ceza Hâkimliği, 31 Ekim 2026, karar no 2026/11556; gerekçe: millî güvenlik ve kamu düzeninin korunması",
+    "2019'dan bu yana engellenen Yeni Yaşam alan adı sayısı: 10",
+    "26 Ekim: en az 31 X hesabına 8/A kararı; Birsen Altuntaş ve Erk Acarer de listede, kararı veren merciler ve numaralar açıklanmadı",
+    "26 Ekim: SYKP genel merkez ve İstanbul il örgütü Instagram hesaplarına engel, Instagram uyguladı",
+    "31 Ekim-1 Kasım gecesi: İmamoğlu'nun kitabından alıntı paylaşan @milletsahidim hesabına engel; merci ve gerekçe açıklanmadı",
+    "28 Ekim: Özlem Altınok Öz'ün 7,9 milyon aboneli YouTube kanalı ve 4,3 milyon takipçili Instagram hesabına, Aile ve Sosyal Hizmetler Bakanlığı başvurusu üzerine engel"
+   ],
+   "mekanizma": "5651 sayılı Kanun md. 8/A",
+   "karsi_okuma": "31 hesaba ilişkin kararların merciileri, numaraları ve tam listesi açıklanmadığı için sayının bağımsız doğrulaması yapılamıyor; @milletsahidim ve 31 hesap kararlarının gerekçeleri bilinmediğinden ortak bir soruşturma dosyasına dayandığı söylenemez.",
+   "kayitlar": [
+    "c69674a394",
+    "0157815439",
     "9e654699e9"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Resmî Gazete'de yargı harçları ve HSK terfi listesi başlıklı iki kayıt; günün özetinde ikisi de yok",
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "neden_onemli": "HSK terfi listesi, merkezin t167'de izlediği yargı bağımsızlığı/terfi dosyasının devamı; yargı harçları ise iç hukuk yollarına erişim maliyetini etkileyebilir. İki kayıt da başlık düzeyinde olduğu için içerik belirlenemiyor ve 33417 sayılı Resmî Gazete özetinde yer almıyorlar; bu, kayıtların hangi sayıya ait olduğunu belirsiz bırakıyor.",
-   "yenilik": "HSK terfi listesi 31 Ekim'de açılan t167'den sonra ikinci kez kayda düştü; bugün ek olarak 'Yargı Harçları' başlıklı ayrı bir kayıt var.",
+   "baslik": "Yargıtay, Fransa'nın uyuşturucu ve aklama isnadıyla istediği Cezayir asıllı kişinin iadesine izin veren kararı bozdu",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Kayıt, iade kararının yüksek mahkeme düzeyinde kaldırıldığını ve gerekçe olarak Fransa'da Müslüman karşıtı önyargı iddiasının ileri sürüldüğünü aktarıyor. Merkezin iade dosyalarında Türkiye'nin AB üyesi devletlerden gelen taleplere yanıtı ve bunun karşılıklılık argümanlarına etkisi izleniyor. Şu aşamada elimizde karar metni değil tek kaynaklı bir haber özeti var.",
+   "yenilik": "İlk kez.",
    "ayrintilar": [
-    "1 Kasım 2026 tarihli ve 33417 sayılı Resmî Gazete özeti: 6 madde",
-    "Özetteki maddeler: Cumhurbaşkanlığı atama kararları 2026/363-371, Ankara Yıldırım Beyazıt Üniversitesi eğitim-öğretim yönetmeliği değişikliği, buz hokeyi, buz pateni, curling ve kayak federasyonları ana statüleri",
-    "Özette ne HSK terfi listesi ne de yargı harçları maddesi geçiyor"
+    "Talep eden devlet: Fransa; isnat: uyuşturucu kaçakçılığı ve kara para aklama",
+    "Kararı veren: Türkiye'nin en yüksek temyiz mahkemesi; iade iznini veren karar bozuldu",
+    "Gerekçe olarak aktarılan: Müslüman karşıtı önyargı iddiası"
    ],
-   "mekanizma": "Resmî Gazete yayımı",
-   "karsi_okuma": "Başlıklardan düzenlemenin kapsamı, yürürlük tarihi veya terfi edenlerin kimliği çıkarılamaz; özette görünmemesi maddenin yayımlanmadığı anlamına gelmez, kaynak akışlarının farklı olması da mümkündür.",
+   "mekanizma": "iade talebinin reddi",
+   "karsi_okuma": "Kayıt tek kaynaklı bir haber özeti; karar tarihi, dosya numarası ve bozma gerekçesinin hukuki dayanağı elimizde yok. İadenin kesin olarak sonlandığı ya da bunun genel bir içtihat değişikliği olduğu çıkarılamaz.",
    "kayitlar": [
-    "673dd445f6",
-    "7d4e21102c",
-    "9a1503b893"
+    "fabf4e512c"
    ],
    "guven": "düşük"
+  },
+  {
+   "baslik": "Yaş doğrulama ve oyun platformu düzenlemeleri 1 Kasım'da yürürlüğe girdi; Steam'de engelli oyun sayfası 767",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "İFÖD, sosyal medya kullanımının e-Devlet üzerinden yaş doğrulamasına bağlandığını ve oyun platformlarına yeni yükümlülükler getirildiğini bildiriyor; bu, t96 ve t149 dosyalarının yürürlük aşamasına geçtiğini gösteriyor. Dernek ayrıca AYM'nin 8/A maddesine ilişkin ihlal kararını hatırlatarak sulh ceza hâkimliklerini hükmü AYM'ye taşımaya çağırıyor.",
+   "yenilik": "Yürürlük tarihi geçti ve İFÖD ilk uygulamalara değindi; Steam sayısı 28 Ekim itibarıyla 767'de, 29 Ekim brifingindeki düzeyle aynı.",
+   "ayrintilar": [
+    "1 Kasım 2026: yaş doğrulama ve oyun platformlarına ilişkin düzenlemeler yürürlükte",
+    "Sosyal medya kullanımı e-Devlet üzerinden yaş doğrulamasına bağlandı",
+    "Steam'de Türkiye'den erişime engelli oyun sayfası sayısı 28 Ekim itibarıyla 767",
+    "İFÖD çağrısı: hesap ve site genelinde engellemelere son verilmesi, kararların gerekçeleriyle tebliği"
+   ],
+   "mekanizma": "5651 sayılı Kanun; yaş doğrulama yönetmeliği",
+   "karsi_okuma": "İFÖD 'ilk uygulamalara değinildiğini' söylüyor ancak kayıtta somut ilk uygulama örneği, yaptırım ya da platform yanıtı yok; düzenlemenin fiilen nasıl işletildiği doğrulanmamıştır.",
+   "kayitlar": [
+    "44e97e1221"
+   ],
+   "guven": "orta"
   }
  ],
  "alan_notlari": [
   {
    "alan": "İfade ve basın özgürlüğü",
    "durum": "hareketli",
-   "not": "Pencerenin tek çekirdek gelişmesi, Yeni Yaşam'ın alan adına 31 Ekim tarihli kararla getirilen erişim engeli [9e654699e9]. Diğer basın dosyalarında (t134, t109, t119) bu pencerede yeni kayıt yok.",
+   "not": "İFÖD'ün aylık EngelliWeb açıklaması ve MLSA'nın haftalık sansür bülteni, Ekim ayının engelleme hacmini ve haftanın tek tek kararlarını veriyor. Platformlar arası uygulama farkı sürüyor: 26 Ekim kararlarında X hesapları o tarih itibarıyla görünmez kılınmamışken Instagram engelleri uygulanmış.",
    "kayitlar": [
-    "9e654699e9"
+    "44e97e1221",
+    "c69674a394",
+    "0157815439"
    ]
   },
   {
-   "alan": "Mevzuat izleme (çok alanlı)",
+   "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "1 Kasım tarihli Resmî Gazete özeti ağırlıklı olarak atama kararları ve spor federasyonu ana statülerinden oluşuyor; yargı harçları ve HSK terfi listesi başlıkları ayrı kayıtlarda, içeriksiz geldi.",
+   "not": "Yargıtay'ın Fransa'ya iade kararını bozduğu yönündeki tek kaynaklı haber dışında, Rechtbank Den Haag'ın NL26.22559 sayılı kararı idari hatayla bağlantı kesme ve karar verme süresinin aşılmasına ilişkin usul kararı; Türkiye dosyalarıyla doğrudan bağı kayıtta yok.",
    "kayitlar": [
-    "9a1503b893",
-    "673dd445f6",
-    "7d4e21102c"
+    "fabf4e512c",
+    "75222c51ec"
    ]
   },
   {
-   "alan": "BM insan hakları mekanizmaları",
-   "durum": "sessiz",
-   "not": "Tek yeni kayıt, Kiribati'nin ICCPR'ı onaylamadığına ve ulusal insan hakları kurumu kurmadığına ilişkin CIVICUS notu; merkezin dosyalarıyla doğrudan bağlantısı yok.",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "durum": "olağan",
+   "not": "Cross Border Jurists haftalık bülteninin Issue 6'sı (26 Ekim-1 Kasım) yayımlandı; kayıtta yalnızca başlık düzeyinde bilgi var, içerik dökümü gelmedi.",
    "kayitlar": [
-    "8ce1c3debf"
+    "7b2742f642"
+   ]
+  },
+  {
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "olağan",
+   "not": "Fon soruşturmasına ilişkin tek kayıt, iki aydır kapsamlı bilgi verilmediğini ileri süren bir yorum haberi; yeni gözaltı ya da el koyma sayısı yok. Ayrıca son kullanma tarihi geçmiş kanser ilaçları iddiasıyla 11 ilde yürütülen ve 650 milyon TL işlem hacmi belirtilen soruşturmada 22 gözaltı bildiriliyor; merkezin dosyalarıyla bağı kayıtta kurulmuyor.",
+   "kayitlar": [
+    "5614ba1e23",
+    "fffa9f519b"
+   ]
+  },
+  {
+   "alan": "Belçika ve AB mevzuatı",
+   "durum": "sessiz",
+   "not": "Bu pencerede merkezin dosyalarına giren Belçika kaydı yok; gelen içerikler ehliyet, trafik ve yönetim şirketleri tartışması gibi konularda.",
+   "kayitlar": [
+    "c18668cd23",
+    "1298f912a3"
    ]
   }
  ],
  "dosya_derinlesmesi": [
   {
-   "baslik": "Belçika'da belirli yabancı uyrukluların konutlarına zorla girme yetkisi veren yasa taslağı (t117) ve 5 Kasım oylaması",
-   "alan": "Belçika ve AB mevzuatı",
-   "elimizde": "PICUM'un kaydına göre taslak, kayıtsız göçmenlerin konutlarına polisin rızası olmadan ve zor kullanarak, 05.00-21.00 saatleri arasında, gerektiğinde çocukların bulunduğu ortamda girmesine izin veriyor ve Belçika Parlamentosu'nda 5 Kasım'da oylanması bekleniyor [5ca0d71dd6]. Merkez bu dosyayı 17 Ekim'de t117 olarak açmıştı; o tarihten bu yana kayıtlarda oylama tarihi dışında yeni bir usul adımı görünmüyor. Aynı dönemde Belçika yabancılar hukukunda CCE'nin 9bis/9ter ilişkisine dair kararı da kayda girdi (t166) [f41afa89e4].",
-   "eksik": "Taslağın metni, hangi yasa maddelerini değiştirdiği, yargısal izin (hâkim kararı) koşulu öngörüp öngörmediği ve hangi yabancı kategorilerini kapsadığı kayıtlarda yok. Parlamentodaki komisyon raporu ve varsa Danıştay (Conseil d'État) görüşü elimizde değil.",
-   "izlenecek_adim": "5 Kasım 2026'daki parlamento oylaması ve sonucun metne yansıyan hali; kabul halinde Anayasa Mahkemesi'ne iptal başvurusu yapılıp yapılmayacağı izlenmeli.",
-   "dayanak": "Konut dokunulmazlığı ve ailenin/çocuğun korunması bakımından (AİHS md. 8) ölçülülük tartışmasına ve merkezin Belçika'daki iade–iltica dosyalarında idari tedbirlerin yargısal denetimi argümanına dayanak oluşturabilir.",
+   "baslik": "Türkiye'de 5651 md. 8/A ile hesap engelleme hacminin AYM ihlal kararına rağmen artması (t33)",
+   "alan": "İfade ve basın özgürlüğü",
+   "elimizde": "Bugün İFÖD, Ekim 2026'da en az 867, Eylül'de 1.270 X hesabının engellendiğini; iki aylık toplamın 2.137 olduğunu ve bunun 2015-2025 arasında 8/A ile engellenen 4.800'ü aşkın hesabın neredeyse yarısına denk geldiğini açıkladı [44e97e1221]. MLSA, 26 Ekim'de en az 31 hesaba karar verildiğini, kararı veren mercilerin ve numaralarının açıklanmadığını, tam listenin kamuya duyurulmadığını bildiriyor [c69674a394]. Engellenenler arasında engelleme kararlarını belgeleyen İFÖD ve EngelliWeb hesapları da var; İFÖD kendi hesabına ilişkin kararın hâlâ tebliğ edilmediğini belirtiyor [44e97e1221].",
+   "eksik": "Kararların hangi sulh ceza hâkimliklerince, hangi numaralarla ve hangi gerekçeyle verildiği belli değil; 867 ve 31 sayılarının dayandığı hesap listeleri yayımlanmamış. İFÖD'ün atıf yaptığı AYM ihlal kararının künyesi bu kayıtlarda geçmiyor, dolayısıyla ihlal kararının kapsamı ile mevcut uygulama arasındaki farkı belge üzerinden karşılaştıramıyoruz.",
+   "izlenecek_adim": "İFÖD'ün çağrısı, sulh ceza hâkimliklerinin 8/A hükmünü AYM'ye taşıması ve kararların gerekçeleriyle tebliğ edilmesi yönünde; önümüzdeki haftalarda tebliğ edilen bir kararın metninin ortaya çıkıp çıkmadığı ve İFÖD hesabına ilişkin kararın paylaşılıp paylaşılmadığı izlenmeli [44e97e1221].",
+   "dayanak": "Tebligatsız ve gerekçesiz verilen, hesabın tamamını kapsayan engelleme kararları; merkezin iç hukuk yollarının etkisizliği ve ölçülülük denetiminin yapılmadığı yönündeki argümanlarına sayısal dayanak oluşturur.",
    "kayitlar": [
-    "5ca0d71dd6",
-    "f41afa89e4"
+    "44e97e1221",
+    "c69674a394",
+    "0157815439"
    ]
   }
  ],
  "kronoloji": [
   {
    "tarih": "2026-10-26",
-   "adim": "26 Ekim tarihli kararlarla en az 31 X hesabına ve iki SYKP Instagram hesabına 5651 md. 8/A engeli uygulandığı bildirildi (önceki brifing başlığı).",
-   "kayitlar": []
-  },
-  {
-   "tarih": "2026-10-27",
-   "adim": "MLSA haftalık bülteni, Yeni Yaşam'ın X hesabına dokuzuncu kısıtlamanın uygulandığını bildirdi (önceki brifing başlığı).",
-   "kayitlar": []
-  },
-  {
-   "tarih": "2026-10-31",
-   "adim": "İstanbul 10. Sulh Ceza Hâkimliği, 2026/11556 sayılı kararıyla gazetenin yeniyasamgazetesi9.com alan adını millî güvenlik ve kamu düzeni gerekçesiyle erişime engelledi.",
+   "adim": "En az 31 X hesabına 5651 md. 8/A kapsamında engelleme kararı; aynı gün SYKP'nin iki Instagram hesabı engellendi, X hesapları o tarihte henüz görünmez kılınmamıştı.",
    "kayitlar": [
-    "9e654699e9"
+    "c69674a394",
+    "0157815439"
+   ]
+  },
+  {
+   "tarih": "2026-10-28",
+   "adim": "Aile ve Sosyal Hizmetler Bakanlığı'nın 5651 başvurusu üzerine içerik üreticisi Özlem Altınok Öz'ün YouTube kanalı ve Instagram hesabına engelleme kararı verildi.",
+   "kayitlar": [
+    "c69674a394",
+    "0157815439"
    ]
   },
   {
    "tarih": "2026-10-31",
-   "adim": "İFÖD, aynı gazetenin daha önce de başka alan adlarının engellendiğini belirterek kararı yayımladı.",
+   "adim": "İstanbul 10. Sulh Ceza Hâkimliği, 2026/11556 sayılı kararla Yeni Yaşam'ın yeniyasamgazetesi9.com alan adını millî güvenlik ve kamu düzeni gerekçesiyle engelledi; bu, 2019'dan beri engellenen onuncu alan adı.",
    "kayitlar": [
-    "9e654699e9"
+    "9e654699e9",
+    "c69674a394"
+   ]
+  },
+  {
+   "tarih": "2026-10-31 / 2026-11-01",
+   "adim": "İmamoğlu'nun kitabından alıntı paylaşan @milletsahidim X hesabına mahkeme kararıyla engel getirildiği hesap yöneticilerince duyuruldu; merci ve karar numarası açıklanmadı.",
+   "kayitlar": [
+    "c69674a394",
+    "0157815439"
+   ]
+  },
+  {
+   "tarih": "2026-11-01",
+   "adim": "Yaş doğrulama ve oyun platformlarına ilişkin düzenlemeler yürürlüğe girdi; sosyal medya kullanımı e-Devlet üzerinden yaş doğrulamasına bağlandı.",
+   "kayitlar": [
+    "44e97e1221"
+   ]
+  },
+  {
+   "tarih": "2026-11-02",
+   "adim": "İFÖD, Ekim 2026'da en az 867, iki ayda toplam 2.137 X hesabının engellendiğini açıkladı ve 8/A hükmünün AYM'ye taşınması çağrısı yaptı; MLSA haftalık bülteni haftanın kararlarını dökümledi.",
+   "kayitlar": [
+    "44e97e1221",
+    "c69674a394"
    ]
   }
  ],
  "izlenecekler": [
-  "Yeni Yaşam'ın 2026/11556 sayılı engelleme kararına itiraz edilip edilmediği ve gazetenin yeni alan adına ilişkin yeni karar çıkıp çıkmayacağı",
-  "1 Kasım tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin metni ve yürürlük tarihi",
-  "HSK terfi listesinin içeriği ve hangi mahkemelerdeki hâkim/savcıları kapsadığı (t167)",
-  "Belçika Parlamentosu'nun 5 Kasım'daki ev baskını yasası oylaması (t117)",
-  "Dünkü pencerede açılan t164 (Ağacık) ve t165 (30 Ekim Gülen operasyonu) dosyalarında gözaltıların sulh ceza hâkimliğine sevki"
+  "İFÖD ve EngelliWeb hesaplarına ilişkin engelleme kararlarının tebliğ edilip edilmeyeceği ve 8/A hükmünün sulh ceza hâkimliklerince AYM'ye taşınıp taşınmayacağı",
+  "Yeni Yaşam'ın 2026/11556 sayılı karara itirazı ve onuncu alan adı sonrası yeni alan adının akıbeti",
+  "Yargıtay'ın Fransa'ya iade kararını bozan hükmünün metni, tarihi ve dosya numarası",
+  "1 Kasım'da yürürlüğe giren yaş doğrulama ve oyun platformu yükümlülüklerinin ilk somut uygulamaları ve Steam sayfası sayısının seyri",
+  "Cross Border Jurists Issue 6 bülteninin içerik dökümü ve Eğitim Bakanı protestosu nedeniyle tutuklanan öğrencilerin dosya seyri"
  ],
- "gun": "2026-11-01",
- "olusturma": "2026-11-01T08:41+00:00",
+ "gun": "2026-11-02",
+ "olusturma": "2026-11-02T08:52+00:00",
  "model": "claude-opus-5",
- "kayit_sayisi": 45,
+ "kayit_sayisi": 43,
  "kullanilan_kayitlar": [
   "673dd445f6",
-  "dc9d5f7ca0",
-  "7d4e21102c",
+  "1ccb4053fe",
+  "75222c51ec",
   "9a1503b893",
-  "5018b66e45",
-  "d891caa95f",
-  "09845aedad",
-  "5b883f3dd4",
-  "b586e2df07",
-  "b763c345ca",
-  "ffc76f51f6",
-  "e9966272f9",
-  "adeffff713",
-  "efe68c30b3",
-  "951aa364fa",
-  "0c29727be6",
-  "c7a0714eb6",
-  "236fda2ea1",
-  "fd8a635ab0",
-  "f3e4677a30",
-  "d1dab3a9f8",
-  "e2fa897ae0",
-  "7b0ac74e12",
-  "2c2da2cabf",
-  "1bcf3a8bf5",
-  "052e204b31",
+  "c69674a394",
+  "0157815439",
+  "44e97e1221",
+  "413f99692e",
+  "d5a685e959",
+  "57ff120f3f",
   "aecef72829",
   "9e654699e9",
-  "08133ba0f7",
-  "13fa518bf4",
-  "8ca405276a",
-  "bc04464dc1",
-  "7cc5a93ddd",
-  "f1a76e24b7",
-  "0b3a986a4b",
-  "f41afa89e4",
-  "b22ef5ae0a",
-  "d555041ccc",
-  "89c696463d",
   "8ce1c3debf",
-  "d33d9cdb77",
-  "5ca0d71dd6",
-  "e7c620ad78",
-  "88ce62c309",
-  "437f97fb3c"
+  "ba06b05ebc",
+  "3601a10903",
+  "9d27d04ce1",
+  "7dccc62716",
+  "1f974fe002",
+  "10dc606923",
+  "5614ba1e23",
+  "fffa9f519b",
+  "7dccb5256d",
+  "8d8c78eae8",
+  "764d0a3365",
+  "e705a9b8cb",
+  "b46e1a411b",
+  "1d22e2b19d",
+  "9d4eb6e5c3",
+  "2af9e09396",
+  "7b2742f642",
+  "f5dfe09beb",
+  "ac64318195",
+  "50f28ef2a3",
+  "eeb7a4c205",
+  "1298f912a3",
+  "6f08975c0d",
+  "c250506a80",
+  "f33d78c2f4",
+  "c18668cd23",
+  "f37aed6c86",
+  "fabf4e512c",
+  "89ffb3feea",
+  "872f81daad"
  ],
- "maliyet_usd": 0.4987,
- "girdi_token": 44096,
- "cikti_token": 8831,
+ "maliyet_usd": 0.6628,
+ "girdi_token": 47045,
+ "cikti_token": 14682,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
-   {
-    "id": "brifing",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
    {
     "id": "one1",
     "hukum": "dayanaklı",
@@ -351,14 +1324,24 @@
     "id": "one2",
     "hukum": "dayanaklı",
     "not": ""
+   },
+   {
+    "id": "one3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one4",
+    "hukum": "dayanaklı",
+    "not": ""
    }
   ],
-  "genel": "Üç iddia da gösterilen kayıtlarla uyumlu; olgusal dayanak eksikliği tespit edilmedi.",
+  "genel": "Dört iddianın tamamındaki olgular kayıtlarla (İFÖD ve MLSA metinleri, Nordic Monitor haberi) birebir örtüşmektedir.",
   "model": "claude-sonnet-5",
-  "girdi_token": 26271,
-  "cikti_token": 486,
-  "maliyet_usd": 0.0574,
-  "iddia_sayisi": 3
+  "girdi_token": 29379,
+  "cikti_token": 177,
+  "maliyet_usd": 0.0605,
+  "iddia_sayisi": 5
  },
  "takip_acik": [
   {
@@ -542,8 +1525,8 @@
    "baslik": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasında gözaltı ve yakalama kararlarının seyri",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-09-21",
-   "son_hareket": "2026-10-27",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 3
   },
   {
    "id": "t24",
@@ -614,8 +1597,8 @@
    "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-23",
-   "son_hareket": "2026-11-01",
-   "hareket_sayisi": 20
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 21
   },
   {
    "id": "t34",
@@ -686,8 +1669,8 @@
    "baslik": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uygulanan erişim engelleri",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-25",
-   "son_hareket": "2026-11-01",
-   "hareket_sayisi": 14
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 15
   },
   {
    "id": "t43",
@@ -726,8 +1709,8 @@
    "baslik": "Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' pratiğinin zamanlaması",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-27",
-   "son_hareket": "2026-10-27",
-   "hareket_sayisi": 15
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 16
   },
   {
    "id": "t48",
@@ -830,8 +1813,8 @@
    "baslik": "T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/8894 sayılı kararıyla erişime engellenmesi",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-01",
-   "son_hareket": "2026-10-26",
-   "hareket_sayisi": 5
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 6
   },
   {
    "id": "t61",
@@ -942,8 +1925,8 @@
    "baslik": "Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmesi: İFÖD hesabına beş günde dördüncü karar",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-05",
-   "son_hareket": "2026-10-12",
-   "hareket_sayisi": 4
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 5
   },
   {
    "id": "t75",
@@ -1118,8 +2101,8 @@
    "baslik": "10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-11",
-   "son_hareket": "2026-10-23",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 4
   },
   {
    "id": "t97",
@@ -1222,8 +2205,8 @@
    "baslik": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi hakkındaki yakalama kararı ve altı platformdaki hesaplara uygulanan 8/A engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-15",
-   "son_hareket": "2026-10-27",
-   "hareket_sayisi": 8
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 9
   },
   {
    "id": "t110",
@@ -1518,8 +2501,8 @@
    "baslik": "Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue 5, 19-25 Ekim 2026) içeriğinin dökümü",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-26",
-   "son_hareket": "2026-10-26",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 1
   },
   {
    "id": "t148",
@@ -1534,16 +2517,16 @@
    "baslik": "1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri ve Google'ın Türkiye temsilciliği kaydı",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-27",
-   "son_hareket": "2026-10-30",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 3
   },
   {
    "id": "t150",
    "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisinin tutuklanması (Nehir Dizdar, Nevin Tekin)",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-27",
-   "son_hareket": "2026-10-29",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 3
   },
   {
    "id": "t151",
@@ -1686,8 +2669,8 @@
    "baslik": "Yeni Yaşam Gazetesi'nin ardışık alan adlarına uygulanan erişim engelleri ve 2026/11556 sayılı karara itiraz",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-11-01",
-   "son_hareket": "2026-11-01",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 1
   },
   {
    "id": "t169",
@@ -1695,6 +2678,30 @@
    "alan": "Mevzuat izleme (çok alanlı)",
    "acildi": "2026-11-01",
    "son_hareket": "2026-11-01",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t170",
+   "baslik": "Yargıtay'ın Fransa'nın uyuşturucu ve aklama isnadıyla iadesini istediği Cezayir asıllı kişi hakkındaki iade kararını bozması",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-02",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t171",
+   "baslik": "İçerik üreticisi Özlem Altınok Öz'ün YouTube ve Instagram hesaplarına Aile ve Sosyal Hizmetler Bakanlığı başvurusu üzerine getirilen 5651 engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-02",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t172",
+   "baslik": "İmamoğlu'nun kitabından alıntı paylaşan @milletsahidim X hesabına uygulanan erişim engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-02",
+   "son_hareket": "2026-11-02",
    "hareket_sayisi": 0
   }
  ]
