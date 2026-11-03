@@ -1,33 +1,45 @@
 {
- "gun": "2026-11-02",
- "olusturma": "2026-11-02T20:37+00:00",
+ "gun": "2026-11-03",
+ "olusturma": "2026-11-03T09:02+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-02:toplu:12",
+   "id": "alan:2026-11-03:Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Bianet'e dayanan kayda göre mahkeme, muhalefetin yönettiği Bakırköy Belediyesi'ne yönelik yolsuzluk soruşturmasında cumartesi günü, aralarında üst düzey belediye görevlilerinin bulunduğu 39 kişiyi tutukladı [04006ca705]. Dosya, t92'de izlenen belediye soruşturmaları dizisinin yeni halkası. Kayyım atanıp atanmadığı belirtilmemiş.",
+   "kayitlar": [
+    "04006ca705"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-11-03:toplu:9",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "12 takip dosyasında hareket var",
+   "baslik": "9 takip dosyasında hareket var",
    "alan": "",
-   "not": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Yeni Yaşam Gazetesi'nin ardışık alan adlarına uygulanan erişim engelle; 1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformla; Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmes; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması; Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue ; Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki ünive; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr",
+   "not": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; RTÜK'ün fon skandalı yayınları nedeniyle Sözcü TV ve Koza TV'ye verdiğ; 1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformla; 30 Ekim 2026 Gülen operasyonu: İstanbul, Aydın ve İzmir'de 10 gözaltı ",
    "kayitlar": [
-    "44e97e1221",
+    "5862c09e09",
+    "fd6224a09c",
+    "7393373b21",
+    "fd6224a09c",
     "c69674a394",
-    "0157815439",
-    "c69674a394",
-    "0157815439",
-    "9e654699e9",
-    "44e97e1221",
-    "44e97e1221"
+    "04006ca705",
+    "849402a59e",
+    "03a22a4328"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-02:12",
+   "id": "saglik:2026-11-03:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Frontex, Scholars at Risk…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Frontex, Scholars at Risk, Alomaliye, ESMA…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

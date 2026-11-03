@@ -297,7 +297,7 @@
    "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "6bad902c60"
    ],
@@ -330,6 +330,13 @@
       "432398fe64",
       "8eca30040c"
      ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "KHK ile ihraç edilen ve sonradan göreve iade edilen doçent Savaş Karabulut, üniversiteye döndükten sonra iş yerinde taciz ile ders verme ve bilimsel araştırma önünde engellerle karşılaştığını Evrensel'e anlattı. Kayıt, ihraç sonrası iade edilenlerin fiilî durumuna ilişkin; sayısal rapor verisi içermiyor.",
+     "kayitlar": [
+      "5862c09e09"
+     ]
     }
    ]
   },
@@ -339,7 +346,7 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "neden": "Cezaevi koşulları ve engellilik uyarlaması iddiaları, AİHM'in 3. madde içtihadıyla (bkz. Demirci kararı) doğrudan kesişiyor; ayrıca 35 şirketin devlete devri ve satışlar malvarlığı dosyalarıyla bağlantılı.",
    "acildi": "2026-09-17",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-18",
    "kayitlar": [
     "84f484dabc",
@@ -353,7 +360,9 @@
       "84f484dabc"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-03",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t6",
@@ -686,13 +695,15 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Resmî ilan kesme, Türkiye'de gazetelere yönelik idari yaptırımın başlıca araçlarından biri; yönetmeliğin 3. maddesindeki tanım fıkrasında yapılan değişikliğin kapsamı kayıtta tam görünmüyor [3636911a1b, c7f4b01c28]. Metnin tamamının görülmesi gerekiyor.",
    "acildi": "2026-09-18",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-18",
    "kayitlar": [
     "3636911a1b",
     "c7f4b01c28"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-03",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t14",
@@ -700,12 +711,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "İnsan hakları çalışmasıyla bağlantılı görünen bir sınır dışı işlemi, merkezin sınıraşan baskı ve sınır dışı içtihadı dosyalarıyla doğrudan kesişiyor [cd2190bc13]. Kararın hukuki dayanağı ve itiraz yolu kayıtta yok.",
    "acildi": "2026-09-18",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-18",
    "kayitlar": [
     "cd2190bc13"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-03",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t15",
@@ -1346,7 +1359,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1512,6 +1525,14 @@
       "44e97e1221",
       "c69674a394",
       "0157815439"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "EngelliWeb, 1-2 Kasım 2026'da en az 207 X hesabının engellendiğini tespit etti; aralarında emekli albay Orkun Özeller'in iki hesabı, Ayşenur Yazıcı, T. Sabri Öncü ve Cem Baykal var. İFÖD'ün Ekim ayı için verdiği 867 hesaplık toplamla karşılaştırıldığında iki günde gelen sayı yüksek. SCF, iki aylık 2.137 rakamını yeniden aktardı.",
+     "kayitlar": [
+      "fd6224a09c",
+      "7393373b21"
      ]
     }
    ]
@@ -2111,7 +2132,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -2238,6 +2259,14 @@
      "kayitlar": [
       "c69674a394",
       "0157815439"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "EngelliWeb, 1-2 Kasım'da tespit edilen 207 hesabın büyük çoğunluğunun X tarafından Türkiye'den görünmez kılındığını bildiriyor; MLSA ise 26 Ekim kararlarında X'in o tarih itibarıyla hesapları henüz kısıtlamadığını aktarmıştı. İki kayıt birlikte, uygulamanın karar tarihiyle aynı anda gerçekleşmediğini gösteriyor.",
+     "kayitlar": [
+      "fd6224a09c",
+      "c69674a394"
      ]
     }
    ]
@@ -3263,7 +3292,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-30",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -3322,6 +3351,13 @@
      "not": "İstanbul Üsküdar'ın görevden uzaklaştırılmış muhalefetli belediye başkanı Sinem Dedetaş, yolsuzluk isnadıyla geçen 90 günlük tutukluluğun ardından ev hapsi kararıyla tahliye edildi; bilgi avukatından geliyor ve iki kaynak tarafından verildi. Kayıtlarda tutukluluğun sona erme gerekçesi ya da dosyanın esasına ilişkin bir karar yok.",
      "kayitlar": [
       "6004e0ce79"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "Bianet'e dayanan kayda göre mahkeme, CHP'li Bakırköy Belediyesi'ne yönelik yolsuzluk soruşturmasında cumartesi günü, aralarında üst düzey belediye görevlilerinin de bulunduğu 39 kişiyi tutukladı. Kayıt, dosyanın muhalefetin kazandığı belediyelere yönelik soruşturma dizisinin parçası olduğunu belirtiyor; tutuklananların kimlikleri ve isnatların dökümü kayıtta yok.",
+     "kayitlar": [
+      "04006ca705"
      ]
     }
    ]
@@ -3444,7 +3480,7 @@
    "neden": "Siber Güvenlik Başkanlığı'nca çıkarılan yönetmelik, sosyal ağ sağlayıcılarına yeni yükümlülükler getiriyor; merkezin 5651 sayılı Kanun kaynaklı erişim engeli dosyalarıyla aynı düzenleyici alanda duruyor.",
    "acildi": "2026-10-11",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "9c64e0ccf0"
    ],
@@ -3475,6 +3511,13 @@
      "not": "İFÖD, 10 Ekim tarihli yaş doğrulama yönetmeliğinin de dahil olduğu düzenlemelerin 1 Kasım 2026'da yürürlüğe girdiğini ve sosyal medya kullanımının e-Devlet üzerinden yaş doğrulamasına bağlandığını açıkladı; ilk uygulamalara değinildiği belirtiliyor ancak ayrıntı verilmiyor.",
      "kayitlar": [
       "44e97e1221"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "SCF, 15 yaş altı sosyal medya yasağının pazar günü yürürlüğe girdiğini ve kullanıcıların yaşlarını e-Devlet üzerinden doğrulaması kuralının başladığını, duyurunun Cumhurbaşkanlığı Siber Güvenlik Başkanlığı'nca yapıldığını aktarıyor. Dünkü İFÖD açıklamasına göre yeni olan, yürürlüğün idari duyuruyla teyit edilmesi.",
+     "kayitlar": [
+      "849402a59e"
      ]
     }
    ]
@@ -3685,7 +3728,7 @@
    "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
    "acildi": "2026-10-14",
    "durum": "açık",
-   "son_hareket": "2026-10-29",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "469b99a869"
    ],
@@ -3702,6 +3745,13 @@
      "not": "Amnesty International, gelecek ay Antalya'da yapılacak COP31 görüşmeleri öncesinde hükümetlerin sivil özgürlükleri koruması ve fosil yakıt lobisinin etkisini sınırlaması çağrısı yaptı. Kayıt başlık/özet düzeyinde; Türkiye'deki protesto soruşturmalarına ilişkin yeni veri içermiyor.",
      "kayitlar": [
       "53b97841b2"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "Amnesty, 9-20 Kasım'da Antalya'da yapılacak COP31'e ilişkin bir açıklayıcı metin yayımladı. Kayıt başlık ve giriş düzeyinde; Akbelen ve Perşembe Yaylası dosyalarına ilişkin yeni veri içermiyor.",
+     "kayitlar": [
+      "03a22a4328"
      ]
     }
    ]
@@ -3958,7 +4008,7 @@
    "neden": "Aynı haber konusunda erişim engeli ve ceza soruşturmasından sonra idari yayın yaptırımının devreye girmesi, tek konuda üç ayrı müdahale aracının biriktiğini gösteriyor; ceza miktarları ve dayanak madde kayıtlarda yok.",
    "acildi": "2026-10-17",
    "durum": "açık",
-   "son_hareket": "2026-10-29",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "2acf61a3bf"
    ],
@@ -3968,6 +4018,13 @@
      "not": "RTÜK 28 Ekim Çarşamba günü iki televizyon kanalına, tutuklu bir gazeteciye ve yatırım fonu skandalına ilişkin yayınları nedeniyle iki haftadan kısa sürede ikinci kez para cezası verdi; kurul üyelerinden biri tekrarlanan cezaların basın özgürlüğünü kısıtladığını söyledi. Bugünkü kayıt kanal adlarını ve tutuklu gazetecinin adını vermiyor; takip maddesindeki Sözcü TV–Koza TV eşleşmesi doğrulanmış değil.",
      "kayitlar": [
       "d8e337af3d"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "Solidarity with OTHERS, RTÜK'ün bir kanala, tutuklu bir gazetecinin gazetecilik nedeniyle tutuklandığını ima ettiği için 'yeterli delil bulunmadığı' gerekçesiyle para cezası verdiğini bildiriyor. Kayıt başlık düzeyinde; kanalın adı, karar tarihi ve ceza tutarı verilmemiş.",
+     "kayitlar": [
+      "64c404578d"
      ]
     }
    ]
@@ -4501,7 +4558,7 @@
    "neden": "Google İstanbul Bilgi Teknolojileri Ltd. Şti.'nin ana sözleşmesine Google Play oyun platformu temsilciliğinin eklenmesi, 5651 rejiminin yeni bir içerik alanına yerel temsilcilik yükümlülüğüyle genişlediğini gösteriyor. Erişim engeli ve içerik kaldırma pratiğinin bu alana nasıl taşınacağı izlenmeli.",
    "acildi": "2026-10-27",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "cb4866c6dc"
    ],
@@ -4525,6 +4582,13 @@
      "not": "İFÖD, 1 Kasım 2026'da yürürlüğe giren yaş doğrulama ve oyun platformu düzenlemelerinin yürürlüğe girdiğini ve ilk uygulamalarını değerlendirdi; sosyal medya kullanımının e-Devlet üzerinden yaş doğrulamasına bağlandığını belirtti. Steam'de Türkiye'den erişime engelli oyun sayfası sayısı 28 Ekim itibarıyla 767 olarak veriliyor; bu, 29 Ekim brifingindeki sayıyla aynı düzeyde.",
      "kayitlar": [
       "44e97e1221"
+     ]
+    },
+    {
+     "gun": "2026-11-03",
+     "not": "Yaş doğrulama ve 15 yaş altı sosyal medya yasağının 1 Kasım'da yürürlüğe girdiği SCF tarafından da doğrulandı; oyun platformlarına ilişkin yeni uygulama verisi (Steam sayfa sayısı dışında) bu pencerede gelmedi.",
+     "kayitlar": [
+      "849402a59e"
      ]
     }
    ]
@@ -4753,11 +4817,19 @@
    "neden": "İsnatlar ByLock ve Bank Asya ölçütlerine dayandırılıyor; gözaltıların tutuklamaya dönüşüp dönüşmeyeceği ve el konulan varlıkların hukuki akıbeti merkezin malvarlığı dosyalarıyla kesişiyor.",
    "acildi": "2026-10-31",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-03",
    "kayitlar": [
     "dc9d5f7ca0"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-03",
+     "not": "İçişleri Bakanlığı'na dayanan yeni bildirime göre 32 ilde yürütülen jandarma operasyonlarında 72 kişi gözaltına alındı, 41'i tutuklandı, 31 kişi hakkında işlemler sürüyor. Bu, 30 Ekim'deki İstanbul–Aydın–İzmir operasyonundan ayrı ve daha geniş bir küme; el koyma tutarı bu kez açıklanmamış, yalnızca belge ve dijital materyale el konulduğu belirtilmiş.",
+     "kayitlar": [
+      "9552dc6f13"
+     ]
+    }
+   ]
   },
   {
    "id": "t166",
@@ -4871,8 +4943,60 @@
     "0157815439"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t173",
+   "baslik": "Kuzey Kıbrıs'ta yayımlanan Havadis gazetesinin sitesine Türkiye'deki iki sulh ceza hâkimliği kararıyla erişim engeli getirilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Engelleme kararlarının Türkiye dışında yayımlanan bir gazeteye uygulanması, 5651 rejiminin ülke dışı etkisini gösteriyor; itiraz yolu ve gerekçelerin tebliği izlenmeli.",
+   "acildi": "2026-11-03",
+   "durum": "açık",
+   "son_hareket": "2026-11-03",
+   "kayitlar": [
+    "b024397523"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t174",
+   "baslik": "Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatistikleri (720.338 kişi hakkında işlem, 127.000'den fazla mahkûmiyet, 10.485 tutuklu/hükümlü, 83.404 derdest dosya)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
+   "acildi": "2026-11-03",
+   "durum": "açık",
+   "son_hareket": "2026-11-03",
+   "kayitlar": [
+    "9552dc6f13"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t175",
+   "baslik": "RTÜK'ün, tutuklu bir gazetecinin gazetecilik nedeniyle tutuklandığını ima eden yayına 'yeterli delil yok' gerekçesiyle ceza vermesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Yayın denetiminin, devam eden bir ceza dosyasının nitelendirilmesine ilişkin yorumu yaptırıma bağlaması yeni bir gerekçe tipi; kararın metni ve tutarı henüz kayıtlarda yok.",
+   "acildi": "2026-11-03",
+   "durum": "açık",
+   "son_hareket": "2026-11-03",
+   "kayitlar": [
+    "64c404578d"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t176",
+   "baslik": "AB ve Birleşik Krallık kolluğunun İsrail menşeli telefon kırma teknolojisine yaptığı harcamalar ve temel hak güvenceleri",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Dijital delil elde etme araçlarının sınırlı güvencelerle kullanıldığı iddiası, elektronik delil rejimi ve sınıraşan baskı dosyalarında delil kaynağı tartışmasına bağlanıyor.",
+   "acildi": "2026-11-03",
+   "durum": "açık",
+   "son_hareket": "2026-11-03",
+   "kayitlar": [
+    "deed380798"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-02T08:52+00:00",
- "acik": 170
+ "guncelleme": "2026-11-03T09:02+00:00",
+ "acik": 171
 }
