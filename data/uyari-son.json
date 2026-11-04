@@ -1,45 +1,45 @@
 {
- "gun": "2026-11-03",
- "olusturma": "2026-11-03T18:12+00:00",
+ "gun": "2026-11-04",
+ "olusturma": "2026-11-04T08:36+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-03:Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı",
+   "id": "alan:2026-11-04:Tayland'da iki Uygur erkeğin Çin'e zorla geri gönderilmesi r",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Bianet'e dayanan kayda göre mahkeme, muhalefetin yönettiği Bakırköy Belediyesi'ne yönelik yolsuzluk soruşturmasında cumartesi günü, aralarında üst düzey belediye görevlilerinin bulunduğu 39 kişiyi tutukladı [04006ca705]. Dosya, t92'de izlenen belediye soruşturmaları dizisinin yeni halkası. Kayyım atanıp atanmadığı belirtilmemiş.",
+   "baslik": "Tayland'da iki Uygur erkeğin Çin'e zorla geri gönderilmesi riski",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Af Örgütü Genel Sekreteri, geri gönderme merkezine nakledilen iki kişinin Çin'e zorla gönderilmesinin durdurulmasını istiyor [63caff2dfd]. Merkezin Uygur non-refoulement dosyalarında (t62) kullanılan aynı argüman hattı; iki kaynak aynı gelişmeyi veriyor.",
    "kayitlar": [
-    "04006ca705"
+    "63caff2dfd"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "takip:2026-11-03:toplu:9",
+   "id": "takip:2026-11-04:toplu:12",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "9 takip dosyasında hareket var",
+   "baslik": "12 takip dosyasında hareket var",
    "alan": "",
-   "not": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; 10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayr; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; RTÜK'ün fon skandalı yayınları nedeniyle Sözcü TV ve Koza TV'ye verdiğ; 1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformla; 30 Ekim 2026 Gülen operasyonu: İstanbul, Aydın ve İzmir'de 10 gözaltı ",
+   "not": "Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; 30 Ekim 2026 Gülen operasyonu: İstanbul, Aydın ve İzmir'de 10 gözaltı ; Ankara Başsavcılığı'nın \"evlilik ayarlama\" iddiasına dayanan Gülen sor; İzmir'de insani yardım isnadıyla yürütülen Gülen soruşturmasında gözal; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; Resmî Gazete'de yayımlanan HSK terfi listesinin içeriği; Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 i; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; AİHM'in kurumsal kapasitesi: görev süresi dolan dört yargıç, bütçe bağ; Geçerli ikamet izni bulunan Uygur Akide İsmail'in geri gönderme merkez; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be",
    "kayitlar": [
-    "5862c09e09",
-    "fd6224a09c",
-    "7393373b21",
-    "fd6224a09c",
-    "c69674a394",
-    "04006ca705",
-    "849402a59e",
-    "03a22a4328"
+    "9245d0f40e",
+    "7f930c5098",
+    "9245d0f40e",
+    "7f930c5098",
+    "9245d0f40e",
+    "9245d0f40e",
+    "7f930c5098",
+    "673dd445f6"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-03:10",
+   "id": "saglik:2026-11-04:9",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "9 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, Frontex, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Frontex, Alomaliye, ESMA, AML Intelligence, Justice Square…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

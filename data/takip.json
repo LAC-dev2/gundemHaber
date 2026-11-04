@@ -131,7 +131,7 @@
    "neden": "72 kişilik yakalama kararının 60'ı infaz edilmiş, 12 kişi için arama sürüyor; ayrıca bir kaynak 28 kişilik ayrı bir sayı veriyor. Gözaltıların tutuklamaya dönüşüp dönüşmediği ve iddianame içeriği izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "565f7e2559",
     "0324e29472"
@@ -149,6 +149,13 @@
      "not": "Ankara Başsavcılığı'nın eşgüdümündeki soruşturmada 28 şüpheliden 26'sı 15 ilde eşzamanlı operasyonlarla gözaltına alındı, 2 kişi aranıyor; mahkeme 15 kişiyi tutukladı. Şüphelilerin 12'si kamu görevlisi olarak bildirildi; isnat, bir kadına atfedilen ByLock hesabındaki kayıtlarda evlilik ayarlamaya ilişkin bilgi bulunduğu iddiasına dayandırılıyor.",
      "kayitlar": [
       "b63382ea98"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "Ankara Başsavcılığı kaynaklı yeni iki soruşturmada dört kişi hakkındaki yakalama kararı infaz edilmemiş durumda; polisin aramayı sürdürdüğü bildiriliyor [9245d0f40e]. Bu kayıtlarda 'evlilik ayarlama' iddiasıyla doğrudan bağ kurulmuyor.",
+     "kayitlar": [
+      "9245d0f40e"
      ]
     }
    ]
@@ -371,7 +378,7 @@
    "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "f64bb53604",
     "1387ffbabe"
@@ -427,6 +434,13 @@
      "kayitlar": [
       "c4cc075f02",
       "8f3ef6ad1d"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "4 Kasım Resmî Gazete'de yayımlanan AYM kararları arasında Dr. Canan Karatay'ın ifade özgürlüğünün ihlaline dair karar var: 6023 sayılı Kanun md. 39'un hangi eyleme hangi disiplin cezasının uygulanacağını öngörülebilir biçimde düzenlemediği, kanunilik şartını taşımadığı belirtiliyor [d514c22a3e]. Aynı sayıda mülkiyet, mahkemeye erişim ve yaşam hakkı usul boyutuna ilişkin kararlar da var.",
+     "kayitlar": [
+      "d514c22a3e"
      ]
     }
    ]
@@ -649,7 +663,7 @@
    "neden": "Avrupa Konseyi Göç ve Mülteciler Birimi 16 Eylül'de yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik belge yayımladı [c23be3b155]; EUAA ise Ocak-Haziran 2026 verilerine dayanan yarı yıl raporunu 10 Eylül'de yayımladı, ECRE istatistiklerin kullanımında ihtiyat çağrısı yapıyor [4e7b8dd15b]. İltica ve iade dosyalarında referans malzemesi oluşturuyor.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "c23be3b155",
     "4e7b8dd15b"
@@ -685,6 +699,13 @@
      "kayitlar": [
       "de7201fbee",
       "43a9b2bcbe"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "FRA, refakatsiz çocuklara vesayet konulu el kitabının ikinci baskısını (2026) yayımladı [e38c49beed]. Kayıt başlık ve künye düzeyinde; içerik dökümü yok.",
+     "kayitlar": [
+      "e38c49beed"
      ]
     }
    ]
@@ -784,7 +805,7 @@
    "neden": "Yardım faaliyetinin örgüt üyeliği isnadında unsur olarak gösterilmesi, merkezin delil değeri tartışmasına doğrudan giriyor; 21 kişiden kaçının tutuklandığı henüz kayıtlarda yok.",
    "acildi": "2026-09-19",
    "durum": "açık",
-   "son_hareket": "2026-09-20",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "c7595fa307"
    ],
@@ -794,6 +815,14 @@
      "not": "İzmir'deki 21 gözaltı ikinci bir kaynakla doğrulandı; kayıt bilgiyi Stockholm Center for Freedom ve TR724'e dayandırıyor. Tutuklama/serbest bırakma dağılımı hâlâ kayıtlarda yok.",
      "kayitlar": [
       "ac1a1ef227"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "İnsani yardım isnadının bu kez Ankara merkezli soruşturmada tekrar ettiği görülüyor: 11 kişilik ilk dosyada isnat, harekete mali destek ve mahpus ailelerine yardım olarak tanımlanıyor [9245d0f40e][7f930c5098]. SCF, Nisan'da Ramazan yardımı nedeniyle gözaltına alınan 42 kişiden 24'ünün tutuklandığını hatırlatıyor [9245d0f40e].",
+     "kayitlar": [
+      "9245d0f40e",
+      "7f930c5098"
      ]
     }
    ]
@@ -2614,11 +2643,19 @@
    "neden": "Kayıtta geçerli ikamet izninin varlığına rağmen idari gözetime alındığı aktarılıyor; Çin'e geri gönderme riski merkezin md. 3 temelli sınır dışı dosyalarıyla aynı çerçeveye giriyor.",
    "acildi": "2026-10-01",
    "durum": "açık",
-   "son_hareket": "2026-10-01",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "d640f65261"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-04",
+     "not": "Uygur sınır dışı riski bu kez Tayland dosyasında: Af Örgütü, geri gönderme merkezine nakledilen iki Uygur erkeğin Çin'e zorla gönderilmesinin yakın olduğu bildirimleri üzerine durdurma çağrısı yaptı [63caff2dfd]. Türkiye'deki Akide İsmail dosyasında bu pencerede yeni kayıt yok.",
+     "kayitlar": [
+      "63caff2dfd"
+     ]
+    }
+   ]
   },
   {
    "id": "t63",
@@ -2927,7 +2964,7 @@
    "neden": "Başkan Guyomar'ın PACE'e aktardığı yargıç seçimi gecikmeleri ve bütçe sorunu, Türkiye kaynaklı toplu Komite kararlarının hızını etkileyebilecek yapısal unsurlar; md. 37/2 formu ise düşürülen başvurular için usul yolu açıyor.",
    "acildi": "2026-10-05",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "899797fdb8"
    ],
@@ -2937,6 +2974,13 @@
      "not": "Strasbourg Observers'ta Lebedeva ve Diğerleri v. Rusya kararına ilişkin akademik bir değerlendirme yayımlandı: 3 Eylül'de yaklaşık 900 başvurunun esas incelenmeden kayıttan düşürüldüğü, Mahkeme'nin bunları 'potansiyel olarak esastan haklı' saydığı aktarılıyor. Yazı, devletin işbirliği yapmaması ve kararlara uymamasının kayıttan düşürme gerekçesine dahil edilmesini eleştiriyor.",
      "kayitlar": [
       "d891caa95f"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "Strasbourg Observers'da yayımlanan analiz, 'dokuzlar mektubu' ve Chişinău Bildirisi sonrası Rule 39 geçici tedbir pratiğinin 2023'ten bu yana daraldığını, 2017-2022 arasındaki hukuk devleti krizlerinde kullanım açıklığının azaldığını savunuyor [143451aa21]. Akademik değerlendirme; Mahkeme'nin resmî bir kararı değil.",
+     "kayitlar": [
+      "143451aa21"
      ]
     }
    ]
@@ -3410,7 +3454,7 @@
    "neden": "Kayıtlar yalnızca dosya adı düzeyinde; aynı pencerede 7595 sayılı Kanun kaydıyla birlikte geldikleri için içeriklerinin merkezin icra ve el koyma dosyalarıyla ilgisi olup olmadığı doğrulanmalı.",
    "acildi": "2026-10-11",
    "durum": "açık",
-   "son_hareket": "2026-11-01",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "33a9b47f0e",
     "a50cc3ecb2",
@@ -3469,6 +3513,13 @@
       "9a1503b893",
       "673dd445f6",
       "7d4e21102c"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "4 Kasım 2026 tarihli 33420 sayılı Resmî Gazete'nin 8 maddesi özetlendi; içinde dört AYM kararı ve İstanbul Üniversitesi İnsan Hakları Hukuku Uygulama ve Araştırma Merkezi Yönetmeliği var [d514c22a3e].",
+     "kayitlar": [
+      "d514c22a3e"
      ]
     }
    ]
@@ -3728,7 +3779,7 @@
    "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
    "acildi": "2026-10-14",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "469b99a869"
    ],
@@ -3752,6 +3803,13 @@
      "not": "Amnesty, 9-20 Kasım'da Antalya'da yapılacak COP31'e ilişkin bir açıklayıcı metin yayımladı. Kayıt başlık ve giriş düzeyinde; Akbelen ve Perşembe Yaylası dosyalarına ilişkin yeni veri içermiyor.",
      "kayitlar": [
       "03a22a4328"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "COP31 öncesi Antalya'da iki sendika yöneticisi ve bir avukat gözaltına alındı; gözaltındakilerden biri belediye işkolu sendikasının Antalya şube başkanı İlhan Karakurt [4b79ebb7cf]. Kayıt, zirveye altı gün kala yapılan gözaltıları iklim zirvesi takvimiyle ilişkilendiriyor.",
+     "kayitlar": [
+      "4b79ebb7cf"
      ]
     }
    ]
@@ -4817,7 +4875,7 @@
    "neden": "İsnatlar ByLock ve Bank Asya ölçütlerine dayandırılıyor; gözaltıların tutuklamaya dönüşüp dönüşmeyeceği ve el konulan varlıkların hukuki akıbeti merkezin malvarlığı dosyalarıyla kesişiyor.",
    "acildi": "2026-10-31",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "dc9d5f7ca0"
    ],
@@ -4827,6 +4885,14 @@
      "not": "İçişleri Bakanlığı'na dayanan yeni bildirime göre 32 ilde yürütülen jandarma operasyonlarında 72 kişi gözaltına alındı, 41'i tutuklandı, 31 kişi hakkında işlemler sürüyor. Bu, 30 Ekim'deki İstanbul–Aydın–İzmir operasyonundan ayrı ve daha geniş bir küme; el koyma tutarı bu kez açıklanmamış, yalnızca belge ve dijital materyale el konulduğu belirtilmiş.",
      "kayitlar": [
       "9552dc6f13"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "30 Ekim operasyonunun ardından 3 Kasım'da Ankara Başsavcılığı iki ayrı soruşturmada 25 yakalama kararı çıkardı; ilk soruşturmada 11 kişiden 7'si, ikincisinde 14 kişinin tamamı 10 ilde eşzamanlı baskınlarla gözaltına alındı [9245d0f40e][7f930c5098]. El koyma kalemi bu pencerede güncellenmedi.",
+     "kayitlar": [
+      "9245d0f40e",
+      "7f930c5098"
      ]
     }
    ]
@@ -4851,7 +4917,7 @@
    "neden": "Köse kararının genel tedbir boyutu HSK kararlarına karşı yargı yolu sorununa ilişkin; terfi listelerinin içeriği HSK kararlarının denetlenebilirliği tartışmasında veri oluşturur. Kayıtta yalnızca başlık düzeyinde bilgi var.",
    "acildi": "2026-10-31",
    "durum": "açık",
-   "son_hareket": "2026-11-01",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "7d4e21102c"
    ],
@@ -4862,6 +4928,13 @@
      "kayitlar": [
       "7d4e21102c",
       "9a1503b893"
+     ]
+    },
+    {
+     "gun": "2026-11-04",
+     "not": "Resmî Gazete'de ikinci kez 'HSK Terfi Listesi' başlıklı kayıt geldi; yine yalnızca başlık düzeyinde, içerik dökümü yok [7d4e21102c].",
+     "kayitlar": [
+      "7d4e21102c"
      ]
     }
    ]
@@ -4896,12 +4969,21 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-01",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-04",
+     "not": "Resmî Gazete'de yine 'Yargı Harçları' başlıklı bir kayıt var; kayıt başlık düzeyinde, içerik görünmüyor [673dd445f6]. 4 Kasım sayısının özetinde harçlara ilişkin madde yer almıyor [d514c22a3e].",
+     "kayitlar": [
+      "673dd445f6",
+      "d514c22a3e"
+     ]
+    }
+   ]
   },
   {
    "id": "t170",
@@ -4964,11 +5046,20 @@
    "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-04",
    "kayitlar": [
     "9552dc6f13"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-04",
+     "not": "Bakanlığın kümülatif rakamlarına ek olarak, aynı çerçevede yürüyen iki yeni Ankara soruşturmasında 25 yakalama kararından 21'inin infaz edildiği bildirildi; dördü aranıyor [9245d0f40e][7f930c5098]. Rakamların kaynağı yine TRT Haber, bağımsız doğrulama yok.",
+     "kayitlar": [
+      "9245d0f40e",
+      "7f930c5098"
+     ]
+    }
+   ]
   },
   {
    "id": "t175",
@@ -4995,8 +5086,61 @@
     "deed380798"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t177",
+   "baslik": "Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürüttüğü iki soruşturmada kalan dört yakalama kararı ve gözaltındakilerin sevk sonucu",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "İsnat doğrudan mahpus ailelerine yardım olarak tanımlanıyor; BM uzmanlarının Ekim 2025'te 'akrabalık üzerinden suçluluk' uyarısıyla aynı pratik. Gözaltındakilerin tutuklanıp tutuklanmadığı henüz bilinmiyor.",
+   "acildi": "2026-11-04",
+   "durum": "açık",
+   "son_hareket": "2026-11-04",
+   "kayitlar": [
+    "9245d0f40e",
+    "7f930c5098"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t178",
+   "baslik": "COP31 öncesi Antalya'da iki sendika yöneticisi ve bir avukatın gözaltısı",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Zirve ev sahipliği öncesinde yerel sendika ve avukat çevresine yönelen gözaltılar, protesto alanının önceden daraltılması iddiasıyla ilgili. İsnat ve akıbet kayıtlarda yok.",
+   "acildi": "2026-11-04",
+   "durum": "açık",
+   "son_hareket": "2026-11-04",
+   "kayitlar": [
+    "4b79ebb7cf"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t179",
+   "baslik": "Tutuklu akademisyen Nuriye Gülmen'in babasının cenazesine izin talebinin Adalet Bakanlığı'nca yanıtsız bırakılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Cenaze izni talebine idari yanıt verilmemesi, mahpus hakları başlığında usul işlemezliğine dair somut bir örnek; avukatların beyanı dışında belge yok.",
+   "acildi": "2026-11-04",
+   "durum": "açık",
+   "son_hareket": "2026-11-04",
+   "kayitlar": [
+    "eaeb98c2c1"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t180",
+   "baslik": "Rule 39 geçici tedbir rejiminin daralması tartışması: 'dokuzlar mektubu' ve Chişinău Bildirisi sonrası kurumsal yanıtlar",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Geçici tedbirler merkezin sınır dışı ve iade dosyalarında kullandığı ana mekanizma; kapsamın daralması doğrudan etkiler. Şimdilik akademik bir değerlendirme düzeyinde.",
+   "acildi": "2026-11-04",
+   "durum": "açık",
+   "son_hareket": "2026-11-04",
+   "kayitlar": [
+    "143451aa21"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-03T09:02+00:00",
- "acik": 171
+ "guncelleme": "2026-11-04T08:36+00:00",
+ "acik": 175
 }
