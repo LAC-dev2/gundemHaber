@@ -19,6 +19,10 @@
 "checked": "2026-10-04T11:42:54+00:00",
 "img": ""
 },
+"http://fra.europa.eu/en/content/data-protection-notice-expert-meeting-national-fundamental-rights-bodies-designated-under": {
+"checked": "2026-11-04T12:43:48+00:00",
+"img": ""
+},
 "http://fra.europa.eu/en/content/data-protection-notice-management-personal-files": {
 "checked": "2026-11-04T11:51:45+00:00",
 "img": ""
@@ -53,6 +57,10 @@
 },
 "http://fra.europa.eu/en/content/rbi-press-release-embargoed": {
 "checked": "2026-09-25T08:25:26+00:00",
+"img": ""
+},
+"http://fra.europa.eu/en/content/record-processing-activity-expert-meeting-national-fundamental-rights-bodies-designated": {
+"checked": "2026-11-04T12:43:48+00:00",
 "img": ""
 },
 "http://fra.europa.eu/en/content/record-processing-activity-management-personal-files": {
@@ -1045,6 +1053,10 @@
 },
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHARL:2026:6707&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-19T11:58:15+00:00",
+"img": ""
+},
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHARL:2026:6738&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-04T12:43:48+00:00",
 "img": ""
 },
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHARL:2026:6954&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
@@ -2749,6 +2761,10 @@
 },
 "https://globalinvestigationsreview.com/article/austria-investigating-meinl-bank-ex-chair-executives-alleged-embezzlement": {
 "checked": "2026-10-15T20:08:10+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/article/belgian-prince-company-trial-in-paris-over-alleged-tax-fraud-network": {
+"checked": "2026-11-04T12:43:48+00:00",
 "img": ""
 },
 "https://globalinvestigationsreview.com/article/bmo-sued-over-alleged-profits-backpagecom-trafficking": {
@@ -6899,6 +6915,10 @@
 "checked": "2026-10-29T11:14:03+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/ki-verordnung-reallabor/": {
+"checked": "2026-11-04T12:43:48+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/knowledge-intermediaries/": {
 "checked": "2026-10-20T20:14:17+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -8775,6 +8795,10 @@
 "checked": "2026-10-25T14:42:28+00:00",
 "img": ""
 },
+"https://www.fma.gv.at/en/austrias-supervisor-among-the-most-active-in-europe-in-terms-of-sanctions/": {
+"checked": "2026-11-04T12:43:48+00:00",
+"img": ""
+},
 "https://www.fma.gv.at/en/granting-of-authorisation-mege-zweite-gmbh/": {
 "checked": "2026-10-25T14:42:28+00:00",
 "img": ""
@@ -8785,6 +8809,14 @@
 },
 "https://www.fma.gv.at/en/lapsing-licence-merger-raiffeisenbank-eberndorf-and-raiffeisenbank-unteres-lavanttal-with-raiffeisenbank-mittleres-lavanttal/": {
 "checked": "2026-10-25T14:42:28+00:00",
+"img": ""
+},
+"https://www.fma.gv.at/en/lapsing-of-licence-dr-anton-fink/": {
+"checked": "2026-11-04T12:43:48+00:00",
+"img": ""
+},
+"https://www.fma.gv.at/en/lapsing-of-licence-of-raiffeisenbank-weissachtal-egen/": {
+"checked": "2026-11-04T12:43:48+00:00",
 "img": ""
 },
 "https://www.fma.gv.at/en/lapsing-of-licence-raiffeisenbank-region-deutschkreutz-horitschon-egen/": {
