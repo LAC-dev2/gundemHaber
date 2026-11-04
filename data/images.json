@@ -19,8 +19,16 @@
 "checked": "2026-10-04T11:42:54+00:00",
 "img": ""
 },
+"http://fra.europa.eu/en/content/data-protection-notice-management-personal-files": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": ""
+},
 "http://fra.europa.eu/en/content/exploring-futures-fundamental-rights-european-union-five-scenarios-2040": {
 "checked": "2026-10-31T20:22:09+00:00",
+"img": ""
+},
+"http://fra.europa.eu/en/content/guardianship-unaccompanied-children-handbook-reinforce-protection-unaccompanied-children": {
+"checked": "2026-11-04T11:51:45+00:00",
 "img": ""
 },
 "http://fra.europa.eu/en/content/inventory-factors-change-supporting-fras-strategic-foresight-exercise-fundamental-rights": {
@@ -45,6 +53,10 @@
 },
 "http://fra.europa.eu/en/content/rbi-press-release-embargoed": {
 "checked": "2026-09-25T08:25:26+00:00",
+"img": ""
+},
+"http://fra.europa.eu/en/content/record-processing-activity-management-personal-files": {
+"checked": "2026-11-04T11:51:45+00:00",
 "img": ""
 },
 "http://fra.europa.eu/en/content/technical-and-quality-report-eu-gender-based-violence-survey-data-collection-eight-eu": {
@@ -1619,6 +1631,10 @@
 "checked": "2026-11-03T12:34:24+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBOVE:2026:6649&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBROT:2026:12466&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-26T10:43:59+00:00",
 "img": ""
@@ -1961,6 +1977,14 @@
 },
 "https://digitallibrary.un.org/record/4131821": {
 "checked": "2026-11-04T08:31:44+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131852": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4131853": {
+"checked": "2026-11-04T11:51:45+00:00",
 "img": ""
 },
 "https://echrblog.com/book-discussion-hate-speech-and-the-ecthr/?utm_source=rss&utm_medium=rss&utm_campaign=book-discussion-hate-speech-and-the-ecthr": {
@@ -3683,6 +3707,10 @@
 "checked": "2026-11-02T20:35:48+00:00",
 "img": ""
 },
+"https://medyascope.tv/2026/11/04/kahtali-mici-ve-japon-yeni-mehmet-altan-yazdi-basin-tarihi-56/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": ""
+},
 "https://medyascope.tv/2026/11/04/selahattin-demirtas-kimdir/": {
 "checked": "2026-11-04T08:31:44+00:00",
 "img": ""
@@ -4927,6 +4955,10 @@
 "checked": "2026-10-19T09:36:56+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Opsin-raises-21m-as-AI-agents-outpace-legacy-security.jpg"
 },
+"https://regtechanalyst.com/43m-bet-on-lazarus-ai-challenges-pay-per-token-model/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Lazarus-AI-raises-43m-as-firms-fight-for-control-of-AI.jpg"
+},
 "https://regtechanalyst.com/66-regulatory-deadlines-what-compliance-teams-face-this-month/": {
 "checked": "2026-10-09T09:51:57+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Regulators-tighten-grip-as-October-deadlines-loom.jpg"
@@ -5043,6 +5075,10 @@
 "checked": "2026-10-27T16:07:38+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/zach-m-23PFamjvVLw-unsplash.jpg"
 },
+"https://regtechanalyst.com/banks-face-proof-test-as-ai-agents-and-fca-close-in/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Can-banks-explain-every-AI-agent-action-to-the-FCA-.jpg"
+},
 "https://regtechanalyst.com/banning-ai-tools-drives-risk-underground-warns-napier-ai/": {
 "checked": "2026-10-07T17:37:08+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Banning-AI-tools-drives-risk-underground-warns-Napier-AI.jpg"
@@ -5098,6 +5134,10 @@
 "https://regtechanalyst.com/consumers-embrace-ai-agents-but-wont-trust-them-with-money/": {
 "checked": "2026-11-04T10:15:25+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Agentic-fraud-risk-grows-as-consumer-trust-in-AI-lags.jpg"
+},
+"https://regtechanalyst.com/copla-races-firms-against-the-cras-december-2027-cliff/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Copla-targets-CRA-readiness-gap-before-2027-sales-ban.jpg"
 },
 "https://regtechanalyst.com/could-ai-finally-make-the-law-computational/": {
 "checked": "2026-10-21T20:25:13+00:00",
@@ -5210,6 +5250,10 @@
 "https://regtechanalyst.com/end-of-certification-fcas-smcr-shake-up-explained/": {
 "checked": "2026-11-02T12:00:17+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/11/FCA-SMCR-overhaul-hands-accountability-back-to-firms.jpg"
+},
+"https://regtechanalyst.com/esg-rating-providers-face-fca-authorisation-deadline/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/FCA-pulls-ESG-rating-providers-into-UK-regulatory-net.jpg"
 },
 "https://regtechanalyst.com/eudi-wallet-deadline-pushes-ondato-into-trinsic-deal/": {
 "checked": "2026-10-21T20:25:13+00:00",
@@ -5494,6 +5538,10 @@
 "https://regtechanalyst.com/overwatch-data-lands-15m-for-ai-threat-intelligence/": {
 "checked": "2026-10-27T16:07:38+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Overwatch-Data-lands-15m-for-AI-threat-intelligence.jpg"
+},
+"https://regtechanalyst.com/playtomic-turns-to-sumsub-kyb-to-speed-global-club-rollout/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Sumsub-KYB-rollout-puts-marketplace-fraud-risk-in-focus.jpg"
 },
 "https://regtechanalyst.com/political-giving-boom-puts-firms-government-deals-at-risk/": {
 "checked": "2026-10-16T09:26:50+00:00",
@@ -5862,6 +5910,10 @@
 "https://regtechanalyst.com/why-third-party-ai-wont-let-fund-firms-off-the-fca-hook/": {
 "checked": "2026-10-28T12:01:24+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/FCA-puts-asset-managers-AI-governance-under-the-spotlight.jpg"
+},
+"https://regtechanalyst.com/why-video-calls-are-no-longer-proof-of-identity/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Why-video-calls-are-no-longer-proof-of-identity.jpg"
 },
 "https://regtechanalyst.com/why-zions-chose-ncino-over-building-its-own-banking-software/": {
 "checked": "2026-10-28T16:55:29+00:00",
@@ -6835,6 +6887,10 @@
 "checked": "2026-09-24T20:13:35+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/italy-protests-criminal-law/": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/italys-ghetto-classrooms/": {
 "checked": "2026-09-29T12:02:07+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -7118,6 +7174,10 @@
 "https://www.aa.com.tr/tr/ekonomi/spk-turkiye-sigortaya-3-ceyrek-bilancosunu-aciklamasi-icin-16-kasima-kadar-ek-sure-verdi/4105659": {
 "checked": "2026-10-30T07:59:32+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/30/thumbs_b_c_6db23eadbcee2f1dd964f78317a2de56.jpg"
+},
+"https://www.aa.com.tr/tr/ekonomi/takasbanktan-tera-portfoy-e-ait-tp2-fonuna-iliskin-aciklama/4111312": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/04/thumbs_b_c_3c965938e70d1e073d1a9e4f85d2cc88.jpg"
 },
 "https://www.aa.com.tr/tr/ekonomi/takasbanktan-tpp-ve-tefas-islemlerine-iliskin-aciklama/4092190": {
 "checked": "2026-10-17T18:57:53+00:00",
@@ -8098,6 +8158,10 @@
 "https://www.diken.com.tr/aymden-26-siyasi-parti-hakkinda-suc-duyurusu-karari/?utm_source=rss&utm_medium=rss&utm_campaign=aymden-26-siyasi-parti-hakkinda-suc-duyurusu-karari": {
 "checked": "2026-10-15T08:53:10+00:00",
 "img": "https://www.diken.com.tr/wp-content/uploads/2025/11/2025-11-04-anayasa-mahkemesi-aym-aa-2.jpg"
+},
+"https://www.diken.com.tr/aymden-canan-karatay-icin-hak-ihlali-karari/?utm_source=rss&utm_medium=rss&utm_campaign=aymden-canan-karatay-icin-hak-ihlali-karari": {
+"checked": "2026-11-04T11:51:45+00:00",
+"img": "https://www.diken.com.tr/wp-content/uploads/2018/10/canan-karatay-vegan-sb.jpg"
 },
 "https://www.diken.com.tr/damadi-kizindan-bosaninca-kira-isteyen-kayinbabaya-ret/?utm_source=rss&utm_medium=rss&utm_campaign=damadi-kizindan-bosaninca-kira-isteyen-kayinbabaya-ret": {
 "checked": "2026-10-17T10:04:28+00:00",
