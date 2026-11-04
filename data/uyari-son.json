@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-04",
- "olusturma": "2026-11-04T08:36+00:00",
+ "olusturma": "2026-11-04T10:16+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-04:Tayland'da iki Uygur erkeğin Çin'e zorla geri gönderilmesi r",
@@ -34,12 +34,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-04:9",
+   "id": "saglik:2026-11-04:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "9 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Frontex, Alomaliye, ESMA, AML Intelligence, Justice Square…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CCBE Human Rights Letters, Anadolu Ajansı, Frontex, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
