@@ -984,12 +984,14 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "Gözaltında kaybetme iddialarında zamanaşımının soruşturmayı kesmesi, usul yükümlülüğü tartışmasının çekirdeğinde; dosya 46 yıldır açık.",
    "acildi": "2026-09-20",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-20",
    "kayitlar": [
     "955ca9dc26"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-05",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t23",
@@ -1265,7 +1267,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1349,6 +1351,15 @@
      "not": "HRW, 29 Ekim 2026'da Pakistan'da terörle mücadele mahkemesinin iki insan hakları avukatına 10'ar yıl hapis verdiğini bildirdi; dünkü Amnesty kaydına ek olarak kamu görevlisine mukavemetten üç yıl daha eşzamanlı ceza verildiği ve yargılamanın Adiala Cezaevi içinde yapıldığı aktarılıyor. HRW, savunma avukatı seçme hakkının ve dosyaya erişimin kısıtlandığı iddiasını ve BM uzmanlarının 30 Eylül tarihli serbest bırakma çağrısını da kaydediyor.",
      "kayitlar": [
       "5b883f3dd4"
+     ]
+    },
+    {
+     "gun": "2026-11-05",
+     "not": "Hong Kong'da Joshua Wong, yabancı devletlerden yaptırım talep ettiği isnadıyla ulusal güvenlik yasası uyarınca 10 yıl hapse mahkûm edildi; kayıtlara göre bu ikinci ulusal güvenlik mahkûmiyeti ve önceki cezasının Ocak 2027'de bitmesine aylar kala geldi. Kolombiya'da CAJAR avukatları Yessika Hoyos Morales ve Alirio Uribe ile üç MOVICE üyesine 18 Ekim 2026'da ölüm tehdidi mesajı gönderildiği bildirildi. Kayıtlar maddede adı geçen Laevski ve Chow Hang-tung dosyalarına değinmiyor.",
+     "kayitlar": [
+      "b08d2eca8a",
+      "55884a7804",
+      "20800fb258"
      ]
     }
    ]
@@ -1919,7 +1930,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "b290622139"
    ],
@@ -2036,6 +2047,13 @@
      "not": "Bold Medya, fon soruşturmasında iki aydır kamuoyuna kapsamlı bilgi verilmediğini, çok sayıda gözaltı ve tutuklamaya rağmen dosyanın tüm boyutlarıyla açıklanmadığını ileri sürüyor. Kayıt başlık ve özet düzeyinde; yeni erişim engeli kararı bildirilmiyor.",
      "kayitlar": [
       "5614ba1e23"
+     ]
+    },
+    {
+     "gun": "2026-11-05",
+     "not": "Fon skandalı haberciliği dosyası erişim engelinden ceza yargılamasına geçti: savcılık, fonların değerinin üzerinde hisse aldığı iddialarını ve bunun üst düzey hükümet isimleriyle bağlantısını haberleştiren dört gazeteci için 19 yıla kadar hapis istiyor. Kayıtta gazetecilerin adları ve mahkeme bilgisi yok.",
+     "kayitlar": [
+      "c4b2224a44"
      ]
     }
    ]
@@ -3217,7 +3235,7 @@
    "neden": "Avrupa Konseyi işkenceyi önleme organının tespitleri, hem AİHM md. 3 başvurularında hem de iade/iltica dosyalarında geri gönderme riski değerlendirmesinde dayanak oluşturur. Raporların tam metni ve hükümet yanıtı izlenmeli.",
    "acildi": "2026-10-09",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "6ee08c8b19"
    ],
@@ -3227,6 +3245,13 @@
      "not": "CPT raporlarının ikinci okuması kayda girdi: komite psikiyatri kurumlarını da inceledi, Türkiye'den ruh sağlığı yasası çıkarmasını ve çocuklu göçmen ailelerin idari gözetim altına alınmasından kaçınmasını istedi.",
      "kayitlar": [
       "3ce31131c9"
+     ]
+    },
+    {
+     "gun": "2026-11-05",
+     "not": "AİHM'in Süleyman Kul ve İlhan Akıllı kararı, CPT raporlarında ele alınan uzun süreli tecrit ve cezaevinde ruh sağlığına erişim başlığıyla doğrudan örtüşüyor: karar, tek kişilik hücrede tutmanın disiplin cezası olarak değil cezaevi idaresi kararıyla uygulandığını ve tecrit ihtiyacının yeniden değerlendirilmediğini saptıyor.",
+     "kayitlar": [
+      "f415441a1e"
      ]
     }
    ]
@@ -3336,7 +3361,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -3402,6 +3427,13 @@
      "not": "Bianet'e dayanan kayda göre mahkeme, CHP'li Bakırköy Belediyesi'ne yönelik yolsuzluk soruşturmasında cumartesi günü, aralarında üst düzey belediye görevlilerinin de bulunduğu 39 kişiyi tutukladı. Kayıt, dosyanın muhalefetin kazandığı belediyelere yönelik soruşturma dizisinin parçası olduğunu belirtiyor; tutuklananların kimlikleri ve isnatların dökümü kayıtta yok.",
      "kayitlar": [
       "04006ca705"
+     ]
+    },
+    {
+     "gun": "2026-11-05",
+     "not": "İmamoğlu dosyasında HRW, TLSP ve ICJ'nin üçüncü taraf müdahalesi 3 Kasım'da yayımlandı; dilekçe 14 Eylül 2026 tarihli ve AİHM İkinci Daire Başkanı'nın 9 Temmuz 2026 tarihli izniyle sunulmuş. Kayda göre ana yolsuzluk davası 436 sanıklı ve Ekim'deki yedi tahliyenin ardından 46 kişi tutuklu.",
+     "kayitlar": [
+      "8bc17b549b"
      ]
     }
    ]
@@ -3779,7 +3811,7 @@
    "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
    "acildi": "2026-10-14",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "469b99a869"
    ],
@@ -3810,6 +3842,13 @@
      "not": "COP31 öncesi Antalya'da iki sendika yöneticisi ve bir avukat gözaltına alındı; gözaltındakilerden biri belediye işkolu sendikasının Antalya şube başkanı İlhan Karakurt [4b79ebb7cf]. Kayıt, zirveye altı gün kala yapılan gözaltıları iklim zirvesi takvimiyle ilişkilendiriyor.",
      "kayitlar": [
       "4b79ebb7cf"
+     ]
+    },
+    {
+     "gun": "2026-11-05",
+     "not": "HRW, COP31 için önceliklerini yayımladı: zirve 9-20 Kasım 2026'da Antalya'da Türkiye-Avustralya eşbaşkanlığında toplanacak ve kuruluş, sivil toplumun müzakerelere katılım alanının korunmasını öncelik olarak sayıyor. Kayıt, Akbelen ve Perşembe Yaylası dosyalarına bu metinde atıf yapmıyor.",
+     "kayitlar": [
+      "602316798a"
      ]
     }
    ]
@@ -4040,11 +4079,19 @@
    "neden": "Merkezin bulunduğu ülkede, yabancı uyrukluların konut dokunulmazlığına doğrudan dokunan bir düzenleme; sınır dışı icrası ve iltica dosyalarıyla kesişir. Kayıtta yalnızca taslağın ilerlediği bilgisi var, metin yok.",
    "acildi": "2026-10-17",
    "durum": "açık",
-   "son_hareket": "2026-10-17",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "b12b872eab"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-05",
+     "not": "Af Örgütü, 5 Kasım Perşembe günü Belçika Federal Parlamentosu'nda yapılacak oylama öncesi yasanın reddedilmesini istedi; kayıtta yetkinin göç denetimi amacıyla, düzensiz göçmenleri misafir eden kişilerin konutlarını da kapsayacak biçimde tanımlandığı belirtiliyor. Oylamanın sonucu bu pencerede kayıtlara yansımadı.",
+     "kayitlar": [
+      "12cf0008f8"
+     ]
+    }
+   ]
   },
   {
    "id": "t118",
@@ -4969,7 +5016,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-05",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -4981,6 +5028,13 @@
      "kayitlar": [
       "673dd445f6",
       "d514c22a3e"
+     ]
+    },
+    {
+     "gun": "2026-11-05",
+     "not": "Resmî Gazete kaynağından 'Yargı Harçları' başlıklı yeni bir kayıt daha geldi; kayıt yine yalnızca başlık düzeyinde, düzenlemenin içeriği ve harç tutarları görünmüyor.",
+     "kayitlar": [
+      "673dd445f6"
      ]
     }
    ]
@@ -5139,8 +5193,60 @@
     "143451aa21"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t181",
+   "baslik": "Süleyman Kul ve İlhan Akıllı kararı: uzun süreli tecritte md. 3 ihlalinin icrası ve cezaevi idaresi kararıyla tek kişilik hücre uygulamasının genel tedbir boyutu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Karar, tecridin disiplin cezası olmaksızın idare kararıyla sürdürülmesini ve ruh sağlığı değerlendirmesinin yapılmamasını sorunlaştırıyor; aynı profilde çok sayıda Gülen isnatlı mahpus dosyası bulunuyor. Tazminat tutarı, ödeme süresi ve Bakanlar Komitesi grubu kayıtlarda yok.",
+   "acildi": "2026-11-05",
+   "durum": "açık",
+   "son_hareket": "2026-11-05",
+   "kayitlar": [
+    "f415441a1e"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t182",
+   "baslik": "İmamoğlu başvurusunda HRW–TLSP–ICJ üçüncü taraf müdahalesi ve AİHM'in hükümete yönelttiği makul şüphe soruları",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Müdahale, tutukluluğun siyasi saikle değerlendirilmesini istiyor; dosya 436 sanıklı ana yargılamayla ve muhalefetli belediyeler dosyasıyla bağlantılı. Mahkemenin soru listesinin tam kapsamı ve takvim kayıtlarda yok.",
+   "acildi": "2026-11-05",
+   "durum": "açık",
+   "son_hareket": "2026-11-05",
+   "kayitlar": [
+    "8bc17b549b"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t183",
+   "baslik": "Fon skandalı haberciliği nedeniyle dört gazeteci hakkında 19 yıla kadar hapis istemli iddianameler",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Aynı haber konusunda daha önce erişim engelleri ve RTÜK cezaları kaydedilmişti; dosya şimdi ağır ceza istemli yargılamaya dönüşüyor. İsimler, mahkeme ve isnat maddeleri kayıtlarda yok.",
+   "acildi": "2026-11-05",
+   "durum": "açık",
+   "son_hareket": "2026-11-05",
+   "kayitlar": [
+    "c4b2224a44"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t184",
+   "baslik": "Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ay aşılması nedeniyle kabul edilen süresinde karar vermeme davası",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Hollanda'da karar süresi aşımına dayanan davaların kabulü, Türkiye kaynaklı başvurular dahil bekleyen dosyalarda usul seyrini etkiliyor. Kayıt yalnızca özet düzeyinde; başvurucunun uyruğu ve hükmedilen yaptırım belirtilmiyor.",
+   "acildi": "2026-11-05",
+   "durum": "açık",
+   "son_hareket": "2026-11-05",
+   "kayitlar": [
+    "236ce849d9"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-04T08:36+00:00",
- "acik": 175
+ "guncelleme": "2026-11-05T09:00+00:00",
+ "acik": 178
 }
