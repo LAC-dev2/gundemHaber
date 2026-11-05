@@ -4038,6 +4038,11 @@
 "2b7ebd19c0": {
 "dil": "tr"
 },
+"2b82905124": {
+"baslik": "Tunus: Gazeteci Zied el-Heni'nin serbest bırakılmasını talep",
+"dil": "diger",
+"ozet": "Basın özgürlüğü ve insan hakları örgütleri, gazetecilik çalışması ve eleştirel yorum nedeniyle üç ayrı soruşturmaya maruz kalan veteran Tunuslu gazeteci Zied el-Heni'ye yönelik artan yargısal tacizi kınıyor; bu soruşturmalar arasında onu ömür boyu hapis cezasına maruz bırakabilecek terörizm suçlaması da yer alıyor"
+},
 "2b8524d8fa": {
 "baslik": "Çıkar Çatışması Kontrolleri Birleşik Krallık Özel Piyasaların Karmaşıklığına Yetişemiyor, Diyor Finansal Regülatör",
 "dil": "diger",
@@ -18261,6 +18266,11 @@
 "dil": "diger",
 "ozet": "Yapay zeka biyometrik aldatmacayı daha ucuz ve hızlı hale getirdikçe, kimlik doğrulama şirketi Identomat canlılık tespitinin isteğe bağlı eklentiden temel savunmaya taşındığını söylüyor ve yalnızca yüz eşleştirmesine bağlı olan firmalar maruz kalıyor."
 },
+"c9a1874afc": {
+"baslik": "Statik risk değerlendirmeleri şirketleri yeni tehditlere karşı savunmasız bırakıyor",
+"dil": "diger",
+"ozet": "Birçok kuruluş için finansal suç risk değerlendirmesi yıllık bir zorunluluktan öteye gitmez; düzenleyici gereklilik olarak tamamlanır, dosyalanır ve unutulur. Daha iyi finansal suç risk yönetiminin önündeki en büyük engel araçların eksikliği değil, değerlendirmeyi kağıt iş olarak gören bu zihniyettir"
+},
 "c9ab13a048": {
 "baslik": "Tayvan — Sosyal medya paylaşımı nedeniyle öğrenci sınır dışı edildi, Çin yanlısı faaliyetler suç sayıldı ve LGBT mekânı baskına uğradı",
 "dil": "diger"
@@ -22779,6 +22789,10 @@
 "f784308c47": {
 "cevrilemedi": true,
 "deneme": 2,
+"dil": "diger"
+},
+"f78eecfcca": {
+"baslik": "ECLI:NL:RBDHA:2026:32552 — Den Haag İcra Mahkemesi iltica içtihadı kararı",
 "dil": "diger"
 },
 "f7a382d592": {
