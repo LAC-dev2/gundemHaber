@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-05",
- "olusturma": "2026-11-05T13:55+00:00",
+ "olusturma": "2026-11-05T18:26+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-11-05:toplu:7",
@@ -27,7 +27,7 @@
    "duzey": "yüksek",
    "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Anadolu Ajansı, Frontex, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, ENNHRI, Frontex, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
