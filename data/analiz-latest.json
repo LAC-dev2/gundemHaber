@@ -74,9 +74,11 @@
   },
   {
    "id": "t16",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Demirtaş'ın tutukluluğunun 10. yılında, Demirtaş ve 12 Kürt siyasetçinin avukatları ile 15 bölge barosu Ankara Bölge Adliye Mahkemesi'ne yeni bir tahliye başvurusu sundu; başvuru AİHM kararlarına ve Bakanlar Komitesi'nin Eylül'deki Demirtaş–Yüksekdağ tahliye çağrısına dayandırıldı. Hükümetin Avrupa Konseyi'ne sunumuna göre 5 Ekim itibarıyla önceki tahliye talepleri karara bağlanmamıştı ve dosya Ankara BAM 22. Ceza Dairesi'nde.",
+   "kayitlar": [
+    "dfed55b7e3"
+   ]
   },
   {
    "id": "t17",
@@ -104,12 +106,6 @@
   },
   {
    "id": "t21",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t22",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -158,13 +154,9 @@
   },
   {
    "id": "t31",
-   "durum": "hareket var",
-   "not": "Hong Kong'da Joshua Wong, yabancı devletlerden yaptırım talep ettiği isnadıyla ulusal güvenlik yasası uyarınca 10 yıl hapse mahkûm edildi; kayıtlara göre bu ikinci ulusal güvenlik mahkûmiyeti ve önceki cezasının Ocak 2027'de bitmesine aylar kala geldi. Kolombiya'da CAJAR avukatları Yessika Hoyos Morales ve Alirio Uribe ile üç MOVICE üyesine 18 Ekim 2026'da ölüm tehdidi mesajı gönderildiği bildirildi. Kayıtlar maddede adı geçen Laevski ve Chow Hang-tung dosyalarına değinmiyor.",
-   "kayitlar": [
-    "b08d2eca8a",
-    "55884a7804",
-    "20800fb258"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t32",
@@ -228,11 +220,9 @@
   },
   {
    "id": "t42",
-   "durum": "hareket var",
-   "not": "Fon skandalı haberciliği dosyası erişim engelinden ceza yargılamasına geçti: savcılık, fonların değerinin üzerinde hisse aldığı iddialarını ve bunun üst düzey hükümet isimleriyle bağlantısını haberleştiren dört gazeteci için 19 yıla kadar hapis istiyor. Kayıtta gazetecilerin adları ve mahkeme bilgisi yok.",
-   "kayitlar": [
-    "c4b2224a44"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t43",
@@ -500,11 +490,9 @@
   },
   {
    "id": "t87",
-   "durum": "hareket var",
-   "not": "AİHM'in Süleyman Kul ve İlhan Akıllı kararı, CPT raporlarında ele alınan uzun süreli tecrit ve cezaevinde ruh sağlığına erişim başlığıyla doğrudan örtüşüyor: karar, tek kişilik hücrede tutmanın disiplin cezası olarak değil cezaevi idaresi kararıyla uygulandığını ve tecrit ihtiyacının yeniden değerlendirilmediğini saptıyor.",
-   "kayitlar": [
-    "f415441a1e"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t88",
@@ -533,9 +521,9 @@
   {
    "id": "t92",
    "durum": "hareket var",
-   "not": "İmamoğlu dosyasında HRW, TLSP ve ICJ'nin üçüncü taraf müdahalesi 3 Kasım'da yayımlandı; dilekçe 14 Eylül 2026 tarihli ve AİHM İkinci Daire Başkanı'nın 9 Temmuz 2026 tarihli izniyle sunulmuş. Kayda göre ana yolsuzluk davası 436 sanıklı ve Ekim'deki yedi tahliyenin ardından 46 kişi tutuklu.",
+   "not": "AB Komisyonu'nun yıllık raporu, seçilmiş muhalefet belediye başkanlarının kovuşturulup görevden alınmasını ve muhalefetin yönettiği belediyelere orantısız biçimde yönelen ceza süreçlerini açıkça eleştiri konusu yapıyor. Rapor metni kayıtlarda yok; bilgi ikincil özet düzeyinde.",
    "kayitlar": [
-    "8bc17b549b"
+    "6adfab3fd2"
    ]
   },
   {
@@ -546,9 +534,11 @@
   },
   {
    "id": "t94",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Komisyon'un Eylül 2025–Eylül 2026 dönemini kapsayan yıllık raporu yayımlandı; muhalefet ve bağımsız medya üzerindeki hukuki baskının arttığı, yargı bağımsızlığının gerilediği, AİHM ve AYM kararlarının uygulanmadığı tespitleri aktarılıyor.",
+   "kayitlar": [
+    "6adfab3fd2"
+   ]
   },
   {
    "id": "t95",
@@ -618,11 +608,9 @@
   },
   {
    "id": "t106",
-   "durum": "hareket var",
-   "not": "HRW, COP31 için önceliklerini yayımladı: zirve 9-20 Kasım 2026'da Antalya'da Türkiye-Avustralya eşbaşkanlığında toplanacak ve kuruluş, sivil toplumun müzakerelere katılım alanının korunmasını öncelik olarak sayıyor. Kayıt, Akbelen ve Perşembe Yaylası dosyalarına bu metinde atıf yapmıyor.",
-   "kayitlar": [
-    "602316798a"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t107",
@@ -686,11 +674,9 @@
   },
   {
    "id": "t117",
-   "durum": "hareket var",
-   "not": "Af Örgütü, 5 Kasım Perşembe günü Belçika Federal Parlamentosu'nda yapılacak oylama öncesi yasanın reddedilmesini istedi; kayıtta yetkinin göç denetimi amacıyla, düzensiz göçmenleri misafir eden kişilerin konutlarını da kapsayacak biçimde tanımlandığı belirtiliyor. Oylamanın sonucu bu pencerede kayıtlara yansımadı.",
-   "kayitlar": [
-    "12cf0008f8"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t118",
@@ -994,11 +980,9 @@
   },
   {
    "id": "t169",
-   "durum": "hareket var",
-   "not": "Resmî Gazete kaynağından 'Yargı Harçları' başlıklı yeni bir kayıt daha geldi; kayıt yine yalnızca başlık düzeyinde, düzenlemenin içeriği ve harç tutarları görünmüyor.",
-   "kayitlar": [
-    "673dd445f6"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t170",
@@ -1044,9 +1028,11 @@
   },
   {
    "id": "t177",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Doğrudan Ankara dosyasında yeni usul adımı yok; ancak Lahey mahkemesi 2 Kasım kararında Türk makamlarının mahpus ailelerine yardımı 'hareketi yeniden inşa' iddiasıyla ilişkilendirdiğini tespit ederek bu isnat türünü iltica değerlendirmesine esas aldı. Aynı kayıt 3 Kasım operasyonunda gözaltına alınan 21 kişiden yedisinin mahpus ailelerine mali yardım isnadıyla alındığını tekrarlıyor.",
+   "kayitlar": [
+    "f74db37157"
+   ]
   },
   {
    "id": "t178",
@@ -1065,344 +1051,392 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t181",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t182",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t183",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t184",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Süleyman Kul ve İlhan Akıllı kararı: uzun süreli tecritte md. 3 ihlalinin icrası ve cezaevi idaresi kararıyla tek kişilik hücre uygulamasının genel tedbir boyutu",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Karar, tecridin disiplin cezası olmaksızın idare kararıyla sürdürülmesini ve ruh sağlığı değerlendirmesinin yapılmamasını sorunlaştırıyor; aynı profilde çok sayıda Gülen isnatlı mahpus dosyası bulunuyor. Tazminat tutarı, ödeme süresi ve Bakanlar Komitesi grubu kayıtlarda yok.",
-   "kayitlar": [
-    "f415441a1e"
-   ]
-  },
-  {
-   "baslik": "İmamoğlu başvurusunda HRW–TLSP–ICJ üçüncü taraf müdahalesi ve AİHM'in hükümete yönelttiği makul şüphe soruları",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Müdahale, tutukluluğun siyasi saikle değerlendirilmesini istiyor; dosya 436 sanıklı ana yargılamayla ve muhalefetli belediyeler dosyasıyla bağlantılı. Mahkemenin soru listesinin tam kapsamı ve takvim kayıtlarda yok.",
-   "kayitlar": [
-    "8bc17b549b"
-   ]
-  },
-  {
-   "baslik": "Fon skandalı haberciliği nedeniyle dört gazeteci hakkında 19 yıla kadar hapis istemli iddianameler",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Aynı haber konusunda daha önce erişim engelleri ve RTÜK cezaları kaydedilmişti; dosya şimdi ağır ceza istemli yargılamaya dönüşüyor. İsimler, mahkeme ve isnat maddeleri kayıtlarda yok.",
-   "kayitlar": [
-    "c4b2224a44"
-   ]
-  },
-  {
-   "baslik": "Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ay aşılması nedeniyle kabul edilen süresinde karar vermeme davası",
+   "baslik": "Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarihli Gülen iltica politikası ile Mart 2026 Danıştay onamasının seyri",
    "alan": "İade, adli yardım ve iltica",
-   "neden": "Hollanda'da karar süresi aşımına dayanan davaların kabulü, Türkiye kaynaklı başvurular dahil bekleyen dosyalarda usul seyrini etkiliyor. Kayıt yalnızca özet düzeyinde; başvurucunun uyruğu ve hükmedilen yaptırım belirtilmiyor.",
+   "neden": "İlk derece mahkemesi, sıkılaştırılmış politikanın Türkiye'deki koşulların iyileştiğine dair yeterli delille desteklenmediğini söyleyerek en yüksek idari yargının Mart'taki yaklaşımından ayrıldı. Temyiz edilip edilmeyeceği ve diğer dosyalara etkisi izlenmeli.",
    "kayitlar": [
-    "236ce849d9"
+    "f74db37157"
+   ]
+  },
+  {
+   "baslik": "İsviçre'den Türkiye'ye geri gönderme dosyaları: gazeteci Mehmet Kılıç ailesi ve dönüşte tutuklanan önceki başvurucular",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Federal İdare Mahkemesi reddi onadı; aynı kaynak, İsviçre'den gönderilen en az iki kişinin Türkiye'ye varışta tutuklandığını aktarıyor. Non-refoulement değerlendirmesinin sonradan doğrulanması açısından izlenmeli.",
+   "kayitlar": [
+    "fefaf247d9"
+   ]
+  },
+  {
+   "baslik": "Birleşik Krallık Küresel İnsan Hakları Yaptırım Rejimi'nin savaş suçları ve UİH ihlallerini kapsayacak biçimde genişletilmesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "2020 çerçevesi yalnızca belirli ağır ihlallerle sınırlıydı; yeni yetkiler insani yardımın engellenmesini de kapsıyor. İlk listelemelerin kapsamı merkezin yaptırım savunuculuğu dosyası için ölçüt oluşturur.",
+   "kayitlar": [
+    "1005584ecc"
+   ]
+  },
+  {
+   "baslik": "Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belgesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "neden": "Tüzük, üçüncü ülke vatandaşlarının geri gönderilmesinde ortak bir sistem kuruyor; merkezin geri gönderme ve 'return hub' dosyalarıyla doğrudan bağlantılı. Belgenin içeriği henüz başlık düzeyinde.",
+   "kayitlar": [
+    "2bb9e22e12"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "AİHM: Gülen isnadıyla tutulan hâkim ve savcının uzun tecriti md. 3 ihlali",
- "brifing": "Pencerenin merkez dosyaları açısından en ağırlıklı gelişmesi, AİHM'in eski Yargıtay hâkimi Süleyman Kul ve savcı İlhan Akıllı hakkında oybirliğiyle md. 3 (aşağılayıcı muamele) ihlali bulduğu karar; tecrit disiplin cezası olarak değil cezaevi idaresi kararıyla uygulanmış [f415441a1e]. İkinci başlık, HRW, TLSP ve ICJ'nin İmamoğlu başvurusunda yayımladığı üçüncü taraf müdahalesi; dilekçe 14 Eylül tarihli, izin 9 Temmuz'da verilmiş [8bc17b549b]. İfade özgürlüğü tarafında fon skandalı haberciliği dosyası ceza yargılamasına döndü: dört gazeteci için 19 yıla kadar hapis isteniyor [c4b2224a44]. Belçika'da göç denetimi amaçlı konut araması yetkisi veren yasa 5 Kasım'da oylanıyor ve Af Örgütü reddedilmesini istiyor [12cf0008f8]. AİHM kararına ilişkin değerlendirme tek bir ikincil kaynağa dayanıyor; karar metni (HUDOC) kayıtlarda yok, tazminat ve başvuru numarası bilinmiyor.",
+ "baslik": "Lahey mahkemesi Gülen bağlantılı baba ve oğlun iltica reddini bozdu",
+ "brifing": "Pencerenin ağırlığı iltica ve geri gönderme dosyalarında: Lahey Rechtbank'ı 2 Kasım'da Gülen bağlantılı bir baba ile oğlunun iltica reddini bozarak Hollanda'nın Aralık 2023 tarihli sıkılaştırma politikasının yeterince gerekçelendirilmediğini söyledi [f74db37157]; aynı gün İsviçre Federal İdare Mahkemesi'nin Kürt gazeteci Mehmet Kılıç'ın başvurusunu reddeden kararı rapor edildi [fefaf247d9]. İcra tarafında Demirtaş dosyası 10. yılında yeni bir tahliye başvurusuyla Ankara Bölge Adliye Mahkemesi'ne taşındı [dfed55b7e3]. AB Komisyonu'nun yıllık Türkiye raporu, muhalefet belediye başkanlarının kovuşturulması ve AİHM–AYM kararlarının uygulanmaması tespitlerini içeriyor [6adfab3fd2]. Dün öne çıkarılan Kul–Akıllı kararı ve Joshua Wong hükmünde bu pencerede yeni usul adımı yok; Wong dosyasına yalnızca ortak açıklama ve HRW metni eklendi [a336e3d016, 55884a7804].",
  "one_cikanlar": [
   {
-   "baslik": "AİHM, Gülen isnadıyla tutulan eski Yargıtay hâkimi ve savcının uzun süreli tecritini md. 3 ihlali saydı",
+   "baslik": "Lahey Rechtbank'ı Gülen bağlantılı iki iltica reddini bozdu",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Karar, Hollanda hükümetinin Aralık 2023'te Gülen hareketi mensupları için sıkılaştırdığı iltica politikasının, Türkiye'de koşulların iyileştiğine dair delille yeterince desteklenmediğini tespit ediyor. Mahkeme, babanın geçmişteki hapisliğini zulüm sayarak ispat yükünü idareye çeviriyor ve mahpus ailelerine yardımın Türkiye'de örgüt isnadına bağlandığını kayda geçiriyor. Bu, merkezin hem iltica içtihadı hem de 'insani yardım isnadı' dosyalarını aynı anda ilgilendiriyor.",
+   "yenilik": "İlk kez: 2 Kasım tarihli karar bugünkü pencerede rapor edildi.",
+   "ayrintilar": [
+    "Karar tarihi 2 Kasım 2026, Lahey Bölge Mahkemesi",
+    "Hollanda göç makamları başvuruları Aralık 2025'te reddetmişti",
+    "Hollanda Danıştayı Mart'ta sıkılaştırılmış politikayı onamıştı",
+    "Baba iki yıldan fazla hapis yattı ve kamu görevinden ihraç edildi; tahliyeden sonra mahpus ailelerinin ziyaretlerine yardım etti, çocuklarına ders verdi",
+    "Mahkeme Finlandiya Göç İdaresi ve Hollanda hükümeti raporlarına atıf yaptı",
+    "Kaynağa göre 1 Ekim'den bu yana en az 197 kişi Gülen isnadıyla gözaltına alındı; 3 Kasım operasyonunda 21 kişiden yedisi mahpus ailelerine mali yardım isnadıyla"
+   ],
+   "mekanizma": "İltica: geçmiş zulüm ve yenilenen kovuşturma riski",
+   "karsi_okuma": "Tek bir ilk derece kararı; politikayı genel olarak iptal etmiyor ve temyize gidilip gidilmeyeceği kayıtlarda yok. Karar metni elimizde değil, bilgi ikincil kaynağın özetine dayanıyor.",
+   "kayitlar": [
+    "f74db37157"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Demirtaş'ın tutukluluğu 10. yılında: 13 siyasetçi ve 15 baro adına yeni tahliye başvurusu",
    "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Karar, Temmuz 2016 sonrası tutuklanan yargı mensuplarında tek kişilik hücre uygulamasının disiplin cezası olmaksızın, cezaevi idaresi kararıyla yıllarca sürdürülmesini denetim konusu yapıyor. Mahkeme, tecrit ihtiyacının yeniden değerlendirilmemesini ve psikiyatrik tanıya rağmen ruh sağlığı etkisinin ölçülmemesini ihlal gerekçesi olarak kuruyor. Aynı profildeki çok sayıda mahpus dosyası için ölçüt üretir.",
-   "yenilik": "İlk kez.",
+   "neden_onemli": "Başvuru, bağlayıcı AİHM kararlarına ve Bakanlar Komitesi'nin Eylül'deki tahliye çağrısına dayandırılarak Ankara Bölge Adliye Mahkemesi'ne sunuldu. Hükümetin Avrupa Konseyi'ne sunumuna göre önceki tahliye talepleri 5 Ekim itibarıyla karara bağlanmamıştı; bu, icra denetiminde yanıtsızlığın sürdüğünü gösteriyor. Merkezin md. 18 ve md. 46 dosyaları için doğrudan veri.",
+   "yenilik": "İlk kez: 4 Kasım yıldönümünde yapılan toplu tahliye başvurusu ve dosyanın Ankara BAM 22. Ceza Dairesi'nde olduğu bilgisi bu pencerede geldi.",
    "ayrintilar": [
-    "Başvurucular: eski Yargıtay hâkimi Süleyman Kul ve savcı İlhan Akıllı [f415441a1e]",
-    "Kul: Marmara Cezaevi'nde altı yıl sekiz ay tek kişilik hücre, Haziran 2023'te koşullu tahliye [f415441a1e]",
-    "İlk 19 ay diğer mahpuslarla temassız, günde bir saat tek başına havalandırma; Mayıs 2018'den itibaren iki mahpusla günde iki saat [f415441a1e]",
-    "Kasım 2018'de psikiyatrik uyum bozukluğu tanısı [f415441a1e]",
-    "Akıllı: Eylül 2016 – Şubat 2018 arası Eskişehir Cezaevi'nde yaklaşık bir yıl beş ay; ilk sekiz ay günde 30 dakika havalandırma [f415441a1e]",
-    "Karar oybirliğiyle, ihlal ADİS md. 3 [f415441a1e]"
+    "Demirtaş 4 Kasım 2016'dan beri tutuklu",
+    "Mayıs 2024'te verilen 42 yıl hapis cezasına karşı temyiz derdest",
+    "Temmuz 2025 kararı md. 18 ihlali de buldu; Büyük Daire'ye gönderme talebinin reddiyle 3 Kasım 2025'te kesinleşti",
+    "Aralık 2020 Büyük Daire kararı derhal tahliyeye hükmetmişti",
+    "Bakanlar Komitesi Eylül'de Demirtaş ve Yüksekdağ'ın derhal tahliyesi talebini yeniledi",
+    "Başvuru Demirtaş ile 12 tutuklu Kürt siyasetçi ve 15 bölge barosu adına yapıldı"
    ],
-   "mekanizma": "AİHS md. 3",
-   "karsi_okuma": "Kayıt tek ikincil kaynağa dayanıyor; başvuru numaraları, hükmedilen tazminat, ödeme süresi ve diğer maddelerden inceleme yapılıp yapılmadığı belli değil. Kararın tecrit uygulamasına ilişkin genel tedbir doğurup doğurmayacağı bu kayıttan çıkarılamaz.",
+   "mekanizma": "AİHS md. 18 ve md. 46 icra denetimi",
+   "karsi_okuma": "Başvurunun mahkemece ne zaman inceleneceği ya da tahliye ihtimali kayıtlarda yok; aktarım DW üzerinden ikincil kaynağa dayanıyor.",
    "kayitlar": [
-    "f415441a1e"
+    "dfed55b7e3"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "HRW, TLSP ve ICJ'den İmamoğlu başvurusunda üçüncü taraf müdahalesi",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Müdahale, tutukluluğu tekil bir ceza dosyası olarak değil, siyasetçilere yönelik sistematik kovuşturma örüntüsü içinde incelemesini istiyor. Merkezin muhalefetli belediyeler ve kayyım dosyasıyla doğrudan bağlantılı; AİHM'in hükümete makul şüphe ve etkili denetim soruları yönelttiği kayıtta belirtiliyor.",
-   "yenilik": "İlk kez; dün İmamoğlu dosyası analizde yer almamıştı.",
+   "baslik": "İsviçre Federal İdare Mahkemesi Kürt gazeteci Mehmet Kılıç'ın iltica reddini onadı",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Karar, Estonya'nın Tekin Ağacık'ı geri göndermesinden sonra ikinci bir Avrupa ülkesinde aynı örüntüyü ortaya koyuyor: iltica makamı Türkiye'de siyasi kovuşturma riski görmüyor, geri gönderilenler ise varışta tutuklanıyor. Kaynak, İsviçre'den gönderilen iki kişinin dönüşte tutuklandığını aktarıyor; bu, risk değerlendirmesinin sonradan sınanması bakımından merkezin non-refoulement dosyasına veri sağlıyor.",
+   "yenilik": "İlk kez: Kılıç dosyası bugün kayda girdi.",
    "ayrintilar": [
-    "Müdahale 3 Kasım 2026'da yayımlandı, dilekçe 14 Eylül 2026 tarihli [8bc17b549b]",
-    "İkinci Daire Başkanı 9 Temmuz 2026'da müdahale izni verdi [8bc17b549b]",
-    "Başvuru 10 Kasım 2025'te yapıldı; hükümete tebliğ 23 Mart 2026 [8bc17b549b]",
-    "Gözaltı 19 Mart 2025, tutuklama 23 Mart 2025 (CHP'nin adaylık ilanıyla aynı gün) [8bc17b549b]",
-    "Ana yolsuzluk davası 436 sanıklı; Ekim'deki yedi tahliyeden sonra 46 kişi tutuklu [8bc17b549b]",
-    "Savcılık 2.430 yıla kadar hapis istiyor [8bc17b549b]"
+    "Mehmet Kılıç, Özgür Gündem ve Azadiya Welat'ta 2000-2010 arasında çalıştı",
+    "Aile Eylül 2023'te İsviçre'de iltica başvurusu yaptı; SEM 2025'te reddetti",
+    "Federal İdare Mahkemesi reddi geçen hafta onadı",
+    "Eşi Gülşen ile çocukları Deniz ve Delal de sınır dışı riski altında",
+    "Nihat Özgün 21 Eylül'de sınır dışı edildi, İstanbul Havalimanı'nda gözaltına alındı ve ertesi gün tutuklandı, Silivri'ye gönderildi",
+    "Bahar Yalçınkaya Ağustos'ta varışta 15 aylık bebeğiyle tutuklandı"
    ],
-   "mekanizma": "AİHS md. 5; Mahkeme İçtüzüğü üçüncü taraf müdahalesi",
-   "karsi_okuma": "Üçüncü taraf müdahalesi Mahkeme'nin bir saptaması değildir; AİHM'in siyasi saik iddiasını inceleyip incelemeyeceği kayıttan çıkarılamaz. Md. 18 yönünden bir bildirim yapıldığına dair bilgi kayıtta yok.",
+   "mekanizma": "Non-refoulement / iltica temyizi",
+   "karsi_okuma": "Mahkeme kararının metni ve gerekçesi kayıtlarda yok; sınır dışı için belirlenmiş bir tarih de bildirilmiyor.",
    "kayitlar": [
-    "8bc17b549b"
+    "fefaf247d9"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Fon skandalı haberciliği nedeniyle dört gazeteci için 19 yıla kadar hapis isteniyor",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Fon haberleri dosyası bugüne kadar erişim engeli ve RTÜK cezası düzeyinde izleniyordu; kayıt, aynı haber konusunun iddianameye dönüştüğünü gösteriyor. İsnat edilen cezanın ağırlığı, habercilik faaliyetinin örgütlü suç benzeri yaptırım ölçeğine taşındığını gösteriyor.",
-   "yenilik": "İlk kez: dosyada daha önce erişim engeli ve yayın cezası vardı, bugün dört gazeteci için 19 yıla kadar hapis istemli iddianame bildirildi.",
-   "ayrintilar": [
-    "Dört gazeteci hakkında 19 yıla kadar hapis istemi [c4b2224a44]",
-    "İsnat, yatırım fonlarının değerinin üzerinde hisse alımı ve üst düzey hükümet isimleriyle bağlantı iddialarının haberleştirilmesi [c4b2224a44]",
-    "İddianameler 4 Kasım'da haber konusu edildi [c4b2224a44]"
-   ],
-   "mekanizma": "",
-   "karsi_okuma": "Gazetecilerin adları, yargılandıkları mahkeme, isnat edilen suç maddeleri ve iddianamelerin kabul edilip edilmediği kayıtta yok; daha önce izlenen İsmail Arı dosyasıyla aynı dosya olduğu doğrulanmamıştır.",
-   "kayitlar": [
-    "c4b2224a44"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Belçika'da göç denetimi amaçlı konut araması yasası 5 Kasım'da parlamentoda oylanıyor",
+   "baslik": "AB Komisyonu yıllık raporu: muhalefet ve medya üzerindeki hukuki baskı arttı, AİHM kararları uygulanmıyor",
    "alan": "Belçika ve AB mevzuatı",
-   "neden_onemli": "Yetki, yalnızca düzensiz göçmenleri değil onları konutunda ağırlayan kişileri de kapsayacak biçimde tanımlanıyor; bu, konut dokunulmazlığı ve ayrımcılık yasağı yönünden merkezin Belçika dosyasını doğrudan ilgilendiriyor. Oylama bugün yapılıyor, sonuç henüz kayıtlara geçmedi.",
-   "yenilik": "1 Kasım'da derinleştirilen taslak bugün oylamaya geldi; Af Örgütü oylama öncesi reddedilme çağrısı yayımladı.",
+   "neden_onemli": "Rapor Eylül 2025–Eylül 2026 dönemini kapsıyor ve seçilmiş muhalefet belediye başkanlarının kovuşturulması ile görevden alınmasını, belediyelere yönelik orantısız ceza süreçlerini ve bağımsız yayıncılara verilen ayrımcı cezaları ayrı başlıklar olarak sayıyor. AİHM ve Anayasa Mahkemesi kararlarının uygulanmaması tespiti, merkezin icra denetimi dosyalarında kurumsal bir dayanak oluşturur.",
+   "yenilik": "İlk kez: t94 kapsamındaki genişleme değerlendirmesinin yayımlanmış hali bu pencerede kayda girdi.",
    "ayrintilar": [
-    "Oylama 5 Kasım 2026 Perşembe, Belçika Federal Parlamentosu [12cf0008f8]",
-    "Af Örgütü Bölge Direktör Yardımcısı Dinushika Dissanayake açıklama yaptı; yasa 'bölücü' olarak niteleniyor [12cf0008f8]",
-    "Kapsam: göç denetimi amacıyla konutlara polis baskını, belgesiz göçmenleri ağırlayanların konutları dahil [12cf0008f8]"
+    "Rapor Çarşamba günü yayımlandı, Eylül 2025–Eylül 2026 dönemini kapsıyor",
+    "Tespitler: seçilmiş muhalefet belediye başkanlarının kovuşturulması ve görevden alınması",
+    "Muhalefetin yönettiği belediyelere orantısız biçimde yönelen ceza süreçleri",
+    "Bağımsız yayıncılara ayrımcı para cezaları",
+    "AİHM kararlarının ve AYM hükümlerinin uygulanmaması",
+    "Yargının standartlardan uzak olduğu değerlendirmesi"
    ],
-   "mekanizma": "Konut dokunulmazlığı / göç denetimi yetkisi",
-   "karsi_okuma": "Oylamanın sonucu, metnin son hali ve yargısal izin koşulu kayıtta yok; yasanın kabul edildiği varsayılamaz.",
+   "mekanizma": "AB genişleme değerlendirmesi",
+   "karsi_okuma": "Rapor metni kayıtlarda yok; aktarım ikincil kaynağın seçtiği pasajlarla sınırlı, puan ya da fasıl bazlı değerlendirme verilmiyor.",
    "kayitlar": [
-    "12cf0008f8"
+    "6adfab3fd2"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "HRW, 9-20 Kasım'da Antalya'da toplanacak COP31 için sivil toplum katılım alanını öncelik olarak açıkladı",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Zirve, merkezin izlediği çevre protestoları ve COP31 öncesi gözaltı dosyalarıyla aynı takvimde. HRW, müzakerelerde sivil toplum kuruluşlarının katılımının güvence altına alınmasını açıkça talep ediyor.",
-   "yenilik": "Dün Antalya'daki gözaltılar bildirilmişti; bugün HRW'nin zirveye ilişkin resmi öncelik metni geldi, gözaltılara bu metinde atıf yok.",
+   "baslik": "Gülen isnadıyla mahkûm edilen eski askerî yargıç Haluk Zeybel kanserden öldü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "Zeybel, kanser teşhisi sonrası tahliye edilmiş bir hükümlüydü; dosya, merkezin izlediği hasta mahpus ve infaz erteleme dosyalarıyla (t64, t91, t129, t161) aynı seride yer alıyor. Mahkûmiyet gerekçesinde evde bulunan üç adet 1 dolarlık banknotun delil sayılması, Yalçınkaya sonrası delil ölçütü tartışmasına somut bir örnek ekliyor.",
+   "yenilik": "İlk kez: Zeybel'in 4 Kasım'daki ölümü bu pencerede kayda girdi.",
    "ayrintilar": [
-    "COP31: 9-20 Kasım 2026, Antalya; Türkiye ve Pasifik adına Avustralya eşbaşkanlığı [602316798a]",
-    "HRW, iklim nedeniyle yerinden edilenlerin haklarını ve sivil toplumun müzakerelere katılımını öncelik sayıyor [602316798a]",
-    "Zirvede 25 dakikalık 'Solwata' karma gerçeklik belgeseli gösterilecek [602316798a]"
+    "Haluk Zeybel 66 yaşında, 4 Kasım'da Ankara'da bir hastanede öldü",
+    "Ekim 2016'da Askerî Yargıtay üyeliğinden ihraç edildi",
+    "Şubat 2020'de silahlı terör örgütü üyeliğinden 11 yılı aşkın hapis cezası aldı; ceza 2021'de onandı",
+    "Savcılık delil olarak evinde bulunan üç adet 1 dolarlık banknotu gösterdi, birinin seri numarası 'FG' ile başlıyordu",
+    "Eski koğuş arkadaşı Dr. Cemil Çelik, ikisinin de gözaltında işkenceye maruz kaldığını söyledi",
+    "OHAL döneminde 113.290 kişi kamu görevinden ihraç edildi"
    ],
-   "mekanizma": "",
-   "karsi_okuma": "Metin Türkiye'deki gözaltı ve soruşturmalara ilişkin yeni bir bulgu sunmuyor; akreditasyon veya katılım kısıtlaması yaşandığına dair kayıt yok.",
+   "mekanizma": "Hasta mahpus / infaz erteleme",
+   "karsi_okuma": "Ölüm nedeni kanser olarak bildiriliyor; cezaevi koşullarıyla nedensellik kurulamaz. İşkence beyanı tek bir kişinin X paylaşımına dayanıyor, doğrulanmamıştır.",
    "kayitlar": [
-    "602316798a"
+    "537251e09d"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Hong Kong'da Joshua Wong'a yaptırım çağrısı isnadıyla 10 yıl hapis",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Mahkûmiyet, yabancı devletlerden yaptırım talep etmeyi ulusal güvenlik suçu sayan bir çerçeveye dayanıyor; bu, merkezin yaptırım savunuculuğu ve sınıraşan baskı dosyaları açısından karşılaştırmalı değer taşıyor. Ceza, önceki mahkûmiyetin Ocak 2027'de bitmesine aylar kala verildi.",
-   "yenilik": "İlk kez.",
+   "baslik": "Birleşik Krallık insan hakları yaptırım rejimi savaş suçlarını ve UİH ihlallerini kapsayacak biçimde genişletildi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden_onemli": "2020 tarihli çerçeve yalnızca yaşam hakkı, işkence yasağı ve kölelik/zorla çalıştırma ihlallerinde hedefli yaptırıma izin veriyordu. Yeni yetkiler savaş suçlarını, uluslararası insancıl hukukun ciddi ihlallerini ve insani yardımın engellenmesini kapsıyor; bu, merkezin yaptırım listeleri dosyasında listeleme ölçütlerini genişletiyor.",
+   "yenilik": "İlk kez: parlamento onayı bu pencerede kayda girdi.",
    "ayrintilar": [
-    "5 Kasım 2026, Hong Kong Yüksek Mahkemesi, 10 yıl hapis [55884a7804][b08d2eca8a]",
-    "İsnat: Temmuz-Kasım 2020 arasında yabancı ülke ve kuruluşlardan yaptırım/abluka talep etmek için işbirliği [b08d2eca8a]",
-    "Önceki ceza 2024'te verilen 4 yıl 8 ay; Ocak 2027'de bitiyor [b08d2eca8a]",
-    "Ulusal Güvenlik Yasası ve sömürge dönemi 'fesat' yasası kapsamında 300'den fazla kişi tutuklandı [b08d2eca8a]"
+    "Yetkiler parlamentoca bir gün önce onaylandı",
+    "Önceki çerçeve 2020'de kabul edilmişti",
+    "Yeni kapsam: savaş suçları, UİH'nin ciddi ihlalleri, insani yardımın engellenmesi"
    ],
-   "mekanizma": "Hong Kong Ulusal Güvenlik Yasası",
-   "karsi_okuma": "Kayıtlar Türkiye dosyalarıyla doğrudan bağ kurmuyor; emsal etkisi değerlendirmesi bu kayıtlardan çıkarılamaz. Temyiz süreci hakkında bilgi yok.",
+   "mekanizma": "Küresel İnsan Hakları Yaptırım Rejimi (BK)",
+   "karsi_okuma": "Düzenlemenin metni ve yürürlük tarihi kayıtlarda yok; herhangi bir listeleme yapıldığına dair bilgi bulunmuyor.",
    "kayitlar": [
-    "b08d2eca8a",
-    "55884a7804"
+    "1005584ecc"
    ],
-   "guven": "yüksek"
+   "guven": "orta"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "AİHM başvuruları ve kararların icrası",
+   "alan": "İade, adli yardım ve iltica",
    "durum": "hareketli",
-   "not": "İki ayrı hat: Kul ve Akıllı kararında md. 3 ihlali [f415441a1e]; İmamoğlu başvurusunda üç kuruluşun üçüncü taraf müdahalesinin yayımlanması [8bc17b549b]. Her iki gelişme de ikincil kaynaktan geliyor, karar ve dilekçe metinleri kayıtlarda yok.",
+   "not": "Lahey'in 2 Kasım kararı ile İsviçre Federal İdare Mahkemesi'nin Kılıç kararı aynı pencerede, zıt yönde iki ulusal değerlendirme ortaya koyuyor. ECRE, Ekim 2026'da kabul edilen Geri Dönüş Tüzüğü'ne ilişkin yorum belgesi yayımladı; içeriği kayıtlarda başlık düzeyinde. FRA tarafında Göç Paktı kapsamında kırılgan kişilerin korunması ve üçüncü göç bülteni başlıklı kayıtlar var, metin verilmemiş.",
    "kayitlar": [
-    "f415441a1e",
-    "8bc17b549b"
+    "f74db37157",
+    "fefaf247d9",
+    "2bb9e22e12",
+    "0db6adf666",
+    "930bcd29ff"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "durum": "hareketli",
-   "not": "Yeni kayıt yalnızca AİHM'in tecrit kararı; Ankara'daki mahpus ailelerine yardım soruşturmalarında (t2, t177) bu pencerede yeni kayıt yok, sayılar önceki brifingteki düzeyde.",
+   "not": "Eski askerî yargıç Haluk Zeybel'in ölümü ve Lahey kararında mahpus ailelerine yardım isnadının iltica değerlendirmesine girmesi bu alanın iki yeni verisi. Dünkü Kul–Akıllı kararında bu pencerede yeni kayıt yok.",
    "kayitlar": [
+    "537251e09d",
+    "f74db37157",
     "f415441a1e"
+   ]
+  },
+  {
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "hareketli",
+   "not": "Demirtaş dosyasında 10. yıl başvurusu ve hükümetin Avrupa Konseyi'ne sunumundaki 'talepler karara bağlanmadı' bilgisi icra denetimi açısından yeni. AB Komisyonu raporu da AİHM ve AYM kararlarının uygulanmamasını ayrı bir tespit olarak kaydediyor.",
+   "kayitlar": [
+    "dfed55b7e3",
+    "6adfab3fd2"
    ]
   },
   {
    "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "Fon skandalı haberciliğinde dört gazeteci için 19 yıla kadar hapis istemi [c4b2224a44]. Türkiye dışında Hong Kong'da Joshua Wong'a 10 yıl [b08d2eca8a][55884a7804] ve Kolombiya'da iki insan hakları avukatıyla üç MOVICE üyesine ölüm tehdidi bildirildi [20800fb258].",
+   "durum": "olağan",
+   "not": "World Justice Project 2026 Hukukun Üstünlüğü Endeksi'nde Türkiye temel haklarda 143 ülke içinde 135., hükümet yetkilerinin denetiminde 136. sırada; genel puan 0,41 ve 2025'e göre yaklaşık yüzde 0,4 düşük. Kılıç dosyası gazetecilik kaynaklı iltica talebi olarak bu alanla da kesişiyor.",
    "kayitlar": [
-    "c4b2224a44",
-    "b08d2eca8a",
-    "55884a7804",
-    "20800fb258"
+    "c41046011c",
+    "fefaf247d9"
+   ]
+  },
+  {
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "olağan",
+   "not": "Birleşik Krallık'ın yaptırım rejimi genişlemesi dışında alanla ilgili yeni kayıt yok; EBA'nın iç yönetişim kılavuzu ve FCA'nın kuantum/alacak tahsili duyuruları merkezin dosyalarıyla doğrudan bağlantılı değil.",
+   "kayitlar": [
+    "1005584ecc",
+    "43270cbe9a",
+    "cf39604822",
+    "de4021c159"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
-   "durum": "hareketli",
-   "not": "Konut araması yasası bugün oylanıyor [12cf0008f8]. Ayrıca ENNHRI Brüksel'deki genel kurulda Hırvatistan Ombudsmanı Tena Šimonović Einwalter'i başkan seçti [9d3f7e7f13]; FRA, Yapay Zekâ Tüzüğü md. 77 uyarınca belirlenen ulusal temel haklar kurumlarının 18-19 Ocak 2027 uzman toplantısını duyurdu [ac1e4453b4].",
-   "kayitlar": [
-    "12cf0008f8",
-    "9d3f7e7f13",
-    "ac1e4453b4"
-   ]
-  },
-  {
-   "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "Rechtbank Den Haag'ın 24 Eylül 2026 tarihli NL26.50232 sayılı kararında iltica başvurusuna 21 aydır karar verilmemesi nedeniyle dava kabul edildi [236ce849d9]. Kayıt özet düzeyinde; başvurucunun uyruğu ve hükmedilen yaptırım görünmüyor.",
+   "not": "AB Komisyonu Türkiye raporu ve ECRE'nin Geri Dönüş Tüzüğü yorumu dışında FRA kayıtları takvim duyurusu düzeyinde: COSI toplantısı (10 Kasım), ETIAS Temel Haklar Rehberlik Kurulu (12-13 Kasım, Varşova), Avrupa Konseyi İnsan Hakları Komiseri O'Flaherty'nin 16 Kasım'daki FRA ziyareti.",
    "kayitlar": [
-    "236ce849d9"
+    "6adfab3fd2",
+    "2bb9e22e12",
+    "cc471d7928",
+    "97546bb705",
+    "401ede8c08"
    ]
   },
   {
    "alan": "BM insan hakları mekanizmaları",
-   "durum": "olağan",
-   "not": "Engelli Hakları Komitesi'nin risk durumlarının etkilerine ilişkin 10 No'lu Genel Yorumu (2026) yayımlandı [b5a9d90d06]. Güvenlik Konseyi tarafında UNSMIL mandasının 31 Ekim 2027'ye uzatılması (2835) ve EUFOR ALTHEA yetkisinin 12 ay yenilenmesi (2834) kayda geçti [d17430c6ee][9c3010c63e][985ac33724].",
+   "durum": "sessiz",
+   "not": "BM Dijital Kütüphane kayıtları Türkiye ile bağlantılı değil; Etiyopya'ya ilişkin Engelli Hakları Komitesi sorun listesi ve UNHCR Yürütme Komitesi 786. oturum tutanağı başlık düzeyinde.",
    "kayitlar": [
-    "b5a9d90d06",
-    "d17430c6ee",
-    "9c3010c63e",
-    "985ac33724",
-    "d2594c3f4b"
+    "e191a5be93",
+    "34799efe24"
    ]
   },
   {
-   "alan": "Mevzuat izleme (çok alanlı)",
+   "alan": "Sınıraşan baskı (karşılaştırmalı)",
    "durum": "olağan",
-   "not": "Resmî Gazete'den 'Yargı Harçları' başlıklı kayıt yeniden geldi, içerik görünmüyor [673dd445f6]; Danıştay emsal karar arama kaydı da başlık düzeyinde [e2b14e0324].",
+   "not": "Joshua Wong'a verilen 10 yıl hapis cezası dün değerlendirilmişti; bu pencerede yalnızca STK ortak açıklaması ve HRW metni eklendi, hükümde değişiklik yok.",
    "kayitlar": [
-    "673dd445f6",
-    "e2b14e0324"
+    "a336e3d016",
+    "55884a7804"
    ]
   }
  ],
- "dosya_derinlesmesi": [
-  {
-   "baslik": "Cezaevlerinde uzun süreli tecrit: CPT raporları (t87) ile AİHM'in Kul–Akıllı kararının kesiştiği nokta",
-   "alan": "BM ve Avrupa insan hakları mekanizmaları",
-   "elimizde": "Bugün yeni olan, AİHM'in tecriti md. 3 yönünden ihlal sayan Kul ve Akıllı kararıdır; karar, tek kişilik hücrede tutmanın disiplin cezası olarak değil cezaevi idaresi kararıyla uygulandığını saptıyor [f415441a1e]. Kul için altı yıl sekiz ay, Akıllı için yaklaşık bir yıl beş ay süre, ilk aylarda temas yasağı ve günde 30-60 dakikalık havalandırma kayıtlara geçmiş durumda [f415441a1e]. Mahkeme, Kasım 2018 tarihli uyum bozukluğu tanısına rağmen idarenin tecrit ihtiyacını yeniden değerlendirmediğini ve ruhsal etkiyi ölçmediğini gerekçe yapıyor [f415441a1e]. Merkezin dosyasında CPT'nin Türkiye'ye ilişkin iki raporu uzun süreli tecrit ve sağlık erişimi başlığıyla 9 Ekim'den beri açık [t87].",
-   "eksik": "Kararın HUDOC metni, başvuru numaraları, hükmedilen tazminat ve ödeme süresi kayıtlarda yok; yalnızca tek bir ikincil kaynak var. CPT raporlarının tecrit bölümlerindeki somut tespitler de bugüne kadar başlık düzeyinde kaldı, dolayısıyla iki belgenin aynı uygulamayı ne ölçüde örtüştürdüğü doğrulanamıyor.",
-   "izlenecek_adim": "Kararın kesinleşmesi (üç aylık Büyük Daire'ye sevk süresi) ve Bakanlar Komitesi'nde hangi md. 3 grubuna gireceği izlenmeli; ödeme süresi ancak karar metni elde edilince saptanabilir.",
-   "dayanak": "İdari kararla sürdürülen ve periyodik olarak yeniden değerlendirilmeyen tecridin md. 3 eşiğini aşabileceği saptaması, benzer profildeki mahpus dosyalarında ve CPT bulgularına yapılan atıflarda dayanak oluşturabilir.",
-   "kayitlar": [
-    "f415441a1e"
-   ]
-  }
- ],
+ "dosya_derinlesmesi": [],
  "kronoloji": [
   {
-   "tarih": "2025-03-19",
-   "adim": "İmamoğlu polis tarafından gözaltına alındı.",
+   "tarih": "2016-11-04",
+   "adim": "Selahattin Demirtaş tutuklandı.",
    "kayitlar": [
-    "8bc17b549b"
+    "dfed55b7e3"
    ]
   },
   {
-   "tarih": "2025-03-23",
-   "adim": "CHP'nin cumhurbaşkanı adayı olarak ilan edildiği gün tutuklandı; ardından görevden uzaklaştırıldı.",
+   "tarih": "2020-12",
+   "adim": "AİHM Büyük Dairesi, önceki tutukluluğun özgürlük, ifade ve seçilme haklarını ihlal ettiğine ve derhal tahliyeye hükmetti.",
    "kayitlar": [
-    "8bc17b549b"
+    "dfed55b7e3"
    ]
   },
   {
-   "tarih": "2025-11-10",
-   "adim": "AİHM'e başvuru yapıldı: yeterli delil bulunmadığı, iç mahkemelerce etkili denetim yapılmadığı ve seçime katılımın engellendiği ileri sürüldü.",
+   "tarih": "2024-05",
+   "adim": "Demirtaş hakkında 42 yıl hapis cezası verildi; temyiz süreci başladı.",
    "kayitlar": [
-    "8bc17b549b"
+    "dfed55b7e3"
    ]
   },
   {
-   "tarih": "2026-03-23",
-   "adim": "AİHM başvuruyu Türkiye hükümetine tebliğ edip makul şüphenin bulunup bulunmadığını sordu.",
+   "tarih": "2025-07",
+   "adim": "AİHM, Eylül 2019 tarihli tutuklama kararı bakımından makul şüphe bulunmadığını ve md. 18 ihlalini tespit etti.",
    "kayitlar": [
-    "8bc17b549b"
+    "dfed55b7e3"
    ]
   },
   {
-   "tarih": "2026-07-09",
-   "adim": "İkinci Daire Başkanı HRW, TLSP ve ICJ'ye üçüncü taraf müdahalesi izni verdi.",
+   "tarih": "2025-11-03",
+   "adim": "Türkiye'nin Büyük Daire'ye gönderme talebi reddedilince karar kesinleşti.",
    "kayitlar": [
-    "8bc17b549b"
+    "dfed55b7e3"
    ]
   },
   {
-   "tarih": "2026-11-03",
-   "adim": "14 Eylül 2026 tarihli ortak müdahale dilekçesi yayımlandı; ana davada 436 sanık, Ekim'deki yedi tahliyeden sonra 46 tutuklu.",
+   "tarih": "2026-09",
+   "adim": "Bakanlar Komitesi, Demirtaş ve Yüksekdağ'ın derhal tahliyesi talebini yeniledi.",
    "kayitlar": [
-    "8bc17b549b"
+    "dfed55b7e3"
+   ]
+  },
+  {
+   "tarih": "2026-10-05",
+   "adim": "Hükümetin Avrupa Konseyi'ne sunumuna göre tahliye talepleri henüz karara bağlanmamıştı; dosya Ankara BAM 22. Ceza Dairesi'nde.",
+   "kayitlar": [
+    "dfed55b7e3"
+   ]
+  },
+  {
+   "tarih": "2026-11-04/05",
+   "adim": "Tutukluluğun 10. yılında Demirtaş ve 12 Kürt siyasetçinin avukatları ile 15 bölge barosu yeni tahliye başvurusu sundu.",
+   "kayitlar": [
+    "dfed55b7e3"
    ]
   }
  ],
  "izlenecekler": [
-  "Kul ve Akıllı kararının metni, başvuru numaraları, hükmedilen tazminat ve Bakanlar Komitesi'nde gireceği md. 3 grubu",
-  "Belçika Federal Parlamentosu'nun 5 Kasım oylamasının sonucu ve kabul edilirse metnin nihai kapsamı",
-  "Fon skandalı haberciliğine ilişkin dört iddianamenin kabul edilip edilmediği, gazetecilerin kimliği ve duruşma takvimi",
-  "İmamoğlu başvurusunda hükümetin yanıtı ve Mahkeme'nin soru listesinin kapsamı",
-  "COP31'in 9 Kasım'da Antalya'da açılışı: sivil toplum katılımı, akreditasyon ve zirve öncesi gözaltı dosyalarının seyri"
+  "Ankara Bölge Adliye Mahkemesi 22. Ceza Dairesi'nin yeni tahliye başvurusuna vereceği yanıt ve Bakanlar Komitesi'nin bir sonraki inceleme adımı",
+  "Lahey'in 2 Kasım kararına karşı Hollanda makamlarının temyize gidip gitmeyeceği ve Aralık 2023 politikasının diğer Gülen dosyalarındaki uygulaması",
+  "Mehmet Kılıç ailesinin sınır dışı takvimi ve İsviçre'den geri gönderilenlerin Türkiye'deki akıbeti",
+  "AB Komisyonu Türkiye raporunun tam metni: belediyelere yönelik süreçler ve AİHM kararlarının icrasına ilişkin bölümlerin ayrıntısı",
+  "Birleşik Krallık'ın genişletilmiş yaptırım rejimi uyarınca yapılacak ilk listelemeler",
+  "ECRE'nin Geri Dönüş Tüzüğü yorum belgesinin içeriği ve tüzüğün uygulanma takvimi"
  ],
- "gun": "2026-11-05",
- "olusturma": "2026-11-05T09:00+00:00",
+ "gun": "2026-11-06",
+ "olusturma": "2026-11-06T08:59+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
   "f415441a1e",
-  "8bc17b549b",
+  "dfed55b7e3",
+  "f74db37157",
   "673dd445f6",
+  "537251e09d",
   "20800fb258",
-  "9245d0f40e",
-  "236ce849d9",
+  "0db6adf666",
+  "c09273dd3c",
+  "401ede8c08",
+  "43270cbe9a",
+  "930bcd29ff",
+  "22490bf6e2",
+  "cf39604822",
+  "a336e3d016",
+  "fefaf247d9",
+  "6adfab3fd2",
+  "1005584ecc",
   "d514c22a3e",
-  "3f67b1a84b",
-  "143451aa21",
-  "b08d2eca8a",
   "a11918f190",
   "602316798a",
-  "9b5b9c5eb5",
-  "7bc53afaa9",
-  "d61183e320",
-  "9d3f7e7f13",
-  "985ac33724",
-  "3ae7cbecbf",
-  "d17430c6ee",
-  "93c213219f",
-  "9c3010c63e",
-  "4b46384229",
-  "c53f6432c1",
-  "bacf2929fc",
-  "d2594c3f4b",
-  "b5a9d90d06",
-  "ac1e4453b4",
+  "5602e0252e",
+  "34f153adba",
+  "7a832b042e",
+  "bddce75ee8",
+  "3b5e53c804",
+  "e191a5be93",
+  "052b1e72d3",
+  "34799efe24",
+  "ee18998df7",
+  "cc471d7928",
+  "97546bb705",
+  "4e5bf2703f",
+  "e7a3e435dc",
+  "de4021c159",
+  "072d02b4dc",
   "37d94926fa",
+  "3535c929ae",
+  "b296c33ca2",
   "55884a7804",
+  "2bb9e22e12",
+  "c41046011c",
+  "3fc668f9bc",
+  "08e761b47c",
   "a3fbbef454",
-  "462ca918da",
-  "025d810c2c",
-  "3ed36d7185",
-  "dfcf533c1c",
-  "86762b141f",
-  "c1193cc1c6",
-  "d567e982a5",
-  "e38c49beed",
-  "56cd1b97fa",
-  "7f930c5098",
-  "77a01e987f",
-  "1f148c2ee5",
-  "e2b14e0324",
-  "12cf0008f8",
-  "c4b2224a44"
+  "e2b14e0324"
  ],
- "maliyet_usd": 0.8667,
- "girdi_token": 49604,
- "cikti_token": 21726,
+ "maliyet_usd": 0.9015,
+ "girdi_token": 48076,
+ "cikti_token": 23237,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -1442,11 +1476,11 @@
     "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen kayıtlardaki olgularla uyumlu, önemli bir dayanaksızlık veya tutarsızlık tespit edilmedi.",
+  "genel": "Tüm iddialar gösterilen kayıtlarla uyumlu ve olgusal olarak dayanaklı bulundu.",
   "model": "claude-sonnet-5",
-  "girdi_token": 32429,
-  "cikti_token": 1060,
-  "maliyet_usd": 0.0755,
+  "girdi_token": 36035,
+  "cikti_token": 813,
+  "maliyet_usd": 0.0802,
   "iddia_sayisi": 7
  },
  "takip_acik": [
@@ -1551,8 +1585,8 @@
    "baslik": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki icra denetimi ve yeni yasanın başvuruculara uygulanabilirliği",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-19",
-   "son_hareket": "2026-09-22",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 3
   },
   {
    "id": "t17",
@@ -1625,14 +1659,6 @@
    "acildi": "2026-09-21",
    "son_hareket": "2026-09-22",
    "hareket_sayisi": 2
-  },
-  {
-   "id": "t28",
-   "baslik": "ABD'nin Haiti'ye TPS sonrası sınır dışı uygulamaları ve derdest iltica talebi olanların geri gönderilmesi",
-   "alan": "İade, adli yardım ve iltica",
-   "acildi": "2026-09-21",
-   "son_hareket": "2026-09-21",
-   "hareket_sayisi": 0
   },
   {
    "id": "t29",
@@ -2143,8 +2169,8 @@
    "baslik": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tutuklanması ve bazı belediyelere kayyım atanması",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-10-10",
-   "son_hareket": "2026-11-05",
-   "hareket_sayisi": 10
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 11
   },
   {
    "id": "t93",
@@ -2159,8 +2185,8 @@
    "baslik": "AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komiser Kos'un 'demokratik standartlar' açıklaması",
    "alan": "Belçika ve AB mevzuatı",
    "acildi": "2026-10-10",
-   "son_hareket": "2026-10-27",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 3
   },
   {
    "id": "t95",
@@ -2815,8 +2841,8 @@
    "baslik": "Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürüttüğü iki soruşturmada kalan dört yakalama kararı ve gözaltındakilerin sevk sonucu",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-11-04",
-   "son_hareket": "2026-11-04",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 1
   },
   {
    "id": "t178",
@@ -2872,6 +2898,38 @@
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-11-05",
    "son_hareket": "2026-11-05",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t185",
+   "baslik": "Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarihli Gülen iltica politikası ile Mart 2026 Danıştay onamasının seyri",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t186",
+   "baslik": "İsviçre'den Türkiye'ye geri gönderme dosyaları: gazeteci Mehmet Kılıç ailesi ve dönüşte tutuklanan önceki başvurucular",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t187",
+   "baslik": "Birleşik Krallık Küresel İnsan Hakları Yaptırım Rejimi'nin savaş suçları ve UİH ihlallerini kapsayacak biçimde genişletilmesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t188",
+   "baslik": "Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belgesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-06",
    "hareket_sayisi": 0
   }
  ]

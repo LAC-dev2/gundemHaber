@@ -776,7 +776,7 @@
    "neden": "Komite çağrısını yinelemiş ve Türkiye'den yeni yasanın dosyadaki başvuruculara uygulanıp uygulanamayacağına ilişkin bilgi istemiş; yanıtın içeriği ve Komite'nin bir sonraki toplantıda alacağı tutum, dosyanın hangi icra kategorisine gireceğini belirleyecek.",
    "acildi": "2026-09-19",
    "durum": "açık",
-   "son_hareket": "2026-09-22",
+   "son_hareket": "2026-11-06",
    "kayitlar": [
     "7b967d6b61",
     "37c46a9863"
@@ -794,6 +794,13 @@
      "not": "Kararın 15-16 Eylül'de Strazburg'daki insan hakları toplantısında alındığı ve Komite'nin serbest bırakma konusunu Aralık'ta, Türkiye'nin genel tedbirlerini Mart 2027'de yeniden ele alacağı bildirildi. Komite ayrıca muhalefet milletvekillerinin siyasi söyleminin korunmasını ve dokunulmazlık kaldırma taleplerine ilişkin veri sunulmasını istedi; başvurucuların Anayasa Mahkemesi'ndeki şikâyetleri 2019 ve 2023'ten beri derdest.",
      "kayitlar": [
       "ecdaaa0285"
+     ]
+    },
+    {
+     "gun": "2026-11-06",
+     "not": "Demirtaş'ın tutukluluğunun 10. yılında, Demirtaş ve 12 Kürt siyasetçinin avukatları ile 15 bölge barosu Ankara Bölge Adliye Mahkemesi'ne yeni bir tahliye başvurusu sundu; başvuru AİHM kararlarına ve Bakanlar Komitesi'nin Eylül'deki Demirtaş–Yüksekdağ tahliye çağrısına dayandırıldı. Hükümetin Avrupa Konseyi'ne sunumuna göre 5 Ekim itibarıyla önceki tahliye talepleri karara bağlanmamıştı ve dosya Ankara BAM 22. Ceza Dairesi'nde.",
+     "kayitlar": [
+      "dfed55b7e3"
      ]
     }
    ]
@@ -1194,12 +1201,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Kayda göre Temmuz 2026'dan bu yana 450'den fazla kişi sınır dışı edildi ve bazılarının derdest iltica başvurusu vardı; geri göndermeme ilkesinin uygulanmasına ilişkin karşılaştırmalı bir örnek.",
    "acildi": "2026-09-21",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-21",
    "kayitlar": [
     "2036f004c5"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-06",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t29",
@@ -3361,7 +3370,7 @@
    "neden": "Seçilmiş görevlilerin görevden uzaklaştırılması ve kayyım atamaları, merkezin kayyım/el koyma dosyalarıyla aynı mekanizmayı kullanıyor; sayı tek kaynağa dayandığı için doğrulanması gerekiyor.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-06",
    "kayitlar": [
     "1768a5c012"
    ],
@@ -3435,6 +3444,13 @@
      "kayitlar": [
       "8bc17b549b"
      ]
+    },
+    {
+     "gun": "2026-11-06",
+     "not": "AB Komisyonu'nun yıllık raporu, seçilmiş muhalefet belediye başkanlarının kovuşturulup görevden alınmasını ve muhalefetin yönettiği belediyelere orantısız biçimde yönelen ceza süreçlerini açıkça eleştiri konusu yapıyor. Rapor metni kayıtlarda yok; bilgi ikincil özet düzeyinde.",
+     "kayitlar": [
+      "6adfab3fd2"
+     ]
     }
    ]
   },
@@ -3458,7 +3474,7 @@
    "neden": "Genişleme sürecindeki resmî değerlendirmeler, merkezin AİHM ve icra dosyalarındaki bulguların AB düzeyinde nasıl kayda geçtiğini gösteriyor; kayıtta yalnızca sözlü açıklama var, yazılı rapor beklenmeli.",
    "acildi": "2026-10-10",
    "durum": "açık",
-   "son_hareket": "2026-10-27",
+   "son_hareket": "2026-11-06",
    "kayitlar": [
     "09aea85b31"
    ],
@@ -3475,6 +3491,13 @@
      "not": "Avrupa Parlamentosu Türkiye raportörü Nacho Sánchez Amor, Cumhuriyet'e verdiği söyleşide Komisyon'un yıllık raporunun 28 Ekim'de yayımlanmasının beklendiğini ve geçen yılkinden daha olumsuz bir tablo çizeceğini söyledi. Beyan rapordan önce verilmiş bir öngörüdür, rapor metni elimizde yok.",
      "kayitlar": [
       "db91c910e0"
+     ]
+    },
+    {
+     "gun": "2026-11-06",
+     "not": "Komisyon'un Eylül 2025–Eylül 2026 dönemini kapsayan yıllık raporu yayımlandı; muhalefet ve bağımsız medya üzerindeki hukuki baskının arttığı, yargı bağımsızlığının gerilediği, AİHM ve AYM kararlarının uygulanmadığı tespitleri aktarılıyor.",
+     "kayitlar": [
+      "6adfab3fd2"
      ]
     }
    ]
@@ -5148,12 +5171,20 @@
    "neden": "İsnat doğrudan mahpus ailelerine yardım olarak tanımlanıyor; BM uzmanlarının Ekim 2025'te 'akrabalık üzerinden suçluluk' uyarısıyla aynı pratik. Gözaltındakilerin tutuklanıp tutuklanmadığı henüz bilinmiyor.",
    "acildi": "2026-11-04",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-06",
    "kayitlar": [
     "9245d0f40e",
     "7f930c5098"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-06",
+     "not": "Doğrudan Ankara dosyasında yeni usul adımı yok; ancak Lahey mahkemesi 2 Kasım kararında Türk makamlarının mahpus ailelerine yardımı 'hareketi yeniden inşa' iddiasıyla ilişkilendirdiğini tespit ederek bu isnat türünü iltica değerlendirmesine esas aldı. Aynı kayıt 3 Kasım operasyonunda gözaltına alınan 21 kişiden yedisinin mahpus ailelerine mali yardım isnadıyla alındığını tekrarlıyor.",
+     "kayitlar": [
+      "f74db37157"
+     ]
+    }
+   ]
   },
   {
    "id": "t178",
@@ -5245,8 +5276,60 @@
     "236ce849d9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t185",
+   "baslik": "Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarihli Gülen iltica politikası ile Mart 2026 Danıştay onamasının seyri",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "İlk derece mahkemesi, sıkılaştırılmış politikanın Türkiye'deki koşulların iyileştiğine dair yeterli delille desteklenmediğini söyleyerek en yüksek idari yargının Mart'taki yaklaşımından ayrıldı. Temyiz edilip edilmeyeceği ve diğer dosyalara etkisi izlenmeli.",
+   "acildi": "2026-11-06",
+   "durum": "açık",
+   "son_hareket": "2026-11-06",
+   "kayitlar": [
+    "f74db37157"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t186",
+   "baslik": "İsviçre'den Türkiye'ye geri gönderme dosyaları: gazeteci Mehmet Kılıç ailesi ve dönüşte tutuklanan önceki başvurucular",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Federal İdare Mahkemesi reddi onadı; aynı kaynak, İsviçre'den gönderilen en az iki kişinin Türkiye'ye varışta tutuklandığını aktarıyor. Non-refoulement değerlendirmesinin sonradan doğrulanması açısından izlenmeli.",
+   "acildi": "2026-11-06",
+   "durum": "açık",
+   "son_hareket": "2026-11-06",
+   "kayitlar": [
+    "fefaf247d9"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t187",
+   "baslik": "Birleşik Krallık Küresel İnsan Hakları Yaptırım Rejimi'nin savaş suçları ve UİH ihlallerini kapsayacak biçimde genişletilmesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "2020 çerçevesi yalnızca belirli ağır ihlallerle sınırlıydı; yeni yetkiler insani yardımın engellenmesini de kapsıyor. İlk listelemelerin kapsamı merkezin yaptırım savunuculuğu dosyası için ölçüt oluşturur.",
+   "acildi": "2026-11-06",
+   "durum": "açık",
+   "son_hareket": "2026-11-06",
+   "kayitlar": [
+    "1005584ecc"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t188",
+   "baslik": "Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belgesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "neden": "Tüzük, üçüncü ülke vatandaşlarının geri gönderilmesinde ortak bir sistem kuruyor; merkezin geri gönderme ve 'return hub' dosyalarıyla doğrudan bağlantılı. Belgenin içeriği henüz başlık düzeyinde.",
+   "acildi": "2026-11-06",
+   "durum": "açık",
+   "son_hareket": "2026-11-06",
+   "kayitlar": [
+    "2bb9e22e12"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-05T09:00+00:00",
- "acik": 178
+ "guncelleme": "2026-11-06T08:59+00:00",
+ "acik": 181
 }

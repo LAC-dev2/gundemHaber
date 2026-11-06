@@ -1,33 +1,65 @@
 {
- "gun": "2026-11-05",
- "olusturma": "2026-11-05T18:26+00:00",
+ "gun": "2026-11-06",
+ "olusturma": "2026-11-06T08:59+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-05:toplu:7",
+   "id": "alan:2026-11-06:Lahey Rechtbank'ı Gülen bağlantılı iki iltica reddini bozdu",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Lahey Rechtbank'ı Gülen bağlantılı iki iltica reddini bozdu",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Karar, Hollanda hükümetinin Aralık 2023'te Gülen hareketi mensupları için sıkılaştırdığı iltica politikasının, Türkiye'de koşulların iyileştiğine dair delille yeterince desteklenmediğini tespit ediyor. Mahkeme, babanın geçmişteki hapisliğini zulüm sayarak ispat yükünü idareye çeviriyor ve mahpus ailelerine yardımın Türkiye'de örgüt isnadına bağlandığını kayda geçiriyor. Bu, merkezin hem iltica içtihadı hem de 'insani yardım isnadı' dosyalarını aynı anda ilgilendiriyor.",
+   "kayitlar": [
+    "f74db37157"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-11-06:İsviçre Federal İdare Mahkemesi Kürt gazeteci Mehmet Kılıç'ı",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "İsviçre Federal İdare Mahkemesi Kürt gazeteci Mehmet Kılıç'ın iltica reddini onadı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Karar, Estonya'nın Tekin Ağacık'ı geri göndermesinden sonra ikinci bir Avrupa ülkesinde aynı örüntüyü ortaya koyuyor: iltica makamı Türkiye'de siyasi kovuşturma riski görmüyor, geri gönderilenler ise varışta tutuklanıyor. Kaynak, İsviçre'den gönderilen iki kişinin dönüşte tutuklandığını aktarıyor; bu, risk değerlendirmesinin sonradan sınanması bakımından merkezin non-refoulement dosyasına veri sağlıyor.",
+   "kayitlar": [
+    "fefaf247d9"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-11-06:Birleşik Krallık insan hakları yaptırım rejimi savaş suçları",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Birleşik Krallık insan hakları yaptırım rejimi savaş suçlarını ve UİH ihlallerini kapsayacak biçimde genişletildi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "2020 tarihli çerçeve yalnızca yaşam hakkı, işkence yasağı ve kölelik/zorla çalıştırma ihlallerinde hedefli yaptırıma izin veriyordu. Yeni yetkiler savaş suçlarını, uluslararası insancıl hukukun ciddi ihlallerini ve insani yardımın engellenmesini kapsıyor; bu, merkezin yaptırım listeleri dosyasında listeleme ölçütlerini genişletiyor.",
+   "kayitlar": [
+    "1005584ecc"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-11-06:toplu:4",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "7 takip dosyasında hareket var",
+   "baslik": "4 takip dosyasında hareket var",
    "alan": "",
-   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; CPT'nin Türkiye'ye ilişkin iki raporu: dayak ve elektrik şoku iddialar; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; Belçika parlamentosunda belirli yabancı uyrukluların konutlarına polis; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle",
+   "not": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki icra denetimi; Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tu; AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komis; Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürütt",
    "kayitlar": [
-    "b08d2eca8a",
-    "55884a7804",
-    "20800fb258",
-    "c4b2224a44",
-    "f415441a1e",
-    "8bc17b549b",
-    "602316798a",
-    "12cf0008f8"
+    "dfed55b7e3",
+    "6adfab3fd2",
+    "6adfab3fd2",
+    "f74db37157"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-05:11",
+   "id": "saglik:2026-11-06:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
    "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, ENNHRI, Frontex, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, Anadolu Ajansı, Frontex, Alomaliye, KU Leuven Faculty of Law…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
