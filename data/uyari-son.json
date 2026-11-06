@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-06",
- "olusturma": "2026-11-06T13:41+00:00",
+ "olusturma": "2026-11-06T17:47+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-06:Lahey Rechtbank'ı Gülen bağlantılı iki iltica reddini bozdu",
@@ -54,10 +54,10 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-06:10",
+   "id": "saglik:2026-11-06:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Frontex, Scholars at Risk, Alomaliye, ESMA…",
    "kayitlar": [],
