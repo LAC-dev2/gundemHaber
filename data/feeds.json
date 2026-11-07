@@ -32,12 +32,12 @@
 "feed": null
 },
 "https://arrestedlawyers.org/furthering-echr-compliance-in-turkey/": {
-"checked": "2026-10-16T15:04:57+00:00",
-"feed": null
+"checked": "2026-11-07T16:41:32+00:00",
+"feed": "https://arrestedlawyers.org/feed/"
 },
 "https://arrestedlawyers.org/our-reports/": {
-"checked": "2026-10-16T15:04:57+00:00",
-"feed": null
+"checked": "2026-11-07T16:41:32+00:00",
+"feed": "https://arrestedlawyers.org/feed/"
 },
 "https://asylumineurope.org/reports/country/belgium/": {
 "checked": "2026-10-16T15:04:57+00:00",
@@ -52,7 +52,7 @@
 "feed": null
 },
 "https://avocats.be/": {
-"checked": "2026-10-16T15:04:57+00:00",
+"checked": "2026-11-07T16:41:32+00:00",
 "feed": null
 },
 "https://baselgovernance.org/": {
@@ -1332,8 +1332,8 @@
 "feed": null
 },
 "https://www.frontlinedefenders.org/": {
-"checked": "2026-10-16T15:04:57+00:00",
-"feed": null
+"checked": "2026-11-07T16:41:32+00:00",
+"feed": "https://www.frontlinedefenders.org/rss.xml"
 },
 "https://www.frontlinedefenders.org/en/cases/location/turkiye": {
 "checked": "2026-10-16T15:04:57+00:00",
@@ -1576,11 +1576,11 @@
 "feed": null
 },
 "https://www.nbb.be/en/financial-oversight/combating-money-laundering-and-financing-terrorism/information-and-13": {
-"checked": "2026-10-07T12:33:34+00:00",
+"checked": "2026-11-07T16:41:32+00:00",
 "feed": "https://www.nbb.be/en/news_rss.xml"
 },
 "https://www.nbb.be/en/financial-oversight/combating-money-laundering-and-financing-terrorism/information-and-19": {
-"checked": "2026-10-07T12:33:34+00:00",
+"checked": "2026-11-07T16:41:32+00:00",
 "feed": "https://www.nbb.be/en/news_rss.xml"
 },
 "https://www.notaris.be/": {
