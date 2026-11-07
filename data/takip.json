@@ -378,7 +378,7 @@
    "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "f64bb53604",
     "1387ffbabe"
@@ -441,6 +441,13 @@
      "not": "4 Kasım Resmî Gazete'de yayımlanan AYM kararları arasında Dr. Canan Karatay'ın ifade özgürlüğünün ihlaline dair karar var: 6023 sayılı Kanun md. 39'un hangi eyleme hangi disiplin cezasının uygulanacağını öngörülebilir biçimde düzenlemediği, kanunilik şartını taşımadığı belirtiliyor [d514c22a3e]. Aynı sayıda mülkiyet, mahkemeye erişim ve yaşam hakkı usul boyutuna ilişkin kararlar da var.",
      "kayitlar": [
       "d514c22a3e"
+     ]
+    },
+    {
+     "gun": "2026-11-07",
+     "not": "6 Kasım 2026 tarihli Resmî Gazete'de, AYM'nin 30 Nisan 2026 tarihli kararı yayımlandı: AİHM'in 2020 tarihli md. 10 kararına rağmen yeniden yargılama talebini reddeden Mersin 4. Ağır Ceza Mahkemesi'nin tutumu ifade özgürlüğü ihlali sayıldı ve yargılamanın yeniden açılmasına hükmedildi. Kayıt ikincil kaynak aktarımıdır; karar numarası kayıtlarda yok.",
+     "kayitlar": [
+      "4c9cf91903"
      ]
     }
    ]
@@ -525,7 +532,7 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "İki bireysel dosya kapatılırken malvarlığının otomatik dondurulması ve gözaltında avukata erişim konularında genel tedbir denetimi açık bırakıldı; sonraki DH toplantı gündemleri izlenmeli.",
    "acildi": "2026-09-17",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-22",
    "kayitlar": [
     "001-252500",
@@ -558,7 +565,9 @@
       "676b86c517"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-07",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t9",
@@ -1144,7 +1153,7 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Den Haag'ın 17 Eylül tarihli kararı, SOGI temelli taleplerde idarenin inandırıcılık değerlendirmesini onaylıyor; benzer ölçütlerin Türkiye kaynaklı dosyalarda nasıl uygulandığı izlenmeli.",
    "acildi": "2026-09-21",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-22",
    "kayitlar": [
     "96968e9b1d"
@@ -1164,7 +1173,9 @@
       "68cb9f880e"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-07",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t27",
@@ -1276,7 +1287,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1369,6 +1380,13 @@
       "b08d2eca8a",
       "55884a7804",
       "20800fb258"
+     ]
+    },
+    {
+     "gun": "2026-11-07",
+     "not": "ICJ ve birlikte imzacı uluslararası kuruluşlar, Pakistanlı insan hakları avukatları Imaan Zainab Mazari-Hazir ve Hadi Ali Chattha hakkında verilen mahkûmiyet kararlarını kınayan ortak açıklama yayımladı. Kayıtta ceza miktarı ve isnat edilen suç belirtilmiyor; dosya, Belarus ve Hong Kong örnekleriyle aynı seride ilerliyor.",
+     "kayitlar": [
+      "af5d4c28d6"
      ]
     }
    ]
@@ -3834,7 +3852,7 @@
    "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
    "acildi": "2026-10-14",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "469b99a869"
    ],
@@ -3872,6 +3890,13 @@
      "not": "HRW, COP31 için önceliklerini yayımladı: zirve 9-20 Kasım 2026'da Antalya'da Türkiye-Avustralya eşbaşkanlığında toplanacak ve kuruluş, sivil toplumun müzakerelere katılım alanının korunmasını öncelik olarak sayıyor. Kayıt, Akbelen ve Perşembe Yaylası dosyalarına bu metinde atıf yapmıyor.",
      "kayitlar": [
       "602316798a"
+     ]
+    },
+    {
+     "gun": "2026-11-07",
+     "not": "Amnesty International, COP31 öncesinde Almanya'dan ve uluslararası topluluktan Türkiye'nin insan hakları karnesini en üst siyasi düzeyde gündeme getirmesini istedi; konferans Pazartesi Antalya'da açılıyor. Açıklama gazetecileri, çevre aktivistlerini ve LGBTİ+ kişileri hedef alan uygulamalara atıf yapıyor.",
+     "kayitlar": [
+      "8beb9bbebe"
      ]
     }
    ]
@@ -4164,7 +4189,7 @@
    "neden": "Milyonlarca avroluk işlem isnadıyla yürütülen aklama soruşturmasında bir gazeteci ile muhalif bir milletvekilinin aile üyelerinin birlikte gözaltına alınması, mali soruşturma ile haber yapma faaliyeti arasındaki bağın izlenmesini gerektiriyor.",
    "acildi": "2026-10-17",
    "durum": "açık",
-   "son_hareket": "2026-10-26",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "67804b754a",
     "f4872354c9"
@@ -4189,6 +4214,13 @@
      "not": "Fon soruşturmasında eski AKP milletvekili Ertan Aydın, ev hapsi kararına savcılık itirazı üzerine yeniden gözaltına alınıp tutuklandı; Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer de gözaltına alınarak tutuklama talebiyle mahkemeye sevk edildi [d3ce4a9693]. 'Ev hapsi kararına savcılık itirazıyla yeniden tutuklama' kalıbı, Ağırel dosyasındaki seyirle aynı usul izini taşıyor.",
      "kayitlar": [
       "d3ce4a9693"
+     ]
+    },
+    {
+     "gun": "2026-11-07",
+     "not": "MLSA'nın 2 Kasım haftası bülteni, tutuklu gazeteci Murat Ağırel hakkındaki iddianamenin tamamlandığını bildiriyor. Kayıtta iddianamenin hangi soruşturmaya ait olduğu, istenen ceza ve kabul kararı yer almıyor.",
+     "kayitlar": [
+      "4624187b43"
      ]
     }
    ]
@@ -5039,7 +5071,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5058,6 +5090,14 @@
      "not": "Resmî Gazete kaynağından 'Yargı Harçları' başlıklı yeni bir kayıt daha geldi; kayıt yine yalnızca başlık düzeyinde, düzenlemenin içeriği ve harç tutarları görünmüyor.",
      "kayitlar": [
       "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-07",
+     "not": "Resmî Gazete kaynağından 6 Kasım tarihli 'Yargı Harçları' başlıklı yeni bir kayıt daha geldi; metin yine başlık düzeyinde, içerik ve dayanak madde görünmüyor. 7 Kasım sayısında (33423) yargı harçlarına ilişkin madde bulunmuyor.",
+     "kayitlar": [
+      "673dd445f6",
+      "da92deb10e"
      ]
     }
    ]
@@ -5258,11 +5298,19 @@
    "neden": "Aynı haber konusunda daha önce erişim engelleri ve RTÜK cezaları kaydedilmişti; dosya şimdi ağır ceza istemli yargılamaya dönüşüyor. İsimler, mahkeme ve isnat maddeleri kayıtlarda yok.",
    "acildi": "2026-11-05",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "c4b2224a44"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-07",
+     "not": "MLSA bülteni, tutuklu gazeteciler Murat Ağırel, Mustafa Balcı ve Şaban Sevinç ile ev hapsindeki İsmail Saymaz hakkındaki iddianamelerin bu hafta tamamlandığını bildiriyor. Kayıtta istenen ceza yazmıyor; bu isimlerin 5 Kasım'da bildirilen 19 yıla kadar hapis istemli dört gazeteci dosyasıyla aynı olup olmadığı kayıtlardan doğrulanamıyor.",
+     "kayitlar": [
+      "4624187b43"
+     ]
+    }
+   ]
   },
   {
    "id": "t184",
@@ -5271,11 +5319,19 @@
    "neden": "Hollanda'da karar süresi aşımına dayanan davaların kabulü, Türkiye kaynaklı başvurular dahil bekleyen dosyalarda usul seyrini etkiliyor. Kayıt yalnızca özet düzeyinde; başvurucunun uyruğu ve hükmedilen yaptırım belirtilmiyor.",
    "acildi": "2026-11-05",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-07",
    "kayitlar": [
     "236ce849d9"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-07",
+     "not": "Rechtbank Den Haag'ın 3 Kasım 2026 tarihli NL25.46763 sayılı kararı (ECLI:NL:RBDHA:2026:32389) bir 'süresinde karar vermeme' (beroep niet tijdig) davasının geri çekilmesi ve vekâlet ücreti hükmüyle sonuçlandı. Kayıt yalnızca anahtar kelime düzeyinde; gerekçe metni elimizde yok.",
+     "kayitlar": [
+      "eedd72f2ed"
+     ]
+    }
+   ]
   },
   {
    "id": "t185",
@@ -5328,8 +5384,47 @@
     "2bb9e22e12"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t189",
+   "baslik": "AYM'nin 30 Nisan 2026 tarihli kararı sonrası Mersin 4. Ağır Ceza Mahkemesi'nde yeniden yargılamanın açılıp açılmayacağı (Buluş, Parlak, Karaaslan)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "AİHM'in 2020 tarihli md. 10 kararı ilk yeniden yargılama talebinde uygulanmamıştı; AYM kararı sonrası iç mahkemenin tutumu, AİHM kararlarının CMK yeniden yargılama yoluyla icrasının fiilen işleyip işlemediğini gösterecek.",
+   "acildi": "2026-11-07",
+   "durum": "açık",
+   "son_hareket": "2026-11-07",
+   "kayitlar": [
+    "4c9cf91903"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t190",
+   "baslik": "Mezopotamya Ajansı muhabiri Haşim Abak'ın Nusaybin'de gözaltına alınması ve akıbeti",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kayıt yalnızca gözaltıyı bildiriyor; sevk, tutuklama ya da serbest bırakma sonucu bilinmiyor. Kürt illerinde ajans muhabirlerine yönelik gözaltı pratiğinin seyrine girer.",
+   "acildi": "2026-11-07",
+   "durum": "açık",
+   "son_hareket": "2026-11-07",
+   "kayitlar": [
+    "4624187b43"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t191",
+   "baslik": "Birleşik Krallık'ın 4 Kasım'da duyurduğu, şirketlerin küresel tedarik zincirindeki insan hakları etkilerini düzenleyen yasa önerisi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "UK insan hakları yaptırım rejiminin genişletilmesinden (t187) ayrı bir kurumsal sorumluluk aracı; merkezin malvarlığı ve sorumluluk dosyalarında dayanak olarak izlenmesi gerekir.",
+   "acildi": "2026-11-07",
+   "durum": "açık",
+   "son_hareket": "2026-11-07",
+   "kayitlar": [
+    "4996554cd4"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-06T08:59+00:00",
- "acik": 181
+ "guncelleme": "2026-11-07T08:20+00:00",
+ "acik": 182
 }
