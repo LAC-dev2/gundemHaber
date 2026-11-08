@@ -1668,12 +1668,14 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Kayyım rejimine yönelik eleştirinin ceza soruşturmasına konu edilmesi, merkezin malvarlığı/kayyım dosyalarıyla ifade özgürlüğü dosyalarının kesiştiği bir örnek; suç duyurusunun akıbeti izlenmeli.",
    "acildi": "2026-09-23",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-23",
    "kayitlar": [
     "c3e6c4b494"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-08",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t36",
@@ -1681,12 +1683,14 @@
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "neden": "Resmî Gazete özetinde yalnızca başlık düzeyinde görünüyor; mali suçlarla mücadele tebliğleri malvarlığı dondurma ve bildirim yükümlülükleri bakımından merkezin dosyalarını etkileyebilir, metnin görülmesi gerekiyor.",
    "acildi": "2026-09-23",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-23",
    "kayitlar": [
     "3cc6f34a04"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-08",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t37",
@@ -5071,7 +5075,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-07",
+   "son_hareket": "2026-11-08",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5098,6 +5102,13 @@
      "kayitlar": [
       "673dd445f6",
       "da92deb10e"
+     ]
+    },
+    {
+     "gun": "2026-11-08",
+     "not": "7 Kasım tarihli Resmî Gazete akışında yeniden 'Yargı Harçları' başlıklı bir kayıt düştü; kayıt yalnızca başlık düzeyinde olduğu için düzenlemenin kapsamı, tarifeler ve yürürlük tarihi hâlâ doğrulanamıyor. 1 Kasım'daki kayıttan sonra aynı başlığın ikinci kez görünmesi, dosyanın metninin elde edilmesini gerektiriyor.",
+     "kayitlar": [
+      "673dd445f6"
      ]
     }
    ]
@@ -5423,8 +5434,22 @@
     "4996554cd4"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t192",
+   "baslik": "COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları açıklamalarının seyri ve ev sahibi ülke uygulamaları",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
+   "acildi": "2026-11-08",
+   "durum": "açık",
+   "son_hareket": "2026-11-08",
+   "kayitlar": [
+    "5f383ef425",
+    "8beb9bbebe"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-07T08:20+00:00",
- "acik": 182
+ "guncelleme": "2026-11-08T08:33+00:00",
+ "acik": 181
 }
