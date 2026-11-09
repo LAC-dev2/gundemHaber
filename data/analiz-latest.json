@@ -1,21 +1,94 @@
 {
  "sureklilik": [
   {
-   "id": "t169",
+   "id": "t23",
    "durum": "hareket var",
-   "not": "7 Kasım tarihli Resmî Gazete akışında yeniden 'Yargı Harçları' başlıklı bir kayıt düştü; kayıt yalnızca başlık düzeyinde olduğu için düzenlemenin kapsamı, tarifeler ve yürürlük tarihi hâlâ doğrulanamıyor. 1 Kasım'daki kayıttan sonra aynı başlığın ikinci kez görünmesi, dosyanın metninin elde edilmesini gerektiriyor.",
+   "not": "Fon soruşturmasında tutuklamalar bankacılık denetim bürokrasisine uzandı: BDDK Başkan Yardımcısı Muhammet Erişen ve Adil Katılım Bankası Genel Müdürü Murat Yönaç tutuklandı; bir gün önce BDDK Uygulama 3. Daire Başkanı Bilal Soysal cezaevine gönderilmişti [7ebbcefc7a]. Kayıtlar Katılımevim adını anmıyor; bağlantı 'fon vurgunu soruşturması' başlığı üzerinden kuruluyor.",
    "kayitlar": [
-    "673dd445f6"
+    "7ebbcefc7a",
+    "0a49544a13"
    ]
   },
   {
-   "id": "t95",
+   "id": "t146",
+   "durum": "hareket var",
+   "not": "Daha önce ev hapsi–yeniden tutuklama pratiği bağlamında izlenen Gürol Sami Özer, bugünkü kayıtta fon soruşturmasında tutuklananlar arasında eski Türkiye Sigorta Genel Müdür Yardımcısı sıfatıyla yeniden anılıyor [7ebbcefc7a].",
+   "kayitlar": [
+    "7ebbcefc7a"
+   ]
+  },
+  {
+   "id": "t83",
+   "durum": "hareket var",
+   "not": "CİSST'in Kasım 2026 verisi, CTE'nin 4 Kasım 2026 tarihli yayınına dayanarak 304.184 kapasiteli 402 hapishanede 437.889 mahpus bildiriyor; Ekim verisindeki 434.337 rakamına göre artış var [e1381ae9e0].",
+   "kayitlar": [
+    "e1381ae9e0"
+   ]
+  },
+  {
+   "id": "t33",
+   "durum": "hareket var",
+   "not": "MLSA'nın 2-8 Kasım haftalık bülteni, 1-2 Kasım'da en az 207 X hesabının 5651 md. 8/A ve 'kamu düzeninin korunması' gerekçesiyle engellendiğini, kararı veren makam ve karar numaralarının açıklanmadığını yazıyor; engellenenler arasında Ayşenur Yazıcı, T. Sabri Öncü, Orkun Özeller ve Cem Baykal sayılıyor [1216c6acb9].",
+   "kayitlar": [
+    "1216c6acb9"
+   ]
+  },
+  {
+   "id": "t47",
+   "durum": "hareket var",
+   "not": "Bültene göre X, 207 hesabın büyük çoğunluğunu Türkiye'den erişilemez hale getirdi [1216c6acb9].",
+   "kayitlar": [
+    "1216c6acb9"
+   ]
+  },
+  {
+   "id": "t173",
+   "durum": "hareket var",
+   "not": "Havadis gazetesinin sitesine ilişkin iki karar bültende numaralarıyla kayda geçti: İstanbul 9. Sulh Ceza Hâkimliği 1 Kasım, 2026/10802; İstanbul 1. Sulh Ceza Hâkimliği 2 Kasım, 2026/10045. Her iki kararda da gerekçe açıklanmamış [1216c6acb9].",
+   "kayitlar": [
+    "1216c6acb9"
+   ]
+  },
+  {
+   "id": "t4",
+   "durum": "hareket var",
+   "not": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkında gözaltı işlemi uygulandı; kayıtta yalnızca başlık ve kısa özet düzeyinde bilgi var, isnat ve gözaltı yeri belirtilmemiş [f14b19b3e4].",
+   "kayitlar": [
+    "f14b19b3e4"
+   ]
+  },
+  {
+   "id": "t147",
+   "durum": "hareket var",
+   "not": "Cross Border Jurists bülteninin 7. sayısı (2-8 Kasım 2026) yayımlandı; özette yalnızca RSF'nin Erdoğan'ı yeniden 'basın özgürlüğü düşmanları' arasında saydığı aktarılıyor, içerik dökümü kayıtta yok [35aecaee26].",
+   "kayitlar": [
+    "35aecaee26"
+   ]
+  },
+  {
+   "id": "t15",
+   "durum": "hareket var",
+   "not": "Rechtbank Den Haag'ın 28 Ekim 2026 tarihli NL26.51724 sayılı kararı (ECLI:NL:RBDHA:2026:32747) yayımlandı: Türkiye kaynaklı iltica dosyasında Gülen hareketiyle atfedilen bağlantının inandırıcılığı, Kürt etnik kökenine dayalı mültecilik, 'açıkça dayanaksız' olarak sonuçlandırma ve md. 8 AİHS ele alınmış; başvuru reddedilmiş [451341622e].",
+   "kayitlar": [
+    "451341622e"
+   ]
+  },
+  {
+   "id": "t185",
+   "durum": "hareket var",
+   "not": "6 Kasım'da Lahey'in iki iltica reddini bozduğu yönündeki kaydın ardından, aynı mahkemenin 28 Ekim tarihli NL26.51724 kararında Gülen atfı ve Kürt kökeni iddialarının reddedildiği görülüyor; aynı mahkemede sonuçların dosyadan dosyaya ayrıştığını gösteriyor [451341622e].",
+   "kayitlar": [
+    "451341622e"
+   ]
+  },
+  {
+   "id": "t169",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t189",
+   "id": "t192",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -33,13 +106,7 @@
    "kayitlar": []
   },
   {
-   "id": "t106",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t178",
+   "id": "t177",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -51,19 +118,49 @@
    "kayitlar": []
   },
   {
-   "id": "t87",
+   "id": "t182",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t83",
+   "id": "t181",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t31",
+   "id": "t180",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t189",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t186",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t184",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t187",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t188",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -75,7 +172,919 @@
    "kayitlar": []
   },
   {
+   "id": "t179",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t178",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t176",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t175",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t172",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t171",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t170",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t168",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t167",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t166",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t165",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t164",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t163",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t162",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t161",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t160",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t159",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t158",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t157",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t156",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t155",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t154",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t153",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t152",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t151",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t150",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t149",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t148",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t145",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t144",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t143",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t142",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t141",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t140",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t139",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t138",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t137",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t136",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t135",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t134",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t133",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t132",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t131",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t130",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t129",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t128",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t127",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t126",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t125",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t124",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t123",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t121",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t120",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t119",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t118",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t117",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t116",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t115",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t114",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t113",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t112",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t111",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t110",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t109",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t108",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t107",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t106",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t105",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t104",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t103",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t102",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t101",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t100",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t99",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t98",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t97",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t96",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t94",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t93",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
    "id": "t92",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t91",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t90",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t89",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t88",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t87",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t86",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t85",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t84",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t82",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t81",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t80",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t79",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t78",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t77",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t76",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t75",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t74",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t73",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t72",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t71",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t70",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t69",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t68",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t67",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t66",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t65",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t64",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t63",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t62",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t61",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t60",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t59",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t58",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t57",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t56",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t55",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t54",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t53",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t52",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t51",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t50",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t49",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t48",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t46",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t45",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t44",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t43",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t42",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t41",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t40",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t39",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t38",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t37",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t34",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t32",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t31",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t30",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t29",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t25",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t24",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t21",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t20",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t19",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t18",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t17",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t16",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t12",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t11",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t10",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t9",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t7",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t6",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -85,181 +1094,301 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t2",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t1",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları açıklamalarının seyri ve ev sahibi ülke uygulamaları",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
+   "baslik": "Fon soruşturmasının BDDK üst yönetimine uzanması: Erişen, Soysal, Taş ve Yönaç dosyalarının seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Soruşturma sermaye piyasası kurumlarından bankacılık denetim otoritesinin üst yönetimine geçti; isnatların içeriği açıklanmadı. Kamu denetim kadrolarının toplu tutuklanması merkezin malvarlığı/kayyım dosyalarıyla kesişiyor.",
    "kayitlar": [
-    "5f383ef425",
-    "8beb9bbebe"
+    "7ebbcefc7a",
+    "0a49544a13"
+   ]
+  },
+  {
+   "baslik": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkındaki gözaltı işlemi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "İhraç mağdurlarının hak ihlallerini belgeleyen iki kişiye yönelik gözaltı, belgeleme faaliyetinin kendisinin hedef alınması örüntüsüne giriyor. İsnat ve akıbet kayıtlarda yok.",
+   "kayitlar": [
+    "f14b19b3e4"
+   ]
+  },
+  {
+   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfının inandırıcılığı reddedilen dosyanın 'kennelijk ongegrond' olarak sonuçlandırılması",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Aynı mahkemenin bir hafta arayla verdiği kararlar farklı yönde çıkıyor; 'açıkça dayanaksız' nitelemesinin Türkiye dosyalarında ne sıklıkta kullanıldığı itiraz yollarını doğrudan etkiliyor.",
+   "kayitlar": [
+    "451341622e"
+   ]
+  },
+  {
+   "baslik": "Eskişehir ve Erzincan sulh ceza hâkimliklerinin yerel habere ve gazetecilere yönelik erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Haberes genel yayın yönetmeninin Vakıflar Genel Müdürlüğü ihalelerine ilişkin iki haberine 3 Kasım'da erişim engeli getirildi; karar numarası ve gerekçe açıklanmadı. Yerel yolsuzluk haberciliğine yönelen engelleme örüntüsünün izlenmesi gerekiyor.",
+   "kayitlar": [
+    "1216c6acb9"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "Haşim Abak dosyası: MA muhabiri 6 Kasım'da sorgusuz gözaltının üçüncü günündeydi",
- "brifing": "Son brifingten bu yana geçen yaklaşık 24 saatte pencereye yalnızca iki kayıt girdi: 7 Kasım tarihli Resmî Gazete'de 'Yargı Harçları' başlıklı başlık düzeyinde bir kayıt [673dd445f6] ve Amnesty International'ın COP31 açılışına ilişkin açıklaması [5f383ef425]. Merkezin çekirdek dosyalarında (AİHM icrası, Gülen/KHK soruşturmaları, iade ve iltica, yaptırımlar) bu pencerede yeni kayıt yok; önceki brifinglerde verilen sayılar aynı düzeyde kalıyor. Amnesty metni Türkiye'de yapılacak bir BM konferansına ilişkin olmakla birlikte ev sahibi ülkenin hak karnesine değinmiyor, bu yönüyle 7 Kasım'da değerlendirilen Amnesty Almanya çağrısından ayrışıyor. Bu nedenle brifingin ağırlığı, henüz derinleştirilmemiş bir açık dosyaya — Mezopotamya Ajansı muhabiri Haşim Abak'ın sorgusuz gözaltısına (t190) — veriliyor.",
+ "baslik": "Fon soruşturmasında BDDK başkan yardımcısı ve bir banka genel müdürü tutuklandı",
+ "brifing": "Pencerede merkezin çekirdek alanlarına giren üç somut kayıt var: fon soruşturmasının BDDK üst yönetimine uzanması [7ebbcefc7a], CİSST'in Kasım 2026 hapishane istatistikleri [e1381ae9e0] ve Rechtbank Den Haag'ın 28 Ekim tarihli Türkiye iltica kararı [451341622e]. MLSA'nın haftalık sansür bülteni, 1-2 Kasım engellemelerini kişi adları ve iki Havadis kararının numarasıyla kayda geçiriyor; bunlar daha önce başlık düzeyinde bildirilmişti [1216c6acb9]. KHK TV editörü ve KHK Platformları sözcüsü hakkındaki gözaltı işlemi yalnızca başlık düzeyinde bilgiyle geldi [f14b19b3e4]. Kayıtların önemli bölümü (Hollanda yerel haberleri, otomotiv menşe kuralları, Belçika adalet bütçesi) merkezin dosyalarıyla bağlantılı değil; AİHM birincil belgesi bu pencerede yok.",
  "one_cikanlar": [
   {
-   "baslik": "Resmî Gazete akışında ikinci kez 'Yargı Harçları' başlıklı kayıt",
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "neden_onemli": "Yargı harçları, bireysel başvuru ve idari yargı yollarına erişimin maliyetini doğrudan etkileyebilen bir kalem olduğundan merkezin mahkemeye erişim dosyalarıyla kesişir. Kayıt başlık düzeyinde olduğu için düzenlemenin kapsamını ve yürürlük tarihini doğrulamak mümkün değil; t169 bu nedenle açık kalıyor.",
-   "yenilik": "1 Kasım tarihli kayıttan sonra aynı başlığın 7 Kasım 11:14'te ikinci kez görünmesi; içerik yine yok.",
+   "baslik": "Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden_onemli": "Soruşturma sermaye piyasası kurumlarının (SPK, Borsa İstanbul, Takasbank) eski yöneticilerinden bankacılık denetim otoritesinin görevdeki üst yönetimine geçti. Adalet Bakanı'nın 3 Kasım'daki 'denetim mekanizmalarına sızan şebeke' ifadesi, isnadın örgütsel bir çerçeveye oturtulduğunu gösteriyor. Aynı dosyada gazeteciler hakkında 19 yıla kadar hapis istemli iddianameler bulunduğu için (t183) ceza soruşturması ile habercilik kovuşturması birbirine bağlı yürüyor.",
+   "yenilik": "Bugün BDDK Başkan Yardımcısı Muhammet Erişen ve Adil Katılım Bankası Genel Müdürü Murat Yönaç tutuklandı; 8 Kasım'da BDDK Uygulama 3. Daire Başkanı Bilal Soysal cezaevine gönderilmişti.",
    "ayrintilar": [
-    "Kayıt zamanı: 2026-11-07T11:14, kaynak Resmî Gazete",
-    "7 Kasım tarihli ve 33423 sayılı Resmî Gazete özetinde (7 madde) harçlara ilişkin bir madde sayılmıyor [da92deb10e]"
+    "Tutuklananlar: BDDK Başkan Yardımcısı Muhammet Erişen, Adil Katılım Bankası Genel Müdürü Murat Yönaç [7ebbcefc7a]",
+    "8 Kasım'da tutuklanan: BDDK Uygulama 3. Daire Başkanı Bilal Soysal; daha önce BDDK Uygulama 4. Daire Başkanı Mustafa Alper Taş [7ebbcefc7a]",
+    "Erişen 7 Kasım operasyonunda gözaltına alınmıştı; aynı operasyonda Kemal Akkaya (Bulls Yatırım), Yunus Arıncı (eski Takasbank GM), Mehmed Nureddin Çevik (Ruzy Madencilik) gözaltına alındı [7ebbcefc7a]",
+    "Önceki tutuklananlar arasında Korkmaz Enes Ergun (eski Borsa İstanbul GM), Enver Usca (eski SPK Başkan Vekili), Erman Çete, Ercan Urkan, Taha Çakmak, Gürol Sami Özer [7ebbcefc7a]",
+    "Soruşturma İstanbul Cumhuriyet Başsavcılığı tarafından yürütülüyor; isnatların ayrıntıları açıklanmadı [7ebbcefc7a]"
    ],
-   "mekanizma": "Resmî Gazete yayımı",
-   "karsi_okuma": "Kayıt başlıktan ibaret; harç tutarlarının artırıldığı, değiştirildiği ya da yargıya erişimi zorlaştırdığı yönünde hiçbir çıkarım yapılamaz. 7 Kasım özetiyle de eşleşmediği için hangi belgeye ait olduğu belirsiz.",
+   "mekanizma": "İstanbul Başsavcılığı soruşturması; sulh ceza tutuklaması",
+   "karsi_okuma": "Kayıtlar isnatların hukuki niteliğini, delil durumunu veya tutuklama gerekçelerini göstermiyor; 'şebeke' nitelemesi bakanlık beyanıdır, yargısal bir tespit değildir. Katılımevim dosyasıyla (t23) resmî bir bağ kayıtlarda kurulmuyor.",
    "kayitlar": [
-    "673dd445f6",
-    "da92deb10e"
-   ],
-   "guven": "düşük"
-  },
-  {
-   "baslik": "Amnesty International'ın COP31 açılışına ilişkin açıklaması: ICJ'nin devlet yükümlülükleri tespitine atıf",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden_onemli": "COP31 Türkiye'de toplanıyor ve merkezin dosyalarında konferans öncesi Antalya'daki gözaltılar (t178) ile çevre protestolarına ilişkin HRW raporu (t106) yer alıyor. Bu açıklama, aynı kuruluşun 5 Kasım'daki Almanya çağrısından farklı olarak ev sahibi ülkenin hak karnesine girmiyor; konferans gündeminin insan hakları boyutunun hangi başlıkla kurulduğunu göstermesi bakımından kaydedilmeli.",
-   "yenilik": "İlk kez: 8 Kasım 01:00'de yayımlanan metin, fosil yakıtlardan çıkış ve ICJ'nin devlet yükümlülüklerine ilişkin açıklığa odaklanıyor; 7 Kasım'da değerlendirilen Türkiye odaklı çağrıdan içerik olarak ayrı.",
-   "ayrintilar": [
-    "Açıklamayı yapan: Marta Schaaf, Amnesty International İklim, ESJ ve Şirket Hesapverebilirliği Program Direktörü",
-    "UNEP değerlendirmesi: dünya 1,5°C'yi aşma yolunda",
-    "Metinde Uluslararası Adalet Divanı'nın devletlerin iklim zararını önleme ve işbirliği yükümlülüklerine ilişkin açıklığı anılıyor"
-   ],
-   "mekanizma": "ICJ'nin iklim yükümlülüklerine ilişkin tespiti",
-   "karsi_okuma": "Metin Türkiye'deki gözaltılara, erişim engellerine veya çevre aktivistlerine ilişkin hiçbir tespit içermiyor; ev sahibi ülke uygulamalarına dair bir değerlendirme olarak okunamaz.",
-   "kayitlar": [
-    "5f383ef425",
-    "8beb9bbebe"
+    "7ebbcefc7a",
+    "0a49544a13"
    ],
    "guven": "orta"
+  },
+  {
+   "baslik": "CİSST Kasım verisi: 402 hapishanede mahpus sayısı 437.889",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı ve koşullar)",
+   "neden_onemli": "CTE'nin 4 Kasım tarihli resmî verisine göre kapasite 304.184 iken mahpus sayısı 437.889; doluluk fazlası yaklaşık 133.700 kişi. Bu, merkezin CPT raporları (t87) ve uzun süreli tecrit/mahpus sağlığı dosyalarında (t91, t129, t161, t159) kullandığı yapısal arka planı güncelliyor. Doluluk oranı, AİHM'in md. 3 denetiminde kişi başına düşen alan ölçütüyle doğrudan ilişkilidir.",
+   "yenilik": "Ekim verisindeki 434.337 rakamı 437.889'a çıktı; kapasite (304.184) ve hapishane sayısı (402) değişmedi.",
+   "ayrintilar": [
+    "CTE'nin 04.11.2026 tarihli yayını: 304.184 kapasiteli 402 hapishanede 437.889 mahpus [e1381ae9e0]",
+    "Ekim 2026 verisi 434.337 idi (t83); bir ayda yaklaşık 3.550 artış",
+    "CİSST, LGBTİ+, yabancı, engelli ve hasta mahpuslara ilişkin ayrıntılı verilerin düzenli yayımlanmadığını, bu verileri soru önergesi, bilgi edinme ve medya takibiyle derlediğini belirtiyor [e1381ae9e0]"
+   ],
+   "mekanizma": "AİHS md. 3 — tutma koşulları",
+   "karsi_okuma": "Toplam sayı, Gülen/KHK isnadıyla tutulanların payını ya da kırılgan grupların durumunu göstermez; kategorik dağılım kayda metin olarak yansımamış. Artışın tutuklu mu hükümlü mü kaynaklı olduğu belirlenemiyor.",
+   "kayitlar": [
+    "e1381ae9e0"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfı ve Kürt kökeni iddiaları reddedildi, dosya 'açıkça dayanaksız' sayıldı",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Karar özeti, Türkiye kaynaklı bir dosyada hem kişiye atfedilen Gülen hareketi bağlantısının inandırıcılığını hem de Kürt etnik kökenine dayalı mültecilik iddiasını ele alıp başvuruyu reddediyor ve dosyayı 'kennelijk ongegrond' (açıkça dayanaksız) olarak sonuçlandırıyor; md. 8 AİHS değerlendirmesi de yapılmış. 2 Kasım'da aynı mahkemenin iki Gülen bağlantılı reddi bozduğu kaydıyla birlikte okunduğunda, Hollanda idari yargısında sonuçların dosya bazında ayrıştığı görülüyor.",
+   "yenilik": "İlk kez: ECLI:NL:RBDHA:2026:32747 sayılı 28 Ekim 2026 tarihli karar Rechtspraak'ta yayımlandı.",
+   "ayrintilar": [
+    "ECLI:NL:RBDHA:2026:32747, Rechtbank Den Haag, karar tarihi 28-10-2026, dosya NL26.51724 [451341622e]",
+    "Konular: Türkiye iltica; atfedilen Gülen hareketi bağlantısının inandırıcılığı; Kürt etnik kökenine dayalı mültecilik; 'kennelijk ongegrond' olarak sonuçlandırma; AİHS md. 8 [451341622e]",
+    "Sonuç: ongegrond (reddedildi) [451341622e]"
+   ],
+   "mekanizma": "AİHS md. 8; 'kennelijk ongegrond' nitelemesi",
+   "karsi_okuma": "Elimizde yalnızca karar özeti var; mahkemenin inandırıcılık değerlendirmesinin gerekçesi, hangi ülke bilgisine dayandığı ve temyiz yolunun açık olup olmadığı kayıtta yok. Tek karardan Hollanda uygulamasında genel bir yön değişikliği çıkarılamaz.",
+   "kayitlar": [
+    "451341622e"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "MLSA haftalık bülteni: 207 X hesabı, Havadis kararlarının numaraları ve Eskişehir'de iki habere engel",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Bülten, daha önce başlık düzeyinde bilinen 1-2 Kasım engellemelerini kişi adlarıyla ve Havadis dosyasındaki iki karar numarasıyla belgeliyor. Kararı veren makamın ve numarasının açıklanmaması, itiraz yolunun fiilen kullanılamamasına ilişkin merkezin mahkemeye erişim argümanıyla kesişiyor. Vakıflar Genel Müdürlüğü ihalelerine dair iki habere engel, engelleme pratiğinin yerel yolsuzluk haberciliğine yayıldığını gösteriyor.",
+   "yenilik": "Bugün ilk kez karar numaraları kayda geçti: Havadis için İstanbul 9. Sulh Ceza 2026/10802 (1 Kasım) ve İstanbul 1. Sulh Ceza 2026/10045 (2 Kasım); ayrıca Eskişehir 3. Sulh Ceza'nın Haberes haberlerine ilişkin 3 Kasım engeli eklendi.",
+   "ayrintilar": [
+    "1-2 Kasım'da en az 207 X hesabı engellendi; gerekçe 5651 md. 8/A, 'kamu düzeninin korunması'; karar makamı ve numarası açıklanmadı [1216c6acb9]",
+    "Engellenenler arasında Ayşenur Yazıcı, Dr. T. Sabri Öncü, emekli Albay Orkun Özeller, Dr. Cem Baykal [1216c6acb9]",
+    "X, hesapların büyük çoğunluğunu Türkiye'den erişilemez kıldı [1216c6acb9]",
+    "Havadis (havadiskibris.com): İstanbul 9. Sulh Ceza Hâkimliği 1 Kasım, 2026/10802; İstanbul 1. Sulh Ceza Hâkimliği 2 Kasım, 2026/10045; gerekçe açıklanmadı [1216c6acb9]",
+    "Eskişehir 3. Sulh Ceza Hâkimliği, Haberes genel yayın yönetmeni Ayhan Aydıner'in Kurşunlu Külliyesi ve Vakıflar Genel Müdürlüğü ihalelerine ilişkin iki haberine 3 Kasım'da erişim engeli getirdi [1216c6acb9]",
+    "bianet ve Haberes haberleri ile bir kadın haber ajansının X hesabı da bültende engellenenler arasında anılıyor [1216c6acb9]"
+   ],
+   "mekanizma": "5651 sayılı Kanun md. 8/A",
+   "karsi_okuma": "Bülten engelleme sayılarını kendi izlemesine dayandırıyor; kararların tam metni, gerekçesi ve itiraz sonuçları elimizde yok. Erzincan Sulh Ceza'ya ilişkin kayıt metni kesilmiş, o karara dair sonuç çıkarılamaz.",
+   "kayitlar": [
+    "1216c6acb9"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "KHK TV editörü ve KHK Platformları sözcüsü hakkında gözaltı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden_onemli": "KHK ile ihraç edilenlerin hak ihlallerini belgeleyen iki kişi hakkında gözaltı işlemi uygulandı. Belgeleme ve savunuculuk faaliyetinin kendisinin soruşturma konusu yapılması, merkezin t4 ve t17 dosyalarındaki örüntüyle örtüşüyor.",
+   "yenilik": "İlk kez: Ahmet Erkan ve Münir Korkmaz adları kayda giriyor.",
+   "ayrintilar": [
+    "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkında gözaltı işlemi uygulandı [f14b19b3e4]"
+   ],
+   "mekanizma": "",
+   "karsi_okuma": "Kayıtta yalnızca başlık ve kısa özet düzeyinde bilgi var: isnat, gözaltı tarihi, yeri, hâlen gözaltında olup olmadıkları bilinmiyor. Tek kaynak; doğrulama yok.",
+   "kayitlar": [
+    "f14b19b3e4"
+   ],
+   "guven": "düşük"
   }
  ],
  "alan_notlari": [
   {
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "durum": "olağan",
-   "not": "Pencereye giren tek Türkiye kaydı, başlık düzeyindeki 'Yargı Harçları' girişi. 7 Kasım tarihli Resmî Gazete özetinde (sayı 33423) rektör atamaları, aile danışma merkezleri, ÇED ve TMMOB yönetmelikleri gibi merkezin dosyalarıyla doğrudan ilişkisi kurulamayan maddeler var.",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "durum": "hareketli",
+   "not": "Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı; bir başkan yardımcısı ve iki daire başkanı tutuklananlar arasında [7ebbcefc7a]. Önceki günlerin SPK/Borsa İstanbul tutuklamalarıyla aynı dosya [0a49544a13].",
    "kayitlar": [
-    "673dd445f6",
-    "da92deb10e"
+    "7ebbcefc7a",
+    "0a49544a13"
    ]
   },
   {
-   "alan": "BM insan hakları mekanizmaları",
-   "durum": "olağan",
-   "not": "Amnesty'nin COP31 açıklaması pencerenin tek yeni uluslararası kaydı; içerik iklim politikası ve ICJ yükümlülükleriyle sınırlı.",
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "hareketli",
+   "not": "MLSA haftalık bülteni engelleme kararlarını numara ve isim düzeyinde belgeledi [1216c6acb9]. Cross Border Jurists bülteninin 7. sayısı yayımlandı; özette yalnızca RSF'nin Erdoğan'ı 'basın özgürlüğü düşmanları' arasında yeniden anması aktarılıyor [35aecaee26].",
    "kayitlar": [
-    "5f383ef425"
+    "1216c6acb9",
+    "35aecaee26"
+   ]
+  },
+  {
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "olağan",
+   "not": "Rechtbank Den Haag'ın 28 Ekim tarihli NL26.51724 kararı yayımlandı; Gülen atfı ve Kürt kökeni temelli iddialar reddedildi [451341622e]. Hollanda'da ölü bulunan bir Türk vatandaşı dosyasında Belçika'da yakalanan şüphelinin teslimi için başvuru yapıldığı bildirildi; bu, merkezin dosyalarıyla ilgisi olmayan adi bir teslim işlemi [1fcbb0e6cf].",
+   "kayitlar": [
+    "451341622e",
+    "1fcbb0e6cf"
+   ]
+  },
+  {
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "durum": "hareketli",
+   "not": "KHK TV ve KHK Platformları temsilcileri hakkında gözaltı [f14b19b3e4]. CİSST Kasım istatistikleri mahpus sayısını 437.889 olarak güncelledi [e1381ae9e0]. Nordic Monitor'ün Somali'deki roket tesisine ilişkin yazısı askeri kapasite konulu; merkezin dosyalarıyla doğrudan bağı kayıtlarda kurulmuyor [9e7d37fc64].",
+   "kayitlar": [
+    "f14b19b3e4",
+    "e1381ae9e0",
+    "9e7d37fc64"
+   ]
+  },
+  {
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "sessiz",
+   "not": "Bu pencerede AİHM karar metni ya da icra adımına ilişkin kayıt yok. ECHR Blog'un akademik derlemesi md. 14'ün ayrı inceleme pratiği ve nitelikli haklarda orantılılık mimarisi üzerine çalışmaları duyuruyor; dosya düzeyinde bir gelişme değil [22546f4112].",
+   "kayitlar": [
+    "22546f4112"
+   ]
+  },
+  {
+   "alan": "Belçika ve AB mevzuatı",
+   "durum": "olağan",
+   "not": "SPF Justice'ın adli giderler bütçesinin tükenmesi nedeniyle tercümanlar dahil dış hizmet sağlayıcılara ödemelerin askıya alındığı bildirildi; ek bütçe prosedürünün tamamlanmak üzere olduğu belirtiliyor [24f005211b]. Tercüman ödemelerinin durması ceza yargılamalarında dil yardımına erişimi etkileyebilir, ancak kayıtta böyle bir etki belirtilmiyor.",
+   "kayitlar": [
+    "24f005211b"
    ]
   }
  ],
  "dosya_derinlesmesi": [
   {
-   "baslik": "Mezopotamya Ajansı muhabiri Haşim Abak'ın Nusaybin'deki gözaltısı ve sorgusuz geçen süre (t190)",
-   "alan": "İfade ve basın özgürlüğü",
-   "elimizde": "Abak 4 Kasım'da Nusaybin'de aracı durdurularak gözaltına alındı; 6 Kasım itibarıyla aralarında 16 yaşında bir kişinin de bulunduğu üç kişi üçüncü gündür sorgulanmadan tutuluyordu [8f5932eafb]. MLSA'nın 2 Kasım haftasına ilişkin bülteni de gözaltıyı kaydetti ve aynı hafta içinde gazetecilere yönelik iddianame ve 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmalarını listeledi [4624187b43]. Bu pencerede dosyaya yeni kayıt girmedi.",
-   "eksik": "Gözaltının hangi isnada dayandığı, soruşturma numarası, gözaltı süresinin uzatılmasına ilişkin karar, avukat erişiminin sağlanıp sağlanmadığı ve 16 yaşındaki kişinin hukuki statüsü kayıtlarda yok. Sevk mi edildiği yoksa serbest mi bırakıldığı doğrulanamıyor.",
-   "izlenecek_adim": "Sulh ceza hâkimliğine sevk, tutuklama ya da serbest bırakma kararının ilan edilmesi; MA ve MLSA'nın izleyen bültenlerinde dosya numarası ve isnadın açıklanması beklenir.",
-   "dayanak": "Sorgu yapılmaksızın geçen gözaltı süresi, merkezin gazetecilere yönelik gözaltı pratiğinde özgürlük ve güvenlik güvencelerine ilişkin dosyalarına veri oluşturur; bölgesel muhabirlerin saha çalışması sırasında durdurulması örüntüsüyle birlikte kaydedilmeli.",
+   "baslik": "KHK ile ihraç edilenlerin durumunu belgeleyen yapıların kendilerinin soruşturma konusu olması (t4)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "elimizde": "Bugün KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkında gözaltı işlemi uygulandığı bildirildi; kaynak, bu kişileri KHK mağdurlarının hak ihlallerini gündeme taşıyan isimler olarak tanımlıyor [f14b19b3e4]. t4 başlığı bugüne kadar ihraç edilenlerin istihdam ve mali durumuna ilişkin rapor verilerini izliyordu; bu kayıt dosyayı veri üretenlerin hukuki durumuna kaydırıyor. Merkezin dosyalarında benzer bir örüntü daha önce engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmesinde görülmüştü (t74).",
+   "eksik": "Gözaltının tarihi, yeri, hangi savcılık tarafından yürütüldüğü, isnat edilen suç ve kişilerin hâlen gözaltında olup olmadığı kayıtlarda yok. Tek kaynak var, ikinci bir doğrulama gelmedi.",
+   "izlenecek_adim": "Gözaltı süresinin sonunda savcılık sevki ve sulh ceza hâkimliği kararı (tutuklama, adli kontrol ya da serbest bırakma) beklenir; Türkiye uygulamasında bu adım genellikle birkaç gün içinde netleşir.",
+   "dayanak": "Hak ihlallerini belgeleyen kişi ve yapıların kendilerinin ceza soruşturmasına konu edilmesi, merkezin AİHS md. 10 ve md. 11 kapsamındaki 'belgeleme faaliyetinin caydırılması' argümanına olgu eklenebilir; ancak bunun için isnadın içeriğinin öğrenilmesi gerekir.",
    "kayitlar": [
-    "8f5932eafb",
-    "4624187b43"
+    "f14b19b3e4"
    ]
   }
  ],
  "kronoloji": [
   {
-   "tarih": "2026-11-04",
-   "adim": "Haşim Abak, Nusaybin'de polisin aracını durdurması üzerine gözaltına alındı.",
+   "tarih": "2026-11-03",
+   "adim": "Adalet Bakanı Akın Gürlek, fon vurgununun borsa manipülasyonuyla sınırlı olmadığını, 'üst düzey denetim mekanizmalarına sızan şebeke' bulunduğunu açıkladı.",
    "kayitlar": [
-    "8f5932eafb"
+    "7ebbcefc7a"
    ]
   },
   {
-   "tarih": "2026-11-06",
-   "adim": "MLSA'nın haftalık bülteni gözaltıyı, aynı hafta içindeki iddianameler ve yeni dezenformasyon soruşturmalarıyla birlikte kaydetti.",
+   "tarih": "2026-11-07",
+   "adim": "İstanbul'da eski SPK Başkan Vekili dahil dört kişi tutuklandı; aynı gün yapılan operasyonda BDDK Başkan Yardımcısı Muhammet Erişen, Kemal Akkaya, Yunus Arıncı ve Mehmed Nureddin Çevik gözaltına alındı.",
    "kayitlar": [
-    "4624187b43"
-   ]
-  },
-  {
-   "tarih": "2026-11-06",
-   "adim": "MA, Abak ve aralarında 16 yaşında birinin bulunduğu iki kişinin üçüncü gündür sorgulanmadan tutulduğunu bildirdi.",
-   "kayitlar": [
-    "8f5932eafb"
+    "0a49544a13",
+    "7ebbcefc7a"
    ]
   },
   {
    "tarih": "2026-11-08",
-   "adim": "Pencerede dosyaya ilişkin yeni kayıt gelmedi; sevk veya serbest bırakma bilgisi yok.",
-   "kayitlar": []
+   "adim": "BDDK Uygulama 3. Daire Başkanı Bilal Soysal tutuklanarak cezaevine gönderildi.",
+   "kayitlar": [
+    "7ebbcefc7a"
+   ]
+  },
+  {
+   "tarih": "2026-11-09",
+   "adim": "BDDK Başkan Yardımcısı Muhammet Erişen ve Adil Katılım Bankası Genel Müdürü Murat Yönaç tutuklandı; soruşturma bankacılık denetim otoritesinin üst yönetimini kapsar hale geldi.",
+   "kayitlar": [
+    "7ebbcefc7a"
+   ]
   }
  ],
  "izlenecekler": [
-  "7 Kasım tarihli 'Yargı Harçları' kaydının metninin elde edilmesi ve 1 Kasım tarihli düzenlemeyle ilişkisinin belirlenmesi (t169)",
-  "Haşim Abak ve birlikte gözaltına alınanların sevk, tutuklama ya da serbest bırakma sonucu (t190)",
-  "COP31'in Antalya'daki açılışı sırasında toplanma ve ifade özgürlüğü uygulamaları ile konferans öncesi gözaltı dosyalarının seyri (t178, t106)",
-  "Mersin 4. Ağır Ceza Mahkemesi'nde Buluş, Parlak ve Karaaslan dosyasında yeniden yargılamanın açılıp açılmayacağı (t189)",
-  "Fon haberciliği nedeniyle hazırlanan iddianamelerin kabul edilip edilmeyeceği ve duruşma takvimi (t183)"
+  "Fon soruşturmasında BDDK yöneticileri hakkındaki isnatların açıklanması ve tutuklamaların devam edip etmeyeceği [7ebbcefc7a]",
+  "Ahmet Erkan ve Münir Korkmaz'ın gözaltı sonrası sevk sonucu ve isnat edilen suç [f14b19b3e4]",
+  "Havadis kararlarına (2026/10802 ve 2026/10045) ve Eskişehir 3. Sulh Ceza'nın Haberes engeline itiraz yapılıp yapılmadığı [1216c6acb9]",
+  "Rechtbank Den Haag NL26.51724 kararının tam metninde 'kennelijk ongegrond' nitelemesinin gerekçesi ve Raad van State'e başvuru olup olmayacağı [451341622e]",
+  "CTE'nin aylık verisinde mahpus sayısının seyri ve kırılgan gruplara ilişkin ayrıştırılmış verinin yayımlanıp yayımlanmayacağı [e1381ae9e0]"
  ],
- "gun": "2026-11-08",
- "olusturma": "2026-11-08T08:33+00:00",
+ "gun": "2026-11-09",
+ "olusturma": "2026-11-09T09:04+00:00",
  "model": "claude-opus-5",
- "kayit_sayisi": 45,
+ "kayit_sayisi": 37,
  "kullanilan_kayitlar": [
-  "4c9cf91903",
   "673dd445f6",
+  "451341622e",
+  "22546f4112",
   "da92deb10e",
-  "eedd72f2ed",
-  "0db6adf666",
-  "c09273dd3c",
-  "8d9ce421e7",
-  "16e6b07608",
   "5f383ef425",
-  "8a83e32fd0",
-  "d92b390f45",
-  "8beb9bbebe",
-  "4996554cd4",
-  "4624187b43",
-  "af5d4c28d6",
-  "c1f237e807",
-  "daea44fc1f",
-  "d13d03ae8b",
-  "95a5639f21",
-  "1db2513b9c",
-  "f2f5ebd6f0",
-  "2e05360eb5",
-  "531fb47f3a",
-  "ca8f73c165",
-  "b00ef67ef7",
-  "a53e452700",
-  "53f5962428",
-  "9ad6372390",
-  "819ee7ea80",
-  "326e18d26e",
-  "0fc00af35d",
-  "d3ee2e1b0c",
-  "1dd5d7ea7c",
-  "49a546c492",
-  "62d26d606a",
-  "8f5932eafb",
-  "052ecab0d1",
-  "071b3de89d",
-  "c2ec33575e",
-  "471bf88a94",
-  "0232936b24",
-  "c8987dd1aa",
-  "b31ebe8c2b",
-  "b6c7e60a26",
-  "d1de3190be"
+  "1216c6acb9",
+  "3ae45cf26b",
+  "e1381ae9e0",
+  "fdeb804586",
+  "df92ca61c6",
+  "7ebbcefc7a",
+  "c21472feae",
+  "24f005211b",
+  "f14b19b3e4",
+  "205d4e9577",
+  "e725ad9d5c",
+  "0e76827472",
+  "f0edf6b410",
+  "4f06c739e8",
+  "3599736568",
+  "766872e22d",
+  "35aecaee26",
+  "d1cb837ca2",
+  "77b454b28f",
+  "a9d95d9f18",
+  "55e57a2e41",
+  "fc9ae0ba11",
+  "422fe334da",
+  "0a49544a13",
+  "1fcbb0e6cf",
+  "277bc95d3a",
+  "5b9ad16074",
+  "b3b7cb5d6c",
+  "3319e01e39",
+  "72a20dbca1",
+  "9e7d37fc64",
+  "1b7aa24944"
  ],
- "maliyet_usd": 0.5596,
- "girdi_token": 50828,
- "cikti_token": 9761,
+ "maliyet_usd": 0.7089,
+ "girdi_token": 48450,
+ "cikti_token": 15844,
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
@@ -277,14 +1406,29 @@
     "id": "one2",
     "hukum": "dayanaklı",
     "not": ""
+   },
+   {
+    "id": "one3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one4",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one5",
+    "hukum": "dayanaklı",
+    "not": ""
    }
   ],
-  "genel": "Üç iddia da gösterdikleri kayıtlarla ve önceki gün başlıklarıyla uyumlu, olgusal dayanak eksiği yok.",
+  "genel": "Tüm iddialar gösterilen kayıtlarla ve önceki gün takip maddeleriyle uyumludur, olgu düzeyinde dayanaksız veya eksik unsur tespit edilmemiştir.",
   "model": "claude-sonnet-5",
-  "girdi_token": 29953,
-  "cikti_token": 147,
-  "maliyet_usd": 0.0614,
-  "iddia_sayisi": 3
+  "girdi_token": 32596,
+  "cikti_token": 542,
+  "maliyet_usd": 0.0706,
+  "iddia_sayisi": 6
  },
  "takip_acik": [
   {
@@ -316,8 +1460,8 @@
    "baslik": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor verileri",
    "alan": "Gülen hareketi/KHK dosyaları",
    "acildi": "2026-09-17",
-   "son_hareket": "2026-11-03",
-   "hareket_sayisi": 5
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 6
   },
   {
    "id": "t6",
@@ -372,8 +1516,8 @@
    "baslik": "Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltica kararları (BRE 22/4792 ve diğer yedi dosya)",
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-09-18",
-   "son_hareket": "2026-10-12",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 3
   },
   {
    "id": "t16",
@@ -428,8 +1572,8 @@
    "baslik": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasında gözaltı ve yakalama kararlarının seyri",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-09-21",
-   "son_hareket": "2026-11-02",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 4
   },
   {
    "id": "t24",
@@ -446,14 +1590,6 @@
    "acildi": "2026-09-21",
    "son_hareket": "2026-10-13",
    "hareket_sayisi": 4
-  },
-  {
-   "id": "t29",
-   "baslik": "Darbe sonrası emeklilik/ihraç kararnamesiyle ordudan çıkarılan Bora Arslanoğlu'nun 15 Eylül'den beri kayıp olması ve zorla kaybetme iddiası",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "acildi": "2026-09-22",
-   "son_hareket": "2026-09-24",
-   "hareket_sayisi": 1
   },
   {
    "id": "t30",
@@ -484,8 +1620,8 @@
    "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-23",
-   "son_hareket": "2026-11-03",
-   "hareket_sayisi": 22
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 23
   },
   {
    "id": "t34",
@@ -502,22 +1638,6 @@
    "acildi": "2026-09-24",
    "son_hareket": "2026-10-15",
    "hareket_sayisi": 14
-  },
-  {
-   "id": "t38",
-   "baslik": "Kocaeli 12. Asliye Ceza Mahkemesi'nin gazeteci Cihat Polat ve siyasetçi Mehmet Nazım Gençtürk hakkındaki ertelenmiş hapis kararı",
-   "alan": "İfade ve basın özgürlüğü",
-   "acildi": "2026-09-24",
-   "son_hareket": "2026-09-24",
-   "hareket_sayisi": 0
-  },
-  {
-   "id": "t39",
-   "baslik": "Rechtbank Den Haag'ın 22 Eylül 2026 tarihli NL26.12435 sayılı iltica kararında karar moratoryumu ve IGS geçerliliği",
-   "alan": "İade, adli yardım ve iltica",
-   "acildi": "2026-09-24",
-   "son_hareket": "2026-09-24",
-   "hareket_sayisi": 0
   },
   {
    "id": "t40",
@@ -580,8 +1700,8 @@
    "baslik": "Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' pratiğinin zamanlaması",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-27",
-   "son_hareket": "2026-11-03",
-   "hareket_sayisi": 17
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 18
   },
   {
    "id": "t48",
@@ -868,8 +1988,8 @@
    "baslik": "CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 mahpus",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-07",
-   "son_hareket": "2026-10-31",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 4
   },
   {
    "id": "t84",
@@ -1364,16 +2484,16 @@
    "baslik": "Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeniden tutuklama pratiği (Ertan Aydın, Gürol Sami Özer)",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-10-26",
-   "son_hareket": "2026-10-26",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 1
   },
   {
    "id": "t147",
    "baslik": "Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue 5, 19-25 Ekim 2026) içeriğinin dökümü",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-26",
-   "son_hareket": "2026-11-02",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 2
   },
   {
    "id": "t148",
@@ -1580,8 +2700,8 @@
    "baslik": "Kuzey Kıbrıs'ta yayımlanan Havadis gazetesinin sitesine Türkiye'deki iki sulh ceza hâkimliği kararıyla erişim engeli getirilmesi",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-11-03",
-   "son_hareket": "2026-11-03",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 1
   },
   {
    "id": "t174",
@@ -1676,8 +2796,8 @@
    "baslik": "Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarihli Gülen iltica politikası ile Mart 2026 Danıştay onamasının seyri",
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-11-06",
-   "son_hareket": "2026-11-06",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 1
   },
   {
    "id": "t186",
@@ -1733,6 +2853,38 @@
    "alan": "BM insan hakları mekanizmaları",
    "acildi": "2026-11-08",
    "son_hareket": "2026-11-08",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t193",
+   "baslik": "Fon soruşturmasının BDDK üst yönetimine uzanması: Erişen, Soysal, Taş ve Yönaç dosyalarının seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t194",
+   "baslik": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkındaki gözaltı işlemi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t195",
+   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfının inandırıcılığı reddedilen dosyanın 'kennelijk ongegrond' olarak sonuçlandırılması",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t196",
+   "baslik": "Eskişehir ve Erzincan sulh ceza hâkimliklerinin yerel habere ve gazetecilere yönelik erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-09",
    "hareket_sayisi": 0
   }
  ]

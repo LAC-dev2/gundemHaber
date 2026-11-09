@@ -1,26 +1,58 @@
 {
- "gun": "2026-11-08",
- "olusturma": "2026-11-08T20:55+00:00",
+ "gun": "2026-11-09",
+ "olusturma": "2026-11-09T09:04+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-08:t169",
+   "id": "alan:2026-11-09:Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "not": "Soruşturma sermaye piyasası kurumlarının (SPK, Borsa İstanbul, Takasbank) eski yöneticilerinden bankacılık denetim otoritesinin görevdeki üst yönetimine geçti. Adalet Bakanı'nın 3 Kasım'daki 'denetim mekanizmalarına sızan şebeke' ifadesi, isnadın örgütsel bir çerçeveye oturtulduğunu gösteriyor. Aynı dosyada gazeteciler hakkında 19 yıla kadar hapis istemli iddianameler bulunduğu için (t183) ceza soruşturması ile habercilik kovuşturması birbirine bağlı yürüyor.",
+   "kayitlar": [
+    "7ebbcefc7a",
+    "0a49544a13"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "alan:2026-11-09:Rechtbank Den Haag NL26.51724: Gülen atfı ve Kürt kökeni idd",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfı ve Kürt kökeni iddiaları reddedildi, dosya 'açıkça dayanaksız' sayıldı",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Karar özeti, Türkiye kaynaklı bir dosyada hem kişiye atfedilen Gülen hareketi bağlantısının inandırıcılığını hem de Kürt etnik kökenine dayalı mültecilik iddiasını ele alıp başvuruyu reddediyor ve dosyayı 'kennelijk ongegrond' (açıkça dayanaksız) olarak sonuçlandırıyor; md. 8 AİHS değerlendirmesi de yapılmış. 2 Kasım'da aynı mahkemenin iki Gülen bağlantılı reddi bozduğu kaydıyla birlikte okunduğunda, Hollanda idari yargısında sonuçların dosya bazında ayrıştığı görülüyor.",
+   "kayitlar": [
+    "451341622e"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-11-09:toplu:10",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
-   "alan": "Mevzuat izleme (çok alanlı)",
-   "not": "7 Kasım tarihli Resmî Gazete akışında yeniden 'Yargı Harçları' başlıklı bir kayıt düştü; kayıt yalnızca başlık düzeyinde olduğu için düzenlemenin kapsamı, tarifeler ve yürürlük tarihi hâlâ doğrulanamıyor. 1 Kasım'daki kayıttan sonra aynı başlığın ikinci kez görünmesi, dosyanın metninin elde edilmesini gerektiriyor.",
+   "baslik": "10 takip dosyasında hareket var",
+   "alan": "",
+   "not": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması; Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeni; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Kuzey Kıbrıs'ta yayımlanan Havadis gazetesinin sitesine Türkiye'deki i; KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue ; Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltic; Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarih",
    "kayitlar": [
-    "673dd445f6"
+    "7ebbcefc7a",
+    "0a49544a13",
+    "7ebbcefc7a",
+    "e1381ae9e0",
+    "1216c6acb9",
+    "1216c6acb9",
+    "1216c6acb9",
+    "f14b19b3e4"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-08:12",
+   "id": "saglik:2026-11-09:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, Egmont Group…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

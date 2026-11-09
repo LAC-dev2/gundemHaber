@@ -304,7 +304,7 @@
    "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "6bad902c60"
    ],
@@ -343,6 +343,13 @@
      "not": "KHK ile ihraç edilen ve sonradan göreve iade edilen doçent Savaş Karabulut, üniversiteye döndükten sonra iş yerinde taciz ile ders verme ve bilimsel araştırma önünde engellerle karşılaştığını Evrensel'e anlattı. Kayıt, ihraç sonrası iade edilenlerin fiilî durumuna ilişkin; sayısal rapor verisi içermiyor.",
      "kayitlar": [
       "5862c09e09"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkında gözaltı işlemi uygulandı; kayıtta yalnızca başlık ve kısa özet düzeyinde bilgi var, isnat ve gözaltı yeri belirtilmemiş [f14b19b3e4].",
+     "kayitlar": [
+      "f14b19b3e4"
      ]
     }
    ]
@@ -757,7 +764,7 @@
    "neden": "Sekiz dosyanın birleştirildiği bir ulusal iltica kararı, merkezin AB içindeki iltica içtihadı takibi açısından ilgili olabilir; kayıtta yalnızca ECLI numarası ve dosya numaraları var, konu bilinmiyor [b5c491d48e].",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-10-12",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "b5c491d48e"
    ],
@@ -774,6 +781,13 @@
      "not": "Doğrudan Zeeland-West-Brabant dosyalarına değil, ama aynı içtihat hattına ait yeni bir karar kayda girdi: Rechtbank Den Haag'ın 28 Eylül 2026 tarihli NL25.35230 sayılı kararı (ECLI:NL:RBDHA:2026:28818), 2017'den bu yana sorun yaşanmamış olmasına dayanarak Türk başvurucunun makamlardan korku duymasını gerektiren bir durum bulunmadığı sonucunu hukuka uygun buldu.",
      "kayitlar": [
       "8f37aa29c0"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "Rechtbank Den Haag'ın 28 Ekim 2026 tarihli NL26.51724 sayılı kararı (ECLI:NL:RBDHA:2026:32747) yayımlandı: Türkiye kaynaklı iltica dosyasında Gülen hareketiyle atfedilen bağlantının inandırıcılığı, Kürt etnik kökenine dayalı mültecilik, 'açıkça dayanaksız' olarak sonuçlandırma ve md. 8 AİHS ele alınmış; başvuru reddedilmiş [451341622e].",
+     "kayitlar": [
+      "451341622e"
      ]
     }
    ]
@@ -1016,7 +1030,7 @@
    "neden": "Tasarruf finansman şirketlerine yönelik ceza soruşturmalarının şirket yönetimine el koyma ve malvarlığı tedbirleriyle birlikte yürüyüp yürümediği, merkezin kayyım/dondurma dosyalarıyla doğrudan ilgili. Kayıtta yalnızca gözaltı ve şüpheli sayıları var, tedbir kararı bilgisi yok.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "66a0a60070"
    ],
@@ -1040,6 +1054,14 @@
      "not": "Fon soruşturmasına ilişkin tek kayıt, iki aylık 'sessizlik' iddiasını içeren bir yorum haberi; yeni gözaltı, tutuklama ya da yakalama kararı sayısı verilmiyor.",
      "kayitlar": [
       "5614ba1e23"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "Fon soruşturmasında tutuklamalar bankacılık denetim bürokrasisine uzandı: BDDK Başkan Yardımcısı Muhammet Erişen ve Adil Katılım Bankası Genel Müdürü Murat Yönaç tutuklandı; bir gün önce BDDK Uygulama 3. Daire Başkanı Bilal Soysal cezaevine gönderilmişti [7ebbcefc7a]. Kayıtlar Katılımevim adını anmıyor; bağlantı 'fon vurgunu soruşturması' başlığı üzerinden kuruluyor.",
+     "kayitlar": [
+      "7ebbcefc7a",
+      "0a49544a13"
      ]
     }
    ]
@@ -1227,7 +1249,7 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "neden": "Muhalefet milletvekilinin iddiası, KHK ile ihraç edilen bir kişinin zorla kaybedilmiş olabileceği yönünde; doğrulanması halinde kayıp/zorla kaybetme dosyalarıyla doğrudan ilgili. Kayıt başlık ve özet düzeyinde, resmî bir soruşturma bilgisi yok.",
    "acildi": "2026-09-22",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-24",
    "kayitlar": [
     "c789cbd8f2"
@@ -1240,7 +1262,9 @@
       "568f8827dd"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-09",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t30",
@@ -1426,7 +1450,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1600,6 +1624,13 @@
      "kayitlar": [
       "fd6224a09c",
       "7393373b21"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "MLSA'nın 2-8 Kasım haftalık bülteni, 1-2 Kasım'da en az 207 X hesabının 5651 md. 8/A ve 'kamu düzeninin korunması' gerekçesiyle engellendiğini, kararı veren makam ve karar numaralarının açıklanmadığını yazıyor; engellenenler arasında Ayşenur Yazıcı, T. Sabri Öncü, Orkun Özeller ve Cem Baykal sayılıyor [1216c6acb9].",
+     "kayitlar": [
+      "1216c6acb9"
      ]
     }
    ]
@@ -1820,12 +1851,14 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "İktidar partisi milletvekilinin yakınlarına ait taşınmazdaki ruhsatsız yapıya ilişkin habercilik doğrudan mahkûmiyete konu oldu; hükmün gerekçesi ve isnat edilen suç kayıtlarda yer almıyor, istinaf seyri izlenmeli.",
    "acildi": "2026-09-24",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-24",
    "kayitlar": [
     "6d78e46064"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-09",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t39",
@@ -1833,12 +1866,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Kayıtta yalnızca ECLI numarası ve 'gegrond' sonucu ile besluitmoratorium/IGS geçerliliği anahtar sözcükleri var; karar moratoryumunun geçerliliğine ilişkin bir yargı denetimi Hollanda'daki Türkiye kaynaklı dosyaların işlem süresini etkileyebilir.",
    "acildi": "2026-09-24",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-24",
    "kayitlar": [
     "56bc209fad"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-09",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t40",
@@ -2210,7 +2245,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -2345,6 +2380,13 @@
      "kayitlar": [
       "fd6224a09c",
       "c69674a394"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "Bültene göre X, 207 hesabın büyük çoğunluğunu Türkiye'den erişilemez hale getirdi [1216c6acb9].",
+     "kayitlar": [
+      "1216c6acb9"
      ]
     }
    ]
@@ -3177,7 +3219,7 @@
    "neden": "Doluluk oranı, merkezin sağlık erişimi ve tutma koşulları dosyalarında (Boydak, ATK raporlu hükümlüler) olgusal zemin sağlıyor. Aylık serinin seyri izlenmeli.",
    "acildi": "2026-10-07",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "d024f7fb66"
    ],
@@ -3201,6 +3243,13 @@
      "not": "CİSST, 2025 yılı boyunca cezaevi izleme kurullarına, il ve ilçe insan hakları kurullarına, Adalet Bakanlığı'na ve Kamu Denetçiliği Kurumu'na yaptığı başvuruları ve alınan yanıtları değerlendiren '2025 Monitoring Boards Report' başlıklı raporu yayımladı. Kayıtta sayısal döküm yok; rapor izleme mekanizmalarının etkililiğini tartışıyor.",
      "kayitlar": [
       "ffc76f51f6"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "CİSST'in Kasım 2026 verisi, CTE'nin 4 Kasım 2026 tarihli yayınına dayanarak 304.184 kapasiteli 402 hapishanede 437.889 mahpus bildiriyor; Ekim verisindeki 434.337 rakamına göre artış var [e1381ae9e0].",
+     "kayitlar": [
+      "e1381ae9e0"
      ]
     }
    ]
@@ -4675,11 +4724,19 @@
    "neden": "Adli kontrol/ev hapsi kararlarının savcılık itirazıyla tutuklamaya çevrilmesi, merkezin birden çok dosyasında (Ağırel, Daylak, Nakıboğlu) görülen aynı usul kalıbı; fon soruşturmasında da kullanıldığının doğrulanması gerekiyor.",
    "acildi": "2026-10-26",
    "durum": "açık",
-   "son_hareket": "2026-10-26",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "d3ce4a9693"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-09",
+     "not": "Daha önce ev hapsi–yeniden tutuklama pratiği bağlamında izlenen Gürol Sami Özer, bugünkü kayıtta fon soruşturmasında tutuklananlar arasında eski Türkiye Sigorta Genel Müdür Yardımcısı sıfatıyla yeniden anılıyor [7ebbcefc7a].",
+     "kayitlar": [
+      "7ebbcefc7a"
+     ]
+    }
+   ]
   },
   {
    "id": "t147",
@@ -4688,7 +4745,7 @@
    "neden": "Bülten, merkezin izlediği dosyaları haftalık olarak derliyor; tam metni alındığında Tırpan dosyası dahil birçok takip maddesi için ikincil doğrulama kaynağı olabilir.",
    "acildi": "2026-10-26",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "0d548d6ef5"
    ],
@@ -4698,6 +4755,13 @@
      "not": "Cross Border Jurists bülteninin Issue 6'sı (26 Ekim-1 Kasım 2026) yayımlandı; kayıtta yalnızca başlık ve 'Eğitim Bakanı'nı protesto eden öğrencilerin tutuklanması' vurgusu var, içerik dökümü verilmemiş.",
      "kayitlar": [
       "7b2742f642"
+     ]
+    },
+    {
+     "gun": "2026-11-09",
+     "not": "Cross Border Jurists bülteninin 7. sayısı (2-8 Kasım 2026) yayımlandı; özette yalnızca RSF'nin Erdoğan'ı yeniden 'basın özgürlüğü düşmanları' arasında saydığı aktarılıyor, içerik dökümü kayıtta yok [35aecaee26].",
+     "kayitlar": [
+      "35aecaee26"
      ]
     }
    ]
@@ -5161,11 +5225,19 @@
    "neden": "Engelleme kararlarının Türkiye dışında yayımlanan bir gazeteye uygulanması, 5651 rejiminin ülke dışı etkisini gösteriyor; itiraz yolu ve gerekçelerin tebliği izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "b024397523"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-09",
+     "not": "Havadis gazetesinin sitesine ilişkin iki karar bültende numaralarıyla kayda geçti: İstanbul 9. Sulh Ceza Hâkimliği 1 Kasım, 2026/10802; İstanbul 1. Sulh Ceza Hâkimliği 2 Kasım, 2026/10045. Her iki kararda da gerekçe açıklanmamış [1216c6acb9].",
+     "kayitlar": [
+      "1216c6acb9"
+     ]
+    }
+   ]
   },
   {
    "id": "t174",
@@ -5351,11 +5423,19 @@
    "neden": "İlk derece mahkemesi, sıkılaştırılmış politikanın Türkiye'deki koşulların iyileştiğine dair yeterli delille desteklenmediğini söyleyerek en yüksek idari yargının Mart'taki yaklaşımından ayrıldı. Temyiz edilip edilmeyeceği ve diğer dosyalara etkisi izlenmeli.",
    "acildi": "2026-11-06",
    "durum": "açık",
-   "son_hareket": "2026-11-06",
+   "son_hareket": "2026-11-09",
    "kayitlar": [
     "f74db37157"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-09",
+     "not": "6 Kasım'da Lahey'in iki iltica reddini bozduğu yönündeki kaydın ardından, aynı mahkemenin 28 Ekim tarihli NL26.51724 kararında Gülen atfı ve Kürt kökeni iddialarının reddedildiği görülüyor; aynı mahkemede sonuçların dosyadan dosyaya ayrıştığını gösteriyor [451341622e].",
+     "kayitlar": [
+      "451341622e"
+     ]
+    }
+   ]
   },
   {
    "id": "t186",
@@ -5448,8 +5528,61 @@
     "8beb9bbebe"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t193",
+   "baslik": "Fon soruşturmasının BDDK üst yönetimine uzanması: Erişen, Soysal, Taş ve Yönaç dosyalarının seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Soruşturma sermaye piyasası kurumlarından bankacılık denetim otoritesinin üst yönetimine geçti; isnatların içeriği açıklanmadı. Kamu denetim kadrolarının toplu tutuklanması merkezin malvarlığı/kayyım dosyalarıyla kesişiyor.",
+   "acildi": "2026-11-09",
+   "durum": "açık",
+   "son_hareket": "2026-11-09",
+   "kayitlar": [
+    "7ebbcefc7a",
+    "0a49544a13"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t194",
+   "baslik": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkındaki gözaltı işlemi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "İhraç mağdurlarının hak ihlallerini belgeleyen iki kişiye yönelik gözaltı, belgeleme faaliyetinin kendisinin hedef alınması örüntüsüne giriyor. İsnat ve akıbet kayıtlarda yok.",
+   "acildi": "2026-11-09",
+   "durum": "açık",
+   "son_hareket": "2026-11-09",
+   "kayitlar": [
+    "f14b19b3e4"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t195",
+   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfının inandırıcılığı reddedilen dosyanın 'kennelijk ongegrond' olarak sonuçlandırılması",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Aynı mahkemenin bir hafta arayla verdiği kararlar farklı yönde çıkıyor; 'açıkça dayanaksız' nitelemesinin Türkiye dosyalarında ne sıklıkta kullanıldığı itiraz yollarını doğrudan etkiliyor.",
+   "acildi": "2026-11-09",
+   "durum": "açık",
+   "son_hareket": "2026-11-09",
+   "kayitlar": [
+    "451341622e"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t196",
+   "baslik": "Eskişehir ve Erzincan sulh ceza hâkimliklerinin yerel habere ve gazetecilere yönelik erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Haberes genel yayın yönetmeninin Vakıflar Genel Müdürlüğü ihalelerine ilişkin iki haberine 3 Kasım'da erişim engeli getirildi; karar numarası ve gerekçe açıklanmadı. Yerel yolsuzluk haberciliğine yönelen engelleme örüntüsünün izlenmesi gerekiyor.",
+   "acildi": "2026-11-09",
+   "durum": "açık",
+   "son_hareket": "2026-11-09",
+   "kayitlar": [
+    "1216c6acb9"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-08T08:33+00:00",
- "acik": 181
+ "guncelleme": "2026-11-09T09:04+00:00",
+ "acik": 182
 }
