@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-09",
- "olusturma": "2026-11-09T09:04+00:00",
+ "olusturma": "2026-11-09T10:45+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-09:Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı",
@@ -47,12 +47,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-09:10",
+   "id": "saglik:2026-11-09:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, MEDEL, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
