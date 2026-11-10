@@ -1311,7 +1311,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-11-07",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1411,6 +1411,13 @@
      "not": "ICJ ve birlikte imzacı uluslararası kuruluşlar, Pakistanlı insan hakları avukatları Imaan Zainab Mazari-Hazir ve Hadi Ali Chattha hakkında verilen mahkûmiyet kararlarını kınayan ortak açıklama yayımladı. Kayıtta ceza miktarı ve isnat edilen suç belirtilmiyor; dosya, Belarus ve Hong Kong örnekleriyle aynı seride ilerliyor.",
      "kayitlar": [
       "af5d4c28d6"
+     ]
+    },
+    {
+     "gun": "2026-11-10",
+     "not": "Lawyers for Lawyers, IBAHRI, LSEW ve OIAD, Tayland'da insan hakları avukatı Arnon Nampa'nın 30 Ekim 2026'da lèse-majesté (TCK md. 112) uyarınca dört yıl hapse mahkûm edilmesini (sonradan 2 yıl 8 aya indirildi) kınadı; bu onun 12. mahkûmiyeti ve kümülatif ceza 34 yıl 5 ay 20 gün. Nampa 26 Eylül 2023'ten beri tutuklu ve ayrıca baro disiplin süreciyle ruhsat iptali isteniyor. Dosya, mesleki/kamusal beyan nedeniyle avukatın cezalandırılması örneklerine üçüncü bir ülke ekliyor.",
+     "kayitlar": [
+      "201935e257"
      ]
     }
    ]
@@ -4153,12 +4160,20 @@
    "neden": "Geri gönderme izleme mekanizmalarının bağımsızlığı, merkezin sınır dışı dosyalarında usul güvencesi argümanlarının dayanağını oluşturuyor; rapor AB çapında boşlukları adlandırıyor [ec7457d148][971b359f22].",
    "acildi": "2026-10-16",
    "durum": "açık",
-   "son_hareket": "2026-10-16",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "ec7457d148",
     "971b359f22"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-10",
+     "not": "Statewatch'ın bugünkü yazısı, Frontex'in geri gönderme işlemlerinde gerekli hukuki belgeler olmadan kişileri çıkardığını ve makamlardan gazetecilerle veri paylaşımını durdurmasını istediğini bildiriyor. Bu, izleme bulgularının kamuya açılmaması sorununu ajans düzeyine taşıyor. Kayıt başlık ve özet düzeyinde; rapora dayanak belgeler metinde görünmüyor.",
+     "kayitlar": [
+      "2d7b76393f"
+     ]
+    }
+   ]
   },
   {
    "id": "t116",
@@ -4579,11 +4594,21 @@
    "neden": "Citizen Lab, yapay zekâ modellerinin diaspora aktivistlerini ve sürgündeki muhalifleri tespit, izleme ve hedefleme amacıyla kullanıldığını, Çin ile bağlantılı iki aktörün gazetecileri taklit ettiğini bildiriyor. Merkezin sınıraşan baskı dosyalarında delil ve atıf sorunları açısından izlenmesi gerekiyor.",
    "acildi": "2026-10-23",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "79acc4f94a"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-10",
+     "not": "Üç ayrı kayıt dosyayı besliyor: Statewatch'a göre AB ülkeleri ve Birleşik Krallık kolluğu Cellebrite telefon çıkarma araçlarını aktivist, sığınmacı ve gazetecileri profillemek veya yargılamak için kullandı; ARTICLE 19 ödeme platformları üzerinden 'finansal sınıraşan baskı' riskine ilişkin bir el kitabı yayımladı; Citizen Lab, Çin diasporasının rıza ve zorlama yoluyla yönetilmesi üzerine bir kitap etkinliği duyurdu. Üçü de araç/altyapı düzeyinde baskıyı gösteriyor, Türkiye'ye özgü vaka içermiyor.",
+     "kayitlar": [
+      "d9a974d826",
+      "c1ba309e8b",
+      "7b3e9a0dc9"
+     ]
+    }
+   ]
   },
   {
    "id": "t138",
@@ -4928,11 +4953,23 @@
    "neden": "Öneri, ajansın AB dışındaki operasyonel rolünü ve geri gönderme yetkisini genişletiyor; merkezin non-refoulement ve sınır dışı dosyalarında doğrudan dayanak oluşturacak bir mevzuat süreci başlıyor. Yasama sürecinde metnin hangi insan hakları güvenceleriyle çıkacağı izlenmeli.",
    "acildi": "2026-10-29",
    "durum": "açık",
-   "son_hareket": "2026-10-29",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "e3bf8ff006"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-10",
+     "not": "Statewatch, Frontex'in geri göndermelerde AB hukukunu ihlal ettiğini, bütçesini aştığını ve bunu örtbas etmeye çalıştığını bildirdi; aynı gün ajansın geri dönüş ve yeniden entegrasyon ağı belgeleri (13. Post Return and Reintegration Network toplantısı, 6. Gönüllü Geri Dönüş Ağı toplantısı çıktı raporu, Ocak-Mart 2026 geri dönüş durum resmi, AB Yeniden Entegrasyon Programı işleyişi) yayımlandı. Manda genişletme tartışması bu bulgularla birlikte okunacak.",
+     "kayitlar": [
+      "2d7b76393f",
+      "90be96fdca",
+      "edba5c7219",
+      "cef423fe52",
+      "360a640204"
+     ]
+    }
+   ]
   },
   {
    "id": "t157",
@@ -4967,11 +5004,19 @@
    "neden": "Rapor, cezaevi sağlık erişimi dosyasına çocuklu anneler boyutunu ekliyor; merkezin CPT ve md. 3 argümanlarında kullanılabilecek yeni bir veri kümesi. Raporu yayımlayan kuruluşun adı kayıtta kesik, tam metnin görülmesi gerekiyor.",
    "acildi": "2026-10-29",
    "durum": "açık",
-   "son_hareket": "2026-10-29",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "8a1da943ed"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-10",
+     "not": "Global Detention Project ile Children of Incarcerated Caregivers, BM Kadına ve Kız Çocuklarına Yönelik Şiddet Özel Raportörü'nün Bosna-Hersek ziyareti öncesinde hamile ve emziren kadınların tutulmasına ilişkin ortak görüş sundu. Türkiye dosyası değil; aynı temada mekanizma önüne giden bir başka örnek.",
+     "kayitlar": [
+      "d3193145ff"
+     ]
+    }
+   ]
   },
   {
    "id": "t160",
@@ -5087,7 +5132,7 @@
    "neden": "Köse kararının genel tedbir boyutu HSK kararlarına karşı yargı yolu sorununa ilişkin; terfi listelerinin içeriği HSK kararlarının denetlenebilirliği tartışmasında veri oluşturur. Kayıtta yalnızca başlık düzeyinde bilgi var.",
    "acildi": "2026-10-31",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "7d4e21102c"
    ],
@@ -5105,6 +5150,13 @@
      "not": "Resmî Gazete'de ikinci kez 'HSK Terfi Listesi' başlıklı kayıt geldi; yine yalnızca başlık düzeyinde, içerik dökümü yok [7d4e21102c].",
      "kayitlar": [
       "7d4e21102c"
+     ]
+    },
+    {
+     "gun": "2026-11-10",
+     "not": "10 Kasım 2026 tarihli ve 33426 sayılı Resmî Gazete'de HSK'nın 2026 Ağustos dönemi sonu itibarıyla adli ve idari yargı hâkimleri ile Cumhuriyet savcılarının yükselme, intibak terfisi ve birinci sınıfa ayrılma kararları yayımlandı. Özete göre kararlar hâkim ve savcıları derece/kademe gruplarına göre sınıflandırıp farklı görev yerlerine dağıtıyor; isim listesi kayıtta yok.",
+     "kayitlar": [
+      "bda2938e87"
      ]
     }
    ]
@@ -5281,11 +5333,19 @@
    "neden": "Dijital delil elde etme araçlarının sınırlı güvencelerle kullanıldığı iddiası, elektronik delil rejimi ve sınıraşan baskı dosyalarında delil kaynağı tartışmasına bağlanıyor.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-03",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "deed380798"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-10",
+     "not": "Statewatch, Cellebrite telefon çıkarma araçlarının Birleşik Krallık ve AB ülkelerinde aktivist, sığınmacı ve gazetecileri profillemek ya da yargılamak için kullanıldığını bildirdi. 3 Kasım'da harcama boyutuyla açılan dosya, bugün kullanım amacı iddiasıyla genişledi. Hangi ülkede hangi dosyada kullanıldığı kayıtta yok.",
+     "kayitlar": [
+      "d9a974d826"
+     ]
+    }
+   ]
   },
   {
    "id": "t177",
@@ -5550,11 +5610,19 @@
    "neden": "İhraç mağdurlarının hak ihlallerini belgeleyen iki kişiye yönelik gözaltı, belgeleme faaliyetinin kendisinin hedef alınması örüntüsüne giriyor. İsnat ve akıbet kayıtlarda yok.",
    "acildi": "2026-11-09",
    "durum": "açık",
-   "son_hareket": "2026-11-09",
+   "son_hareket": "2026-11-10",
    "kayitlar": [
     "f14b19b3e4"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-10",
+     "not": "SCF, dün başlık düzeyinde bilinen gözaltıyı ayrıntılandırdı: KHK TV editörü Ahmet Erkan Yiğitsözlü Ankara'da, ihraç edilenlerin hak savunucusu Münir Korkmaz başka bir şehirde gözaltına alındı; soruşturmayı Osmaniye savcıları yürütüyor (kaynak TR724). Editörün adı dünkü kayıtlara göre 'Ahmet Erkan' olarak geçiyordu, bugünkü kayıtta soyadı Yiğitsözlü olarak veriliyor. İsnadın içeriği ve sevk durumu kayıtta yok.",
+     "kayitlar": [
+      "0edfa9b75e"
+     ]
+    }
+   ]
   },
   {
    "id": "t195",
@@ -5581,8 +5649,64 @@
     "1216c6acb9"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t197",
+   "baslik": "İzmir'de iki terör soruşturması kapsamında 23 sol örgüt üyesinin gözaltına alınması ve İstanbul'daki eşzamanlı baskınlar",
+   "alan": "İfade ve örgütlenme özgürlüğü",
+   "neden": "Gözaltıların isnadı, sevk sonucu ve İstanbul'da aranan yerlerin niteliği kayıtta yok; sayının ve tutuklama oranının izlenmesi gerekiyor.",
+   "acildi": "2026-11-10",
+   "durum": "açık",
+   "son_hareket": "2026-11-10",
+   "kayitlar": [
+    "2b0d828a90"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t198",
+   "baslik": "Gazeteci İdris Yılmaz'ın Van'daki sosyal yardım vakfı yolsuzluğu haberi nedeniyle Erciş'te polisçe sorgulanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kamu kaynaklı vakıflara ilişkin haberin kolluk sorgusuna konu olması, yolsuzluk haberciliğine yönelik işlemlerin yerel düzeye yayıldığını gösteriyor; soruşturmanın hukuki dayanağı belirsiz.",
+   "acildi": "2026-11-10",
+   "durum": "açık",
+   "son_hareket": "2026-11-10",
+   "kayitlar": [
+    "c21e52ddf8"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t199",
+   "baslik": "Statewatch'ın Frontex geri gönderme bulguları: belgesiz çıkarmalar, bütçe aşımı ve gazetecilerle veri paylaşımının durdurulması talebi",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Bulgular hem manda genişletme tartışmasını (t156) hem de geri gönderme izlemesinin şeffaflığını (t115) doğrudan etkiliyor; ajansın yanıtı ve varsa OLAF/Ombudsman adımları izlenmeli.",
+   "acildi": "2026-11-10",
+   "durum": "açık",
+   "son_hareket": "2026-11-10",
+   "kayitlar": [
+    "2d7b76393f",
+    "90be96fdca",
+    "edba5c7219",
+    "cef423fe52",
+    "360a640204"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t200",
+   "baslik": "Kızılay çadır satışı protestosu nedeniyle muhalefet partisi yöneticisi Kemal Koç'un bir aylık hapis cezasının istinafta onanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Protesto eylemi nedeniyle verilen kısa süreli hapis cezasının infaza dönüşmesi, toplantı ve ifade özgürlüğü dosyalarında orantılılık tartışması için somut bir örnek oluşturuyor.",
+   "acildi": "2026-11-10",
+   "durum": "açık",
+   "son_hareket": "2026-11-10",
+   "kayitlar": [
+    "320cf7295a"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-09T09:04+00:00",
- "acik": 182
+ "guncelleme": "2026-11-10T09:14+00:00",
+ "acik": 186
 }

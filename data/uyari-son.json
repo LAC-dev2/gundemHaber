@@ -1,53 +1,28 @@
 {
- "gun": "2026-11-09",
- "olusturma": "2026-11-09T21:15+00:00",
+ "gun": "2026-11-10",
+ "olusturma": "2026-11-10T09:14+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-09:Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Fon soruşturmasında tutuklamalar BDDK üst yönetimine uzandı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Soruşturma sermaye piyasası kurumlarının (SPK, Borsa İstanbul, Takasbank) eski yöneticilerinden bankacılık denetim otoritesinin görevdeki üst yönetimine geçti. Adalet Bakanı'nın 3 Kasım'daki 'denetim mekanizmalarına sızan şebeke' ifadesi, isnadın örgütsel bir çerçeveye oturtulduğunu gösteriyor. Aynı dosyada gazeteciler hakkında 19 yıla kadar hapis istemli iddianameler bulunduğu için (t183) ceza soruşturması ile habercilik kovuşturması birbirine bağlı yürüyor.",
-   "kayitlar": [
-    "7ebbcefc7a",
-    "0a49544a13"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "alan:2026-11-09:Rechtbank Den Haag NL26.51724: Gülen atfı ve Kürt kökeni idd",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfı ve Kürt kökeni iddiaları reddedildi, dosya 'açıkça dayanaksız' sayıldı",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Karar özeti, Türkiye kaynaklı bir dosyada hem kişiye atfedilen Gülen hareketi bağlantısının inandırıcılığını hem de Kürt etnik kökenine dayalı mültecilik iddiasını ele alıp başvuruyu reddediyor ve dosyayı 'kennelijk ongegrond' (açıkça dayanaksız) olarak sonuçlandırıyor; md. 8 AİHS değerlendirmesi de yapılmış. 2 Kasım'da aynı mahkemenin iki Gülen bağlantılı reddi bozduğu kaydıyla birlikte okunduğunda, Hollanda idari yargısında sonuçların dosya bazında ayrıştığı görülüyor.",
-   "kayitlar": [
-    "451341622e"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-11-09:toplu:10",
+   "id": "takip:2026-11-10:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "10 takip dosyasında hareket var",
+   "baslik": "8 takip dosyasında hareket var",
    "alan": "",
-   "not": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturması; Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeni; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; Kuzey Kıbrıs'ta yayımlanan Havadis gazetesinin sitesine Türkiye'deki i; KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue ; Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltic; Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarih",
+   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; FRA'nın zorla geri gönderme izleme raporu: izleme bulgularını yayımlam; Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab; Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülk; 'Vulnerable Behind Bars' raporu: bebekleriyle cezaevinde tutulan annel; Resmî Gazete'de yayımlanan HSK terfi listesinin içeriği; AB ve Birleşik Krallık kolluğunun İsrail menşeli telefon kırma teknolo; KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz h",
    "kayitlar": [
-    "7ebbcefc7a",
-    "0a49544a13",
-    "7ebbcefc7a",
-    "e1381ae9e0",
-    "1216c6acb9",
-    "1216c6acb9",
-    "1216c6acb9",
-    "f14b19b3e4"
+    "201935e257",
+    "2d7b76393f",
+    "d9a974d826",
+    "c1ba309e8b",
+    "7b3e9a0dc9",
+    "2d7b76393f",
+    "90be96fdca",
+    "edba5c7219"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-09:10",
+   "id": "saglik:2026-11-10:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
    "baslik": "10 kaynağın akışı hata veriyor",
