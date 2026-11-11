@@ -1939,6 +1939,10 @@
 "checked": "2026-11-11T12:21:02+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2026:10999&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-11T13:28:19+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2026:7697&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-24T13:10:17+00:00",
 "img": ""
@@ -8349,6 +8353,10 @@
 },
 "https://verfassungsblog.de/the-currently-uneven-intelligence-of-ai-in-comparative-constitutional-law/": {
 "checked": "2026-10-14T15:39:11+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/the-delegitimisation-of-the-arab-vote-in-israel/": {
+"checked": "2026-11-11T13:28:19+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/the-global-east-and-the-promise-of-reflexivity/": {
