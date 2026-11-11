@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-11",
- "olusturma": "2026-11-11T10:08+00:00",
+ "olusturma": "2026-11-11T11:41+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-11:Halk TV sahibi hakkındaki rüşvet ve aklama soruşturmasında y",
@@ -46,12 +46,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-11:10",
+   "id": "saglik:2026-11-11:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Scholars at Risk, Alomaliye, ESMA, MENAFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
