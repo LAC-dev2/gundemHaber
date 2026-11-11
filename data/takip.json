@@ -304,7 +304,7 @@
    "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-09",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "6bad902c60"
    ],
@@ -350,6 +350,13 @@
      "not": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkında gözaltı işlemi uygulandı; kayıtta yalnızca başlık ve kısa özet düzeyinde bilgi var, isnat ve gözaltı yeri belirtilmemiş [f14b19b3e4].",
      "kayitlar": [
       "f14b19b3e4"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "İzmir Bölge Adliye Mahkemesi, beraat etmiş olmasına rağmen hakkında terör isnatlarını yeniden gündeme getiren yazılar nedeniyle hükümete yakın bir gazetenin yayıncısı ve bir gazetecinin ihraç edilmiş akademisyene tazminat ödemesine hükmetti. Tutar kayıtta yok.",
+     "kayitlar": [
+      "a25dd7a8f7"
      ]
     }
    ]
@@ -1129,7 +1136,7 @@
    "neden": "Türkiye ilk gün konuşmacıları arasında; ayrıca uluslararası ceza ve insan hakları kurumlarının zayıflatılmasına ilişkin tartışma merkezin BM mekanizmaları dosyasını etkiler.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "94f64e4573",
     "47b34b0e34"
@@ -1165,6 +1172,18 @@
      "not": "ICJ, BM Genel Kurulu 6. Komite'nin 'insanlığa karşı suçlar sözleşmesi konferansı' genel görüşmesi vesilesiyle sivil toplumun müzakerelere katılımı çağrısını yineledi.",
      "kayitlar": [
       "5698ac07b9"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "BM Genel Kurulu Üçüncü Komite akışında ölüm cezası moratoryumu taslağına değişiklik önergesi, organ ticareti, halkların kendi kaderini tayin hakkı ve özel siyasi misyonlar taslakları kayda girdi; tamamı başlık düzeyinde.",
+     "kayitlar": [
+      "a33ab5cd0e",
+      "836feda06a",
+      "49a908755b",
+      "4406d40a92",
+      "6bc8c4f66b",
+      "2addac7be7"
      ]
     }
    ]
@@ -1311,7 +1330,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-11-10",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1419,6 +1438,13 @@
      "kayitlar": [
       "201935e257"
      ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "OIAD ve Lawyers for Lawyers, El Salvador'da avukat Luis Rivera'ya yönelik 5 Kasım 2026 tarihli polis takibi ve hesaplarına izinsiz erişim girişimi iddialarını duyurdu; açıklama Roxana Cardona, Guillermo García, Ruth López ve Enrique Anaya dosyalarına atıf yapıyor.",
+     "kayitlar": [
+      "d1c8f5c564"
+     ]
     }
    ]
   },
@@ -1429,7 +1455,7 @@
    "neden": "Cezaya karar verme metodolojisi ve DSA ile GDPR'ın kesiştiği veri işleme alanları, merkezin erişim engelleri ve elektronik delil dosyalarında dayanak oluşturabilir; kılavuz 13 Kasım 2026'ya kadar kamu istişaresinde.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "635da126b9"
    ],
@@ -1446,6 +1472,15 @@
      "not": "EDPB duyurusuna göre İtalyan veri koruma otoritesi Wind Tre'ye hukuka aykırı telefonla pazarlama ve veri koruma ihlalleri nedeniyle 16.700.000 avro idari para cezası verdi. Kayıt başlık düzeyinde.",
      "kayitlar": [
       "972b3a0440"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "EDPB akışına İtalyan veri koruma otoritesinin üç cezası girdi (Poste Italiane 48.000 ve Deutsche Bank 33.000 avro şeffaflık ihlali; Wind Tre 365.000'den fazla müşteriyi etkileyen güvenlik ihlali nedeniyle 1,7 milyon avro). Kılavuzun nihai hali hakkında kayıt yok.",
+     "kayitlar": [
+      "4bfba83c56",
+      "86d0e0289a",
+      "53d7c3b8f0"
      ]
     }
    ]
@@ -2158,12 +2193,14 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "neden": "Kesinleşmiş ya da istinaf aşamasındaki mahkûmiyetleri bulunan ihraç edilmiş kamu görevlilerinin ülkeden çıkış girişimleri, merkezin iltica ve sınıraşan baskı dosyalarında düzenli olarak karşılaştığı bir örüntü. Bu tür yakalamaların sıklığı ve sonrasında açılan 'yasa dışı yurt dışına çıkış' soruşturmalarının seyri izlenmeli.",
    "acildi": "2026-09-26",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-26",
    "kayitlar": [
     "2caac998cb"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-11",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t45",
@@ -2171,12 +2208,14 @@
    "alan": "BM insan hakları mekanizmaları",
    "neden": "Keyfî tutukluluk, WGAD kararlarının uygulanmaması ve ICC'den çekilme başlıkları merkezin BM mekanizmaları ve uluslararası ceza yargısı dosyalarıyla kesişiyor. UPR sonuç belgesinin İHK'da kabulü ve çekilme sürecinin takvimi izlenmeli.",
    "acildi": "2026-09-26",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-26",
    "kayitlar": [
     "a496186202"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-11",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t46",
@@ -3749,7 +3788,7 @@
    "neden": "On beş adayın tamamının rekabetsiz listelerle seçilmesi, Konsey'in üyelik ölçütlerinin (GK 60/251) uygulanabilirliğini ilgilendiriyor; merkezin BM mekanizmalarına yaptığı başvuruların kurumsal bağlamını etkiler.",
    "acildi": "2026-10-12",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "ea60fd7da8"
    ],
@@ -3759,6 +3798,14 @@
      "not": "ICJ'nin değerlendirmesine göre İnsan Hakları Konseyi 7 Eylül-7 Ekim 2026 tarihli 63. oturumunda 37 karar aldı; bunların dokuzu ülke durumlarına (Afganistan, Burundi, Orta Afrika Cumhuriyeti, DRC, Gürcistan, Rusya, Sudan, Venezuela, Yemen) ilişkin.",
      "kayitlar": [
       "5455b41946"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "İnsan Hakları Konseyi'nin işleyişine ilişkin yeni bir mesele açıldı: ABD'nin UPR'ye ikinci kez katılmaması üzerine Konsey incelemeyi Ocak 2027'ye erteledi ve BM belge akışında 'inceleme altındaki devletin UPR mekanizmasıyla işbirliğini sürdürmemesi' başlıklı bir taslak karar göründü.",
+     "kayitlar": [
+      "d0ca539d69",
+      "53d15f3fff"
      ]
     }
    ]
@@ -3994,7 +4041,7 @@
    "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-11-02",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "db2250c34a",
     "15e176aae1",
@@ -4073,6 +4120,13 @@
      "not": "İFÖD'ün Ekim dökümünde Halk TV ve T24 hesapları, engellenen hesaplar arasında yeniden sayılıyor; kullanıcı adını değiştiren veya yeni hesap açanların hesaplarının da yeniden engellendiği belirtiliyor. Yeni bir karar numarası ya da usul adımı kayıtlarda yok.",
      "kayitlar": [
       "44e97e1221"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "İstanbul Başsavcılığı'nın Halk TV sahibi Cafer Mahiroğlu'na ilişkin rüşvet ve aklama soruşturmasında 10 Kasım'da yedi kişi gözaltına alındı; kayıt, kanala devlet eliyle el konulmasının üzerinden bir aydan az süre geçtiğini belirtiyor.",
+     "kayitlar": [
+      "f0392d29c2"
      ]
     }
    ]
@@ -4617,11 +4671,19 @@
    "neden": "HRW'ye göre haziranda sınır dışı edilen Asadullo Boboev 21 Eylül'de 17 yıl hapis cezası aldı; 2023'ten bu yana aynı ülkeye gönderilen üç muhalif de 7, 10 ve 8 yıl ceza aldı. AB üyesi bir devletin uyarılara rağmen geri gönderme pratiği, merkezin iade/iltica dosyalarında doğrudan emsal değeri taşıyor.",
    "acildi": "2026-10-23",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "4998d46646"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-11",
+     "not": "Tacikistan'ın periyodik BM incelemesinde üye devletlerin hak korumalarının güçlendirilmesi çağrısı yaptığı bildirildi; kayıt başlık ve giriş düzeyinde, Almanya'dan sınır dışı edilenlerin akıbetine ilişkin yeni veri içermiyor.",
+     "kayitlar": [
+      "08ac1043e0"
+     ]
+    }
+   ]
   },
   {
    "id": "t139",
@@ -5191,7 +5253,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-08",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5223,6 +5285,13 @@
     {
      "gun": "2026-11-08",
      "not": "7 Kasım tarihli Resmî Gazete akışında yeniden 'Yargı Harçları' başlıklı bir kayıt düştü; kayıt yalnızca başlık düzeyinde olduğu için düzenlemenin kapsamı, tarifeler ve yürürlük tarihi hâlâ doğrulanamıyor. 1 Kasım'daki kayıttan sonra aynı başlığın ikinci kez görünmesi, dosyanın metninin elde edilmesini gerektiriyor.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "Resmî Gazete akışında 10 Kasım 13:30'da yine yalnızca 'Yargı Harçları' başlıklı bir kayıt göründü; içerik metni yok. Bu, aynı başlığın kısa aralıkla tekrar eden üçüncü görünümü ve düzenlemenin kapsamı hâlâ başlık düzeyinde kalıyor.",
      "kayitlar": [
       "673dd445f6"
      ]
@@ -5462,7 +5531,7 @@
    "neden": "Hollanda'da karar süresi aşımına dayanan davaların kabulü, Türkiye kaynaklı başvurular dahil bekleyen dosyalarda usul seyrini etkiliyor. Kayıt yalnızca özet düzeyinde; başvurucunun uyruğu ve hükmedilen yaptırım belirtilmiyor.",
    "acildi": "2026-11-05",
    "durum": "açık",
-   "son_hareket": "2026-11-07",
+   "son_hareket": "2026-11-11",
    "kayitlar": [
     "236ce849d9"
    ],
@@ -5472,6 +5541,13 @@
      "not": "Rechtbank Den Haag'ın 3 Kasım 2026 tarihli NL25.46763 sayılı kararı (ECLI:NL:RBDHA:2026:32389) bir 'süresinde karar vermeme' (beroep niet tijdig) davasının geri çekilmesi ve vekâlet ücreti hükmüyle sonuçlandı. Kayıt yalnızca anahtar kelime düzeyinde; gerekçe metni elimizde yok.",
      "kayitlar": [
       "eedd72f2ed"
+     ]
+    },
+    {
+     "gun": "2026-11-11",
+     "not": "Rechtbank Den Haag'ın 7 Ekim 2026 tarihli 26.43278 sayılı kararı (ECLI:NL:RBDHA:2026:33150) yayımlandı: süresinde karar vermeme davası kabul edilebilir ve haklı bulundu, idareye 8+4 haftalık yeni karar süresi verildi, idari para cezası (dwangsom) hükmedilmedi. Bu, NL26.50232 ile aynı yöndeki ikinci örnek; dwangsom verilmemesi ayrı bir çizgi olarak izlenmeli.",
+     "kayitlar": [
+      "d3c0c0a72a"
      ]
     }
    ]
@@ -5705,8 +5781,61 @@
     "320cf7295a"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t201",
+   "baslik": "İnfaz kurullarının 2026'nın ilk on ayında en az 116 mahpusun koşullu tahliyesini ertelemesi ve kararlarda siyasi görüş etkisi iddiası",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Tahliye ertelemeleri, cezaevi idaresi kararıyla fiilî ceza uzatması anlamına geliyor ve merkezin tecrit/infaz dosyalarıyla (CPT raporları, Kul–Akıllı kararı) doğrudan kesişiyor. Sayının kaynağı bir avukatlar derneği; resmî veriyle karşılaştırılması gerekiyor.",
+   "acildi": "2026-11-11",
+   "durum": "açık",
+   "son_hareket": "2026-11-11",
+   "kayitlar": [
+    "79329a44a8"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t202",
+   "baslik": "UPR mekanizmasıyla işbirliğini sürdürmeme: ABD'nin ikinci kez katılmaması ve İnsan Hakları Konseyi'ndeki taslak karar",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "UPR'nin evrenselliği, merkezin BM mekanizmalarına dayandırdığı izleme argümanlarının zeminini oluşturuyor; katılmamanın yaptırımsız kalması emsal etkisi doğurabilir. Taslak kararın metni ve Ocak 2027 takvimi izlenmeli.",
+   "acildi": "2026-11-11",
+   "durum": "açık",
+   "son_hareket": "2026-11-11",
+   "kayitlar": [
+    "d0ca539d69",
+    "53d15f3fff"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t203",
+   "baslik": "Rojin Kabaiş dosyasında ailenin davadan vazgeçmesi için maskeli kişilerce tehdit ve saldırı",
+   "alan": "İfade ve basın özgürlüğü / etkili soruşturma",
+   "neden": "Şüpheli ölüm soruşturmasını takip eden ailenin fiziksel tehditle caydırılması iddiası, md. 2 usul yükümlülüğü ve mağdur güvenliği başlığı altında izlenmesi gereken bir olgu. Saldırı hakkında soruşturma açılıp açılmadığı bilinmiyor.",
+   "acildi": "2026-11-11",
+   "durum": "açık",
+   "son_hareket": "2026-11-11",
+   "kayitlar": [
+    "dbe6fb6aec"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t204",
+   "baslik": "Muhalefet milletvekili Ahmet Şık'ın eşinin casusluk soruşturması kapsamında gözaltına alınması ve aynı gün serbest bırakılması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Milletvekilinin soruları nedeniyle aile üyesinin hedef alındığı iddiası, soruşturmanın caydırıcı işlev gördüğü yönündeki dosyalara ekleniyor. İfade alındıktan sonra serbest bırakılması, isnadın dayanağına ilişkin soru doğuruyor.",
+   "acildi": "2026-11-11",
+   "durum": "açık",
+   "son_hareket": "2026-11-11",
+   "kayitlar": [
+    "d307832149"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-10T09:14+00:00",
- "acik": 186
+ "guncelleme": "2026-11-11T08:51+00:00",
+ "acik": 188
 }
