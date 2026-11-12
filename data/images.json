@@ -1743,6 +1743,10 @@
 "checked": "2026-11-10T14:14:04+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:33133&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:33150&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-11-11T08:46:40+00:00",
 "img": ""
@@ -2527,6 +2531,22 @@
 "checked": "2026-11-12T09:10:45+00:00",
 "img": ""
 },
+"https://digitallibrary.un.org/record/4132449": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132456": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132468": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132469": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": ""
+},
 "https://echrblog.com/book-discussion-hate-speech-and-the-ecthr/?utm_source=rss&utm_medium=rss&utm_campaign=book-discussion-hate-speech-and-the-ecthr": {
 "checked": "2026-10-22T15:45:10+00:00",
 "img": "https://echrblog.com/wp-content/uploads/2026/10/9781032909240.webp"
@@ -3067,8 +3087,16 @@
 "checked": "2026-11-05T11:52:46+00:00",
 "img": ""
 },
+"https://fra.europa.eu/en/event/2026/fra-management-board-meet": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": ""
+},
 "https://fra.europa.eu/en/event/2026/fra-take-part-ihra-roma-genocide-committee-meeting": {
 "checked": "2026-10-07T17:37:08+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/event/2026/fras-executive-board-meet-1": {
+"checked": "2026-11-12T18:39:16+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/event/2026/how-can-legal-expertise-help-build-more-resilient-civil-society": {
@@ -3249,6 +3277,10 @@
 },
 "https://globalfreedomofexpression.columbia.edu/updates/2026/10/cgfoe-protest-monitor-october-8-2026-issue-india/": {
 "checked": "2026-10-08T17:40:16+00:00",
+"img": "https://globalfreedomofexpression.columbia.edu/wp-content/uploads/2018/07/400x400Block_Solid.jpg"
+},
+"https://globalfreedomofexpression.columbia.edu/updates/2026/11/cgfoe-protest-monitor-november-12-2026-issue-sri-lanka/": {
+"checked": "2026-11-12T18:39:16+00:00",
 "img": "https://globalfreedomofexpression.columbia.edu/wp-content/uploads/2018/07/400x400Block_Solid.jpg"
 },
 "https://globalfreedomofexpression.columbia.edu/updates/2026/11/cgfoe-protest-monitor-november-5-2026-issue-united-kingdom/": {
@@ -3622,6 +3654,10 @@
 "https://globalinvestigationsreview.com/article/kuwait-pension-fund-victim-of-breathtaking-corruption": {
 "checked": "2026-11-06T17:45:59+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvc2h1dHRlcnN0b2NrXzE5MDkxODU5MDEuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
+"https://globalinvestigationsreview.com/article/market-manipulation-case-reveals-fcas-forensic-playbook": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvRGVzaWduZXIgKDI1KS5wbmciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
 },
 "https://globalinvestigationsreview.com/article/meta-x-tiktok-lose-bid-halt-uk-regulators-data-demands": {
 "checked": "2026-11-05T18:24:23+00:00",
@@ -4143,6 +4179,10 @@
 "checked": "2026-10-22T20:21:37+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvc2h1dHRlcnN0b2NrXzIwNzA2Mjk3NjUuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
 },
+"https://globalinvestigationsreview.com/just-sanctions/article/maduro-leans-halkbank-rulings-build-sovereign-immunity-defence": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljL01hZHVyb18xLmpwZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICJlZGl0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAicmVzaXplIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIndpZHRoIjogOTQ1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImhlaWdodCI6IDUyNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmaXQiOiAiY292ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInBvc2l0aW9uIjogImNlbnRlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmFja2dyb3VuZCI6IHsgInIiOiAyNTUsICJnIjogMjU1LCAiYiI6IDI1NSwgImFscGhhIjogMSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQ=="
+},
 "https://globalinvestigationsreview.com/just-sanctions/article/mi5-universities-must-cut-ties-chinese-group-or-risk-prosecution": {
 "checked": "2026-10-01T17:12:55+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTAvc2h1dHRlcnN0b2NrXzI4NDM4NTE0NzcuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
@@ -4557,6 +4597,10 @@
 },
 "https://medyascope.tv/2026/11/10/mileinin-testeresi-artik-kesmiyor/": {
 "checked": "2026-11-10T12:08:06+00:00",
+"img": ""
+},
+"https://medyascope.tv/2026/11/12/mumtazer-turkone-yazdi-yeni-parti-eski-siyaset/": {
+"checked": "2026-11-12T18:39:16+00:00",
 "img": ""
 },
 "https://mlsaturkey.com/en/censorship-bulletin-for-sept-21-27": {
@@ -5161,6 +5205,10 @@
 },
 "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pZy1ReDJWelBNaXE4SmFMcWItTVpLdDVFUlp3M3hXdF9hcGJ4ems2dFBpamF2YW5fZnJ1ZFd3a2xOdWdsbGJ6SUstTTlMY3F0Z1gxRmhHa1hIUDFZdm9vYl9MUkM1cVJMbDI5UzhhYTV3ekVfRTUtZFV6R0FSZw?oc=5": {
 "checked": "2026-10-24T07:47:46+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMifkFVX3lxTE5uYUg2Q3ZSd2tjVjVlSlRCYndtUElYaXVmcmtyS0tHekYyZ2t2dzZZVGU1d1p3bU5EVDBjOVJlYnZYQ2tDYjlWekNMX1hsTmYzNFZhX3M3N2lGdmxHWG8wU2RPdVUzYm5JajRQX01iLUk3TDQtcWtwRjNpZzh0Zw?oc=5": {
+"checked": "2026-11-12T18:39:16+00:00",
 "img": ""
 },
 "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xYy1Ud21yckl3aWdtcmltNzFlMk5BaFNRQTNFaE9TeUtYenB6c3hLRnJYZ0lRZ0RTcldMSHVFWE92R2pvRjF0YjRDWVo4WTdlcS13Q25tWTZfS3huWVBfWVpydGh5WHE3ZDdRbHdZVFhTMkRGR1BmMkhKRW1FUQ?oc=5": {
@@ -6651,6 +6699,10 @@
 "checked": "2026-09-29T10:25:21+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Jumio-expands-selfie-based-identity-verification-across-EMEA.jpg"
 },
+"https://regtechanalyst.com/kycp-sharpens-client-onboarding-with-cot-2-1-7-update/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/KYCPs-COT-2.1.7-targets-friction-in-client-onboarding.jpg"
+},
 "https://regtechanalyst.com/kynd-tackles-shadow-ai-blind-spot-in-cyber-underwriting/": {
 "checked": "2026-10-01T17:12:55+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Cyber-insurers-can-no-longer-rely-on-AI-self-disclosure.jpg"
@@ -6770,6 +6822,10 @@
 "https://regtechanalyst.com/oneclickcomply-passes-2-4m-raised-with-fresh-1m-round/": {
 "checked": "2026-09-25T15:41:46+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/OneClickComply-passes-2.4m-raised-with-fresh-1m-round.jpg"
+},
+"https://regtechanalyst.com/opoints-toby-cook-says-honesty-not-hype-sells-news-data/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Why-Opoints-sales-chief-leads-with-what-it-cant-do.jpg"
 },
 "https://regtechanalyst.com/oracle-nexus-pushes-ai-agents-into-financial-crime-probes/": {
 "checked": "2026-09-30T16:34:33+00:00",
@@ -7211,6 +7267,10 @@
 "checked": "2026-10-08T11:44:00+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/SupTech-flips-the-intelligence-gap-on-compliance-teams.jpg"
 },
+"https://regtechanalyst.com/why-regulatory-change-needs-more-than-ai-alerts/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/growtika-nGoCBxiaRO0-unsplash-1.jpg"
+},
 "https://regtechanalyst.com/why-smb-verification-is-failing-where-volume-lives/": {
 "checked": "2026-10-05T11:11:48+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/The-long-tail-of-SMBs-is-where-fraud-now-hides.jpg"
@@ -7510,6 +7570,10 @@
 "https://solidaritywithothers.com/journalist-ali-tarakci-remanded-in-ankara-over-a-post-predicting-a-ministers-resignation-the-decision-cites-the-posts-view-count/?utm_source=rss&utm_medium=rss&utm_campaign=journalist-ali-tarakci-remanded-in-ankara-over-a-post-predicting-a-ministers-resignation-the-decision-cites-the-posts-view-count": {
 "checked": "2026-09-28T12:46:29+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/09/featured-image-87.jpg"
+},
+"https://solidaritywithothers.com/migration-inclusion-october-2026-updates/?utm_source=rss&utm_medium=rss&utm_campaign=migration-inclusion-october-2026-updates": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://solidaritywithothers.com/wp-content/uploads/2026/11/featured-image-6.png"
 },
 "https://solidaritywithothers.com/migration-inclusion-september-2026-updates/?utm_source=rss&utm_medium=rss&utm_campaign=migration-inclusion-september-2026-updates": {
 "checked": "2026-10-12T08:30:07+00:00",
@@ -7843,6 +7907,10 @@
 "checked": "2026-10-26T17:04:32+00:00",
 "img": ""
 },
+"https://statewatch.org/events/2026/november/statewatchs-35th-anniversary/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://statewatch.org/wp-content/uploads/2026/11/35-birthday-poster-website-event.png"
+},
 "https://statewatch.org/news/2026/november/eu-returns-alternatives-to-detention-and-increased-control-surveillance-and-coercion/": {
 "checked": "2026-11-05T10:08:50+00:00",
 "img": "https://statewatch.org/wp-content/uploads/2026/11/26734305520_682922309d_k.jpg"
@@ -7882,6 +7950,10 @@
 "https://statewatch.org/research/statewatch-outsourcing-borders-21/": {
 "checked": "2026-11-03T08:56:59+00:00",
 "img": ""
+},
+"https://statewatch.org/research/the-euro-palestinian-repression-diaries/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://statewatch.org/wp-content/uploads/2026/11/The-Euro-Palestinian-repression-diaries-cover.png"
 },
 "https://statewatch.org/uncategorized/www-issue-26-15/": {
 "checked": "2026-10-12T11:40:28+00:00",
@@ -9647,6 +9719,10 @@
 "checked": "2026-11-12T14:32:14+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/319815-crop.jpg"
 },
+"https://www.amnesty.org/en/latest/news/2026/11/angola-authorities-must-immediately-release-general-nila-and-four-other-members-of-untra/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://www.amnesty.org/en/wp-content/uploads/2026/04/website-header-2026--scaled.png"
+},
 "https://www.amnesty.org/en/latest/news/2026/11/cop31-world-leaders-must-break-fossil-fuels-grip-on-climate-policy/": {
 "checked": "2026-11-08T08:29:51+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/GettyImages-2302674219-e1793619440943.jpg"
@@ -9682,6 +9758,10 @@
 "https://www.amnesty.org/en/latest/news/2026/11/peru-archivar-la-investigacion-sobre-esterilizaciones-forzadas-perpetua-la-impunidad/": {
 "checked": "2026-11-04T08:31:44+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/GettyImages-509270724-scaled.jpg"
+},
+"https://www.amnesty.org/en/latest/news/2026/11/russia-lev-shlosbergs-outrageous-11-year-prison-sentence-for-anti-war-views-upheld/": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://www.amnesty.org/en/wp-content/uploads/2025/12/53643999-b977-4a78-8309-c090e7b43b8e.jfif"
 },
 "https://www.amnesty.org/en/latest/news/2026/11/tanzania-conviction-and-sentencing-of-opposition-leader-tundu-lissu-a-travesty-of-justice/": {
 "checked": "2026-11-06T17:45:59+00:00",
@@ -10270,6 +10350,10 @@
 "https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation": {
 "checked": "2026-10-23T09:42:31+00:00",
 "img": "https://www.europol.europa.eu/cms/sites/default/files/styles/800x/public/images/261023-Labour-Exploitation-Action-27-Arrests-248-Victims-lead.png?itok=KWHUW9Y0"
+},
+"https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://www.europol.europa.eu/cms/sites/default/files/styles/800x/public/images/Operation-TORNADO-Cover.jpg?itok=1Elwah5e"
 },
 "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims": {
 "checked": "2026-10-22T09:47:47+00:00",
@@ -11375,6 +11459,10 @@
 "checked": "2026-11-11T18:15:19+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/11/202611eca_turkey_enviornment.jpg.jpeg?h=8abcec71&itok=7SLeC6X-"
 },
+"https://www.hrw.org/news/2026/11/12/attack-on-trans-sex-workers-in-argentina-demands-justice": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/11/202611lgbt_argentina_trans_rally.jpg?h=74ac931e&itok=w-RJHsAy"
+},
 "https://www.hrw.org/news/2026/11/12/global-treaty-needed-to-combat-autonomous-weapons-threat": {
 "checked": "2026-11-12T09:10:45+00:00",
 "img": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2022/11/202211arms_killerrobots_drones_illustration.jpg?h=c6980913&itok=9XifltA0"
@@ -12102,6 +12190,10 @@
 "https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2026-2027/opiniestuk-van-lodewijk-van-dycke-over-voedselsoevereiniteit": {
 "checked": "2026-11-05T18:24:23+00:00",
 "img": "https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2026-2027/opiniestuk-van-lodewijk-van-dycke-over-voedselsoevereiniteit/@@images/image-1200-051a25a8a45dee23b768847850556304.jpeg"
+},
+"https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2026-2027/opiniestuk-van-quinten-jacobs-over-de-winst-van-de-democraten": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2026-2027/opiniestuk-van-quinten-jacobs-over-de-winst-van-de-democraten/@@images/image-1200-168f5519c88d671862374bdbd658c5e9.jpeg"
 },
 "https://www.law.kuleuven.be/home/onderzoek/nieuws-onderzoek/2026-2027/opiniestuk-van-stefaan-pleysier-over-preventieve-bestuurlijke-aanhoudingen": {
 "checked": "2026-10-08T11:09:08+00:00",
@@ -13442,6 +13534,10 @@
 "https://www.turkinfo.nl/hollanda-2027-vergi-plani-koalisyon-anlasmasi/45514": {
 "checked": "2026-11-11T18:15:19+00:00",
 "img": "https://images.turkinfo.nl/media/2026/11/hollandada-hukumet-dusecek-mi-vergi-anlasmasi-koalisyonu-gerdi_6af4ae1fe479a_h.png"
+},
+"https://www.turkinfo.nl/hollanda-2027-vergi-plani-koalisyon-krizi/45522": {
+"checked": "2026-11-12T18:39:16+00:00",
+"img": "https://images.turkinfo.nl/media/2026/11/hollanda-2027-vergi-plani-koalisyon-krizi_6af5e0833b452_h.png"
 },
 "https://www.turkinfo.nl/hollanda-2027-vergi-plani-meclis-oylamasi/45489": {
 "checked": "2026-11-08T08:29:51+00:00",
