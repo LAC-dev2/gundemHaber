@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-12",
- "olusturma": "2026-11-12T13:30+00:00",
+ "olusturma": "2026-11-12T14:33+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-11-12:toplu:9",
@@ -22,10 +22,10 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-12:11",
+   "id": "saglik:2026-11-12:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "12 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
    "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
    "kayitlar": [],
