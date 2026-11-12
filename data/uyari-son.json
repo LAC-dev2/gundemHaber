@@ -1,57 +1,33 @@
 {
- "gun": "2026-11-11",
- "olusturma": "2026-11-11T18:17+00:00",
+ "gun": "2026-11-12",
+ "olusturma": "2026-11-12T09:16+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-11:Halk TV sahibi hakkındaki rüşvet ve aklama soruşturmasında y",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Halk TV sahibi hakkındaki rüşvet ve aklama soruşturmasında yedi gözaltı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "Kanala kayyum atanmasına dayanak yapılan soruşturma, el koyma sonrası da genişlemeye devam ediyor; bu, mali soruşturmanın yayın faaliyetine müdahale aracı olarak işlediği yönündeki t109 dosyasına yeni bir halka ekliyor. Gözaltına alınanların kimliği ve isnat ayrımı kayıtta yok.",
-   "kayitlar": [
-    "f0392d29c2"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "alan:2026-11-11:Rechtbank Den Haag 26.43278: iltica başvurusunda süresinde k",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Rechtbank Den Haag 26.43278: iltica başvurusunda süresinde karar vermeme davası kabul edildi, 8+4 hafta ek süre, idari para cezası yok",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Hollanda idari yargısında karar gecikmelerine karşı açılan davaların kabul edildiği ikinci örnek; merkezin Türkiye kaynaklı iltica dosyalarında usul gecikmesi argümanını besliyor. Mahkemenin idari para cezasına hükmetmemesi, giderimin sınırını gösteriyor ve bu çizgi ayrıca izlenmeli.",
-   "kayitlar": [
-    "d3c0c0a72a"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-11-11:toplu:9",
+   "id": "takip:2026-11-12:toplu:9",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
    "baslik": "9 takip dosyasında hareket var",
    "alan": "",
-   "not": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve; BM İnsan Hakları Konseyi'nin 12 Ekim 2026 seçimi: rekabetsiz bölgesel ; Almanya'dan Tacikistan'a sınır dışı edilenlerin dönüşte mahkûm edilmes; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki",
+   "not": "Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürütt; Eskişehir ve İzmir savcılıklarının üç soruşturmasında gözaltına alınan; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; \"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; BM uzmanlarının Türkiye'de LGBTİ+ örgütlerine yönelik baskıya ilişkin ; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları",
    "kayitlar": [
+    "abf7d4e1b6",
+    "abf7d4e1b6",
+    "abf7d4e1b6",
+    "a1e187bfe8",
+    "a1e187bfe8",
+    "78947b7059",
     "673dd445f6",
-    "d3c0c0a72a",
-    "f0392d29c2",
-    "a25dd7a8f7",
-    "d1c8f5c564",
-    "a33ab5cd0e",
-    "836feda06a",
-    "49a908755b"
+    "898dc5aec7"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-11:11",
+   "id": "saglik:2026-11-12:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Scholars at Risk, Alomaliye, ESMA, MENAFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, KU Leuven Faculty of Law…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

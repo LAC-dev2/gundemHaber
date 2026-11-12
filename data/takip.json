@@ -7,7 +7,7 @@
    "neden": "Kaynaklar aynı gün için 53 ve 62 gibi farklı tutuklu sayıları veriyor; kapatma girişimi ve engel listeleri günlük güncelleniyor. Sayıların ve idari/yargısal adımların seyri, olası AİHM ve BM başvuruları açısından izlenmeli.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-10-13",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "164e080299",
     "6aa16a463f",
@@ -120,6 +120,13 @@
      "kayitlar": [
       "afb16f12ec",
       "d6133750ae"
+     ]
+    },
+    {
+     "gun": "2026-11-12",
+     "not": "İstanbul Başsavcılığı, İstanbul merkezli bir LGBTİ+ hakları derneği hakkında kapatma davası açtı; Kaos GL'ye dayanan habere göre bu, iki aydan kısa sürede kapatma hedefi yapılan en az üçüncü örgüt. Takip maddesindeki iki dernek dosyasına üçüncü bir dosya ekleniyor; derneğin adı kayıtta yer almıyor.",
+     "kayitlar": [
+      "a1e187bfe8"
      ]
     }
    ]
@@ -1455,7 +1462,7 @@
    "neden": "Cezaya karar verme metodolojisi ve DSA ile GDPR'ın kesiştiği veri işleme alanları, merkezin erişim engelleri ve elektronik delil dosyalarında dayanak oluşturabilir; kılavuz 13 Kasım 2026'ya kadar kamu istişaresinde.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "635da126b9"
    ],
@@ -1481,6 +1488,13 @@
       "4bfba83c56",
       "86d0e0289a",
       "53d7c3b8f0"
+     ]
+    },
+    {
+     "gun": "2026-11-12",
+     "not": "EDPB 11 Kasım genel kurulunda Güney Kore yeterlilik kararının ilk incelemesine ilişkin beyanı ve işleyen BCR (BCR-P) tavsiyelerinin nihai halini kabul etti; ayrıca 2027 koordineli uygulama eyleminin konusunu seçti. Takip maddesinin konusu olan idari para cezası kılavuzu ve DSA-GDPR etkileşimi belgesine ilişkin bir adım duyuruda geçmiyor.",
+     "kayitlar": [
+      "898dc5aec7"
      ]
     }
    ]
@@ -2038,7 +2052,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "b290622139"
    ],
@@ -2162,6 +2176,13 @@
      "not": "Fon skandalı haberciliği dosyası erişim engelinden ceza yargılamasına geçti: savcılık, fonların değerinin üzerinde hisse aldığı iddialarını ve bunun üst düzey hükümet isimleriyle bağlantısını haberleştiren dört gazeteci için 19 yıla kadar hapis istiyor. Kayıtta gazetecilerin adları ve mahkeme bilgisi yok.",
      "kayitlar": [
       "c4b2224a44"
+     ]
+    },
+    {
+     "gun": "2026-11-12",
+     "not": "İstanbul'da bir mahkeme, Kısa Dalga'nın 2 Kasım tarihli ve fon skandalı bağlamında kurumsal kredi derecelendirmelerini inceleyen yazısına millî güvenlik ve kamu düzeni gerekçesiyle erişim engeli getirdi. Engel gerekçesi, takip maddesindeki örüntünün aynısı; karar numarası ve hâkimlik kayıtlarda yok.",
+     "kayitlar": [
+      "78947b7059"
      ]
     }
    ]
@@ -4151,12 +4172,20 @@
    "neden": "Gözaltı sayısı kaynaklara göre 32 ile 33 arasında değişiyor; delil kategorileri (ByLock, Bank Asya, HTS) Yalçınkaya içtihadının konusu. Tutuklama/serbest bırakma sonuçları henüz bilinmiyor.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-10-15",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "cadd738460",
     "76c74a6b6f"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-12",
+     "not": "Osmaniye dosyasında paranın 'yurt dışından uluslararası dijital ödeme platformları üzerinden' gönderildiği iddia ediliyor; arama yapılan ev, işyeri ve araçlarda dijital cihazlara el konuldu. Bu, Eskişehir ve İzmir soruşturmalarındaki yurt dışı ödeme kanalı isnadıyla aynı anlatım kalıbını sürdürüyor; ancak kayıtlarda iki soruşturma arasında dosya düzeyinde bir bağ gösterilmiyor.",
+     "kayitlar": [
+      "abf7d4e1b6"
+     ]
+    }
+   ]
   },
   {
    "id": "t112",
@@ -4165,11 +4194,19 @@
    "neden": "Açıklama ifade, toplanma ve örgütlenme özgürlüğüne atıfla 'güvenli ortam' talebi içeriyor; resmî iletişim (communication) metni ve Türkiye'nin yanıtı kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-10-15",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "f43bbe0394"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-12",
+     "not": "BM uzmanlarının 13 Ekim açıklamasının konusu olan baskı örüntüsü, üçüncü bir kapatma davasıyla devam ediyor. Mekanizma tarafında yeni bir adım kayıtlarda yok.",
+     "kayitlar": [
+      "a1e187bfe8"
+     ]
+    }
+   ]
   },
   {
    "id": "t113",
@@ -5253,7 +5290,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5292,6 +5329,13 @@
     {
      "gun": "2026-11-11",
      "not": "Resmî Gazete akışında 10 Kasım 13:30'da yine yalnızca 'Yargı Harçları' başlıklı bir kayıt göründü; içerik metni yok. Bu, aynı başlığın kısa aralıkla tekrar eden üçüncü görünümü ve düzenlemenin kapsamı hâlâ başlık düzeyinde kalıyor.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-12",
+     "not": "Resmî Gazete akışında 12 Kasım 04:20'de yine 'Yargı Harçları' başlıklı bir kayıt göründü. Kayıt başlık düzeyinde; düzenlemenin metni, sayı ve tarih bilgisi elimizde yok.",
      "kayitlar": [
       "673dd445f6"
      ]
@@ -5367,7 +5411,7 @@
    "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "9552dc6f13"
    ],
@@ -5378,6 +5422,13 @@
      "kayitlar": [
       "9245d0f40e",
       "7f930c5098"
+     ]
+    },
+    {
+     "gun": "2026-11-12",
+     "not": "Aynı kümülatif rakamlar yeniden aktarıldı (720.338 kişi hakkında işlem, 127.000'den fazla mahkûmiyet, 10.485 cezaevinde, 83.404 derdest). SCF bu verileri Adalet Bakanı Akın Gürlek'in Temmuz 2026 açıklamasına bağlıyor; takip maddesinde ise veriler 3 Kasım'da kaydedilmişti. Sayılar aynı, kaynak tarihi farklı aktarılıyor.",
+     "kayitlar": [
+      "abf7d4e1b6"
      ]
     }
    ]
@@ -5423,7 +5474,7 @@
    "neden": "İsnat doğrudan mahpus ailelerine yardım olarak tanımlanıyor; BM uzmanlarının Ekim 2025'te 'akrabalık üzerinden suçluluk' uyarısıyla aynı pratik. Gözaltındakilerin tutuklanıp tutuklanmadığı henüz bilinmiyor.",
    "acildi": "2026-11-04",
    "durum": "açık",
-   "son_hareket": "2026-11-06",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "9245d0f40e",
     "7f930c5098"
@@ -5434,6 +5485,13 @@
      "not": "Doğrudan Ankara dosyasında yeni usul adımı yok; ancak Lahey mahkemesi 2 Kasım kararında Türk makamlarının mahpus ailelerine yardımı 'hareketi yeniden inşa' iddiasıyla ilişkilendirdiğini tespit ederek bu isnat türünü iltica değerlendirmesine esas aldı. Aynı kayıt 3 Kasım operasyonunda gözaltına alınan 21 kişiden yedisinin mahpus ailelerine mali yardım isnadıyla alındığını tekrarlıyor.",
      "kayitlar": [
       "f74db37157"
+     ]
+    },
+    {
+     "gun": "2026-11-12",
+     "not": "SCF, TRT Haber'e dayanarak iki ayrı operasyonda 11 gözaltı bildirdi: Osmaniye Başsavcılığı soruşturmasında Çarşamba günü Osmaniye, Adana, Ankara, Edirne ve Eskişehir'de beş kişi, hareket bağlantılı kişilere ve ailelerine mali yardım isnadıyla; Ankara Başsavcılığı soruşturmasında ise Salı günü üç ilde altı kişi. Ankara ayağında isnadın içeriğine ilişkin ayrıntı verilmediği belirtiliyor. Takip maddesinin konusu olan dört yakalama kararının akıbeti kayıtlarda yer almıyor.",
+     "kayitlar": [
+      "abf7d4e1b6"
      ]
     }
    ]
@@ -5658,12 +5716,20 @@
    "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
    "acildi": "2026-11-08",
    "durum": "açık",
-   "son_hareket": "2026-11-08",
+   "son_hareket": "2026-11-12",
    "kayitlar": [
     "5f383ef425",
     "8beb9bbebe"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-12",
+     "not": "HRW, COP31'in 11-12 Kasım'daki liderler bölümü sırasında ev sahibi Türkiye'nin kömür genişlemesine desteğini sürdürdüğüne ilişkin bir değerlendirme yayımladı. Kayıt özet düzeyinde; ev sahibi ülke uygulamalarına ilişkin hak ihlali iddiası bu kayıtta yer almıyor.",
+     "kayitlar": [
+      "aa2f93314b"
+     ]
+    }
+   ]
   },
   {
    "id": "t193",
@@ -5834,8 +5900,47 @@
     "d307832149"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t205",
+   "baslik": "Osmaniye Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürüttüğü soruşturmada beş gözaltının akıbeti ve 'yurt dışından dijital ödeme platformu' delil anlatımı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Mali yardım isnadının Ankara dışında ikinci bir başsavcılıkta ve beş ile yayılan bir operasyonla sürdürülmesi, dayanışma ödemelerinin örgüt finansmanı sayılması pratiğinin yaygınlaştığını gösteriyor. Ödeme platformu kayıtlarının delil olarak kullanılması, sevk ve tutuklama kararlarında nasıl değerlendirileceğinin izlenmesini gerektiriyor.",
+   "acildi": "2026-11-12",
+   "durum": "açık",
+   "son_hareket": "2026-11-12",
+   "kayitlar": [
+    "abf7d4e1b6"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t206",
+   "baslik": "Rûdaw TV muhabirlerinin İstanbul'da maç sonrası 40 dakikaya kadar alıkonulması ve röportajın engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kısa süreli, kayıt dışı kalma ihtimali yüksek alıkoymalar, gözaltı istatistiklerine girmeden haber toplamayı engelleyen bir uygulama olarak merkezin basın özgürlüğü dosyasına giriyor. İşlem hakkında tutanak düzenlenip düzenlenmediği izlenmeli.",
+   "acildi": "2026-11-12",
+   "durum": "açık",
+   "son_hareket": "2026-11-12",
+   "kayitlar": [
+    "94e96a6941"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t207",
+   "baslik": "EDPB'nin Güney Kore yeterlilik kararı incelemesine ilişkin beyanı, BCR-P tavsiyelerinin nihai hali ve 2027 koordineli uygulama eylemi konusu",
+   "alan": "Belçika ve AB mevzuatı",
+   "neden": "Yeterlilik kararlarının gözden geçirilmesi ve işleyen BCR kuralları, üçüncü ülkelere veri aktarımı denetiminin ölçütlerini belirliyor; merkezin sınıraşan veri paylaşımı dosyalarında dayanak oluşturabilir.",
+   "acildi": "2026-11-12",
+   "durum": "açık",
+   "son_hareket": "2026-11-12",
+   "kayitlar": [
+    "898dc5aec7"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-11T08:51+00:00",
- "acik": 188
+ "guncelleme": "2026-11-12T09:16+00:00",
+ "acik": 191
 }
