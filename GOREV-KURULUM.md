@@ -34,6 +34,19 @@ katmanın arkasında ve iki arka ucu var.
 **Senin kuracağın `cli` olanı.** Kod yazmana gerek yok; kurulum, doğrulama ve
 zamanlama yapacaksın.
 
+### Önce kullanıcıya şunu sor
+
+Bu işin **daha kolay bir yolu var** ve kullanıcı bilmiyor olabilir: aynı
+abonelik, GitHub Actions üzerinde de kullanılabiliyor. O zaman bu bilgisayarın
+açık olması gerekmez, mevcut zamanlama ve yayın düzeni aynen devam eder.
+Tek gereken, `claude setup-token` ile üretilen değeri depoya
+`CLAUDE_CODE_OAUTH_TOKEN` adlı bir secret olarak eklemek — iş akışı gerisini
+kendisi yapıyor (depodaki `KURULUM.md`, Bölüm 0).
+
+Kullanıcıya bu seçeneği anlat ve sor: **GitHub Actions mı, bu bilgisayar mı?**
+Actions derse işin birkaç dakikada biter; bu bilgisayar derse ya da ikisini
+birden isterse aşağıdan devam et.
+
 ---
 
 ## Adım 1 — Ortamı kontrol et

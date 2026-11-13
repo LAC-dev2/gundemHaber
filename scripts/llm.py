@@ -197,6 +197,8 @@ def _cli(model, sistem, istem, sema, max_tokens, dusun, efor):
             "Bu kez yalnızca şemaya uyan tek bir JSON nesnesi döndür.")
         # Calisma dizini olarak bos bir klasor: depodaki CLAUDE.md ve proje
         # ayarlari isteme karismasin, dosya araclari da zaten kapali.
+        ortam = {k: v for k, v in os.environ.items()
+                 if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
         with tempfile.TemporaryDirectory() as bos:
             try:
                 kosu = subprocess.run(
@@ -208,7 +210,7 @@ def _cli(model, sistem, istem, sema, max_tokens, dusun, efor):
                      "--strict-mcp-config",
                      "--setting-sources", ""],
                     input=istek, capture_output=True, text=True,
-                    timeout=CLI_SURE, cwd=bos, check=False)
+                    timeout=CLI_SURE, cwd=bos, env=ortam, check=False)
             except subprocess.TimeoutExpired as hata:
                 raise LLMHata(f"claude {CLI_SURE} sn içinde yanıt vermedi") from hata
 

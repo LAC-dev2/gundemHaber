@@ -1,4 +1,4 @@
-# Kendi bilgisayarında çalıştırma (API harcaması olmadan)
+# API harcaması olmadan çalıştırma
 
 Gündem Takip'in model çağrıları iki ayrı arka uçtan yapılabiliyor:
 
@@ -6,10 +6,70 @@ Gündem Takip'in model çağrıları iki ayrı arka uçtan yapılabiliyor:
 |---|---|---|
 | Nasıl bağlanır | `ANTHROPIC_API_KEY` | Claude Code komut satırı |
 | Ödeme | token başına fatura | **Claude aboneliği** — ek API harcaması yok |
-| Nerede çalışır | GitHub Actions ya da yerel | kendi bilgisayarın |
+| Nerede çalışır | GitHub Actions ya da yerel | GitHub Actions ya da yerel |
 
-Bu belge ikincisini anlatıyor: tarama, çeviri ve analizi her gün **kendi
-bilgisayarında**, Claude aboneliğinle çalıştırmak.
+Aboneliği iki yerde kullanabilirsin:
+
+- **GitHub Actions'ta** (Bölüm 0) — bilgisayarının açık olması gerekmez,
+  mevcut zamanlama ve yayın düzeni aynen devam eder. **Önerilen.**
+- **Kendi bilgisayarında** (Bölüm 1'den itibaren) — her şey yerelde koşar.
+
+---
+
+## 0. En kolay yol: GitHub Actions + abonelik
+
+Bu düzende hiçbir şey taşınmaz. Aynı iş akışı, aynı saatler, aynı uyarılar ve
+aynı Pages yayını; yalnızca model çağrıları API yerine aboneliğinden geçer.
+
+**Tek yapman gereken bir secret eklemek.**
+
+1. Kendi bilgisayarında bir kez belirteç üret:
+
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   claude setup-token
+   ```
+
+2. Çıkan değeri GitHub'a ekle:
+   `Settings → Secrets and variables → Actions → Secrets → New repository secret`
+   - Ad: `CLAUDE_CODE_OAUTH_TOKEN`
+   - Değer: `sk-ant-oat01-...`
+
+Bu kadar. İş akışı belirteci görür görmez `cli` arka ucuna geçer; Claude
+Code'u kendisi kurar ve analizi aboneliğinle üretir. `ANTHROPIC_API_KEY`
+secret'ını silmene gerek yok — dururken de kullanılmaz.
+
+**Geri dönmek istersen:** `Settings → Secrets and variables → Actions →
+Variables` altına `GUNDEM_LLM` = `api` ekle. İş akışı eski davranışına döner.
+Secret'ı silmen gerekmez.
+
+**Doğrulama:** ilk koşudan sonra adım kütüğünde
+`arka uc: Claude Code ... — abonelik, API harcamasi yok` satırını ara, ayrıca:
+
+```bash
+curl -s https://lac-dev2.github.io/gundemHaber/data/analiz-latest.json \
+  | python3 -c "import json,sys;d=json.load(sys.stdin);print(d['arka_uc'], d['model'])"
+```
+
+`cli` yazmalı.
+
+### Bilmen gereken tek şey
+
+Bu belirteç **aboneliğine bağlı bir kimlik bilgisidir** ve GitHub Secrets'ta
+durur. Depoya yazma yetkisi olan biri (ya da iş akışı dosyasını
+değiştirebilen biri) onu kullanabilir. Depo senin ve tek yetkili sensen bu
+bir sorun değil; ekibe açarsan düşün. İstediğin an `claude setup-token` ile
+yenileyip eskisini geçersiz kılabilirsin.
+
+Kullanım sınırı senin diğer Claude işlerinle ortaktır: günlük yük ~37 bin
+girdi / ~15 bin çıktı token, normal bir abonelikte küçük bir pay.
+
+---
+
+## Kendi bilgisayarında çalıştırma
+
+Aşağısı ikinci yolu anlatıyor: tarama, çeviri ve analizi her gün **kendi
+bilgisayarında** koşturmak.
 
 ---
 

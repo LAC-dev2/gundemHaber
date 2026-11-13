@@ -78,11 +78,55 @@ jobs:
   tara:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      # Model cagrilari hangi arka uctan gecsin (bkz. scripts/llm.py):
+      #   cli -> Claude Code + CLAUDE_CODE_OAUTH_TOKEN. Claude aboneligi
+      #          kullanilir, API harcamasi OLMAZ.
+      #   api -> anthropic SDK + ANTHROPIC_API_KEY. Token basina odeme.
+      # Belirtec tanimliysa kendiliginden cli olur; vars.GUNDEM_LLM ile
+      # elle sabitlenebilir ("api" yazilirsa eski davranisa doner).
+      GUNDEM_LLM: ${{ vars.GUNDEM_LLM || (secrets.CLAUDE_CODE_OAUTH_TOKEN != '' && 'cli' || 'api') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # Model adimlarinin ortak on kosulu: kimlik var mi, bagimlilik kurulu mu.
+      # Eskiden her model adimi kendi anahtar kontrolunu ve pip install'ini
+      # tekrar ediyordu; dort kopya tek yere toplandi.
+      - name: Model arka ucunu hazirla
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ "$GUNDEM_LLM" = "cli" ]; then
+            if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+              echo "::warning::GUNDEM_LLM=cli ama CLAUDE_CODE_OAUTH_TOKEN yok; model adimlari atlanacak."
+              echo "  Settings > Secrets and variables > Actions > Secrets altina"
+              echo "  CLAUDE_CODE_OAUTH_TOKEN ekle ('claude setup-token' ile uretilir)."
+              echo "MODEL_HAZIR=hayir" >> "$GITHUB_ENV"
+              exit 0
+            fi
+            npm install -g @anthropic-ai/claude-code >/dev/null 2>&1
+            echo "arka uc: Claude Code $(claude --version) — abonelik, API harcamasi yok"
+          else
+            if [ -z "$ANTHROPIC_API_KEY" ]; then
+              echo "::warning::ANTHROPIC_API_KEY bos geldi; model adimlari atlanacak."
+              echo "Kontrol listesi:"
+              echo "  1) Settings > Secrets and variables > Actions > 'Secrets' sekmesi"
+              echo "     (Variables sekmesi degil) altinda 'Repository secrets' listesinde"
+              echo "     ANTHROPIC_API_KEY gorunuyor mu?"
+              echo "  2) Ad birebir ANTHROPIC_API_KEY mi (bosluk/turkce harf yok)?"
+              echo "  3) Environment secret olarak eklendiyse bu is akisina gelmez;"
+              echo "     repository secret olarak ekle."
+              echo "MODEL_HAZIR=hayir" >> "$GITHUB_ENV"
+              exit 0
+            fi
+            python3 -m pip install --quiet --disable-pip-version-check anthropic
+            echo "arka uc: Anthropic API (anahtar uzunlugu ${#ANTHROPIC_API_KEY})"
+          fi
+          echo "MODEL_HAZIR=evet" >> "$GITHUB_ENV"
 
       - name: Kaynaklari tara
         run: |
@@ -96,13 +140,13 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           CEVIRI_MODEL: ${{ vars.CEVIRI_MODEL || 'claude-haiku-4-5' }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "ANTHROPIC_API_KEY yok; ceviri atlandi."
+          if [ "$MODEL_HAZIR" != "evet" ]; then
+            echo "model arka ucu hazir degil; adim atlandi."
             exit 0
           fi
-          python3 -m pip install --quiet --disable-pip-version-check anthropic
           python3 scripts/ceviri.py --adet 200
 
       # Gunluk analiz: gunun ilk gecerli turunda uretilir, sonrakiler atlar.
@@ -118,6 +162,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANALIZ_MODEL: ${{ vars.ANALIZ_MODEL || 'claude-opus-5' }}
           ANALIZ_YENILE: ${{ github.event.inputs.analiz_yenile || 'hayir' }}
           # Analizin uretilebilecegi en erken UTC saati. Yerel 08:00'e denk
@@ -126,18 +171,10 @@ jobs:
           ANALIZ_EN_ERKEN: ${{ vars.ANALIZ_EN_ERKEN || '6' }}
           SADECE_DENETIM: ${{ github.event.inputs.sadece_denetim || 'hayir' }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::warning::ANTHROPIC_API_KEY bos geldi; analiz atlandi."
-            echo "Kontrol listesi:"
-            echo "  1) Settings > Secrets and variables > Actions > 'Secrets' sekmesi"
-            echo "     (Variables sekmesi degil) altinda 'Repository secrets' listesinde"
-            echo "     ANTHROPIC_API_KEY gorunuyor mu?"
-            echo "  2) Ad birebir ANTHROPIC_API_KEY mi (bosluk/turkce harf yok)?"
-            echo "  3) Environment secret olarak eklendiyse bu is akisina gelmez;"
-            echo "     repository secret olarak ekle."
+          if [ "$MODEL_HAZIR" != "evet" ]; then
+            echo "model arka ucu hazir degil; adim atlandi."
             exit 0
           fi
-          echo "anahtar bulundu (uzunluk: ${#ANTHROPIC_API_KEY})"
           # Gunun analizi varsa hicbir sey yapma: boylece analiz adimini
           # her turda guvenle calistirabiliyoruz (ilk tur uretir, otekiler
           # atlar) ve analiz gunun ilk turunda cikar.
@@ -147,7 +184,6 @@ jobs:
             echo "$GUN analizi zaten var; adim atlandi."
             exit 0
           fi
-          python3 -m pip install --quiet --disable-pip-version-check anthropic
           # One cikan kayitlarin tam metnini indir: analiz basliktan fazlasini gorsun
           python3 scripts/tam_metin.py --adet 18 || true
           # Birincil belgeler: AIHM kararlarinin kendi metni (HUDOC). Haber
@@ -186,10 +222,13 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           KALITE_VARYANT: ${{ github.event.inputs.kalite_varyant }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "anahtar yok; atlandi."; exit 0; fi
-          python3 -m pip install --quiet --disable-pip-version-check anthropic
+          if [ "$MODEL_HAZIR" != "evet" ]; then
+            echo "model arka ucu hazir degil; adim atlandi."
+            exit 0
+          fi
           # Kendi on kosullari: analiz adimi gunun analizi varsa erken cikiyor
           python3 scripts/tam_metin.py --adet 18 || true
           python3 scripts/birincil.py --gun-sayisi 21 --adet 8 || true
@@ -213,11 +252,12 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SENTEZ_MODEL: ${{ vars.SENTEZ_MODEL || vars.ANALIZ_MODEL || 'claude-opus-5' }}
           SENTEZ_ELLE: ${{ github.event.inputs.sentez || 'hayir' }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "ANTHROPIC_API_KEY yok; sentez atlandi."
+          if [ "$MODEL_HAZIR" != "evet" ]; then
+            echo "model arka ucu hazir degil; adim atlandi."
             exit 0
           fi
           # Zamanlanmis turda yalnizca pazar gunu calisir; elle istenirse her gun.
@@ -231,7 +271,6 @@ jobs:
             echo "bugunun sentezi zaten var; atlandi."
             exit 0
           fi
-          python3 -m pip install --quiet --disable-pip-version-check anthropic
           python3 scripts/sentez.py
           touch "$RUNNER_TEMP/sentez-dokundu"
 
