@@ -1,33 +1,32 @@
 {
- "gun": "2026-11-12",
- "olusturma": "2026-11-12T18:40+00:00",
+ "gun": "2026-11-13",
+ "olusturma": "2026-11-13T09:05+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-12:toplu:9",
+   "id": "takip:2026-11-13:toplu:6",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "9 takip dosyasında hareket var",
+   "baslik": "6 takip dosyasında hareket var",
    "alan": "",
-   "not": "Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürütt; Eskişehir ve İzmir savcılıklarının üç soruşturmasında gözaltına alınan; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; \"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; BM uzmanlarının Türkiye'de LGBTİ+ örgütlerine yönelik baskıya ilişkin ; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları",
+   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı ; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları; Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab",
    "kayitlar": [
-    "abf7d4e1b6",
-    "abf7d4e1b6",
-    "abf7d4e1b6",
-    "a1e187bfe8",
-    "a1e187bfe8",
-    "78947b7059",
+    "d2efc27fbb",
+    "bfc651ced1",
     "673dd445f6",
-    "898dc5aec7"
+    "dc66f00a6e",
+    "abf7d4e1b6",
+    "bb3b9f331e",
+    "fa27dea7f1"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-12:11",
+   "id": "saglik:2026-11-13:10",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "10 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Scholars at Risk, Alomaliye, ESMA, MENAFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

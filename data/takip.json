@@ -596,7 +596,7 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Europol, AB'nin elektronik delil bakımından yeni bir döneme girdiğini belirterek 15-16 Eylül'de Berlin'de 7. SIRIUS irtibat noktası toplantısını duyurdu [eb6846d9b3]. Sınıraşan baskı dosyalarında veri talepleri ve adli yardım kanalları merkezin alanına giriyor; kayıt yalnızca toplantı düzeyinde bilgi veriyor.",
    "acildi": "2026-09-18",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-28",
    "kayitlar": [
     "eb6846d9b3"
@@ -640,7 +640,9 @@
       "eb6846d9b3"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-13",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t10",
@@ -1337,7 +1339,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-13",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1451,6 +1453,13 @@
      "not": "OIAD ve Lawyers for Lawyers, El Salvador'da avukat Luis Rivera'ya yönelik 5 Kasım 2026 tarihli polis takibi ve hesaplarına izinsiz erişim girişimi iddialarını duyurdu; açıklama Roxana Cardona, Guillermo García, Ruth López ve Enrique Anaya dosyalarına atıf yapıyor.",
      "kayitlar": [
       "d1c8f5c564"
+     ]
+    },
+    {
+     "gun": "2026-11-13",
+     "not": "Lawyers for Lawyers, İstanbul 18. Ağır Ceza Mahkemesi'ndeki ÇHD/HHB davasının 7 Ekim 2026 tarihli beşinci duruşmasına ilişkin izleme notunu yayımladı: altı avukat hakkındaki 3713 sayılı Kanun md. 7/2 suçlamaları zamanaşımından düşürüldü, dava sonlandırıldı. Sanıklar esastan beraat istemişti; Kozağaçlı, Timtik, Aslan ve Yılmaz önceki ÇHD-1/ÇHD-2 mahkûmiyetleri nedeniyle tutuklu kalmaya devam ediyor.",
+     "kayitlar": [
+      "d2efc27fbb"
      ]
     }
    ]
@@ -2464,12 +2473,14 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "Tebliğ sorularında hem md. 6/1 bağımsızlık–tarafsızlık, hem md. 6/2 masumiyet karinesi, hem md. 6/3(c) müdafiyle gizli görüşme, hem de üç başvuru bakımından md. 5/1(a) birlikte soruluyor. Darbe girişimi yargılamalarının usule ilişkin yapısını doğrudan ilgilendirdiği için hükmün seyri izlenmeli.",
    "acildi": "2026-09-28",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-28",
    "kayitlar": [
     "001-252770"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-13",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t49",
@@ -2498,12 +2509,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Tebliğ metni, beraatin sınır dışı kararını engellemediği yönündeki idari yargı yaklaşımını ve AYM'nin açıkça dayanaktan yoksunluk kararını md. 3 bakımından sorguya açıyor. Türkiye'den üçüncü ülkeye geri göndermelerde risk değerlendirmesinin yeterliliği merkezin dosyalarıyla doğrudan kesişiyor.",
    "acildi": "2026-09-28",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-28",
    "kayitlar": [
     "001-252769"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-13",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t51",
@@ -2511,12 +2524,14 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Onbir başvuruda kademe ilerlemesinin durdurulması ve başka şehre atama gibi yaptırımlar md. 10 ve md. 11 kapsamında tebliğ edildi; ek listede Gezi, HDP/DBP gösterileri ve kadın cinayetlerine karşı eylemler gibi farklı bağlamlar yer alıyor.",
    "acildi": "2026-09-28",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-28",
    "kayitlar": [
     "001-252772"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-13",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t52",
@@ -4685,7 +4700,7 @@
    "neden": "Citizen Lab, yapay zekâ modellerinin diaspora aktivistlerini ve sürgündeki muhalifleri tespit, izleme ve hedefleme amacıyla kullanıldığını, Çin ile bağlantılı iki aktörün gazetecileri taklit ettiğini bildiriyor. Merkezin sınıraşan baskı dosyalarında delil ve atıf sorunları açısından izlenmesi gerekiyor.",
    "acildi": "2026-10-23",
    "durum": "açık",
-   "son_hareket": "2026-11-10",
+   "son_hareket": "2026-11-13",
    "kayitlar": [
     "79acc4f94a"
    ],
@@ -4697,6 +4712,13 @@
       "d9a974d826",
       "c1ba309e8b",
       "7b3e9a0dc9"
+     ]
+    },
+    {
+     "gun": "2026-11-13",
+     "not": "Freedom House sınıraşan baskı serisinden yeni politika notu internet kesintilerinin uydu teknolojisiyle aşılmasını ele alıyor; içerik İran örneğine dayanıyor, Türkiye kaynaklı dijital baskı dosyasına doğrudan veri eklemiyor.",
+     "kayitlar": [
+      "fa27dea7f1"
      ]
     }
    ]
@@ -5090,11 +5112,19 @@
    "neden": "Aynı talep hakkında kısa aralıkla çelişkili iki yargı kararı, aile hayatı ve cezaevi idaresi denetimi bakımından merkezin md. 8 dosyalarıyla örtüşüyor. Kararın gerekçesi ve itiraz yolu izlenmeli.",
    "acildi": "2026-10-29",
    "durum": "açık",
-   "son_hareket": "2026-10-29",
+   "son_hareket": "2026-11-13",
    "kayitlar": [
     "83f0aad1f3"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-13",
+     "not": "Kuytul, Ağustos'taki tutuklanmasından bu yana ikinci kez, ailesi ve avukatları önceden bilgilendirilmeden başka bir cezaevine nakledildi; kayıt TR724'e dayanıyor ve nakil tarihini salı olarak veriyor.",
+     "kayitlar": [
+      "bfc651ced1"
+     ]
+    }
+   ]
   },
   {
    "id": "t159",
@@ -5290,7 +5320,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-12",
+   "son_hareket": "2026-11-13",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5336,6 +5366,13 @@
     {
      "gun": "2026-11-12",
      "not": "Resmî Gazete akışında 12 Kasım 04:20'de yine 'Yargı Harçları' başlıklı bir kayıt göründü. Kayıt başlık düzeyinde; düzenlemenin metni, sayı ve tarih bilgisi elimizde yok.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-13",
+     "not": "Resmî Gazete akışında 'Yargı Harçları' başlıklı dördüncü kayıt düştü. İçerik yine başlık düzeyinde; düzenlemenin metni kayıtlarda yok.",
      "kayitlar": [
       "673dd445f6"
      ]
@@ -5411,7 +5448,7 @@
    "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-12",
+   "son_hareket": "2026-11-13",
    "kayitlar": [
     "9552dc6f13"
    ],
@@ -5428,6 +5465,14 @@
      "gun": "2026-11-12",
      "not": "Aynı kümülatif rakamlar yeniden aktarıldı (720.338 kişi hakkında işlem, 127.000'den fazla mahkûmiyet, 10.485 cezaevinde, 83.404 derdest). SCF bu verileri Adalet Bakanı Akın Gürlek'in Temmuz 2026 açıklamasına bağlıyor; takip maddesinde ise veriler 3 Kasım'da kaydedilmişti. Sayılar aynı, kaynak tarihi farklı aktarılıyor.",
      "kayitlar": [
+      "abf7d4e1b6"
+     ]
+    },
+    {
+     "gun": "2026-11-13",
+     "not": "Adalet Bakanlığı kümülatif rakamları bu kez SCF'nin yeni gözaltı haberinde yinelendi: 127.000'den fazla mahkûmiyet, 10.485 tutuklu/hükümlü, 83.404 derdest dosya. Bu kayıtta 720.338 kişi hakkında işlem rakamı yer almıyor; o rakam yalnızca önceki kayıtta geçiyor.",
+     "kayitlar": [
+      "dc66f00a6e",
       "abf7d4e1b6"
      ]
     }
@@ -5716,7 +5761,7 @@
    "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
    "acildi": "2026-11-08",
    "durum": "açık",
-   "son_hareket": "2026-11-12",
+   "son_hareket": "2026-11-13",
    "kayitlar": [
     "5f383ef425",
     "8beb9bbebe"
@@ -5727,6 +5772,13 @@
      "not": "HRW, COP31'in 11-12 Kasım'daki liderler bölümü sırasında ev sahibi Türkiye'nin kömür genişlemesine desteğini sürdürdüğüne ilişkin bir değerlendirme yayımladı. Kayıt özet düzeyinde; ev sahibi ülke uygulamalarına ilişkin hak ihlali iddiası bu kayıtta yer almıyor.",
      "kayitlar": [
       "aa2f93314b"
+     ]
+    },
+    {
+     "gun": "2026-11-13",
+     "not": "HRW, COP31 ev sahipliği sürerken hükümetin kömür kapasitesini genişletmesini ev sahibi ülkenin güvenilirliği açısından sorguladı; Afşin-Elbistan A genişlemesine karşı Haziran'da iki idare mahkemesinin beş davada verdiği kararlar ve Temmuz'daki istinaf başvurusu aktarıldı.",
+     "kayitlar": [
+      "bb3b9f331e"
      ]
     }
    ]
@@ -5939,8 +5991,60 @@
     "898dc5aec7"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t208",
+   "baslik": "ÇHD-3 davasında altı avukat hakkındaki suçlamaların esastan karara bağlanmadan zamanaşımıyla düşürülmesi ve dört avukatın tutukluluğunun sürmesi",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "neden": "Mahkeme, mesleki faaliyet kapsamındaki basın açıklamaları ve cenaze katılımına dayanan terör propagandası isnadını esastan incelemeden düşürdü; sanıkların beraat talebi karşılanmadı. İsnadın hukuki niteliği karara bağlanmadığı için benzer dosyalarda aynı delil anlatımı kullanılmaya devam edebilir.",
+   "acildi": "2026-11-13",
+   "durum": "açık",
+   "son_hareket": "2026-11-13",
+   "kayitlar": [
+    "d2efc27fbb"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t209",
+   "baslik": "Kırklareli Babaeski'de yurt dışına çıkmaya hazırlandıkları iddiasıyla gözaltına alınan dört ihraç emniyet/asker mensubunun akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Haklarında yakalama kararı ya da önceki mahkûmiyet bulunup bulunmadığı kayıtta belirsiz; araçtaki beşinci kişiye göçmen kaçakçılığı isnadı yöneltilmiş. Ülkeden çıkış girişimlerinin ayrı bir suç anlatımına bağlanması iltica dosyalarında kaçış güzergâhı argümanlarını etkiler.",
+   "acildi": "2026-11-13",
+   "durum": "açık",
+   "son_hareket": "2026-11-13",
+   "kayitlar": [
+    "dc66f00a6e"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t210",
+   "baslik": "AYM'nin 21 Temmuz tarihli kararı: Kırklareli'nde 2020 HDP kampanyası sırasındaki genel gösteri yasağının toplantı hakkı ihlali sayılması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Valilik düzeyinde verilen blanket gösteri yasaklarına ilişkin ilk elden bir AYM tespiti; aynı pratiğe dayanan diğer başvurularda ve AİHM dosyalarında ölçüt oluşturabilir. Karar metni henüz kayıtlarda yok.",
+   "acildi": "2026-11-13",
+   "durum": "açık",
+   "son_hareket": "2026-11-13",
+   "kayitlar": [
+    "e9bcf28b87"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t211",
+   "baslik": "FRA'nın dış sınırlarda tarama (screening) işleminin temel haklara uygunluğuna ilişkin belgesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "neden": "Belge, Şart md. 19 (geri gönderme/sınır dışı koruması) ve md. 8 (kişisel verilerin korunması) başlıklarıyla ilişkilendirilmiş; Pakt uygulamasının sınır prosedürlerine ilişkin merkez dosyalarında dayanak olabilir. Kayıtta şu an yalnızca başlık ve tema etiketleri var.",
+   "acildi": "2026-11-13",
+   "durum": "açık",
+   "son_hareket": "2026-11-13",
+   "kayitlar": [
+    "0ba7c8741d"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-12T09:16+00:00",
+ "guncelleme": "2026-11-13T09:05+00:00",
  "acik": 191
 }
