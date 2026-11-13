@@ -1243,6 +1243,10 @@
 "checked": "2026-11-06T10:12:38+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:2026:1926&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:PHR:2026:880&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-09-24T15:37:57+00:00",
 "img": ""
@@ -2575,6 +2579,22 @@
 "checked": "2026-11-13T09:00:37+00:00",
 "img": ""
 },
+"https://digitallibrary.un.org/record/4132530": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132531": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132532": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132533": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
 "https://echrblog.com/book-discussion-hate-speech-and-the-ecthr/?utm_source=rss&utm_medium=rss&utm_campaign=book-discussion-hate-speech-and-the-ecthr": {
 "checked": "2026-10-22T15:45:10+00:00",
 "img": "https://echrblog.com/wp-content/uploads/2026/10/9781032909240.webp"
@@ -2749,6 +2769,10 @@
 },
 "https://emnbelgium.be/news/belgian-chamber-representatives-committee-approves-bill-home-searches-apprehend-certain": {
 "checked": "2026-10-26T17:04:32+00:00",
+"img": ""
+},
+"https://emnbelgium.be/news/belgian-minister-asylum-and-migration-visits-cameroon-address-migration-related-issues": {
+"checked": "2026-11-13T10:24:00+00:00",
 "img": ""
 },
 "https://emnbelgium.be/news/belgian-organisations-call-government-not-invest-return-hubs": {
@@ -2995,6 +3019,10 @@
 "checked": "2026-10-02T16:26:27+00:00",
 "img": ""
 },
+"https://fra.europa.eu/en/content/corporate-responsibilities-nexus-human-rights-climate-and-environment-embargo": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
 "https://fra.europa.eu/en/content/data-protection-notice-expert-meeting-national-fundamental-rights-bodies-designated-under": {
 "checked": "2026-11-04T13:42:10+00:00",
 "img": ""
@@ -3097,6 +3125,10 @@
 },
 "https://fra.europa.eu/en/event/2026/fra-convene-eu-civic-space-monitoring-network": {
 "checked": "2026-09-25T07:03:24+00:00",
+"img": ""
+},
+"https://fra.europa.eu/en/event/2026/fra-helps-shape-new-european-commission-civil-society-platform": {
+"checked": "2026-11-13T10:24:00+00:00",
 "img": ""
 },
 "https://fra.europa.eu/en/event/2026/fra-host-social-rights-roundtable": {
@@ -4311,6 +4343,34 @@
 "checked": "2026-10-06T08:29:23+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMDgvc2h1dHRlcnN0b2NrXzI2NzAwNTg3NDMuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
 },
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/france-challenging-extradition-requests-amid-procedural-and-human-rights-safeguards": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvZ2lyX21hcmtldF9yZXZpZXdfZXh0cmFkaXRpb25fZnJhbmNlXzE1MzF4ODUwX2RydXBhbC5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/greece-getting-extradition-requests-right-the-outset": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvZ2lyX21hcmtldF9yZXZpZXdfZXh0cmFkaXRpb25fZ3JlZWNlXzE1MzF4ODUwX2RydXBhbF8wLmpwZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICJlZGl0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAicmVzaXplIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIndpZHRoIjogOTQ1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImhlaWdodCI6IDUyNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmaXQiOiAiY292ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInBvc2l0aW9uIjogImNlbnRlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmFja2dyb3VuZCI6IHsgInIiOiAyNTUsICJnIjogMjU1LCAiYiI6IDI1NSwgImFscGhhIjogMSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQ=="
+},
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/introduction-balancing-cooperation-and-protection-in-extradition": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/romania-the-extradition-process-request-surrender": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvZ2lyX21hcmtldF9yZXZpZXdfZXh0cmFkaXRpb25fcm9tYW5pYV8xNTMxeDg1MF9kcnVwYWwuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/serbia-building-effective-strategy-complex-extradition-proceedings": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvZ2lyX21hcmtldF9yZXZpZXdfZXh0cmFkaXRpb25fc2VyYmlhXzE1MzF4ODUwX2RydXBhbC5qcGciLAogICAgICAgICAgICAgICAgICAgICAgICAiZWRpdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgInJlc2l6ZSI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ3aWR0aCI6IDk0NSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJoZWlnaHQiOiA1MjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZml0IjogImNvdmVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGlvbiI6ICJjZW50ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiOiB7ICJyIjogMjU1LCAiZyI6IDI1NSwgImIiOiAyNTUsICJhbHBoYSI6IDEgfQogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0="
+},
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/united-kingdom-balancing-extradition-demands-human-rights-and-procedural-safeguards": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
+"https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/united-states-how-treaties-dual-criminality-and-executive-discretion-shape-extradition": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvZ2lyX21hcmtldF9yZXZpZXdfZXh0cmFkaXRpb25fdW5pdGVkX3N0YXRlc18xNTMxeDg1MF9kcnVwYWwuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
 "https://globalinvestigationsreview.com/review/the-asia-pacific-investigations-review/2027/article/india-key-anti-bribery-and-anti-money-laundering-law-developments": {
 "checked": "2026-10-21T09:47:01+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMDcvZ2lyX3RoZV9hc2lhLXBhY2lmaWNfaW52ZXN0aWdhdGlvbnNfcmV2aWV3XzIwMjdfc2l0ZWxlYWRfaW1hZ2VfMTIwMHg2MjdfZHJ1cGFsXzIwMjZfMDdfMjkuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
@@ -4651,6 +4711,10 @@
 "checked": "2026-11-12T18:39:16+00:00",
 "img": ""
 },
+"https://medyascope.tv/2026/11/13/ilhan-gokalp-yazdi-fethullah-gulenden-enes-kanter-freedoma-yanlis-ata-oynamanin-siyasi-anatomisi/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
 "https://mlsaturkey.com/en/censorship-bulletin-for-sept-21-27": {
 "checked": "2026-09-28T18:19:27+00:00",
 "img": ""
@@ -4689,6 +4753,10 @@
 },
 "https://mlsaturkey.com/en/week-of-nov-2-8-2026-censorship-bulletin": {
 "checked": "2026-11-09T09:00:11+00:00",
+"img": ""
+},
+"https://mlsaturkey.com/en/week-of-nov-9-2026-journalism-and-freedom-of-expression-bulletin": {
+"checked": "2026-11-13T10:24:00+00:00",
 "img": ""
 },
 "https://mlsaturkey.com/en/week-of-oct-12-18-censorship-bulletin": {
@@ -6031,6 +6099,10 @@
 "checked": "2026-11-12T14:32:14+00:00",
 "img": "https://i0.wp.com/opiniojuris.org/wp-content/uploads/library-study-watercolour.png?fit=1672%2C941&ssl=1"
 },
+"https://opiniojuris.org/2026/11/13/between-official-narratives-and-popular-imagination-international-law-in-chinas-new-mainstream-films/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://i0.wp.com/opiniojuris.org/wp-content/uploads/Watercolor-Desert-Dunes.png?fit=1672%2C941&ssl=1"
+},
 "https://picum.org/blog/belgium-set-to-unleash-home-raids-against-undocumented-migrants/": {
 "checked": "2026-10-30T11:08:17+00:00",
 "img": ""
@@ -7130,6 +7202,10 @@
 "https://regtechanalyst.com/trulioo-and-fiserv-target-the-cost-of-global-verification/": {
 "checked": "2026-10-05T09:52:28+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Allica-Bank-and-Adclear-turn-compliance-into-growth.jpg"
+},
+"https://regtechanalyst.com/uae-rulebook-forces-islamic-finance-firms-to-rethink-deals/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Islamic-banks-face-document-reviews-under-new-UAE-rules.jpg"
 },
 "https://regtechanalyst.com/uk-aml-strategy-shifts-focus-towards-intelligence-led-compliance/": {
 "checked": "2026-09-29T12:02:07+00:00",
@@ -8635,6 +8711,10 @@
 "checked": "2026-10-20T15:30:32+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/reserve-bundeswehr-starkung/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/resilienz-hier-und-dort/": {
 "checked": "2026-09-28T09:12:59+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -8947,6 +9027,10 @@
 "checked": "2026-10-18T19:07:52+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/18/thumbs_b_c_132ab220255bf18efe37cca4c7b8f07f.jpg"
 },
+"https://www.aa.com.tr/tr/ekonomi/seddkden-alisveriste-dogrudan-sigortaya-iliskin-aciklama/4123879": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/13/thumbs_b_c_a3eb673f124e866de88a26cb1a33fb21.jpg"
+},
 "https://www.aa.com.tr/tr/ekonomi/spk-turkiye-sigortaya-3-ceyrek-bilancosunu-aciklamasi-icin-16-kasima-kadar-ek-sure-verdi/4105659": {
 "checked": "2026-10-30T07:59:32+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/30/thumbs_b_c_6db23eadbcee2f1dd964f78317a2de56.jpg"
@@ -8978,6 +9062,10 @@
 "https://www.aa.com.tr/tr/gundem/aile-ve-sosyal-hizmetler-bakanligindan-bir-cocugun-sunnet-goruntulerinin-paylasilmasina-iliskin-aciklama/4104538": {
 "checked": "2026-10-29T07:57:02+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/29/thumbs_b_c_696cb898a4707dd198c4320dbc1a69ff.jpg"
+},
+"https://www.aa.com.tr/tr/gundem/aile-ve-sosyal-hizmetler-bakanligindan-cocuklari-silah-kullanimina-ozendiren-paylasimlara-iliskin-aciklama/4123820": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": ""
 },
 "https://www.aa.com.tr/tr/gundem/ak-parti-genel-baskan-yardimcisi-sirakayadan-is-gucu-anlasmasinin-65-yilina-iliskin-aciklama/4105647": {
 "checked": "2026-10-30T07:59:32+00:00",
@@ -9566,6 +9654,10 @@
 "https://www.amnesty.org/en/latest/campaigns/2026/11/maricarmen-general-strike-spanish-youth/": {
 "checked": "2026-11-11T18:15:19+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/GettyImages-2300480985-1024x683.jpg"
+},
+"https://www.amnesty.org/en/latest/campaigns/2026/11/whats-the-difference-between-being-not-racist-and-being-anti-racist/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/306792-scaled.jpg"
 },
 "https://www.amnesty.org/en/latest/news/2026/09/austria-end-genocide-protest-at-uefa-nations-league-israel-game/": {
 "checked": "2026-09-25T07:03:24+00:00",
@@ -10229,6 +10321,10 @@
 },
 "https://www.edpb.europa.eu/news/edpb-publishes-statement-on-the-data-protection-challenges-of-smart-glasses_en": {
 "checked": "2026-10-13T17:52:41+00:00",
+"img": ""
+},
+"https://www.edpb.europa.eu/news/edpb-supports-use-of-other-models-of-contractual-clauses-for-onward-transfers-of-personal-data_en": {
+"checked": "2026-11-13T10:24:00+00:00",
 "img": ""
 },
 "https://www.edpb.europa.eu/news/hellenic-dpa-decision-on-a-data-breach-involving-eetaa-sa-as-processor-for-the-ministry-of_en": {
@@ -10949,6 +11045,10 @@
 },
 "https://www.frontex.europa.eu/media-centre/news/news-release/frontex-irregular-border-crossings-into-the-eu-down-1-3-in-the-first-nine-months-of-2026-7YMDmt": {
 "checked": "2026-11-07T20:36:53+00:00",
+"img": ""
+},
+"https://www.frontex.europa.eu/media-centre/news/news-release/frontex-irregular-border-crossings-into-the-eu-down-29-in-the-first-ten-months-of-2026-Yj3qp4": {
+"checked": "2026-11-13T10:24:00+00:00",
 "img": ""
 },
 "https://www.frontex.europa.eu/media-centre/news/news-release/more-than-700-vehicles-and-34-boats-seized-334-arrested-in-europe-wide-operation-led-by-frontex-GnxPHE": {
@@ -11863,6 +11963,10 @@
 "checked": "2026-10-09T08:24:10+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2025/12/team_d669ce4260ddf055dfca55fe13a56a98_2000.jpg"
 },
+"https://www.jubel.be/maatschappen-en-meerwaardebelasting-donkere-onweerswolken-op-komst/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://www.jubel.be/wp-content/uploads/2026/11/felix-mittermeier-thunderstorm-3441687-640_fc078a6d5f49fee38db36f523473235d_2000.jpg"
+},
 "https://www.jubel.be/mag-je-als-advocaat-zomaar-een-clientgesprek-laten-opnemen-door-ai/": {
 "checked": "2026-10-28T07:52:08+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/10/pexels-karola-g-7876314_a365ee08eb547c94b6a6720abfcb427f_2000.jpg"
@@ -11894,6 +11998,10 @@
 "https://www.jubel.be/nieuwe-deontologische-code-voor-vastgoedmakelaars/": {
 "checked": "2026-10-20T07:04:18+00:00",
 "img": "https://www.jubel.be/wp-content/uploads/2026/10/new-code-of-ethics-for-real-estate-agents-2-scaled_9afdfa418fd05faf02752907a930e0e8_2000.jpg"
+},
+"https://www.jubel.be/nieuwe-regels-voor-bepaalde-overeenkomsten-vanaf-1-september-2027/": {
+"checked": "2026-11-13T10:24:00+00:00",
+"img": "https://www.jubel.be/wp-content/uploads/2026/11/twee-mensen-die-elkaar-de-hand-schudden_725f762fd0cd5e3b34b7d4ba2e67d55a_2000.jpg"
 },
 "https://www.jubel.be/nieuwe-wetten-en-cijfers-kunnen-gevolgen-hebben-voor-werkgevers-in-belgie/": {
 "checked": "2026-11-03T08:56:59+00:00",
@@ -12833,6 +12941,10 @@
 },
 "https://www.mlsaturkey.com/en/week-of-nov-2-8-2026-censorship-bulletin": {
 "checked": "2026-11-09T09:00:11+00:00",
+"img": ""
+},
+"https://www.mlsaturkey.com/en/week-of-nov-9-2026-journalism-and-freedom-of-expression-bulletin": {
+"checked": "2026-11-13T10:24:00+00:00",
 "img": ""
 },
 "https://www.mlsaturkey.com/en/week-of-oct-12-18-censorship-bulletin": {
