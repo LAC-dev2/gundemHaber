@@ -24,6 +24,9 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import llm                                              # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ANALIZ = DATA / "analiz"
@@ -31,14 +34,6 @@ SENTEZ = DATA / "sentez"
 TAKIP = DATA / "takip.json"
 
 VARSAYILAN_MODEL = "claude-opus-5"
-FIYAT = {
-    "claude-opus-5": (5.0, 25.0),
-    "claude-sonnet-5": (2.0, 10.0),
-    "claude-haiku-4-5": (1.0, 5.0),
-    "claude-opus-4-8": (5.0, 25.0),
-    "claude-fable-5-1": (10.0, 50.0),     # en yetenekli model, iki kat fiyat
-    "claude-fable-5": (10.0, 50.0),
-}
 EN_AZ_GUN = 3            # bu kadar gunluk analiz yoksa sentez uretme
 
 SISTEM = """Sen Brüksel Hukuk Merkezi'nin izleme masasında çalışan bir hukuk analistisin.
@@ -205,9 +200,6 @@ def istem_yap(gunler: list[dict], takip: str, baslangic: str, bitis: str) -> str
     )
 
 
-def maliyet(model: str, girdi: int, cikti: int) -> float:
-    g, c = FIYAT.get(model, FIYAT[VARSAYILAN_MODEL])
-    return girdi / 1e6 * g + cikti / 1e6 * c
 
 
 def main() -> int:
@@ -237,49 +229,17 @@ def main() -> int:
         print(istem[:4000])
         print(f"\n… istem {len(istem)} karakter (~{len(istem)//3.5:.0f} token), "
               f"{len(gunler)} gün, model {args.model}")
-        print(f"kaba maliyet tahmini: ${maliyet(args.model, len(istem)//3.5, 2500):.3f}")
+        print(f"kaba maliyet tahmini: ${llm.maliyet(args.model, len(istem)//3.5, 2500):.3f}")
         return 0
 
     try:
-        import anthropic
-    except ImportError:
-        print("anthropic paketi kurulu değil:  pip install anthropic")
+        veri, kullanim = llm.sor(model=args.model, sistem=SISTEM, istem=istem,
+                                 sema=SEMA, max_tokens=32000, dusun=True)
+    except llm.LLMHata as hata:
+        print(f"Model hatası: {hata.mesaj}")
         return 1
 
-    client = anthropic.Anthropic()
-    try:
-        # Akis: uzun cikti ve dusunme token'lari icin yer birak, HTTP
-        # zaman asimindan da korunmus ol (bkz. analiz.py'deki not).
-        with client.messages.stream(
-            model=args.model,
-            max_tokens=32000,
-            system=SISTEM,
-            messages=[{"role": "user", "content": istem}],
-            thinking={"type": "adaptive"},
-            output_config={"format": {"type": "json_schema", "schema": SEMA}},
-        ) as akis:
-            yanit = akis.get_final_message()
-    except anthropic.APIStatusError as hata:
-        print(f"API hatası ({hata.status_code}): {hata.message}")
-        return 1
-    except anthropic.APIConnectionError as hata:
-        print(f"Bağlantı hatası: {hata}")
-        return 1
-
-    if yanit.stop_reason == "refusal":
-        print("Model isteği yanıtlamayı reddetti; sentez üretilmedi.")
-        return 1
-    if yanit.stop_reason == "max_tokens":
-        print("::error::Yanıt çıktı sınırında kesildi; sentez yazılmadı.")
-        return 1
-
-    try:
-        veri = json.loads(next((b.text for b in yanit.content if b.type == "text"), ""))
-    except json.JSONDecodeError as hata:
-        print(f"::error::Yanıt ayrıştırılamadı: {hata}")
-        return 1
-    kullanim = yanit.usage
-    tutar = maliyet(args.model, kullanim.input_tokens, kullanim.output_tokens)
+    tutar = kullanim["maliyet"]
     veri.update({
         "baslangic": baslangic,
         "bitis": bitis,
@@ -288,6 +248,9 @@ def main() -> int:
         "olusturma": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "model": args.model,
         "maliyet_usd": round(tutar, 4),
+        "girdi_token": kullanim["girdi"],
+        "cikti_token": kullanim["cikti"],
+        "arka_uc": kullanim["arka_uc"],
         "uyari": ("Bu sentez, günlük brifinglerin kendisine dayanarak yapay zekâ ile "
                   "üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta "
                   "doğrulanmadan dosyaya esas alınamaz."),
@@ -302,8 +265,8 @@ def main() -> int:
     print(f"sentez: {baslangic} – {bitis} · {len(veri['egilimler'])} eğilim · "
           f"{len(veri['dosya_seyri'])} dosya · "
           f"{len(veri['karsilanmayan_beklentiler'])} karşılanmayan beklenti")
-    print(f"token: {kullanim.input_tokens} girdi / {kullanim.output_tokens} çıktı · "
-          f"maliyet ≈ ${tutar:.3f} · model {args.model}")
+    print(f"token: {kullanim['girdi']} girdi / {kullanim['cikti']} çıktı · "
+          f"maliyet ≈ ${tutar:.3f} · model {args.model} · arka uç {kullanim['arka_uc']}")
     return 0
 
 

@@ -20,14 +20,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import llm                                              # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ONBELLEK = DATA / "ceviri.json"
 
 VARSAYILAN_MODEL = os.environ.get("CEVIRI_MODEL") or "claude-haiku-4-5"
 YIGIN = 20          # tek istekte kac kayit
-FIYAT = {"claude-haiku-4-5": (1.0, 5.0), "claude-sonnet-5": (2.0, 10.0),
-         "claude-opus-5": (5.0, 25.0)}
 
 TR_SOZCUK = {"ve", "için", "ile", "bir", "bu", "olarak", "karar", "mahkeme",
              "dava", "hak", "yargı", "göre", "sonra", "kişi", "yıl", "üzerine",
@@ -254,22 +255,18 @@ def main() -> int:
     print(f"çevrilecek yeni kayıt: {len(bekleyen)} (önbellekte {len(onbellek)})")
     if args.kuru or not bekleyen:
         if args.kuru and bekleyen:
-            g, c = FIYAT.get(args.model, FIYAT[VARSAYILAN_MODEL])
+            g, c = llm.FIYAT.get(args.model, llm.FIYAT[VARSAYILAN_MODEL])
             tahmin = len(bekleyen) * 150 / 1e6 * g + len(bekleyen) * 150 / 1e6 * c
             print(f"kaba maliyet tahmini: ${tahmin:.3f} ({args.model})")
         yaz(latest, latest_yol, onbellek)
         return 0
 
-    try:
-        import anthropic
-    except ImportError:
-        print("anthropic paketi kurulu değil:  pip install anthropic")
-        return 1
-    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
+    # API arka ucunda anahtar sart; cli arka ucunda Claude aboneligi yeterli.
+    if llm.ARKA_UC == "api" and not (os.environ.get("ANTHROPIC_API_KEY")
+                                     or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
         print("ANTHROPIC_API_KEY tanımlı değil; çeviri atlandı.")
         return 0
 
-    client = anthropic.Anthropic()
     bekleyen = bekleyen[: args.adet]
     girdi = cikti = 0
     hata_nedeni = ""
@@ -293,26 +290,13 @@ def main() -> int:
         """
         nonlocal girdi, cikti
         try:
-            yanit = client.messages.create(
-                model=args.model, max_tokens=8000, system=SISTEM,
-                messages=[{"role": "user", "content": yigin_istemi(yigin)}],
-                output_config={"format": {"type": "json_schema", "schema": sema(len(yigin))}},
-            )
-        except Exception as hata:
-            mesaj = getattr(hata, "message", None) or str(hata)
-            kod = getattr(hata, "status_code", None)
-            dusuk = mesaj.lower()
-            if kod in (400, 401, 402, 403) or "credit balance" in dusuk or "usage limit" in dusuk:
-                return "hesap:" + mesaj
-            return f"{type(hata).__name__}: {mesaj}"
-        if yanit.stop_reason == "refusal":
-            return "model yanıtlamayı reddetti"
-        try:
-            veri = json.loads(next(b.text for b in yanit.content if b.type == "text"))
-        except Exception as hata:
-            return f"yanıt ayrıştırılamadı: {type(hata).__name__}"
-        girdi += yanit.usage.input_tokens
-        cikti += yanit.usage.output_tokens
+            veri, kullanim = llm.sor(
+                model=args.model, sistem=SISTEM, istem=yigin_istemi(yigin),
+                sema=sema(len(yigin)), max_tokens=8000)
+        except llm.LLMHata as hata:
+            return ("hesap:" + hata.mesaj) if hata.hesap else hata.mesaj
+        girdi += kullanim["girdi"]
+        cikti += kullanim["cikti"]
         yigin_ix = {h["k"]: h for h in yigin}
         for satir in veri.get("ceviriler", []):
             h = yigin_ix.get(satir.get("k", ""))
@@ -374,7 +358,7 @@ def main() -> int:
             print(f"::warning::{len(kalan)} kayıt çevrilemedi, listede gösterilmeyecek: "
                   + "; ".join(h["baslik"][:40] for h in kalan[:5]))
 
-    g, c = FIYAT.get(args.model, FIYAT[VARSAYILAN_MODEL])
+    g, c = llm.FIYAT.get(args.model, llm.FIYAT[VARSAYILAN_MODEL])
     tutar = girdi / 1e6 * g + cikti / 1e6 * c
     print(f"çeviri bitti: {girdi} girdi / {cikti} çıktı token · ≈ ${tutar:.3f} · {args.model}")
     yaz(latest, latest_yol, onbellek)

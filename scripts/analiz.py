@@ -10,7 +10,10 @@ neden onemli olduklari, alan alan durum notlari, izlenecekler.
   python3 scripts/analiz.py --model claude-sonnet-5
   python3 scripts/analiz.py --gun 2026-09-16 --zorla
 
-Anahtar: ANTHROPIC_API_KEY ortam degiskeni (ya da `ant auth login` profili).
+Model cagrisi scripts/llm.py uzerinden yapilir, iki arka uc var:
+
+  GUNDEM_LLM=api   (varsayilan)  ANTHROPIC_API_KEY ile, token basina odeme
+  GUNDEM_LLM=cli                 Claude Code komut satiri, Claude aboneligiyle
 """
 from __future__ import annotations
 
@@ -21,6 +24,9 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import llm                                              # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -34,15 +40,6 @@ GECMIS_GUN = 7                       # kaç günün analizi hafızaya verilir
 TAM_METIN_UST = 15                   # kaç kayıt için uzun metin gönderilir
 
 VARSAYILAN_MODEL = "claude-opus-5"
-# 1M token basina USD (girdi, cikti)
-FIYAT = {
-    "claude-opus-5": (5.0, 25.0),
-    "claude-sonnet-5": (2.0, 10.0),
-    "claude-haiku-4-5": (1.0, 5.0),
-    "claude-opus-4-8": (5.0, 25.0),
-    "claude-fable-5-1": (10.0, 50.0),     # en yetenekli model, iki kat fiyat
-    "claude-fable-5": (10.0, 50.0),
-}
 
 # Merkezin calisma alanlari (brusselslawoffice.com) + izleme dosyalari
 ALANLAR = [
@@ -672,8 +669,6 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
 
     Butun kayitlari degil, yalnizca iddialarin gosterdigi kayitlari
     gonderir; hem daha ucuz hem daha odakli."""
-    import anthropic
-
     iddialar = iddialari_topla(veri)
     if not iddialar:
         return {"hata": "denetlenecek iddia bulunamadı"}
@@ -694,55 +689,39 @@ def denetim_yap(veri: dict, secilen: list[dict], kumeler: dict, tam_metin: bool,
         + "\n\nHer iddia için hüküm ver. Yalnızca olgu eksikliğini işaretle; "
         + "analistin değerlendirmesini eksik dayanak sayma."
     )
-    istemci = anthropic.Anthropic()
-
     def cagir(m: str):
         # Denetim mekanik bir kontrol: her iddiayi kayitlarla karsilastirip
         # uc hukumden birini vermek. Derin dusunmeye ihtiyaci yok ve
         # dusunme token'lari max_tokens'a sayiliyor; effort "low" ile hem
         # sinira takilmiyor hem ucuzluyor.
-        return istemci.messages.create(
-            model=m, max_tokens=16000, system=DENETIM_SISTEM,
-            messages=[{"role": "user", "content": istem}],
-            output_config={"effort": "low",
-                           "format": {"type": "json_schema", "schema": DENETIM_SEMA}},
-        )
+        return llm.sor(model=m, sistem=DENETIM_SISTEM, istem=istem,
+                       sema=DENETIM_SEMA, max_tokens=16000, efor="low")
 
     try:
-        yanit = cagir(model)
-    except anthropic.APIStatusError as hata:
+        sonuc, kullanim = cagir(model)
+    except llm.LLMHata as hata:
         # Model bu hesapta yoksa (404) ya da erisim yoksa (403) yedege dus:
         # denetim, analizin tamamini bosa dusurmeyecek kadar onemli.
-        print(f"denetim modeli {model} basarisiz ({hata.status_code}): {hata.message}")
-        if hata.status_code in (403, 404) and model != DENETIM_YEDEK:
+        print(f"denetim modeli {model} basarisiz: {hata.mesaj}")
+        if hata.kod in (403, 404) and model != DENETIM_YEDEK:
             try:
-                yanit = cagir(DENETIM_YEDEK)
+                sonuc, kullanim = cagir(DENETIM_YEDEK)
                 model = DENETIM_YEDEK
                 print(f"denetim yedek modelle yapildi: {DENETIM_YEDEK}")
             except Exception as ikinci:
-                print(f"denetim atlandi: {type(ikinci).__name__}: {ikinci}")
-                return {"hata": f"{type(ikinci).__name__}: {ikinci}"[:300]}
+                print(f"denetim atlandi: {ikinci}")
+                return {"hata": str(ikinci)[:300]}
         else:
-            return {"hata": f"{hata.status_code}: {hata.message}"[:300]}
+            return {"hata": hata.mesaj[:300]}
     except Exception as hata:
         print(f"denetim atlandi: {type(hata).__name__}: {hata}")
         return {"hata": f"{type(hata).__name__}: {hata}"[:300]}
-    if yanit.stop_reason in ("refusal", "max_tokens"):
-        print(f"denetim atlandi: {yanit.stop_reason}")
-        return {"hata": f"yanıt {yanit.stop_reason}"}
-    try:
-        sonuc = json.loads(next(b.text for b in yanit.content if b.type == "text"))
-    except Exception as hata:
-        print(f"denetim yaniti ayristirilamadi: {type(hata).__name__}")
-        return {"hata": f"yanıt ayrıştırılamadı: {type(hata).__name__}"}
     sonuc["model"] = model
-    sonuc["girdi_token"] = yanit.usage.input_tokens
-    sonuc["cikti_token"] = yanit.usage.output_tokens
-    sonuc["maliyet_usd"] = round(maliyet(model, yanit.usage.input_tokens,
-                                         yanit.usage.output_tokens), 4)
+    sonuc["girdi_token"] = kullanim["girdi"]
+    sonuc["cikti_token"] = kullanim["cikti"]
+    sonuc["maliyet_usd"] = round(kullanim["maliyet"], 4)
     sonuc["iddia_sayisi"] = len(iddialar)
-    print(f"denetim token: {yanit.usage.input_tokens} girdi / "
-          f"{yanit.usage.output_tokens} çıktı")
+    print(f"denetim token: {kullanim['girdi']} girdi / {kullanim['cikti']} çıktı")
     return sonuc
 
 
@@ -754,11 +733,6 @@ def durum_yaz(gun: str, durum: str, mesaj: str = "") -> None:
         "gun": gun, "durum": durum, "mesaj": mesaj,
         "zaman": datetime.now(timezone.utc).isoformat(timespec="minutes"),
     }, ensure_ascii=False, indent=1), encoding="utf-8")
-
-
-def maliyet(model: str, girdi: int, cikti: int) -> float:
-    g, c = FIYAT.get(model, FIYAT[VARSAYILAN_MODEL])
-    return girdi / 1e6 * g + cikti / 1e6 * c
 
 
 def main() -> int:
@@ -857,61 +831,23 @@ def main() -> int:
         print(istem[:4000])
         print(f"\n… istem {len(istem)} karakter (~{len(istem)//3.5:.0f} token), "
               f"{len(secilen)} kayıt, model {args.model}")
-        print(f"kaba maliyet tahmini: ${maliyet(args.model, len(istem)//3.5, 2500):.3f}")
+        print(f"kaba maliyet tahmini: ${llm.maliyet(args.model, len(istem)//3.5, 2500):.3f}")
         return 0
 
     try:
-        import anthropic
-    except ImportError:
-        print("anthropic paketi kurulu değil:  pip install anthropic")
+        # Cikti sinirini yuksek tutuyoruz: 17 Eylul kosusu 16.000'in
+        # 15.554'unu kullandi ve dusunme token'lari da buna sayiliyor.
+        veri_ham, kullanim = llm.sor(
+            model=args.model, sistem=SISTEM, istem=istem, sema=SEMA,
+            max_tokens=48000, dusun=True)
+    except llm.LLMHata as hata:
+        durum_yaz(gun, "model hatası", hata.mesaj)
+        print(f"::error::Model hatası: {hata.mesaj}")
         return 1
 
-    client = anthropic.Anthropic()
-    try:
-        # Akis kullaniyoruz: cikti sinirini yukseltmek gerekiyor (17 Eylul
-        # kosusu 16.000'in 15.554'unu kullandi; dusunme token'lari da buna
-        # sayiliyor) ve akis olmadan uzun yanitlar HTTP zaman asimina
-        # takilabiliyor. get_final_message() tam yaniti veriyor.
-        with client.messages.stream(
-            model=args.model,
-            max_tokens=48000,
-            system=SISTEM,
-            messages=[{"role": "user", "content": istem}],
-            thinking={"type": "adaptive"},
-            output_config={"format": {"type": "json_schema", "schema": SEMA}},
-        ) as akis:
-            yanit = akis.get_final_message()
-    except anthropic.APIStatusError as hata:
-        durum_yaz(gun, "api hatası", f"{hata.status_code}: {hata.message}")
-        print(f"::error::API hatası ({hata.status_code}): {hata.message}")
-        return 1
-    except anthropic.APIConnectionError as hata:
-        durum_yaz(gun, "bağlantı hatası", str(hata))
-        print(f"::error::Bağlantı hatası: {hata}")
-        return 1
+    veri = veri_ham
 
-    if yanit.stop_reason == "refusal":
-        durum_yaz(gun, "reddedildi", "Model isteği yanıtlamayı reddetti.")
-        print("Model isteği yanıtlamayı reddetti; analiz üretilmedi.")
-        return 1
-    if yanit.stop_reason == "max_tokens":
-        durum_yaz(gun, "kesildi",
-                  f"Yanıt çıktı sınırına takıldı ({yanit.usage.output_tokens} token). "
-                  "max_tokens büyütülmeli ya da şema küçültülmeli.")
-        print("::error::Yanıt çıktı sınırında kesildi; analiz yazılmadı.")
-        return 1
-
-    metin = next((b.text for b in yanit.content if b.type == "text"), "")
-    try:
-        veri = json.loads(metin)
-    except json.JSONDecodeError as hata:
-        durum_yaz(gun, "ayrıştırılamadı",
-                  f"Yanıt geçerli JSON değil ({hata}); {len(metin)} karakter geldi.")
-        print(f"::error::Yanıt ayrıştırılamadı: {hata}")
-        return 1
-
-    kullanim = yanit.usage
-    tutar = maliyet(args.model, kullanim.input_tokens, kullanim.output_tokens)
+    tutar = kullanim["maliyet"]
     veri.update({
         "gun": gun,
         "olusturma": datetime.now(timezone.utc).isoformat(timespec="minutes"),
@@ -921,8 +857,11 @@ def main() -> int:
         "maliyet_usd": round(tutar, 4),
         # Token sayilari da kayda gecsin: "gunde ne kadar token gidiyor"
         # sorusu maliyetten geri hesaplanmak zorunda kalmasin.
-        "girdi_token": kullanim.input_tokens,
-        "cikti_token": kullanim.output_tokens,
+        "girdi_token": kullanim["girdi"],
+        "cikti_token": kullanim["cikti"],
+        # Hangi arka uctan uretildigi: "api" token basina odeme,
+        # "cli" Claude aboneligi (maliyet_usd o zaman yalnizca karsilastirma icin).
+        "arka_uc": kullanim["arka_uc"],
         "uyari": ("Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak "
                   "yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta "
                   "doğrulanmadan dosyaya esas alınamaz."),
@@ -970,8 +909,8 @@ def main() -> int:
           f"{len(veri['alan_notlari'])} alan notu · "
           f"takip: {len(veri.get('takip_acik', []))} açık ({hareketli} hareket), "
           f"{len(veri.get('yeni_takip', []))} yeni")
-    print(f"token: {kullanim.input_tokens} girdi / {kullanim.output_tokens} çıktı · "
-          f"maliyet ≈ ${tutar:.3f} · model {args.model}")
+    print(f"token: {kullanim['girdi']} girdi / {kullanim['cikti']} çıktı · "
+          f"maliyet ≈ ${tutar:.3f} · model {args.model} · arka uç {kullanim['arka_uc']}")
     return 0
 
 
