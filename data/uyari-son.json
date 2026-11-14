@@ -1,32 +1,33 @@
 {
- "gun": "2026-11-13",
- "olusturma": "2026-11-13T18:20+00:00",
+ "gun": "2026-11-14",
+ "olusturma": "2026-11-14T08:34+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-13:toplu:6",
+   "id": "takip:2026-11-14:toplu:14",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "14 takip dosyasında hareket var",
    "alan": "",
-   "not": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı ; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları; Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab",
+   "not": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) v; TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişi; Eskişehir ve İzmir savcılıklarının üç soruşturmasında gözaltına alınan; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürütt; KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz h; Osmaniye Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürü; ÇHD-3 davasında altı avukat hakkındaki suçlamaların esastan karara bağ; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları; EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etki; FRA'nın dış sınırlarda tarama (screening) işleminin temel haklara uygu; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; BM uzmanlarının Türkiye'de LGBTİ+ örgütlerine yönelik baskıya ilişkin ",
    "kayitlar": [
-    "d2efc27fbb",
-    "bfc651ced1",
-    "673dd445f6",
+    "3a6eb793ae",
+    "3a6eb793ae",
+    "406a6c9593",
+    "406a6c9593",
     "dc66f00a6e",
-    "abf7d4e1b6",
-    "bb3b9f331e",
-    "fa27dea7f1"
+    "7d4641cca7",
+    "7d4641cca7",
+    "7d4641cca7"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-13:10",
+   "id": "saglik:2026-11-14:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "10 kaynağın akışı hata veriyor",
+   "baslik": "12 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Scholars at Risk, Alomaliye, ESMA, MENAFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
