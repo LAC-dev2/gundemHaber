@@ -702,7 +702,7 @@
    "neden": "Avrupa Konseyi Göç ve Mülteciler Birimi 16 Eylül'de yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik belge yayımladı [c23be3b155]; EUAA ise Ocak-Haziran 2026 verilerine dayanan yarı yıl raporunu 10 Eylül'de yayımladı, ECRE istatistiklerin kullanımında ihtiyat çağrısı yapıyor [4e7b8dd15b]. İltica ve iade dosyalarında referans malzemesi oluşturuyor.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-15",
    "kayitlar": [
     "c23be3b155",
     "4e7b8dd15b"
@@ -745,6 +745,13 @@
      "not": "FRA, refakatsiz çocuklara vesayet konulu el kitabının ikinci baskısını (2026) yayımladı [e38c49beed]. Kayıt başlık ve künye düzeyinde; içerik dökümü yok.",
      "kayitlar": [
       "e38c49beed"
+     ]
+    },
+    {
+     "gun": "2026-11-15",
+     "not": "Hollanda'ya ilişkin ulusal veri geldi: üçüncü çeyrekte yaklaşık 5.900 ilk başvuru, önceki çeyreğe göre yüzde 13 düşüş, ilk dokuz ayın toplamı geçen yılın aynı dönemine göre yüzde 8 artış. Veri EUAA kaynaklı değil, haber düzeyinde ve uyruk dökümü yok.",
+     "kayitlar": [
+      "574ccc8768"
      ]
     }
    ]
@@ -1098,7 +1105,7 @@
    "neden": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki çağrısıyla aynı dönemde gelen bir icra baskısı; kayıt yalnızca başlık düzeyinde olduğu için talebin hangi organda ve hangi usulle dile getirildiği doğrulanmalı.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-10-23",
+   "son_hareket": "2026-11-15",
    "kayitlar": [
     "8c71808e1f"
    ],
@@ -1143,6 +1150,13 @@
      "not": "Amnesty International Canada, Kanada Başbakanı Carney'in 22 Ekim'deki Ankara görüşmesinde Kavala'nın serbest bırakılmasını ve uluslararası mahkeme kararlarına uyumu gündeme getirmesini istedi. Talep siyasi düzeyde; Bakanlar Komitesi usulünde yeni bir adım kayıtlarda yok.",
      "kayitlar": [
       "9eaccac23a"
+     ]
+    },
+    {
+     "gun": "2026-11-15",
+     "not": "Turkish Minute, İstanbul 14. Ağır Ceza Mahkemesi'nin 13 Ekim tarihli kararı onayarak Kavala'nın tahliye ve yeniden yargılama talebini reddettiğini, kararın AİHM'in bağlayıcı hükmüne rağmen verildiğini bildiriyor; kaynak Bianet'e atıf yapıyor. Karar metni kayıtlarda yok, bilgi haber düzeyinde.",
+     "kayitlar": [
+      "4305371730"
      ]
     }
    ]
@@ -2732,12 +2746,14 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Dört İHD üyesi üç aydan uzun tutukluluktan sonra ilk duruşmada tahliye edildi; iki üyenin dosyası 2 Ekim'de Ankara 2. Ağır Ceza Mahkemesi'nde görülecek. Operasyonun toplam sayıları (225 gözaltı, 178 tutuklama, 34 ev hapsi) tutukluluğun toplu kullanımına ilişkin veri sağlıyor.",
    "acildi": "2026-09-30",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-30",
    "kayitlar": [
     "97c5dcebf3"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-15",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t58",
@@ -2766,12 +2782,14 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "Avrupa Konseyi denetim organlarının Türkiye'ye ilişkin uyum tablosunda ölçülebilir bir veri; kurumsal denetim dosyalarında bağlam olarak kullanılabilir.",
    "acildi": "2026-09-30",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-09-30",
    "kayitlar": [
     "961ba8d9e1"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-15",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t60",
@@ -5370,7 +5388,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-14",
+   "son_hareket": "2026-11-15",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5430,6 +5448,13 @@
     {
      "gun": "2026-11-14",
      "not": "Resmî Gazete akışında 'Yargı Harçları' başlıklı beşinci kayıt düştü. Kayıt yine yalnızca başlık düzeyinde; düzenlemenin içeriği ve hangi harç kalemlerini kapsadığı belirlenemiyor.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-15",
+     "not": "Resmî Gazete akışında yine yalnızca 'Yargı Harçları' başlıklı bir kayıt var; içerik, madde numarası ya da düzenlemenin kapsamı kayıtta görünmüyor. Aynı başlık önceki analizlerde de (8 ve 12 Kasım) yinelenmişti.",
      "kayitlar": [
       "673dd445f6"
      ]
@@ -6209,8 +6234,34 @@
     "75e4350548"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t216",
+   "baslik": "Hollanda'nın 2026 üçüncü çeyrek iltica başvuru verileri ve Türkiye kaynaklı dosyaların bu veri içindeki yeri",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Merkezin Hollanda idari yargısındaki Türkiye/Gülen kaynaklı iltica dosyaları (t185, t195, t100, t184) ulusal başvuru hacmi ve karar süreleriyle doğrudan bağlantılı. Bugünkü kayıt yalnızca toplam sayı veriyor; uyruk dökümü ve karar süresi verisi izlenmeli.",
+   "acildi": "2026-11-15",
+   "durum": "açık",
+   "son_hareket": "2026-11-15",
+   "kayitlar": [
+    "574ccc8768"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t217",
+   "baslik": "Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul adımı (itirazın reddi sonrası başvuru seçenekleri)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "t24 Avrupa Konseyi'nin 'somut adım' talebini izliyor; 13 Kasım tarihli ret kararı bu talebin iç yargıdaki karşılığının ne olduğunu gösteren ayrı bir usul adımı ve izlenmesi gereken kendi seyri var.",
+   "acildi": "2026-11-15",
+   "durum": "açık",
+   "son_hareket": "2026-11-15",
+   "kayitlar": [
+    "4305371730"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-14T08:34+00:00",
+ "guncelleme": "2026-11-15T08:48+00:00",
  "acik": 191
 }
