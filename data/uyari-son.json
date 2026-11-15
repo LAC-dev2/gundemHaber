@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-15",
- "olusturma": "2026-11-15T11:46+00:00",
+ "olusturma": "2026-11-15T12:27+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-15:Hollanda'da üçüncü çeyrekte yaklaşık 5.900 ilk iltica başvur",
@@ -29,12 +29,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-15:11",
+   "id": "saglik:2026-11-15:19",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "19 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Anadolu Ajansı, Scholars at Risk, Alomaliye, ESMA…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Brüksel Hukuk Merkezi, FIDH - Türkiye, CİSST, CCBE Human Rights Letters, International Observatory for Lawyers in Danger - OIAD, ENNHRI…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
