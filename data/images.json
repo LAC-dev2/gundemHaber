@@ -1779,6 +1779,10 @@
 "checked": "2026-11-10T10:39:23+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:33080&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:33101&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-11-10T14:14:04+00:00",
 "img": ""
@@ -2695,6 +2699,18 @@
 "checked": "2026-11-13T18:19:03+00:00",
 "img": ""
 },
+"https://digitallibrary.un.org/record/4132582": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132583": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132584": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": ""
+},
 "https://echrblog.com/book-discussion-hate-speech-and-the-ecthr/?utm_source=rss&utm_medium=rss&utm_campaign=book-discussion-hate-speech-and-the-ecthr": {
 "checked": "2026-10-22T15:45:10+00:00",
 "img": "https://echrblog.com/wp-content/uploads/2026/10/9781032909240.webp"
@@ -3035,6 +3051,10 @@
 "checked": "2026-10-06T12:40:06+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
+"https://europeanlawblog.eu/an-unorthodox-use-of-the-gdpr-defending-the-right-to-legal/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
 "https://europeanlawblog.eu/can-a-brand-mislead-about-its-past-faure-le-page-and-the/": {
 "checked": "2026-10-07T12:33:34+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
@@ -3049,6 +3069,10 @@
 },
 "https://europeanlawblog.eu/collective-compliance-at-the-expense-of-competitive/": {
 "checked": "2026-10-22T07:00:40+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/data-protection-law-the-new-frontier-for-lgbtiq-rights-in/": {
+"checked": "2026-11-16T10:28:05+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
 "https://europeanlawblog.eu/de-europeanising-border-conflicts-brexits-legal-toolkit/": {
@@ -3067,8 +3091,24 @@
 "checked": "2026-09-30T16:34:33+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
+"https://europeanlawblog.eu/outed-profiled-and-unable-to-prove-it-the-data-omnibus-and/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
 "https://europeanlawblog.eu/overlapping-gdpr-and-dma-competences-to-assess-anonymisation/": {
 "checked": "2026-10-21T09:08:09+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/protecting-lgbtiq-rights-in-the-digital-age-assessing-the/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/protecting-queer-people-from-inferential-technologies-with/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/rectifying-the-record-data-protection-as-a-litigation-tool/": {
+"checked": "2026-11-16T10:28:05+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
 "https://europeanlawblog.eu/same-substance-different-rules-could-essential-use-bring/": {
@@ -3091,12 +3131,20 @@
 "checked": "2026-10-27T11:31:23+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
+"https://europeanlawblog.eu/the-general-data-protection-regulation-and-free-movement/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
 "https://europeanlawblog.eu/the-manufacturable-employee-what-hortis-misses-about-remote/": {
 "checked": "2026-10-01T10:44:09+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
 "https://europeanlawblog.eu/the-pool-and-the-pressure-article-603-and-the-eu-migration/": {
 "checked": "2026-10-23T08:09:02+00:00",
+"img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
+},
+"https://europeanlawblog.eu/trans-rights-through-data-protection-structural/": {
+"checked": "2026-11-16T10:28:05+00:00",
 "img": "https://europeanlawblog.eu/wp-content/uploads/2026/05/cropped-elb-emblem-1.png"
 },
 "https://europeanlawblog.eu/who-bears-the-costs-of-systemic-rule-of-law-breaches-the/": {
@@ -3570,6 +3618,14 @@
 "https://globalinitiative.net/analysis/mekong-meth-supply-chains/": {
 "checked": "2026-09-30T07:52:14+00:00",
 "img": "https://globalinitiative.net/wp-content/uploads/2026/09/The-Mekong-meth-business-Myanmar-linked-supply-chains-and-risks-for-New-Zealand-and-Australia__01.png"
+},
+"https://globalinitiative.net/analysis/organized-crime-along-the-lobito-corridor/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": ""
+},
+"https://globalinitiative.net/analysis/organized-crime-critical-minerals-central-africa/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://globalinitiative.net/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-09.51.00.png"
 },
 "https://globalinitiative.net/analysis/organized-crime-shapes-mexicos-media-landscape/": {
 "checked": "2026-09-28T18:19:27+00:00",
@@ -6739,6 +6795,10 @@
 "checked": "2026-10-15T10:47:11+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/FINTRAC-enrolment-puts-Canadian-firms-in-the-spotlight.jpg"
 },
+"https://regtechanalyst.com/canadas-bill-c-12-puts-aml-effectiveness-on-trial/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Canadas-Bill-C-12-puts-AML-effectiveness-on-trial.jpg"
+},
 "https://regtechanalyst.com/cmc-markets-halves-regulatory-monitoring-time-with-cube/": {
 "checked": "2026-10-30T16:54:16+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/CMC-Markets-halves-regulatory-monitoring-time-with-CUBE.jpg"
@@ -7119,6 +7179,10 @@
 "checked": "2026-10-16T15:04:57+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Is-compliance-entering-its-engineering-era.jpg"
 },
+"https://regtechanalyst.com/is-regulatory-change-becoming-impossible-to-manage-manually/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/vitaly-gariev-Imk2h0pyOvo-unsplash.webp"
+},
 "https://regtechanalyst.com/is-your-compliance-team-heading-into-q1-overstretched/": {
 "checked": "2026-10-16T15:04:57+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/10/Year-end-crunch-exposes-hidden-gaps-in-compliance-teams.jpg"
@@ -7166,6 +7230,10 @@
 "https://regtechanalyst.com/life-insurance-marketing-puts-compliance-under-pressure/": {
 "checked": "2026-09-30T16:34:33+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/09/Life-insurance-marketing-puts-compliance-under-pressure.jpg"
+},
+"https://regtechanalyst.com/lloyds-bets-on-in-house-talent-to-lead-cyber-resilience/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/Lloyds-hands-cyber-defence-to-new-group-security-chief.jpg"
 },
 "https://regtechanalyst.com/local-news-blind-spots-shrink-as-blackdot-joins-opoint/": {
 "checked": "2026-10-08T11:09:08+00:00",
@@ -7785,6 +7853,10 @@
 },
 "https://rli.blogs.sas.ac.uk/2026/11/12/between-the-court-and-the-street-south-africas-asylum-crossroads/": {
 "checked": "2026-11-12T10:31:31+00:00",
+"img": ""
+},
+"https://rli.blogs.sas.ac.uk/2026/11/16/employer-sponsorship-scheme-for-refugee-resettlement-in-the-uk-window-dressing-for-a-mistaken-approach-to-regulating-work-in-the-context-of-international-protection/": {
+"checked": "2026-11-16T10:28:05+00:00",
 "img": ""
 },
 "https://securitylab.amnesty.org/latest/2026/10/we-start-with-the-verdict-inside-moroccos-surveillance-machine/": {
@@ -8943,6 +9015,10 @@
 "checked": "2026-10-12T20:03:54+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/informationspflicht-bundestag-verteidigungsfall/": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/institutional-ethics-of-ai-in-legal-scholarship/": {
 "checked": "2026-10-08T17:40:16+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -9017,6 +9093,10 @@
 },
 "https://verfassungsblog.de/platform-work-directive/": {
 "checked": "2026-11-02T12:00:17+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/polands-captured-judiciary-and-the-challenges-of-repair/": {
+"checked": "2026-11-16T10:28:05+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/politicizing-the-u-s-postal-service/": {
@@ -11497,6 +11577,10 @@
 },
 "https://www.frontex.europa.eu/media-centre/news/news-release/frontex-irregular-border-crossings-into-the-eu-down-29-in-the-first-ten-months-of-2026-Yj3qp4": {
 "checked": "2026-11-13T10:24:00+00:00",
+"img": ""
+},
+"https://www.frontex.europa.eu/media-centre/news/news-release/frontex-to-resume-admissions-to-the-eu-reintegration-programme-on-16-november-GLhT8W": {
+"checked": "2026-11-16T10:28:05+00:00",
 "img": ""
 },
 "https://www.frontex.europa.eu/media-centre/news/news-release/more-than-700-vehicles-and-34-boats-seized-334-arrested-in-europe-wide-operation-led-by-frontex-GnxPHE": {
@@ -14395,6 +14479,10 @@
 "checked": "2026-11-11T08:46:40+00:00",
 "img": "https://images.turkinfo.nl/media/2026/11/hollanda-gocmen-issizlik-farki_6af4118daadf4_h.png"
 },
+"https://www.turkinfo.nl/hollanda-groningen-10-kilo-tumor-ameliyati/45560": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://images.turkinfo.nl/media/2026/11/hollanda-groningen-10-kilo-tumor-ameliyati_6afad38763cb0_h.png"
+},
 "https://www.turkinfo.nl/hollanda-groningen-arriva-treninde-dogum/45297": {
 "checked": "2026-10-22T07:00:40+00:00",
 "img": "https://images.turkinfo.nl/media/2026/10/hollanda-groningen-arriva-treninde-dogum_6ad8f53b42ea4_h.png"
@@ -14542,6 +14630,10 @@
 "https://www.turkinfo.nl/hollanda-sahte-ilac-operasyonu-30-site-kapatildi/45304": {
 "checked": "2026-10-22T09:10:33+00:00",
 "img": "https://images.turkinfo.nl/media/2026/10/hollanda-sahte-ilac-operasyonu-30-site-kapatildi_6ad9cb17d2f05_h.png"
+},
+"https://www.turkinfo.nl/hollanda-sahte-polis-dolandiriciligi/45561": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://images.turkinfo.nl/media/2026/11/hollanda-sahte-polis-dolandiriciligi_6afad9fb102ad_h.png"
 },
 "https://www.turkinfo.nl/hollanda-savunma-teknolojisi-nidt-350-milyon-avro/45471": {
 "checked": "2026-11-06T10:12:38+00:00",
@@ -14886,6 +14978,10 @@
 "https://www.turkinfo.nl/hollandada-iltica-basvurulari-ucuncu-ceyrekte-yuzde-13-azaldi/45544": {
 "checked": "2026-11-15T08:45:33+00:00",
 "img": "https://images.turkinfo.nl/media/2026/11/hollandada-iltica-basvurulari-ucuncu-ceyrekte-yuzde-13-azaldi_6af95379d33ef_h.png"
+},
+"https://www.turkinfo.nl/hollandada-internet-reklamlari-uzerinden-zararli-yazilim-yayildi-iphone-kullanicilarina-uyari/45559": {
+"checked": "2026-11-16T10:28:05+00:00",
+"img": "https://images.turkinfo.nl/media/2026/11/hollandada-internet-reklamlari-uzerinden-zararli-yazilim-yayildi-iphone-kullanic_6afacbeb060a1.png"
 },
 "https://www.turkinfo.nl/hollandada-istilaci-kerevitlerle-mucadeleye-amator-balikcilar-da-katilabilecek/45195": {
 "checked": "2026-10-10T08:01:26+00:00",
