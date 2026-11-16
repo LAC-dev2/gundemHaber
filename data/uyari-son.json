@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-16",
- "olusturma": "2026-11-16T10:29+00:00",
+ "olusturma": "2026-11-16T12:27+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-11-16:toplu:6",
@@ -20,12 +20,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-16:13",
+   "id": "saglik:2026-11-16:16",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "13 kaynağın akışı hata veriyor",
+   "baslik": "16 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CİSST, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Diken…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
