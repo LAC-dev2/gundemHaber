@@ -311,7 +311,7 @@
    "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-16",
    "kayitlar": [
     "6bad902c60"
    ],
@@ -364,6 +364,13 @@
      "not": "İzmir Bölge Adliye Mahkemesi, beraat etmiş olmasına rağmen hakkında terör isnatlarını yeniden gündeme getiren yazılar nedeniyle hükümete yakın bir gazetenin yayıncısı ve bir gazetecinin ihraç edilmiş akademisyene tazminat ödemesine hükmetti. Tutar kayıtta yok.",
      "kayitlar": [
       "a25dd7a8f7"
+     ]
+    },
+    {
+     "gun": "2026-11-16",
+     "not": "MLSA bülteninde, Ankara Başsavcılığı'nın 12 Kasım'da 'FETÖ ve bağlantılı yapılar' atfıyla engellediği 21 X hesabı arasında KHK'lıların durumunu belgeleyen 'KHK Türkiye' hesabı da sayılıyor. Kayıt yalnızca hesap adlarını veriyor, karar numarası ve gerekçe metni yok.",
+     "kayitlar": [
+      "79de103186"
      ]
     }
    ]
@@ -1552,7 +1559,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-11-09",
+   "son_hareket": "2026-11-16",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1733,6 +1740,13 @@
      "not": "MLSA'nın 2-8 Kasım haftalık bülteni, 1-2 Kasım'da en az 207 X hesabının 5651 md. 8/A ve 'kamu düzeninin korunması' gerekçesiyle engellendiğini, kararı veren makam ve karar numaralarının açıklanmadığını yazıyor; engellenenler arasında Ayşenur Yazıcı, T. Sabri Öncü, Orkun Özeller ve Cem Baykal sayılıyor [1216c6acb9].",
      "kayitlar": [
       "1216c6acb9"
+     ]
+    },
+    {
+     "gun": "2026-11-16",
+     "not": "Toplu X hesabı engeli pratiği bu hafta yeniden görülüyor: Ankara Başsavcılığı 12 Kasım'da iki ayrı karar duyurdu, bültende hem '32 X hesabı' hem de ilk karara ilişkin '21 hesap' sayısı geçiyor. Bu kez gerekçe ekonomi/finans içeriği değil, 'FETÖ ve bağlantılı yapılar' atfı olarak aktarılıyor.",
+     "kayitlar": [
+      "79de103186"
      ]
     }
    ]
@@ -2856,12 +2870,14 @@
    "alan": "BM insan hakları mekanizmaları",
    "neden": "Dört ayrı özel usul görevlisi, derneğin 2007'de tüzel kişiliğini yitirdiği yönündeki istinaf kararını ve Şubat 2022'den derdest kapatma davasını örgütlenme özgürlüğü açısından sorguluyor. Hükümet yanıtı ve 20 Mayıs'ta yapılan temyizin sonucu takip gerektiriyor.",
    "acildi": "2026-10-01",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-01",
    "kayitlar": [
     "d281f9f656"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-16",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t62",
@@ -4587,7 +4603,7 @@
    "neden": "Engelleme doğrudan adalet bakanının mal varlığı iddialarını konu alan haberleri hedef alıyor; fon krizi engellemelerinden ayrı bir hat olarak itiraz ve ölçülülük denetimi izlenmeli.",
    "acildi": "2026-10-20",
    "durum": "açık",
-   "son_hareket": "2026-10-21",
+   "son_hareket": "2026-11-16",
    "kayitlar": [
     "2f6d2caffd"
    ],
@@ -4597,6 +4613,13 @@
      "not": "Erişim engellerine konu olan aynı iddialar hukuk davasına da taşındı: İstanbul'da bir mahkeme, CHP Genel Başkanı Özgür Özel'in Adalet Bakanı Akın Gürlek'in maaşıyla alamayacağı taşınmaz edindiği yönündeki iddiaları nedeniyle 750.000 lira (yaklaşık 15.000 dolar) tazminat ödemesine karar verdi.",
      "kayitlar": [
       "b4ace910c9"
+     ]
+    },
+    {
+     "gun": "2026-11-16",
+     "not": "Karşıyaka 1. Sulh Ceza Hâkimliği'nin 11 Kasım tarihli 2026/6413 sayılı kararıyla, TİP milletvekili Ahmet Şık'ın Adalet Bakanı ve bir iş insanı hakkındaki açıklamalarını aktaran BirGün, Diken ve Gazete Pencere haberleri engellendi; gerekçe özel hayatın gizliliği. Aynı kararla DEM Partili Özgül Saki ile gazeteciler Umut Kaşan ve Cüneyt Şaşmaz'ın X hesapları da engellendi. Bülten, Gürlek'e ilişkin haberlere Ekim'de İstanbul'da da engel getirildiğini hatırlatıyor.",
+     "kayitlar": [
+      "79de103186"
      ]
     }
    ]
@@ -5953,11 +5976,19 @@
    "neden": "Haberes genel yayın yönetmeninin Vakıflar Genel Müdürlüğü ihalelerine ilişkin iki haberine 3 Kasım'da erişim engeli getirildi; karar numarası ve gerekçe açıklanmadı. Yerel yolsuzluk haberciliğine yönelen engelleme örüntüsünün izlenmesi gerekiyor.",
    "acildi": "2026-11-09",
    "durum": "açık",
-   "son_hareket": "2026-11-09",
+   "son_hareket": "2026-11-16",
    "kayitlar": [
     "1216c6acb9"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-16",
+     "not": "Bülten, bu hafta da yerel düzeyde engel kararları verildiğini bildiriyor: İzmir ve Yalova sulh ceza hâkimlikleri çeşitli haberlere erişim engeli getirdi. Kayıt karar numaralarını ve engellenen haberlerin konusunu vermiyor.",
+     "kayitlar": [
+      "79de103186"
+     ]
+    }
+   ]
   },
   {
    "id": "t197",
@@ -6062,11 +6093,19 @@
    "neden": "Milletvekilinin soruları nedeniyle aile üyesinin hedef alındığı iddiası, soruşturmanın caydırıcı işlev gördüğü yönündeki dosyalara ekleniyor. İfade alındıktan sonra serbest bırakılması, isnadın dayanağına ilişkin soru doğuruyor.",
    "acildi": "2026-11-11",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-16",
    "kayitlar": [
     "d307832149"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-16",
+     "not": "Engellenen haberlerin konusu, TİP İstanbul milletvekili Ahmet Şık'ın Adalet Bakanı ve bir iş insanına ilişkin açıklamaları. Şık'ın adı bu pencerede yeniden bir kısıtlama kararında geçiyor; eşi hakkındaki soruşturmaya dair yeni kayıt yok.",
+     "kayitlar": [
+      "79de103186"
+     ]
+    }
+   ]
   },
   {
    "id": "t205",
@@ -6255,13 +6294,73 @@
    "neden": "t24 Avrupa Konseyi'nin 'somut adım' talebini izliyor; 13 Kasım tarihli ret kararı bu talebin iç yargıdaki karşılığının ne olduğunu gösteren ayrı bir usul adımı ve izlenmesi gereken kendi seyri var.",
    "acildi": "2026-11-15",
    "durum": "açık",
-   "son_hareket": "2026-11-15",
+   "son_hareket": "2026-11-16",
    "kayitlar": [
     "4305371730"
+   ],
+   "gelismeler": [
+    {
+     "gun": "2026-11-16",
+     "not": "Fikret İlkiz'in 16 Kasım tarihli yazısı, Anayasa Mahkemesi'nin bireysel başvurularda karar vermemesini ve gecikmesini hak ihlali olarak niteliyor. Kayıt başlık/özet düzeyinde; ancak Kavala dosyasında iç hukuk yolunun tüketilmediği gerekçesinin dayandığı derdest AYM başvurusu tartışmasıyla aynı sorunu ele alıyor.",
+     "kayitlar": [
+      "5ff4afad19"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t218",
+   "baslik": "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X hesapları: sayı farkı (21 ve 32) ve hesapların kimliği",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Bülten aynı günün kararları için hem 21 hem 32 hesap sayısı veriyor; engellenen hesaplar arasında KHK ve cezaevi gündemini izleyen yayınlar var. Kararların numarası ve gerekçesi kayıtta yok.",
+   "acildi": "2026-11-16",
+   "durum": "açık",
+   "son_hareket": "2026-11-16",
+   "kayitlar": [
+    "79de103186"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t219",
+   "baslik": "Manşet Haber TV'nin X ve Instagram hesaplarına 14 Kasım'da uygulanan engelin dayanağının açıklanmaması ve kuruluşun duyurduğu başvuru yolları",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kararı veren makam, karar numarası ve gerekçe açıklanmamış; yayın kuruluşu yasal yollara başvuracağını bildirdi. Dayanağı bilinmeyen platform engellerinin itiraz seyri izlenmeli.",
+   "acildi": "2026-11-16",
+   "durum": "açık",
+   "son_hareket": "2026-11-16",
+   "kayitlar": [
+    "79de103186"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t220",
+   "baslik": "ABD terör izleme listesi davasında CAIR müvekkillerinin Türkiye seyahatleri ve oradaki temasları üzerinden sorgulanması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Kayıt, federal mahkeme belgelerine dayandırılan bir haber; Türkiye bağlantılı seyahat ve temasların üçüncü ülke güvenlik listelerinde ölçüt olarak kullanılması merkezin sınıraşan baskı dosyalarıyla kesişiyor.",
+   "acildi": "2026-11-16",
+   "durum": "açık",
+   "son_hareket": "2026-11-16",
+   "kayitlar": [
+    "405ce2b4a2"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t221",
+   "baslik": "İsviçre'de banka gizliliği yasası uyarınca bir gazetecinin ilk kez yargılanması ve AB Komisyonu'nun yorum yapmaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Banka gizliliği mevzuatının habercilik aleyhine kullanılması, merkezin mali soruşturma haberciliğine yönelik kısıtlamalar dosyalarıyla karşılaştırmalı bir örnek oluşturuyor. Kayıt özet düzeyinde; sanığın adı ve dosya numarası verilmemiş.",
+   "acildi": "2026-11-16",
+   "durum": "açık",
+   "son_hareket": "2026-11-16",
+   "kayitlar": [
+    "0c3e40abfb"
    ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-15T08:48+00:00",
- "acik": 191
+ "guncelleme": "2026-11-16T09:02+00:00",
+ "acik": 194
 }

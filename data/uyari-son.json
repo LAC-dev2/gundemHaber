@@ -1,40 +1,31 @@
 {
- "gun": "2026-11-15",
- "olusturma": "2026-11-15T17:31+00:00",
+ "gun": "2026-11-16",
+ "olusturma": "2026-11-16T09:02+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-15:Hollanda'da üçüncü çeyrekte yaklaşık 5.900 ilk iltica başvur",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Hollanda'da üçüncü çeyrekte yaklaşık 5.900 ilk iltica başvurusu; çeyreklik düşüş, dokuz aylık artış",
-   "alan": "İade, adli yardım ve iltica",
-   "not": "Merkezin Hollanda idari yargısındaki Türkiye kaynaklı iltica dosyaları (NL26.51724, NL26.50232, NL25.35230) ulusal başvuru hacmi ve karar sürelerinin seyriyle bağlantılı; süresinde karar vermeme davalarının arka planını bu veri oluşturuyor. Kayıt yalnızca toplam sayı veriyor, uyruk dağılımı yok [574ccc8768].",
-   "kayitlar": [
-    "574ccc8768"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
-  },
-  {
-   "id": "takip:2026-11-15:toplu:3",
+   "id": "takip:2026-11-16:toplu:6",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "3 takip dosyasında hareket var",
+   "baslik": "6 takip dosyasında hareket var",
    "alan": "",
-   "not": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be",
+   "not": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Bakırköy'ün Adalet Bakanı Akın Gürlek'in mal varlığına ilişkin 10 habe; Eskişehir ve Erzincan sulh ceza hâkimliklerinin yerel habere ve gazete; Muhalefet milletvekili Ahmet Şık'ın eşinin casusluk soruşturması kapsa; Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul ad",
    "kayitlar": [
-    "4305371730",
-    "673dd445f6",
-    "574ccc8768"
+    "79de103186",
+    "79de103186",
+    "79de103186",
+    "79de103186",
+    "79de103186",
+    "5ff4afad19"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-15:15",
+   "id": "saglik:2026-11-16:11",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "15 kaynağın akışı hata veriyor",
+   "baslik": "11 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, Human Rights Watch - Türkiye, FIDH - Türkiye, Opinio Juris, ENNHRI, Anadolu Ajansı…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, Scholars at Risk, Alomaliye, ESMA, MENAFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
