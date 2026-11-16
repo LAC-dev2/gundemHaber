@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-16",
- "olusturma": "2026-11-16T14:37+00:00",
+ "olusturma": "2026-11-16T20:47+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-11-16:toplu:6",
@@ -20,12 +20,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-16:18",
+   "id": "saglik:2026-11-16:60",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "18 kaynağın akışı hata veriyor",
+   "baslik": "60 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, ENNHRI, Access Now Digital Security Helpline, European Center for Not-for-Profit Law - ECNL…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: İnsan Hakları Komiseri, PACE, EUR-Lex, CURIA / ABAD, EU Sanctions Map, OSCE Representative on Freedom of the Media…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

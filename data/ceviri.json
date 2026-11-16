@@ -1369,6 +1369,10 @@
 "0c79fa93ed": {
 "dil": "tr"
 },
+"0c812e003c": {
+"baslik": "İnsan Hakları Konseyi, 63. oturum — 5 Ekim 2026 Pazartesi günü Cenevre Palais des Nations'da yapılan 39. toplantının özet tutanağı (kısmi)",
+"dil": "diger"
+},
 "0c86b18e6b": {
 "baslik": "Türkiye'de tartışmalı yalan haber yasası kapsamında başka bir gazeteci tutuklandı",
 "dil": "diger",
@@ -2731,6 +2735,11 @@
 "186f489bcb": {
 "dil": "tr"
 },
+"1874ba883c": {
+"baslik": "FMA, Plovurikant tarafından yapılan teklifler hakkında uyarı yapıyor",
+"dil": "diger",
+"ozet": "Dikkat! FMA bu sağlayıcı ile işlem yapılmasına karşı uyarı yapıyor."
+},
 "187d75185d": {
 "baslik": "GRETA Belçika'da insan ticaretine karşı kalıcı güvenlik açıklarını vurguladı",
 "dil": "diger"
@@ -2938,6 +2947,11 @@
 "baslik": "Polis: Papua Yeni Gine'de Ortaya Çıkarılan Dolandırıcılık Merkezi Kamboçya'dan Taşındı",
 "dil": "diger",
 "ozet": "Yerel polis, geçen ay Papua Yeni Gine'de tasfiye edilen şüpheli siber dolandırıcılık çetesinin Kamboçya'daki devam eden baskınlardan kaçmak için Pasifik ülkesine yerleştiğine inanmaktadır."
+},
+"1a89a4c686": {
+"baslik": "FMA: Temiz bir finansal merkez için ortak hareket: adil ve güvenli",
+"dil": "diger",
+"ozet": "Uyum, Kara Para Aklamaya Karşı Önleme ve Yaptırımlar Denetimi konusundaki 7. FMA Çalıştayı, dijital dağıtım, dolandırıcılık önleme, kara para aklaması ve yaptırımlara odaklanmaktadır."
 },
 "1a8b9b57d5": {
 "dil": "tr"
@@ -3748,6 +3762,11 @@
 "dil": "diger",
 "ozet": "Arnavutluk'a tatil izni için yedek izin"
 },
+"21f13a2370": {
+"baslik": "Türkiye, Gülen bağlantısı iddiasıyla 21 X hesabını engellemeyi emretti",
+"dil": "diger",
+"ozet": "Türk makamları, 2016 darbe girişiminden sonra görevden alınan kamu görevlileriyle ilişkilendirilen sayfalar da dahil olmak üzere X sosyal medya platformundaki 21 hesaba erişim engeli koymayı emretmiştir. Makamlar, bu hesapların Gülen hareketine bağlantısı ve ulusal güvenlik tehdidi oluşturduğu iddiasında bulunmaktadır. Ankara Başsavcılığı konuyla ilgilidir."
+},
 "21f1b85ec6": {
 "dil": "tr"
 },
@@ -3823,6 +3842,10 @@
 "baslik": "CUBE: Neden uygunluk artık uyum iş yükünü belirliyor",
 "dil": "diger",
 "ozet": "RegTech firmasının iki haftada bir hazırlanan CUBE Read analizine göre düzenlemeler genişletilmekten ziyade iyileştirilmektedir. 3-16 Ekim 2026 dönemini kapsayan rapor, uyum ve risk ekiplerinin çalışmasını yeniden şekillendiren üç gelişmeyi tanımlamaktadır."
+},
+"228df194ae": {
+"baslik": "ATP — Brüksel gezisi — KU Leuven Hukuk Fakültesi fotoğraf albümü",
+"dil": "diger"
 },
 "2299d7f212": {
 "dil": "tr"
@@ -5020,6 +5043,11 @@
 "2cf89e54fb": {
 "dil": "tr"
 },
+"2cfb0eacc8": {
+"baslik": "Türkiye, Gülen bağlantısı iddiasıyla 21 X hesabının engellenmesini emretti",
+"dil": "diger",
+"ozet": "Türk yetkililer, 2016 darbe girişiminden sonra görevden alınan kamu görevlileriyle ilişkili sayfalar da dahil olmak üzere X sosyal medya platformunda 21 hesaba erişimin engellenmesini emretmiştir; iddia edilen Gülen hareketi bağlantıları ve ulusal güvenliğe tehditler gerekçe gösterilmiştir."
+},
 "2d3423c8f9": {
 "dil": "tr"
 },
@@ -5197,6 +5225,9 @@
 "dil": "diger",
 "ozet": "Yalçınkaya v. Türkiye davasında AİHM, Türk mahkemelerinin terörizmle mücadele soruşturmalarında ByLock verilerine dayanmasının sistematik insan hakları ihlalleri oluşturduğunu tespit etmiştir. Türkiye'nin dirençli tutumu devam eden yargısal anarşi ve AİHM kararlarına uyumsuzluk yol açmıştır."
 },
+"2e70929b73": {
+"dil": "tr"
+},
 "2e7f9267d3": {
 "baslik": "VRG İş Fuarı: Hukuk Öğrencileri ile Hukuki Çalışma Alanı Arasında Köprü",
 "dil": "diger",
@@ -5221,6 +5252,9 @@
 "baslik": "Ex Injuria ve Düalist Aksiyom",
 "dil": "diger",
 "ozet": "[Tuğgeneral R. Scott Adams, ABD Hava Kuvvetleri Hukuk Müşaviri'dir. Bu makale kişisel kapasitesinde yazılmış olup, ABD Hava Kuvvetleri'nin veya ABD Hükümeti'nin herhangi bir resmi konumunu yansıtmamaktadır.] Jus contra bellum, modern uluslararası hukukun var oluş nedenidir. Bu düzenleme etkisiz hale geldiğinde."
+},
+"2ed5402bf8": {
+"dil": "tr"
 },
 "2ee9f443c2": {
 "baslik": "Senegal: İstisnaî Bastırma LGBT İnsanların Haklarını İhlal Ediyor",
@@ -5302,6 +5336,11 @@
 "baslik": "Güney Kore Kuzey Kore Politikasında İnsan Haklarına Ağırlık Vermeli",
 "dil": "diger",
 "ozet": "Güney Kore'nin Kuzey Kore ile ilgili politikasında insan hakları temelli bir yaklaşım benimsenmesi çağrısı."
+},
+"2fb388baf2": {
+"baslik": "Pişmanlık bir Savunma Değildir — Devletler Tarafından Oluşturulan Meclis ve Uluslararası Ceza Mahkemesi'nin Yaptırımlandırılması",
+"dil": "diger",
+"ozet": "Ezequiel Jimenez Martinez, Pompeu Fabra Hukuk Fakültesi'nde Yardımcı Profesör ve Uluslararası Hukuk Araştırması ve Politikası Merkezi'nde Kıdemli Araştırmacı olup, Roma Statüsü'nün Devletler Tarafından Oluşturulan Meclisi Yönetme: Tarih ve Uygulamalar (Brill, 2025) kitabının yazarıdır."
 },
 "2fba1d6825": {
 "baslik": "Maryamu Yahaya — USCIRF vicdan tutsakları ve din özgürlüğü mağdur veritabanı kaydı",
@@ -5429,6 +5468,9 @@
 "ozet": "Stockholm'de ikamet eden Alexander Suvorov, Hong Kong ön şirketleri kullanarak kısıtlı ABD elektronik ürünlerini Rusya'ya kaçırmak amacıyla bir komplonun mimarı olduğu, bir New York federal mahkemesinde dosyalanan DOJ şikayetinde belirtilmiştir."
 },
 "3106ed6ec8": {
+"dil": "tr"
+},
+"310dc6601c": {
 "dil": "tr"
 },
 "310ddfa0f6": {
@@ -6631,6 +6673,11 @@
 "3bae4ab34e": {
 "dil": "tr"
 },
+"3bc9e55531": {
+"baslik": "İzin Verilmesi: Transak GmbH",
+"dil": "diger",
+"ozet": "Transak GmbH'ya 10.11.2026 tarihli bir idari karar ile MiCAR'ın 63. Maddesi uyarınca CASP yetkilendirmesi verilmiştir."
+},
 "3bca1fa846": {
 "baslik": "Görünüş Taşıyıcılık: Çalışan ile Serbest Meslek Sahibi Arasındaki Sınır",
 "dil": "diger",
@@ -7763,6 +7810,11 @@
 "464ca60494": {
 "dil": "tr"
 },
+"466b725596": {
+"baslik": "Türkiye'nin anayasa mahkemesi, Kürt adamın öldürülmesine ilişkin yeni soruşturma talep etti; orijinal soruşturmada aksaklıklar belirtildi",
+"dil": "diger",
+"ozet": "Türkiye'nin Anayasa Mahkemesi, 2019 askeri operasyonunda Kürt bir adamın öldürülmesine ilişkin yeni bir soruşturma emri vermiştir; orijinal soruşturmadaki aksaklıkların yaşam hakkının usuli boyutunu ihlal ettiğine karar vermiştir."
+},
 "466b8f8446": {
 "baslik": "Yunanistan: Mülteci ve Göçmenleri Desteklediği İçin Haklara Müdafaa Edenler Yargılanıyor",
 "dil": "diger",
@@ -8266,6 +8318,11 @@
 "dil": "diger",
 "ozet": "Vietnam, Hong Kong, İran, Azerbaycan ve Mısır'da demokrasi savunucularının yurt dışında yardım arama çabalarından dolayı hedef alındığı belgelenmektedir."
 },
+"4a6edaf4f9": {
+"baslik": "Türk mahkemesi, Kürt gazeteciye sosyal medya paylaşımları nedeniyle 18 aylık şartlı hapis cezası verdi",
+"dil": "diger",
+"ozet": "Türk mahkemesi, Kürt gazeteci Rabia Önver'i, haber yapımıyla ilgili sosyal medya paylaşımları aracılığıyla terör propagandası yaymaktan mahkûm ederek 18 aylık şartlı hapis cezasına mahkûm etmiştir."
+},
 "4a6fd3bb45": {
 "dil": "tr"
 },
@@ -8355,6 +8412,11 @@
 },
 "4b8a66ccb5": {
 "dil": "tr"
+},
+"4b8d1ab69c": {
+"baslik": "Yaptırımlı komşular AML uyum maliyetlerini şişiriyor",
+"dil": "diger",
+"ozet": "Bir ülkenin kara parayla mücadele (AML) harcamaları, kendi sınırları içindeki riskler hakkında olduğundan daha fazla komşularının kim olduğu hakkında bilgi verebilir. Napier AI tarafından hazırlanan yeni araştırmaya göre, Napier AI / AML Index 2026–2027'de 42 pazar sıralanmış olup, ana bulgu ağır yaptırımlı ülkelere sınır komşu olan ulusların merkezi konudadır."
 },
 "4b8d432692": {
 "cevrilemedi": true,
@@ -8580,6 +8642,11 @@
 },
 "4d62160281": {
 "dil": "tr"
+},
+"4d6dd0eeca": {
+"baslik": "Türkiye, Gülen bağlantısı iddiasıyla 21 X hesabını engellemeyi emretti",
+"dil": "diger",
+"ozet": "Türk makamları, 2016 darbe girişiminden sonra görevden alınan kamu görevlileriyle ilişkilendirilen sayfalar da dahil olmak üzere X sosyal medya platformundaki 21 hesaba erişim engeli koymayı emretmiştir. Makamlar, bu hesapların Gülen hareketine bağlantısı ve ulusal güvenlik tehdidi oluşturduğu iddiasında bulunmaktadır. Ankara Başsavcılığı konuyla ilgilidir."
 },
 "4d7426f43f": {
 "baslik": "Greenboard yapay zekanın uyum araçlarının yerini alacağına bahis yapıyor",
@@ -9025,6 +9092,9 @@
 "ozet": "ANKARA — 2026-2027 yargısal yılının açılış töreninde konuşan Türkiye Barolar Birliği (TBB) Başkanı Av. R. Erinç Sağkan, Türkiye'deki hukuk devleti ilkelerinin hedef alan uygulamalarla aşındığına dair uyarıda bulunarak kapsamlı bir konuşma yapmıştır."
 },
 "51c289f623": {
+"dil": "tr"
+},
+"51cb1d5fcc": {
 "dil": "tr"
 },
 "51d4600923": {
@@ -9523,6 +9593,11 @@
 "55e57a2e41": {
 "dil": "tr"
 },
+"55e9613bb6": {
+"baslik": "EBA E-posta uyarısı 16 Kasım 2026 — Banka Birliğinde ilerleme",
+"dil": "diger",
+"ozet": "16/11/2026 tarihi, anonim (doğrulanmamış). EBA, mevduat sigortası da dahil olmak üzere Banka Birliğinde ilerlemeyi desteklemektedir."
+},
 "55f987266b": {
 "baslik": "Hayati Deniz Kaytan — Türk Hapishanelerinde Kritik Durumda Olan Mahkûmlar",
 "dil": "diger",
@@ -9704,6 +9779,9 @@
 "ozet": "İltica, Brezilya, eski eşle devam eden sorunlar, iltica başvurusunun bariz asılsız olarak reddedilmesi, geri dönüş kararları ve giriş yasağı, başvuru gerekçesiz."
 },
 "57f061a167": {
+"dil": "tr"
+},
+"57fb7c0cf0": {
 "dil": "tr"
 },
 "57ff120f3f": {
@@ -10212,6 +10290,11 @@
 "5ced15f2e2": {
 "baslik": "Hindistan: Seçmen kütüğü manipülasyonuna karşı kitlesel protestolara yönelik operasyonda binlerce kişi gözaltına alındı, aktivistler ve gazeteciler suçlanmıştır",
 "dil": "diger"
+},
+"5cfa4e9eae": {
+"baslik": "AB'nin TikTok İçeri Sarması Konusundaki İşlemi Gerçek Sosyal Medya Tasarım Değişikliğine Yol Açabilir mi?",
+"dil": "diger",
+"ozet": "Avrupa Birliği yönetimi, TikTok'u Dijital Hizmetler Yasası (DSA) ihlali konusunda ön olarak bulmuştur. Bunun nedeni, kullanıcıların refahlarına zarar verebilecek içeri sarmasına yeterince değerlendirmemesi ve riskleri azaltmamasıdır. Komisyon özellikle genç kullanıcılar ve savunmasız yetişkinlerin tekrarlanan içeri sarmalarına karşı endişe duymuştur."
 },
 "5d02175f71": {
 "dil": "tr"
@@ -10959,6 +11042,11 @@
 "dil": "diger",
 "ozet": "Suriye için belirli süreli iltica izni verilmesine ilişkin başvuruya zamanında karar verilmemesi nedeniyle yapılan itiraz. İhtiyat kararı. Karar: Yerindedir."
 },
+"64775cc339": {
+"baslik": "ECLI:NL:GHDHA:2026:3176 — Den Haag Bölge Mahkemesi kararı",
+"dil": "diger",
+"ozet": "Olay davasında davalı, Hukuk Usulü Kanunu Madde 225 Fıkra 1 Alt Madde c ve Fıkra 2'ye dayanarak davayı durdurma talep etmiştir. Mahkeme bu talebi kabul etmiş ve dosyanın 13 Ocak 2026'dan itibaren durdurulduğunu tespit etmiştir."
+},
 "6495fe26db": {
 "baslik": "Den Haag Mahkemesi (ECLI:NL:RBDHA:2026:32580) — İltica Aile Birleşimi Geçici İkamet İzni Başvurusu Kararı",
 "dil": "diger",
@@ -11216,6 +11304,11 @@
 "baslik": "FMA Bernhard Rothenberger'in tekliflerine karşı uyarı yapıyor",
 "dil": "diger",
 "ozet": "Dikkat! FMA bu sağlayıcıyla işlem yapılmasına karşı uyarı vermektedir. Yazı ilk olarak FMA Avusturya'da yayınlandı."
+},
+"66cd808b3b": {
+"baslik": "1.840 değişiklik, bir temel soru: Veri Omnibus AB dijital kurallarını basitleştirecek mi yoksa insanların haklarını zayıflatacak mı?",
+"dil": "diger",
+"ozet": "Avrupa Parlamentosu, Genel Veri Koruma Yönetmeliği (GDPR), gizlilik ve AB'nin veri kurallarının diğer bölümlerini değiştirecek Veri Omnibus'unda 1.840 değişikliği incelemektedir. Veri koruma ve gizlilik ile ilgili değişiklikler analiz edilmiştir."
 },
 "66ce55dbbf": {
 "dil": "tr"
@@ -12381,6 +12474,11 @@
 "716fa9e64d": {
 "dil": "tr"
 },
+"7177c2cfa9": {
+"baslik": "Öğrenciler Diktatörü Yendi. Şimdi Ne Olacak? — Sırbistan için Beş Soru",
+"dil": "diger",
+"ozet": "Yolsuzluk ve kleptokrasi uzmanı Tena Prelec, OCCRP'ye Sırbistan'ın ülkeyi yolsuzluktan arındırma göreviyle iktidarı alan öğrenci destekli partisinin karşılaştığı zorluk ve fırsatlar hakkında konuşmuştur."
+},
 "71864d22b8": {
 "baslik": "CCW GGE LAWS Sempozyumu: Engeller Aşıldı Mı? 2026 GGE LAWS Raporu İçin Fikir Birliğine Doğru İlerleme",
 "dil": "diger",
@@ -13090,6 +13188,9 @@
 "78c8d14cc2": {
 "dil": "tr"
 },
+"78ca483989": {
+"dil": "tr"
+},
 "78cc85b8ae": {
 "baslik": "21 Ekim 2026: Geertjan Zuijdwegt İncelemesi: Cezaevlerinde Krizler ve Reformlar: 'Çoğu Zaman Tutukluların Sesi Eksik' (Sociaal.net)",
 "dil": "diger"
@@ -13292,6 +13393,10 @@
 "dil": "diger",
 "ozet": "Bu yazı, BM'de Küresel Güney temsilcilerinin sömürgecilik ve yeni-sömürgecilik uygulamalarını barış ve güvenliğe karşı suç olarak dahil etmeyi savunarak uluslararası suçlar kavramını yeniden tanımlama çabalarını göstermektedir. Sömürgecilik suçlulaştırılması üzerine yapılan önceki tartışmalar gücün dengesiz dağılımını ortaya çıkarmaktadır..."
 },
+"7ab3bb3420": {
+"baslik": "İnsan Hakları Konseyi, 63. oturum — 6 Ekim 2026 Salı günü Cenevre Palais des Nations'da yapılan 41. toplantının özet tutanağı",
+"dil": "diger"
+},
 "7abf8d1acf": {
 "baslik": "ABD, Odebrecht Rüşvet Skandalına Bağlı 7 Milyon Dolarlık Hesabın Müsaderesini Kazandı",
 "dil": "diger",
@@ -13299,6 +13404,11 @@
 },
 "7acfbc7269": {
 "dil": "tr"
+},
+"7ad627077e": {
+"baslik": "KYCP 2.1.7 karmaşık müşteri alımı kontrollerini katılaştırıyor",
+"dil": "diger",
+"ozet": "Karmaşık kurumsal müşterilerin alımı uzun süredir gizli bir riski beraberinde getirmiştir: kullanıcılar temel bilgiler yerine konuşmadan önce ilgili kuruluşlarla ileriye gitmektedir. KYCP'ye göre, en son sürüm 2.1.7, Root Field Visibility Conditions adlı bir özellik sunarak bu boşluğu kapatmak için tasarlanmıştır. Bu özellik kuruluşlara kontrol sağlamaktadır."
 },
 "7ad6e5e5f7": {
 "baslik": "Genel Sekreter, Paris Barış Forumu'nda dünyadaki çocuklara layık daha iyi ve ağa bağlanmış bir dünya inşa etmek için işbirliğini çağırıyor",
@@ -13438,6 +13548,11 @@
 "baslik": "Edebiyat yıldızı Sally Rooney kim, neden Birleşik Krallık'ta satış yasağı var? \"Terörizm amaçları için kullanılabilecek para\"",
 "dil": "diger",
 "ozet": "İrlandalı yazar, gelirlerinin bir kısmını mahkeme tarafından yasaklı bir grup olan Palestine Action'a aktarmayı vaat etmiş."
+},
+"7bedc73cf1": {
+"baslik": "FMA, TCLGroup'un teklifleri konusunda uyarıda bulundu",
+"dil": "diger",
+"ozet": "FMA, bu sağlayıcı ile işlem yapılması konusunda uyarıda bulunmaktadır."
 },
 "7bf2ad7c7f": {
 "dil": "tr"
@@ -13580,6 +13695,11 @@
 },
 "7d64bd5e11": {
 "dil": "tr"
+},
+"7d696d52cc": {
+"baslik": "FWU Life Insurance Lux S.A. müşterileri için Lüksemburg'da talepleri zamanında kaydetmek için bilgi",
+"dil": "diger",
+"ozet": "Lüksemburg'da tasfiye halinde olan sigorta işletmesi FWU Life Insurance Lux S.A.'nın tasfiye memuru tarafından verilen, 31.01.2028 tarihine kadar taleplerin bildirilmesi gerekliliği hakkındaki bilgi."
 },
 "7d75c12957": {
 "dil": "tr"
@@ -14768,6 +14888,11 @@
 "887897bb13": {
 "dil": "tr"
 },
+"887f4fb091": {
+"baslik": "Beş AB ülkesi Ruanda sınır dışı merkezleriyle ilerlemeye başladı",
+"dil": "diger",
+"ozet": "Avrupa ülkeleri bir zamanlar tartışmalı olan İngiliz planını yeniden hayata geçirerek reddedilen iltica başvuru sahiplerini sahra-altı Afrika'ya göndermek istiyor."
+},
 "888df70679": {
 "baslik": "Popüler Kültür ve Uluslararası Hukuk 6. Yıllık Sempozyumu: Bir Stilin Mülkiyeti — Ghibli Tarzı Nesil ve Telif Hakkının Bölgesel Çerçevede Sınırları",
 "dil": "diger",
@@ -15215,6 +15340,11 @@
 "dil": "diger",
 "ozet": "14 Ekim 2026 Yatırımcı Koruması. Avrupa Menkul Kıymetler ve Piyasalar Otoritesi (ESMA), AB'nin finansal piyasalar düzenleyicisi ve denetleyicisi, sınır ötesi yatırım hizmetleri sağlanışına ilişkin yıllık analizini tamamlamıştır."
 },
+"8c1a9ed1b0": {
+"baslik": "Yapay zeka ajanları insanlar için inşa edilmiş firmalarda neden başarısız oluyor",
+"dil": "diger",
+"ozet": "Norm AI, profesyonel hizmetler sektöründeki en dayanıklı varsayımlardan birine meydan okuyor: bugünün firmalarının nasıl çalıştığını temel olarak değiştirmeden yapay zeka ajanlarını emebileceği şeklindeki varsayım. Yeni bir yazıda şirket, ajansiyel yapay zekanın vaat ettiği verimlilik kazançlarının firmalar yerden yeniden inşa edilmedikçe durağanlaşacağını savunmaktadır."
+},
 "8c1e3b355b": {
 "baslik": "WP 2026/04: Özel Kredi Fonları - Makroprudansiyel Riskler ve AIFMD II Sınırları",
 "dil": "diger",
@@ -15516,6 +15646,11 @@
 "dil": "diger",
 "ozet": "AİHM Başkanı, Avrupa Konseyi Parlamenter Asamblesine, Türkiye'nin olağanüstü hal kararnamesi uygulamalarına ilişkin 12.000 yeni başvurunun bir yıl içinde mahkemeye ulaştığını bildirmiştir."
 },
+"8eccea12bf": {
+"baslik": "Irak, İran yanlısı Şii milisların kontrolündeki bölgede petrol kaçakçılığına karşı harekete geçti",
+"dil": "diger",
+"ozet": "Orta Irak'ın Jurf el-Nasr bölgesinde silahlı gruplar tarafından gerçekleştirilen şüpheli petrol kaçakçılığına ilişkin sızdırılan bir istihbarat raporunun ardından Irak başbakanı dokuz güvenlik görevlisini görevden aldı. Emekli bir ordu komutanı OCCRP'ye bu \"cesur hareketin\" istikrarı yeniden sağlamayı amaçladığını söylemiştir."
+},
 "8ed52aaf7f": {
 "dil": "tr"
 },
@@ -15550,6 +15685,11 @@
 "baslik": "Türk mahkemesi gazeteciye terörizm suçundan 6 yıldan fazla hapis cezası verdi",
 "dil": "diger",
 "ozet": "Türk mahkemesi Salı günü, gazeteci Züleyha Müldür'e terör örgütüne üyelik suçundan 6 yıl 3 aydan fazla hapsi kesin hükmü vermiştir; bunu Medya ve Hukuk Çalışmaları Derneği (MLSA) açıklamıştır. İstanbul 14. Ağır Ceza Mahkemesi, cezalandırmayı yargılamanın altıncı duruşmasında vermiştir."
+},
+"8f05703d38": {
+"baslik": "Türk milletvekili, 2016 darbe hesabını parliyamentoda sorgulamaktan dolayı savunma bakanından tazminat ödemesi istenmiş",
+"dil": "diger",
+"ozet": "Türk mahkemesi, muhalefet milletvekili Ömer Faruk Gergerlioğlu'na, parlamentoda 2016 darbe girişimine ilişkin Savunma Bakanı Yaşar Güler'in açıklamalarını sorgulamaktan dolayı 150.000 lira tazminat ödemeyi emretmiştir."
 },
 "8f37aa29c0": {
 "baslik": "ECLI:NL:RBDHA:2026:28818 — Den Haag Asliye Mahkemesi iltica kararı",
@@ -15816,6 +15956,11 @@
 "dil": "diger",
 "ozet": "Mali İstihbarat Merkezi, belirli sorumlu kuruluşların risk yönetimi ve uyum programı (RMCP) sunmasını gerektiren Yönerge 12'yi yayınlamıştır. Ek 1 madde numaraları 1, 2, 9 ve 11, RMCP'lerini Cuma, 9 Ekim 2026 tarihine kadar sunmak zorundadır. Sorumlu kuruluşlar lütfen Adım 5'e dikkat ediniz."
 },
+"91292c5068": {
+"baslik": "Revolut, Milano mahkemesinin Mafya bağlantılı kara para aklama konusundaki incelemesiyle karşı karşıya",
+"dil": "diger",
+"ozet": "İngiliz bankanın Avrupa şubesi, örgütlü suçluların onlarca milyon euro para aklamasına izin veren yetersiz iç kontroller nedeniyle mahkeme denetimi altına alınmıştır."
+},
 "91371c3afe": {
 "baslik": "Apiax anlaşması Behavox'u tek uyum platformuna doğru yöneltdi",
 "dil": "diger",
@@ -15951,6 +16096,11 @@
 "baslik": "YENİ RAPOR: İstibdadî İnternet Kontrolleri Küresel İnternet Özgürlüğünde 16. Ardışık Yılın Düşüşüne Yol Açıyor",
 "dil": "diger",
 "ozet": "Küresel internet özgürlüğü 16. ardışık yıl boyunca düşüş göstermiş ve koşullar kötüleşmiştir."
+},
+"92dc4ef426": {
+"baslik": "'Silah olarak Pornhub'u kullandı'",
+"dil": "diger",
+"ozet": "Mahkeme dosyaları, dünyanın en büyük pornografi şirketlerinden birinin çocuklara yönelik cinsel istismar ve rıza olmaksızın çekilen videoların yayılmasına nasıl izin verdiğini, hatta mağdurlar ve polis tarafından bildirildikten sonra da nasıl devam ettiğini ortaya koymaktadır."
 },
 "92fb0ef20a": {
 "baslik": "Brezilya'da Güney Amerika-Avrupa kokain hattına yönelik operasyonda yedi kişi tutuklandı",
@@ -16186,6 +16336,9 @@
 "ozet": "Türkiye'deki Süleymanlı cemaati davasında 19 kişinin daha gözaltına alındığını, bunun Ağustos ayından bu yana dini bir topluluğa karşı yürütülen en az beş dalganın en sonuncusu olduğunu ve mütevellilerin şu anda 50 şirketini yönettiğini bildiren haber."
 },
 "94b69aa545": {
+"dil": "tr"
+},
+"94c3c4e94a": {
 "dil": "tr"
 },
 "94c66e0e76": {
@@ -17984,6 +18137,11 @@
 "dil": "diger",
 "ozet": "Avrupa yetkilileri Norveç'te 5 kişiyi tutuklamış ve Almanya ile Romanya'daki mülklere baskın düzenlemişlerdir; Eurojust'a göre bu soruşturma NATO üye ülkelerini 1 milyondan fazla euro dolandırıktan şüphelenilen bir şirkete ilişkindir."
 },
+"a4eed7a2e5": {
+"baslik": "SEC enf. uygulaması yeni dibe ulaştı",
+"dil": "diger",
+"ozet": "Ajans, 1998-1999'dan bu yana ilk kez arka arkaya iki takvim yılı FCPA enf. uygulaması olmadan geçiş yapıyor."
+},
 "a4f971dd7f": {
 "dil": "tr"
 },
@@ -18176,6 +18334,11 @@
 "baslik": "ÖZEL: Komisyon, ülkeleri dönüştürme uygulamalarını yasaklamaya çağıracak",
 "dil": "diger",
 "ozet": "Bu tür uygulamalar tıbbi ve insan hakları grupları tarafından yaygın olarak kınanmaktadır."
+},
+"a6a10df1b3": {
+"baslik": "Avrupa: Utanç verici Ruanda sınır dışı anlaşması geçmişteki hataları tekrarlıyor",
+"dil": "diger",
+"ozet": "Avusturya, Danimarca, Almanya, Yunanistan ve Hollanda'nın bugün Viyana Göç Konferansı'nda sözde \"iade merkezleri\"ne sınır dışı etme planlarını açıklaması üzerine, Amnesty International Austria'da iltica ve göç uzmanı Aimée Stuflesser yaptığı açıklamada \"Bugün açıklanan utanç verici karar\" demektedir."
 },
 "a6a3f582ba": {
 "baslik": "Türk polisi, Eğitim Bakanı'nın istifasını talep eden broşürleri dağıtan 2 öğrenciyi gözaltına alıyor",
@@ -18398,6 +18561,11 @@
 "dil": "diger",
 "ozet": "Sahtekarlık tespit ve kara para aklamaya karşı uyum platformu Marble, Serisi A turunda 6,5 milyon Euro toplamıştır. Yatırım Smartfin tarafından öncülük edilmiş, ADNEXUS ve mevcut destekçiler Passion, 42Cap katılmıştır."
 },
+"a915f7fa88": {
+"baslik": "ECRE, beş AB üye devletinin Ruanda'da iade merkezleri kurma planlarını şiddetle kınıyor",
+"dil": "diger",
+"ozet": "ECRE, Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda'nın Ruanda'da sözde iade merkezleri kurma konusunda bugün açıkladığı \"ortaklık çerçevesi\" planlarını şiddetle kınamaktadır. Önerilen ortaklık, Avrupa göç politikalarının dışsallaştırılmasında tehlikeli bir tırmanış olup, insanları ciddi risklere maruz bırakmaktadır."
+},
 "a91d3d4863": {
 "baslik": "Türk Cezaevinden NATO Zirvesi Öncesi Tutuklanan Aktiviste 6 Aylık Ziyaret Yasağı",
 "dil": "diger",
@@ -18570,6 +18738,10 @@
 "baslik": "Kesintiye ve Sessizliğin Dijital Mimarisi: Pakistan Yönetimindeki Keşmir'de İnternet Kapatması",
 "dil": "diger",
 "ozet": "[Mohammad Zayaan Asimi, Oxford Üniversitesi'nde sosyo-hukuki çalışmalarda D.Phil. adayıdır.] Giriş - Pakistan yönetimindeki Keşmir'de (Keşmir) internet hizmetleri, seçim reformları ve diğer sosyo-politik taleplere bağlı bölgedeki yaygın protestolardan sonra 5 Haziran 2026'dan itibaren ciddi şekilde kısıtlanmıştır..."
+},
+"aba1effabb": {
+"baslik": "Filip Debelva — KU Leuven Hukuk Fakültesi akademik yazı",
+"dil": "diger"
 },
 "abb29af75b": {
 "baslik": "Golusunun ardından bir hapı ve PSV hakkında sorular: Kevin De Bruyne'nin Kırmızı Şeytanlar'la yaşadığı hareketli gün",
@@ -19288,6 +19460,9 @@
 "b2b46c8280": {
 "baslik": "Annelies Marissens — KU Leuven Hukuk Fakültesi personel sayfası",
 "dil": "diger"
+},
+"b2b67d4c21": {
+"dil": "tr"
 },
 "b2c3b63ec9": {
 "dil": "tr"
@@ -20226,6 +20401,11 @@
 "dil": "diger",
 "ozet": "Trump yönetiminin Uluslararası Ceza Mahkemesi'ne (ICC) yaptırım uygulamak kararı, küresel adalet ve hukuk devleti için eşi benzeri görülmemiş bir saldırıdır, Human Rights Watch belirtmiştir."
 },
+"bbc4c76cbb": {
+"baslik": "Uluslararası Baskının Anlaşılması — Siena Anstis konferansı",
+"dil": "diger",
+"ozet": "Kıdemli hukuk danışmanı Siena Anstis'in uluslararası baskı ve uluslararası hukuk konulu konferansı, Orta Avrupa Üniversitesi tarafından düzenlenmiştir."
+},
 "bbcc87ca07": {
 "dil": "tr"
 },
@@ -21001,6 +21181,11 @@
 },
 "c35e2d2ec2": {
 "dil": "tr"
+},
+"c364b721fc": {
+"baslik": "Hong Kong INTERPOL'ü Ağırladı: 94. Genel Kurul Mekanının Hukuk Devletine Ne Anlattığı",
+"dil": "diger",
+"ozet": "Hong Kong INTERPOL'ü Ağırladı: 94. Genel Kurul Mekanının Hukuk Devletine Ne Anlattığı başlıklı yazı ilk kez Red Notice Monitor'da yayımlanmıştır."
 },
 "c36a498196": {
 "baslik": "MR Adalet Bakanı Verlinden'den I-Police dosyasında somut açıklamalar talep etti",
@@ -21827,6 +22012,11 @@
 "caa3b1df22": {
 "dil": "tr"
 },
+"caa4f35145": {
+"baslik": "27 Kasım Cuma günü yaklaşan EPPO web seminerine katılın",
+"dil": "diger",
+"ozet": "Chad Heimrich, Aleksandra Horvat'ı tanıtacak; Horvat, EPPO işlemlerinde kritik usuli haklar ve savunma stratejilerini ele alacaktır."
+},
 "cabbc2b979": {
 "dil": "tr"
 },
@@ -22074,6 +22264,14 @@
 "baslik": "ECLI:NL:RBDHA:2026:31569 — Den Haag Asliye Mahkemesi iltica kararı",
 "dil": "diger",
 "ozet": "BNT, iltica, kamu düzeninin korunması (pkv) kararı verilmiş, temyiz geri çekilmiş."
+},
+"cc6f289396": {
+"baslik": "Duyuru: FMA, bir katılım bildirimindeki gecikmeden dolayı bir kişiye karşı yaptırım uyguladı",
+"dil": "diger"
+},
+"cc7a9e0f5f": {
+"baslik": "Genel Sekreter, Jamaika'nın Michelle Gyles-McDonnough'u Kalkınma Koordinasyonu Başkan Yardımcısı olarak atadı",
+"dil": "diger"
 },
 "cc83adf030": {
 "baslik": "Türkiye bir parlamento partisinin X hesabını engelledi ve hiçbir mahkemenin bunu emrettiği bilinmiyor",
@@ -22326,6 +22524,9 @@
 "ozet": "Güney Kore Finansal Hizmetler Komisyonu, Shinhan Bank, KB Kookmin Bank ve diğer bankacılık kuruluşlarına, bu kurumları hedef alan siber saldırılarının ardından güvenlik incelemesi yapılmasını emretmiştir. The Korea Herald'a göre Cuma günü yayınlanan direktif, firmaları denetim yapmaya zorunlu kılmaktadır."
 },
 "cf4e8ce6aa": {
+"dil": "tr"
+},
+"cf51a38b0d": {
 "dil": "tr"
 },
 "cf5e84424f": {
@@ -22778,6 +22979,11 @@
 "baslik": "Afganistan ve Almanya Arasında: Sınırlar Ötesinde Aidiyet İlişkilerinin Yeniden İnşası",
 "dil": "diger",
 "ozet": "Deba Ahmadi tarafından yazılan yazı, 2021 sonrası Almanya'ya göç eden birçok Afganlı için sınır geçişinin, ilişkilerini, kültürünü, anılarını ve sorumluluklarını geride bırakmak anlamına gelmediğini açıklamaktadır. Bu kişilerin yaşamları, Afganistan ve Almanya'yı karmaşık şekillerde bağlamaya devam etmektedir. Almanya'da yeni bir hayat kurmak, Afganistan ile bağlantılar kurmanın anlamını tartışmaktadır."
+},
+"d36cc74367": {
+"baslik": "FMA, Savelaro Solutions / Savelaro Edge'in teklifleri konusunda uyarıda bulundu",
+"dil": "diger",
+"ozet": "FMA, bu sağlayıcı ile işlem yapılması konusunda uyarıda bulunmaktadır."
 },
 "d36f98b57a": {
 "baslik": "Bangladeş Polisi Muhalefet Taraftarlarını Gözaltına Aldı",
@@ -23251,6 +23457,11 @@
 "baslik": "Korumalı: Ürdün: Sivil Toplum Kuruluşları için Sürdürülebilir Finansman ve Kaynak Çeşitlendirmesi",
 "dil": "diger"
 },
+"d801fea5d3": {
+"baslik": "Beş AB üye devleti reddedilen iltica başvuru sahiplerini sınır dışı etmek için Ruanda ile anlaşma imzaladı",
+"dil": "diger",
+"ozet": "İlk \"dönüş merkezi\" 2027'de yaklaşık yüz göçmeni ağırlamaya başlayacaktır. Proje Komisyon tarafından desteklenirken, solcu partiler ve sivil toplum kuruluşları tarafından eleştirilmektedir."
+},
 "d806b24af1": {
 "baslik": "15 Ekim 2026 Perşembe günü yapılacak Karşılıklı Yasal Yardım seminerine katılın",
 "dil": "diger",
@@ -23448,6 +23659,11 @@
 "baslik": "İsrail telefon kıracı araçları Avrupa'da mültecileri, aktivistleri ve gazetecileri hedef aldı",
 "dil": "diger",
 "ozet": "Birleşik Krallık ve AB ülkeleri Cellebrite'nin telefon çıkarma araçlarını aktivistleri, sığınmacıları ve gazetecileri profilleştirmek veya kovuşturmak için kullanmış, ciddi haklar ve gizlilik endişelerini ortaya çıkarmıştır."
+},
+"d9b2363af6": {
+"baslik": "Duyuru: FMA, dönemsel raporlamaya ilişkin ihlallerden dolayı Wolford AG'ye karşı yaptırım uyguladı",
+"dil": "diger",
+"ozet": "FMA, dönemsel raporlamaya ilişkin ihlallerden dolayı Wolford AG'ye yaptırım uygulamıştır."
 },
 "d9bad24e5e": {
 "baslik": "Aracılar Almanya'da iltica başvurularını desteklemek için Erdoğan'ı hakaret etme davasının ayarlanmasını teklif ediyor",
@@ -25089,6 +25305,11 @@
 "e7674ff072": {
 "dil": "tr"
 },
+"e76b65eee9": {
+"baslik": "5 ülke reddedilen iltica başvuru sahiplerini Ruanda'ya sınır dışı etme planını açıkladı",
+"dil": "diger",
+"ozet": "Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda 2027'de sınır dışı merkezlerini açmayı planlıyor."
+},
 "e77cac97b8": {
 "baslik": "Vietnam: To Lam'ın Avrupa Ziyareti Sırasında İnsan Hakları İhlallerine Karşı Harekete Geçilmesi",
 "dil": "diger",
@@ -25343,6 +25564,10 @@
 },
 "e97f61e146": {
 "dil": "tr"
+},
+"e98f4ba39c": {
+"baslik": "İnsan Hakları Konseyi, 63. oturum — 5 Ekim 2026 Pazartesi günü Cenevre Palais des Nations'da yapılan 40. toplantının özet tutanağı",
+"dil": "diger"
 },
 "e9966272f9": {
 "baslik": "BM Güvenlik Konseyi Kararı 2833 (2026) [Kolombiya'daki BM Doğrulama Heyetinin Mandatının 31 Ekim 2027'ye Kadar Uzatılmasına İlişkin]",
@@ -25683,6 +25908,11 @@
 "baslik": "Unit21 ve Corelation dolandırıcılık yanıt boşluğunu kapatıyor",
 "dil": "diger",
 "ozet": "Dolandırıcılık önleme ve AML izlemesine odaklanan yapay zeka risk altyapı platformu Unit21, KeyStone'un arkasındaki temel işleme sağlayıcısı ve 300'den fazla kredi birliği müşterisine hizmet veren Corelation ile birleşti."
+},
+"ed297426bb": {
+"baslik": "FMA, Markvexo tarafından yapılan teklifler hakkında uyarı yapıyor",
+"dil": "diger",
+"ozet": "Dikkat! FMA bu sağlayıcı ile işlem yapılmasına karşı uyarı yapıyor."
 },
 "ed2afbee08": {
 "baslik": "Eski riskler yeni dijital pazar içinde gizli kalabilir",
@@ -26211,6 +26441,11 @@
 "f170d4f205": {
 "dil": "tr"
 },
+"f18d36c275": {
+"baslik": "GDPR ve DMA'nın Anonimleştirmeyi Değerlendirme Konusundaki Çakışan Yetkilerini Ele Alan: Komisyon'un Google Search Spesifikasyon Kararında Samimi İş Birliği",
+"dil": "diger",
+"ozet": "Lütfen dikkat edin: bu, yazarlar tarafından yapılan değişiklikleriyle daha önceki bir yazının yayını olduğunu unutmayınız. 16 Temmuz 2026'da Komisyon, Alphabet'in Digital Markets Act (DMA) uyarınca Google Search verilerini rakip arama motorlarıyla nasıl paylaşması gerektiğini belirlemiştir."
+},
 "f197eccefe": {
 "baslik": "Bağlayıcı İhtiyat: Uluslararası Ceza Mahkemesi'nin Değiştirilmiş Yargıçlık Etik Kuralları ve Baskı Altındaki Yargı",
 "dil": "diger",
@@ -26324,6 +26559,9 @@
 "baslik": "ECLI:NL:RBDHA:2026:30257 — Den Haag Hakim Mahkemesi iltica davası",
 "dil": "diger",
 "ozet": "Davacı Yemenli olup ailesinin yanında Türkiye'ye kaçmıştır. Şu anda iki küçük oğlunun yanında orada bulunmaktadır. Eşi ve iki büyük oğlu Yunanistan üzerinden Hollanda'ya kaçmış ve burada iltica hakkı kazanmıştır. Davacının eşi, davacı ve iki küçük oğullarının adına sonraki başvuruyu yapmıştır."
+},
+"f2611e643d": {
+"dil": "tr"
 },
 "f2617336f1": {
 "baslik": "SEC İcra Müdürü Woodcock: İcra Bölümü Dolandırıcılıkla Agresif Şekilde Mücadele Etmeyi Amaçlıyor",
@@ -26508,6 +26746,9 @@
 "ozet": "CCE kararı, bir kişinin madde 9ter kapsamından dışlanması için 15 Aralık 1980 Kanunun madde 55/4, § 2'ye atıf yapılarak toplum için güncel bir tehlike oluşturması gerektiğini belirlemektedir. - Haberler / Kararlar, Mevzuat ve Kazuistik"
 },
 "f3abade19b": {
+"dil": "tr"
+},
+"f3b73bb717": {
 "dil": "tr"
 },
 "f3c919e7a0": {
@@ -27013,6 +27254,9 @@
 "f7eec3ab19": {
 "dil": "tr"
 },
+"f7fccb3b4a": {
+"dil": "tr"
+},
 "f803e66431": {
 "baslik": "Çocuk Dostu Yargı Avrupa Ağı çocuk merkezli yargıya yatırım yapmanın değerini araştıran uzmanları bir araya getiriyor",
 "dil": "diger",
@@ -27323,6 +27567,10 @@
 "baslik": "Bankalar ticaret temelli kara parayı nasıl tespit edebilir",
 "dil": "diger",
 "ozet": "Ticaret temelli kara para (TBML), suçluların uluslararası ticari ilişkiler yoluyla yasa dışı zenginliğin haraketini gizledikleri için mali suç ekiplerine önemli bir zorluk sunuyor."
+},
+"fb67696f54": {
+"baslik": "Güney Kore'nin Gwi-Yeop Son, BM Eğitim ve Araştırma Enstitüsü Geçici İcra Direktörü olarak atandı",
+"dil": "diger"
 },
 "fb6f395d79": {
 "baslik": "Faşist Kişilik",
@@ -27769,6 +28017,11 @@
 "baslik": "Mısır: Ünlü Gazeteci Aleyhine Açılan Davaları Geri Çekin",
 "dil": "diger",
 "ozet": "Mısır makamları, bağımsız medya kuruluşu Mada Masr'ın genel yayın yönetmeni Lina Attalah aleyhine açılan davayı 27 Ekim 2026'daki duruşmasından önce geri çekmelidir; İnsan Hakları İzleme Örgütü..."
+},
+"fe5dbd04b9": {
+"baslik": "Liberya eğitimde büyük engeli kaldırdı",
+"dil": "diger",
+"ozet": "\"Çocuklarımız artık okula gidebiliyor.\" Okul tescil ücretlerini yasaklayan yeni bir hükümet politikasının etkisini böyle tanımlayan Liberya'lı bir ebeveyn vardır. Bu politika, ücretleri ödemeyi başaramayan ailelere yardımcı olmakta ve çocuklarının eğitiminde uzun süredir var olan bir engeli ortadan kaldırmaktadır."
 },
 "fe78d69742": {
 "baslik": "21-27 Eylül sansür bülteni",
