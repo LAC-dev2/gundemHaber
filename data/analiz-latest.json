@@ -1,10 +1,128 @@
 {
  "sureklilik": [
   {
-   "id": "t1",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "id": "t24",
+   "durum": "hareket var",
+   "not": "SCF, İstanbul 14. Ağır Ceza Mahkemesi'nin 13 Ekim tarihli İstanbul 13. Ağır Ceza kararını onadığını aktarırken Bakanlar Komitesi'nin 30 Ekim'de kabul ettiği kararı da hatırlatıyor: Komite, yargı dahil tüm devlet organlarının AİHM kararlarına uymakla yükümlü olduğunu yineledi ve Aralık ayındaki insan hakları toplantısından önce icra adımlarına ilişkin bilgi istedi.",
+   "kayitlar": [
+    "e881ffd884"
+   ]
+  },
+  {
+   "id": "t217",
+   "durum": "hareket var",
+   "not": "İtirazın reddi gerekçesi kayıtta açıkça yer alıyor: derdest AYM başvurusu nedeniyle iç hukuk yollarının tüketilmediği. Kayıt, Büyük Daire'nin 25 Ağustos kararında bu argümanı AYM'deki gecikmeler ve önceki kararların uygulanmaması nedeniyle reddettiğini belirtiyor.",
+   "kayitlar": [
+    "e881ffd884"
+   ]
+  },
+  {
+   "id": "t218",
+   "durum": "hareket var",
+   "not": "Sayı farkı bugün kısmen açıklığa kavuştu: SCF, Ankara Başsavcılığı'nın 12 Kasım'da 21 hesabı Gülen bağlantısı, ayrıca 11 hesabı dezenformasyon ve millî güvenlik gerekçesiyle engellediğini yazıyor; MLSA bülteninin verdiği 32 sayısı bu iki kararın toplamına denk geliyor. SCF, 11 hesabın kimliğinin açıklanmadığını ve 21'le örtüşüp örtüşmediğinin belirsiz olduğunu kaydediyor. Hedeflenen KHK hesaplarının il dökümü de veriliyor: Ordu, Kayseri, Rize, Uşak, Gaziantep ve Ankara Çankaya.",
+   "kayitlar": [
+    "2cfb0eacc8",
+    "79de103186"
+   ]
+  },
+  {
+   "id": "t47",
+   "durum": "hareket var",
+   "not": "EngelliWeb, son bir haftada en az 521 X hesabının engellendiğini ve hesapların büyük kısmının X tarafından Türkiye'den görünmez kılındığını bildiriyor. Görünmez kılma pratiği bu kayıtta yine engelleme kararıyla birlikte anılıyor; zamanlamaya ilişkin ayrıntı verilmiyor.",
+   "kayitlar": [
+    "4c95d40660"
+   ]
+  },
+  {
+   "id": "t33",
+   "durum": "hareket var",
+   "not": "Engellenen 521 hesap arasında fon krizi hakkında paylaşım yapan hesaplar ile iktisatçı Nazır Kapusuz'un hesabı sayılıyor. Kayıtta karar numarası ve dayanak madde belirtilmemiş.",
+   "kayitlar": [
+    "4c95d40660"
+   ]
+  },
+  {
+   "id": "t42",
+   "durum": "hareket var",
+   "not": "Fon krizine ilişkin paylaşım yapan hesaplar haftalık engelleme listesinde yeniden yer alıyor; kayıt yalnızca kategoriyi veriyor, hesap adlarını ve karar dayanağını vermiyor.",
+   "kayitlar": [
+    "4c95d40660"
+   ]
+  },
+  {
+   "id": "t106",
+   "durum": "hareket var",
+   "not": "Amnesty, Akbelen Ormanı mücadelesine ilişkin çevre mühendisi Deniz Gümüşel'le bir söyleşi yayımladı. Ayrıca COP31 hakkında paylaşım yapan iklim ve enerji uzmanı Önder Algedik ile Salda Gölü Koruma Derneği, İklim Adaleti Forumu ve Ekoloji Birliği hesapları engellenenler arasında.",
+   "kayitlar": [
+    "945155e57e",
+    "4c95d40660"
+   ]
+  },
+  {
+   "id": "t192",
+   "durum": "hareket var",
+   "not": "COP31 bağlantılı engellemeler sürüyor: konferans hakkında paylaşım yapan hesapların yanı sıra Erdoğan ile Aliyev'in görüntülerini paylaşan hesaplar da engellenenler arasında sayılıyor.",
+   "kayitlar": [
+    "4c95d40660"
+   ]
+  },
+  {
+   "id": "t156",
+   "durum": "hareket var",
+   "not": "Viyana Göç Konferansı'nda Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda, Ruanda'da 'return hub' kurulmasına ilişkin bir ortaklık çerçevesi duyurdu; pilot proje kapsamında ilk grubun 2027'de aktarılması bekleniyor. Böylece return hub tartışması öneri düzeyinden devletlerarası bir çerçeveye geçmiş görünüyor.",
+   "kayitlar": [
+    "7396502175",
+    "a6a10df1b3",
+    "a915f7fa88"
+   ]
+  },
+  {
+   "id": "t188",
+   "durum": "hareket var",
+   "not": "ECRE, duyuruyu Avrupa göç politikalarının dışsallaştırılmasında tehlikeli bir tırmanma olarak niteledi. Kayıt, çerçevenin Geri Dönüş Tüzüğü ile ilişkisini kurmuyor.",
+   "kayitlar": [
+    "a915f7fa88"
+   ]
+  },
+  {
+   "id": "t184",
+   "durum": "hareket var",
+   "not": "Rechtbank Den Haag'ın 11 Kasım tarihli NL26.45112 kararında, süresinde karar verilmemesine karşı açılan davada bu arada karar alındığı için dava usulden reddedildi (niet-ontvankelijk); başvurucunun esas hakkında zaten dava açmış olması nedeniyle usuli menfaat görülmedi, buna karşın yargılama gideri hükmedildi. Bu, t184'teki kabul kararından farklı bir sonuç gösteriyor.",
+   "kayitlar": [
+    "60a835eb7a"
+   ]
+  },
+  {
+   "id": "t169",
+   "durum": "hareket var",
+   "not": "Resmî Gazete akışında 'Yargı Harçları' başlıklı kayıt yine içeriği belirlenemeden geldi; başlık dışında veri yok.",
+   "kayitlar": [
+    "673dd445f6"
+   ]
+  },
+  {
+   "id": "t154",
+   "durum": "hareket var",
+   "not": "CCBE, 2026 İnsan Hakları Ödülü'nü İstanbul Barosu'nun eski başkanı İbrahim Kaboğlu ile Ekim 2024–Ekim 2026 dönemi yönetim kurulu üyelerine verdi. Kayıt ödülün gerekçesini ayrıntılandırmıyor.",
+   "kayitlar": [
+    "2b6841eedd"
+   ]
+  },
+  {
+   "id": "t6",
+   "durum": "hareket var",
+   "not": "AYM, 2019'daki bir askerî operasyon sırasında öldürülen Kürt bir kişiye ilişkin ilk soruşturmadaki eksiklikler nedeniyle yaşam hakkının usul boyutunun ihlal edildiğine oybirliğiyle karar verdi ve yeni soruşturma açılmasına hükmetti. Karar Haziran ayına ait, haber Mezopotamya Ajansı üzerinden bugün dolaşıma girdi.",
+   "kayitlar": [
+    "466b725596"
+   ]
+  },
+  {
+   "id": "t137",
+   "durum": "hareket var",
+   "not": "Citizen Lab, kıdemli hukuk danışmanı Siena Anstis'in Central European University'de sınıraşan baskı ve uluslararası hukuk üzerine bir ders vereceğini duyurdu; etkinlik duyurusu düzeyinde, yeni bulgu içermiyor.",
+   "kayitlar": [
+    "bbc4c76cbb"
+   ]
   },
   {
    "id": "t2",
@@ -20,798 +138,12 @@
   },
   {
    "id": "t4",
-   "durum": "hareket var",
-   "not": "MLSA bülteninde, Ankara Başsavcılığı'nın 12 Kasım'da 'FETÖ ve bağlantılı yapılar' atfıyla engellediği 21 X hesabı arasında KHK'lıların durumunu belgeleyen 'KHK Türkiye' hesabı da sayılıyor. Kayıt yalnızca hesap adlarını veriyor, karar numarası ve gerekçe metni yok.",
-   "kayitlar": [
-    "79de103186"
-   ]
-  },
-  {
-   "id": "t6",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t7",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t10",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t11",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t12",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t15",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t16",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t17",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t19",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t20",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t21",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t23",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t24",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t25",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t30",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t31",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t32",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t33",
-   "durum": "hareket var",
-   "not": "Toplu X hesabı engeli pratiği bu hafta yeniden görülüyor: Ankara Başsavcılığı 12 Kasım'da iki ayrı karar duyurdu, bültende hem '32 X hesabı' hem de ilk karara ilişkin '21 hesap' sayısı geçiyor. Bu kez gerekçe ekonomi/finans içeriği değil, 'FETÖ ve bağlantılı yapılar' atfı olarak aktarılıyor.",
-   "kayitlar": [
-    "79de103186"
-   ]
-  },
-  {
-   "id": "t34",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t37",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t40",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t41",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t42",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t43",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t46",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t47",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t52",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t53",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t56",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t58",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t60",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t61",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t62",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t63",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t64",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t65",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t66",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t67",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t68",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t69",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t70",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t71",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t72",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t73",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t74",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t75",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t76",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t77",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t78",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t79",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t80",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t81",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t82",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t83",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t84",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t85",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t86",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t87",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t88",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t89",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t90",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t91",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t92",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t93",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t94",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t95",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t96",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t97",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t98",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t99",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t100",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t101",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t102",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t103",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t104",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t105",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t106",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t107",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t108",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t109",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t110",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t111",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t112",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t113",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t114",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t115",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t116",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t117",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t118",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t119",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t120",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t121",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t123",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t124",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t125",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t126",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t127",
-   "durum": "hareket var",
-   "not": "Karşıyaka 1. Sulh Ceza Hâkimliği'nin 11 Kasım tarihli 2026/6413 sayılı kararıyla, TİP milletvekili Ahmet Şık'ın Adalet Bakanı ve bir iş insanı hakkındaki açıklamalarını aktaran BirGün, Diken ve Gazete Pencere haberleri engellendi; gerekçe özel hayatın gizliliği. Aynı kararla DEM Partili Özgül Saki ile gazeteciler Umut Kaşan ve Cüneyt Şaşmaz'ın X hesapları da engellendi. Bülten, Gürlek'e ilişkin haberlere Ekim'de İstanbul'da da engel getirildiğini hatırlatıyor.",
-   "kayitlar": [
-    "79de103186"
-   ]
-  },
-  {
-   "id": "t128",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t129",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t130",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t131",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t132",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t133",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t134",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t135",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t136",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t137",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t138",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t139",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t140",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t141",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t142",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t143",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t144",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t145",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t146",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t147",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t148",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t149",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t150",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t151",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t152",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t153",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t154",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t155",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t156",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t157",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t158",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t159",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t160",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
   },
   {
-   "id": "t161",
+   "id": "t1",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -823,323 +155,7 @@
    "kayitlar": []
   },
   {
-   "id": "t163",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t164",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t165",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t166",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t167",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t168",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t169",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t170",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t171",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t172",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t173",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t174",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t175",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t176",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t177",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t178",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t179",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t180",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t181",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t182",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t183",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t184",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t185",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t186",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t187",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t188",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t189",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t190",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t191",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t192",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t193",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t194",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t195",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t196",
-   "durum": "hareket var",
-   "not": "Bülten, bu hafta da yerel düzeyde engel kararları verildiğini bildiriyor: İzmir ve Yalova sulh ceza hâkimlikleri çeşitli haberlere erişim engeli getirdi. Kayıt karar numaralarını ve engellenen haberlerin konusunu vermiyor.",
-   "kayitlar": [
-    "79de103186"
-   ]
-  },
-  {
-   "id": "t197",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t198",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t199",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t200",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t201",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t202",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t203",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t204",
-   "durum": "hareket var",
-   "not": "Engellenen haberlerin konusu, TİP İstanbul milletvekili Ahmet Şık'ın Adalet Bakanı ve bir iş insanına ilişkin açıklamaları. Şık'ın adı bu pencerede yeniden bir kısıtlama kararında geçiyor; eşi hakkındaki soruşturmaya dair yeni kayıt yok.",
-   "kayitlar": [
-    "79de103186"
-   ]
-  },
-  {
-   "id": "t205",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t206",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t207",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t208",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t209",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t210",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t211",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t212",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t213",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t214",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t215",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -1151,331 +167,351 @@
    "kayitlar": []
   },
   {
-   "id": "t217",
-   "durum": "hareket var",
-   "not": "Fikret İlkiz'in 16 Kasım tarihli yazısı, Anayasa Mahkemesi'nin bireysel başvurularda karar vermemesini ve gecikmesini hak ihlali olarak niteliyor. Kayıt başlık/özet düzeyinde; ancak Kavala dosyasında iç hukuk yolunun tüketilmediği gerekçesinin dayandığı derdest AYM başvurusu tartışmasıyla aynı sorunu ele alıyor.",
-   "kayitlar": [
-    "5ff4afad19"
-   ]
+   "id": "t219",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t220",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t221",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X hesapları: sayı farkı (21 ve 32) ve hesapların kimliği",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Bülten aynı günün kararları için hem 21 hem 32 hesap sayısı veriyor; engellenen hesaplar arasında KHK ve cezaevi gündemini izleyen yayınlar var. Kararların numarası ve gerekçesi kayıtta yok.",
+   "baslik": "Beş AB üyesinin Ruanda'da 'return hub' kurulmasına ilişkin ortaklık çerçevesi ve 2027'de öngörülen ilk aktarım",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "neden": "Çerçeve, kalma hakkı bulunmayan kişilerin hiç bağları olmayan bir üçüncü ülkeye aktarılmasını öngörüyor; non-refoulement, yargı yetkisinin hangi devlete ait olacağı ve etkili başvuru yolu soruları doğrudan merkezin iade ve iltica dosyalarını ilgilendiriyor.",
    "kayitlar": [
-    "79de103186"
+    "7396502175",
+    "a6a10df1b3",
+    "a915f7fa88"
    ]
   },
   {
-   "baslik": "Manşet Haber TV'nin X ve Instagram hesaplarına 14 Kasım'da uygulanan engelin dayanağının açıklanmaması ve kuruluşun duyurduğu başvuru yolları",
+   "baslik": "Milletvekili Ömer Faruk Gergerlioğlu'nun parlamentodaki 2016 darbe anlatısına ilişkin sözleri nedeniyle Savunma Bakanı'na 150.000 lira tazminata mahkûm edilmesi",
    "alan": "İfade ve basın özgürlüğü",
-   "neden": "Kararı veren makam, karar numarası ve gerekçe açıklanmamış; yayın kuruluşu yasal yollara başvuracağını bildirdi. Dayanağı bilinmeyen platform engellerinin itiraz seyri izlenmeli.",
+   "neden": "Yasama faaliyeti sırasındaki beyanların tazminat yoluyla yaptırıma bağlanması, merkezin siyasetçilere yönelik hakaret/tazminat davaları dosyasıyla doğrudan ilişkili; ayrıca darbe anlatısının sorgulanmasına ilişkin bir sınır çiziyor.",
    "kayitlar": [
-    "79de103186"
+    "8f05703d38"
    ]
   },
   {
-   "baslik": "ABD terör izleme listesi davasında CAIR müvekkillerinin Türkiye seyahatleri ve oradaki temasları üzerinden sorgulanması",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Kayıt, federal mahkeme belgelerine dayandırılan bir haber; Türkiye bağlantılı seyahat ve temasların üçüncü ülke güvenlik listelerinde ölçüt olarak kullanılması merkezin sınıraşan baskı dosyalarıyla kesişiyor.",
+   "baslik": "Gazeteci Rabia Önver'e Hakkari 2. Ağır Ceza Mahkemesi'nce sosyal medya paylaşımları nedeniyle verilen 18 aylık ertelenmiş hapis cezası",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Haberciliğe ilişkin paylaşımların terör propagandası sayılması ve cezanın ertelenmesi, merkezin md. 10 dosyalarında tekrar eden bir kalıbı sürdürüyor; kesinleşme ve istinaf seyri izlenmeli.",
    "kayitlar": [
-    "405ce2b4a2"
+    "4a6edaf4f9"
    ]
   },
   {
-   "baslik": "İsviçre'de banka gizliliği yasası uyarınca bir gazetecinin ilk kez yargılanması ve AB Komisyonu'nun yorum yapmaması",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden": "Banka gizliliği mevzuatının habercilik aleyhine kullanılması, merkezin mali soruşturma haberciliğine yönelik kısıtlamalar dosyalarıyla karşılaştırmalı bir örnek oluşturuyor. Kayıt özet düzeyinde; sanığın adı ve dosya numarası verilmemiş.",
+   "baslik": "AYM'nin 2019'daki askerî operasyonda öldürülen kişiye ilişkin yeni soruşturma kararı ve kararın yerel savcılıkta uygulanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Yaşam hakkının usul boyutundaki ihlal tespitinin ardından yeni soruşturmanın fiilen açılıp açılmadığı, merkezin etkili soruşturma dosyalarında AYM giderimin yeterliliği tartışmasına veri sağlar.",
    "kayitlar": [
-    "0c3e40abfb"
+    "466b725596"
    ]
   }
  ],
  "birincil_notlar": [],
- "baslik": "Ankara Başsavcılığı 'FETÖ' atfıyla 21 X hesabını engelledi; aralarında KHK Türkiye var",
- "brifing": "Pencerenin merkezi ilgilendiren tek ayrıntılı kaydı MLSA'nın 9-15 Kasım haftasına ait sansür bülteni: Ankara Başsavcılığı'nın 12 Kasım'da duyurduğu iki kararla X hesapları, Karşıyaka 1. Sulh Ceza Hâkimliği'nin 11 Kasım tarihli kararıyla üç haber sitesi içeriği ve üç hesap, 14 Kasım'da da Manşet Haber TV'nin iki platform hesabı engellendi [79de103186]. Bülten aynı hafta için 400 sitenin daha engellendiğini bildiriyor ve X hesapları için 21 ile 32 arasında iki ayrı sayı veriyor; tek rakama indirgenemez. Diğer kayıtlar çekirdek alanlara doğrudan temas etmiyor: Nordic Monitor'un ABD terör izleme listesi dosyası [405ce2b4a2] ve OCCRP'nin İsviçre'deki gazeteci yargılaması haberi [0c3e40abfb] başlık/özet düzeyinde, Hollanda ve Belçika akışının büyük bölümü merkez dışı. Bu pencerede AİHM karar metni gelmedi; Kavala ve Hollanda iltica verisi kayıtları önceki brifingte değerlendirilmişti, yeni kayıt yok.",
+ "baslik": "Beş AB üyesi Ruanda'da 'return hub' kurma çerçevesi duyurdu; ilk aktarım 2027'de",
+ "brifing": "Pencerenin en yapısal gelişmesi, Viyana Göç Konferansı'nda Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda'nın Ruanda'da 'return hub' kurulmasına ilişkin ortaklık çerçevesini duyurması; üç ayrı kuruluş kaydı pilot projede ilk grubun 2027'de aktarılmasının beklendiğini aktarıyor [7396502175, a6a10df1b3, a915f7fa88]. Türkiye tarafında erişim engelleri dosyası hacim olarak öne çıkıyor: EngelliWeb son bir haftada en az 521 X hesabının engellendiğini bildiriyor, SCF ise Eylül–Ekim için en az 2.137 hesap sayısı veriyor [4c95d40660, 2cfb0eacc8]. Ankara Başsavcılığı'nın 12 Kasım kararlarındaki 21/32 farkı bugün kısmen çözüldü: 21 hesap Gülen atfıyla, 11 hesap dezenformasyon gerekçesiyle ayrı kararlarla engellenmiş, örtüşme belirsiz [2cfb0eacc8, 79de103186]. Kavala dosyasında yeni bir usul adımı yok; bugünkü kayıt itirazın reddine Bakanlar Komitesi'nin 30 Ekim kararını ve Aralık toplantısı öncesi bilgi talebini ekliyor [e881ffd884]. AİHM kararı niteliğinde birincil belge bu pencerede gelmedi.",
  "one_cikanlar": [
   {
-   "baslik": "MLSA haftalık bülteni: Ankara Başsavcılığı'nın iki kararıyla X hesapları, ayrıca 400 site engellendi",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Engellenen hesaplar arasında KHK'lıların ve cezaevi gündeminin takibini yapan yayınlar (KHK Türkiye, Sincan Cezaevi, Serbest Gazete, Yakın Hafıza, Juri Post Gündem) sayılıyor; bu, belgeleyici yapıların kendilerinin hedef alınması örüntüsünü sürdürüyor. İdari/savcılık kararıyla uygulanan toplu hesap engelleri merkezin 5651 md. 8/A dosyalarının konusu. Bülten, aynı hafta 400 sitenin daha engellendiğini de bildiriyor.",
-   "yenilik": "Önceki bülten (9 Kasım) 207 X hesabı bildirmişti; bu hafta Ankara Başsavcılığı'nın 12 Kasım tarihli iki yeni kararı ve 'FETÖ' atfıyla engellenen 21 hesabın adları ilk kez geçiyor.",
+   "baslik": "Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda Ruanda'da 'return hub' kurma çerçevesi açıkladı",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "neden_onemli": "Duyuru, AB içinde kalma hakkı bulunmayan kişilerin hiç bağları olmayan bir üçüncü ülkeye aktarılmasını öngörüyor. Amnesty, geri göndermeme ilkesi, işkence ve kötü muamele yasağı ile hangi devletin yargı yetkisinin devrede olacağı ve etkili yargısal başvuru yolunun nasıl işleyeceği bakımından risk olduğunu belirtiyor. ECRE çerçeveyi dışsallaştırmada tırmanma olarak niteliyor. Hollanda ve Almanya'nın taraf olması, merkezin bu iki ülkedeki Türkiye kaynaklı iltica dosyalarıyla doğrudan temas kuruyor.",
+   "yenilik": "İlk kez: return hub tartışması bugüne kadar öneri düzeyindeydi, şimdi beş devletin ortak çerçeve duyurusu ve 2027 pilot aktarım takvimi var.",
    "ayrintilar": [
-    "Ankara Cumhuriyet Başsavcılığı 12 Kasım'da iki ayrı X hesabı engelleme kararı duyurdu",
-    "Bültende bir yerde 32 X hesabı, ilk karar için 21 hesap sayısı veriliyor — kaynak tek ve sayılar farklı",
-    "İlk kararda engellenen hesaplar arasında Serbest Gazete, Yakın Hafıza, Juri Post Gündem, Sincan Cezaevi ve KHK Türkiye sayılıyor",
-    "Aynı hafta 400 web sitesine daha erişim engeli uygulandığı bildirildi",
-    "İzmir ve Yalova sulh ceza hâkimlikleri çeşitli haberlere erişim engeli kararı verdi"
+    "Taraflar: Avusturya, Danimarka, Almanya, Yunanistan, Hollanda [7396502175, a6a10df1b3]",
+    "Duyuru yeri: Viyana Göç Konferansı [a6a10df1b3]",
+    "Pilot proje kapsamında ilk grubun 2027'de aktarılması bekleniyor [a6a10df1b3]",
+    "Amnesty, İtalya–Arnavutluk ve Birleşik Krallık–Ruanda girişimlerine atıfla şemaların hukuka aykırı ve işlemez çıktığını belirtiyor [a6a10df1b3]"
+   ],
+   "mekanizma": "non-refoulement; üçüncü ülkeye aktarım anlaşması",
+   "karsi_okuma": "Kayıtlar duyuru ve tepki düzeyinde; anlaşmanın hukuki biçimi, metni, kapsadığı kişi kategorileri ve iç hukuk onay süreçleri kayıtlarda yok. Aktarımın gerçekleşeceği de kanıtlanmış değil.",
+   "kayitlar": [
+    "7396502175",
+    "a6a10df1b3",
+    "a915f7fa88"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "EngelliWeb: son bir haftada en az 521 X hesabı engellendi; KHK platformları, COP31 ve fon krizi hesapları listede",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Haftalık toplam, tek tek kararların ötesinde bir ölçek gösteriyor ve engellemenin konu başlıklarını birleştiriyor: iklim/COP31, fon krizi, KHK platformları, gazeteciler. Hesapların büyük kısmının X tarafından Türkiye'den görünmez kılındığı belirtiliyor; bu, platformun uygulama pratiğine ilişkin t47 dosyasını besliyor. SCF ayrıca Eylül ve Ekim aylarında en az 2.137 X hesabının engellendiğini aktarıyor.",
+   "yenilik": "Haftalık 521 sayısı ve engellenen hesapların adlandırılmış dökümü bu pencerede ilk kez geldi; dün yalnızca Ankara'nın 21/32 hesabı konuşuluyordu.",
+   "ayrintilar": [
+    "Son bir haftada en az 521 X hesabı engellendi [4c95d40660]",
+    "Adı verilenler: Önder Algedik, Salda Gölü Koruma Derneği, İklim Adaleti Forumu, Ekoloji Birliği, avukat Yunus Ari, Furkan Hareketi ve KHK'lı platform hesapları [4c95d40660]",
+    "Gazeteciler: Ali Osman Önder, Baransel Ağca, Erk Acarer, Ahmet Nesin [4c95d40660]",
+    "Diğerleri: Lübnanlı avukat ve eski askerî savcı Peter Germanos, Eray Hacıosmanoğlu, Polat Erdi, Mustafa Aydınol, Nazır Kapusuz [4c95d40660]",
+    "SCF: Eylül ve Ekim'de en az 2.137 X hesabı engellendi [2cfb0eacc8]"
    ],
    "mekanizma": "5651 sayılı Kanun kapsamında erişim engeli",
-   "karsi_okuma": "Kayıt tek kaynaklı bir izleme bülteni; kararların numaraları, hukuki dayanak maddeleri ve engellenen hesapların içerik gerekçeleri verilmemiştir. 21 ile 32 arasındaki farkın iki ayrı karardan mı yoksa raporlama farkından mı kaynaklandığı doğrulanmamıştır.",
+   "karsi_okuma": "Kayıtta 521 hesabın karar numaraları, karar mercileri ve dayanak maddeleri yok; Ankara'nın 12 Kasım kararlarındaki hesapların bu toplamın içinde olup olmadığı da belirtilmemiş. Sayıyı bağımsız olarak doğrulayamıyoruz.",
    "kayitlar": [
+    "4c95d40660",
+    "2cfb0eacc8"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Ankara Başsavcılığı'nın 12 Kasım kararlarındaki sayı farkı: 21 hesap Gülen atfıyla, 11 hesap dezenformasyon gerekçesiyle",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Dün MLSA bülteni 32 hesaptan söz ediyordu; SCF bugün bunun iki ayrı karar olduğunu, 21'inin 'FETÖ ve bağlantılı örgütler' atfıyla, 11'inin dezenformasyon ve millî güvenlik gerekçesiyle engellendiğini aktarıyor. Hedeflenenler arasında KHK Türkiye ile Ordu, Kayseri, Rize, Uşak, Gaziantep ve Ankara Çankaya'daki ihraç kamu görevlilerine ait bölgesel sayfalar var. Engellemelerin Cumhurbaşkanlığı İletişim Başkanlığı koordinasyonundaki çalışmanın ardından duyurulduğu belirtiliyor.",
+   "yenilik": "Dün açıklanamayan 21/32 farkı bugün 21+11 ayrımıyla kapanıyor; ayrıca engellenen KHK sayfalarının il dökümü ilk kez veriliyor.",
+   "ayrintilar": [
+    "12 Kasım'da iki ayrı karar: 21 hesap Gülen bağlantısı, 11 hesap dezenformasyon/millî güvenlik [2cfb0eacc8]",
+    "İller: Ordu, Kayseri, Rize, Uşak, Gaziantep ve Ankara Çankaya [2cfb0eacc8]",
+    "Engellemeler Cumhurbaşkanlığı İletişim Başkanlığı koordinasyonundaki çalışmanın ardından duyuruldu [2cfb0eacc8]",
+    "MLSA bülteninde engellenenler arasında Serbest Gazete, Yakın Hafıza, Juri Post Gündem, Sincan Cezaevi ve KHK Türkiye sayılıyor [79de103186]"
+   ],
+   "mekanizma": "savcılık kararıyla erişim engeli; 'FETÖ' atfı",
+   "karsi_okuma": "SCF, 11 hesabın kimliğinin açıklanmadığını ve 21 hesapla örtüşüp örtüşmediğinin bilinmediğini belirtiyor; hangi paylaşımların hukuka aykırı sayıldığı, dayanak hükümler ve kararların metinleri yayımlanmamış. X'in 21 engellemenin tamamını uygulayıp uygulamadığı da belirsiz.",
+   "kayitlar": [
+    "2cfb0eacc8",
     "79de103186"
    ],
    "guven": "orta"
   },
   {
-   "baslik": "Karşıyaka 1. Sulh Ceza Hâkimliği: Adalet Bakanı ve bir iş insanına ilişkin haberlere ve üç hesaba mahremiyet gerekçeli engel",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Karar, bir milletvekilinin Adalet Bakanı hakkındaki açıklamalarını aktaran haberleri ve bunları paylaşan hesapları birlikte engelliyor; engelin kapsamı habere değil, konuşmacıya ve aktarıcılara yayılıyor. Gürlek'e ilişkin haberlere Ekim'de İstanbul'da da engel getirilmişti; merkezin t127 dosyası bu kararla ikinci bir yargı çevresine genişliyor.",
-   "yenilik": "İlk kez: 11 Kasım tarihli 2026/6413 sayılı Karşıyaka kararı ve engellenen üç haber sitesi ile üç hesabın adları bu pencerede kayda giriyor.",
-   "ayrintilar": [
-    "Karar tarihi 11 Kasım 2026, numarası 2026/6413",
-    "Engellenen haberler: BirGün, Diken, Gazete Pencere",
-    "Haberlerin konusu TİP İstanbul milletvekili Ahmet Şık'ın Adalet Bakanı ve bir iş insanı hakkındaki açıklamaları",
-    "Engellenen hesaplar: DEM Partili Özgül Saki (@ozgulsakii), gazeteciler Umut Kaşan (@dualiteli) ve Cüneyt Şaşmaz (@Cesuryorum)",
-    "Gerekçe: özel hayatın gizliliği hakkının ihlali"
-   ],
-   "mekanizma": "Sulh ceza hâkimliği erişim engeli — özel hayatın gizliliği",
-   "karsi_okuma": "Kararın tam metni kayıtlarda yok; engelin süresi, itiraz edilip edilmediği ve hangi kanun maddesine dayandığı bilinmiyor. Milletvekillerinin hesaplarının engellenmesinin yasama dokunulmazlığı bakımından ele alınıp alınmadığına dair bilgi yok.",
-   "kayitlar": [
-    "79de103186"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Manşet Haber TV'nin X ve Instagram hesaplarına dayanağı açıklanmayan engel",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Bülten, 14 Kasım'daki engelin kararı veren makamının, karar numarasının ve gerekçesinin açıklanmadığını belirtiyor. Dayanağı bildirilmeyen platform kısıtlamaları, itiraz yolunun fiilen kullanılabilirliği bakımından merkezin engelleme dosyalarında tekrar eden bir sorun.",
-   "yenilik": "İlk kez: Manşet Haber TV dosyası bu pencerede kayda giriyor.",
-   "ayrintilar": [
-    "Engel tarihi 14 Kasım 2026, X ve Instagram hesapları",
-    "Kararı veren makam, karar numarası ve gerekçe açıklanmadı",
-    "Kuruluş kararı reddettiğini ve yasal yollara başvuracağını bildirdi"
-   ],
-   "mekanizma": "Platform hesaplarına erişim engeli",
-   "karsi_okuma": "Engelin bir yargı kararına mı yoksa idari bir karara mı dayandığı kayıtlarda yok; kuruluşun açıklaması dışında bağımsız doğrulama bulunmuyor.",
-   "kayitlar": [
-    "79de103186"
-   ],
-   "guven": "düşük"
-  },
-  {
-   "baslik": "Nordic Monitor: ABD terör izleme listesi dosyasında Türkiye seyahatleri ve oradaki temaslar üzerinden sorgulama",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "Kayıt, CAIR tarafından temsil edilen bir grup Müslüman Amerikalının izleme listelerine alındığını ve Türkiye'ye seyahatleri ile oradaki olası temasları üzerinden yoğun sorguya çekildiklerini, federal mahkeme belgelerine dayandırarak aktarıyor. Türkiye bağlantısının üçüncü ülke güvenlik listelerinde bir ölçüt haline gelmesi, merkezin bildirim ve listeleme dosyalarıyla kesişir.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "Kaynak: Nordic Monitor, Abdullah Bozkurt imzalı, 15 Kasım 2026",
-    "Dayanak olarak federal mahkeme belgeleri gösteriliyor",
-    "Kişi sayısı, dosya numarası ve mahkeme adı kayıtta yer almıyor"
-   ],
-   "mekanizma": "ABD terör izleme listesi",
-   "karsi_okuma": "Kayıt özet düzeyinde; hangi federal dava, kaç kişi ve hangi karar aşaması olduğu doğrulanamıyor. Listeye alma gerekçesinin Türkiye seyahatinden ibaret olduğu bu kayıttan çıkarılamaz.",
-   "kayitlar": [
-    "405ce2b4a2"
-   ],
-   "guven": "düşük"
-  },
-  {
-   "baslik": "İsviçre: banka gizliliği yasası uyarınca ilk kez bir gazeteci yargılanıyor, AB Komisyonu yorum yapmadı",
-   "alan": "İfade ve basın özgürlüğü",
-   "neden_onemli": "Mali skandal haberciliğinin banka gizliliği mevzuatıyla cezalandırılması, merkezin fon soruşturması haberciliğine yönelik kısıtlama dosyalarıyla karşılaştırmalı bir örnek sunuyor. AB Komisyonu'nun yorumdan kaçınması, kurumsal tepkinin izlenmesi açısından kaydedilmeli.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "Kaynak OCCRP, 16 Kasım 2026",
-    "Gazetecinin adı, suçlama maddesi ve duruşma takvimi kayıtta yok",
-    "Avrupa Komisyonu yorum yapmayı reddetti"
-   ],
-   "mekanizma": "Banka gizliliği mevzuatı — habercilik",
-   "karsi_okuma": "Yalnızca özet düzeyinde bilgi var; yargılamanın hangi aşamada olduğu ve isnadın kapsamı doğrulanmamıştır.",
-   "kayitlar": [
-    "0c3e40abfb"
-   ],
-   "guven": "düşük"
-  },
-  {
-   "baslik": "Fikret İlkiz: AYM'nin bireysel başvurularda karar vermemesi ve gecikmesi hak ihlalidir",
+   "baslik": "Kavala: itirazın reddi, Bakanlar Komitesi'nin 30 Ekim kararı ve Aralık toplantısı öncesi bilgi talebiyle birlikte aktarıldı",
    "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Yazı, Kavala dosyasında iç hukuk yolunun tüketilmediği gerekçesinin dayandığı derdest AYM başvurusu sorununun arka planını oluşturuyor; AİHM Büyük Daire'nin bu argümanı reddettiği merkezin t217 dosyasında kayıtlı. Bireysel başvuru hakkının işlerliği, CMK 311 yeniden yargılama taleplerinin seyri bakımından da ölçüt.",
-   "yenilik": "İlk kez: bu pencerede AYM gecikmelerine ilişkin ayrı bir değerlendirme kayda giriyor.",
+   "neden_onemli": "İstanbul 14. Ağır Ceza Mahkemesi, 13. Ağır Ceza'nın 13 Ekim tarihli kararını onayarak tahliye ve yeniden yargılama talebini reddetti; gerekçe, derdest AYM başvurusu nedeniyle iç hukuk yollarının tüketilmemiş olması. Bu argüman Büyük Daire'nin 25 Ağustos kararında AYM'deki gecikmeler ve önceki kararların uygulanmaması nedeniyle reddedilmişti. Bakanlar Komitesi 30 Ekim kararında yargı dahil tüm devlet organlarının bağlılığını hatırlattı ve Aralık insan hakları toplantısından önce bilgi istedi.",
+   "yenilik": "Bugün yeni bir usul adımı yok; 15 Kasım'da aktarılan ret kararına ek olarak Bakanlar Komitesi'nin 30 Ekim kararı ve Aralık toplantısı öncesi bilgi talebi kayda giriyor.",
    "ayrintilar": [
-    "Diken, 16 Kasım 2026 tarihli yazı",
-    "Kayıt başlık ve kısa özet düzeyinde; sayısal veri veya dosya örneği içermiyor"
+    "İstanbul 14. Ağır Ceza Mahkemesi, İstanbul 13. Ağır Ceza'nın 13 Ekim tarihli kararını onadı [e881ffd884]",
+    "Büyük Daire kararı 25 Ağustos tarihli; iç hukuk yollarının tüketilmesi itirazını reddetti [e881ffd884]",
+    "Bakanlar Komitesi kararı 30 Ekim'de kabul edildi; Aralık insan hakları toplantısından önce bilgi istendi [e881ffd884]",
+    "İlk tahliye kararı Aralık 2019; ihlal prosedürü Şubat 2022'de başlatıldı, Temmuz 2022'de md. 46/4 ihlali tespit edildi [e881ffd884]"
    ],
-   "mekanizma": "Anayasa md. 148 bireysel başvuru",
-   "karsi_okuma": "Yazı bir yorum metnidir; AYM'nin karar süreleri veya derdest başvuru sayısına ilişkin veri içermiyor, dolayısıyla gecikmenin ölçeği bu kayıttan çıkarılamaz.",
+   "mekanizma": "AİHS md. 46; Bakanlar Komitesi icra denetimi",
+   "karsi_okuma": "Kayıt ikincil kaynaklı; ret kararının metni, numarası ve Bakanlar Komitesi kararının tam tarihli referansı elimizde yok. AYM başvurusunun akıbetine ilişkin yeni bir bilgi de yok.",
    "kayitlar": [
-    "5ff4afad19"
+    "e881ffd884"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Gergerlioğlu, parlamentoda 2016 darbe anlatısını sorgulayan sözleri nedeniyle Savunma Bakanı'na 150.000 lira tazminat ödemeye mahkûm edildi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Yasama faaliyeti sırasındaki beyanlar tazminat yoluyla yaptırıma bağlanıyor; bu, siyasetçilere yönelik hakaret ve tazminat davaları dosyasında yeni bir biçim. Darbe anlatısının sorgulanmasının maliyeti, merkezin Gülen/KHK dosyalarındaki olgusal tartışma alanını da daraltıyor.",
+   "yenilik": "İlk kez.",
+   "ayrintilar": [
+    "Tazminat tutarı 150.000 lira (yaklaşık 3.000 dolar) [8f05703d38]",
+    "Davacı Savunma Bakanı Yaşar Güler; haber Kısa Dalga üzerinden Pazartesi aktarıldı [8f05703d38]"
+   ],
+   "mekanizma": "kişilik haklarına dayalı tazminat davası",
+   "karsi_okuma": "Kayıt başlık ve özet düzeyinde; kararı veren mahkeme, dosya numarası, kararın kesinleşip kesinleşmediği ve yasama dokunulmazlığı itirazının nasıl değerlendirildiği kayıtlarda yok.",
+   "kayitlar": [
+    "8f05703d38"
    ],
    "guven": "düşük"
+  },
+  {
+   "baslik": "AYM, 2019'daki askerî operasyonda öldürülen Kürt bir kişi için yeni soruşturma açılmasına hükmetti",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "Mahkeme, ilk soruşturmadaki eksikliklerin yaşam hakkının usul boyutunu ihlal ettiğine oybirliğiyle karar verdi. Etkili soruşturma yükümlülüğüne ilişkin bu tespit, merkezin AYM giderimin yeterliliği tartışmasını yürüttüğü dosyalarla (md. 2 usul) aynı hatta duruyor.",
+   "yenilik": "İlk kez; karar Haziran'da verilmiş, bugün dolaşıma girdi.",
+   "ayrintilar": [
+    "Olay 2019'daki bir askerî operasyon sırasında gerçekleşti [466b725596]",
+    "Karar oybirliğiyle alındı ve Haziran tarihli [466b725596]",
+    "Haber Mezopotamya Ajansı kaynaklı [466b725596]"
+   ],
+   "mekanizma": "yaşam hakkının usul boyutu (etkili soruşturma)",
+   "karsi_okuma": "Başvuru numarası, karar tarihi ve hükmedilen tazminat kayıtta yok; yeni soruşturmanın fiilen açıldığına ilişkin bir veri de yok.",
+   "kayitlar": [
+    "466b725596"
+   ],
+   "guven": "orta"
   }
  ],
  "alan_notlari": [
   {
    "alan": "İfade ve basın özgürlüğü",
    "durum": "hareketli",
-   "not": "Pencerenin ağırlığı MLSA'nın haftalık sansür bülteninde: savcılık kararıyla toplu X hesabı engeli, sulh ceza hâkimliği kararıyla haber ve hesap engeli, dayanağı açıklanmayan bir yayın kuruluşu engeli ve aynı hafta 400 site [79de103186]. İsviçre'deki gazeteci yargılaması karşılaştırmalı bir kayıt olarak eklendi [0c3e40abfb].",
+   "not": "Haftalık engelleme toplamı (en az 521 X hesabı), Ankara'nın 12 Kasım kararlarındaki 21+11 ayrımı ve Hakkari 2. Ağır Ceza Mahkemesi'nin gazeteci Rabia Önver'e verdiği 18 aylık ertelenmiş hapis cezası aynı pencerede geldi. CCBE, 2026 İnsan Hakları Ödülü'nü İstanbul Barosu eski başkanı İbrahim Kaboğlu ve 2024-2026 yönetim kuruluna verdi.",
    "kayitlar": [
+    "4c95d40660",
+    "2cfb0eacc8",
     "79de103186",
-    "0c3e40abfb"
+    "4a6edaf4f9",
+    "8f05703d38",
+    "2b6841eedd"
+   ]
+  },
+  {
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "hareketli",
+   "not": "Beş AB üyesinin Ruanda return hub çerçevesi üç kuruluş kaydıyla bildirildi. Rechtbank Den Haag'ın 11 Kasım tarihli NL26.45112 kararı, süresinde karar verilmemesine karşı açılan davayı bu arada karar alındığı ve esasa ilişkin dava zaten açıldığı için usuli menfaat yokluğundan reddetti, yargılama giderine hükmetti. AKPM Göç Komisyonu TBMM ev sahipliğinde İstanbul'da toplandı; kayıt başlık düzeyinde.",
+   "kayitlar": [
+    "7396502175",
+    "a6a10df1b3",
+    "a915f7fa88",
+    "60a835eb7a",
+    "d6bac13b4b"
+   ]
+  },
+  {
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "hareketli",
+   "not": "Kavala dosyasında itirazın reddi Bakanlar Komitesi'nin 30 Ekim kararı ve Aralık toplantısı bağlamıyla birlikte aktarıldı. AYM'nin md. 2 usul ihlali kararı etkili soruşturma dosyalarına ekleniyor.",
+   "kayitlar": [
+    "e881ffd884",
+    "466b725596"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "durum": "olağan",
-   "not": "Ankara Başsavcılığı'nın engellediği hesaplar arasında KHK ve cezaevi gündemini izleyen yayınların bulunması, belgeleyici yapıların hedef alınması örüntüsünü sürdürüyor [79de103186]. Nordic Monitor'un ABD izleme listesi dosyası özet düzeyinde [405ce2b4a2].",
+   "not": "Engellenen hesaplar arasında KHK Türkiye ve altı ildeki ihraç kamu görevlisi sayfaları sayılıyor; belgeleyici yapıların hedef alınması kalıbı sürüyor. Citizen Lab'ın kaydı sınıraşan baskı üzerine bir ders duyurusu, yeni bulgu içermiyor.",
    "kayitlar": [
-    "79de103186",
-    "405ce2b4a2"
-   ]
-  },
-  {
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "durum": "olağan",
-   "not": "Bu pencerede AİHM karar metni gelmedi. Tek ilgili kayıt, AYM bireysel başvurularındaki karar gecikmesini hak ihlali sayan yorum yazısı [5ff4afad19]; Kavala dosyasındaki tüketme tartışmasıyla aynı sorunu ele alıyor.",
-   "kayitlar": [
-    "5ff4afad19"
-   ]
-  },
-  {
-   "alan": "İade, adli yardım ve iltica",
-   "durum": "sessiz",
-   "not": "Rechtspraak akışından gelen tek karar (ECLI:NL:RBNHO:2026:15192) iltica değil, kira ve tahliye konulu bir ihtiyati tedbir kararıdır; merkezin dosyalarıyla ilgisi yok [3bd98014a7]. Hollanda üçüncü çeyrek iltica verisi kaydı önceki brifingte değerlendirilmişti, yeni kayıt yok.",
-   "kayitlar": [
-    "3bd98014a7"
+    "2cfb0eacc8",
+    "4c95d40660",
+    "bbc4c76cbb"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
-   "durum": "sessiz",
-   "not": "MEDEL'in 13-14 Kasım'da Iași'de düzenlediği konferans ve Yönetim Kurulu toplantısı yargı bağımsızlığı gündemiyle sınırlı, Türkiye'ye ilişkin bir çıktı kaydedilmemiş [283e6f3944][4f85169f09]. Diğer Belçika kayıtları (aile şirketleri vergi rejimi, akademik sunum) merkez dışı [fa6abfe37d][a962ae4a27].",
+   "durum": "olağan",
+   "not": "FRA, şirketlerin insan hakları, iklim ve çevre sorumluluklarına ilişkin raporunda parçalı yaklaşım tespit ediyor; rapor 11 üye devlette 100'den fazla görüşmeye dayanıyor. Amnesty, Komisyon'un TikTok hakkındaki DSA ön tespitini değerlendiriyor. CCBE Brüksel'deki Avrupa Hukuk Meslekleri Forumu'na katıldı.",
    "kayitlar": [
-    "283e6f3944",
-    "4f85169f09",
-    "fa6abfe37d",
-    "a962ae4a27"
+    "0ca0350eb4",
+    "5cfa4e9eae",
+    "24aa41d890"
+   ]
+  },
+  {
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "olağan",
+   "not": "Resmî Gazete akışında içeriği yine belirlenemeyen 'Yargı Harçları' kaydı geldi. 17 Kasım sayısında üç madde özetlendi; bunların arasında Adli Tıp Kurumu personeli görevde yükselme yönetmeliğinde değişiklik var.",
+   "kayitlar": [
+    "673dd445f6",
+    "bb54795fb2"
    ]
   },
   {
    "alan": "BM insan hakları mekanizmaları",
    "durum": "sessiz",
-   "not": "HRW'nin BAE'de beş Şii yabancı sakinin keyfi gözaltısına ilişkin raporu Türkiye dosyalarıyla doğrudan bağlantılı değil; dini kimlik temelli gözaltı ve yargı önüne çıkarılmama iddiaları olarak kaydedildi [6d360261d3].",
+   "not": "BM Dijital Kütüphanesi akışındaki kayıtlar (İnsan Hakları Konseyi 63. oturum 42. toplantı özet tutanağı, Libya Uzmanlar Paneli raporu, atama ve bütçe duyuruları) başlık düzeyinde geldi; merkezin dosyalarıyla bağ kurulabilecek içerik görünmüyor.",
    "kayitlar": [
-    "6d360261d3"
+    "edc2a1a7b2",
+    "c923d07016",
+    "9ecca4245d"
    ]
   }
  ],
- "dosya_derinlesmesi": [
-  {
-   "baslik": "Kavala dosyasında iç hukuk yolunun tüketilmesi gerekçesi ve AYM'deki karar gecikmesi (t217)",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "elimizde": "Bugün dosyaya eklenen tek yeni unsur, AYM'nin bireysel başvurularda karar vermemesini ve gecikmesini başlı başına hak ihlali sayan 16 Kasım tarihli değerlendirme yazısıdır [5ff4afad19]. Önceki kayıt, İstanbul 14. Ağır Ceza Mahkemesi'nin 13 Ekim tarihli kararı onayarak tahliye ve yeniden yargılama talebini reddettiğini, mahkemenin derdest AYM başvurusu nedeniyle iç hukuk yollarının tüketilmediği argümanını kabul ettiğini aktarıyor; aynı kayda göre AİHM Büyük Dairesi 25 Ağustos tarihli kararında bu argümanı reddetmiş, Bakanlar Komitesi 30 Ekim'de kabul ettiği kararla Ekim'deki redde eleştiri yöneltip Aralık toplantısı öncesi bilgi istemişti [4305371730].",
-   "eksik": "İç hukuk kararlarının metinleri, AYM başvurusunun numarası ve ne zamandır derdest olduğu kayıtlarda yok. AYM'nin karar süreleri ve bu dosyada bir tarihlendirme yapıp yapmadığına dair veri de bulunmuyor; İlkiz yazısı yalnızca özet düzeyinde kayda girmiştir.",
-   "izlenecek_adim": "Bakanlar Komitesi'nin Aralık ayındaki insan hakları toplantısı, 30 Ekim kararında istenen bilginin sunulup sunulmadığını gösterecek [4305371730]. Ayrıca AYM'nin derdest başvuruda bir karar verip vermeyeceği izlenmeli.",
-   "dayanak": "AYM'deki gecikmenin kendisinin bir ihlal oluşturduğu yönündeki değerlendirme, iç hukuk yolunun etkisizliği argümanını destekleyen ikincil bir dayanak olarak kaydedilebilir [5ff4afad19]; Büyük Daire'nin aynı argümanı reddettiği aktarımıyla birlikte okunmalıdır [4305371730].",
-   "kayitlar": [
-    "5ff4afad19",
-    "4305371730"
-   ]
-  }
- ],
+ "dosya_derinlesmesi": [],
  "kronoloji": [
   {
-   "tarih": "2026-10",
-   "adim": "İstanbul'da bir sulh ceza hâkimliği, Adalet Bakanı Gürlek'e ilişkin haberlere erişim engeli kararı verdi.",
+   "tarih": "2026-09/10",
+   "adim": "SCF'ye göre Eylül ve Ekim aylarında en az 2.137 X hesabına erişim engellendi.",
    "kayitlar": [
-    "79de103186"
+    "2cfb0eacc8"
    ]
   },
   {
    "tarih": "2026-11-11",
-   "adim": "Karşıyaka 1. Sulh Ceza Hâkimliği, 2026/6413 sayılı kararıyla BirGün, Diken ve Gazete Pencere'nin Ahmet Şık'ın açıklamalarına ilişkin haberlerini ve üç X hesabını mahremiyet gerekçesiyle engelledi.",
+   "adim": "Karşıyaka 1. Sulh Ceza Hâkimliği 2026/6413 sayılı kararla Adalet Bakanı'na ilişkin üç habere ve bir milletvekili ile iki gazetecinin X hesaplarına mahremiyet gerekçesiyle engel getirdi.",
    "kayitlar": [
     "79de103186"
    ]
   },
   {
    "tarih": "2026-11-12",
-   "adim": "Ankara Cumhuriyet Başsavcılığı iki ayrı X hesabı engelleme kararı duyurdu; ilkinde 'FETÖ ve bağlantılı yapılar' atfıyla 21 hesap engellendi, bültende ayrıca 32 hesap sayısı geçiyor.",
+   "adim": "Ankara Başsavcılığı iki ayrı kararla 21 hesabı Gülen atfıyla, 11 hesabı dezenformasyon ve millî güvenlik gerekçesiyle engelledi; KHK Türkiye ve altı ildeki ihraç kamu görevlisi sayfaları listede.",
    "kayitlar": [
+    "2cfb0eacc8",
     "79de103186"
    ]
   },
   {
    "tarih": "2026-11-14",
-   "adim": "Manşet Haber TV'nin X ve Instagram hesapları engellendi; kararı veren makam, numara ve gerekçe açıklanmadı, kuruluş yasal yollara başvuracağını bildirdi.",
+   "adim": "Manşet Haber TV'nin X ve Instagram hesapları engellendi; kararı veren makam, karar numarası ve gerekçe açıklanmadı.",
    "kayitlar": [
     "79de103186"
    ]
   },
   {
-   "tarih": "2026-11-09/15",
-   "adim": "Aynı hafta içinde İzmir ve Yalova sulh ceza hâkimlikleri çeşitli haberleri engelledi, ayrıca 400 web sitesine erişim engeli uygulandığı bildirildi.",
+   "tarih": "2026-11-17",
+   "adim": "EngelliWeb, son bir haftada en az 521 X hesabının engellendiğini ve çoğunun X tarafından Türkiye'den görünmez kılındığını bildirdi.",
    "kayitlar": [
-    "79de103186"
-   ]
-  },
-  {
-   "tarih": "2026-11-16",
-   "adim": "MLSA haftalık Free Web bülteni yayımlandı ve haftanın kararlarını derledi.",
-   "kayitlar": [
-    "79de103186"
+    "4c95d40660"
    ]
   }
  ],
  "izlenecekler": [
-  "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararının numaraları, dayanak maddeleri ve engellenen hesap sayısındaki 21–32 farkının açıklığa kavuşması",
-  "Karşıyaka 2026/6413 sayılı karara itiraz edilip edilmediği ve engellenen milletvekili hesaplarının durumu",
-  "Manşet Haber TV'nin duyurduğu başvuru yolunun hangi makama yöneltileceği ve engelin dayanağının açıklanıp açıklanmayacağı",
-  "Kavala dosyasında Bakanlar Komitesi'nin Aralık toplantısı öncesi Türkiye'den istenen bilginin sunulup sunulmadığı",
-  "Nordic Monitor'un aktardığı ABD izleme listesi dosyasında mahkeme belgelerinin ve dosya numarasının doğrulanması"
+  "Bakanlar Komitesi'nin Aralık 2026 insan hakları toplantısında Kavala dosyasında alacağı karar ve Türkiye'nin sunacağı icra bilgisi",
+  "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararının metinleri, dayanak hükümleri ve 11 hesabın kimliği",
+  "Ruanda return hub çerçevesinin hukuki biçimi, taraf devletlerde onay süreci ve 2027 pilot aktarımın kapsamı",
+  "EngelliWeb ve MLSA haftalık engelleme sayılarının seyri ile X'in uygulama/görünmez kılma pratiği",
+  "Gergerlioğlu aleyhindeki 150.000 liralık tazminat kararının kesinleşme ve istinaf seyri",
+  "AYM'nin md. 2 usul ihlali kararının ardından yerel savcılıkta yeni soruşturmanın açılıp açılmadığı"
  ],
- "gun": "2026-11-16",
- "olusturma": "2026-11-16T09:02+00:00",
+ "gun": "2026-11-17",
+ "olusturma": "2026-11-17T10:10+00:00",
  "model": "claude-opus-5",
- "kayit_sayisi": 44,
+ "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
+  "e881ffd884",
   "673dd445f6",
+  "2cfb0eacc8",
+  "d6bac13b4b",
+  "60a835eb7a",
+  "edc2a1a7b2",
+  "0ca0350eb4",
   "4f85169f09",
+  "5c2ef7217e",
+  "4c95d40660",
+  "f754abefd6",
+  "a6a10df1b3",
+  "bbc4c76cbb",
   "79de103186",
-  "3bd98014a7",
+  "9b80dc5752",
+  "9ecca4245d",
+  "4f5a67b147",
+  "5104828078",
+  "c923d07016",
+  "55e9613bb6",
+  "fb67696f54",
+  "cc7a9e0f5f",
+  "87dd082f6f",
+  "39619fd925",
   "283e6f3944",
+  "945155e57e",
+  "889df3acd3",
+  "e884df81a9",
+  "7396502175",
+  "fe5dbd04b9",
+  "a915f7fa88",
+  "5cfa4e9eae",
+  "8f05703d38",
+  "b04e7a78f3",
+  "4a6edaf4f9",
+  "466b725596",
+  "7687a5d7fa",
   "6d360261d3",
   "8684121f74",
-  "c1383b59e8",
-  "75e4350548",
-  "7279ab2c57",
-  "4305371730",
-  "574ccc8768",
-  "177c5f70a7",
-  "fdbea9dbdc",
-  "890ef9c289",
-  "0d187f784e",
-  "55cd144f1d",
-  "a0aca5d538",
-  "36dda8c322",
-  "b926fd670f",
-  "7009edd949",
-  "c5d0db2563",
-  "184d36dec5",
-  "5ff4afad19",
-  "7809fd2e55",
-  "20f0ad122e",
-  "c0e58ea34e",
-  "40aec90fd3",
-  "667822e80b",
-  "23c4e6b696",
-  "9c744ff329",
-  "9e546b88a0",
-  "e721a41350",
-  "d1b6ace3f4",
-  "aa28eea38a",
-  "d03e63e36a",
-  "ddb855c1d8",
-  "94a5fe5af2",
-  "e095be6b41",
-  "fa6abfe37d",
-  "a962ae4a27",
-  "0c3e40abfb",
-  "405ce2b4a2",
-  "ac5583eda2"
+  "b95a78327e",
+  "cc6f289396",
+  "24aa41d890",
+  "bb54795fb2",
+  "6b89cc5f03",
+  "2b6841eedd"
  ],
- "maliyet_usd": 0.8399,
- "girdi_token": 48014,
- "cikti_token": 21080,
+ "maliyet_usd": 0.7994,
+ "girdi_token": 48530,
+ "cikti_token": 19060,
  "arka_uc": "api",
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
@@ -1512,15 +548,15 @@
    },
    {
     "id": "one6",
-    "hukum": "kısmen",
-    "not": "Gösterilen kayıt (5ff4afad19) yalnızca başlık/özet düzeyinde olup AİHM Büyük Daire'nin bu argümanı reddettiğine veya t217 dosyasına dair bir bilgi içermiyor."
+    "hukum": "dayanaklı",
+    "not": ""
    }
   ],
-  "genel": "İddiaların büyük çoğunluğu MLSA bülteni ve diğer kayıtlarla tam uyumlu; yalnızca AYM/AİHM bağlantısı kuran iddia gösterilen kayıtta karşılığı olmayan ek bir olgu içeriyor.",
+  "genel": "Tüm iddialar gösterilen kayıtlarla ve önceki gün başlıklarıyla tutarlı, olgusal dayanak sorunu bulunmadı.",
   "model": "claude-sonnet-5",
-  "girdi_token": 30337,
-  "cikti_token": 1211,
-  "maliyet_usd": 0.0728,
+  "girdi_token": 36280,
+  "cikti_token": 761,
+  "maliyet_usd": 0.0802,
   "iddia_sayisi": 7
  },
  "takip_acik": [
@@ -1561,8 +597,8 @@
    "baslik": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararları (Serdar Uzel; yayın el koyma kararları)",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-17",
-   "son_hareket": "2026-11-07",
-   "hareket_sayisi": 9
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 10
   },
   {
    "id": "t7",
@@ -1571,14 +607,6 @@
    "acildi": "2026-09-17",
    "son_hareket": "2026-11-14",
    "hareket_sayisi": 9
-  },
-  {
-   "id": "t10",
-   "baslik": "Belarus'ta siyasi mahpusların zorunlu sınır dışı karşılığı serbest bırakılması ve buna eşlik eden yaptırım kaldırmaları",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "acildi": "2026-09-18",
-   "son_hareket": "2026-10-02",
-   "hareket_sayisi": 1
   },
   {
    "id": "t11",
@@ -1657,8 +685,8 @@
    "baslik": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-21",
-   "son_hareket": "2026-11-15",
-   "hareket_sayisi": 7
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 8
   },
   {
    "id": "t25",
@@ -1697,8 +725,8 @@
    "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-23",
-   "son_hareket": "2026-11-16",
-   "hareket_sayisi": 24
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 25
   },
   {
    "id": "t34",
@@ -1737,8 +765,8 @@
    "baslik": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uygulanan erişim engelleri",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-25",
-   "son_hareket": "2026-11-12",
-   "hareket_sayisi": 17
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 18
   },
   {
    "id": "t43",
@@ -1761,8 +789,8 @@
    "baslik": "Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' pratiğinin zamanlaması",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-27",
-   "son_hareket": "2026-11-09",
-   "hareket_sayisi": 18
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 19
   },
   {
    "id": "t52",
@@ -1819,22 +847,6 @@
    "acildi": "2026-10-01",
    "son_hareket": "2026-10-07",
    "hareket_sayisi": 1
-  },
-  {
-   "id": "t64",
-   "baslik": "Adli Tıp Kurumu'nun kanser hastası Gülen hükümlüsü İbrahim Halil Al hakkında 'cezaevinde kalabilir' raporu ve reddedilen beş nakil talebi",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "acildi": "2026-10-02",
-   "son_hareket": "2026-10-02",
-   "hareket_sayisi": 0
-  },
-  {
-   "id": "t65",
-   "baslik": "Yunanistan Danıştay'ın STK Sicili kurallarını iptal eden 16 Eylül 2026 tarihli kararı ve CJEU'ya gönderilen ön karar soruları",
-   "alan": "İade, adli yardım ve iltica",
-   "acildi": "2026-10-02",
-   "son_hareket": "2026-10-02",
-   "hareket_sayisi": 0
   },
   {
    "id": "t66",
@@ -2161,8 +1173,8 @@
    "baslik": "HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestolarında soruşturma, gözaltı ve kötü muamele iddiaları",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-14",
-   "son_hareket": "2026-11-07",
-   "hareket_sayisi": 6
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 7
   },
   {
    "id": "t107",
@@ -2401,8 +1413,8 @@
    "baslik": "Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab–ICIJ bulguları ve diaspora aktivistlerinin hedeflenmesi",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-10-23",
-   "son_hareket": "2026-11-13",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 3
   },
   {
    "id": "t138",
@@ -2537,8 +1549,8 @@
    "baslik": "İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat ve anayasa hukuku profesörü hakkında başlatılan ceza soruşturması",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-28",
-   "son_hareket": "2026-10-28",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 1
   },
   {
    "id": "t155",
@@ -2553,8 +1565,8 @@
    "baslik": "Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülkeler arasında zorla geri gönderme yetkisi ve 'return hub' tartışması",
    "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
    "acildi": "2026-10-29",
-   "son_hareket": "2026-11-10",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 2
   },
   {
    "id": "t157",
@@ -2657,8 +1669,8 @@
    "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
    "alan": "Mevzuat izleme (çok alanlı)",
    "acildi": "2026-11-01",
-   "son_hareket": "2026-11-15",
-   "hareket_sayisi": 9
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 10
   },
   {
    "id": "t170",
@@ -2777,8 +1789,8 @@
    "baslik": "Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ay aşılması nedeniyle kabul edilen süresinde karar vermeme davası",
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-11-05",
-   "son_hareket": "2026-11-11",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 3
   },
   {
    "id": "t185",
@@ -2809,8 +1821,8 @@
    "baslik": "Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belgesi",
    "alan": "Belçika ve AB mevzuatı",
    "acildi": "2026-11-06",
-   "son_hareket": "2026-11-06",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 1
   },
   {
    "id": "t189",
@@ -2841,8 +1853,8 @@
    "baslik": "COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları açıklamalarının seyri ve ev sahibi ülke uygulamaları",
    "alan": "BM insan hakları mekanizmaları",
    "acildi": "2026-11-08",
-   "son_hareket": "2026-11-14",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 4
   },
   {
    "id": "t193",
@@ -3041,16 +2053,16 @@
    "baslik": "Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul adımı (itirazın reddi sonrası başvuru seçenekleri)",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-11-15",
-   "son_hareket": "2026-11-16",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 2
   },
   {
    "id": "t218",
    "baslik": "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X hesapları: sayı farkı (21 ve 32) ve hesapların kimliği",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-11-16",
-   "son_hareket": "2026-11-16",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 1
   },
   {
    "id": "t219",
@@ -3074,6 +2086,38 @@
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-11-16",
    "son_hareket": "2026-11-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t222",
+   "baslik": "Beş AB üyesinin Ruanda'da 'return hub' kurulmasına ilişkin ortaklık çerçevesi ve 2027'de öngörülen ilk aktarım",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t223",
+   "baslik": "Milletvekili Ömer Faruk Gergerlioğlu'nun parlamentodaki 2016 darbe anlatısına ilişkin sözleri nedeniyle Savunma Bakanı'na 150.000 lira tazminata mahkûm edilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t224",
+   "baslik": "Gazeteci Rabia Önver'e Hakkari 2. Ağır Ceza Mahkemesi'nce sosyal medya paylaşımları nedeniyle verilen 18 aylık ertelenmiş hapis cezası",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t225",
+   "baslik": "AYM'nin 2019'daki askerî operasyonda öldürülen kişiye ilişkin yeni soruşturma kararı ve kararın yerel savcılıkta uygulanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
    "hareket_sayisi": 0
   }
  ]

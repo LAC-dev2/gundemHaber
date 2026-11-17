@@ -1,31 +1,47 @@
 {
- "gun": "2026-11-16",
- "olusturma": "2026-11-16T20:47+00:00",
+ "gun": "2026-11-17",
+ "olusturma": "2026-11-17T10:11+00:00",
  "uyarilar": [
   {
-   "id": "takip:2026-11-16:toplu:6",
+   "id": "alan:2026-11-17:Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda Ruanda",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda Ruanda'da 'return hub' kurma çerçevesi açıkladı",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "not": "Duyuru, AB içinde kalma hakkı bulunmayan kişilerin hiç bağları olmayan bir üçüncü ülkeye aktarılmasını öngörüyor. Amnesty, geri göndermeme ilkesi, işkence ve kötü muamele yasağı ile hangi devletin yargı yetkisinin devrede olacağı ve etkili yargısal başvuru yolunun nasıl işleyeceği bakımından risk olduğunu belirtiyor. ECRE çerçeveyi dışsallaştırmada tırmanma olarak niteliyor. Hollanda ve Almanya'nın taraf olması, merkezin bu iki ülkedeki Türkiye kaynaklı iltica dosyalarıyla doğrudan temas kuruyor.",
+   "kayitlar": [
+    "7396502175",
+    "a6a10df1b3",
+    "a915f7fa88"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
+  {
+   "id": "takip:2026-11-17:toplu:15",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "15 takip dosyasında hareket var",
    "alan": "",
-   "not": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; Bakırköy'ün Adalet Bakanı Akın Gürlek'in mal varlığına ilişkin 10 habe; Eskişehir ve Erzincan sulh ceza hâkimliklerinin yerel habere ve gazete; Muhalefet milletvekili Ahmet Şık'ın eşinin casusluk soruşturması kapsa; Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul ad",
+   "not": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul ad; Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X he; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları; Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülk; Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belge; Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab",
    "kayitlar": [
+    "e881ffd884",
+    "e881ffd884",
+    "2cfb0eacc8",
     "79de103186",
-    "79de103186",
-    "79de103186",
-    "79de103186",
-    "79de103186",
-    "5ff4afad19"
+    "4c95d40660",
+    "4c95d40660",
+    "4c95d40660",
+    "945155e57e"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-16:60",
+   "id": "saglik:2026-11-17:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "60 kaynağın akışı hata veriyor",
+   "baslik": "12 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: İnsan Hakları Komiseri, PACE, EUR-Lex, CURIA / ABAD, EU Sanctions Map, OSCE Representative on Freedom of the Media…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye, MENAFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }

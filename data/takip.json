@@ -406,7 +406,7 @@
    "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-07",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "f64bb53604",
     "1387ffbabe"
@@ -476,6 +476,13 @@
      "not": "6 Kasım 2026 tarihli Resmî Gazete'de, AYM'nin 30 Nisan 2026 tarihli kararı yayımlandı: AİHM'in 2020 tarihli md. 10 kararına rağmen yeniden yargılama talebini reddeden Mersin 4. Ağır Ceza Mahkemesi'nin tutumu ifade özgürlüğü ihlali sayıldı ve yargılamanın yeniden açılmasına hükmedildi. Kayıt ikincil kaynak aktarımıdır; karar numarası kayıtlarda yok.",
      "kayitlar": [
       "4c9cf91903"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "AYM, 2019'daki bir askerî operasyon sırasında öldürülen Kürt bir kişiye ilişkin ilk soruşturmadaki eksiklikler nedeniyle yaşam hakkının usul boyutunun ihlal edildiğine oybirliğiyle karar verdi ve yeni soruşturma açılmasına hükmetti. Karar Haziran ayına ait, haber Mezopotamya Ajansı üzerinden bugün dolaşıma girdi.",
+     "kayitlar": [
+      "466b725596"
      ]
     }
    ]
@@ -664,7 +671,7 @@
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "neden": "ABD özel temsilcisinin müzakeresiyle 25 kişi serbest bırakılıp Vilnius'a getirildi; karşılığında iki Belarus şirketine yönelik yaptırımlar kaldırıldı ve bazı kişilerin pasaportlarının iptal edildiği bildiriliyor [b14c3cdc03][6e19051a68]. Yaptırım kaldırma ile serbest bırakma pazarlığının eşleşmesi ve zorunlu sürgün pratiği, merkezin yaptırım ve sınıraşan baskı dosyalarıyla doğrudan ilgili.",
    "acildi": "2026-09-18",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-02",
    "kayitlar": [
     "b14c3cdc03",
@@ -678,7 +685,9 @@
       "154d62831b"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-17",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t11",
@@ -1112,7 +1121,7 @@
    "neden": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki çağrısıyla aynı dönemde gelen bir icra baskısı; kayıt yalnızca başlık düzeyinde olduğu için talebin hangi organda ve hangi usulle dile getirildiği doğrulanmalı.",
    "acildi": "2026-09-21",
    "durum": "açık",
-   "son_hareket": "2026-11-15",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "8c71808e1f"
    ],
@@ -1164,6 +1173,13 @@
      "not": "Turkish Minute, İstanbul 14. Ağır Ceza Mahkemesi'nin 13 Ekim tarihli kararı onayarak Kavala'nın tahliye ve yeniden yargılama talebini reddettiğini, kararın AİHM'in bağlayıcı hükmüne rağmen verildiğini bildiriyor; kaynak Bianet'e atıf yapıyor. Karar metni kayıtlarda yok, bilgi haber düzeyinde.",
      "kayitlar": [
       "4305371730"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "SCF, İstanbul 14. Ağır Ceza Mahkemesi'nin 13 Ekim tarihli İstanbul 13. Ağır Ceza kararını onadığını aktarırken Bakanlar Komitesi'nin 30 Ekim'de kabul ettiği kararı da hatırlatıyor: Komite, yargı dahil tüm devlet organlarının AİHM kararlarına uymakla yükümlü olduğunu yineledi ve Aralık ayındaki insan hakları toplantısından önce icra adımlarına ilişkin bilgi istedi.",
+     "kayitlar": [
+      "e881ffd884"
      ]
     }
    ]
@@ -1559,7 +1575,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-11-16",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1747,6 +1763,13 @@
      "not": "Toplu X hesabı engeli pratiği bu hafta yeniden görülüyor: Ankara Başsavcılığı 12 Kasım'da iki ayrı karar duyurdu, bültende hem '32 X hesabı' hem de ilk karara ilişkin '21 hesap' sayısı geçiyor. Bu kez gerekçe ekonomi/finans içeriği değil, 'FETÖ ve bağlantılı yapılar' atfı olarak aktarılıyor.",
      "kayitlar": [
       "79de103186"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Engellenen 521 hesap arasında fon krizi hakkında paylaşım yapan hesaplar ile iktisatçı Nazır Kapusuz'un hesabı sayılıyor. Kayıtta karar numarası ve dayanak madde belirtilmemiş.",
+     "kayitlar": [
+      "4c95d40660"
      ]
     }
    ]
@@ -2112,7 +2135,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-11-12",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "b290622139"
    ],
@@ -2243,6 +2266,13 @@
      "not": "İstanbul'da bir mahkeme, Kısa Dalga'nın 2 Kasım tarihli ve fon skandalı bağlamında kurumsal kredi derecelendirmelerini inceleyen yazısına millî güvenlik ve kamu düzeni gerekçesiyle erişim engeli getirdi. Engel gerekçesi, takip maddesindeki örüntünün aynısı; karar numarası ve hâkimlik kayıtlarda yok.",
      "kayitlar": [
       "78947b7059"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Fon krizine ilişkin paylaşım yapan hesaplar haftalık engelleme listesinde yeniden yer alıyor; kayıt yalnızca kategoriyi veriyor, hesap adlarını ve karar dayanağını vermiyor.",
+     "kayitlar": [
+      "4c95d40660"
      ]
     }
    ]
@@ -2379,7 +2409,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-11-09",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -2521,6 +2551,13 @@
      "not": "Bültene göre X, 207 hesabın büyük çoğunluğunu Türkiye'den erişilemez hale getirdi [1216c6acb9].",
      "kayitlar": [
       "1216c6acb9"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "EngelliWeb, son bir haftada en az 521 X hesabının engellendiğini ve hesapların büyük kısmının X tarafından Türkiye'den görünmez kılındığını bildiriyor. Görünmez kılma pratiği bu kayıtta yine engelleme kararıyla birlikte anılıyor; zamanlamaya ilişkin ayrıntı verilmiyor.",
+     "kayitlar": [
+      "4c95d40660"
      ]
     }
    ]
@@ -2927,12 +2964,14 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "neden": "Ağır hasta hükümlülerin tutulmaya elverişliliği ve sağlık erişimi, merkezin md. 3 bağlamındaki açık dosyalarıyla doğrudan ilgili. Kayıt ayrıca aile ikametine 1.000 km uzak cezaevine yerleştirme ve beş nakil talebinin reddini içeriyor.",
    "acildi": "2026-10-02",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-02",
    "kayitlar": [
     "a1e177ed2d"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-17",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t65",
@@ -2940,12 +2979,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Mültecilerle çalışan derneklerin kayıt rejimine ilişkin örgütlenme özgürlüğü ve veri koruma soruları CJEU'ya taşındı; merkezin dernek kapatma ve yargısal taciz dosyalarıyla karşılaştırmalı dayanak oluşturabilir.",
    "acildi": "2026-10-02",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-02",
    "kayitlar": [
     "fd0faf6a42"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-17",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t66",
@@ -4065,7 +4106,7 @@
    "neden": "Rapor en az 55 kişiye soruşturma, altı yargılama ve yaklaşık 15 gözaltı belgeliyor; derdest temyizler ve beraatlere yapılan savcılık itirazları izlenebilir usul adımları.",
    "acildi": "2026-10-14",
    "durum": "açık",
-   "son_hareket": "2026-11-07",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "469b99a869"
    ],
@@ -4110,6 +4151,14 @@
      "not": "Amnesty International, COP31 öncesinde Almanya'dan ve uluslararası topluluktan Türkiye'nin insan hakları karnesini en üst siyasi düzeyde gündeme getirmesini istedi; konferans Pazartesi Antalya'da açılıyor. Açıklama gazetecileri, çevre aktivistlerini ve LGBTİ+ kişileri hedef alan uygulamalara atıf yapıyor.",
      "kayitlar": [
       "8beb9bbebe"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Amnesty, Akbelen Ormanı mücadelesine ilişkin çevre mühendisi Deniz Gümüşel'le bir söyleşi yayımladı. Ayrıca COP31 hakkında paylaşım yapan iklim ve enerji uzmanı Önder Algedik ile Salda Gölü Koruma Derneği, İklim Adaleti Forumu ve Ekoloji Birliği hesapları engellenenler arasında.",
+     "kayitlar": [
+      "945155e57e",
+      "4c95d40660"
      ]
     }
    ]
@@ -4791,7 +4840,7 @@
    "neden": "Citizen Lab, yapay zekâ modellerinin diaspora aktivistlerini ve sürgündeki muhalifleri tespit, izleme ve hedefleme amacıyla kullanıldığını, Çin ile bağlantılı iki aktörün gazetecileri taklit ettiğini bildiriyor. Merkezin sınıraşan baskı dosyalarında delil ve atıf sorunları açısından izlenmesi gerekiyor.",
    "acildi": "2026-10-23",
    "durum": "açık",
-   "son_hareket": "2026-11-13",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "79acc4f94a"
    ],
@@ -4810,6 +4859,13 @@
      "not": "Freedom House sınıraşan baskı serisinden yeni politika notu internet kesintilerinin uydu teknolojisiyle aşılmasını ele alıyor; içerik İran örneğine dayanıyor, Türkiye kaynaklı dijital baskı dosyasına doğrudan veri eklemiyor.",
      "kayitlar": [
       "fa27dea7f1"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Citizen Lab, kıdemli hukuk danışmanı Siena Anstis'in Central European University'de sınıraşan baskı ve uluslararası hukuk üzerine bir ders vereceğini duyurdu; etkinlik duyurusu düzeyinde, yeni bulgu içermiyor.",
+     "kayitlar": [
+      "bbc4c76cbb"
      ]
     }
    ]
@@ -5139,11 +5195,19 @@
    "neden": "Soruşturmanın konusu, AYM kararlarına uymayan ve tutuklama kararı veren hâkimlere yönelik meslek içi eleştiri; avukatların mesleki beyan bağışıklığı tartışmasına Türkiye ayağı ekliyor.",
    "acildi": "2026-10-28",
    "durum": "açık",
-   "son_hareket": "2026-10-28",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "5a76f2f83d"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-17",
+     "not": "CCBE, 2026 İnsan Hakları Ödülü'nü İstanbul Barosu'nun eski başkanı İbrahim Kaboğlu ile Ekim 2024–Ekim 2026 dönemi yönetim kurulu üyelerine verdi. Kayıt ödülün gerekçesini ayrıntılandırmıyor.",
+     "kayitlar": [
+      "2b6841eedd"
+     ]
+    }
+   ]
   },
   {
    "id": "t155",
@@ -5165,7 +5229,7 @@
    "neden": "Öneri, ajansın AB dışındaki operasyonel rolünü ve geri gönderme yetkisini genişletiyor; merkezin non-refoulement ve sınır dışı dosyalarında doğrudan dayanak oluşturacak bir mevzuat süreci başlıyor. Yasama sürecinde metnin hangi insan hakları güvenceleriyle çıkacağı izlenmeli.",
    "acildi": "2026-10-29",
    "durum": "açık",
-   "son_hareket": "2026-11-10",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "e3bf8ff006"
    ],
@@ -5179,6 +5243,15 @@
       "edba5c7219",
       "cef423fe52",
       "360a640204"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Viyana Göç Konferansı'nda Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda, Ruanda'da 'return hub' kurulmasına ilişkin bir ortaklık çerçevesi duyurdu; pilot proje kapsamında ilk grubun 2027'de aktarılması bekleniyor. Böylece return hub tartışması öneri düzeyinden devletlerarası bir çerçeveye geçmiş görünüyor.",
+     "kayitlar": [
+      "7396502175",
+      "a6a10df1b3",
+      "a915f7fa88"
      ]
     }
    ]
@@ -5411,7 +5484,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-15",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5478,6 +5551,13 @@
     {
      "gun": "2026-11-15",
      "not": "Resmî Gazete akışında yine yalnızca 'Yargı Harçları' başlıklı bir kayıt var; içerik, madde numarası ya da düzenlemenin kapsamı kayıtta görünmüyor. Aynı başlık önceki analizlerde de (8 ve 12 Kasım) yinelenmişti.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Resmî Gazete akışında 'Yargı Harçları' başlıklı kayıt yine içeriği belirlenemeden geldi; başlık dışında veri yok.",
      "kayitlar": [
       "673dd445f6"
      ]
@@ -5754,7 +5834,7 @@
    "neden": "Hollanda'da karar süresi aşımına dayanan davaların kabulü, Türkiye kaynaklı başvurular dahil bekleyen dosyalarda usul seyrini etkiliyor. Kayıt yalnızca özet düzeyinde; başvurucunun uyruğu ve hükmedilen yaptırım belirtilmiyor.",
    "acildi": "2026-11-05",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "236ce849d9"
    ],
@@ -5771,6 +5851,13 @@
      "not": "Rechtbank Den Haag'ın 7 Ekim 2026 tarihli 26.43278 sayılı kararı (ECLI:NL:RBDHA:2026:33150) yayımlandı: süresinde karar vermeme davası kabul edilebilir ve haklı bulundu, idareye 8+4 haftalık yeni karar süresi verildi, idari para cezası (dwangsom) hükmedilmedi. Bu, NL26.50232 ile aynı yöndeki ikinci örnek; dwangsom verilmemesi ayrı bir çizgi olarak izlenmeli.",
      "kayitlar": [
       "d3c0c0a72a"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "Rechtbank Den Haag'ın 11 Kasım tarihli NL26.45112 kararında, süresinde karar verilmemesine karşı açılan davada bu arada karar alındığı için dava usulden reddedildi (niet-ontvankelijk); başvurucunun esas hakkında zaten dava açmış olması nedeniyle usuli menfaat görülmedi, buna karşın yargılama gideri hükmedildi. Bu, t184'teki kabul kararından farklı bir sonuç gösteriyor.",
+     "kayitlar": [
+      "60a835eb7a"
      ]
     }
    ]
@@ -5829,11 +5916,19 @@
    "neden": "Tüzük, üçüncü ülke vatandaşlarının geri gönderilmesinde ortak bir sistem kuruyor; merkezin geri gönderme ve 'return hub' dosyalarıyla doğrudan bağlantılı. Belgenin içeriği henüz başlık düzeyinde.",
    "acildi": "2026-11-06",
    "durum": "açık",
-   "son_hareket": "2026-11-06",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "2bb9e22e12"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-17",
+     "not": "ECRE, duyuruyu Avrupa göç politikalarının dışsallaştırılmasında tehlikeli bir tırmanma olarak niteledi. Kayıt, çerçevenin Geri Dönüş Tüzüğü ile ilişkisini kurmuyor.",
+     "kayitlar": [
+      "a915f7fa88"
+     ]
+    }
+   ]
   },
   {
    "id": "t189",
@@ -5881,7 +5976,7 @@
    "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
    "acildi": "2026-11-08",
    "durum": "açık",
-   "son_hareket": "2026-11-14",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "5f383ef425",
     "8beb9bbebe"
@@ -5910,6 +6005,13 @@
       "a3e2f361c5",
       "40dccff82c",
       "ca1064d05f"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "COP31 bağlantılı engellemeler sürüyor: konferans hakkında paylaşım yapan hesapların yanı sıra Erdoğan ile Aliyev'in görüntülerini paylaşan hesaplar da engellenenler arasında sayılıyor.",
+     "kayitlar": [
+      "4c95d40660"
      ]
     }
    ]
@@ -6294,7 +6396,7 @@
    "neden": "t24 Avrupa Konseyi'nin 'somut adım' talebini izliyor; 13 Kasım tarihli ret kararı bu talebin iç yargıdaki karşılığının ne olduğunu gösteren ayrı bir usul adımı ve izlenmesi gereken kendi seyri var.",
    "acildi": "2026-11-15",
    "durum": "açık",
-   "son_hareket": "2026-11-16",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "4305371730"
    ],
@@ -6304,6 +6406,13 @@
      "not": "Fikret İlkiz'in 16 Kasım tarihli yazısı, Anayasa Mahkemesi'nin bireysel başvurularda karar vermemesini ve gecikmesini hak ihlali olarak niteliyor. Kayıt başlık/özet düzeyinde; ancak Kavala dosyasında iç hukuk yolunun tüketilmediği gerekçesinin dayandığı derdest AYM başvurusu tartışmasıyla aynı sorunu ele alıyor.",
      "kayitlar": [
       "5ff4afad19"
+     ]
+    },
+    {
+     "gun": "2026-11-17",
+     "not": "İtirazın reddi gerekçesi kayıtta açıkça yer alıyor: derdest AYM başvurusu nedeniyle iç hukuk yollarının tüketilmediği. Kayıt, Büyük Daire'nin 25 Ağustos kararında bu argümanı AYM'deki gecikmeler ve önceki kararların uygulanmaması nedeniyle reddettiğini belirtiyor.",
+     "kayitlar": [
+      "e881ffd884"
      ]
     }
    ]
@@ -6315,11 +6424,20 @@
    "neden": "Bülten aynı günün kararları için hem 21 hem 32 hesap sayısı veriyor; engellenen hesaplar arasında KHK ve cezaevi gündemini izleyen yayınlar var. Kararların numarası ve gerekçesi kayıtta yok.",
    "acildi": "2026-11-16",
    "durum": "açık",
-   "son_hareket": "2026-11-16",
+   "son_hareket": "2026-11-17",
    "kayitlar": [
     "79de103186"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-17",
+     "not": "Sayı farkı bugün kısmen açıklığa kavuştu: SCF, Ankara Başsavcılığı'nın 12 Kasım'da 21 hesabı Gülen bağlantısı, ayrıca 11 hesabı dezenformasyon ve millî güvenlik gerekçesiyle engellediğini yazıyor; MLSA bülteninin verdiği 32 sayısı bu iki kararın toplamına denk geliyor. SCF, 11 hesabın kimliğinin açıklanmadığını ve 21'le örtüşüp örtüşmediğinin belirsiz olduğunu kaydediyor. Hedeflenen KHK hesaplarının il dökümü de veriliyor: Ordu, Kayseri, Rize, Uşak, Gaziantep ve Ankara Çankaya.",
+     "kayitlar": [
+      "2cfb0eacc8",
+      "79de103186"
+     ]
+    }
+   ]
   },
   {
    "id": "t219",
@@ -6359,8 +6477,62 @@
     "0c3e40abfb"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t222",
+   "baslik": "Beş AB üyesinin Ruanda'da 'return hub' kurulmasına ilişkin ortaklık çerçevesi ve 2027'de öngörülen ilk aktarım",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "neden": "Çerçeve, kalma hakkı bulunmayan kişilerin hiç bağları olmayan bir üçüncü ülkeye aktarılmasını öngörüyor; non-refoulement, yargı yetkisinin hangi devlete ait olacağı ve etkili başvuru yolu soruları doğrudan merkezin iade ve iltica dosyalarını ilgilendiriyor.",
+   "acildi": "2026-11-17",
+   "durum": "açık",
+   "son_hareket": "2026-11-17",
+   "kayitlar": [
+    "7396502175",
+    "a6a10df1b3",
+    "a915f7fa88"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t223",
+   "baslik": "Milletvekili Ömer Faruk Gergerlioğlu'nun parlamentodaki 2016 darbe anlatısına ilişkin sözleri nedeniyle Savunma Bakanı'na 150.000 lira tazminata mahkûm edilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Yasama faaliyeti sırasındaki beyanların tazminat yoluyla yaptırıma bağlanması, merkezin siyasetçilere yönelik hakaret/tazminat davaları dosyasıyla doğrudan ilişkili; ayrıca darbe anlatısının sorgulanmasına ilişkin bir sınır çiziyor.",
+   "acildi": "2026-11-17",
+   "durum": "açık",
+   "son_hareket": "2026-11-17",
+   "kayitlar": [
+    "8f05703d38"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t224",
+   "baslik": "Gazeteci Rabia Önver'e Hakkari 2. Ağır Ceza Mahkemesi'nce sosyal medya paylaşımları nedeniyle verilen 18 aylık ertelenmiş hapis cezası",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Haberciliğe ilişkin paylaşımların terör propagandası sayılması ve cezanın ertelenmesi, merkezin md. 10 dosyalarında tekrar eden bir kalıbı sürdürüyor; kesinleşme ve istinaf seyri izlenmeli.",
+   "acildi": "2026-11-17",
+   "durum": "açık",
+   "son_hareket": "2026-11-17",
+   "kayitlar": [
+    "4a6edaf4f9"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t225",
+   "baslik": "AYM'nin 2019'daki askerî operasyonda öldürülen kişiye ilişkin yeni soruşturma kararı ve kararın yerel savcılıkta uygulanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Yaşam hakkının usul boyutundaki ihlal tespitinin ardından yeni soruşturmanın fiilen açılıp açılmadığı, merkezin etkili soruşturma dosyalarında AYM giderimin yeterliliği tartışmasına veri sağlar.",
+   "acildi": "2026-11-17",
+   "durum": "açık",
+   "son_hareket": "2026-11-17",
+   "kayitlar": [
+    "466b725596"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-16T09:02+00:00",
- "acik": 194
+ "guncelleme": "2026-11-17T10:11+00:00",
+ "acik": 195
 }
