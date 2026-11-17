@@ -1327,6 +1327,10 @@
 "checked": "2026-11-16T13:18:22+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:33846&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:33955&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-11-17T10:03:57+00:00",
 "img": ""
@@ -2163,6 +2167,50 @@
 "checked": "2026-11-17T10:03:57+00:00",
 "img": ""
 },
+"https://digitallibrary.un.org/record/4132760": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132761": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132762": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132764": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132765": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132766": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132767": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132769": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132770": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132802": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
+"https://digitallibrary.un.org/record/4132803": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
 "https://echrblog.com/book-discussion-hate-speech-and-the-ecthr/?utm_source=rss&utm_medium=rss&utm_campaign=book-discussion-hate-speech-and-the-ecthr": {
 "checked": "2026-10-22T15:45:10+00:00",
 "img": "https://echrblog.com/wp-content/uploads/2026/10/9781032909240.webp"
@@ -2373,6 +2421,10 @@
 },
 "https://emnbelgium.be/news/five-eu-member-states-join-forces-rwanda-establish-return-hub-migrants": {
 "checked": "2026-11-17T12:47:52+00:00",
+"img": ""
+},
+"https://emnbelgium.be/news/flanders-approves-draft-reform-rules-governing-foreign-au-pairs": {
+"checked": "2026-11-17T19:29:53+00:00",
 "img": ""
 },
 "https://emnbelgium.be/news/frontex-reports-one-third-decrease-irregular-border-crossings-eu": {
@@ -3139,6 +3191,10 @@
 "checked": "2026-11-16T20:45:12+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvc2h1dHRlcnN0b2NrXzI2NTU4OTI5NjcuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
 },
+"https://globalinvestigationsreview.com/article/robert-giuffras-life-in-litigation": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvSFpfMjMxMTAyX0ItR2l1ZmZyYV85MDExLkpQRyIsCiAgICAgICAgICAgICAgICAgICAgICAgICJlZGl0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAicmVzaXplIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIndpZHRoIjogOTQ1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImhlaWdodCI6IDUyNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmaXQiOiAiY292ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInBvc2l0aW9uIjogImNlbnRlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmFja2dyb3VuZCI6IHsgInIiOiAyNTUsICJnIjogMjU1LCAiYiI6IDI1NSwgImFscGhhIjogMSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQ=="
+},
 "https://globalinvestigationsreview.com/article/schaeffler-india-ceo-detained-after-worker-deaths": {
 "checked": "2026-10-21T20:25:13+00:00",
 "img": ""
@@ -3483,6 +3539,10 @@
 "checked": "2026-11-14T08:29:58+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjUtMDcvVVMgQ29uZ3Jlc3MgTHVja3ktcGhvdG9ncmFwaGVyLmpwZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICJlZGl0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAicmVzaXplIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIndpZHRoIjogOTQ1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImhlaWdodCI6IDUyNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmaXQiOiAiY292ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInBvc2l0aW9uIjogImNlbnRlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmFja2dyb3VuZCI6IHsgInIiOiAyNTUsICJnIjogMjU1LCAiYiI6IDI1NSwgImFscGhhIjogMSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQ=="
 },
+"https://globalinvestigationsreview.com/just-sanctions/article/crime-after-crime-us-deals-final-blows-in-huawei-trial": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjQtMDYvSHVhd2VpIG5hbWUgYW5kIGxvZ28gb24gZmxhZ3MuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
+},
 "https://globalinvestigationsreview.com/just-sanctions/article/did-the-binance-monitorships-work-or-fail-experts-say-its-unclear": {
 "checked": "2026-10-22T07:00:40+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjUtMDEvc2h1dHRlcnN0b2NrXzIyNDM1NDg1ODMuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
@@ -3578,6 +3638,10 @@
 "https://globalinvestigationsreview.com/just-sanctions/article/us-lawmakers-seek-closed-door-briefing-nvidia-ceo": {
 "checked": "2026-11-07T08:14:39+00:00",
 "img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjEtMTIvbnZpZGlhLmpwZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICJlZGl0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAicmVzaXplIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIndpZHRoIjogOTQ1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImhlaWdodCI6IDUyNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmaXQiOiAiY292ZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInBvc2l0aW9uIjogImNlbnRlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmFja2dyb3VuZCI6IHsgInIiOiAyNTUsICJnIjogMjU1LCAiYiI6IDI1NSwgImFscGhhIjogMSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQ=="
+},
+"https://globalinvestigationsreview.com/just-sanctions/article/what-we-know-about-the-megaspeed-investigations": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://d2qu5xmcgmzxnb.cloudfront.net/ewogICAgICAgICAgICAgICAgICAgICAgICAiYnVja2V0IjogImZpbGVzLmxici5jbG91ZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJrZXkiOiAicHVibGljLzIwMjYtMTEvc2h1dHRlcnN0b2NrXzQyMzY5MjA1NDEuanBnIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVkaXRzIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICJyZXNpemUiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAid2lkdGgiOiA5NDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTI2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZpdCI6ICJjb3ZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpb24iOiAiY2VudGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogeyAiciI6IDI1NSwgImciOiAyNTUsICJiIjogMjU1LCAiYWxwaGEiOiAxIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9"
 },
 "https://globalinvestigationsreview.com/market-review/market-review-extradition/2026/article/france-challenging-extradition-requests-amid-procedural-and-human-rights-safeguards": {
 "checked": "2026-11-13T10:24:00+00:00",
@@ -4021,6 +4085,10 @@
 },
 "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1oaFZVLVdUaHg3eFA4ZzlEbVJ6bEVyRkNvR19XeDNKQ25ONE1jbExvVl9zS1RVNnYyd0xIUzRvRWp6R09YR2xoOU40ZU43QUJvSHNWTkp6QQ?oc=5": {
 "checked": "2026-10-09T08:24:10+00:00",
+"img": ""
+},
+"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5udHVaQ1V3MlQ0TjBFYU5hNFBRcWNvSGp0eWMwWFB2Tjd4dko3Mk5VeXNFWHB5cWtBajlrU1Ftb05CaW40YTBlaEhvVUZiWlczaTlSQjE1cw?oc=5": {
+"checked": "2026-11-17T19:29:53+00:00",
 "img": ""
 },
 "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SOHV0RGNtY0YzOWdpUzdNNTkyM1hySnYwb2ZEa1Nvb1ZrakFDSXItcGF1R19BYzN2ajVEWXRQZnRNNE5QY1NyODExODFiZUd2UlF2Z2ZR?oc=5": {
@@ -5139,6 +5207,10 @@
 "checked": "2026-11-17T11:24:07+00:00",
 "img": "https://i0.wp.com/opiniojuris.org/wp-content/uploads/2021-06-08T120728Z_1574954301_RC2CWN9TGC11_RTRMADP_3_BOSNIA-WARCRIMES-MLADIC-REACTIONS.jpeg?fit=770%2C513&ssl=1"
 },
+"https://opiniojuris.org/2026/11/17/beyond-the-binary-of-war-and-peace-why-the-u-s-israel-and-iran-must-return-to-legal-intermediacy/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
 "https://picum.org/blog/belgium-set-to-unleash-home-raids-against-undocumented-migrants/": {
 "checked": "2026-10-30T11:08:17+00:00",
 "img": ""
@@ -5783,6 +5855,10 @@
 "checked": "2026-11-13T18:19:03+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/11/KYCP-adds-API4ALL-to-deepen-corporate-due-diligence.jpg"
 },
+"https://regtechanalyst.com/kycp-says-its-clm-engine-is-built-for-the-single-rulebook/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://regtechanalyst.com/wp-content/uploads/2026/11/KYCP-says-its-CLM-engine-is-built-for-the-single-rulebook.jpg"
+},
 "https://regtechanalyst.com/kycp-sharpens-client-onboarding-with-cot-2-1-7-update/": {
 "checked": "2026-11-12T18:39:16+00:00",
 "img": "https://regtechanalyst.com/wp-content/uploads/2026/11/KYCPs-COT-2.1.7-targets-friction-in-client-onboarding.jpg"
@@ -6279,6 +6355,10 @@
 "checked": "2026-11-16T10:28:05+00:00",
 "img": ""
 },
+"https://rli.blogs.sas.ac.uk/2026/11/17/uncertainty-everywhere-african-migrants-under-germanys-migration-regime/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
+},
 "https://site.ecba.org/conferences/upcoming-conferences-and-webinars/join-us-friday-27-november-for-the-upcoming-eppo-webinar/": {
 "checked": "2026-11-16T20:45:12+00:00",
 "img": ""
@@ -6538,6 +6618,10 @@
 "https://solidaritywithothers.com/turkeys-rtuk-fined-a-channel-for-suggesting-a-jailed-journalist-was-jailed-for-journalism-saying-there-was-insufficient-evidence/?utm_source=rss&utm_medium=rss&utm_campaign=turkeys-rtuk-fined-a-channel-for-suggesting-a-jailed-journalist-was-jailed-for-journalism-saying-there-was-insufficient-evidence": {
 "checked": "2026-11-02T20:35:48+00:00",
 "img": "https://solidaritywithothers.com/wp-content/uploads/2026/11/featured-image-3.jpg"
+},
+"https://solidaritywithothers.com/turkish-authorities-appoint-state-trustee-to-sozcu-tv-and-news-website/?utm_source=rss&utm_medium=rss&utm_campaign=turkish-authorities-appoint-state-trustee-to-sozcu-tv-and-news-website": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://solidaritywithothers.com/wp-content/uploads/2026/11/featured-image-22.jpg"
 },
 "https://solidaritywithothers.com/two-kurdish-journalists-convicted-for-reporting-a-torture-allegation-the-officer-they-named-was-never-prosecuted/?utm_source=rss&utm_medium=rss&utm_campaign=two-kurdish-journalists-convicted-for-reporting-a-torture-allegation-the-officer-they-named-was-never-prosecuted": {
 "checked": "2026-10-09T17:15:33+00:00",
@@ -6963,6 +7047,10 @@
 "checked": "2026-11-16T20:45:12+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2024/03/X.jpg"
 },
+"https://turkishminute.com/2026/11/17/ecthr-orders-release-of-jailed-turkish-lawmaker-says-imprisonment-was-aimed-at-silencing-him/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2023/12/can-atalay-1.jpg"
+},
 "https://verfassungsblog.de/a-mere-academic-exercise/": {
 "checked": "2026-10-15T15:25:13+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -7379,6 +7467,10 @@
 "checked": "2026-11-04T08:31:44+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/the-great-norwegian-reset/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/the-king-is-dead-long-live-the-king/": {
 "checked": "2026-10-23T15:33:57+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -7473,6 +7565,10 @@
 },
 "https://verfassungsblog.de/wider-always-meant-unequal/": {
 "checked": "2026-10-12T14:17:14+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/will-kosovo-compromise-its-international-obligations/": {
+"checked": "2026-11-17T19:29:53+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/wissenschaftsfreiheit-hochschulen-offentlicher-dienst/": {
@@ -8218,6 +8314,10 @@
 "https://www.amnesty.org/en/latest/news/2026/11/israel-opt-israel-must-immediately-release-palestinian-land-defender/": {
 "checked": "2026-11-05T13:54:49+00:00",
 "img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/Copy-of-Untitled-1-scaled.jpg"
+},
+"https://www.amnesty.org/en/latest/news/2026/11/italy-a-bleak-day-for-freedom-of-expression-as-parliament-votes-through-repressive-definition-of-antisemitism-into-law/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": "https://www.amnesty.org/en/wp-content/uploads/2026/11/GettyImages-2293813961.jpg"
 },
 "https://www.amnesty.org/en/latest/news/2026/11/mali-mountaga-son/": {
 "checked": "2026-11-03T08:56:59+00:00",
@@ -9849,6 +9949,10 @@
 },
 "https://www.icnl.org/post/analysis/safeguarding-civic-space-at-multilateral-conferences-a-comparison-of-climate-cop-host-country-agreements": {
 "checked": "2026-11-06T17:45:59+00:00",
+"img": ""
+},
+"https://www.icnl.org/post/news/comparative-analysis-draft-ngo-legislation-and-amendments-in-kazakhstan": {
+"checked": "2026-11-17T19:29:53+00:00",
 "img": ""
 },
 "https://www.icnl.org/post/news/cop31-protecting-environmental-human-rights-defenders-and-advancing-climate-justice": {
@@ -12486,6 +12590,10 @@
 "https://www.turkishminute.com/2026/11/16/turkey-orders-blocks-on-21-x-accounts-over-alleged-gulen-links/": {
 "checked": "2026-11-16T20:45:12+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2024/03/X.jpg"
+},
+"https://www.turkishminute.com/2026/11/17/ecthr-orders-release-of-jailed-turkish-lawmaker-says-imprisonment-was-aimed-at-silencing-him/": {
+"checked": "2026-11-17T19:29:53+00:00",
+"img": ""
 },
 "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/ali-bagherkashi-0": {
 "checked": "2026-10-10T08:01:26+00:00",
