@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-17",
- "olusturma": "2026-11-17T11:24+00:00",
+ "olusturma": "2026-11-17T12:48+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-17:Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda Ruanda",
@@ -36,12 +36,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-17:12",
+   "id": "saglik:2026-11-17:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye, MENAFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
