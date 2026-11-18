@@ -831,6 +831,10 @@
 "checked": "2026-11-14T08:29:58+00:00",
 "img": "https://cpj.org/wp-content/uploads/2020/12/afp_us_12-08-2020.jpg?resize=1200,785&strip=all&quality=80"
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CRVB:2026:1495&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-18T13:37:48+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHAMS:2026:2894&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-12T12:40:07+00:00",
 "img": ""
@@ -7459,6 +7463,10 @@
 "checked": "2026-11-04T10:15:25+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
+"https://verfassungsblog.de/hybride-kriegsfuhrung-im-supermarkt/": {
+"checked": "2026-11-18T13:37:48+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
 "https://verfassungsblog.de/hybride-kriegsfuhrung-subkutane-angriffe-sicherheitsrecht/": {
 "checked": "2026-11-11T08:46:40+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
@@ -8167,6 +8175,10 @@
 "checked": "2026-11-03T18:10:56+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/03/thumbs_b_c_37e921ce944ddd0104cae32536e63321.jpg"
 },
+"https://www.aa.com.tr/tr/spor/fenerbahce-kulubunden-melli-ve-keyin-saglik-durumuna-iliskin-aciklama/4129344": {
+"checked": "2026-11-18T13:37:48+00:00",
+"img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/18/thumbs_b_c_cf493da9655a0cf455b8d6da6e01d9d7.jpg"
+},
 "https://www.aa.com.tr/tr/spor/fenerbahce-takim-otobusune-saldiri-iddianamesi-kabul-edildi-/4119333": {
 "checked": "2026-11-10T18:23:27+00:00",
 "img": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/10/thumbs_b_c_9b3ddca136bef21fce4a81a0235817c9.jpg"
@@ -8667,6 +8679,10 @@
 "checked": "2026-11-02T12:00:17+00:00",
 "img": ""
 },
+"https://www.ccbe.eu/remembering-the-legacy-of-the-velvet-revolution/": {
+"checked": "2026-11-18T13:37:48+00:00",
+"img": ""
+},
 "https://www.ccbe.eu/supporting-international-justice-and-the-essential-role-of-the-international-criminal-court/": {
 "checked": "2026-11-03T18:10:56+00:00",
 "img": ""
@@ -8879,8 +8895,16 @@
 "checked": "2026-11-17T11:24:07+00:00",
 "img": ""
 },
+"https://www.edpb.europa.eu/news/italian-dpa-fines-a-company-eur-25-500-over-employee-access-rights-and-corporate-email_en": {
+"checked": "2026-11-18T13:37:48+00:00",
+"img": ""
+},
 "https://www.edpb.europa.eu/news/italian-dpa-fines-bbva-eur-5-508-000-for-failing-to-respect-a-customers-objection-to-direct_en": {
 "checked": "2026-10-09T08:24:10+00:00",
+"img": ""
+},
+"https://www.edpb.europa.eu/news/italian-dpa-fines-business-school-eur-8-000-for-unlawful-telemarketing-and-failure-to-handle_en": {
+"checked": "2026-11-18T13:37:48+00:00",
 "img": ""
 },
 "https://www.edpb.europa.eu/news/italian-dpa-fines-clothing-company-for-failing-to-handle-erasure-request_en": {
@@ -8895,8 +8919,16 @@
 "checked": "2026-10-09T08:24:10+00:00",
 "img": ""
 },
+"https://www.edpb.europa.eu/news/italian-dpa-fines-meta-eur-805-million-for-unlawful-access-to-facebook-users-photo-galleries_en": {
+"checked": "2026-11-18T13:37:48+00:00",
+"img": ""
+},
 "https://www.edpb.europa.eu/news/italian-dpa-fines-poste-italiane-and-deutsche-bank-a-combined-eur-81-000-for-lack-of_en": {
 "checked": "2026-11-10T13:12:07+00:00",
+"img": ""
+},
+"https://www.edpb.europa.eu/news/italian-dpa-fines-radiology-centre-and-it-provider-a-combined-eur-28-000-for-exposing-patient_en": {
+"checked": "2026-11-18T13:37:48+00:00",
 "img": ""
 },
 "https://www.edpb.europa.eu/news/italian-dpa-fines-security-company-eur-39-000-for-violations-concerning-employees-data_en": {

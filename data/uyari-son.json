@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-18",
- "olusturma": "2026-11-18T12:42+00:00",
+ "olusturma": "2026-11-18T13:38+00:00",
  "uyarilar": [
   {
    "id": "karar:001-253534",
@@ -72,12 +72,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-18:28",
+   "id": "saglik:2026-11-18:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "28 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Adalet Bakanlığı İnsan Hakları Dairesi, OHCHR Jurisprudence Database, INTERPOL Notices, FIDH - Türkiye, Resmî Gazete, Google Scholar…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Norway Landinfo, FIDH - Türkiye, Opinio Juris, ENNHRI, European Center for Not-for-Profit Law - ECNL, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
