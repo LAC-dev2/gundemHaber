@@ -1,47 +1,83 @@
 {
- "gun": "2026-11-17",
- "olusturma": "2026-11-17T19:31+00:00",
+ "gun": "2026-11-18",
+ "olusturma": "2026-11-18T09:47+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-17:Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda Ruanda",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "Avusturya, Danimarka, Almanya, Yunanistan ve Hollanda Ruanda'da 'return hub' kurma çerçevesi açıkladı",
-   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
-   "not": "Duyuru, AB içinde kalma hakkı bulunmayan kişilerin hiç bağları olmayan bir üçüncü ülkeye aktarılmasını öngörüyor. Amnesty, geri göndermeme ilkesi, işkence ve kötü muamele yasağı ile hangi devletin yargı yetkisinin devrede olacağı ve etkili yargısal başvuru yolunun nasıl işleyeceği bakımından risk olduğunu belirtiyor. ECRE çerçeveyi dışsallaştırmada tırmanma olarak niteliyor. Hollanda ve Almanya'nın taraf olması, merkezin bu iki ülkedeki Türkiye kaynaklı iltica dosyalarıyla doğrudan temas kuruyor.",
-   "kayitlar": [
-    "7396502175",
-    "a6a10df1b3",
-    "a915f7fa88"
-   ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+   "id": "karar:001-253534",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Milletvekili seçildikten sonra tutukluluğu süren avukat ve insan hakları savunucusu Can Atalay'ın durumu",
+   "alan": "md. 5, 5-1, 5-1-a, 5-4, P1-3, 18, 46, 46-2, 41",
+   "not": "HUDOC sonuç alanına göre Mahkeme md. 5/1 (a bendi dahil) ve md. 5/4 bakımından ihlal bulmuş; 1 No'lu Protokol md. 3 yönünden de ihlal tespiti kaydedilmiş. Karar özeti, başvurucunun milletvekili seçilmesinden ve lehine iki Anayasa Mahkemesi kararı bulunmasından sonra Yargıtay'ın tahliyeyi reddetmesiyle süren tutukluluğun 'hukuka uygun' ve 'kanunla öngörülen usule uygun' olmadığını; AYM kararlarının uygulanmaması nedeniyle başvurucuya md. 5/4 anlamında bir denetim sağlanmadığını belirtiyor. Mahkeme, bireysel başvurunun bu olayda md. 5/4 anlamında denetim sağlamadığı yönündeki tespitini davanın kendi koşullarıyla sınırlı tuttuğunu açıkça yazıyor. Verilen metinde ayrık görüş, çoğunluğun md. 18 ihlali bulduğunu ve md. 46 altında tespitler yaptığını, bir yargıcın ise md. 18 ve md. 46 bakımından çoğunluğa katılmadığını gösteriyor (karar § 158'e atıf).",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-11-17:toplu:15",
+   "id": "karar:001-253529",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Harun Bulut'un ilk tutukluluğunda makul şüphe bulunmaması",
+   "alan": "md. 5, 5-1, 5-1-c",
+   "not": "İkinci Bölüm Komitesi, oybirliğiyle, başvurucunun ilk tutukluluğu sırasında suç işlediğine dair makul şüphe bulunmaması nedeniyle md. 5/1 ihlali buldu. Kalan md. 5 şikâyetlerini Turan ve diğerleri (§ 98) gerekçesiyle incelemedi. Maddi tazminat talepleri reddedildi; manevi tazminat ile masrafları kapsayan 5.000 avro götürü tutara hükmedildi, ödeme süresi üç ay.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-253530",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Aydın Akgül'ün ilk tutukluluğunun 2802 sayılı Kanun güvenceleri dışında bırakılarak hukuka aykırı biçimde uygulanması",
+   "alan": "md. 5, 5-1",
+   "not": "Mahkeme oybirliğiyle md. 5/1 ihlali buldu: tutukluluk, 2802 sayılı Kanun'un sağladığı güvencelerden yoksun bırakacak biçimde uygulandığından 'kanunla öngörülen usule uygun' değildi. Hükümetin md. 15 derogasyonuna ilişkin talebi, Baş ve Turan ve diğerleri kararlarına atıfla reddedildi; tedbirin durumun gerektirdiği ölçüde kesin olarak zorunlu sayılamayacağı belirtildi. Başvurucu süresinde adil tazmin talebi sunmadığından herhangi bir tutara hükmedilmedi.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-253531",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Bakırcı ve diğerleri: üç başvuruda ilk tutuklulukta makul şüphe bulunmaması",
+   "alan": "md. 5, 5-1, 5-1-c",
+   "not": "Üç başvuru (15133/20, 49485/20, 9797/21) birleştirildi; Mahkeme oybirliğiyle md. 5/1 ihlali buldu. Kalan md. 5 şikâyetleri Turan ve diğerleri (§ 98) uyarınca incelenmedi. Maddi tazminat talepleri reddedildi, her bir başvurucuya manevi tazminat ve masrafları kapsayan 5.000 avro götürü tutara üç ay içinde ödenmek üzere hükmedildi. Ekli tabloda Recep Bakırcı (Samsun), Mehmet Öncü ('not a lawyer' notuyla), Nalan Can (Denizli) ve Mecit Özgül (İzmit) yer alıyor.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "karar:001-253532",
+   "tur": "yeni karar metni",
+   "duzey": "yüksek",
+   "baslik": "Cezaevindeki Ali Efendi Peksak'a gönderilen mektuba el konulması ve denetlenmesi",
+   "alan": "md. 8, 8-1",
+   "not": "Mahkeme oybirliğiyle, başvurucuya gönderilen ilk mektup bakımından md. 8 ihlali buldu; müdahalenin kötüye kullanıma karşı gerekli güvencelerle çevrili olmadığı ve 'demokratik toplumda gerekli' sayılamayacağı sonucuna vardı (Eylem Kaya, §§ 47-48). İkinci mektuba ilişkin şikâyet kabul edilemez bulundu. Manevi tazminat bakımından ihlal tespitinin kendisi yeterli adil tazmin sayıldı; masraflar için 250 avroya hükmedildi, 50.000 avroluk talep reddedildi.",
+   "kayitlar": [],
+   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
+  },
+  {
+   "id": "takip:2026-11-18:toplu:8",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "15 takip dosyasında hareket var",
+   "baslik": "8 takip dosyasında hareket var",
    "alan": "",
-   "not": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi; Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul ad; Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X he; Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' ; 5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesap; 'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uyg; HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestoların; COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları; Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülk; Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belge; Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab",
+   "not": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve; Kalp krizi geçiren 56 yaşındaki Kürt mahpusun infazının ertelenmesi ta; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürütt; İzmir Başsavcılığı koordinasyonunda 14 ilde 'kadınlara yönelik eğitim ",
    "kayitlar": [
-    "e881ffd884",
-    "e881ffd884",
-    "2cfb0eacc8",
-    "79de103186",
-    "4c95d40660",
-    "4c95d40660",
-    "4c95d40660",
-    "945155e57e"
+    "29d7352daa",
+    "001-253534",
+    "001-253529",
+    "001-253530",
+    "001-253531",
+    "001-253532",
+    "2226e96c97",
+    "8b7398e007"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-17:13",
+   "id": "saglik:2026-11-18:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
    "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Opinio Juris, ENNHRI, European Center for Not-for-Profit Law - ECNL, Alomaliye, MENAFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
