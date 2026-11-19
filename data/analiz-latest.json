@@ -2,11 +2,9 @@
  "sureklilik": [
   {
    "id": "t1",
-   "durum": "hareket var",
-   "not": "Amnesty International, 38 kuruluştan oluşan İnsan Hakları Savunucuları Dayanışma Ağı adına SPoD'un dört kurucusu hakkındaki davanın 18 Kasım'da başlayacak duruşması öncesinde ortak açıklama yayımladı. Açıklamaya göre 12 Eylül 2026'da başlatılan 'Ailem Güvende' operasyonundan bu yana SPoD, Hevi LGBTİ+ ve Lambdaistanbul hakkında en az üç dosyada fesih talebi bulunuyor; İstanbul ve Ankara'da kurucu ve yöneticiler hakkında iddianameler düzenlendi.",
-   "kayitlar": [
-    "29d7352daa"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t2",
@@ -16,23 +14,15 @@
   },
   {
    "id": "t3",
-   "durum": "hareket var",
-   "not": "17 Kasım'da Türkiye'ye karşı beş karar yayımlandı: Atalay (11503/24), Bulut (24161/18), Akgül (46378/18), Bakırcı ve diğerleri (15133/20, 49485/20, 9797/21) ve Peksak (52433/21). Dört karar Turan and Others çizgisinde md. 5 ihlali, biri md. 8 ihlali tespit ediyor.",
-   "kayitlar": [
-    "001-253534",
-    "001-253529",
-    "001-253530",
-    "001-253531",
-    "001-253532"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t4",
-   "durum": "hareket var",
-   "not": "SCF, 2016 sonrası ihraçların etkilediği 24 yaşındaki bir kişiyle (Meral) yapılan röportajı yayımladı; kayıt anlatı düzeyinde, yeni istatistik içermiyor.",
-   "kayitlar": [
-    "2226e96c97"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t6",
@@ -109,16 +99,18 @@
   {
    "id": "t25",
    "durum": "hareket var",
-   "not": "HRW, BM Genel Kurulu Beşinci Komitesi'ne sunulan ACABQ raporunun Afganistan Bağımsız Soruşturma Mekanizması'nın 2027 için öngörülen 17 kadrosundan 7'sinin kesilmesini önerdiğini aktardı; geçen yılki kesintilerle birlikte kadronun üçte birden fazlasının azalacağı belirtiliyor.",
+   "not": "BM Genel Kurulu 81. dönem Üçüncü Komite akışında kadın ve kız çocuklarına yönelik şiddete ilişkin A/C.3/81/L.16/Rev.1 sayılı taslak karara değişiklik önergesi kaydı düştü; kayıtta yalnızca başlık düzeyinde bilgi var.",
    "kayitlar": [
-    "8b7398e007"
+    "bb36c0964e"
    ]
   },
   {
    "id": "t30",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "TMSF, Boydak ailesinden Gülen bağlantısı iddiasıyla el konulan Form Sünger ve Yatak Sanayi Ticaret AŞ'nin yüzde 100 hissesini üçüncü kez ihaleye çıkardı; muhammen bedel 5,25 milyar lira, teminat 270 milyon lira, ihale 5 Ocak 2027. Önceki iki deneme (Ekim 2024'te 3,15 milyar lira, Şubat 2026'da 3,86 milyar lira) alıcı bulamamıştı.",
+   "kayitlar": [
+    "91a49ea710"
+   ]
   },
   {
    "id": "t31",
@@ -134,9 +126,12 @@
   },
   {
    "id": "t33",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Cumhurbaşkanlığı İletişim Başkanı Duran, son üç ayda Gülen bağlantısı iddiasıyla 1.072 sosyal medya hesabının engellendiğini ve engellerin Ankara Başsavcılığı ile koordineli yürütüldüğünü açıkladı. Ayrıca 18 Kasım'da Ankara 2. Sulh Ceza Hâkimliği, Adalet Bakanı Gürlek'in Ahmet Şık hakkındaki suç duyurusu ve tazminat davasına ilişkin haber ve paylaşımlara 5651 md. 8/A kapsamında engel getirdi.",
+   "kayitlar": [
+    "9bf6ff538f",
+    "4b359ffc4f"
+   ]
   },
   {
    "id": "t34",
@@ -187,12 +182,6 @@
    "kayitlar": []
   },
   {
-   "id": "t52",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t53",
    "durum": "hareket yok",
    "not": "",
@@ -235,25 +224,7 @@
    "kayitlar": []
   },
   {
-   "id": "t67",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t68",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t69",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t70",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -458,9 +429,11 @@
   },
   {
    "id": "t104",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "BM Çocuk Hakları Komitesi'nin bireysel başvuru usulüne ilişkin İhtiyari Protokol kapsamında 146/2021 sayılı bildirimde görüş kabul ettiği kaydı düştü; kayıtta yalnızca başlık var, konu ve taraf devlet belirlenemedi.",
+   "kayitlar": [
+    "9368b924aa"
+   ]
   },
   {
    "id": "t105",
@@ -590,9 +563,11 @@
   },
   {
    "id": "t127",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Ankara 2. Sulh Ceza Hâkimliği'nin 18 Kasım tarihli kararıyla, Adalet Bakanı Akın Gürlek hakkında TİP milletvekili Ahmet Şık'ın öne sürdüğü iddialar ile Gürlek'in Şık hakkındaki suç duyurusu ve tazminat davasına ilişkin haberlere ve sosyal medya paylaşımlarına 5651 md. 8/A kapsamında erişim engeli getirildi. Bakanın mal varlığı haberlerine ilişkin Bakırköy kararından sonra aynı konuda ikinci bir hâkimlik devrede.",
+   "kayitlar": [
+    "4b359ffc4f"
+   ]
   },
   {
    "id": "t128",
@@ -794,11 +769,9 @@
   },
   {
    "id": "t161",
-   "durum": "hareket var",
-   "not": "Ağır hasta mahpusların aileleri, İHD ve ÖHD temsilcileri ile DEM Parti milletvekilleri 17 Kasım'da Adalet Bakanlığı önünde günlük protestoya başladı; tedavi ve tahliye talep ediliyor. Kayıt, 7 Kasım'da hastanede ölen Tuncer Sağlam ile Newroz Bozkurt ve Evin Zapsu dosyalarına atıf yapıyor.",
-   "kayitlar": [
-    "61569f805d"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t162",
@@ -844,9 +817,11 @@
   },
   {
    "id": "t169",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Resmî Gazete akışında 19 Kasım tarihli yeni bir 'Yargı Harçları' başlıklı kayıt daha düştü; kayıtta içerik yok, düzenlemenin kapsamı yine belirlenemiyor.",
+   "kayitlar": [
+    "673dd445f6"
+   ]
   },
   {
    "id": "t170",
@@ -875,9 +850,9 @@
   {
    "id": "t174",
    "durum": "hareket var",
-   "not": "SCF, Adalet Bakanı Gürlek'in Temmuz 2026'da açıkladığı rakamları yineledi: 127.000'den fazla mahkûmiyet, 2016'dan bu yana 720.338 kişi hakkında işlem, 10.485 kişi cezaevinde, 83.404 dosya derdest. Yeni veri yok, aynı kümülatif rakamlar tekrarlanıyor.",
+   "not": "Gülen soruşturmalarına ilişkin resmî kümülatif veri seti bu kez Cumhurbaşkanlığı İletişim Başkanlığı'ndan geldi: son üç ayda 1.072 hesabın engellendiği ve hesap sahipleri hakkında inceleme başlatıldığı açıklandı. Bu sayı Adalet Bakanlığı'nın daha önce duyurduğu dosya ve mahkûmiyet istatistikleriyle eşleştirilebilir değil.",
    "kayitlar": [
-    "214b309543"
+    "9bf6ff538f"
    ]
   },
   {
@@ -894,11 +869,9 @@
   },
   {
    "id": "t177",
-   "durum": "hareket var",
-   "not": "SCF, 13 Kasım'da MİT ve Ankara Emniyeti terörle mücadele birimince, Ankara Başsavcılığı'nın soruşturması kapsamında, Gülen hareketiyle bağlantılı kişilere mali yardım isnadıyla altı kişinin gözaltına alındığını aktardı. Kaynak TRT Haber'e dayanıyor; isnadın diğer unsurları belirtilmemiş.",
-   "kayitlar": [
-    "214b309543"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t178",
@@ -938,9 +911,11 @@
   },
   {
    "id": "t184",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Rechtbank Den Haag'ın 18 Kasım 2026 tarihli NL26.23418 sayılı kararı (ECLI:NL:RBDHA:2026:34211) yine süresinde karar vermeme (beroep niet tijdig) üzerine; bu kez ikamet izninin geri alınmasına ilişkin dosyada idareye iki haftalık yeni karar süresi verildi ve savunma dilekçesinden bu yana görünür bir işlem yapılmadığı tespit edildi.",
+   "kayitlar": [
+    "64d3054268"
+   ]
   },
   {
    "id": "t185",
@@ -1076,9 +1051,11 @@
   },
   {
    "id": "t207",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "EDPB, AB yeterlilik kararı bulunan ülke ve kuruluşların veri koruma otoriteleriyle yaptığı toplantıda ilerlemeyi değerlendirdi ve 2027 önceliklerini belirledi; kayıtta yalnızca başlık düzeyinde bilgi var.",
+   "kayitlar": [
+    "cbff67bb56"
+   ]
   },
   {
    "id": "t208",
@@ -1106,11 +1083,9 @@
   },
   {
    "id": "t212",
-   "durum": "hareket var",
-   "not": "SCF, İzmir Başsavcılığı koordinasyonundaki 14 ildeki operasyonda gözaltına alınanlardan 11'inin tutuklandığını aktardı. Kayıt gözaltı sayısını 25 veriyor; merkezin 14 Kasım tarihli takip kaydında bu sayı 29 olarak geçiyordu. Tutuklananlara kiminle yaşadıkları, kira ve faturaları kimin ödediği, kira sözleşmesinin kimin adına olduğu soruldu; avukata erişimin 24 saat kısıtlandığı bildiriliyor.",
-   "kayitlar": [
-    "214b309543"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t213",
@@ -1144,9 +1119,11 @@
   },
   {
    "id": "t218",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Duran'ın açıklaması 12 Kasım tarihli kararı 21 hesap olarak teyit ediyor, ancak bu 21 hesabın üç aylık 1.072'lik toplamın içinde olup olmadığı açıklanmadı. Hesapların kimliğine ilişkin yalnızca 'KHK ile ihraç edilen kamu görevlilerine ait sayfalar' ifadesi var.",
+   "kayitlar": [
+    "9bf6ff538f"
+   ]
   },
   {
    "id": "t219",
@@ -1189,22 +1166,19 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
-  }
- ],
- "yeni_takip": [
+  },
   {
-   "baslik": "Şerafettin Can Atalay v. Türkiye (11503/24) kararının icrası: tahliye, md. 46 tedbirleri ve AYM kararlarının uygulanmasına ilişkin genel tedbir",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Karar md. 18 ve md. 46 bulgusu içeriyor; AYM kararlarının icra edilmemesi sorununun genel tedbire bağlanıp bağlanmayacağı Bakanlar Komitesi denetiminde izlenecek. Haber kaydı 32.500 avro tazminat ve derhal tahliye talimatı bildiriyor; bu unsurların karar metninden doğrulanması gerekiyor.",
+   "id": "t226",
+   "durum": "hareket var",
+   "not": "Kararın HUDOC metni elimize geçti: md. 5/1 ve 5/1(a) (seçilmesine ve AYM kararlarına rağmen tutukluluğun sürmesi), md. 5/4 (AYM kararlarının uygulanmamasının denetimi anlamsız kılması) ve P1-3 ihlalleri; md. 18 ihlali çoğunluk görüşüyle, karşı oy yazan yargıç md. 18 ve md. 46 bulgularına katılmadığını belirtiyor. Hükmedilen tutar, verilen metin parçasında yer almıyor.",
    "kayitlar": [
-    "001-253534",
-    "b86b369925"
+    "001-253534"
    ]
   },
   {
-   "baslik": "17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bakırcı ve diğerleri (md. 5) ile Peksak (md. 8) ve üç aylık ödeme süreleri",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden": "Dört karar da Turan and Others/Baş çizgisini sürdürüyor ve 5.000 avro götürü tazminat ile 250 avro masraf hükümleri üç aylık ödeme süresine bağlanıyor; md. 5 gruplarındaki yerleri ve ödeme takvimi izlenmeli.",
+   "id": "t227",
+   "durum": "hareket var",
+   "not": "Dört kararın metni doğrulandı: Bulut (24161/18) ve Bakırcı ve diğerleri (15133/20, 49485/20, 9797/21) md. 5/1(c) makul şüphe yokluğundan ihlal, başvurucu başına 5.000 avro toplu ödeme, üç ay içinde; Akgül (46378/18) md. 5/1 hukuka aykırılık ihlali ama süresinde adil tazmin talebi sunulmadığı için ödeme yok; Peksak (52433/21) md. 8 ihlali, manevi tazminat yerine ihlal tespiti yeterli görülmüş, yalnızca 250 avro masraf.",
    "kayitlar": [
     "001-253529",
     "001-253530",
@@ -1213,26 +1187,103 @@
    ]
   },
   {
-   "baslik": "Ağır hasta mahpuslar için Adalet Bakanlığı önünde başlatılan günlük protesto ve Tuncer Sağlam'ın 7 Kasım'daki ölümü",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
-   "neden": "Protesto, tek tek dosyaların (Newroz Bozkurt, Evin Zapsu) ötesinde infazın ertelenmesi ve tedaviye erişim pratiğine ilişkin sürekli bir izleme noktası oluşturuyor; polis müdahale girişimi de kaydedilmiş.",
+   "id": "t228",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t229",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  }
+ ],
+ "yeni_takip": [
+  {
+   "baslik": "17 Kasım 2026 sabahı İzmir merkezli operasyonlarda gözaltına alınan avukatların (Veysi Çetin ve diğerleri) akıbeti",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "neden": "Lawyers for Lawyers ve imzacı kuruluşlar gözaltıları kınayıp serbest bırakılma çağrısı yaptı; mesleki faaliyet nedeniyle avukat gözaltısı merkezin avukat hakları dosyalarıyla doğrudan bağlantılı. Gözaltıların isnadı ve sevk sonuçları kayıtlarda yok.",
    "kayitlar": [
-    "61569f805d"
+    "4117b4c935"
    ]
   },
   {
-   "baslik": "Raad van State'in 10 Kasım 2026 tarihli BRS.26.005847 sayılı kararı: iltica başvurusunun incelenmeye alınmaması kararına karşı başvuru",
-   "alan": "İade, adli yardım ve iltica",
-   "neden": "Hollanda yüksek idari yargısının 'niet in behandeling genomen' kararlarına ilişkin denetim ölçütü, merkezin izlediği Türkiye kaynaklı dosyaların usul seyrini etkileyebilir; kayıtta şimdilik yalnızca başlık ve giriş paragrafı var.",
+   "baslik": "TMSF'nin Boydak ailesinden el konulan Form Sünger'i üçüncü kez ihaleye çıkarması ve 5 Ocak 2027 ihalesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "El konulan şirketlerin satışa çıkarılıp alıcı bulamaması, kayyım/el koyma rejiminin mali sonuçlarını ve geri dönüşsüzlüğünü gösteren somut bir veri serisi sunuyor. Üç ihalede muhammen bedelin seyri (3,15 → 3,86 → 5,25 milyar lira) izlenebilir.",
    "kayitlar": [
-    "61345534b0"
+    "91a49ea710"
+   ]
+  },
+  {
+   "baslik": "Cumhurbaşkanlığı İletişim Başkanlığı'nın 'üç ayda 1.072 hesap' sayısı ile İFÖD'ün 2.137 hesap sayımı arasındaki fark",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Resmî kaynak ile izleme kuruluşunun sayıları farklı dönem ve kapsamlara ait; engelleme hacminin doğrulanabilir bir tabana oturması için iki serinin ayrı ayrı izlenmesi gerekiyor.",
+   "kayitlar": [
+    "9bf6ff538f",
+    "4c95d40660"
+   ]
+  },
+  {
+   "baslik": "19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un kapsamı",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Kayıt yalnızca başlık düzeyinde; son haftalarda yayımlanan 7595, 7596 ve 7597 sayılı kanunlar merkezin dosyalarıyla kesiştiği için bu metnin de içeriğinin belirlenmesi gerekiyor.",
+   "kayitlar": [
+    "116facc78c"
    ]
   }
  ],
  "birincil_notlar": [
   {
+   "itemid": "001-253529",
+   "baslik": "Bulut v. Türkiye: ilk tutuklamada makul şüphe bulunmaması",
+   "maddeler": [
+    "5",
+    "5-1",
+    "5-1-c"
+   ],
+   "ne_dedi": "Mahkeme, başvurucunun ilk tutukluluğu sırasında suç işlediğine dair makul şüphe bulunmaması nedeniyle md. 5/1 ihlali buldu ve oybirliğiyle karar verdi. Md. 5 altındaki kalan şikâyetleri Turan ve diğerleri (§ 98) gerekçesiyle incelemedi. Başvurucunun 144.000 avro manevi, 44.465 avro maddi tazminat ve 2.000 avro masraf talebine karşılık, maddi tazminat talepleri reddedildi ve manevi tazminat ile masrafları kapsayan 5.000 avroluk toplu ödemeye hükmedildi; ödeme süresi üç ay.",
+   "merkez_icin": "Turan ve diğerleri çizgisinin sürdüğünü ve toplu 5.000 avroluk standardın korunduğunu gösteriyor; Bakanlar Komitesi'nin md. 5 grup denetimindeki dosyalara eklenecek.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-253530",
+   "baslik": "Akgül v. Türkiye: 2802 sayılı Kanun güvencelerinden yoksun tutukluluk",
+   "maddeler": [
+    "5",
+    "5-1"
+   ],
+   "ne_dedi": "Mahkeme, başvurucunun ilk tutukluluğunun kanunda öngörülen usule uygun gerçekleşmediğini saptayarak md. 5/1 ihlali buldu; Baş ve Turan ve diğerleri içtihadına dayandı. Hükümetin md. 15 derogasyonu talebini, tedbirin durumun gerektirdiği ölçüde kesinlikle zorunlu sayılamayacağı gerekçesiyle kabul etmedi. Başvurucu süresi içinde adil tazmin talebi sunmadığından herhangi bir tutara hükmedilmedi.",
+   "merkez_icin": "Adil tazmin talebinin süresinde sunulmaması halinde ihlal tespitine rağmen ödeme yapılmadığını gösteren somut örnek; icra aşamasında giderim yalnızca bireysel/genel tedbirlere kalıyor.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-253531",
+   "baslik": "Bakırcı ve diğerleri v. Türkiye: üç başvuruda makul şüphe yokluğu",
+   "maddeler": [
+    "5",
+    "5-1",
+    "5-1-c"
+   ],
+   "ne_dedi": "Mahkeme üç başvuruyu birleştirdi ve ilk tutukluluk anında makul şüphe bulunmaması nedeniyle md. 5/1 ihlali buldu. Maddi tazminat talepleri Turan ve diğerleri (§§ 102-07) gerekçesiyle reddedildi; başvurucuların her birine manevi tazminat ile masrafları kapsayan 5.000 avro, üç ay içinde ödenmek üzere hükmedildi. Ekli tabloda Recep Bakırcı (Samsun), Nalan Can (Denizli) ve Mecit Özgül (İzmit) yer alıyor.",
+   "merkez_icin": "Birleştirilmiş md. 5 dosyalarında kişi başına 5.000 avro uygulamasının sürdüğünü ve ödeme süresinin üç ay olduğunu teyit ediyor.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-253532",
+   "baslik": "Peksak v. Türkiye: cezaevinde mektuba el konulması",
+   "maddeler": [
+    "8",
+    "8-1"
+   ],
+   "ne_dedi": "Mahkeme, başvurucuya gönderilen ilk mektup bakımından başvuruyu kabul edilebilir, ikinci mektup bakımından kabul edilemez buldu. İlk mektuba ilişkin yazışmanın izlenmesi ve engellenmesinin kötüye kullanmaya karşı gerekli güvencelerle çevrili olmadığı, dolayısıyla müdahalenin md. 8/2 anlamında 'demokratik toplumda gerekli' olmadığı sonucuna vardı (Eylem Kaya, §§ 47-48). 50.000 avroluk manevi tazminat talebi için ihlal tespitinin kendisi yeterli giderim sayıldı; yalnızca 250 avro masraf ödenmesine hükmedildi.",
+   "merkez_icin": "Cezaevi yazışmalarının denetimine ilişkin md. 8 içtihadının sürdüğünü, ancak manevi tazminat yerine ihlal tespitiyle yetinilebildiğini gösteriyor; mahpus yazışması dosyalarında giderim beklentisi için ölçü sağlıyor.",
+   "haberle_fark": ""
+  },
+  {
    "itemid": "001-253534",
-   "baslik": "Milletvekili seçildikten sonra tutukluluğu süren avukat ve insan hakları savunucusu Can Atalay'ın durumu",
+   "baslik": "Şerafettin Can Atalay v. Türkiye: milletvekili seçilen başvurucunun tutukluluğunun sürmesi",
    "maddeler": [
     "5",
     "5-1",
@@ -1244,270 +1295,335 @@
     "46-2",
     "41"
    ],
-   "ne_dedi": "HUDOC sonuç alanına göre Mahkeme md. 5/1 (a bendi dahil) ve md. 5/4 bakımından ihlal bulmuş; 1 No'lu Protokol md. 3 yönünden de ihlal tespiti kaydedilmiş. Karar özeti, başvurucunun milletvekili seçilmesinden ve lehine iki Anayasa Mahkemesi kararı bulunmasından sonra Yargıtay'ın tahliyeyi reddetmesiyle süren tutukluluğun 'hukuka uygun' ve 'kanunla öngörülen usule uygun' olmadığını; AYM kararlarının uygulanmaması nedeniyle başvurucuya md. 5/4 anlamında bir denetim sağlanmadığını belirtiyor. Mahkeme, bireysel başvurunun bu olayda md. 5/4 anlamında denetim sağlamadığı yönündeki tespitini davanın kendi koşullarıyla sınırlı tuttuğunu açıkça yazıyor. Verilen metinde ayrık görüş, çoğunluğun md. 18 ihlali bulduğunu ve md. 46 altında tespitler yaptığını, bir yargıcın ise md. 18 ve md. 46 bakımından çoğunluğa katılmadığını gösteriyor (karar § 158'e atıf).",
-   "merkez_icin": "AYM ihlal kararlarının derece mahkemelerince uygulanmaması, merkezin Kavala ve ByLock/Yalçınkaya dosyalarında da tartışılan icra sorunudur; bu karar sorunu md. 5/4 ve md. 46 düzleminde açıkça ele alıyor. Md. 18 ihlali tespiti, Merabishvili ölçütünün Türkiye bağlamında yeniden uygulanması bakımından izlenmeli.",
-   "haberle_fark": "SCF 'dört ihlal', 'derhal tahliye talimatı' ve 32.500 avro manevi tazminattan söz ediyor [b86b369925]; verilen karar metninde hüküm fıkrası ve md. 41 bölümü yer almadığından tutar ve tahliye talimatının lafzı belgeden doğrulanamıyor. HUDOC madde listesinde 41 ve 46-2 yer alıyor, ayrık görüş de md. 18 ve 46 bulgularına atıf yapıyor; bu ölçüde haber metinle uyumlu görünüyor."
-  },
-  {
-   "itemid": "001-253529",
-   "baslik": "Harun Bulut'un ilk tutukluluğunda makul şüphe bulunmaması",
-   "maddeler": [
-    "5",
-    "5-1",
-    "5-1-c"
-   ],
-   "ne_dedi": "İkinci Bölüm Komitesi, oybirliğiyle, başvurucunun ilk tutukluluğu sırasında suç işlediğine dair makul şüphe bulunmaması nedeniyle md. 5/1 ihlali buldu. Kalan md. 5 şikâyetlerini Turan ve diğerleri (§ 98) gerekçesiyle incelemedi. Maddi tazminat talepleri reddedildi; manevi tazminat ile masrafları kapsayan 5.000 avro götürü tutara hükmedildi, ödeme süresi üç ay.",
-   "merkez_icin": "Turan ve diğerleri çizgisinin 5.000 avro götürü tazminatla sürdüğünü gösteriyor; başvurucunun 144.000 avro manevi ve 44.465 avro maddi (işten çıkarılma kaynaklı gelir kaybı) talebi karşılanmadı. İhraç kaynaklı gelir kaybının AİHM'de tazmin edilmemesi, merkezin KHK dosyalarındaki giderim tartışması açısından not edilmeli.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-253530",
-   "baslik": "Aydın Akgül'ün ilk tutukluluğunun 2802 sayılı Kanun güvenceleri dışında bırakılarak hukuka aykırı biçimde uygulanması",
-   "maddeler": [
-    "5",
-    "5-1"
-   ],
-   "ne_dedi": "Mahkeme oybirliğiyle md. 5/1 ihlali buldu: tutukluluk, 2802 sayılı Kanun'un sağladığı güvencelerden yoksun bırakacak biçimde uygulandığından 'kanunla öngörülen usule uygun' değildi. Hükümetin md. 15 derogasyonuna ilişkin talebi, Baş ve Turan ve diğerleri kararlarına atıfla reddedildi; tedbirin durumun gerektirdiği ölçüde kesin olarak zorunlu sayılamayacağı belirtildi. Başvurucu süresinde adil tazmin talebi sunmadığından herhangi bir tutara hükmedilmedi.",
-   "merkez_icin": "Md. 15 derogasyonunun darbe girişimi sonrası tutukluluklarda kabul edilmemesi çizgisi sürüyor. Adil tazmin talebinin süresinde sunulmaması halinde ihlal tespitine rağmen ödeme yapılmaması, icra denetiminde yalnızca bireysel/genel tedbir boyutunun kalacağı anlamına geliyor.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-253531",
-   "baslik": "Bakırcı ve diğerleri: üç başvuruda ilk tutuklulukta makul şüphe bulunmaması",
-   "maddeler": [
-    "5",
-    "5-1",
-    "5-1-c"
-   ],
-   "ne_dedi": "Üç başvuru (15133/20, 49485/20, 9797/21) birleştirildi; Mahkeme oybirliğiyle md. 5/1 ihlali buldu. Kalan md. 5 şikâyetleri Turan ve diğerleri (§ 98) uyarınca incelenmedi. Maddi tazminat talepleri reddedildi, her bir başvurucuya manevi tazminat ve masrafları kapsayan 5.000 avro götürü tutara üç ay içinde ödenmek üzere hükmedildi. Ekli tabloda Recep Bakırcı (Samsun), Mehmet Öncü ('not a lawyer' notuyla), Nalan Can (Denizli) ve Mecit Özgül (İzmit) yer alıyor.",
-   "merkez_icin": "Ek tabloda bir başvurucu için 'avukat değil' notunun düşülmesi, bu grup kararlarda meslek statüsünün (hâkim/savcı/avukat) uygulanan iç hukuk güvencesi bakımından ayrıştırıldığını gösteriyor. Üç aylık ödeme süresi Şubat 2027'de dolacak.",
-   "haberle_fark": ""
-  },
-  {
-   "itemid": "001-253532",
-   "baslik": "Cezaevindeki Ali Efendi Peksak'a gönderilen mektuba el konulması ve denetlenmesi",
-   "maddeler": [
-    "8",
-    "8-1"
-   ],
-   "ne_dedi": "Mahkeme oybirliğiyle, başvurucuya gönderilen ilk mektup bakımından md. 8 ihlali buldu; müdahalenin kötüye kullanıma karşı gerekli güvencelerle çevrili olmadığı ve 'demokratik toplumda gerekli' sayılamayacağı sonucuna vardı (Eylem Kaya, §§ 47-48). İkinci mektuba ilişkin şikâyet kabul edilemez bulundu. Manevi tazminat bakımından ihlal tespitinin kendisi yeterli adil tazmin sayıldı; masraflar için 250 avroya hükmedildi, 50.000 avroluk talep reddedildi.",
-   "merkez_icin": "Cezaevi yazışmalarının denetimi, merkezin izlediği Abdi Cengiz (md. 8, aile görüşmelerinin kaydı) ve tecrit dosyalarıyla aynı güvence eksikliği sorununa işaret ediyor. Manevi tazminat verilmemesi, bu tür ihlallerde giderimin esas olarak genel tedbire bağlandığını gösteriyor.",
+   "ne_dedi": "Karar, avukat ve insan hakları savunucusu olan başvurucunun milletvekili seçilmesine ve AYM'nin lehine verdiği kararlara rağmen Yargıtay'ın tahliye etmemesi nedeniyle tutukluluğun ne 'hukuki' ne de 'kanunda öngörülen usule uygun' olduğunu saptıyor (md. 5/1 ve 5/1(a)). AYM kararlarının uygulanmaması nedeniyle tutukluluğun hukukiliğinin denetlenememesi md. 5/4 ihlali sayıldı; bu dosyada AYM bireysel başvurusunun md. 5/4 anlamında denetim sağlamadığı tespiti somut koşullarla sınırlandırıldı. P1-3 ihlali de bulundu. Verilen metin parçasında yer alan ayrık görüş, çoğunluğun § 158'de md. 18 bakımından gizli amacın makul şüphenin ötesinde kanıtlandığı sonucuna katılmadığını ve md. 46 bulgularına da katılmadığını belirtiyor.",
+   "merkez_icin": "AYM kararlarının uygulanmaması sorununu md. 5/4 ve md. 46 düzeyine taşıyan bir karar; merkezin AYM ihlal kararlarının icrası dosyalarında (t6, t226) dayanak. Metin parçasında hükmedilen tutar görünmüyor.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-253224",
-   "baslik": "Ersan Taş v. Türkiye: ifade özgürlüğüne yapılan müdahalenin kanunilik ölçütünü karşılamaması",
+   "baslik": "Taş v. Türkiye: ifade özgürlüğüne müdahalenin kanunilik ölçütünü karşılamaması",
    "maddeler": [
     "10",
     "10-1"
    ],
-   "ne_dedi": "3 Kasım 2026 tarihli kararda Mahkeme oybirliğiyle md. 10 ihlali buldu; müdahalenin md. 10/2 anlamında 'kanunla öngörülmüş' olmadığı sonucuna vardı. Başvurucuya 2.000 avro manevi tazminat ve 1.000 avro masraf ödenmesine, üç ay içinde ödenmek üzere hükmedildi; maddi tazminat talebi nedensellik bağı bulunmadığı gerekçesiyle reddedildi. Karar Durukan ve Birol kararına karşılaştırma atfı yapıyor.",
-   "merkez_icin": "Kanunilik ölçütünden ihlal bulunması, merkezin 5651 md. 8/A engelleme dosyalarında ve TCK 217/A uygulamalarında öne sürülen öngörülebilirlik argümanıyla aynı eksende. Karar bu pencerede değil, 3 Kasım'da verildi; bugün yalnızca belge olarak elimize geçti.",
+   "ne_dedi": "Mahkeme müdahalenin md. 10/2 anlamında 'kanunla öngörülmüş' olmadığını saptayarak md. 10 ihlali buldu. Maddi tazminat talebi ile ihlal arasında nedensellik bağı görülmedi ve reddedildi. Başvurucuya 2.000 avro manevi tazminat ve 1.000 avro masraf, üç ay içinde ödenmek üzere hükmedildi.",
+   "merkez_icin": "Türkiye'deki ifade kısıtlamalarında kanunilik denetiminin tek başına ihlal gerekçesi olabildiğini gösteriyor; 5651 kaynaklı engelleme dosyalarında kanunilik tartışması için karşılaştırma noktası.",
    "haberle_fark": ""
   }
  ],
- "baslik": "AİHM Can Atalay kararı: md. 5, P1-3 ve 18 ihlali, md. 46 altında tedbir",
- "brifing": "Pencerenin merkezindeki gelişme, AİHM'in 17 Kasım'da verdiği Şerafettin Can Atalay (11503/24) kararı: md. 5/1, md. 5/4 ve 1 No'lu Protokol md. 3 bakımından ihlal, ayrık görüşten anlaşıldığı kadarıyla md. 18 ihlali ve md. 46 altında tespitler [001-253534]. Aynı gün yayımlanan dört karar daha (Bulut, Akgül, Bakırcı ve diğerleri, Peksak) Turan ve diğerleri çizgisini ve cezaevi yazışmalarında md. 8 denetimini sürdürüyor [001-253529, 001-253530, 001-253531, 001-253532]. Gülen dosyalarında İzmir koordinasyonlu operasyondan 11 tutuklama geldi; gözaltı sayısı bu kayıtta 25 verilirken merkezin 14 Kasım kaydında 29 geçiyordu [214b309543]. LGBTİ+ dosyasında SPoD kurucularının yargılanması 18 Kasım'da başlıyor; 38 kuruluşluk ağ ortak açıklama yayımladı [29d7352daa]. BM ve AB başlıklarında merkezin dosyalarına doğrudan değen tek kayıt, Afganistan soruşturma mekanizmasının bütçe kadrolarına ilişkin ACABQ önerisi [8b7398e007].",
- "one_cikanlar": [],
+ "baslik": "Cumhurbaşkanlığı: üç ayda 1.072 sosyal medya hesabı Gülen atfıyla engellendi",
+ "brifing": "Pencerenin merkez dosyalarını doğrudan ilgilendiren kaydı, Cumhurbaşkanlığı İletişim Başkanı Duran'ın son üç ayda Gülen bağlantısı iddiasıyla 1.072 sosyal medya hesabının engellendiğini ve hesap sahipleri hakkında inceleme başlatıldığını açıklaması; engellerin Ankara Başsavcılığı ile koordineli yürütüldüğü de resmen ifade edildi [9bf6ff538f]. Aynı pencerede Ankara 2. Sulh Ceza Hâkimliği, Adalet Bakanı Gürlek ile milletvekili Ahmet Şık arasındaki suç duyurusu–tazminat davası haberlerine 5651 md. 8/A engeli getirdi [4b359ffc4f]. Malvarlığı tarafında TMSF, Boydak ailesinden el konulan Form Sünger'i üçüncü kez ihaleye çıkardı [91a49ea710]; avukat hakları tarafında 17 Kasım'daki İzmir merkezli operasyonlarda gözaltına alınan avukatlar için uluslararası çağrı yayımlandı [4117b4c935]. Ayrıca 17 Kasım tarihli beş AİHM kararının ve 3 Kasım tarihli Taş kararının tam metni elimize geçti; dünkü değerlendirmedeki tespitler metinlerle doğrulandı, Akgül dosyasında adil tazmin talebi sunulmadığı için ödeme bulunmadığı netleşti. Günün geri kalanı büyük ölçüde başlık düzeyinde BM belgeleri ve merkezin dosyalarıyla bağı kurulamayan düzenleyici kurum duyurularından oluşuyor.",
+ "one_cikanlar": [
+  {
+   "baslik": "Cumhurbaşkanlığı İletişim Başkanlığı: üç ayda 1.072 hesap Gülen atfıyla engellendi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Engelleme pratiğine ilişkin ilk kez bu kapsamda resmî kümülatif sayı açıklandı ve engellerin Cumhurbaşkanlığı İletişim Başkanlığı ile Ankara Başsavcılığı koordinasyonunda yürütüldüğü kabul edildi. Hesap sahipleri hakkında ayrıca inceleme başlatıldığının söylenmesi, engelin ceza soruşturmasına bağlandığını gösteriyor. Bu, merkezin 5651 md. 8/A dosyalarında idari ve adli yetkinin iç içe geçmesi argümanı bakımından doğrudan veri.",
+   "yenilik": "İlk kez: 12 Kasım'daki 21 hesaplık karar yerine üç aylık 1.072 hesaplık resmî toplam açıklandı.",
+   "ayrintilar": [
+    "Burhanettin Duran: son üç ayda 1.072 hesap, Ankara Başsavcılığı ile koordineli",
+    "12 Kasım'da duyurulan 21 X hesabının bu toplama dahil olup olmadığı açıklanmadı",
+    "İFÖD: eylül-ekimde en az 2.137 X hesabı engellendi (gerekçe ayrımı yapılmadan)",
+    "EngelliWeb: son bir haftada en az 521 X hesabı (17 Kasım kaydı, önceki pencerede değerlendirildi)",
+    "KHK ile ihraç edilen kamu görevlilerine ait sayfalar hedefler arasında"
+   ],
+   "mekanizma": "5651 sayılı Kanun md. 8/A",
+   "karsi_okuma": "1.072 sayısının hangi kararlara, hangi platformlara ve hangi tarihlere dağıldığı kayıtlarda yok; İFÖD'ün 2.137'lik sayımıyla kapsam ve dönem olarak örtüşmüyor, iki rakam toplanamaz. Hesap sahipleri hakkında başlatılan 'incelemelerin' hukuki niteliği de belirsiz.",
+   "kayitlar": [
+    "9bf6ff538f",
+    "4c95d40660"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Ankara 2. Sulh Ceza Hâkimliği: Gürlek'in Şık hakkındaki suç duyurusu haberlerine 8/A engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Adalet Bakanı hakkındaki iddiaların ve bakanın milletvekiline karşı açtığı davaların haberleştirilmesi, millî güvenlik/kamu düzeni rejimi olan 8/A üzerinden engelleniyor. Bakanın mal varlığına ilişkin Bakırköy kararından sonra aynı konu etrafında ikinci bir hâkimlik kararı söz konusu. Merkezin kamu görevlilerine ilişkin haberlerde ölçülülük denetimi dosyasına ekleniyor.",
+   "yenilik": "İlk kez: 18 Kasım tarihli Ankara 2. Sulh Ceza Hâkimliği kararı, hem haberleri hem sosyal medya paylaşımlarını kapsıyor.",
+   "ayrintilar": [
+    "Karar tarihi 18 Kasım 2026, Ankara 2. Sulh Ceza Hâkimliği",
+    "Dayanak: 5651 sayılı Kanun md. 8/A",
+    "Kapsam: TİP milletvekili Ahmet Şık'ın iddiaları, Gürlek'in suç duyurusu ve tazminat davasına ilişkin haberler ve paylaşımlar"
+   ],
+   "mekanizma": "5651 sayılı Kanun md. 8/A",
+   "karsi_okuma": "Kararın engellediği URL sayısı, gerekçesi ve itiraz yoluna başvurulup başvurulmadığı kayıtta yok; kaydın kendisi İFÖD duyurusu düzeyinde.",
+   "kayitlar": [
+    "4b359ffc4f"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "TMSF, Boydak ailesinden el konulan Form Sünger'i üçüncü kez ihaleye çıkardı",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden_onemli": "El koyma sonrası tasfiye pratiğinin somut bir izleği: aynı şirket için üç ayrı ihale ve iki başarısız deneme. Merkezin kayyım/TMSF dosyalarında, el konulan varlıkların satışının zamanlaması ve değerleme seyri açısından veri sağlıyor. Şirketin 560 çalışanı ve 64 ülkeye ihracatı, tedbirin üçüncü kişiler üzerindeki etkisini de gösteriyor.",
+   "yenilik": "İlk kez: üçüncü ihale ilanı, 5,25 milyar lira muhammen bedel ve 5 Ocak 2027 tarihi.",
+   "ayrintilar": [
+    "Form Sünger ve Yatak Sanayi Ticaret AŞ hisselerinin yüzde 100'ü",
+    "Muhammen bedel 5,25 milyar lira (yaklaşık 105 milyon dolar), teminat 270 milyon lira",
+    "İhale tarihi 5 Ocak 2027",
+    "Önceki denemeler: Ekim 2024 ilanı/Aralık ihalesi 3,15 milyar lira; Şubat 2026'da 3,86 milyar lira",
+    "Boydak Holding'e 18 Ağustos 2016'da kayyım atandı, yönetim 5 Eylül 2016'da TMSF'ye geçti",
+    "2018'de Memduh Boydak'a 18 yıl, Hacı Boydak'a yaklaşık 12 yıl, Şükrü Boydak'a 10 yıl hapis"
+   ],
+   "mekanizma": "TMSF kayyımlığı ve el konulan şirketin satışı",
+   "karsi_okuma": "İhalenin sonuçlanıp sonuçlanmayacağı ve satış gelirinin akıbeti bilinmiyor; kayıt tek kaynaklı bir ihale ilanına dayanıyor, el koyma kararının hukuki dayanağına ilişkin güncel bir yargı kararı içermiyor.",
+   "kayitlar": [
+    "91a49ea710"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "17 Kasım İzmir merkezli operasyonlarda gözaltına alınan avukatlar için uluslararası çağrı",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "neden_onemli": "Lawyers for Lawyers ve imzacı kuruluşlar, 17 Kasım sabahı birkaç ilde yapılan ve merkezi İzmir olan operasyonlarda avukatların gözaltına alınmasını kınayıp serbest bırakılmalarını istedi. Avukatların mesleki faaliyet bağlamında gözaltısı, merkezin ÇHD ve Sezin Uçar dosyalarıyla aynı çizgide izleniyor.",
+   "yenilik": "İlk kez: 17 Kasım tarihli operasyonlar ve gözaltına alınanlar arasında Veysi Çetin'in adı.",
+   "ayrintilar": [
+    "Operasyon tarihi 17 Kasım 2026 sabahı, merkez İzmir, birden fazla il",
+    "Kayıtta adı geçen gözaltı: Veysi Çetin",
+    "Açıklama Lawyers for Lawyers ve imzacı kuruluşlar tarafından yapıldı"
+   ],
+   "mekanizma": "Avukatların mesleki faaliyet nedeniyle gözaltısı",
+   "karsi_okuma": "Gözaltıların isnadı, soruşturmayı yürüten savcılık, gözaltına alınan toplam kişi sayısı ve sevk sonuçları kayıtta yok; kayıt özet düzeyinde kalıyor.",
+   "kayitlar": [
+    "4117b4c935"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Rechtbank Den Haag NL26.23418: ikamet izninin geri alınması dosyasında idareye iki haftalık süre",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "Hollanda idari yargısında süresinde karar vermeme (beroep niet tijdig) davalarının ardışık biçimde kabul edildiği örneklere bir yenisi eklendi; bu kez dosya ikamet izninin geri alınmasına ilişkin ve mahkeme savunma dilekçesinden bu yana görünür bir işlem yapılmadığını tespit etmiş. Merkezin Türkiye kaynaklı iltica dosyalarında idarenin karar gecikmesi argümanı için ek bir karar.",
+   "yenilik": "İlk kez bu dosya numarası: 18 Kasım 2026 tarihli NL26.23418, iki haftalık yeni karar süresi.",
+   "ayrintilar": [
+    "ECLI:NL:RBDHA:2026:34211, Rechtbank Den Haag, 18-11-2026, NL26.23418",
+    "Konu: opvolgend beroep niet tijdig, iltica, ikamet izninin geri alınması",
+    "Mahkeme iki haftalık yeni karar süresi (nadere beslistermijn) verdi"
+   ],
+   "mekanizma": "Hollanda idari yargısı: beroep niet tijdig beslissen",
+   "karsi_okuma": "Kayıt yalnızca karar özeti düzeyinde; başvurucunun uyruğu ve dosyanın Türkiye bağlantısı belirtilmemiş, dolayısıyla Gülen/KHK kaynaklı dosyalarla ilişkisi kurulamaz.",
+   "kayitlar": [
+    "64d3054268"
+   ],
+   "guven": "düşük"
+  }
+ ],
  "alan_notlari": [
   {
-   "alan": "AİHM başvuruları ve kararların icrası",
+   "alan": "İfade ve basın özgürlüğü",
    "durum": "hareketli",
-   "not": "17 Kasım'da Türkiye'ye karşı beş karar yayımlandı. Atalay kararı AYM kararlarının uygulanmamasını md. 5/4 ve md. 46 düzleminde ele alıyor; diğer üçü md. 5/1 ihlaliyle Turan ve diğerleri götürü tazminat rejimini (5.000 avro) sürdürüyor, Peksak ise cezaevi yazışmalarında md. 8 ihlali tespit ediyor.",
+   "not": "Resmî kümülatif engelleme sayısı (üç ayda 1.072 hesap) ilk kez açıklandı; aynı pencerede Adalet Bakanı–milletvekili uyuşmazlığına ilişkin haberlere yeni bir 8/A kararı geldi. İzleme kuruluşlarının sayımları (İFÖD 2.137, EngelliWeb 521) resmî rakamla kapsam ve dönem olarak örtüşmüyor.",
    "kayitlar": [
-    "001-253534",
-    "001-253529",
-    "001-253530",
-    "001-253531",
-    "001-253532",
-    "b86b369925"
+    "9bf6ff538f",
+    "4b359ffc4f",
+    "4c95d40660"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "durum": "hareketli",
-   "not": "İzmir Başsavcılığı'nın 'kadınlara yönelik eğitim ağı' isnatlı soruşturmasında 11 tutuklama; Ankara'da 13 Kasım'da mali yardım isnadıyla altı gözaltı. Ayrı bir kayıtta ağır hasta mahpuslar için Adalet Bakanlığı önünde günlük protestonun başladığı ve 7 Kasım'da bir mahpusun hastanede öldüğü bildiriliyor.",
+   "not": "Hem engelleme istatistiği hem el konulan şirketin satışı aynı pencereye denk geldi; ikisi de Gülen atfına dayanan idari tedbirlerin sürdüğünü gösteriyor. Ayrıca Bahreynli insan hakları savunucusu Nabeel Rajab'ın 17 Kasım'da sürgünde bulunduğu Türkiye'de kalp krizi sonucu öldüğü bildirildi.",
    "kayitlar": [
-    "214b309543",
-    "61569f805d",
-    "2226e96c97"
+    "9bf6ff538f",
+    "91a49ea710",
+    "972a21c776"
    ]
   },
   {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "hareketli",
-   "not": "SPoD'un dört kurucusu hakkındaki davanın ilk duruşması 18 Kasım'da; 38 kuruluşluk ağ, 'Ailem Güvende' operasyonundan bu yana SPoD, Hevi LGBTİ+ ve Lambdaistanbul hakkında fesih talepli dosyalar bulunduğunu aktarıyor. İtalya'da parlamentonun IHRA antisemitizm tanımını yasalaştırması, Amnesty tarafından ifade özgürlüğü bakımından eleştirildi.",
-   "kayitlar": [
-    "29d7352daa",
-    "112de7699c"
-   ]
-  },
-  {
-   "alan": "BM insan hakları mekanizmaları",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "durum": "olağan",
-   "not": "ACABQ, Afganistan Bağımsız Soruşturma Mekanizması'nın 2027 için öngörülen 17 kadrosundan 7'sinin kesilmesini önerdi; HRW, iletişim, güvenlik ve idari desteğin BM'nin diğer birimlerine devredilmesinin mekanizmanın bağımsızlığını zayıflatabileceğini belirtiyor. Günün diğer BM kayıtları (GUAM kararı, Yemen ve MINUSCA mandalarının uzatılması, kadına yönelik şiddet taslak kararı) başlık düzeyinde ve merkezin dosyalarına doğrudan değmiyor.",
+   "not": "TMSF'nin Form Sünger ihalesi dışında yeni kayıt yok; el koyma rejimine ilişkin diğer açık dosyalarda (t19, t23, t146, t193) bu pencerede hareket bulunmuyor.",
    "kayitlar": [
-    "8b7398e007",
-    "53cca61dcb",
-    "f296a5f458",
-    "ffd5a80f11",
-    "d8c3658e46"
+    "91a49ea710"
+   ]
+  },
+  {
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "olağan",
+   "not": "Yeni haber kaydı yok; buna karşılık 17 Kasım tarihli beş kararın ve 3 Kasım tarihli Taş kararının tam metni elimize geçti ve dünkü özetler doğrulandı. Akademik tarafta X v. Gürcistan kararına ilişkin md. 3/8 ayrımcılık tartışması yayımlandı.",
+   "kayitlar": [
+    "001-253529",
+    "001-253530",
+    "001-253531",
+    "001-253532",
+    "001-253534",
+    "001-253224",
+    "f68d9ec49e"
    ]
   },
   {
    "alan": "İade, adli yardım ve iltica",
    "durum": "olağan",
-   "not": "Raad van State'in 10 Kasım 2026 tarihli BRS.26.005847 sayılı kararı, 4 Haziran 2026'da iltica başvurusunun incelenmeye alınmaması yönündeki bakanlık kararına ilişkin; kayıtta yalnızca giriş paragrafı var, sonuç görünmüyor.",
+   "not": "Tek kayıt Rechtbank Den Haag'ın süresinde karar vermeme kararı; Hollanda'daki gecikme davaları serisi devam ediyor.",
    "kayitlar": [
-    "61345534b0"
+    "64d3054268"
    ]
   },
   {
-   "alan": "Sınıraşan baskı (Türkiye dışı)",
+   "alan": "BM insan hakları mekanizmaları",
    "durum": "olağan",
-   "not": "Freedom House'un da aralarında olduğu kuruluşlar, 18 Eylül 2026'da Kamboçya'da kaçırılıp Vietnam'a götürüldüğü bildirilen üç aktivistten Avustralya vatandaşı Hiep Tran'ın dosyasını Başbakan Albanese'ye taşıdı; 15 Ekim'deki ilk konsolosluk görüşmesindeki beyanı aktarılıyor.",
+   "not": "Kayıtların tamamı başlık düzeyinde: Çocuk Hakları Komitesi'nin 146/2021 sayılı bildirimde görüşü, Üçüncü Komite'nin kadın cinayetlerine ilişkin taslak karar değişikliği, Estonya ortak temel belgesi, İsrail'in İnsan Hakları Komitesi takip bilgisi, Engelli Hakları Komitesi oturum tutanağı ve Romanya soru listesi. Ayrıca Amnesty, Dünya Çocuk Günü öncesi çocukların protesto hakkına ilişkin brifing yayımladı.",
    "kayitlar": [
-    "0aae1a90f4"
-   ]
-  },
-  {
-   "alan": "Uluslararası ceza yargısı",
-   "durum": "olağan",
-   "not": "ICC ön yargılama dairesi 12 Kasım'da Afganistan durumunu işlem yokluğu gerekçesiyle fiilen kapattı; savcılık 13 Kasım'da istinaf ve kararın yürütmesinin durdurulması talebinde bulundu.",
-   "kayitlar": [
-    "87d2d3f262"
+    "9368b924aa",
+    "bb36c0964e",
+    "73d956dc80",
+    "b10352b45a",
+    "0d6f628166",
+    "d5fb751c1e",
+    "ebcf085129",
+    "85d41971b9"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
    "durum": "olağan",
-   "not": "İrlanda Veri Koruma Komisyonu, Tinder kullanıcılarının kişisel veri taleplerine ilişkin soruşturma sonunda MTCH'ye 11 milyon avro para cezası verdi. FRA'nın şirketlerin insan hakları, iklim ve çevre sorumluluklarına ilişkin raporu bir önceki pencerede değerlendirilmişti.",
+   "not": "EDPB, yeterlilik kararı bulunan ülkelerin otoriteleriyle 2027 önceliklerini belirledi; İtalyan veri koruma otoritesinin Meta'ya 805 milyon avro dahil dört para cezası duyuruldu. Merkezin dosyalarıyla doğrudan bağ kurulmuyor, idari para cezası pratiği açısından bağlam değeri var.",
    "kayitlar": [
-    "65e9cbdf47",
-    "0ca0350eb4"
+    "cbff67bb56",
+    "99834fa440",
+    "2716ce3d71",
+    "b185f59079",
+    "90375370fe"
    ]
   },
   {
-   "alan": "Yargı bağımsızlığı",
+   "alan": "Mevzuat izleme (çok alanlı)",
    "durum": "olağan",
-   "not": "ICJ, Pakistan'da 26. ve 27. Anayasa Değişiklikleri sonrası yargının siyasi erkler tarafından fiilen ele geçirildiğini (judicial capture) saptayan bir rapor yayımladı.",
+   "not": "Resmî Gazete akışında yine içeriği belirlenemeyen bir 'Yargı Harçları' kaydı ve 7531 sayılı Kanun başlıklı yeni bir kayıt var; her ikisinin de metni kayıtlarda yok.",
    "kayitlar": [
-    "56520c07c0"
+    "673dd445f6",
+    "116facc78c"
    ]
   }
  ],
  "dosya_derinlesmesi": [],
  "kronoloji": [
   {
-   "tarih": "2022-04",
-   "adim": "Can Atalay, 2013 Gezi Parkı protestolarındaki rolü iddiasıyla hükümeti devirmeye teşebbüse yardım suçundan 18 yıl hapse mahkûm edildi.",
+   "tarih": "2026-09/10",
+   "adim": "İFÖD'e göre eylül ve ekim aylarında en az 2.137 X hesabı engellendi; gazeteciler, haber kuruluşları, siyasi partiler ve hak örgütleri etkilendi.",
    "kayitlar": [
-    "b86b369925"
+    "9bf6ff538f"
    ]
   },
   {
-   "tarih": "2023-05",
-   "adim": "Hatay'dan TİP listesinden milletvekili seçildi; seçilmesine ve dokunulmazlığına rağmen cezaevinde kaldı.",
+   "tarih": "2026-11-12",
+   "adim": "Ankara Başsavcılığı, Gülen bağlantısı ve millî güvenlik gerekçesiyle 21 X hesabına erişim engeli duyurdu; aralarında KHK'lı kamu görevlilerine ait sayfalar var.",
    "kayitlar": [
-    "b86b369925"
-   ]
-  },
-  {
-   "tarih": "2023-10",
-   "adim": "Anayasa Mahkemesi, devam eden tutukluluğun kişi özgürlüğü ve siyasi katılım haklarını ihlal ettiğine karar verdi; İstanbul'daki mahkeme ve Yargıtay kararı uygulamayı reddetti.",
-   "kayitlar": [
-    "b86b369925"
-   ]
-  },
-  {
-   "tarih": "2023-12",
-   "adim": "AYM, önceki kararının uygulanmaması nedeniyle ikinci kez ihlal kararı verdi; Yargıtay yine uymadı ve suç duyurusunda bulundu.",
-   "kayitlar": [
-    "b86b369925"
+    "9bf6ff538f"
    ]
   },
   {
    "tarih": "2026-11-17",
-   "adim": "AİHM, başvuru no. 11503/24'te md. 5/1 ve 5/4 ile 1 No'lu Protokol md. 3 bakımından ihlal tespit etti; ayrık görüşten çoğunluğun md. 18 ihlali bulduğu ve md. 46 altında tespit yaptığı anlaşılıyor.",
+   "adim": "EngelliWeb, son bir haftada en az 521 X hesabının engellendiğini, listede COP31, fon krizi ve KHK platformlarının hesaplarının bulunduğunu bildirdi.",
    "kayitlar": [
-    "001-253534"
+    "4c95d40660"
    ]
   },
   {
-   "tarih": "2026-11-17",
-   "adim": "SCF, Mahkeme'nin derhal tahliye ve milletvekilliğinin ifasının sağlanması ile 32.500 avro manevi tazminata hükmettiğini, ayrıca AYM kararlarının uygulanmasını güvenceye alacak tedbirler istediğini aktardı; bu unsurlar verilen karar metninde yer almıyor.",
+   "tarih": "2026-11-18",
+   "adim": "Cumhurbaşkanlığı İletişim Başkanı Duran, son üç ayda Gülen atfıyla 1.072 hesabın engellendiğini, engellerin Ankara Başsavcılığı ile koordineli yürütüldüğünü ve hesap sahipleri hakkında inceleme başlatıldığını açıkladı.",
    "kayitlar": [
-    "b86b369925"
+    "9bf6ff538f"
+   ]
+  },
+  {
+   "tarih": "2026-11-18",
+   "adim": "Ankara 2. Sulh Ceza Hâkimliği, Adalet Bakanı Gürlek ile Ahmet Şık arasındaki suç duyurusu ve tazminat davasına ilişkin haber ve paylaşımlara 5651 md. 8/A kapsamında erişim engeli getirdi.",
+   "kayitlar": [
+    "4b359ffc4f"
    ]
   }
  ],
  "izlenecekler": [
-  "Atalay kararının kesinleşme/Büyük Daire'ye gönderme seyri ile md. 46 altında istenen tedbirlerin iç hukukta ve Bakanlar Komitesi gündeminde nasıl ele alınacağı",
-  "SPoD kurucularının 18 Kasım'da başlayan yargılamasının ilk duruşma sonucu ve HEVİ LGBTİ+ ile Lambdaistanbul dosyalarındaki fesih taleplerinin seyri",
-  "İzmir Başsavcılığı koordinasyonundaki operasyonda gözaltı sayısına ilişkin fark (25'e karşı 29) ve tutuklanan 11 kişinin sevk gerekçeleri",
-  "17 Kasım tarihli dört kararda üç aylık ödeme sürelerinin işleyişi ve bu kararların md. 5 icra gruplarındaki yeri",
-  "Ağır hasta mahpuslar için başlayan günlük protestonun ve Newroz Bozkurt ile Evin Zapsu dosyalarında infazın ertelenmesi taleplerinin akıbeti"
+  "Duran'ın açıkladığı 1.072 hesaplık toplamın hangi kararlara dayandığı ve 12 Kasım'daki 21 hesabın bu toplama dahil olup olmadığı",
+  "17 Kasım İzmir merkezli operasyonlarda gözaltına alınan avukatların isnadı ve sevk sonuçları",
+  "Form Sünger ihalesinin 5 Ocak 2027'de sonuçlanıp sonuçlanmayacağı",
+  "19 Kasım tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un ve yeni 'Yargı Harçları' kaydının içeriği",
+  "17 Kasım tarihli dört md. 5/md. 8 kararında üç aylık ödeme süresinin işleyişi ve Bakanlar Komitesi'ndeki grup ataması"
  ],
- "gun": "2026-11-18",
- "olusturma": "2026-11-18T09:46+00:00",
+ "gun": "2026-11-19",
+ "olusturma": "2026-11-19T09:55+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "b86b369925",
   "673dd445f6",
-  "214b309543",
-  "d6bac13b4b",
-  "61345534b0",
-  "0ca0350eb4",
+  "91a49ea710",
+  "9bf6ff538f",
+  "116facc78c",
+  "64d3054268",
+  "73d956dc80",
+  "b10352b45a",
+  "85d41971b9",
+  "972a21c776",
+  "4b359ffc4f",
+  "d79d0723fa",
   "0aae1a90f4",
   "29d7352daa",
-  "61569f805d",
   "87d2d3f262",
   "8b7398e007",
   "5c2ef7217e",
   "4c95d40660",
   "f754abefd6",
-  "a6a10df1b3",
-  "bbc4c76cbb",
-  "79de103186",
-  "dae8cc5472",
+  "cbff67bb56",
+  "4117b4c935",
+  "f68d9ec49e",
+  "fd538980b2",
+  "c296ed64a9",
+  "bf2b0938d1",
+  "bc12c1108f",
+  "ce7a190d54",
+  "0d6f628166",
+  "bb36c0964e",
+  "ebcf085129",
+  "2716ce3d71",
+  "99834fa440",
+  "b185f59079",
+  "90375370fe",
+  "9368b924aa",
+  "e14bc0d113",
+  "d5fb751c1e",
+  "e6caaf7f1b",
+  "1e68360d28",
   "d8c3658e46",
   "abe667a99a",
   "62f4b0b39f",
   "a6f469796a",
   "e3fb236140",
-  "53cca61dcb",
-  "f296a5f458",
-  "cbcd2b2fc7",
   "17b80cb981",
-  "9f43833e78",
-  "ffd5a80f11",
-  "98f7ce683d",
-  "cd567977e2",
-  "65e9cbdf47",
-  "54eb19fbaf",
-  "e62bf01e03",
-  "9b80dc5752",
-  "4a33897390",
-  "4f5a67b147",
-  "5104828078",
-  "55e9613bb6",
-  "fb67696f54",
-  "56520c07c0",
-  "a12cf7fe5e",
-  "2570a6d2ad",
-  "2226e96c97",
-  "112de7699c"
+  "65e9cbdf47"
  ],
- "maliyet_usd": 0.9548,
- "girdi_token": 59676,
- "cikti_token": 22603,
+ "maliyet_usd": 1.0521,
+ "girdi_token": 57454,
+ "cikti_token": 26535,
  "arka_uc": "api",
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
   "kontroller": [
    {
     "id": "brifing",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one1",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one4",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one5",
     "hukum": "dayanaklı",
     "not": ""
    },
@@ -1542,12 +1658,12 @@
     "not": ""
    }
   ],
-  "genel": "Tüm iddialar gösterilen birincil ve ikincil kayıtlarla uyumludur.",
+  "genel": "Tüm iddialardaki olgusal unsurlar gösterilen kayıtlar ve birincil belgelerle örtüşüyor, dayanaksız veya kısmen dayanaklı bir iddia tespit edilmedi.",
   "model": "claude-sonnet-5",
-  "girdi_token": 40563,
-  "cikti_token": 1019,
-  "maliyet_usd": 0.0913,
-  "iddia_sayisi": 7
+  "girdi_token": 42653,
+  "cikti_token": 1617,
+  "maliyet_usd": 0.1015,
+  "iddia_sayisi": 12
  },
  "takip_acik": [
   {
@@ -1683,16 +1799,16 @@
    "baslik": "BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve insan hakları mekanizmalarına yönelik tartışmalar",
    "alan": "BM insan hakları mekanizmaları",
    "acildi": "2026-09-21",
-   "son_hareket": "2026-11-18",
-   "hareket_sayisi": 6
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 7
   },
   {
    "id": "t30",
    "baslik": "Stichting Justice Square raporundaki el koyma verileri ve Şubat 2025 tarihli TMSF kayyım yasasının uygulanması",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-09-22",
-   "son_hareket": "2026-10-17",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 4
   },
   {
    "id": "t31",
@@ -1715,8 +1831,8 @@
    "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-09-23",
-   "son_hareket": "2026-11-17",
-   "hareket_sayisi": 25
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 26
   },
   {
    "id": "t34",
@@ -2115,8 +2231,8 @@
    "baslik": "BM Çocuk Hakları Komitesi'nin Jas.K.B. ve diğerleri v. Çekya (193/2022) kararı: çocukların göç kaynaklı idari gözetimi",
    "alan": "BM insan hakları mekanizmaları",
    "acildi": "2026-10-13",
-   "son_hareket": "2026-10-13",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 1
   },
   {
    "id": "t105",
@@ -2291,8 +2407,8 @@
    "baslik": "Bakırköy'ün Adalet Bakanı Akın Gürlek'in mal varlığına ilişkin 10 habere erişim engeli kararı ve itiraz süreci",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-10-20",
-   "son_hareket": "2026-11-16",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 3
   },
   {
    "id": "t128",
@@ -2627,8 +2743,8 @@
    "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
    "alan": "Mevzuat izleme (çok alanlı)",
    "acildi": "2026-11-01",
-   "son_hareket": "2026-11-17",
-   "hareket_sayisi": 10
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 11
   },
   {
    "id": "t170",
@@ -2667,8 +2783,8 @@
    "baslik": "Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatistikleri (720.338 kişi hakkında işlem, 127.000'den fazla mahkûmiyet, 10.485 tutuklu/hükümlü, 83.404 derdest dosya)",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-11-03",
-   "son_hareket": "2026-11-18",
-   "hareket_sayisi": 5
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 6
   },
   {
    "id": "t175",
@@ -2747,8 +2863,8 @@
    "baslik": "Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ay aşılması nedeniyle kabul edilen süresinde karar vermeme davası",
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-11-05",
-   "son_hareket": "2026-11-17",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 4
   },
   {
    "id": "t185",
@@ -2931,8 +3047,8 @@
    "baslik": "EDPB'nin Güney Kore yeterlilik kararı incelemesine ilişkin beyanı, BCR-P tavsiyelerinin nihai hali ve 2027 koordineli uygulama eylemi konusu",
    "alan": "Belçika ve AB mevzuatı",
    "acildi": "2026-11-12",
-   "son_hareket": "2026-11-12",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 1
   },
   {
    "id": "t208",
@@ -3019,8 +3135,8 @@
    "baslik": "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X hesapları: sayı farkı (21 ve 32) ve hesapların kimliği",
    "alan": "İfade ve basın özgürlüğü",
    "acildi": "2026-11-16",
-   "son_hareket": "2026-11-17",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 2
   },
   {
    "id": "t219",
@@ -3083,16 +3199,16 @@
    "baslik": "Şerafettin Can Atalay v. Türkiye (11503/24) kararının icrası: tahliye, md. 46 tedbirleri ve AYM kararlarının uygulanmasına ilişkin genel tedbir",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-11-18",
-   "son_hareket": "2026-11-18",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 1
   },
   {
    "id": "t227",
    "baslik": "17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bakırcı ve diğerleri (md. 5) ile Peksak (md. 8) ve üç aylık ödeme süreleri",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-11-18",
-   "son_hareket": "2026-11-18",
-   "hareket_sayisi": 0
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 1
   },
   {
    "id": "t228",
@@ -3108,6 +3224,38 @@
    "alan": "İade, adli yardım ve iltica",
    "acildi": "2026-11-18",
    "son_hareket": "2026-11-18",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t230",
+   "baslik": "17 Kasım 2026 sabahı İzmir merkezli operasyonlarda gözaltına alınan avukatların (Veysi Çetin ve diğerleri) akıbeti",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t231",
+   "baslik": "TMSF'nin Boydak ailesinden el konulan Form Sünger'i üçüncü kez ihaleye çıkarması ve 5 Ocak 2027 ihalesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t232",
+   "baslik": "Cumhurbaşkanlığı İletişim Başkanlığı'nın 'üç ayda 1.072 hesap' sayısı ile İFÖD'ün 2.137 hesap sayımı arasındaki fark",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t233",
+   "baslik": "19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un kapsamı",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-19",
    "hareket_sayisi": 0
   }
  ]
