@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-19",
- "olusturma": "2026-11-19T10:59+00:00",
+ "olusturma": "2026-11-19T12:31+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-19:TMSF, Boydak ailesinden el konulan Form Sünger'i üçüncü kez ",
@@ -84,12 +84,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-19:13",
+   "id": "saglik:2026-11-19:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "13 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Opinio Juris, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
