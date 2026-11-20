@@ -192,6 +192,11 @@
 "baslik": "LLM Kliniği — AB Hukuk Oluşumunun Dinamiklerinin Öğrencilere Nasıl Öğretildiğine İlişkin Eleştirel Bir Soruşturma",
 "dil": "diger"
 },
+"01fe9dca08": {
+"baslik": "AB Adalet Divanı: Yerleşik olmayan kişiler için %7 ek vergi kararı",
+"dil": "diger",
+"ozet": "AB Adalet Divanı, yerleşik olmayan kişiler için %7 ek vergiyi işçilerin serbest dolaşımı ilkesine aykırı bulmuştur. Yerleşik olmayan kişiler için %7 ek vergi başlıklı yazı ilk olarak Jubel'de yayımlanmıştır."
+},
 "021c0a7018": {
 "baslik": "Abdullah Tırpan — Gözaltında Ölen Tutuklular",
 "dil": "diger",
@@ -2056,6 +2061,9 @@
 "11cc3c70be": {
 "dil": "tr"
 },
+"11d33c5417": {
+"dil": "tr"
+},
 "11dcbf4aeb": {
 "baslik": "ABD milletvekilleri Mercedes'in Çin hükümeti bağlantılarını soruşturuyor",
 "dil": "diger",
@@ -2518,6 +2526,11 @@
 "baslik": "Yakın dönem yargı kararlarında aile malvarlığı hukuku: yasal birlikte yaşama",
 "dil": "diger",
 "ozet": "Bu yargı kararları özeti, özellikle yasal birlikte yaşamanın aile malvarlığı hukuku yönleri açısından yenilikleri gündeme getiriyor ve olay incelemesi yöntemiyle perspektif sunuyor. Yazı ilk olarak Jubel'de yayımlandı."
+},
+"156fe1c234": {
+"baslik": "CCBE Pleneri ve Avrupa İnsan Hakları Mahkemesi Yuvarlak Masa Toplantısı Özeti",
+"dil": "diger",
+"ozet": "CCBE Pleneri, 19 Kasım 2026'da Strasbourg'da özel bir program ile gerçekleştirilmiş ve Avrupa İnsan Hakları Mahkemesi'nde yuvarlak masa toplantısı düzenlenmiştir."
 },
 "1573866c9d": {
 "baslik": "Patience Jacob — USCIRF vicdan tutsakları ve din özgürlüğü mağdur veritabanı kaydı",
@@ -3402,6 +3415,11 @@
 },
 "1d22e2b19d": {
 "dil": "tr"
+},
+"1d239a7f2a": {
+"baslik": "Çin Kredi Portföyünün Anatomisi — ICIJ Araştırması",
+"dil": "diger",
+"ozet": "ICIJ'nin Sanayi ve Ticaret Bankası Çin'in yüzlerce kredi taahhütünü analiz ederken öğrendikleri."
 },
 "1d2c07b5f9": {
 "baslik": "İnsan hakları örgütleri Türkiye'nin LGBTQ karşıtı baskısını Washington'da protesto etti",
@@ -4883,6 +4901,10 @@
 "dil": "diger",
 "ozet": "WWF Portugal, AB Temel Haklar Ajansı Temel Haklar Platformu'na kaydedilmiş insan hakları alanında çalışan sivil toplum kuruluşudur."
 },
+"2926d8e6d1": {
+"baslik": "BM Güvenlik Konseyi 10274. Oturumu Resmi Raporu",
+"dil": "diger"
+},
 "2938cbcd12": {
 "baslik": "Silke Van den Eynde — KU Leuven Hukuk Fakültesi doktora savunması",
 "dil": "diger"
@@ -5171,6 +5193,9 @@
 "dil": "tr"
 },
 "2babb8c757": {
+"dil": "tr"
+},
+"2bad0ed917": {
 "dil": "tr"
 },
 "2bb0290419": {
@@ -6716,6 +6741,9 @@
 "dil": "diger",
 "ozet": "Uluslararası Af Örgütü, hükümetin ceza kanununda ölüm cezasının kapsamını genişletecek değişiklikleri incelemesi sırasında, Cezayir yetkilileri ölüm cezasının kapsamını genişletme veya otuz yıldan fazla bir süredir uygulanmayan idam cezalarını yeniden uygulamaya başlama planlarını derhal terk etmesi çağrısında bulunmuştur."
 },
+"391853fc94": {
+"dil": "tr"
+},
 "391c280ffa": {
 "baslik": "Türk komedyeni — başkana hakaret ve dini değerleri küçültme suçundan mahkum, 88 gün gözaltı sonrası serbest bırakılması",
 "dil": "diger",
@@ -7169,6 +7197,11 @@
 },
 "3cacc18dac": {
 "dil": "tr"
+},
+"3cb497a1ec": {
+"baslik": "Bemiddelingsdwang en verzoeningszucht — Jubel Hukuk Makalesi",
+"dil": "diger",
+"ozet": "İnsanlar arabuluculuk yoluyla çatışmalarının çözümünü bulmaya teşvik edilmektedir. Ancak teori ile pratik arasında sık sık bir uçurum bulunmaktadır. Bemiddelingsdwang en verzoeningszucht başlıklı yazı ilk olarak Jubel'de yayımlanmıştır."
 },
 "3cb5e2ec70": {
 "baslik": "WorkFusion, AML ajanlarını ortak tarafından yönetilen hizmetlere açıyor",
@@ -10513,6 +10546,9 @@
 "baslik": "Brava gizliliğinden çıkıyor: yapay zeka ajanları SOC'leri zorlurken 15 milyon dolar",
 "dil": "diger",
 "ozet": "Brava, işletmeler giderek artan sayıda güvenlik kararını hiçbir zaman kanıtlanmamış algılama mantığı üzerine inşa edilen yapay zeka ajanlarına devrederken, tohum finansmanında 15 milyon dolar ile gizliliğinden çıktı. F2 Venture Capital ve Pitango raundi ortaklaşa yönetti. Anthropic, Microsoft ve Check Point'ten yöneticiler de dahil olmak üzere melek yatırımcılar da katıldı..."
+},
+"5902847824": {
+"dil": "tr"
 },
 "590861a4b6": {
 "dil": "tr"
@@ -13915,6 +13951,11 @@
 "dil": "diger",
 "ozet": ""
 },
+"776ec6713b": {
+"baslik": "'Adım Adım Belçika'yı Daha Az Çekici Hâle Getiriyoruz' Diye Açıklama Yaptı Bakan",
+"dil": "diger",
+"ozet": "İnsanları misafir etmek, onları sokağa yatırmaktan daha pahalıya mal olmamaktadır, yazıyor Bieke Purnelle. Ancak bu elbette Sığınma, Göç ve Toplumsal Entegrasyon Bakanı'nın argümanının noktası değildir."
+},
 "777560dd7f": {
 "dil": "tr"
 },
@@ -15705,6 +15746,11 @@
 "baslik": "İtalya Veri Koruma Kurumu Wind Tre'ye Veri Güvenliği Ihlali Nedeniyle 1,7 Milyon Euro Para Cezası Kesti",
 "dil": "diger"
 },
+"86dbd85227": {
+"baslik": "ECB Bankacılık Denetimi 2026 SREP Sonuçlarını ve 2027–2029 Denetim Önceliklerini Yayımladı",
+"dil": "diger",
+"ozet": "ECB, 2026 SREP sonuçlarını ve 2027-29 denetim önceliklerini yayımlamıştır. ECB Bankacılık Denetimi 2026 SREP Sonuçlarını ve 2027–2029 Denetim Önceliklerini Yayımladı başlıklı yazı ilk olarak FMA Avusturya'da yayımlanmıştır."
+},
 "86de88d7a8": {
 "baslik": "Dış uzayın barışçıl kullanımında uluslararası işbirliği :: A/C.4/81/L.7/Rev.1 gözden geçirilmiş taslak kararına yapılan değişiklik",
 "dil": "diger"
@@ -16388,6 +16434,11 @@
 "8c7a713521": {
 "baslik": "Birleşmiş Milletler Genel Kurulunun 82. oturumu için 3. Komite taslak çalışma programı: taslak karar",
 "dil": "diger"
+},
+"8c866a2eaf": {
+"baslik": "AmEx'in 350 milyon dolarlık cezası bankaların göz ardı ettiği AML körlüğünü ortaya çıkardı",
+"dil": "diger",
+"ozet": "Kasım ayı, her finansal suç uyum lideri için endişe verici bir yaptırım ve politika faaliyeti dalgası getirdi. Beş tema öne çıktı: kaçırılan ticari tabanlı kara para aklama (TBML), banka dışı borç verenler nezdindeki zayıf kontroller, kripto-destekli yasa dışı finans, FATF'nin değişen coğrafi risk resmi ve Avrupa'nın..."
 },
 "8c8c95b8b8": {
 "dil": "tr"
@@ -17252,6 +17303,11 @@
 "937c0e861b": {
 "dil": "tr"
 },
+"937f0ea154": {
+"baslik": "Avukat Flor de María Gálvez'in Guatemala'ya dönüşü için tam garantiler çağrısı",
+"dil": "diger",
+"ozet": "Avukat Flor de María Gálvez'in Guatemala'ya dönüşünün ardından, Avukatlar Avukatlar İçin (Lawyers for Lawyers) ve imzacı kuruluşlar bu dönüşün koşulları hakkında endişelerini dile getirmektedir. Guatemala yetkilileri ve özellikle Mültecilere Yardım Yüksek Kurulu'ndan..."
+},
 "937f6d08dd": {
 "dil": "tr"
 },
@@ -17400,6 +17456,9 @@
 "ozet": "Medya Özgürlüğü Hızlı Müdahale (MFRR) ve Güvenli Gazeteciler Ağı (SJN) ortakları, Sırbistan'ın 25 Ekim tarihindeki milletvekili seçimlerinden önceki dönemde, gazetecilere yönelik şiddetin artışı ve medya özgürlüğü çevresi durumundan endişe duymaktadırlar. Sırp yetkilileri gazetecilerin ve medya kuruluşlarının güvenliğini ve özgürlüğünü garantilemek için çağrıda bulunmaktadırlar."
 },
 "94a5fe5af2": {
+"dil": "tr"
+},
+"94aec18697": {
 "dil": "tr"
 },
 "94b0411503": {
@@ -17784,6 +17843,11 @@
 "baslik": "Büyük dava Balkan uyuşturucu kaçakçılığı ağlarını Güney Afrika'da ortaya çıkarabilir",
 "dil": "diger",
 "ozet": "Yayın, Global Initiative tarafından ilk olarak yayınlanmıştır."
+},
+"97a4f24e26": {
+"baslik": "New York Başsavcısı Yapay Zeka Risklerine Karşı Yaptırım İçin Yapay Zeka İcra Birimi Kurdu",
+"dil": "diger",
+"ozet": "New York başsavcısı, New York sakinlerini yapay zekanın potansiyel tehlikelerinden korumak için yeni bir birim kurmuştur. New York Başsavcısı Yapay Zeka Risklerine Karşı Yaptırım İçin Yapay Zeka İcra Birimi Kurdu başlıklı yazı ilk olarak Compliance Week'te yayımlanmıştır."
 },
 "97ad402270": {
 "baslik": "\"Kimlik avı Kurbanları İçin Devrim\": Bankalar Parayı Hemen İade Etmeli, Sonra Suçluluğu Araştırmalı",
@@ -19111,6 +19175,11 @@
 "dil": "diger",
 "ozet": "Zola Ferreira Bambi, 2025 Lawyers for Lawyers Ödülü sırasında. Lawyers for Lawyers (L4L) ve International Observatory of Lawyers at Risk (OIAD), avukat Zola Ferreira Bambi'nin hayatına yönelik yakın zamanda yapılan bir tehdit sonrasında, Bambi'nin güvenliği konusunda derin endişelerini dile getirmektedir. Tehdidi çevreleyen koşullar belirsiz kalmaktadır."
 },
+"a2850b4722": {
+"baslik": "Birleşik Krallık'ın Tüm Seçenekleri Aynı Yöne İşaret Ediyor",
+"dil": "diger",
+"ozet": "Genişleme, Birlik için olduğu kadar Birleşik Krallık için de jeopolitik bir gereklilik hâline gelmiştir."
+},
 "a288739b62": {
 "baslik": "Miami ABD savcısı, Ulusal Güvenlik Dairesi müdürü artan seçim kayıtlarında istifa ettiler",
 "dil": "diger",
@@ -19276,6 +19345,10 @@
 },
 "a3fbbef454": {
 "baslik": "Çocuk Hakları Sözleşmesinin İletişim Prosedürü Opsiyonel Protokolü uyarınca Komite tarafından kabul edilen görüşler — 193/2022 numaralı iletişim",
+"dil": "diger"
+},
+"a40bb039b6": {
+"baslik": "Global Investigations Review — GIR 100 2026 Giriş",
 "dil": "diger"
 },
 "a4187b98ce": {
@@ -19454,6 +19527,11 @@
 "dil": "diger",
 "ozet": "Young Educators - European Network, AB Temel Haklar Ajansı Temel Haklar Platformu'na kaydedilmiş insan hakları alanında çalışan sivil toplum kuruluşudur."
 },
+"a59070f053": {
+"baslik": "Yayında: GIR 100 2026",
+"dil": "diger",
+"ozet": "GIR 100'ün en son baskısı çevrimiçi yayında. Bu yılın rehberi hemen hemen her kıtadan yeni katılımcılara yer vermektedir."
+},
 "a59de0f0a6": {
 "baslik": "OCC'nin 350 milyon dolarlık Amex cezası AML'nin hala ABD önceliği olduğunu gösteriyor",
 "dil": "diger",
@@ -19485,6 +19563,11 @@
 "baslik": "Gazetecileri Koruma Komitesi, Gazeteci Derya Okatan'ın Serbest Bırakılmasını ve Delillerin Adli Tıp İncelemesini Talep Etti",
 "dil": "diger",
 "ozet": "Gazetecileri Koruma Komitesi (CPJ), Salı günü Türk yetkilileri gazeteci Derya Okatan'ı derhal serbest bırakmaya ve dosyasının merkezinde yer alan sabit diskinin gerekli şekilde adli tıp incelemesini yapmaya çağırarak, onun yargılanmasının beklemede tutulması için kullanılan delillerin zayıf olduğunu belirtmiştir."
+},
+"a5eeea6527": {
+"baslik": "Uluslararası Adalet Divanı Myanmar'ın Rohingya Soykırımı Yaptığını Buldu",
+"dil": "diger",
+"ozet": "(La Haye) — Uluslararası Adalet Divanı (UAD), Myanmar'ın Rohingya Soykırımı yaptığını belirleyen tarihi kararı..."
 },
 "a6024a55e2": {
 "baslik": "Orantılılık ve İhtiyat İlkesi Arasında Sıkışmış: İnovasyon İlkesi ve Gerileme Yasağı İlkesi",
@@ -20228,6 +20311,11 @@
 "baslik": "\"Ama Mahkeme Sadece Bir Mahkeme Olduğu Halde\"",
 "dil": "diger",
 "ozet": "Uluslararası hukuka herkese ilgi gösterildiği, ancak tam da en çok gerekli olduğu zaman uygulanamaz kaldığı bir durumu tolere etmemeliyiz. Sakin kalıp devam etmek, sadece dünya için neyin arzu edilir olduğuna değil, aynı zamanda burada ve şimdi bu tür arzuların nasıl gerçekleştirilebileceğine ilişkin gözümüzü açık tutmak anlamına gelmelidir. Eğer..."
+},
+"ad47cbd810": {
+"baslik": "2026 GIR Ödülü Sahipleri Açıklandı",
+"dil": "diger",
+"ozet": "Fransa ve Birleşik Krallık'tan avukatlar ve savcılar yıllık törenin takdir edilmesi, Washington, DC'de bir smokin davetinde ödüller kazanmışlardır."
 },
 "ad4dbfe108": {
 "baslik": "Panamá ve Kosta Rika'nın cezai pazarları, kurumları ve tepkileri",
@@ -21317,6 +21405,11 @@
 "b735a6994b": {
 "dil": "tr"
 },
+"b748518540": {
+"baslik": "ECI Compliance Week Aylık Üyelik Spotu: Etkili Yapay Zeka Yönetişimi",
+"dil": "diger",
+"ozet": "Yapay zeka çok sayıda demonsrasyonu, iddiası ve yeni terminolojiyi beraberinde getirmiştir. Ancak ilk deneyim dalgasından sonra, TPRM ekiplerinin daha faydalı bir konuşmaya ihtiyacı bulunmaktadır: Aslında ne işe yarıyor? ECI Compliance Week Aylık Üyelik Spotu: Etkili Yapay Zeka Yönetişimi başlıklı yazı ilk olarak Compliance Week'te yayımlanmıştır."
+},
 "b74c9e430f": {
 "baslik": "FMA Coinmindz'in tekliflerine karşı uyarıyor",
 "dil": "diger",
@@ -21853,6 +21946,9 @@
 "baslik": "Bangladeş: Akademisyenler Haşina Desteği Nedeniyle Hedef Alındığı İddiası",
 "dil": "diger",
 "ozet": "Bangladeş'teki devlet üniversitelerindeki düzinelerce akademisyen ve öğrenci eski hükümdara Şeyh Haşina'ya ve onun Avami Ligi Partisi'ne olan iddia edilen bağlantıları nedeniyle keyfi cezaya çarptırılmışlardır."
+},
+"bc1efd5100": {
+"dil": "tr"
 },
 "bc3b3fec41": {
 "baslik": "ICIJ'ye Bağış Yapın",
@@ -24919,6 +25015,11 @@
 "d6bdec69ec": {
 "dil": "tr"
 },
+"d6c3d4778c": {
+"baslik": "Nepal: Kapsamlı Barış Anlaşması'ndan Yirmi Yıl Sonra Mağdurlar ve Hayatta Kalanlar Hâlâ Adalet İçin Beklemektedir",
+"dil": "diger",
+"ozet": "Cenevre, 20 Kasım 2026 — Nepal'in Kapsamlı Barış Anlaşması'nın (CPA) imzalanmasının yirminci yıldönümünü kutlanırken, Uluslararası Hukukçular Komisyonu (ICJ), Nepal Hükümeti'nden CPA'dan kaynaklanan vaatleri nihayet yerine getirmesini ve özellikle mağdurlara yönelik uzun süreli taahhütlerini..."
+},
 "d6e0b3154b": {
 "baslik": "Gizli belgeler Türkiye'nin Gülen tasfiyesinin çocukları üniversiteye kadar takip ettiğini ortaya koymaktadır",
 "dil": "diger",
@@ -25740,6 +25841,11 @@
 "dil": "diger",
 "ozet": "Birleşik Krallık'ın finansal hizmetler düzenleyicisi Finansal İletişim Otoritesi (FCA), çevre, sosyal ve yönetim (ESG) derecelendirme sağlayıcılarını ilk kez gözetimi altına alan kuralları kesinleştirmiştir. Bu pazardaki şirketler 24 Haziran 2027'den itibaren FCA'dan yetkilendirme talep etmek zorunda kalacaklardır."
 },
+"ddd0ed96c1": {
+"baslik": "Neden Kurgusal Edebi Eserleri Okumak İlahiyatçılar İçin Faydalıdır — Jubel Makalesi",
+"dil": "diger",
+"ozet": "Kurgusal edebiyat belki de doğrudan hukuki bilgi vermese de, hukuk profesyonelleri için çıkaracak çok şey bulunmaktadır. Neden Kurgusal Edebi Eserleri Okumak İlahiyatçılar İçin Faydalıdır başlıklı yazı ilk olarak Jubel'de yayımlanmıştır."
+},
 "ddd996bdca": {
 "baslik": "Parastoo Hakim — USCIRF Din Özgürlüğü Mağdur Kaydı",
 "dil": "diger",
@@ -26051,6 +26157,11 @@
 "baslik": "Maden faciası kurbanının babası eski Başbakan hakkındaki eleştirisi nedeniyle polise çağrıldı",
 "dil": "diger",
 "ozet": "2024 yılında doğu Türkiye'de altın madeni felaketinde ölen işçi Uğur Yıldız'ın babası Ali Ekber Yıldız, eski Başbakan Binali Yıldırım'ı kamu açıklamasında eleştirdiği için sorgulanmak üzere polise çağrıldı."
+},
+"e0133306f2": {
+"baslik": "Türkiye'de Mahkûmların Yaklaşık Yarısı Uyuşturucu Suçlarından Yatırken Ölümler Artıyor ve Kaçakçılık Yayılıyor",
+"dil": "diger",
+"ozet": "Levent Kenez/Stockholm — Uyuşturucu suçlarından hükûm giyen kişiler, aynı zamanda uyuşturucu ölümlerinde keskin bir artış ve sentetik ilaçların giderek artan varlığını belgelendiren bir hükümet raporuna göre Türkiye'nin cezaevleri nüfusunun yaklaşık yarısını oluşturmaktadır. Bulgular, yıllar süren polis baskınları ve artan hükümet..."
 },
 "e01c36b465": {
 "dil": "tr"
@@ -27453,6 +27564,9 @@
 "dil": "diger",
 "ozet": "Hollanda Savcılık Hizmetinin liderliği, önerilen yeni mevzuat hakkında bir raporda, potansiyel olarak gizli materyalin filtrelenmesine yargıçsal müdahalenin aşırı yüklenmesinin karmaşık kurumsal kovuşturmaları bir yıldan fazla geciktirdiğini belirtmiştir."
 },
+"eb4c6d3da4": {
+"dil": "tr"
+},
 "eb5d2386c6": {
 "dil": "tr"
 },
@@ -27570,10 +27684,16 @@
 "dil": "diger",
 "ozet": "İkincil tema İltica Düzensiz göç, geri dönüş ve göçmen gözaltısı AB Temel Haklar Şartı Başlık I: Onur Madde 4 - İşkenceye ve insanlık dışı ya da aşağılayıcı muamele ya da cezaya karşı yasak Başlık II: Özgürlükler Madde 19 - Geri gönderme, sınır dışı etme veya iadede koruma."
 },
+"ec74a2232d": {
+"dil": "tr"
+},
 "ec7c05458e": {
 "baslik": "Fransa, İran'a karşı hızlı AB yaptırımları için çağrıda bulunuyor",
 "dil": "diger",
 "ozet": "Fransız Dışişleri Bakanı Jean-Noël Barrot \"Meslektaşlarıma ispat sağlamak için burada bulundum\" diyor."
+},
+"ec7f543ed0": {
+"dil": "tr"
 },
 "eca2ad1c79": {
 "baslik": "Trump Döneminde Küresel Yolsuzlukla Mücadele Çabalarının Geleceğine İlişkin Beş Soru",
@@ -27641,6 +27761,9 @@
 "baslik": "Eski riskler yeni dijital pazar içinde gizli kalabilir",
 "dil": "diger",
 "ozet": "Tahmin piyasaları, tokenleştirilmiş menkul kıymetler ve dijital varlıklar çalışanları yatırım yapmak için daha birçok yol sağlarken, birçok uyum çerçevesi buna ayak uyduramıyor. Mekanlar yeni olsa da, arkasındaki davranış riskleri büyük ölçüde tanıdıktır ve bu da kurumları gözetimde rahatsız edici boşluklar bırakmaktadır."
+},
+"ed3e3ac0b4": {
+"dil": "tr"
 },
 "ed541c6028": {
 "baslik": "WWW: Sayı 26-13",
@@ -27893,6 +28016,11 @@
 "eefa88b3ac": {
 "dil": "tr"
 },
+"eefb08a038": {
+"baslik": "ECLI:NL:RBDHA:2026:34372 — Den Haag Bölge Mahkemesi kararı",
+"dil": "diger",
+"ozet": "İltica; takip eden BNT; PKV"
+},
 "eefbaaca75": {
 "baslik": "MANOLO Innovation Lab — KU Leuven Hukuk Fakültesi etkinlik duyurusu",
 "dil": "diger"
@@ -27961,6 +28089,9 @@
 "baslik": "Mali suçlar: arıkovanı korumak",
 "dil": "diger",
 "ozet": "Mali Davranış Otoritesi (FCA) İcra Müdürü Steve Smart'ın Hukuk Derneği Ekonomik Suçlarla Mücadele Konferansı 2026'de yaptığı konuşma. Giriş: Birkaç hafta önce, İngiltere Merkez Bankası Müzesi'ni mali suçlarla ilgili yeni bir sergiye bakmaya ziyaret ettim. Banknotlar ve altın çubukları beklemişim – ama arıları gördüm. Altın yerine, bir..."
+},
+"efc5fc4eb7": {
+"dil": "tr"
 },
 "efc7d0035e": {
 "baslik": "Psikiyatrik Bakım Sağlamak Bunu Dayatmaya Meşruiyet Vermez: Spivak, Albertani ve Andrea Ciotta'nın AİHM'nin ruh sağlığı davalarına Katkıları",
