@@ -1,95 +1,45 @@
 {
- "gun": "2026-11-20",
- "olusturma": "2026-11-20T18:58+00:00",
+ "gun": "2026-11-21",
+ "olusturma": "2026-11-21T09:15+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-20:ABD yaptırımının ardından Al-Haq direktörüne Schengen vizesi",
-   "tur": "öncelikli alan",
-   "duzey": "orta",
-   "baslik": "ABD yaptırımının ardından Al-Haq direktörüne Schengen vizesi reddi ve İsrail'in seyahat yasağı",
-   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
-   "not": "ICJ, Al-Haq direktörü Shawan Jabarin'in 13 Kasım 2026'da Ürdün'e gidişinin engellendiğini ve seyahat yasağı konulduğunu bildiriyor. Kayıt ayrıca ABD'nin 4 Eylül 2025'te uyguladığı yaptırımın ardından kendisine AB Schengen ve Fransa ulusal vizelerinin reddedildiğini aktarıyor. Üçüncü ülke yaptırım listesine girmenin AB üyesi devletlerin vize kararlarına yansıması, merkezin yaptırım listeleri dosyasında izlenen dolaylı etki mekanizmasının somut bir örneği.",
+   "id": "takip:2026-11-21:t91",
+   "tur": "dosya kapandı",
+   "duzey": "yüksek",
+   "baslik": "t91",
+   "alan": "",
+   "not": "Kayıt, Abdullah Tırpan'ın 26 Ekim'de hayatını kaybettiğini, ölümünden dört gün önce sol bacağının diz altından ampute edildiğini ve sağlık gerekçeli tahliye taleplerinin karşılanmadığını bildiriyor. Takip maddesi bu bilgiyle kapanıyor; mahpus sağlığı dosyası Özönder üzerinden sürüyor.",
    "kayitlar": [
-    "ba1787dcb8"
+    "f196c520d2"
    ],
-   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+   "neden": "İzlenen bir dosya kapandı."
   },
   {
-   "id": "karar:001-253529",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Bulut v. Türkiye: tutuklamada makul şüphe bulunmaması nedeniyle md. 5/1 ihlali",
-   "alan": "md. 5, 5-1, 5-1-c",
-   "not": "İkinci Daire, Komite olarak oybirliğiyle, başvurucunun ilk tutukluluğu sırasında suç işlediğine dair makul şüphe bulunmaması nedeniyle md. 5/1'in ihlal edildiğine karar verdi. Md. 5 altındaki diğer şikâyetlerin kabul edilebilirliğini ve esasını, Turan ve diğerleri (§ 98) değerlendirmesi uyarınca incelemeye gerek görmedi. Başvurucunun 144.000 avro manevi ve 44.465 avro maddi tazminat talebi karşısında maddi tazminat talepleri reddedildi; manevi tazminat, masraf ve giderleri kapsayan toplu 5.000 avro, üç ay içinde ödenmek üzere hükmedildi.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-253530",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Akgül v. Türkiye: tutukluluğun kanunda öngörülen usule uygun olmaması nedeniyle md. 5/1 ihlali",
-   "alan": "md. 5, 5-1",
-   "not": "Mahkeme oybirliğiyle, başvurucunun ilk tutukluluğunun hukuka aykırılığı nedeniyle md. 5/1'in ihlal edildiğine karar verdi; 2802 sayılı Kanun'un sağladığı güvencelerden yoksun bırakılmanın belirleyici olduğunu, Baş ve Turan ve diğerleri bulguları ışığında tutukluluğun kanunda öngörülen usule uygun gerçekleşmediğini belirtti. Hükümetin md. 15 derogasyonu talebi karşısında, darbe girişiminin bağlamsal bir etken olduğunu kabul etmekle birlikte tedbirin durumun gerektirdiği ölçüde zorunlu sayılamayacağını söyledi. Başvurucu süresi içinde adil tazmin talebi sunmadığı için tazminata hükmedilmedi.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-253531",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Bakırcı ve diğerleri v. Türkiye: üç başvuruda makul şüphe yokluğundan md. 5/1 ihlali",
-   "alan": "md. 5, 5-1, 5-1-c",
-   "not": "Mahkeme başvuruları birleştirdi ve oybirliğiyle, başvurucuların ilk tutukluluğu sırasında suç işlediklerine dair makul şüphe bulunmaması nedeniyle md. 5/1'in ihlal edildiğine karar verdi. 49485/20 ve 9797/21 sayılı başvurulardaki maddi tazminat talepleri Turan ve diğerleri (§§ 102-107) gerekçesiyle reddedildi. Her bir başvurucuya manevi tazminat ile masraf ve giderleri kapsayan 5.000 avro, üç ay içinde ödenmek üzere hükmedildi.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-253532",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Peksak v. Türkiye: cezaevinde mektuba el konulması nedeniyle md. 8 ihlali",
-   "alan": "md. 8, 8-1",
-   "not": "Mahkeme, başvurucuya gönderilen ilk mektup bakımından başvuruyu kabul edilebilir, ikinci mektup bakımından kabul edilemez buldu ve ilk mektup yönünden md. 8'in ihlal edildiğine oybirliğiyle karar verdi; yazışmanın izlenmesi ve el konulmasının kötüye kullanıma karşı gerekli güvencelerle çevrili olmadığını, dolayısıyla müdahalenin md. 8/2 anlamında 'demokratik bir toplumda gerekli' sayılamayacağını belirtti (Eylem Kaya, §§ 47-48). Manevi tazminat bakımından ihlal tespitinin kendisinin yeterli adil tazmin oluşturduğuna hükmetti; 50.000 avroluk talebe karşılık yalnızca 250 avro masraf ve gider ödenmesine karar verdi.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "karar:001-253534",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Şerafettin Can Atalay v. Türkiye: AYM kararlarının uygulanmaması nedeniyle md. 5/1, 5/4, P1-3 ve 18 ihlalleri",
-   "alan": "md. 5, 5-1, 5-1-a, 5-4, P1-3, 18, 46, 46-2, 41",
-   "not": "Karar metninin başlık bölümünde, milletvekili seçilmesine ve AYM'nin lehine verdiği ihlal kararlarına rağmen Yargıtay'ın tahliye talebini reddetmesiyle süren tutukluluğun ne 'hukuki' ne de 'kanunda öngörülen usule uygun' olduğu; AYM kararlarının uygulanmamasından doğan durumun md. 5/4 anlamında tutukluluğun hukukiliği denetiminden yoksun bırakma oluşturduğu belirtiliyor. Mahkeme, AYM önündeki bireysel başvurunun md. 5/4 anlamında bir denetim sağlamadığı yönündeki tespitini somut olayın özel koşullarıyla sınırlı tuttuğunu vurguluyor. Karşı oy yazan yargıç md. 18 ve md. 46 bulgularına katılmıyor; Merabishvili (§§ 309-17) ölçütleri uyarınca gizli amacın makul şüphenin ötesinde kanıtlanmadığını, iki mahkeme arasındaki yorum farkının tek başına art niyet göstermeyeceğini belirtiyor.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-11-20:toplu:11",
+   "id": "takip:2026-11-21:toplu:15",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "11 takip dosyasında hareket var",
+   "baslik": "15 takip dosyasında hareket var",
    "alan": "",
-   "not": "17 Kasım 2026 sabahı İzmir merkezli operasyonlarda gözaltına alınan av; 17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bak; Şerafettin Can Atalay v. Türkiye (11503/24) kararının icrası: tahliye,; PKK/KCK'ya ilişkin özel yasa iddiası ve Bakanlar Komitesi'nin Demirtaş; \"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapa; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; 19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un ; Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ; Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çar; EDPB'nin Güney Kore yeterlilik kararı incelemesine ilişkin beyanı, BCR; Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik be",
+   "not": "17 Kasım 2026 sabahı İzmir merkezli operasyonlarda gözaltına alınan av; Ankara Başsavcılığı'nın \"evlilik ayarlama\" iddiasına dayanan Gülen sor; Ağır hasta mahpuslar için Adalet Bakanlığı önünde başlatılan günlük pr; Süleyman Kul ve İlhan Akıllı kararı: uzun süreli tecritte md. 3 ihlali; CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 ; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; Şerafettin Can Atalay v. Türkiye (11503/24) kararının icrası: tahliye,; 17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bak; Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararlar; AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; 19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un ; BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve; UPR mekanizmasıyla işbirliğini sürdürmeme: ABD'nin ikinci kez katılmam; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltic",
    "kayitlar": [
-    "5a01e23ffc",
-    "001-253529",
-    "001-253530",
-    "001-253531",
-    "001-253532",
-    "001-253534",
-    "e87e5f9c46",
-    "2cd57e8c94"
+    "367264327f",
+    "4117b4c935",
+    "70db1b4271",
+    "f196c520d2",
+    "d7b4ed3627",
+    "ba6acbbb82",
+    "d7b4ed3627",
+    "001-253534"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-20:16",
+   "id": "saglik:2026-11-21:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "16 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Opinio Juris, CİSST, ENNHRI, European Center for Not-for-Profit Law - ECNL, Diken…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye, MENAFATF…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
