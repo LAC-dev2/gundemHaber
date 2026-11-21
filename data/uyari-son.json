@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-21",
- "olusturma": "2026-11-21T10:31+00:00",
+ "olusturma": "2026-11-21T12:08+00:00",
  "uyarilar": [
   {
    "id": "takip:2026-11-21:t91",
@@ -34,12 +34,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-21:28",
+   "id": "saglik:2026-11-21:14",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "28 kaynağın akışı hata veriyor",
+   "baslik": "14 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: OHCHR Türkiye, Human Rights Watch - Türkiye, FIDH - Türkiye, RTÜK Üst Kurul Kararları, İHD Hapishaneler Komisyonu, ENNHRI…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
