@@ -1065,7 +1065,7 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Yayının kendisinin gözaltı sebebi yapılması, merkezin ifade özgürlüğü dosyalarında ayrı bir kalem; gözaltıların hukuki nitelemesi ve avukata erişim henüz bilinmiyor.",
    "acildi": "2026-09-20",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-07",
    "kayitlar": [
     "e7200a4c4a"
@@ -1085,7 +1085,9 @@
       "3fa2b40950"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-22",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t21",
@@ -3072,7 +3074,7 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Kayda göre bir muhabirin görüntüleri basına ulaştırma çabası isnadın unsuru olarak sunuluyor; haber kaynağı ve materyal aktarımının suçlama konusu yapılması izlenmesi gereken bir örüntü.",
    "acildi": "2026-10-01",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-07",
    "kayitlar": [
     "ef7b4d5c8a"
@@ -3085,7 +3087,9 @@
       "3fa2b40950"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-22",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t64",
@@ -3522,12 +3526,14 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "Mahkeme, AYM'nin ihlal tespiti ve tazminatına rağmen soruşturmanın yeniden açılmamasının yeterli giderim sayılıp sayılmayacağını doğrudan sormuş görünüyor; bu soru merkezin iç hukukta ihlal kararlarının uygulanmaması dosyalarıyla aynı eksende. Hükümetin yanıtı ve kabul edilebilirlik aşaması izlenmeli.",
    "acildi": "2026-10-07",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-07",
    "kayitlar": [
     "ca790d5fe8"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-22",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t82",
@@ -3605,12 +3611,14 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "neden": "Beyan mahkeme tutanağına girmiş olarak aktarılıyor; kötü muamele iddialarının yargılama kaydına geçmesi, md. 3 ve delil kullanımı tartışmalarında izlenmesi gereken bir adım.",
    "acildi": "2026-10-07",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-07",
    "kayitlar": [
     "48e2e9153d"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-22",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t85",
@@ -4707,12 +4715,20 @@
    "neden": "Kayıtlar başlık düzeyinde olsa da, çerçevenin 'devlet politikası' olarak adlandırılması ve valiler üzerinden yürütülmesi, merkezin terör isnatlı soruşturma ve icra dosyalarında (özellikle t21 ve t16) idari uygulama tarafını etkileyebilir. Çerçevenin içeriğinin yayımlanıp yayımlanmayacağı izlenmeli.",
    "acildi": "2026-10-18",
    "durum": "açık",
-   "son_hareket": "2026-10-18",
+   "son_hareket": "2026-11-22",
    "kayitlar": [
     "e39529e2c8",
     "46edd48883"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-22",
+     "not": "İçişleri Bakanlığı'ndan 'Terörsüz Türkiye Stratejik Bir Devlet Projesidir' başlıklı yeni bir açıklama geldi. Kayıtta yalnızca başlık var; içeriği, idari yapıya ilişkin bir adım içerip içermediği belirlenemiyor.",
+     "kayitlar": [
+      "7bd9292b00"
+     ]
+    }
+   ]
   },
   {
    "id": "t122",
@@ -5667,7 +5683,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-20",
+   "son_hareket": "2026-11-22",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5758,6 +5774,13 @@
      "kayitlar": [
       "673dd445f6",
       "ec74a2232d"
+     ]
+    },
+    {
+     "gun": "2026-11-22",
+     "not": "'Yargı Harçları' başlıklı Resmî Gazete kaydı tekrar geldi; 1 Kasım'dan bu yana üçüncü kez içeriği belirlenemeyen bir başlık olarak görünüyor.",
+     "kayitlar": [
+      "673dd445f6"
      ]
     }
    ]
@@ -6534,7 +6557,7 @@
    "neden": "Mahkeme, mesleki faaliyet kapsamındaki basın açıklamaları ve cenaze katılımına dayanan terör propagandası isnadını esastan incelemeden düşürdü; sanıkların beraat talebi karşılanmadı. İsnadın hukuki niteliği karara bağlanmadığı için benzer dosyalarda aynı delil anlatımı kullanılmaya devam edebilir.",
    "acildi": "2026-11-13",
    "durum": "açık",
-   "son_hareket": "2026-11-14",
+   "son_hareket": "2026-11-22",
    "kayitlar": [
     "d2efc27fbb"
    ],
@@ -6544,6 +6567,13 @@
      "not": "Lawyers for Lawyers'ın duruşma gözlem notu, 7 Ekim 2026 tarihli beşinci duruşmada mahkemenin yeni başkanla toplandığını, savcının önceki görüşünü değiştirerek altı sanığın tamamı için zamanaşımı talep ettiğini ve 15 dakikalık aradan sonra düşme kararı verildiğini kaydediyor. Savunma, esastan beraat talep etmişti; Kozağaçlı, Timtik, Aslan ve Yılmaz'ın tutukluluğu sürüyor.",
      "kayitlar": [
       "d2efc27fbb"
+     ]
+    },
+    {
+     "gun": "2026-11-22",
+     "not": "TBB açıklaması, ÇHD bağlantısını İzmir şube sekreteri Veysi Çetin üzerinden yeniden kuruyor; ÇHD-3 dosyasına ilişkin yeni usul adımı bildirilmiyor.",
+     "kayitlar": [
+      "d7300ff491"
      ]
     }
    ]
@@ -6943,7 +6973,7 @@
    "neden": "Lawyers for Lawyers ve imzacı kuruluşlar gözaltıları kınayıp serbest bırakılma çağrısı yaptı; mesleki faaliyet nedeniyle avukat gözaltısı merkezin avukat hakları dosyalarıyla doğrudan bağlantılı. Gözaltıların isnadı ve sevk sonuçları kayıtlarda yok.",
    "acildi": "2026-11-19",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-22",
    "kayitlar": [
     "4117b4c935"
    ],
@@ -6961,6 +6991,14 @@
      "kayitlar": [
       "367264327f",
       "4117b4c935"
+     ]
+    },
+    {
+     "gun": "2026-11-22",
+     "not": "Türkiye Barolar Birliği, İzmir'de dört avukatın tutuklanması kararını kınadı; açıklamada hâkimin somut suç delili göstermediği ve her avukat bakımından kişiselleştirilmiş gerekçe yazmadığı ileri sürülüyor. Kayıt, tutuklananları Veysi Çetin, Yemen Cankan, Erdoğan Akdoğdu ve Bahattin Özdemir, adli kontrolle bırakılanları Emrah Kanbay ve Göksel Akbaba olarak veriyor ve Çetin'in ÇHD İzmir şube sekreteri olduğunu belirtiyor.",
+     "kayitlar": [
+      "d7300ff491",
+      "367264327f"
      ]
     }
    ]
@@ -6999,7 +7037,7 @@
    "neden": "Kayıt yalnızca başlık düzeyinde; son haftalarda yayımlanan 7595, 7596 ve 7597 sayılı kanunlar merkezin dosyalarıyla kesiştiği için bu metnin de içeriğinin belirlenmesi gerekiyor.",
    "acildi": "2026-11-19",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-22",
    "kayitlar": [
     "116facc78c"
    ],
@@ -7014,6 +7052,13 @@
     {
      "gun": "2026-11-21",
      "not": "7531 sayılı Kanun Resmî Gazete akışında yeniden görünüyor; kayıtta yalnızca başlık var, içerik hâlâ belirlenemedi.",
+     "kayitlar": [
+      "116facc78c"
+     ]
+    },
+    {
+     "gun": "2026-11-22",
+     "not": "Resmî Gazete akışında 7531 sayılı Kanun'a ilişkin yeni bir kayıt daha düştü; kayıt yine başlık düzeyinde olduğu için kanunun kapsamı doğrulanamıyor.",
      "kayitlar": [
       "116facc78c"
      ]
@@ -7106,11 +7151,20 @@
    "neden": "Tırpan dosyasının ölümle kapanmasının ardından aynı yaş ve sağlık profilinde ikinci bir dosya; ATK/sağlık kurulu değerlendirmelerinin tahliye taleplerine etkisi burada da sınanacak.",
    "acildi": "2026-11-21",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-22",
    "kayitlar": [
     "f196c520d2"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-22",
+     "not": "Solidarity with OTHERS, Mustafa Özönder'i ağır hasta mahpuslar serisine aldı; dosya böylece Türkiye dışı bir izleme kuruluşunun yayınına girdi. Kayıt yalnızca başlık ve kısa duyuru düzeyinde; yeni tıbbi belge ya da mahkeme kararı bildirilmiyor.",
+     "kayitlar": [
+      "52cf67551e",
+      "f196c520d2"
+     ]
+    }
+   ]
   },
   {
    "id": "t241",
@@ -7124,8 +7178,21 @@
     "fbe245e768"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t242",
+   "baslik": "INTERPOL kırmızı bültenle aranan M.O.'nun Büyükçekmece'de yakalanması ve bunu izleyecek iade usulü",
+   "alan": "INTERPOL bildirimleri ve kırmızı bülten",
+   "neden": "Kayıt, Danimarka başta olmak üzere Avrupa ülkelerindeki suç isnatlarına dayanan bir kırmızı bültenin Türkiye'de icra edildiğini bildiriyor; bültenin hangi ülkenin talebiyle çıktığı ve iade/geri verme adımı izlenmeli. Merkezin kırmızı bülten dosyalarında Türkiye'nin talep eden değil icra eden taraf olduğu örnekler sınırlı.",
+   "acildi": "2026-11-22",
+   "durum": "açık",
+   "son_hareket": "2026-11-22",
+   "kayitlar": [
+    "0308e9602f"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-21T09:15+00:00",
- "acik": 200
+ "guncelleme": "2026-11-22T09:20+00:00",
+ "acik": 197
 }
