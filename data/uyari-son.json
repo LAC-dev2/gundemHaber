@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-23",
- "olusturma": "2026-11-23T11:37+00:00",
+ "olusturma": "2026-11-23T14:03+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-23:Birleşik Krallık İçişleri Bakanlığı Manş geçişlerine yönelik",
@@ -40,7 +40,7 @@
    "duzey": "yüksek",
    "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, CCBE Human Rights Letters, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
