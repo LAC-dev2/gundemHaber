@@ -1687,7 +1687,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-11-19",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1890,6 +1890,14 @@
      "kayitlar": [
       "9bf6ff538f",
       "4b359ffc4f"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "MLSA'nın 16-22 Kasım bülteni, engellenen hesaplar arasında ekonomist Nazır Kapusuz'u ve karayolu ücret/cezalarına ilişkin paylaşımlarıyla bilinen avukat Yunus Ari'yi sayıyor; 'fon krizi' içerikli paylaşımlar da engellenenler arasında. Kararların mercii, numarası ve hukuki dayanağı açıklanmamış.",
+     "kayitlar": [
+      "c7f5fa45c3",
+      "3f18d277f7"
      ]
     }
    ]
@@ -2262,7 +2270,7 @@
    "neden": "İFÖD, yatırım ve portföy yönetim şirketleri ile yönetici/ortaklarının tanınan isimlerle bağlantısına dair haberlerin engellendiğini bildirdi; engelin haber içeriğine yönelmesi, hesap engellerinden ayrı bir hat oluşturuyor.",
    "acildi": "2026-09-25",
    "durum": "açık",
-   "son_hareket": "2026-11-17",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "b290622139"
    ],
@@ -2401,6 +2409,13 @@
      "kayitlar": [
       "4c95d40660"
      ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "MLSA bülteni, COP31 sırasında 'fon krizi' ile ilgili içeriklere yönelik engellemelerin sürdüğünü bildiriyor; dayanak ve karar numarası açıklanmamış.",
+     "kayitlar": [
+      "c7f5fa45c3"
+     ]
     }
    ]
   },
@@ -2536,7 +2551,7 @@
    "neden": "Ulusoy hesabında engel kararı 21 Eylül, platform uygulaması 26 Eylül; karar ile uygulama arasındaki gecikme ve platformun rolü ayrı bir veri hattı oluşturuyor.",
    "acildi": "2026-09-27",
    "durum": "açık",
-   "son_hareket": "2026-11-17",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "cbac04a267",
     "0148433813"
@@ -2685,6 +2700,14 @@
      "not": "EngelliWeb, son bir haftada en az 521 X hesabının engellendiğini ve hesapların büyük kısmının X tarafından Türkiye'den görünmez kılındığını bildiriyor. Görünmez kılma pratiği bu kayıtta yine engelleme kararıyla birlikte anılıyor; zamanlamaya ilişkin ayrıntı verilmiyor.",
      "kayitlar": [
       "4c95d40660"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "Bülten, engellenen en az 521 X hesabının çoğunun 'Türkiye'den erişime kapatma' biçiminde uygulandığını yineliyor; mercii ve dayanak yine açıklanmamış.",
+     "kayitlar": [
+      "c7f5fa45c3",
+      "3f18d277f7"
      ]
     }
    ]
@@ -3626,12 +3649,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Karar, md. 2 ve 3 şikâyetlerini esastan incelemeden kayıttan düşürüyor; giderim tamamen hükümetin iki taahhüdüne bağlı. Taahhüdün fiilen uygulanıp uygulanmadığı izlenmeden dosya kapanmış sayılamaz.",
    "acildi": "2026-10-08",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-08",
    "kayitlar": [
     "001-253054"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-23",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t86",
@@ -4975,7 +5000,7 @@
    "neden": "Düzenleyici kurum eski yöneticisinin şikâyetinin tutuklamaya dönüşmesi, dezenformasyon maddesinin kurum eleştirisine uygulanmasına örnek oluşturuyor; iddianame ve ilk duruşma tarihi henüz bilinmiyor.",
    "acildi": "2026-10-22",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "668c049906"
    ],
@@ -4985,6 +5010,14 @@
      "not": "Ankara 32. Asliye Ceza Mahkemesi, tutuklu gazeteci İsmail Arı hakkındaki iddianameyi kabul etti; savcılık, yatırım fonu soruşturmasına ilişkin sosyal medya paylaşımları nedeniyle 5 yıl 4 ay hapis istiyor. İsnat, kayıtta 'halkı yanıltıcı bilgiyi alenen yayma' çerçevesinde aktarılıyor.",
      "kayitlar": [
       "bc04464dc1"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "MLSA bülteni, BirGün muhabiri İsmail Arı'nın yargılamasına ilişkin haberlere erişim engeli getirildiğini bildiriyor. Dosya böylece tutukluluk aşamasından yargılama aşamasına geçmiş görünüyor; duruşma tarihi kayıtlarda yok.",
+     "kayitlar": [
+      "c7f5fa45c3",
+      "3f18d277f7"
      ]
     }
    ]
@@ -5611,11 +5644,19 @@
    "neden": "Tıbbi gerekçeli ikamet (9ter) başvurusunun insani gerekçeli izin (9bis) nedeniyle incelenmeden düşürülmesi, sağlık temelli koruma taleplerinde erişim sorunu yaratabilir. Kayıt yalnızca karar özeti düzeyinde; metnin izlenmesi gerekir.",
    "acildi": "2026-10-31",
    "durum": "açık",
-   "son_hareket": "2026-10-31",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "f41afa89e4"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-23",
+     "not": "Medimmigrant, 9ter (tıbbi nedenle ikamet izni) usulüne ilişkin güncel bir açıklayıcı belge yayımladı: başvurunun Yabancılar Dairesi'ne taahhütlü postayla yapılması zorunluluğu, kabul edilebilirlik ve esas olmak üzere iki aşamalı inceleme ve idarenin karar için süreye bağlı olmaması. Bu, CCE'nin 9bis/9ter menfaat kararına ilişkin dosyanın usul çerçevesini belgeliyor.",
+     "kayitlar": [
+      "9ee3ca051f"
+     ]
+    }
+   ]
   },
   {
    "id": "t167",
@@ -5683,7 +5724,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-22",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5779,6 +5820,13 @@
     {
      "gun": "2026-11-22",
      "not": "'Yargı Harçları' başlıklı Resmî Gazete kaydı tekrar geldi; 1 Kasım'dan bu yana üçüncü kez içeriği belirlenemeyen bir başlık olarak görünüyor.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "22 Kasım 20:58'de Resmî Gazete kaynağından yine yalnızca 'Yargı Harçları' başlığı düştü; içerik, sayı ve madde metni kayıtlarda yok. Başlık düzeyinde yinelenen bu kaydın içeriği hâlâ belirlenemiyor.",
      "kayitlar": [
       "673dd445f6"
      ]
@@ -6247,7 +6295,7 @@
    "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
    "acildi": "2026-11-08",
    "durum": "açık",
-   "son_hareket": "2026-11-17",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "5f383ef425",
     "8beb9bbebe"
@@ -6284,6 +6332,14 @@
      "kayitlar": [
       "4c95d40660"
      ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "COP31 Antalya'da kapanış kararı (cover decision) kabul edilmeden sona erdi; Amnesty sonucu 'kolosal başarısızlık' olarak niteledi ve sürecin Temmuz 2027'de Pasifik'teki adil geçiş konferansı ile Addis Ababa'daki COP32'ye taşındığını belirtti. Aynı pencerede MLSA, COP31 sırasında iklim ve enerji uzmanı Önder Algedik ile Salda Gölü Koruma Derneği, İklim Adaleti Forumu ve Ekoloji Birliği hesaplarının engellendiğini bildirdi.",
+     "kayitlar": [
+      "e496734561",
+      "c7f5fa45c3"
+     ]
     }
    ]
   },
@@ -6308,7 +6364,7 @@
    "neden": "İhraç mağdurlarının hak ihlallerini belgeleyen iki kişiye yönelik gözaltı, belgeleme faaliyetinin kendisinin hedef alınması örüntüsüne giriyor. İsnat ve akıbet kayıtlarda yok.",
    "acildi": "2026-11-09",
    "durum": "açık",
-   "son_hareket": "2026-11-14",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "f14b19b3e4"
    ],
@@ -6325,6 +6381,13 @@
      "not": "KHK TV editörü Ahmet Erkan Yiğitsözlü, gazeteci Tuba Demir ve muhasebeci Servet Topuz tutuklandı; KHK Platformları sözcüsü Münir Korkmaz ve bir kişi adli kontrolle serbest bırakıldı. Soruşturma kapsamında habercilik geliri, ihraç kamu görevlilerine ve ailelerine yardım, gıda alımları ve deprem yardımı ödemeleri incelenmiş.",
      "kayitlar": [
       "7d4641cca7"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "MLSA bülteni, KHK ile ihraç edilen kamu çalışanlarının kurduğu platformlara ait hesapların da engellenenler arasında olduğunu bildiriyor; isim ve karar dayanağı verilmiyor.",
+     "kayitlar": [
+      "c7f5fa45c3"
      ]
     }
    ]
@@ -6396,7 +6459,7 @@
    "neden": "Bulgular hem manda genişletme tartışmasını (t156) hem de geri gönderme izlemesinin şeffaflığını (t115) doğrudan etkiliyor; ajansın yanıtı ve varsa OLAF/Ombudsman adımları izlenmeli.",
    "acildi": "2026-11-10",
    "durum": "açık",
-   "son_hareket": "2026-11-10",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "2d7b76393f",
     "90be96fdca",
@@ -6404,7 +6467,16 @@
     "cef423fe52",
     "360a640204"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-23",
+     "not": "Statewatch, Birleşik Krallık İçişleri Bakanlığı'nın Manş geçişlerini hedefleyen yeni insansız hava aracı ve gözetim ekipmanına onlarca milyon harcama planını ve kıyı sensör ekipmanına ilişkin çerçeve sözleşme belgesini yayımladı. Frontex bulgularından ayrı bir ülke dosyası ama aynı 'geri gönderme/gözetim altyapısı' hattında.",
+     "kayitlar": [
+      "bdde269c14",
+      "7e8599ab43"
+     ]
+    }
+   ]
   },
   {
    "id": "t200",
@@ -6474,7 +6546,7 @@
    "neden": "Milletvekilinin soruları nedeniyle aile üyesinin hedef alındığı iddiası, soruşturmanın caydırıcı işlev gördüğü yönündeki dosyalara ekleniyor. İfade alındıktan sonra serbest bırakılması, isnadın dayanağına ilişkin soru doğuruyor.",
    "acildi": "2026-11-11",
    "durum": "açık",
-   "son_hareket": "2026-11-16",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "d307832149"
    ],
@@ -6484,6 +6556,14 @@
      "not": "Engellenen haberlerin konusu, TİP İstanbul milletvekili Ahmet Şık'ın Adalet Bakanı ve bir iş insanına ilişkin açıklamaları. Şık'ın adı bu pencerede yeniden bir kısıtlama kararında geçiyor; eşi hakkındaki soruşturmaya dair yeni kayıt yok.",
      "kayitlar": [
       "79de103186"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "MLSA bülteni, Adalet Bakanı'nın TİP İstanbul milletvekili Ahmet Şık hakkındaki suç duyurusunu konu alan haberlere erişim engeli uygulandığını bildiriyor. Daha önce Şık'ın eşinin gözaltısı üzerinden izlenen dosyada bu kez haber engeli boyutu var.",
+     "kayitlar": [
+      "c7f5fa45c3",
+      "3f18d277f7"
      ]
     }
    ]
@@ -6855,7 +6935,7 @@
    "neden": "Karar md. 18 ve md. 46 bulgusu içeriyor; AYM kararlarının icra edilmemesi sorununun genel tedbire bağlanıp bağlanmayacağı Bakanlar Komitesi denetiminde izlenecek. Haber kaydı 32.500 avro tazminat ve derhal tahliye talimatı bildiriyor; bu unsurların karar metninden doğrulanması gerekiyor.",
    "acildi": "2026-11-18",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "001-253534",
     "b86b369925"
@@ -6882,6 +6962,13 @@
       "001-253534",
       "30b0b8e9dc"
      ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "Can Atalay kararının (11503/24) tam metni bu pencerede birincil belge olarak elimize geçti: md. 5/1, 5/4, P1-3 ve 18 ihlali ile md. 46 tespitleri, ayrıca bir yargıcın md. 18 ve md. 46 bulgularına katılmayan ayrık görüşü. İcra takvimine ilişkin yeni bir idari adım kayıtlarda yok.",
+     "kayitlar": [
+      "001-253534"
+     ]
     }
    ]
   },
@@ -6892,7 +6979,7 @@
    "neden": "Dört karar da Turan and Others/Baş çizgisini sürdürüyor ve 5.000 avro götürü tazminat ile 250 avro masraf hükümleri üç aylık ödeme süresine bağlanıyor; md. 5 gruplarındaki yerleri ve ödeme takvimi izlenmeli.",
    "acildi": "2026-11-18",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "001-253529",
     "001-253530",
@@ -6923,6 +7010,16 @@
     {
      "gun": "2026-11-21",
      "not": "Dört kararın HUDOC metinleri doğrulandı: Bulut ve Bakırcı ve diğerleri'nde kişi başı 5.000 avro, Akgül'de süresinde talep sunulmadığı için tazminat yok, Peksak'ta ihlal tespiti manevi giderim sayılıp 250 avro masraf ödenmesine hükmedildi. Üç aylık ödeme süreleri 17 Şubat 2027 civarında dolacak.",
+     "kayitlar": [
+      "001-253529",
+      "001-253530",
+      "001-253531",
+      "001-253532"
+     ]
+    },
+    {
+     "gun": "2026-11-23",
+     "not": "17 Kasım tarihli dört kararın tam metinleri elimize geçti. Bulut (24161/18) ve Bakırcı ve diğerleri (15133/20, 49485/20, 9797/21) dosyalarında makul şüphe yokluğundan md. 5/1 ihlali ve başvurucu başına 5.000 avro; Akgül (46378/18) dosyasında tutukluluğun hukuka aykırılığından md. 5/1 ihlali ama süresinde adil tazmin talebi sunulmadığı için tazminat yok; Peksak (52433/21) dosyasında md. 8 ihlali, manevi tazminat yerine ihlal tespiti yeterli sayıldı, 250 avro masraf. Ödeme süreleri üç ay.",
      "kayitlar": [
       "001-253529",
       "001-253530",
@@ -7023,12 +7120,21 @@
    "neden": "Resmî kaynak ile izleme kuruluşunun sayıları farklı dönem ve kapsamlara ait; engelleme hacminin doğrulanabilir bir tabana oturması için iki serinin ayrı ayrı izlenmesi gerekiyor.",
    "acildi": "2026-11-19",
    "durum": "açık",
-   "son_hareket": "2026-11-19",
+   "son_hareket": "2026-11-23",
    "kayitlar": [
     "9bf6ff538f",
     "4c95d40660"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-23",
+     "not": "MLSA, 17 Kasım'a kadarki bir haftada en az 521 X hesabının engellendiğini bildirdi. Bu sayı, Cumhurbaşkanlığı'nın üç aylık 1.072 hesap verisiyle İFÖD'ün 2.137 hesap sayımı arasındaki farkı büyütüyor: tek haftalık izleme verisi, resmî üç aylık toplamın yarısına yakın.",
+     "kayitlar": [
+      "c7f5fa45c3",
+      "3f18d277f7"
+     ]
+    }
+   ]
   },
   {
    "id": "t233",
@@ -7191,8 +7297,49 @@
     "0308e9602f"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t243",
+   "baslik": "Solidarity with OTHERS'ın ağır hasta mahpus serisinde Evin Zapsu dosyasının açılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "neden": "Özönder dosyasından (t240) sonra aynı seride ikinci bir isim yayımlandı; seri, merkezin mahpus sağlığı dosyalarında kullanılabilecek vaka dökümü üretiyor. Kayıtta yalnızca başlık var, tıbbi durum ve usul aşaması bilinmiyor.",
+   "acildi": "2026-11-23",
+   "durum": "açık",
+   "son_hareket": "2026-11-23",
+   "kayitlar": [
+    "1f9d8a332d"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t244",
+   "baslik": "COP31'in Antalya'da kapanış kararı kabul edilmeden sona ermesi ve konferans boyunca iklim hesaplarına uygulanan engeller",
+   "alan": "BM insan hakları mekanizmaları / İfade ve basın özgürlüğü",
+   "neden": "Ev sahibi ülke uygulamaları (t192) artık kapanış sonrası değerlendirme aşamasına geçti; aynı dönemde iklim örgütleri ve uzmanların X hesaplarının engellenmesi, konferans ev sahipliğiyle ifade kısıtlamasının kesiştiği bir kayıt kümesi oluşturuyor.",
+   "acildi": "2026-11-23",
+   "durum": "açık",
+   "son_hareket": "2026-11-23",
+   "kayitlar": [
+    "e496734561",
+    "c7f5fa45c3"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t245",
+   "baslik": "Birleşik Krallık İçişleri Bakanlığı'nın Manş geçişlerine yönelik kıyı sensörü ve İHA gözetim alımları",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Statewatch hem analiz hem de çerçeve sözleşme belgesini yayımladı; gözetim altyapısının sığınmacıların cezai takibinde kullanılması iddiası, merkezin AB geri gönderme/gözetim dosyalarıyla paralel bir ülke hattı açıyor.",
+   "acildi": "2026-11-23",
+   "durum": "açık",
+   "son_hareket": "2026-11-23",
+   "kayitlar": [
+    "bdde269c14",
+    "7e8599ab43"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-22T09:20+00:00",
- "acik": 197
+ "guncelleme": "2026-11-23T10:18+00:00",
+ "acik": 199
 }
