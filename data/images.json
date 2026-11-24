@@ -1491,6 +1491,10 @@
 "checked": "2026-11-24T14:34:01+00:00",
 "img": ""
 },
+"https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBDHA:2026:34867&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": ""
+},
 "https://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBGEL:2026:7863&pk_campaign=rss&pk_medium=rss&pk_keyword=uitspraken": {
 "checked": "2026-10-23T09:07:14+00:00",
 "img": ""
@@ -2719,6 +2723,10 @@
 "checked": "2026-10-22T11:03:52+00:00",
 "img": ""
 },
+"https://ecre.org/interview-with-femke-de-vries-from-the-dutch-council-for-refugees/": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": ""
+},
 "https://ecre.org/interview-with-hana-frankova-from-the-organization-for-aid-to-refugees-opu/": {
 "checked": "2026-10-15T15:25:13+00:00",
 "img": ""
@@ -2969,6 +2977,10 @@
 },
 "https://emnbelgium.be/publication/ad-hoc-query-researchers-residence-permits-and-gaps-hosting-arrangements": {
 "checked": "2026-11-05T11:52:46+00:00",
+"img": ""
+},
+"https://emnbelgium.be/publication/ad-hoc-query-residence-permits-granted-international-protection-procedures": {
+"checked": "2026-11-24T15:28:31+00:00",
 "img": ""
 },
 "https://emnbelgium.be/publication/ad-hoc-query-residence-tcn-victims-thb-or-prostitution": {
@@ -6315,6 +6327,10 @@
 "checked": "2026-11-24T11:56:47+00:00",
 "img": "https://i0.wp.com/opiniojuris.org/wp-content/uploads/Venezuelan-President-Nicolas-Maduro.jpeg?fit=770%2C513&ssl=1"
 },
+"https://opiniojuris.org/2026/11/24/not-proven-is-not-peace-the-said-judgment-and-classifying-conflict-beyond-reasonable-doubt/": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": "https://i0.wp.com/opiniojuris.org/wp-content/uploads/160729-icc_hq-02.jpg?fit=1200%2C751&ssl=1"
+},
 "https://picum.org/blog/belgium-set-to-unleash-home-raids-against-undocumented-migrants/": {
 "checked": "2026-10-30T11:08:17+00:00",
 "img": ""
@@ -8419,9 +8435,17 @@
 "checked": "2026-11-23T17:14:31+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2026/11/murat-kurum-cop31.jpg"
 },
+"https://turkishminute.com/2026/11/24/council-of-europe-warns-about-turkeys-crackdown-on-lgbtq-groups/": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2023/12/CoE.jpeg"
+},
 "https://turkishminute.com/2026/11/24/ecthr-finds-turkey-violated-rights-of-5-former-judges-prosecutors-detained-after-2016-coup-attempt/": {
 "checked": "2026-11-24T11:56:47+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2021/01/ECtHR.jpg"
+},
+"https://turkishminute.com/2026/11/24/iraqi-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2026/11/kirkuk-pipeline.jpg"
 },
 "https://turkishminute.com/2026/11/24/turkey-detains-brokerage-chief-jails-4-in-fund-scandal/": {
 "checked": "2026-11-24T14:34:01+00:00",
@@ -8717,6 +8741,10 @@
 },
 "https://verfassungsblog.de/institutional-ethics-of-ai-in-legal-scholarship/": {
 "checked": "2026-10-08T17:40:16+00:00",
+"img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
+},
+"https://verfassungsblog.de/investitionsschutzgesetz/": {
+"checked": "2026-11-24T15:28:31+00:00",
 "img": "https://verfassungsblog.de/wp-content/uploads/2025/10/feature_vb.png"
 },
 "https://verfassungsblog.de/iran-us-torture-tvpa/": {
@@ -14871,9 +14899,17 @@
 "checked": "2026-11-23T17:14:31+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2026/11/murat-kurum-cop31.jpg"
 },
+"https://www.turkishminute.com/2026/11/24/council-of-europe-warns-about-turkeys-crackdown-on-lgbtq-groups/": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2023/12/CoE.jpeg"
+},
 "https://www.turkishminute.com/2026/11/24/ecthr-finds-turkey-violated-rights-of-5-former-judges-prosecutors-detained-after-2016-coup-attempt/": {
 "checked": "2026-11-24T11:56:47+00:00",
 "img": "https://www.turkishminute.com/wp-content/uploads/2021/01/ECtHR.jpg"
+},
+"https://www.turkishminute.com/2026/11/24/iraqi-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/": {
+"checked": "2026-11-24T15:28:31+00:00",
+"img": "https://www.turkishminute.com/wp-content/uploads/2026/11/kirkuk-pipeline.jpg"
 },
 "https://www.turkishminute.com/2026/11/24/turkey-detains-brokerage-chief-jails-4-in-fund-scandal/": {
 "checked": "2026-11-24T14:34:01+00:00",
