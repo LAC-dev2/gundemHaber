@@ -196,7 +196,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -341,6 +341,14 @@
      "kayitlar": [
       "70db1b4271"
      ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "AİHM'in 24 Kasım tarihli Özakça ve Gülmen kararı (45940/17, 46171/17) KHK ile ihraç sonrası açlık grevi ve tutukluluk dosyalarını kapsayan yeni bir Türkiye kararı olarak eklendi. Ayrıca 17 Kasım tarihli beş başvurucuya ilişkin üç md. 5 kararı ikincil kaynakta toplu olarak aktarıldı.",
+     "kayitlar": [
+      "001-253649",
+      "a031a689ce"
+     ]
     }
    ]
   },
@@ -453,7 +461,7 @@
    "neden": "İç hukuk yolunun gerekçeli karar ve ifade özgürlüğü boyutunda ihlal bulması, aynı grup dosyalarda AİHM önündeki tükenme ve yeniden yargılama tartışmalarını etkiler.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "f64bb53604",
     "1387ffbabe"
@@ -537,6 +545,14 @@
      "not": "AYM'nin bulduğu ihlaller nedeniyle 2026'nın ilk 10 ayında 630,6 milyon lira (13,7 milyon dolar) tazminat ödendiği, bunun 2025 toplamına göre %465 artış olduğu bildiriliyor.",
      "kayitlar": [
       "fbe245e768"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "AYM'nin gerekçeli karar hakkı ihlali tespitleri üzerine iki ayrı mahkûmun infazı durduruldu: Gülten Sayın (AYM 22 Eylül kararı, Bilecik 1. Ağır Ceza Mahkemesi, yurt dışına çıkış yasağıyla tahliye) ve Mehmet Parlak (Adana Yüksek Güvenlikli Cezaevi'nden tahliye). İki dosyada da mahkûmiyet dayanağı ByLock ve Bank Asya gibi ölçütler.",
+     "kayitlar": [
+      "686af52e8f",
+      "718fd93e34"
      ]
     }
    ]
@@ -1687,7 +1703,7 @@
    "neden": "İstanbul ve Ankara başsavcılıklarının 'sermaye piyasası araçları hakkında spekülasyon' iddiasıyla millî güvenlik/kamu düzeni gerekçeli 8/A tedbirini ekonomistlere, gazetecilere ve bir siyasi parti kurucusuna uygulaması, engelleme rejiminin yeni bir içerik alanına genişlediğini gösteriyor. İFÖD listesinin aktif olarak güncellendiği belirtiliyor.",
    "acildi": "2026-09-23",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "6f6f67b478"
    ],
@@ -1898,6 +1914,13 @@
      "kayitlar": [
       "c7f5fa45c3",
       "3f18d277f7"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "MLSA'nın 16-22 Kasım bülteni ikinci bir kaynakta yeniden aktarıldı; sayı önceki brifingteki düzeyde (en az 521 hesap, 17 Kasım'a kadarki hafta), yeni karar numarası ya da dayanak açıklanmadı.",
+     "kayitlar": [
+      "8e91e7a836"
      ]
     }
    ]
@@ -3720,12 +3743,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Yargılamanın başladığı gün ertelenmesi, derdest ceza dosyasının ve buna bağlı yakalama kararlarının en az altı ay daha sürmesi anlamına geliyor; Norveç'in EAW reddiyle birlikte izlenmesi gerekiyor.",
    "acildi": "2026-10-09",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-09",
    "kayitlar": [
     "aca35d0703"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-24",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t89",
@@ -3733,12 +3758,14 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Site genelinde engellemeye karşı ileri sürülebilecek hukuki argümanların (sayılı sınırlama sebepleri, içerik bazlı tedbir önceliği) kamuya açık biçimde formüle edilmesi; olası bir AİHM başvurusunda tartışılacak çerçeveyi gösteriyor.",
    "acildi": "2026-10-09",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-09",
    "kayitlar": [
     "84e024e6d5"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-24",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t90",
@@ -5219,7 +5246,7 @@
    "neden": "Kayıt, gazeteci tutuklamalarına ilişkin örgütlü bir sayım (TGS) ve kitlesel protesto verisi sunuyor; sayının ilerleyen günlerde nasıl güncellendiği ve protestoculara karşı işlem yapılıp yapılmadığı izlenmeli.",
    "acildi": "2026-10-26",
    "durum": "açık",
-   "son_hareket": "2026-10-28",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "904ede2d22"
    ],
@@ -5230,6 +5257,13 @@
      "kayitlar": [
       "c7f3529080",
       "397e605837"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "İstanbul'da 22 Kasım Pazar günü birkaç bin kişinin katıldığı, muhalefetteki New Party'nin çağrısıyla düzenlenen medya baskısı karşıtı yürüyüş kayda geçti.",
+     "kayitlar": [
+      "4e3f2a61b3"
      ]
     }
    ]
@@ -5521,7 +5555,7 @@
    "neden": "Rapor, cezaevi sağlık erişimi dosyasına çocuklu anneler boyutunu ekliyor; merkezin CPT ve md. 3 argümanlarında kullanılabilecek yeni bir veri kümesi. Raporu yayımlayan kuruluşun adı kayıtta kesik, tam metnin görülmesi gerekiyor.",
    "acildi": "2026-10-29",
    "durum": "açık",
-   "son_hareket": "2026-11-10",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "8a1da943ed"
    ],
@@ -5531,6 +5565,13 @@
      "not": "Global Detention Project ile Children of Incarcerated Caregivers, BM Kadına ve Kız Çocuklarına Yönelik Şiddet Özel Raportörü'nün Bosna-Hersek ziyareti öncesinde hamile ve emziren kadınların tutulmasına ilişkin ortak görüş sundu. Türkiye dosyası değil; aynı temada mekanizma önüne giden bir başka örnek.",
      "kayitlar": [
       "d3193145ff"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "Bursa Yenişehir Kadın Cezaevi'nde 2020'de çıplak arama yapıldığı ve emzirdiği kızının kısmen soyulduğu beyanı ilk kez kamuya açıklandı (Leyla Kaya). Beyan tek kaynaklı ve altı yıl sonra aktarılıyor.",
+     "kayitlar": [
+      "ddeef82278"
      ]
     }
    ]
@@ -5724,7 +5765,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5830,6 +5871,13 @@
      "kayitlar": [
       "673dd445f6"
      ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "Resmî Gazete'de 'Yargı Harçları' başlıklı kayıt içeriği belirlenmeden yeniden geldi; metin düzeyinde bilgi yok.",
+     "kayitlar": [
+      "673dd445f6"
+     ]
     }
    ]
   },
@@ -5902,7 +5950,7 @@
    "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "9552dc6f13"
    ],
@@ -5957,6 +6005,13 @@
      "not": "Adalet Bakanı'nın Temmuz 2026 rakamları (127.000'den fazla mahkûmiyet, 10.485 cezaevinde, 83.404 derdest dosya) yeni bir haberde yeniden aktarıldı; güncelleme yok, kaynak aynı açıklamaya dayanıyor.",
      "kayitlar": [
       "d7b4ed3627"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "Temmuz 2026'da Adalet Bakanı'na atfedilen kümülatif rakamlar (127.000'den fazla mahkûmiyet, 10.485 cezaevinde, 83.404 derdest dosya) yeni bir haberde aynen yinelendi; güncelleme yok.",
+     "kayitlar": [
+      "718fd93e34"
      ]
     }
    ]
@@ -6058,11 +6113,19 @@
    "neden": "Cenaze izni talebine idari yanıt verilmemesi, mahpus hakları başlığında usul işlemezliğine dair somut bir örnek; avukatların beyanı dışında belge yok.",
    "acildi": "2026-11-04",
    "durum": "açık",
-   "son_hareket": "2026-11-04",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "eaeb98c2c1"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-24",
+     "not": "AİHM, Özakça ve Gülmen v. Türkiye kararını açıkladı; dosya, ihraç sonrası açlık grevi sırasındaki tutukluluğa ilişkin. Kayıtlar bu kararla takip maddesindeki cenaze izni dosyası arasında açık bağlantı kurmuyor, yalnızca ad örtüşmesi var.",
+     "kayitlar": [
+      "001-253649"
+     ]
+    }
+   ]
   },
   {
    "id": "t180",
@@ -6105,11 +6168,19 @@
    "neden": "Müdahale, tutukluluğun siyasi saikle değerlendirilmesini istiyor; dosya 436 sanıklı ana yargılamayla ve muhalefetli belediyeler dosyasıyla bağlantılı. Mahkemenin soru listesinin tam kapsamı ve takvim kayıtlarda yok.",
    "acildi": "2026-11-05",
    "durum": "açık",
-   "son_hareket": "2026-11-05",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "8bc17b549b"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-24",
+     "not": "AYM, İmamoğlu'nun tutukluluğuna karşı bireysel başvurusunu Perşembe günkü gündemine aldı; haber, tutukluluğun 20. ayında olunduğunu belirtiyor. AİHM'deki başvurunun seyrine ilişkin yeni bilgi yok.",
+     "kayitlar": [
+      "d7a58b5f00"
+     ]
+    }
+   ]
   },
   {
    "id": "t183",
@@ -6256,11 +6327,19 @@
    "neden": "AİHM'in 2020 tarihli md. 10 kararı ilk yeniden yargılama talebinde uygulanmamıştı; AYM kararı sonrası iç mahkemenin tutumu, AİHM kararlarının CMK yeniden yargılama yoluyla icrasının fiilen işleyip işlemediğini gösterecek.",
    "acildi": "2026-11-07",
    "durum": "açık",
-   "son_hareket": "2026-11-07",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "4c9cf91903"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-24",
+     "not": "Tahliye edilen Mehmet Parlak'ın adı bu takip maddesindeki isimlerden biriyle örtüşüyor; kayıtta AYM kararının tarihi ve yeniden yargılamayı yapacak mahkeme belirtilmediği için aynı dosya olduğu doğrulanamıyor.",
+     "kayitlar": [
+      "718fd93e34"
+     ]
+    }
+   ]
   },
   {
    "id": "t190",
@@ -6295,7 +6374,7 @@
    "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
    "acildi": "2026-11-08",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "5f383ef425",
     "8beb9bbebe"
@@ -6339,6 +6418,14 @@
      "kayitlar": [
       "e496734561",
       "c7f5fa45c3"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "BM Genel Sekreteri'nin 9-13 Kasım Türkiye faaliyetlerine ilişkin belge BM Dijital Kütüphanesi'ne girdi (başlık düzeyinde). HRW, COP31'in yerinden edilmiş topluluklar açısından sonuçsuz kaldığını yazdı.",
+     "kayitlar": [
+      "08f8aafb9f",
+      "aa8e2b60b4"
      ]
     }
    ]
@@ -6979,7 +7066,7 @@
    "neden": "Dört karar da Turan and Others/Baş çizgisini sürdürüyor ve 5.000 avro götürü tazminat ile 250 avro masraf hükümleri üç aylık ödeme süresine bağlanıyor; md. 5 gruplarındaki yerleri ve ödeme takvimi izlenmeli.",
    "acildi": "2026-11-18",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "001-253529",
     "001-253530",
@@ -7021,6 +7108,17 @@
      "gun": "2026-11-23",
      "not": "17 Kasım tarihli dört kararın tam metinleri elimize geçti. Bulut (24161/18) ve Bakırcı ve diğerleri (15133/20, 49485/20, 9797/21) dosyalarında makul şüphe yokluğundan md. 5/1 ihlali ve başvurucu başına 5.000 avro; Akgül (46378/18) dosyasında tutukluluğun hukuka aykırılığından md. 5/1 ihlali ama süresinde adil tazmin talebi sunulmadığı için tazminat yok; Peksak (52433/21) dosyasında md. 8 ihlali, manevi tazminat yerine ihlal tespiti yeterli sayıldı, 250 avro masraf. Ödeme süreleri üç ay.",
      "kayitlar": [
+      "001-253529",
+      "001-253530",
+      "001-253531",
+      "001-253532"
+     ]
+    },
+    {
+     "gun": "2026-11-24",
+     "not": "17 Kasım tarihli üç md. 5 kararı ikincil kaynakta 'beş eski hâkim ve savcı' olarak toplandı; karar metinleriyle karşılaştırıldığında Bakırcı ve Diğerleri'nde üç başvurucu (Bakırcı, Can, Özgül) görünüyor ve ekteki 'Mehmet Öncü (not a lawyer)' ibaresi başvurucu-temsilci ayrımını belirsiz bırakıyor. Tazminat sonuçları metinlerdeki gibi: Bulut ve Bakırcı grubunda kişi başı 5.000 avro, Akgül'de talep sunulmadığı için ödeme yok, Peksak'ta 250 avro masraf.",
+     "kayitlar": [
+      "a031a689ce",
       "001-253529",
       "001-253530",
       "001-253531",
@@ -7205,11 +7303,19 @@
    "neden": "Hollanda idari yargısındaki Türkiye kaynaklı dosya serisine eklenebilecek yeni bir karar; şu an yalnızca künye ve etiket düzeyinde bilgi var, başvurucunun menşe ülkesi belirlenemiyor.",
    "acildi": "2026-11-20",
    "durum": "açık",
-   "son_hareket": "2026-11-20",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "eefb08a038"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-24",
+     "not": "Rechtbank Den Haag'ın 23 Kasım tarihli NL25.59576 sayılı kararında usul masraflarına hükmedildiği görülüyor; kayıt yalnızca başlık düzeyinde ('Asiel, pkv toegewezen, BNT'), gerekçe metni yok.",
+     "kayitlar": [
+      "ff44b9ac1d"
+     ]
+    }
+   ]
   },
   {
    "id": "t237",
@@ -7231,11 +7337,19 @@
    "neden": "Halk TV dosyasıyla (t109) aynı kalıpta, bir muhalif yayın kuruluşunun yönetiminin ceza takibatı ve idari devralma yoluyla değiştirilmesi söz konusu; mülkiyet ve ifade boyutu birlikte yürüyor.",
    "acildi": "2026-11-21",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "a4d5508952"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-24",
+     "not": "Sözcü TV merkezine yapılan baskın ve kayyım atanmasının ardından İstanbul'da birkaç bin kişilik protesto yürüyüşü yapıldı.",
+     "kayitlar": [
+      "4e3f2a61b3"
+     ]
+    }
+   ]
   },
   {
    "id": "t239",
@@ -7318,12 +7432,20 @@
    "neden": "Ev sahibi ülke uygulamaları (t192) artık kapanış sonrası değerlendirme aşamasına geçti; aynı dönemde iklim örgütleri ve uzmanların X hesaplarının engellenmesi, konferans ev sahipliğiyle ifade kısıtlamasının kesiştiği bir kayıt kümesi oluşturuyor.",
    "acildi": "2026-11-23",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-24",
    "kayitlar": [
     "e496734561",
     "c7f5fa45c3"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-24",
+     "not": "HRW, COP31'den ayrılırken iklim nedeniyle yerinden edilen topluluklara ilişkin sonuç alınamadığını yazdı; engellemelere ilişkin yeni veri yok.",
+     "kayitlar": [
+      "aa8e2b60b4"
+     ]
+    }
+   ]
   },
   {
    "id": "t245",
@@ -7338,8 +7460,61 @@
     "7e8599ab43"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t246",
+   "baslik": "Özakça ve Gülmen v. Türkiye (45940/17, 46171/17) kararının icrası: 12.500 ve 16.300 avro tazminatın üç aylık ödeme süresi ve hastane/yoğun bakım koşullarına ilişkin md. 3 bulgusu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Karar, KHK ile ihraç sonrası açlık grevindeki tutukluların sağlık bakımı ve tutulma koşullarını hem md. 2 hem md. 3 ve md. 5 açısından ayrı ayrı değerlendiriyor; icra aşamasında hangi gruba bağlanacağı izlenmeli.",
+   "acildi": "2026-11-24",
+   "durum": "açık",
+   "son_hareket": "2026-11-24",
+   "kayitlar": [
+    "001-253649"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t247",
+   "baslik": "AYM'nin gerekçeli karar hakkı ihlali tespitleri üzerine infazın durdurulup yeniden yargılama açılması pratiği (Gülten Sayın, Mehmet Parlak)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "İki dosyada da tahliye, hastalık ya da aile durumu taleplerinden değil, AYM'nin gerekçe denetiminden geldi; bu yolun ne ölçüde yaygınlaştığı ve yeniden yargılamaların sonucu izlenmeli.",
+   "acildi": "2026-11-24",
+   "durum": "açık",
+   "son_hareket": "2026-11-24",
+   "kayitlar": [
+    "686af52e8f",
+    "718fd93e34"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t248",
+   "baslik": "İçişleri Bakanlığı'nın 71 ilde 455 şüpheliye yönelik eşzamanlı 'mali suç örgütleri' operasyonu ve el koyma/kayyım sonuçları",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "neden": "Duyuru yalnızca başlık düzeyinde; gözaltı-tutuklama dökümü, isnat edilen suçlar ve malvarlığına yönelik tedbirler açıklanmadı. Merkezin izlediği fon ve kayyım dosyalarıyla kesişme ihtimali var.",
+   "acildi": "2026-11-24",
+   "durum": "açık",
+   "son_hareket": "2026-11-24",
+   "kayitlar": [
+    "edc732e189"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t249",
+   "baslik": "Silvan'daki mağarada bulunan kalıntılara ilişkin İHD, Diyarbakır Barosu ve ÖHD'nin savcılığa başvurusu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Talep, 1990'lardaki kayıplara ilişkin etkili soruşturma yükümlülüğünü doğrudan ilgilendiriyor; savcılığın alan güvenliği, ATK incelemesi ve DNA karşılaştırması taleplerine yanıtı izlenmeli.",
+   "acildi": "2026-11-24",
+   "durum": "açık",
+   "son_hareket": "2026-11-24",
+   "kayitlar": [
+    "a03f1173d0"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-23T10:18+00:00",
- "acik": 199
+ "guncelleme": "2026-11-24T12:04+00:00",
+ "acik": 201
 }
