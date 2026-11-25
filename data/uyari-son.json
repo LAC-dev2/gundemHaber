@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-25",
- "olusturma": "2026-11-25T10:55+00:00",
+ "olusturma": "2026-11-25T11:57+00:00",
  "uyarilar": [
   {
    "id": "karar:001-253649",
@@ -32,12 +32,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-25:12",
+   "id": "saglik:2026-11-25:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye, MENAFATF…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, Göç İdaresi Başkanlığı, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
