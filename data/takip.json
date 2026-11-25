@@ -196,7 +196,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -348,6 +348,17 @@
      "kayitlar": [
       "001-253649",
       "a031a689ce"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Özakça ve Gülmen kararının metni ve ikincil aktarımı bu pencerede dosyaya girdi; 17 Kasım tarihli md. 5 kararları (Bulut, Akgül, Bakırcı ve diğerleri) ile birlikte Baş/Turan içtihadına dayanan grup büyümeye devam ediyor. [25936154b0][001-253649][001-253529][001-253530][001-253531]",
+     "kayitlar": [
+      "25936154b0",
+      "001-253649",
+      "001-253529",
+      "001-253530",
+      "001-253531"
      ]
     }
    ]
@@ -788,7 +799,7 @@
    "neden": "Avrupa Konseyi Göç ve Mülteciler Birimi 16 Eylül'de yabancıların girişi ve sınır dışı edilmesine dair AİHM içtihadı üzerine tematik belge yayımladı [c23be3b155]; EUAA ise Ocak-Haziran 2026 verilerine dayanan yarı yıl raporunu 10 Eylül'de yayımladı, ECRE istatistiklerin kullanımında ihtiyat çağrısı yapıyor [4e7b8dd15b]. İltica ve iade dosyalarında referans malzemesi oluşturuyor.",
    "acildi": "2026-09-18",
    "durum": "açık",
-   "son_hareket": "2026-11-20",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "c23be3b155",
     "4e7b8dd15b"
@@ -845,6 +856,13 @@
      "not": "ECRE söyleşisinde Slovakya'nın AB Göç ve İltica Paktı uyum mevzuatını Haziran 2026'da kabul ettiği, ancak Eylül 2026 itibarıyla yeni sınır prosedürü kapsamında hiçbir başvurunun işlenmediği belirtiliyor; HRL Ocak-Ekim 2026'da 3.400'den fazla yabancıya yardım etmiş.",
      "kayitlar": [
       "49996aa788"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "AİHM'in Letonya, Litvanya ve Polonya'nın Belarus sınırındaki özet geri göndermelere ilişkin üç kararı açıklandı; Amnesty, Mahkeme'nin md. 3 korumasını 'açık kişisel kırılganlık' ya da yaşama/kötü muameleye ilişkin gerçek ve yakın risk gösterebilenlerle sınırladığını belirtiyor. Kayıtta karar adları ve başvuru numaraları yok, yalnızca STK değerlendirmesi var. [32fbaa85dc]",
+     "kayitlar": [
+      "32fbaa85dc"
      ]
     }
    ]
@@ -1506,7 +1524,7 @@
    "neden": "İki ayrı yargı düzeninde, avukatların müvekkillerine ilişkin açıklamaları ve anma etkinlikleri üzerinden 'aşırıcılık' ve 'ulusal güvenlik' isnatlarıyla cezalandırılması, merkezin avukat-müvekkil gizliliği ve ifade özgürlüğü dosyalarıyla kesişiyor.",
    "acildi": "2026-09-22",
    "durum": "açık",
-   "son_hareket": "2026-11-20",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "9a2b0db963",
     "09211e119a"
@@ -1641,6 +1659,13 @@
      "not": "Avukatların mesleki faaliyet nedeniyle hedef alınması dosyasına Türkiye ayağı eklendi: 38 kuruluş BM Avukatların Rolüne Dair Temel İlkeler'e atıfla altı avukatın serbest bırakılmasını istedi.",
      "kayitlar": [
       "5a01e23ffc"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "BM Keyfî Tutuklama Çalışma Grubu, ÇHD onursal başkanı avukat Selçuk Kozağaçlı'nın koşullu tahliye hakkı doğduktan sonraki hapsini keyfî buldu; görüş 3 Eylül'de kabul edilmiş, ÇHD tarafından 23 Kasım'da kamuoyuna duyurulmuş. [7f9d12c760]",
+     "kayitlar": [
+      "7f9d12c760"
      ]
     }
    ]
@@ -3587,7 +3612,7 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Delilin kaynağı ve zincirine ilişkin itiraz (belgeleri ilk kez gözaltında gördüğü beyanı) ileride md. 6 ve md. 10 tartışmasının çekirdeği olabilir. Tutukluluğun devamı ve iddianame izlenmeli.",
    "acildi": "2026-10-07",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-10",
    "kayitlar": [
     "0b70726200"
@@ -3600,7 +3625,9 @@
       "6546377682"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-25",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t83",
@@ -3944,12 +3971,14 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Belediyenin yazılı teyidine rağmen soruşturma açılması, 'yanıltıcı bilgi' isnadının doğrulanmış habere de uygulandığı iddiasını gündeme getiriyor; iddianame aşamasına geçip geçmeyeceği izlenmeli.",
    "acildi": "2026-10-10",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-10",
    "kayitlar": [
     "badcfb410c"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-25",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t94",
@@ -5487,7 +5516,7 @@
    "neden": "Öneri, ajansın AB dışındaki operasyonel rolünü ve geri gönderme yetkisini genişletiyor; merkezin non-refoulement ve sınır dışı dosyalarında doğrudan dayanak oluşturacak bir mevzuat süreci başlıyor. Yasama sürecinde metnin hangi insan hakları güvenceleriyle çıkacağı izlenmeli.",
    "acildi": "2026-10-29",
    "durum": "açık",
-   "son_hareket": "2026-11-17",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "e3bf8ff006"
    ],
@@ -5510,6 +5539,13 @@
       "7396502175",
       "a6a10df1b3",
       "a915f7fa88"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Frontex, Daimi Birlik için 500'e kadar yeni personel alımı açtı; manda genişletme tartışmasının personel ayağına ilişkin tek satırlık duyuru düzeyinde bilgi var. [472d7c881d]",
+     "kayitlar": [
+      "472d7c881d"
      ]
     }
    ]
@@ -5765,7 +5801,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5878,6 +5914,13 @@
      "kayitlar": [
       "673dd445f6"
      ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Resmî Gazete kaynağında 24 Kasım akşamı yine içeriği belirtilmemiş bir 'Yargı Harçları' kaydı geçti; kayıt başlık düzeyinde, içerik yine belirlenemiyor. [673dd445f6]",
+     "kayitlar": [
+      "673dd445f6"
+     ]
     }
    ]
   },
@@ -5950,7 +5993,7 @@
    "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "9552dc6f13"
    ],
@@ -6012,6 +6055,13 @@
      "not": "Temmuz 2026'da Adalet Bakanı'na atfedilen kümülatif rakamlar (127.000'den fazla mahkûmiyet, 10.485 cezaevinde, 83.404 derdest dosya) yeni bir haberde aynen yinelendi; güncelleme yok.",
      "kayitlar": [
       "718fd93e34"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Ankara Başsavcılığı'nın Adalet Bakanlığı alımlarına ilişkin soruşturmasında üç ilde 20 kişi gözaltına alındı; dayanak 'Albatros' kod adlı gizli tanığın beyanı. Aynı tanığın 2018'den beri yaklaşık 6.000 kamu görevlisini kategorize eden bir liste verdiği, OHAL Komisyonu kararlarında da kullanıldığı aktarılıyor. [610dd7b356]",
+     "kayitlar": [
+      "610dd7b356"
      ]
     }
    ]
@@ -6113,7 +6163,7 @@
    "neden": "Cenaze izni talebine idari yanıt verilmemesi, mahpus hakları başlığında usul işlemezliğine dair somut bir örnek; avukatların beyanı dışında belge yok.",
    "acildi": "2026-11-04",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "eaeb98c2c1"
    ],
@@ -6122,6 +6172,14 @@
      "gun": "2026-11-24",
      "not": "AİHM, Özakça ve Gülmen v. Türkiye kararını açıkladı; dosya, ihraç sonrası açlık grevi sırasındaki tutukluluğa ilişkin. Kayıtlar bu kararla takip maddesindeki cenaze izni dosyası arasında açık bağlantı kurmuyor, yalnızca ad örtüşmesi var.",
      "kayitlar": [
+      "001-253649"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Gülmen'in AİHM dosyası bu pencerede karara bağlandığı için adı yeniden gündemde; ancak cenaze izni talebinin akıbetine ilişkin yeni kayıt yok. [25936154b0][001-253649]",
+     "kayitlar": [
+      "25936154b0",
       "001-253649"
      ]
     }
@@ -6259,7 +6317,7 @@
    "neden": "İlk derece mahkemesi, sıkılaştırılmış politikanın Türkiye'deki koşulların iyileştiğine dair yeterli delille desteklenmediğini söyleyerek en yüksek idari yargının Mart'taki yaklaşımından ayrıldı. Temyiz edilip edilmeyeceği ve diğer dosyalara etkisi izlenmeli.",
    "acildi": "2026-11-06",
    "durum": "açık",
-   "son_hareket": "2026-11-09",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "f74db37157"
    ],
@@ -6269,6 +6327,13 @@
      "not": "6 Kasım'da Lahey'in iki iltica reddini bozduğu yönündeki kaydın ardından, aynı mahkemenin 28 Ekim tarihli NL26.51724 kararında Gülen atfı ve Kürt kökeni iddialarının reddedildiği görülüyor; aynı mahkemede sonuçların dosyadan dosyaya ayrıştığını gösteriyor [451341622e].",
      "kayitlar": [
       "451341622e"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Hollanda Mülteci Konseyi'yle yapılan söyleşi, Pakt uyum yasasının 12 Haziran 2026'da yürürlüğe girdiğini ve 12 Haziran öncesi başvuranların üç yıla kadar karşılama merkezlerinde kalabileceğini aktarıyor; Gülen politikasına doğrudan değinmiyor. [ca9be182a6]",
+     "kayitlar": [
+      "ca9be182a6"
      ]
     }
    ]
@@ -6374,7 +6439,7 @@
    "neden": "Amnesty'nin 8 Kasım tarihli COP31 açıklaması yalnızca iklim politikasına odaklanıyor; konferans öncesinde Antalya'da gözaltılar (t178) ve çevre protestolarına ilişkin rapor (t106) kaydedilmişti. Konferans süresince ifade ve toplanma özgürlüğü uygulamalarının izlenmesi gerekiyor.",
    "acildi": "2026-11-08",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "5f383ef425",
     "8beb9bbebe"
@@ -6426,6 +6491,13 @@
      "kayitlar": [
       "08f8aafb9f",
       "aa8e2b60b4"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "BM Genel Sekreteri, iklim konferansının uzlaşıya varamamasından duyduğu hayal kırıklığını ifade eden bir mesaj yayımladı; kayıt başlık düzeyinde. [551e974c09]",
+     "kayitlar": [
+      "551e974c09"
      ]
     }
    ]
@@ -6546,7 +6618,7 @@
    "neden": "Bulgular hem manda genişletme tartışmasını (t156) hem de geri gönderme izlemesinin şeffaflığını (t115) doğrudan etkiliyor; ajansın yanıtı ve varsa OLAF/Ombudsman adımları izlenmeli.",
    "acildi": "2026-11-10",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "2d7b76393f",
     "90be96fdca",
@@ -6561,6 +6633,13 @@
      "kayitlar": [
       "bdde269c14",
       "7e8599ab43"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Frontex'in 500'e kadar Daimi Birlik personeli alımı duyurusu dışında yeni bulgu yok. [472d7c881d]",
+     "kayitlar": [
+      "472d7c881d"
      ]
     }
    ]
@@ -6585,11 +6664,19 @@
    "neden": "Tahliye ertelemeleri, cezaevi idaresi kararıyla fiilî ceza uzatması anlamına geliyor ve merkezin tecrit/infaz dosyalarıyla (CPT raporları, Kul–Akıllı kararı) doğrudan kesişiyor. Sayının kaynağı bir avukatlar derneği; resmî veriyle karşılaştırılması gerekiyor.",
    "acildi": "2026-11-11",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "79329a44a8"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-25",
+     "not": "BM Keyfî Tutuklama Çalışma Grubu'nun Kozağaçlı görüşü, koşullu tahliye hakkı doğmuş mahpusların infaz kurulu/savcılık itirazıyla içeride tutulmasını uluslararası hukuk bakımından öngörülemez buldu; bu, 116 ertelenen koşullu tahliye dosyasıyla aynı pratiğe ilişkin ilk uluslararası değerlendirme kaydı. [7f9d12c760]",
+     "kayitlar": [
+      "7f9d12c760"
+     ]
+    }
+   ]
   },
   {
    "id": "t202",
@@ -6724,7 +6811,7 @@
    "neden": "Mahkeme, mesleki faaliyet kapsamındaki basın açıklamaları ve cenaze katılımına dayanan terör propagandası isnadını esastan incelemeden düşürdü; sanıkların beraat talebi karşılanmadı. İsnadın hukuki niteliği karara bağlanmadığı için benzer dosyalarda aynı delil anlatımı kullanılmaya devam edebilir.",
    "acildi": "2026-11-13",
    "durum": "açık",
-   "son_hareket": "2026-11-22",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "d2efc27fbb"
    ],
@@ -6741,6 +6828,13 @@
      "not": "TBB açıklaması, ÇHD bağlantısını İzmir şube sekreteri Veysi Çetin üzerinden yeniden kuruyor; ÇHD-3 dosyasına ilişkin yeni usul adımı bildirilmiyor.",
      "kayitlar": [
       "d7300ff491"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "ÇHD cephesinde yeni bir yargısal adım yok; ancak derneğin onursal başkanı Kozağaçlı'ya ilişkin BM görüşü 23 Kasım'da ÇHD tarafından duyuruldu. [7f9d12c760]",
+     "kayitlar": [
+      "7f9d12c760"
      ]
     }
    ]
@@ -7303,7 +7397,7 @@
    "neden": "Hollanda idari yargısındaki Türkiye kaynaklı dosya serisine eklenebilecek yeni bir karar; şu an yalnızca künye ve etiket düzeyinde bilgi var, başvurucunun menşe ülkesi belirlenemiyor.",
    "acildi": "2026-11-20",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "eefb08a038"
    ],
@@ -7313,6 +7407,13 @@
      "not": "Rechtbank Den Haag'ın 23 Kasım tarihli NL25.59576 sayılı kararında usul masraflarına hükmedildiği görülüyor; kayıt yalnızca başlık düzeyinde ('Asiel, pkv toegewezen, BNT'), gerekçe metni yok.",
      "kayitlar": [
       "ff44b9ac1d"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "Rechtbank Den Haag'ın 23 Kasım tarihli NL25.20705 sayılı ara kararı (tussenuitspraak) kimlik, uyrukluk ve menşe inandırıcılığı ile yeterli karşılama konularını ele alıyor; refoulement riskinin iyi araştırılmadığı tespitiyle idari döngü (bestuurlijke lus) uygulandı. Kayıt özet düzeyinde. [0c5d290a4a]",
+     "kayitlar": [
+      "0c5d290a4a"
      ]
     }
    ]
@@ -7432,7 +7533,7 @@
    "neden": "Ev sahibi ülke uygulamaları (t192) artık kapanış sonrası değerlendirme aşamasına geçti; aynı dönemde iklim örgütleri ve uzmanların X hesaplarının engellenmesi, konferans ev sahipliğiyle ifade kısıtlamasının kesiştiği bir kayıt kümesi oluşturuyor.",
    "acildi": "2026-11-23",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "e496734561",
     "c7f5fa45c3"
@@ -7443,6 +7544,13 @@
      "not": "HRW, COP31'den ayrılırken iklim nedeniyle yerinden edilen topluluklara ilişkin sonuç alınamadığını yazdı; engellemelere ilişkin yeni veri yok.",
      "kayitlar": [
       "aa8e2b60b4"
+     ]
+    },
+    {
+     "gun": "2026-11-25",
+     "not": "BM Genel Sekreteri'nin konferansın uzlaşıya varamamasına ilişkin mesajı kayda girdi; engellenen iklim hesaplarına dair yeni veri yok. [551e974c09]",
+     "kayitlar": [
+      "551e974c09"
      ]
     }
    ]
@@ -7468,11 +7576,20 @@
    "neden": "Karar, KHK ile ihraç sonrası açlık grevindeki tutukluların sağlık bakımı ve tutulma koşullarını hem md. 2 hem md. 3 ve md. 5 açısından ayrı ayrı değerlendiriyor; icra aşamasında hangi gruba bağlanacağı izlenmeli.",
    "acildi": "2026-11-24",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-25",
    "kayitlar": [
     "001-253649"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-25",
+     "not": "Karar metni ve SCF aktarımı dosyaya girdi: md. 3 ihlali ikinci başvurucu (Gülmen) bakımından hem Sincan Cezaevi/cezaevi hastanesi hem Numune Hastanesi yoğun bakım ve mahpus koğuşu dönemleri için ayrı ayrı kuruldu; tazminatlar 12.500 ve 16.300 avro, ödeme süresi kararın kesinleşmesinden itibaren üç ay. [001-253649][25936154b0]",
+     "kayitlar": [
+      "001-253649",
+      "25936154b0"
+     ]
+    }
+   ]
   },
   {
    "id": "t247",
@@ -7513,8 +7630,61 @@
     "a03f1173d0"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t250",
+   "baslik": "BM Keyfî Tutuklama Çalışma Grubu'nun 3 Eylül 2026 tarihli Selçuk Kozağaçlı görüşü: serbest bırakma, tazminat ve bağımsız soruşturma çağrılarına Türkiye'nin yanıtı",
+   "alan": "BM insan hakları mekanizmaları",
+   "neden": "Görüş, koşullu tahliye hakkı doğduktan sonraki hapsi keyfî sayıyor ve infaz kurulu kararının yeni delil olmaksızın savcılık itirazıyla tersine çevrilmesini öngörülemez buluyor; merkezin infaz ve koşullu tahliye dosyalarında doğrudan dayanak oluşturur. [7f9d12c760]",
+   "acildi": "2026-11-25",
+   "durum": "açık",
+   "son_hareket": "2026-11-25",
+   "kayitlar": [
+    "7f9d12c760"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t251",
+   "baslik": "'Albatros' kod adlı gizli tanık beyanının Adalet Bakanlığı alımları soruşturmasında ve OHAL Komisyonu kararlarında kullanımı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "24 Kasım'daki 20 gözaltı tek bir gizli tanığa dayandırılıyor; aynı tanığın 2018'den beri yaklaşık 6.000 kişilik bir liste verdiği ve bu listenin hem ceza hem idari işlemlerde kullanıldığı aktarılıyor. Delil kaynağının tekilliği AİHM md. 5 makul şüphe içtihadıyla doğrudan ilgili. [610dd7b356]",
+   "acildi": "2026-11-25",
+   "durum": "açık",
+   "son_hareket": "2026-11-25",
+   "kayitlar": [
+    "610dd7b356"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t252",
+   "baslik": "AİHM'in Letonya, Litvanya ve Polonya–Belarus sınırındaki 'göçün araçsallaştırılması' kararları ve md. 3 eşiği",
+   "alan": "İade, adli yardım ve iltica",
+   "neden": "Amnesty'ye göre Mahkeme özet geri göndermede md. 3 korumasını 'açık kişisel kırılganlık' veya yakın risk gösterebilenlerle sınırladı; kararların tam metni ve başvuru numaraları henüz elimizde yok, non-refoulement argümanları açısından izlenmeli. [32fbaa85dc]",
+   "acildi": "2026-11-25",
+   "durum": "açık",
+   "son_hareket": "2026-11-25",
+   "kayitlar": [
+    "32fbaa85dc"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t253",
+   "baslik": "Brüksel Hukuk Merkezi–Solidarity with Others ortak raporu (2013–2026, 87 sayfa, 20 bölüm) ve iltica/iade dosyalarında kullanımı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Rapor, uluslararası koruma, iade, adli işbirliği ve non-refoulement için hukuki değerlendirme içerdiğini belirtiyor; merkezin kendi ürünü olduğundan atıf aldığı dosyaların izlenmesi gerekir. [7995f75a88][a83862c128]",
+   "acildi": "2026-11-25",
+   "durum": "açık",
+   "son_hareket": "2026-11-25",
+   "kayitlar": [
+    "7995f75a88",
+    "a83862c128"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-24T12:04+00:00",
- "acik": 201
+ "guncelleme": "2026-11-25T10:55+00:00",
+ "acik": 203
 }
