@@ -15,20 +15,18 @@
   {
    "id": "t3",
    "durum": "hareket var",
-   "not": "Özakça ve Gülmen kararının metni ve ikincil aktarımı bu pencerede dosyaya girdi; 17 Kasım tarihli md. 5 kararları (Bulut, Akgül, Bakırcı ve diğerleri) ile birlikte Baş/Turan içtihadına dayanan grup büyümeye devam ediyor. [25936154b0][001-253649][001-253529][001-253530][001-253531]",
+   "not": "AİHM'in Candar ve diğerleri v. Türkiye dosyasını 23 ihraç başvurucusu bakımından 23 Haziran'da hükümete ilettiği ve 13 Temmuz'da sorularını kamuya açtığı, başvurucu vekilinin talebiyle hazırlanan 105 sayfalık uzman görüşünden anlaşılıyor; görüş 23 Kasım'da kamuya açıklandı.",
    "kayitlar": [
-    "25936154b0",
-    "001-253649",
-    "001-253529",
-    "001-253530",
-    "001-253531"
+    "6780375d65"
    ]
   },
   {
    "id": "t4",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Beş hukukçunun görüşü, ihraçların kamu hizmetinden ömür boyu dışlanma, özel sektör istihdamına kısıtlama ve ailelere uzanan damgalanma gibi cezalandırıcı etkiler doğurduğunu, ihraçların yaklaşık %82'sinin savunma alınmadan KHK ekindeki listelerle yapıldığını belirtiyor.",
+   "kayitlar": [
+    "6780375d65"
+   ]
   },
   {
    "id": "t6",
@@ -50,11 +48,9 @@
   },
   {
    "id": "t12",
-   "durum": "hareket var",
-   "not": "AİHM'in Letonya, Litvanya ve Polonya'nın Belarus sınırındaki özet geri göndermelere ilişkin üç kararı açıklandı; Amnesty, Mahkeme'nin md. 3 korumasını 'açık kişisel kırılganlık' ya da yaşama/kötü muameleye ilişkin gerçek ve yakın risk gösterebilenlerle sınırladığını belirtiyor. Kayıtta karar adları ve başvuru numaraları yok, yalnızca STK değerlendirmesi var. [32fbaa85dc]",
-   "kayitlar": [
-    "32fbaa85dc"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t15",
@@ -112,11 +108,9 @@
   },
   {
    "id": "t31",
-   "durum": "hareket var",
-   "not": "BM Keyfî Tutuklama Çalışma Grubu, ÇHD onursal başkanı avukat Selçuk Kozağaçlı'nın koşullu tahliye hakkı doğduktan sonraki hapsini keyfî buldu; görüş 3 Eylül'de kabul edilmiş, ÇHD tarafından 23 Kasım'da kamuoyuna duyurulmuş. [7f9d12c760]",
-   "kayitlar": [
-    "7f9d12c760"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t32",
@@ -144,9 +138,11 @@
   },
   {
    "id": "t40",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Avrupa Parlamentosu'nun 25 Kasım tarihli duyurusuna göre milletvekilleri, uluslararası adalet sistemini ve kurumları 'dış baskıya' karşı korumak için AB düzeyinde bir strateji istedi. Kayıt başlık/özet düzeyinde; ICC yaptırımlarına veya amicus dosyasına açık atıf yok.",
+   "kayitlar": [
+    "3ba6ce721f"
+   ]
   },
   {
    "id": "t41",
@@ -245,12 +241,6 @@
    "kayitlar": []
   },
   {
-   "id": "t82",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
    "id": "t83",
    "durum": "hareket yok",
    "not": "",
@@ -276,12 +266,6 @@
   },
   {
    "id": "t92",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
-  },
-  {
-   "id": "t93",
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
@@ -654,11 +638,9 @@
   },
   {
    "id": "t156",
-   "durum": "hareket var",
-   "not": "Frontex, Daimi Birlik için 500'e kadar yeni personel alımı açtı; manda genişletme tartışmasının personel ayağına ilişkin tek satırlık duyuru düzeyinde bilgi var. [472d7c881d]",
-   "kayitlar": [
-    "472d7c881d"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t157",
@@ -735,9 +717,10 @@
   {
    "id": "t169",
    "durum": "hareket var",
-   "not": "Resmî Gazete kaynağında 24 Kasım akşamı yine içeriği belirtilmemiş bir 'Yargı Harçları' kaydı geçti; kayıt başlık düzeyinde, içerik yine belirlenemiyor. [673dd445f6]",
+   "not": "25 Kasım tarihli Resmî Gazete kaydında 'Yargı Harçları' başlığı yeniden görünüyor; kayıt yalnızca başlık düzeyinde, içerik hâlâ belirlenemiyor. Aynı tarihli Resmî Gazete özetinde (sayı 33441) bu başlık yer almıyor; özet üç maddeyi (atamalar ve iki üniversite yönetmeliği) kapsıyor.",
    "kayitlar": [
-    "673dd445f6"
+    "673dd445f6",
+    "b2f469302a"
    ]
   },
   {
@@ -766,11 +749,9 @@
   },
   {
    "id": "t174",
-   "durum": "hareket var",
-   "not": "Ankara Başsavcılığı'nın Adalet Bakanlığı alımlarına ilişkin soruşturmasında üç ilde 20 kişi gözaltına alındı; dayanak 'Albatros' kod adlı gizli tanığın beyanı. Aynı tanığın 2018'den beri yaklaşık 6.000 kamu görevlisini kategorize eden bir liste verdiği, OHAL Komisyonu kararlarında da kullanıldığı aktarılıyor. [610dd7b356]",
-   "kayitlar": [
-    "610dd7b356"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t175",
@@ -799,10 +780,9 @@
   {
    "id": "t179",
    "durum": "hareket var",
-   "not": "Gülmen'in AİHM dosyası bu pencerede karara bağlandığı için adı yeniden gündemde; ancak cenaze izni talebinin akıbetine ilişkin yeni kayıt yok. [25936154b0][001-253649]",
+   "not": "Gülmen 25 Kasım'daki duruşmada, Ekim'de kaçırdığı babasının cenazesine katılma talebinin yanıtsız bırakılmasını yeniden dile getirdi. Kayıtta Adalet Bakanlığı'nın bir yanıt verdiğine ilişkin bilgi yok.",
    "kayitlar": [
-    "25936154b0",
-    "001-253649"
+    "0a35f9b878"
    ]
   },
   {
@@ -837,11 +817,9 @@
   },
   {
    "id": "t185",
-   "durum": "hareket var",
-   "not": "Hollanda Mülteci Konseyi'yle yapılan söyleşi, Pakt uyum yasasının 12 Haziran 2026'da yürürlüğe girdiğini ve 12 Haziran öncesi başvuranların üç yıla kadar karşılama merkezlerinde kalabileceğini aktarıyor; Gülen politikasına doğrudan değinmiyor. [ca9be182a6]",
-   "kayitlar": [
-    "ca9be182a6"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t186",
@@ -881,11 +859,9 @@
   },
   {
    "id": "t192",
-   "durum": "hareket var",
-   "not": "BM Genel Sekreteri, iklim konferansının uzlaşıya varamamasından duyduğu hayal kırıklığını ifade eden bir mesaj yayımladı; kayıt başlık düzeyinde. [551e974c09]",
-   "kayitlar": [
-    "551e974c09"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t193",
@@ -925,11 +901,9 @@
   },
   {
    "id": "t199",
-   "durum": "hareket var",
-   "not": "Frontex'in 500'e kadar Daimi Birlik personeli alımı duyurusu dışında yeni bulgu yok. [472d7c881d]",
-   "kayitlar": [
-    "472d7c881d"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t200",
@@ -939,11 +913,9 @@
   },
   {
    "id": "t201",
-   "durum": "hareket var",
-   "not": "BM Keyfî Tutuklama Çalışma Grubu'nun Kozağaçlı görüşü, koşullu tahliye hakkı doğmuş mahpusların infaz kurulu/savcılık itirazıyla içeride tutulmasını uluslararası hukuk bakımından öngörülemez buldu; bu, 116 ertelenen koşullu tahliye dosyasıyla aynı pratiğe ilişkin ilk uluslararası değerlendirme kaydı. [7f9d12c760]",
-   "kayitlar": [
-    "7f9d12c760"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t202",
@@ -983,11 +955,9 @@
   },
   {
    "id": "t208",
-   "durum": "hareket var",
-   "not": "ÇHD cephesinde yeni bir yargısal adım yok; ancak derneğin onursal başkanı Kozağaçlı'ya ilişkin BM görüşü 23 Kasım'da ÇHD tarafından duyuruldu. [7f9d12c760]",
-   "kayitlar": [
-    "7f9d12c760"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t209",
@@ -1105,9 +1075,11 @@
   },
   {
    "id": "t228",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "Gergerlioğlu, 24 Kasım'da Sincan Cezaevi'nde ölen ihraç öğretmen Mustafa Tekinay'ın ölümünü duyurdu ve ertesi gün Adalet Bakanlığı önündeki protestoda ölüm koşullarına ilişkin resmî bilgi alamadığını, cezaevi müdürünün kendisini savcılığa yönlendirdiğini söyledi. Soruşturma açılıp açılmadığı belirsiz.",
+   "kayitlar": [
+    "f12b3efe3c"
+   ]
   },
   {
    "id": "t229",
@@ -1135,9 +1107,11 @@
   },
   {
    "id": "t233",
-   "durum": "hareket yok",
-   "not": "",
-   "kayitlar": []
+   "durum": "hareket var",
+   "not": "25 Kasım tarihli Resmî Gazete kaydında '7531 sayılı Kanun' başlığı yeniden geçiyor; içerik yine belirlenemedi, kayıt başlık düzeyinde.",
+   "kayitlar": [
+    "116facc78c"
+   ]
   },
   {
    "id": "t234",
@@ -1153,11 +1127,9 @@
   },
   {
    "id": "t236",
-   "durum": "hareket var",
-   "not": "Rechtbank Den Haag'ın 23 Kasım tarihli NL25.20705 sayılı ara kararı (tussenuitspraak) kimlik, uyrukluk ve menşe inandırıcılığı ile yeterli karşılama konularını ele alıyor; refoulement riskinin iyi araştırılmadığı tespitiyle idari döngü (bestuurlijke lus) uygulandı. Kayıt özet düzeyinde. [0c5d290a4a]",
-   "kayitlar": [
-    "0c5d290a4a"
-   ]
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   },
   {
    "id": "t237",
@@ -1204,9 +1176,9 @@
   {
    "id": "t244",
    "durum": "hareket var",
-   "not": "BM Genel Sekreteri'nin konferansın uzlaşıya varamamasına ilişkin mesajı kayda girdi; engellenen iklim hesaplarına dair yeni veri yok. [551e974c09]",
+   "not": "Avrupa Parlamentosu'nun 26 Kasım günlük bülteninde, Türkiye'de yapılan ve anlaşmasız sona eren BM İklim Konferansı'nın saat 9.00'dan itibaren Komiser Hoekstra'nın katılımıyla genel kurulda ele alınacağı duyuruldu. Kayıt gündem düzeyinde; insan hakları boyutuna atıf yok.",
    "kayitlar": [
-    "551e974c09"
+    "db64277205"
    ]
   },
   {
@@ -1218,10 +1190,10 @@
   {
    "id": "t246",
    "durum": "hareket var",
-   "not": "Karar metni ve SCF aktarımı dosyaya girdi: md. 3 ihlali ikinci başvurucu (Gülmen) bakımından hem Sincan Cezaevi/cezaevi hastanesi hem Numune Hastanesi yoğun bakım ve mahpus koğuşu dönemleri için ayrı ayrı kuruldu; tazminatlar 12.500 ve 16.300 avro, ödeme süresi kararın kesinleşmesinden itibaren üç ay. [001-253649][25936154b0]",
+   "not": "Kararın 24 Kasım'da tebliğ edilmesinin ertesi günü İstanbul 28. Ağır Ceza Mahkemesi, Gülmen'i ayrı bir dosyada 10 yıl hapse mahkûm edip tutukluluğun devamına karar verdi. SCF, Strazburg kararının henüz kesinleşmediğini belirtiyor; karar metnine göre üç aylık ödeme süresi md. 44/2 uyarınca kesinleşmeden işlemeye başlamıyor.",
    "kayitlar": [
-    "001-253649",
-    "25936154b0"
+    "0a35f9b878",
+    "001-253649"
    ]
   },
   {
@@ -1241,47 +1213,62 @@
    "durum": "hareket yok",
    "not": "",
    "kayitlar": []
+  },
+  {
+   "id": "t250",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t251",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t252",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t253",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
   }
  ],
  "yeni_takip": [
   {
-   "baslik": "BM Keyfî Tutuklama Çalışma Grubu'nun 3 Eylül 2026 tarihli Selçuk Kozağaçlı görüşü: serbest bırakma, tazminat ve bağımsız soruşturma çağrılarına Türkiye'nin yanıtı",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden": "Görüş, koşullu tahliye hakkı doğduktan sonraki hapsi keyfî sayıyor ve infaz kurulu kararının yeni delil olmaksızın savcılık itirazıyla tersine çevrilmesini öngörülemez buluyor; merkezin infaz ve koşullu tahliye dosyalarında doğrudan dayanak oluşturur. [7f9d12c760]",
+   "baslik": "Candar ve diğerleri v. Türkiye: 23 KHK ihracı başvurucusu, hükümete iletilen sorular ve beş hukukçunun 105 sayfalık görüşü",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Dosya, KHK ihraçlarının idari mi cezai mi sayılacağı ve md. 15 derogasyonunun 'durumun gerektirdiği ölçüde' ölçütü üzerine doğrudan bir karar üretebilir; merkezin KHK dosyalarının tamamını ilgilendirir.",
    "kayitlar": [
-    "7f9d12c760"
+    "6780375d65"
    ]
   },
   {
-   "baslik": "'Albatros' kod adlı gizli tanık beyanının Adalet Bakanlığı alımları soruşturmasında ve OHAL Komisyonu kararlarında kullanımı",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "24 Kasım'daki 20 gözaltı tek bir gizli tanığa dayandırılıyor; aynı tanığın 2018'den beri yaklaşık 6.000 kişilik bir liste verdiği ve bu listenin hem ceza hem idari işlemlerde kullanıldığı aktarılıyor. Delil kaynağının tekilliği AİHM md. 5 makul şüphe içtihadıyla doğrudan ilgili. [610dd7b356]",
+   "baslik": "Nuriye Gülmen ve Yasemin Karadağ'ın yeniden yargılamada 10'ar yıl hapse mahkûm edilmesi ve tutukluluğun sürmesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Yargıtay'ın bozma gerekçesi olan tanık dinleme eksikliğinin giderilip giderilmediği kayıtlarda belirsiz; karar, AİHM'in aynı kişilere ilişkin 24 Kasım tarihli kararının hemen ertesinde verildi.",
    "kayitlar": [
-    "610dd7b356"
+    "0a35f9b878"
    ]
   },
   {
-   "baslik": "AİHM'in Letonya, Litvanya ve Polonya–Belarus sınırındaki 'göçün araçsallaştırılması' kararları ve md. 3 eşiği",
-   "alan": "İade, adli yardım ve iltica",
-   "neden": "Amnesty'ye göre Mahkeme özet geri göndermede md. 3 korumasını 'açık kişisel kırılganlık' veya yakın risk gösterebilenlerle sınırladı; kararların tam metni ve başvuru numaraları henüz elimizde yok, non-refoulement argümanları açısından izlenmeli. [32fbaa85dc]",
+   "baslik": "İhraç öğretmen Mustafa Tekinay'ın Sincan Cezaevi'ndeki ölümü ve ölüm nedeninin açıklanmaması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "neden": "Yeniden tutuklanmasının üzerinden yaklaşık iki ay geçmiş bir mahpusun ölümünde resmî açıklama ve soruşturma bilgisi yok; etkili soruşturma yükümlülüğü bakımından izlenmesi gerekir.",
    "kayitlar": [
-    "32fbaa85dc"
-   ]
-  },
-  {
-   "baslik": "Brüksel Hukuk Merkezi–Solidarity with Others ortak raporu (2013–2026, 87 sayfa, 20 bölüm) ve iltica/iade dosyalarında kullanımı",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden": "Rapor, uluslararası koruma, iade, adli işbirliği ve non-refoulement için hukuki değerlendirme içerdiğini belirtiyor; merkezin kendi ürünü olduğundan atıf aldığı dosyaların izlenmesi gerekir. [7995f75a88][a83862c128]",
-   "kayitlar": [
-    "7995f75a88",
-    "a83862c128"
+    "f12b3efe3c"
    ]
   }
  ],
  "birincil_notlar": [
   {
    "itemid": "001-253649",
-   "baslik": "KHK ile ihraç edilen bir öğretmen ve bir akademisyenin açlık grevi sırasındaki tutukluluğu, sağlık bakımı ve tutulma koşulları",
+   "baslik": "Açlık grevindeki iki ihraç eğitimcinin 2017'deki tutukluluğu ve tutulma koşulları",
    "maddeler": [
     "2",
     "2-1",
@@ -1289,66 +1276,66 @@
     "5",
     "5-1",
     "5-3",
-    "41",
+    "15",
+    "15-1",
     "35",
     "35-2-b",
     "35-3-a",
-    "15",
-    "15-1"
+    "41"
    ],
-   "ne_dedi": "Mahkeme, md. 35/2(b) kapsamındaki ön itirazı reddetti ve başvurunun kalan kısmını md. 35/3(a) uyarınca açıkça dayanaktan yoksun buldu. Esasta: her iki başvurucuya tutukluluk sırasında yeterli tıbbi yardım sağlandığı gerekçesiyle bu yönden md. 2 ihlali bulunmadı; buna karşılık ikinci başvurucunun 26 Eylül–1 Aralık 2017 arasında Numune Hastanesi yoğun bakım ünitesi ve mahpus koğuşundaki maddi tutulma koşulları bakımından md. 3 ihlali saptandı, aynı dönem için md. 2'nin ayrıca incelenmesine gerek görülmedi. Her iki başvurucu bakımından md. 5/1 ve 5/3 ihlali bulundu. Tazminat: birinci başvurucuya 12.500 avro, ikinci başvurucuya 16.300 avro manevi tazminat, kararın md. 44/2 uyarınca kesinleşmesinden itibaren üç ay içinde ödenmek üzere; kalan adil tazmin talepleri reddedildi.",
-   "merkez_icin": "Karar, KHK ihracına karşı barışçıl protesto ve açlık grevinin terör örgütü üyeliği isnadına dayanak yapılmasını md. 5/1-3 bakımından ihlal sayıyor; aynı zamanda hastane yoğun bakımındaki tutulma koşullarının md. 3 eşiğini aşabileceğini gösteriyor. Mahpus sağlığı ve ağır hasta mahpus dosyalarında, tıbbi bakımın 'yeterli' bulunduğu hâllerde bile maddi koşulların ayrıca ihlal doğurabileceği ayrımı kullanılabilir.",
-   "haberle_fark": "SCF haberi md. 3 ihlalini yalnızca Numune Hastanesi koşullarına bağlıyor; karar metni hüküm fıkrasında Sincan Cezaevi/cezaevi hastanesi dönemine (24 Mayıs–26 Eylül 2017) ilişkin ayrı bir fıkra da içeriyor ve md. 2 bakımından 'ihlal yok' sonucunun tıbbi bakım yükümlülüğüne ilişkin olduğunu, hastane dönemi için ise md. 2'nin incelenmesine gerek görülmediğini belirtiyor. Haberde ayrıca 'md. 5 ihlali' denirken metinde ihlal md. 5/1 ve 5/3 olarak ayrıştırılmıştır."
+   "ne_dedi": "Mahkeme her iki başvurucu bakımından md. 5/1 ve 5/3 ihlali saptadı. İkinci başvurucu (Gülmen) yönünden md. 3 ihlali iki ayrı dönem için kuruldu: 24 Mayıs–26 Eylül 2017 arası Sincan cezaevi ve cezaevi hastanesi koşulları ile 26 Eylül–1 Aralık 2017 arası Numune Hastanesi yoğun bakım ve mahpus koğuşu koşulları; ikinci dönem bakımından md. 2'nin ayrıca incelenmesine gerek görülmedi. Birinci başvurucuya 12.500, ikinci başvurucuya 16.300 avro manevi tazminat hükmedildi; ödeme süresi md. 44/2 uyarınca kararın kesinleşmesinden itibaren üç ay.",
+   "merkez_icin": "Karar, 15 Temmuz sonrası ihraçlara karşı protestoya katılanların tutuklanmasında makul şüphe ve orantılılık denetimini md. 15 bağlamında da yapıyor; mahpus sağlığı ve hastanede tutulma koşulları dosyalarında md. 3 eşiği için doğrudan dayanak sağlar.",
+   "haberle_fark": "SCF aktarımı md. 3 bulgusunu yalnızca Ankara'daki hastane koşullarıyla sınırlı gösteriyor; karar metninde md. 3 ihlali ayrıca Sincan cezaevi ve cezaevi hastanesi dönemi için de kuruldu. Ayrıca metinde md. 2 bakımından ihlal bulunmadığı/ayrıca incelenmediği belirtilirken haber bu ayrımı aktarmıyor."
   },
   {
    "itemid": "001-253529",
-   "baslik": "Eski savcının darbe girişimi sonrası ilk tutukluluğunda makul şüphe bulunmaması",
+   "baslik": "Tutuklamada makul şüphe yokluğu (Bulut)",
    "maddeler": [
     "5",
     "5-1",
     "5-1-c"
    ],
-   "ne_dedi": "Mahkeme, başvurunun md. 5/1 bakımından kabul edilebilir olduğunu açıkladı ve ilk tutukluluk anında suç işlendiğine dair makul şüphe bulunmaması nedeniyle md. 5/1 ihlali saptadı. Diğer md. 5 şikâyetlerinin, Turan ve diğerleri (§ 98) değerlendirmesi uyarınca incelenmesine gerek görülmedi. Başvurucunun 144.000 avro manevi ve 44.465 avro maddi tazminat talebi karşısında Mahkeme maddi tazminat taleplerini reddedip manevi tazminat ile masrafları kapsayan 5.000 avro götürü ödemeye hükmetti.",
-   "merkez_icin": "Turan ve diğerleri çizgisinin götürü 5.000 avro giderim uygulaması bu dosyada da sürüyor; ihraç kaynaklı gelir kaybının maddi tazminat olarak karşılanmadığı teyit ediliyor.",
+   "ne_dedi": "Komite, ilk tutukluluk sırasında suç işlendiğine dair makul şüphe bulunmaması nedeniyle md. 5/1 ihlali saptadı ve kalan md. 5 şikâyetlerini Turan ve diğerleri (§ 98) uyarınca incelemedi. Başvurucunun 144.000 avro manevi ve 44.465 avro maddi tazminat talebi reddedilerek, manevi zarar ile masrafları kapsayan 5.000 avro toplu ödemeye hükmedildi.",
+   "merkez_icin": "Turan ve diğerleri çizgisinin toplu giderim pratiğini sürdürdüğünü gösteriyor; md. 5 grubundaki Türkiye dosyalarında tazminat beklentisinin kalibrasyonu için referans.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-253530",
-   "baslik": "Eski hâkimin tutukluluğunda 2802 sayılı Kanun güvencelerinin suçüstü hükmüyle aşılması",
+   "baslik": "Hâkim-savcı tutukluluğunda 2802 sayılı Kanun güvencelerinin atlanması (Akgül)",
    "maddeler": [
     "5",
     "5-1"
    ],
-   "ne_dedi": "Mahkeme, başvurucunun ilk tutukluluğunun kanunun öngördüğü usule uygun olmadığı sonucuna vararak md. 5/1 ihlali buldu; makamların onu suçüstü hâlindeymiş gibi işleme tabi tutarak 2802 sayılı Kanun güvencelerinden yoksun bıraktığını, oysa darbe girişimiyle bağlantılı bir suçu işlerken ya da hemen sonrasında yakalandığının ortaya konmadığını belirtti. Hükümetin md. 15 derogasyonuna ilişkin talebi karşısında, tedbirin durumun gerektirdiği ölçüde kesinlikle zorunlu sayılamayacağını (Baş, §§ 115-16, 159-62) yineledi. Başvurucu süresinde adil tazmin talebi sunmadığı için tazminata hükmedilmedi.",
-   "merkez_icin": "Hâkim ve savcıların tutuklanmasında suçüstü nitelemesinin usul güvencelerini bertaraf etmesi bakımından Baş içtihadının sürdüğünü gösteriyor; adil tazmin talebinin süresinde sunulmamasının giderimi tümüyle ortadan kaldırdığı da usul açısından kayda değer.",
+   "ne_dedi": "Mahkeme, tutukluluğun kanunda öngörülen usule uygun olmaması nedeniyle md. 5/1 ihlali saptadı ve md. 15 derogasyonu bakımından tedbirin durumun gerektirdiği ölçüde olduğunun söylenemeyeceğini belirtti (Baş ve Turan ve diğerleri atfıyla). Başvurucu süresi içinde adil tazmin talebi sunmadığından tazminata hükmedilmedi.",
+   "merkez_icin": "Aynı ihlalde giderimin usul adımına bağlı olarak sıfırlanabildiğini gösteriyor; Bakanlar Komitesi denetiminde bireysel tedbir tartışmasında örnek teşkil eder.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-253531",
-   "baslik": "Üç eski hâkim ve savcının ByLock, para transferi ve bir dolarlık banknot anlatımına dayanan tutukluluğu",
+   "baslik": "Üç başvuruda tutuklamada makul şüphe yokluğu (Bakırcı ve diğerleri)",
    "maddeler": [
     "5",
     "5-1",
     "5-1-c"
    ],
-   "ne_dedi": "Başvurular birleştirildi; Mahkeme ilk tutukluluk anında makul şüphe bulunmadığı gerekçesiyle md. 5/1 ihlali saptadı ve kalan md. 5 şikâyetlerini incelemedi. Maddi tazminat talepleri reddedildi, başvurucuların her birine manevi tazminat ile masrafları kapsayan 5.000 avro götürü ödeme yapılmasına hükmedildi. Ek tabloda Recep Bakırcı (1976, Samsun), Nalan Can (1974, Denizli) ve Mecit Özgül (1976, İzmit) yer alıyor.",
-   "merkez_icin": "Tanık beyanı, üçüncü kişilerin mesajları, para transferleri, ByLock ve bir dolarlık banknot bileşiminin makul şüphe için yetersiz sayılması, merkezin ByLock ve banknot temelli dosyalarında doğrudan atıf konusudur.",
-   "haberle_fark": "SCF haberi üç kararı 'beş eski hâkim ve savcı' başlığı altında topluyor; Bakırcı ve diğerleri kararının ek tablosunda üç başvurucunun yanı sıra 'Mehmet Öncü (not a lawyer)' satırı da bulunuyor; kayıtta bu satırın niteliği açıklanmıyor."
+   "ne_dedi": "Üç başvuru birleştirildi; ilk tutukluluk sırasında makul şüphe bulunmaması nedeniyle md. 5/1 ihlali saptandı. Maddi tazminat talepleri reddedildi, başvurucuların her birine manevi zarar ile masrafları kapsayan 5.000 avro toplu ödemeye hükmedildi; ödeme süresi üç ay.",
+   "merkez_icin": "Ek tabloda Samsun, Denizli ve İzmit'te yaşayan başvurucular yer alıyor; md. 5 grubundaki birleşik dosyalarda kişi başı giderim düzeyini doğruluyor.",
+   "haberle_fark": ""
   },
   {
    "itemid": "001-253532",
-   "baslik": "Mahpusa gönderilen mektubun cezaevi idaresince denetlenmesi",
+   "baslik": "Cezaevinde mektup denetimi (Peksak)",
    "maddeler": [
     "8",
     "8-1"
    ],
-   "ne_dedi": "Mahkeme başvuruyu birinci mektup bakımından kabul edilebilir, ikinci mektup bakımından kabul edilemez buldu ve birinci mektuba ilişkin md. 8 ihlali saptadı; yazışmanın denetlenmesi ve ele geçirilmesinin kötüye kullanıma karşı gerekli güvencelerle çevrelenmediğini, bu nedenle md. 8/2 anlamında 'demokratik bir toplumda gerekli' olmadığını belirtti (Eylem Kaya, §§ 47-48). Manevi tazminat bakımından ihlal tespitinin kendisini yeterli adil tazmin saydı; masraflar için 250 avro ödenmesine hükmetti.",
-   "merkez_icin": "Cezaevi yazışma denetiminde ihlal tespitinin tek başına giderim sayılması, bu grup dosyalarda parasal giderim beklentisinin sınırını gösteriyor.",
+   "ne_dedi": "Başvuru, başvurucuya gönderilen ilk mektup bakımından kabul edilebilir, ikinci mektup bakımından kabul edilemez bulundu; ilk mektup yönünden md. 8 ihlali saptandı. Mahkeme, müdahalenin kötüye kullanıma karşı gerekli güvencelerle çevrili olmadığını ve 'demokratik toplumda gerekli' sayılamayacağını belirtti. Manevi zarar için ihlal tespitinin kendisi yeterli giderim sayıldı; yalnızca 250 avro masraf ödenmesine hükmedildi.",
+   "merkez_icin": "Cezaevi yazışma denetimi dosyalarında ihlal tespitinin para ödemesi doğurmadığı, giderimin genel tedbire kaldığı örneği.",
    "haberle_fark": ""
   },
   {
    "itemid": "001-253534",
-   "baslik": "Milletvekili seçilen avukatın AYM kararlarına rağmen tutukluluğunun sürdürülmesi",
+   "baslik": "Milletvekili seçilen avukatın AYM kararlarına rağmen tutulması (Şerafettin Can Atalay)",
    "maddeler": [
     "5",
     "5-1",
@@ -1360,263 +1347,181 @@
     "46-2",
     "41"
    ],
-   "ne_dedi": "Mahkeme, başvurucunun milletvekili seçilmesinin ve lehine AYM kararlarının ardından devam eden tutukluluğunun ne 'hukuka uygun' ne de 'kanunda öngörülen usule uygun' olduğunu belirterek md. 5/1 ve 5/1(a) bakımından ihlal saptadı; AYM kararlarının uygulanmamasından doğan denetim eksikliği nedeniyle md. 5/4 ihlali buldu ve bu tespitin somut olayın özel koşullarıyla sınırlı olduğunu vurguladı. 1 No'lu Protokol md. 3 bakımından da ihlal bulundu. Md. 18 ihlali çoğunluk görüşüyle saptandı; ayrık görüşte, Merabishvili ölçütleri uyarınca gizli amacın makul şüphenin ötesinde kanıtlandığı sonucuna katılınmadığı ve md. 46 bulgularına da katılınmadığı belirtiliyor.",
-   "merkez_icin": "AYM kararlarının uygulanmamasının md. 5/4 bakımından bağımsız bir ihlal doğurması, merkezin AYM ihlal kararlarının infaza yansımadığı dosyalarında kullanılabilir; md. 18 bulgusunun ayrık görüşle tartışmalı olduğu da not edilmeli.",
+   "ne_dedi": "Karar, AYM'nin lehe kararlarına rağmen sürdürülen tutmanın 'hukuki' ve 'kanunda öngörülen usule uygun' olmadığını saptayarak md. 5/1 ihlali kurdu; AYM kararlarının uygulanmaması nedeniyle tutmanın hukukiliğine ilişkin denetim sağlanmadığından md. 5/4 ihlali ve 1 No'lu Protokol md. 3 ihlali bulundu. Çoğunluk md. 18 bakımından da ihlal saptadı; ayrık görüşte yazan yargıç, Merabishvili ölçütleri uyarınca gizli amacın makul şüphenin ötesinde kanıtlanmadığını, bu nedenle md. 46 bulgularına da katılmadığını belirtti. Verilen metin parçasında hükmedilen tutar görünmüyor.",
+   "merkez_icin": "AYM kararlarının uygulanmaması sorununu md. 5/4 ve md. 46 düzeyinde ele alması, merkezin AYM ihlal kararlarının infaza yansımadığı dosyaları için doğrudan dayanak sağlar.",
    "haberle_fark": ""
   }
  ],
- "baslik": "BM Çalışma Grubu: Kozağaçlı'nın koşullu tahliye hakkı doğduktan sonraki hapsi keyfî",
- "brifing": "Pencerenin en somut gelişmesi, BM Keyfî Tutuklama Çalışma Grubu'nun 3 Eylül 2026'da kabul edip ÇHD'nin 23 Kasım'da duyurduğu Selçuk Kozağaçlı görüşü: koşullu tahliye hakkı doğduktan sonraki hapis keyfî bulundu, serbest bırakma, tazminat ve bağımsız soruşturma istendi [7f9d12c760]. İkinci olarak Ankara Başsavcılığı, Adalet Bakanlığı alımlarına ilişkin soruşturmada tek bir gizli tanık beyanına dayanarak üç ilde 20 kişiyi gözaltına aldı [610dd7b356]. Özakça ve Gülmen kararının tam metni elimize geçti ve dünkü haber özetinden farklı olarak md. 3 ihlalinin iki ayrı tutulma dönemi bakımından kurulduğunu gösteriyor [001-253649]. İltica tarafında AİHM'in Belarus sınırındaki özet geri göndermelere ilişkin üç kararı Amnesty tarafından md. 3'ün mutlaklığının daraltılması olarak okunuyor; kararların kendi metinleri henüz kayıtlarda yok [32fbaa85dc]. Pencerenin geri kalanı büyük ölçüde BM Genel Sekreteri mesajları ve kurumsal duyurulardan oluşuyor.",
- "one_cikanlar": [
-  {
-   "baslik": "BM Keyfî Tutuklama Çalışma Grubu: Kozağaçlı'nın koşullu tahliye sonrası hapsi keyfî",
-   "alan": "BM insan hakları mekanizmaları",
-   "neden_onemli": "Çalışma Grubu, mahkûmiyetin esasını incelemeden yalnızca Şubat 2025'te koşullu tahliye hakkı doğduktan sonraki dönemi değerlendirdi ve kaldırılmış bir disiplin cezasının düşürdüğü iyi hâl puanına dayanılmasını, 'örgütsel bağları kestiğini gösterme' şeklindeki yazısız koşulu ve yeni delil olmaksızın tahliyenin geri alınmasını öngörülemez buldu. Bu tespit, merkezin infaz kurulu kararlarının savcılık itirazıyla tersine çevrilmesine ilişkin dosyalarıyla (t201, t146) aynı pratiği hedefliyor. Barışçıl protesto ve açlık grevi nedeniyle verilen disiplin cezalarının hapsi uzatmakta kullanılmasının ifade, toplanma ve örgütlenme özgürlüğünü ihlal ettiği de belirtiliyor.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "Görüş 3 Eylül 2026'da kabul edildi, ÇHD tarafından 23 Kasım'da kamuoyuna duyuruldu",
-    "Kozağaçlı Şubat 2025'te koşullu tahliyeye hak kazandı, 16 Nisan'da tahliye edildi, savcılık itirazı üzerine 24 saatten kısa sürede yeniden tutuklandı",
-    "Kasım 2017'de tutuklandı; Kasım 2022'de DHKP-C üyeliğinden 12 yıl ceza, Nisan 2024'te Yargıtay cezayı 11 yılı aşkın süreye indirerek onadı",
-    "Çalışma Grubu tazminat ve bağımsız soruşturma çağrısı yaptı"
-   ],
-   "mekanizma": "BM Keyfî Tutuklama Çalışma Grubu görüşü",
-   "karsi_okuma": "Görüş bağlayıcı değildir ve Çalışma Grubu özellikle ilk mahkûmiyetin geçerliliğini incelemediğini belirtmiştir; kayıtlarda Türkiye'nin yanıtına ya da görüşün tam metnine ilişkin bilgi yok.",
-   "kayitlar": [
-    "7f9d12c760"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Ankara Başsavcılığı: 'Albatros' kod adlı gizli tanığa dayanarak üç ilde 20 gözaltı",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "Adalet Bakanlığı personel alımlarına ilişkin soruşturmada gözaltıların dayanağı tek bir gizli tanık beyanı olarak açıklanıyor; gözaltına alınanların kimliği, mesleği ve isnadın ayrıntısı duyurulmadı. Aynı tanığın 2018'den beri yaklaşık 6.000 kamu görevlisini kategorize eden bir liste verdiği ve bu bilginin hem ceza soruşturmalarında hem OHAL Komisyonu ret kararlarında kullanıldığı aktarılıyor. Bu, 17 Kasım tarihli md. 5 kararlarının makul şüphe eşiğiyle doğrudan kesişen bir delil sorunudur.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "Gözaltılar 24 Kasım'da, Ankara dahil üç ilde eşzamanlı yapıldı; 20 kişi",
-    "Kaynak: TRT Haber üzerinden Ankara Cumhuriyet Başsavcılığı açıklaması",
-    "Albatros beyanı ilk kez 2018'de Zonguldak'ta yedi infaz koruma memuru hakkındaki iddianamede anıldı",
-    "Tanığın verdiği liste yaklaşık 6.000 kamu görevlisini kapsıyor",
-    "OHAL Komisyonu 127.292 başvurunun 109.332'sini reddetti (yaklaşık %86)"
-   ],
-   "mekanizma": "Gizli tanık beyanı; AİHS md. 5/1-c makul şüphe",
-   "karsi_okuma": "Beyanın ne zaman alındığı, başka delille desteklenip desteklenmediği ve gözaltına alınanların akıbeti kayıtlarda yok; tek kaynak devlet yayın kuruluşu üzerinden aktarılan savcılık açıklamasıdır.",
-   "kayitlar": [
-    "610dd7b356"
-   ],
-   "guven": "orta"
-  },
-  {
-   "baslik": "Özakça ve Gülmen kararının metni: md. 3 ihlali iki ayrı tutulma dönemi için kuruldu",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "neden_onemli": "Dün haber düzeyinde değerlendirilen karar bugün tam metinle elimizde. Metin, tıbbi bakımın yeterli bulunmasına rağmen maddi tutulma koşullarının ayrıca md. 3 ihlali doğurabileceğini gösteriyor; hüküm fıkrasında Sincan Cezaevi/cezaevi hastanesi dönemi (24 Mayıs–26 Eylül 2017) ile Numune Hastanesi yoğun bakım ve mahpus koğuşu dönemi (26 Eylül–1 Aralık 2017) ayrı ayrı ele alınıyor. Md. 5 ihlali 5/1 ve 5/3 olarak ayrıştırılmış; md. 15 derogasyon savunması sonucu değiştirmemiş.",
-   "yenilik": "Dün haber aktarımıyla değerlendirilmişti; bugün karar metni geldi ve md. 3 bulgusunun tek bir hastane dönemiyle sınırlı olmadığı, md. 2 bakımından 'incelemeye gerek yok' ile 'ihlal yok' ayrımının bulunduğu görüldü.",
-   "ayrintilar": [
-    "Başvuru no. 45940/17 ve 46171/17, karar 24 Kasım 2026",
-    "Birinci başvurucuya 12.500 avro, ikinci başvurucuya 16.300 avro manevi tazminat",
-    "Ödeme süresi: kararın md. 44/2 uyarınca kesinleşmesinden itibaren üç ay",
-    "Md. 35/2(b) ön itirazı reddedildi; kalan şikâyetler md. 35/3(a) uyarınca kabul edilemez bulundu",
-    "SCF: açlık grevi 324 gün sürdü; Özakça Aralık 2017'de beraat etti, Gülmen altı yılı aşkın ceza aldı"
-   ],
-   "mekanizma": "AİHS md. 3, md. 5/1 ve 5/3, md. 41",
-   "karsi_okuma": "Karar tutukluluğun hukuka aykırılığını ve tutulma koşullarını saptamaktadır; başvurucuların yargılanmasının esasına ya da KHK ihraçlarının hukuka uygunluğuna ilişkin bir tespit içerdiği kayıtlardan çıkmaz.",
-   "kayitlar": [
-    "001-253649",
-    "25936154b0"
-   ],
-   "guven": "yüksek"
-  },
-  {
-   "baslik": "AİHM'in Belarus sınırı 'araçsallaştırma' kararları: md. 3 korumasında eşik tartışması",
-   "alan": "İade, adli yardım ve iltica",
-   "neden_onemli": "Amnesty'nin aktarımına göre Mahkeme, Letonya, Litvanya ve Polonya'nın Belarus'a özet geri göndermelerinde md. 3 ihlalini yalnızca 'açık kişisel kırılganlık' gösteren ya da yaşama yönelik gerçek ve yakın tehdit veya kötü muamele riskini kanıtlayabilen başvurucular bakımından kabul etti. Doğruysa bu, merkezin non-refoulement argümanlarında ispat yükünün başvurucuya kaydığı bir okuma yaratır. Amnesty iki dosyada (Litvanya ve Letonya) üçüncü taraf müdahilidir.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "Üç karar: Letonya, Litvanya ve Polonya'nın Belarus sınırındaki özet geri göndermelerine ilişkin",
-    "Mahkeme 'göçün araçsallaştırılması'nı, bir devletin başka bir devleti istikrarsızlaştırmak amacıyla göçü teşvik etmesi, kolaylaştırması veya zorlaması olarak tanımladı",
-    "Amnesty Litvanya ve Letonya dosyalarında üçüncü taraf müdahil"
-   ],
-   "mekanizma": "AİHS md. 3; non-refoulement",
-   "karsi_okuma": "Kararların metni, adları ve başvuru numaraları kayıtlarda yok; elimizdeki tek kaynak müdahil bir STK'nın ilk tepkisidir ve kuruluş kendisi de bulguları tam olarak incelemediğini belirtiyor.",
-   "kayitlar": [
-    "32fbaa85dc"
-   ],
-   "guven": "düşük"
-  },
-  {
-   "baslik": "Brüksel Hukuk Merkezi–Solidarity with Others ortak raporu yayımlandı",
-   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
-   "neden_onemli": "87 sayfalık ve 20 bölümlük rapor, 2013–2026 arasındaki ihlalleri keyfî gözaltı, işkence, zorla kaybetme, cezaevi koşulları, KHK ihraçları, kurum kapatmaları, malvarlığına el koyma, yargı bağımsızlığı, kadın ve çocuklara yönelik ihlaller ve sınıraşan baskı başlıkları altında topluyor. Uluslararası koruma, iade, adli işbirliği ve non-refoulement bakımından hukuki değerlendirme içerdiği belirtiliyor; merkezin iltica ve iade dosyalarında referans olarak kullanılması bekleniyor.",
-   "yenilik": "İlk kez.",
-   "ayrintilar": [
-    "87 sayfa, 20 bölüm, 2013–2026 dönemi",
-    "Brüksel Hukuk Merkezi ve Solidarity with Others ortak yayını",
-    "Kaynaklar: BM belgeleri, AİHM kararları, AB ve Avrupa Konseyi raporları, resmî istatistikler",
-    "2024–2026 arası gelişmelere özel ağırlık verildiği belirtiliyor"
-   ],
-   "mekanizma": "Non-refoulement; uluslararası koruma değerlendirmesi",
-   "karsi_okuma": "Rapor merkezin kendi ürünüdür; kayıtlarda içeriğinin bağımsız bir değerlendirmesi ya da üçüncü taraflarca kullanıldığına dair veri yok.",
-   "kayitlar": [
-    "7995f75a88",
-    "a83862c128"
-   ],
-   "guven": "yüksek"
-  }
- ],
+ "baslik": "AİHM kararının ertesi günü Gülmen yeniden 10 yıl hapse mahkûm edildi",
+ "brifing": "Pencerenin merkez dosyalarına değen üç kaydı var: AİHM'in 24 Kasım tarihli Özakça ve Gülmen kararının ertesi günü İstanbul 28. Ağır Ceza Mahkemesi'nin Gülmen'i ayrı bir dosyada 10 yıl hapse mahkûm edip tutukluluğu sürdürmesi [0a35f9b878]; AİHM'in Candar ve diğerleri dosyasında 23 KHK ihracı başvurucusu bakımından hükümete ilettiği sorulara yanıt olarak hazırlanan 105 sayfalık uzman görüşünün kamuya açılması [6780375d65]; ve 25 Eylül'de yeniden tutuklanan ihraç öğretmen Mustafa Tekinay'ın Sincan Cezaevi'nde ölümü [f12b3efe3c]. Mevzuat tarafında 'Yargı Harçları' ve '7531 sayılı Kanun' kayıtları yine yalnızca başlık düzeyinde geldi, içerik belirlenemedi [673dd445f6, 116facc78c]. İfade özgürlüğü, INTERPOL ve yaptırım dosyalarında bu pencerede Türkiye'ye ilişkin yeni kayıt yok; iltica tarafında gelen tek yargı kararı Türkiye bağlantısı bulunmayan bir çocuk koruma dosyası [d0239eb1fb]. AB tarafındaki kayıtlar genel kurul gündemi ve basın duyurusu düzeyinde kaldı.",
+ "one_cikanlar": [],
  "alan_notlari": [
   {
    "alan": "AİHM başvuruları ve kararların icrası",
    "durum": "hareketli",
-   "not": "Özakça ve Gülmen kararının tam metni geldi; 17 Kasım tarihli dört karar metni (Bulut, Akgül, Bakırcı ve diğerleri, Peksak) ile Can Atalay kararı bağlam olarak dosyada. Strasbourg Observers'da Atresmedia v. İspanya üzerinden medya çoğulculuğu ile editöryel özgürlük dengesini tartışan bir akademik not yayımlandı. [001-253649][001-253529][001-253530][001-253531][001-253532][001-253534][bab7357e03]",
+   "not": "Özakça ve Gülmen kararının tebliğinden bir gün sonra Gülmen hakkında ayrı dosyada 10 yıl hapis kararı verildi ve tutukluluk sürdü [0a35f9b878, 001-253649]. Ayrıca Candar ve diğerleri dosyasında 23 ihraç başvurucusuna ilişkin soruların kamuya açıldığı ve bu sorulara yanıt olarak 105 sayfalık hukukçu görüşü hazırlandığı kayda girdi [6780375d65].",
    "kayitlar": [
+    "0a35f9b878",
     "001-253649",
-    "001-253529",
-    "001-253530",
-    "001-253531",
-    "001-253532",
-    "001-253534",
-    "bab7357e03"
-   ]
-  },
-  {
-   "alan": "BM insan hakları mekanizmaları",
-   "durum": "hareketli",
-   "not": "Keyfî Tutuklama Çalışma Grubu'nun Kozağaçlı görüşü dosyaya girdi [7f9d12c760]. BM Dijital Kütüphane kayıtlarının büyük bölümü Genel Sekreter mesajları ve Genel Kurul kararlarıdır; merkezin dosyalarıyla doğrudan bağlantı kurulabilen tek kayıt, iklim konferansının uzlaşısız kapanışına ilişkin mesajdır [551e974c09].",
-   "kayitlar": [
-    "7f9d12c760",
-    "551e974c09",
-    "ec4bbf3afc",
-    "28dba4ff97",
-    "57026a188c"
+    "6780375d65"
    ]
   },
   {
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "durum": "hareketli",
-   "not": "Gizli tanık 'Albatros' beyanına dayanan 20 gözaltı ve merkezin 87 sayfalık ortak raporu bu pencerenin iki kaydı. Yenişehir Kadın Cezaevi'ndeki çıplak arama anlatımı önceki pencerede değerlendirildi. [610dd7b356][7995f75a88][a83862c128][ddeef82278]",
+   "not": "İhraç edilip 2016 sonrası beş yıl cezaevinde kalan, 25 Eylül'de Yazıcıoğlu soruşturması kapsamında yeniden tutuklanan fizik öğretmeni Mustafa Tekinay Sincan Cezaevi'nde öldü; ölüm nedeni açıklanmadı [f12b3efe3c]. Uzman görüşü, ihraçların %82'sinin KHK eki listelerle savunma alınmadan yapıldığını belirtiyor [6780375d65].",
    "kayitlar": [
-    "610dd7b356",
-    "7995f75a88",
-    "a83862c128",
-    "ddeef82278"
-   ]
-  },
-  {
-   "alan": "İade, adli yardım ve iltica",
-   "durum": "hareketli",
-   "not": "AİHM'in Belarus sınırı kararlarına ilişkin STK tepkisi, Rechtbank Den Haag'ın 23 Kasım tarihli NL25.20705 ara kararı (refoulement incelemesinin yetersizliği, bestuurlijke lus) ve Hollanda Mülteci Konseyi'nin Pakt uygulamasına ilişkin değerlendirmesi geldi. Frontex 500'e kadar Daimi Birlik personeli alımı açtı. [32fbaa85dc][0c5d290a4a][ca9be182a6][472d7c881d]",
-   "kayitlar": [
-    "32fbaa85dc",
-    "0c5d290a4a",
-    "ca9be182a6",
-    "472d7c881d"
-   ]
-  },
-  {
-   "alan": "İfade ve basın özgürlüğü",
-   "durum": "olağan",
-   "not": "Bu pencerede Türkiye'ye ilişkin yeni erişim engeli kaydı yok; MLSA'nın 16-22 Kasım bülteni (en az 521 X hesabı) önceki pencerede değerlendirildi. ICJ'nin Tayland'da gazeteciye açılan ceza davasında sunduğu amicus ile Hong Kong'a ilişkin HRW açıklaması merkezin karşılaştırmalı dosyalarıyla sınırlı ölçüde ilgilidir. [c7f5fa45c3][a719b74b75][29969d595e]",
-   "kayitlar": [
-    "c7f5fa45c3",
-    "a719b74b75",
-    "29969d595e"
+    "f12b3efe3c",
+    "6780375d65"
    ]
   },
   {
    "alan": "Mevzuat izleme (çok alanlı)",
    "durum": "olağan",
-   "not": "24 Kasım akşamı yine içeriği belirtilmemiş bir 'Yargı Harçları' kaydı düştü [673dd445f6]. 25 Kasım tarihli ve 33441 sayılı Resmî Gazete'de üç madde var: 59 vali ve üst düzey kamu yöneticisinin atanması ile Polis Akademisi Başkanı değişikliği, ve iki üniversite merkez yönetmeliği [b2f469302a].",
+   "not": "'Yargı Harçları' ve '7531 sayılı Kanun' kayıtları içerik olmaksızın yeniden geldi [673dd445f6, 116facc78c]. 25 Kasım tarihli 33441 sayılı Resmî Gazete özeti yalnızca atama kararları ile iki üniversite yönetmeliğini kapsıyor; 59 vali ve üst düzey yönetici ataması ile Polis Akademisi Başkanı değişikliği bildiriliyor [b2f469302a].",
    "kayitlar": [
     "673dd445f6",
-    "b2f469302a",
-    "116facc78c"
+    "116facc78c",
+    "b2f469302a"
    ]
   },
   {
    "alan": "Belçika ve AB mevzuatı",
-   "durum": "sessiz",
-   "not": "Belçika Ulusal Bankası'nın nakit kullanımına ilişkin ECB anketi duyurusu ve FCA'nın düzenleme yaklaşımı/iflas bildirimleri merkezin dosyalarıyla doğrudan ilgili değil. [ed8a125a19][81c349e0bc][0dc2f0b994]",
+   "durum": "olağan",
+   "not": "Avrupa Parlamentosu uluslararası adalet sistemini dış baskıya karşı koruyacak bir AB stratejisi istedi ve Çekya'dan kamu yayıncılığı yasasını bağımsızlık güvenceleriyle değiştirmesini talep etti; her iki kayıt da özet düzeyinde [3ba6ce721f, 1a5b3df024]. EDPB duyurusuna göre Yunan veri koruma otoritesi, erişim hakkı talebini karşılamayan ve verileri hukuka aykırı silen Teleperformance Greece'e 100.000 avro ceza verdi [458cfaad4b].",
    "kayitlar": [
-    "ed8a125a19",
-    "81c349e0bc",
-    "0dc2f0b994"
+    "3ba6ce721f",
+    "1a5b3df024",
+    "458cfaad4b",
+    "610b21eb5e"
    ]
-  }
- ],
- "dosya_derinlesmesi": [
+  },
   {
-   "baslik": "Koşullu tahliye hakkı doğmuş mahpusların infaz kurulu/savcılık itirazıyla içeride tutulması pratiği",
-   "alan": "BM insan hakları mekanizmaları / Gülen hareketi–KHK dosyaları",
-   "elimizde": "Bugün yeni olan, BM Keyfî Tutuklama Çalışma Grubu'nun 3 Eylül 2026 tarihli ve ÇHD'ce 23 Kasım'da duyurulan görüşünde bu pratiğin ilk kez uluslararası bir mekanizma tarafından keyfî tutma olarak nitelenmesidir [7f9d12c760]. Görüşe göre Kozağaçlı Şubat 2025'te koşullu tahliyeye hak kazandı, olumlu infaz kurulu değerlendirmesiyle 16 Nisan'da tahliye edildi ve savcılık itirazı üzerine 24 saatten kısa sürede yeniden tutuklandı. Çalışma Grubu, kaldırılmış bir disiplin cezasının düşürdüğü iyi hâl puanına dayanılmasını, 'örgütsel bağları kestiğini gösterme' şeklindeki yazısız koşulu ve yeni delil olmaksızın tahliyenin geri alınmasını öngörülemez buldu. Merkezin açık takip maddelerinde aynı pratik Ertan Aydın ve Gürol Sami Özer dosyalarında (t146), Taner Nakıboğlu dosyasında (t102) ve 2026'nın ilk on ayında en az 116 koşullu tahliyenin ertelendiği sayımında (t201) kayıtlıdır.",
-   "eksik": "Görüşün tam metni, numarası ve Türkiye'nin yanıt verip vermediği kayıtlarda yok. Aynı şekilde 116 ertelenen koşullu tahliye verisinin kaynak dökümü ve bu kararlarda savcılık itirazının payı elimizde değil; iki veri setinin birbirini doğrulayıp doğrulamadığı belirlenemiyor.",
-   "izlenecek_adim": "Çalışma Grubu görüşlerinde olağan adım, devletin yanıtı ve görüşün oturum raporunda yayımlanmasıdır; ayrıca ÇHD'nin görüşü iç hukukta infaz mercileri önünde ileri sürüp sürmeyeceği izlenmeli.",
-   "dayanak": "Görüş, infaz kurulu kararının yeni delil olmaksızın tersine çevrilmesinin öngörülebilirlik ölçütünü karşılamadığını söylüyor; merkezin tutukluluğun ve infazın hukuki dayanağının kalitesine ilişkin argümanında (AİHS md. 5/1 'kanunda öngörülen usul') destekleyici malzeme oluşturur.",
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "sessiz",
+   "not": "Bu pencerede Türkiye kaynaklı iltica/iade kararı gelmedi; Hollanda yargısından gelen tek karar Rechtbank Overijssel'in altı ay uzatılan bir vesayet/denetim tedbiri kararı ve merkezin dosyalarıyla ilgisi yok [d0239eb1fb].",
    "kayitlar": [
-    "7f9d12c760"
+    "d0239eb1fb"
+   ]
+  },
+  {
+   "alan": "BM insan hakları mekanizmaları",
+   "durum": "sessiz",
+   "not": "UN Digital Library kayıtları gündem, taslak karar ve genel sekreter konuşmaları düzeyinde; Türkiye'ye ilişkin mekanizma belgesi yok [34d17249d1, 4e1d19d1a9, c0eaaf899b].",
+   "kayitlar": [
+    "34d17249d1",
+    "4e1d19d1a9",
+    "c0eaaf899b"
    ]
   }
  ],
- "kronoloji": [],
- "izlenecekler": [
-  "BM Keyfî Tutuklama Çalışma Grubu'nun Kozağaçlı görüşüne Türkiye'nin yanıtı ve görüşün iç hukukta infaz mercileri önünde ileri sürülmesi",
-  "Ankara'daki 20 gözaltının sevk sonucu ve 'Albatros' beyanının başka delille desteklenip desteklenmediği",
-  "AİHM'in Letonya, Litvanya ve Polonya–Belarus sınırı kararlarının tam metinleri ve başvuru numaraları",
-  "Özakça ve Gülmen kararının kesinleşmesi ve 12.500 ile 16.300 avroluk tazminatların üç aylık ödeme süresi",
-  "Rechtbank Den Haag NL25.20705 ara kararında idari döngü sonrası verilecek nihai karar"
+ "dosya_derinlesmesi": [],
+ "kronoloji": [
+  {
+   "tarih": "2017-05-23",
+   "adim": "Özakça ve Gülmen açlık grevindeyken DHKP/C üyeliği isnadıyla tutuklandı.",
+   "kayitlar": [
+    "001-253649",
+    "25936154b0"
+   ]
+  },
+  {
+   "tarih": "2022-05",
+   "adim": "Gülmen ve Yasemin Karadağ ilk derece mahkemesince mahkûm edildi.",
+   "kayitlar": [
+    "0a35f9b878"
+   ]
+  },
+  {
+   "tarih": "2025-06",
+   "adim": "Yargıtay, aleyhe beyanda bulunan iki kişinin dinlenmemesi ve savunmanın ek beyanları inceleyememesi nedeniyle mahkûmiyetleri bozdu, ancak tutukluluğun sürmesine hükmetti.",
+   "kayitlar": [
+    "0a35f9b878"
+   ]
+  },
+  {
+   "tarih": "2026-01",
+   "adim": "Yeniden yargılamanın ilk duruşmasında tahliye talepleri reddedildi.",
+   "kayitlar": [
+    "0a35f9b878"
+   ]
+  },
+  {
+   "tarih": "2026-11-24",
+   "adim": "AİHM, Özakça ve Gülmen kararında md. 5/1-5/3 ihlali, Gülmen bakımından iki dönem için md. 3 ihlali saptadı; 12.500 ve 16.300 avro tazminata hükmetti.",
+   "kayitlar": [
+    "001-253649"
+   ]
+  },
+  {
+   "tarih": "2026-11-25",
+   "adim": "İstanbul 28. Ağır Ceza Mahkemesi, Gülmen ve Karadağ'ı 10'ar yıl hapse mahkûm edip tutukluluğun devamına karar verdi; Gülmen savunma kısıtları nedeniyle savunma yapmadığını açıkladı.",
+   "kayitlar": [
+    "0a35f9b878"
+   ]
+  }
  ],
- "gun": "2026-11-25",
- "olusturma": "2026-11-25T10:55+00:00",
+ "izlenecekler": [
+  "Candar ve diğerleri v. Türkiye dosyasında hükümetin görüşlerine ve 105 sayfalık uzman görüşüne karşı sunulacak yanıtın ve dosyanın usul takviminin seyri",
+  "Gülmen ve Karadağ hakkındaki 10 yıllık mahkûmiyetin gerekçeli kararı, Yargıtay'ın bozma gerekçelerinin giderilip giderilmediği ve temyiz aşaması",
+  "Mustafa Tekinay'ın ölümüne ilişkin savcılık soruşturmasının açılıp açılmadığı ve ölüm nedeninin açıklanması",
+  "Özakça ve Gülmen kararının kesinleşmesi (AİHS md. 44/2) ve üç aylık ödeme süresinin başlaması",
+  "'Yargı Harçları' ve 7531 sayılı Kanun kayıtlarının tam metinlerinin elde edilmesi"
+ ],
+ "gun": "2026-11-26",
+ "olusturma": "2026-11-26T10:29+00:00",
  "model": "claude-opus-5",
  "kayit_sayisi": 45,
  "kullanilan_kayitlar": [
-  "a031a689ce",
+  "6780375d65",
+  "0a35f9b878",
+  "f12b3efe3c",
   "25936154b0",
   "673dd445f6",
   "7995f75a88",
   "32fbaa85dc",
   "610dd7b356",
-  "ddeef82278",
   "116facc78c",
-  "0c5d290a4a",
   "b2f469302a",
+  "db779b7e59",
+  "b993f2cf57",
   "ca9be182a6",
-  "7f9d12c760",
   "a719b74b75",
-  "73fca8a62e",
-  "c7f5fa45c3",
-  "3f18d277f7",
-  "9ee3ca051f",
-  "ed8a125a19",
+  "d0239eb1fb",
+  "610b21eb5e",
+  "458cfaad4b",
+  "db64277205",
+  "83aea1af14",
+  "94383d9b2e",
+  "325c80834f",
+  "34d17249d1",
+  "010e504cb1",
+  "723bcc4f04",
+  "4e1d19d1a9",
+  "c0eaaf899b",
+  "1a5b3df024",
+  "3ba6ce721f",
+  "a9719e7131",
+  "c2677f1a7a",
+  "3b285356a5",
+  "be6b739c59",
+  "55785ff456",
+  "fe0ab2d45c",
+  "a7ee0a7aa5",
+  "d7ba720283",
   "ec4bbf3afc",
   "28dba4ff97",
   "4ddeb4fe1d",
   "e950941e2c",
   "78ff8ade92",
   "a83862c128",
+  "9a57a3952e",
   "bab7357e03",
-  "472d7c881d",
-  "5059f3fd75",
-  "eae664b3a8",
-  "578112d681",
-  "8649d585cf",
-  "ffd588ec8d",
-  "551e974c09",
-  "4f2a87b0d5",
-  "57026a188c",
-  "a753f32737",
-  "81c349e0bc",
-  "29969d595e",
-  "e8b1620261",
-  "9a4ab98791",
-  "08f8aafb9f",
-  "0dc2f0b994",
-  "4bfc123df0",
-  "aec10001ea",
-  "6256a34a0d",
-  "04c485a6d4"
+  "472d7c881d"
  ],
- "maliyet_usd": 0.9357,
- "girdi_token": 60705,
- "cikti_token": 20707,
+ "maliyet_usd": 0.9147,
+ "girdi_token": 61915,
+ "cikti_token": 20173,
  "arka_uc": "api",
  "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
  "denetim": {
@@ -1627,39 +1532,14 @@
     "not": ""
    },
    {
-    "id": "one1",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one2",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one3",
-    "hukum": "kısmen",
-    "not": "Md. 15 derogasyon savunmasının sonucu değiştirmediği iddiası, verilen karar metni özetinde doğrulanmıyor; madde listede var ama bu tespit gösterilmiyor."
-   },
-   {
-    "id": "one4",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
-    "id": "one5",
-    "hukum": "dayanaklı",
-    "not": ""
-   },
-   {
     "id": "bir1",
     "hukum": "dayanaklı",
     "not": ""
    },
    {
     "id": "bir2",
-    "hukum": "kısmen",
-    "not": "Başvurucunun 'eski savcı' olduğu ve darbe girişimi bağlamı kayıt metninde gösterilen bölümde açıkça doğrulanmıyor."
+    "hukum": "dayanaklı",
+    "not": ""
    },
    {
     "id": "bir3",
@@ -1668,8 +1548,8 @@
    },
    {
     "id": "bir4",
-    "hukum": "kısmen",
-    "not": "ByLock, para transferi ve bir dolarlık banknot delil anlatımı, gösterilen karar metninde yer almıyor; sadece makul şüphe eksikliği tespiti var."
+    "hukum": "dayanaklı",
+    "not": ""
    },
    {
     "id": "bir5",
@@ -1682,12 +1562,12 @@
     "not": ""
    }
   ],
-  "genel": "İddiaların büyük çoğunluğu kayıtlarla doğrudan örtüşüyor, ancak iki dosyada (Bulut ve Bakırcı) kayıtta bulunmayan kişisel/delil ayrıntıları eklenmiş ve Özakça-Gülmen kararında md. 15 derogasyon sonucu doğrulanamıyor.",
+  "genel": "Denetlenen tüm iddialar kendilerine gösterilen kayıt ve birincil belgelerle örtüşmektedir.",
   "model": "claude-sonnet-5",
-  "girdi_token": 46463,
-  "cikti_token": 2162,
-  "maliyet_usd": 0.1145,
-  "iddia_sayisi": 12
+  "girdi_token": 42085,
+  "cikti_token": 1665,
+  "maliyet_usd": 0.1008,
+  "iddia_sayisi": 7
  },
  "takip_acik": [
   {
@@ -1711,16 +1591,16 @@
    "baslik": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçınkaya grubu dosyaları",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-09-17",
-   "son_hareket": "2026-11-25",
-   "hareket_sayisi": 18
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 19
   },
   {
    "id": "t4",
    "baslik": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor verileri",
    "alan": "Gülen hareketi/KHK dosyaları",
    "acildi": "2026-09-17",
-   "son_hareket": "2026-11-18",
-   "hareket_sayisi": 9
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 10
   },
   {
    "id": "t6",
@@ -1871,16 +1751,8 @@
    "baslik": "ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan yaptırımlara karşı açılan davada 38 STK'nın amicus dilekçesi",
    "alan": "Yaptırım listeleri ve malvarlığı dondurma",
    "acildi": "2026-09-24",
-   "son_hareket": "2026-11-21",
-   "hareket_sayisi": 7
-  },
-  {
-   "id": "t41",
-   "baslik": "Tanrıverdi v. Türkiye (16088/17) kararının üç aylık ödeme süresi ve Bakanlar Komitesi denetiminde hangi 5/3 grubuna gireceği",
-   "alan": "AİHM başvuruları ve kararların icrası",
-   "acildi": "2026-09-25",
-   "son_hareket": "2026-10-11",
-   "hareket_sayisi": 6
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 8
   },
   {
    "id": "t42",
@@ -2639,8 +2511,8 @@
    "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
    "alan": "Mevzuat izleme (çok alanlı)",
    "acildi": "2026-11-01",
-   "son_hareket": "2026-11-25",
-   "hareket_sayisi": 16
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 17
   },
   {
    "id": "t170",
@@ -2719,8 +2591,8 @@
    "baslik": "Tutuklu akademisyen Nuriye Gülmen'in babasının cenazesine izin talebinin Adalet Bakanlığı'nca yanıtsız bırakılması",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-11-04",
-   "son_hareket": "2026-11-25",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 3
   },
   {
    "id": "t180",
@@ -3111,8 +2983,8 @@
    "baslik": "Ağır hasta mahpuslar için Adalet Bakanlığı önünde başlatılan günlük protesto ve Tuncer Sağlam'ın 7 Kasım'daki ölümü",
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
    "acildi": "2026-11-18",
-   "son_hareket": "2026-11-21",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 2
   },
   {
    "id": "t229",
@@ -3151,8 +3023,8 @@
    "baslik": "19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un kapsamı",
    "alan": "Mevzuat izleme (çok alanlı)",
    "acildi": "2026-11-19",
-   "son_hareket": "2026-11-22",
-   "hareket_sayisi": 3
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 4
   },
   {
    "id": "t234",
@@ -3239,8 +3111,8 @@
    "baslik": "COP31'in Antalya'da kapanış kararı kabul edilmeden sona ermesi ve konferans boyunca iklim hesaplarına uygulanan engeller",
    "alan": "BM insan hakları mekanizmaları / İfade ve basın özgürlüğü",
    "acildi": "2026-11-23",
-   "son_hareket": "2026-11-25",
-   "hareket_sayisi": 2
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 3
   },
   {
    "id": "t245",
@@ -3255,8 +3127,8 @@
    "baslik": "Özakça ve Gülmen v. Türkiye (45940/17, 46171/17) kararının icrası: 12.500 ve 16.300 avro tazminatın üç aylık ödeme süresi ve hastane/yoğun bakım koşullarına ilişkin md. 3 bulgusu",
    "alan": "AİHM başvuruları ve kararların icrası",
    "acildi": "2026-11-24",
-   "son_hareket": "2026-11-25",
-   "hareket_sayisi": 1
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 2
   },
   {
    "id": "t247",
@@ -3312,6 +3184,30 @@
    "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
    "acildi": "2026-11-25",
    "son_hareket": "2026-11-25",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t254",
+   "baslik": "Candar ve diğerleri v. Türkiye: 23 KHK ihracı başvurucusu, hükümete iletilen sorular ve beş hukukçunun 105 sayfalık görüşü",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-26",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t255",
+   "baslik": "Nuriye Gülmen ve Yasemin Karadağ'ın yeniden yargılamada 10'ar yıl hapse mahkûm edilmesi ve tutukluluğun sürmesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-26",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t256",
+   "baslik": "İhraç öğretmen Mustafa Tekinay'ın Sincan Cezaevi'ndeki ölümü ve ölüm nedeninin açıklanmaması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-11-26",
+   "son_hareket": "2026-11-26",
    "hareket_sayisi": 0
   }
  ]

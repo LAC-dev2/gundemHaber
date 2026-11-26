@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-25T10:51+00:00",
+ "guncelleme": "2026-11-26T10:25+00:00",
  "pencere_gun": 21,
  "belgeler": [
   {
@@ -116,6 +116,40 @@
    "kaynak": "HUDOC / AİHM",
    "kelime": 30233,
    "giris": "CASE OF ŞERAFETTİN CAN ATALAY v. TÜRKİYE (Application no. 11503/24) Art 5 § 1 • Deprivation of liberty • Art 5 § 1 (a) • Continued detention of a lawyer and human-rights defender after his election as a Member of Parliament and the Court of Cassation’s refusal to release him despite Constitutional Court judgments in his favour finding a violation of his rights to liberty and security • Continued d"
+  },
+  {
+   "itemid": "001-254001",
+   "ad": "ALTINÖZ v. TÜRKİYE",
+   "tur": "kabul edilebilirlik",
+   "tarih": "2026-11-05",
+   "maddeler": [
+    "P1-1",
+    "37",
+    "37-1"
+   ],
+   "sonuc": "Struck out of the list",
+   "basvuru": "61945/19",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-254001",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 422,
+   "giris": "Application no. 61945/19 Celal ALTINÖZ against Türkiye The European Court of Human Rights (Second Section), sitting on 5 November 2026 as a Committee composed of: Úna Ní Raifeartaigh, President, Juha Lavapuro, Hugh Mercer, judges,"
+  },
+  {
+   "itemid": "001-254002",
+   "ad": "ALTINÖZ v. TÜRKİYE",
+   "tur": "kabul edilebilirlik",
+   "tarih": "2026-11-05",
+   "maddeler": [
+    "P1-1",
+    "37",
+    "37-1"
+   ],
+   "sonuc": "Struck out of the list",
+   "basvuru": "63623/19",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-254002",
+   "kaynak": "HUDOC / AİHM",
+   "kelime": 421,
+   "giris": "Application no. 63623/19 Sevdiye ALTINÖZ and Others against Türkiye The European Court of Human Rights (Second Section), sitting on 5 November 2026 as a Committee composed of: Úna Ní Raifeartaigh, President, Juha Lavapuro, Hugh Mercer, judges,"
   }
  ]
 }

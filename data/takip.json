@@ -196,7 +196,7 @@
    "neden": "Derdest Türkiye dosyaları 2026'nın ilk sekiz ayında 18.464'ten 23.850'ye çıktı; artış Mahkeme'nin toplam net birikim artışından büyük. Grup dosyalarının işlem hızı icra dosyaları için belirleyici olacak.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "d5c63e300b"
    ],
@@ -360,6 +360,13 @@
       "001-253530",
       "001-253531"
      ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "AİHM'in Candar ve diğerleri v. Türkiye dosyasını 23 ihraç başvurucusu bakımından 23 Haziran'da hükümete ilettiği ve 13 Temmuz'da sorularını kamuya açtığı, başvurucu vekilinin talebiyle hazırlanan 105 sayfalık uzman görüşünden anlaşılıyor; görüş 23 Kasım'da kamuya açıklandı.",
+     "kayitlar": [
+      "6780375d65"
+     ]
     }
    ]
   },
@@ -370,7 +377,7 @@
    "neden": "Ankete katılan ihraçların %79'u işe alınmadığını, %73,4'ü ciddi mali kayıp bildirdi; bu veriler ihraçların süregelen etkisine dair dosyalarda kullanılabilecek nitelikte. Raporun tam metni ve yöntemi kayıtlarda yer almıyor.",
    "acildi": "2026-09-17",
    "durum": "açık",
-   "son_hareket": "2026-11-18",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "6bad902c60"
    ],
@@ -437,6 +444,13 @@
      "not": "SCF, 2016 sonrası ihraçların etkilediği 24 yaşındaki bir kişiyle (Meral) yapılan röportajı yayımladı; kayıt anlatı düzeyinde, yeni istatistik içermiyor.",
      "kayitlar": [
       "2226e96c97"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "Beş hukukçunun görüşü, ihraçların kamu hizmetinden ömür boyu dışlanma, özel sektör istihdamına kısıtlama ve ailelere uzanan damgalanma gibi cezalandırıcı etkiler doğurduğunu, ihraçların yaklaşık %82'sinin savunma alınmadan KHK ekindeki listelerle yapıldığını belirtiyor.",
+     "kayitlar": [
+      "6780375d65"
      ]
     }
    ]
@@ -2197,7 +2211,7 @@
    "neden": "Dosya, kişi ve kuruluş bazlı yaptırım listelerinin sivil toplum ve mağdur temsili üzerindeki dolaylı etkisini bir mahkeme önünde tartışmaya açıyor; merkezin yaptırım listesi dosyalarında doğrudan emsal değeri izlenmeli.",
    "acildi": "2026-09-24",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "9a0f5a3998"
    ],
@@ -2252,6 +2266,13 @@
      "kayitlar": [
       "2f75c1ed5d"
      ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "Avrupa Parlamentosu'nun 25 Kasım tarihli duyurusuna göre milletvekilleri, uluslararası adalet sistemini ve kurumları 'dış baskıya' karşı korumak için AB düzeyinde bir strateji istedi. Kayıt başlık/özet düzeyinde; ICC yaptırımlarına veya amicus dosyasına açık atıf yok.",
+     "kayitlar": [
+      "3ba6ce721f"
+     ]
     }
    ]
   },
@@ -2261,7 +2282,7 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "Karar 24 Eylül 2026'da tebliğ edildi ve kesin; dört başvurucuya kişi başı 5.000 avro manevi tazminat ile ortak 250 avro masraf üç ay içinde ödenecek. Ödeme ve icra grubunun belirlenmesi izlenmeli.",
    "acildi": "2026-09-25",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-11",
    "kayitlar": [
     "001-252399"
@@ -2309,7 +2330,9 @@
       "001-252399"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-26",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t42",
@@ -5801,7 +5824,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5920,6 +5943,14 @@
      "not": "Resmî Gazete kaynağında 24 Kasım akşamı yine içeriği belirtilmemiş bir 'Yargı Harçları' kaydı geçti; kayıt başlık düzeyinde, içerik yine belirlenemiyor. [673dd445f6]",
      "kayitlar": [
       "673dd445f6"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "25 Kasım tarihli Resmî Gazete kaydında 'Yargı Harçları' başlığı yeniden görünüyor; kayıt yalnızca başlık düzeyinde, içerik hâlâ belirlenemiyor. Aynı tarihli Resmî Gazete özetinde (sayı 33441) bu başlık yer almıyor; özet üç maddeyi (atamalar ve iki üniversite yönetmeliği) kapsıyor.",
+     "kayitlar": [
+      "673dd445f6",
+      "b2f469302a"
      ]
     }
    ]
@@ -6163,7 +6194,7 @@
    "neden": "Cenaze izni talebine idari yanıt verilmemesi, mahpus hakları başlığında usul işlemezliğine dair somut bir örnek; avukatların beyanı dışında belge yok.",
    "acildi": "2026-11-04",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "eaeb98c2c1"
    ],
@@ -6181,6 +6212,13 @@
      "kayitlar": [
       "25936154b0",
       "001-253649"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "Gülmen 25 Kasım'daki duruşmada, Ekim'de kaçırdığı babasının cenazesine katılma talebinin yanıtsız bırakılmasını yeniden dile getirdi. Kayıtta Adalet Bakanlığı'nın bir yanıt verdiğine ilişkin bilgi yok.",
+     "kayitlar": [
+      "0a35f9b878"
      ]
     }
    ]
@@ -7228,7 +7266,7 @@
    "neden": "Protesto, tek tek dosyaların (Newroz Bozkurt, Evin Zapsu) ötesinde infazın ertelenmesi ve tedaviye erişim pratiğine ilişkin sürekli bir izleme noktası oluşturuyor; polis müdahale girişimi de kaydedilmiş.",
    "acildi": "2026-11-18",
    "durum": "açık",
-   "son_hareket": "2026-11-21",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "61569f805d"
    ],
@@ -7238,6 +7276,13 @@
      "not": "Ağır hasta mahpus ailelerinin Adalet Bakanlığı önündeki günlük protestosuna atıfla, 73 yaşındaki Mustafa Özönder'in eşi CMK 109 uyarınca ev hapsi talebini kamuoyuna taşıdı.",
      "kayitlar": [
       "f196c520d2"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "Gergerlioğlu, 24 Kasım'da Sincan Cezaevi'nde ölen ihraç öğretmen Mustafa Tekinay'ın ölümünü duyurdu ve ertesi gün Adalet Bakanlığı önündeki protestoda ölüm koşullarına ilişkin resmî bilgi alamadığını, cezaevi müdürünün kendisini savcılığa yönlendirdiğini söyledi. Soruşturma açılıp açılmadığı belirsiz.",
+     "kayitlar": [
+      "f12b3efe3c"
      ]
     }
    ]
@@ -7335,7 +7380,7 @@
    "neden": "Kayıt yalnızca başlık düzeyinde; son haftalarda yayımlanan 7595, 7596 ve 7597 sayılı kanunlar merkezin dosyalarıyla kesiştiği için bu metnin de içeriğinin belirlenmesi gerekiyor.",
    "acildi": "2026-11-19",
    "durum": "açık",
-   "son_hareket": "2026-11-22",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "116facc78c"
    ],
@@ -7357,6 +7402,13 @@
     {
      "gun": "2026-11-22",
      "not": "Resmî Gazete akışında 7531 sayılı Kanun'a ilişkin yeni bir kayıt daha düştü; kayıt yine başlık düzeyinde olduğu için kanunun kapsamı doğrulanamıyor.",
+     "kayitlar": [
+      "116facc78c"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "25 Kasım tarihli Resmî Gazete kaydında '7531 sayılı Kanun' başlığı yeniden geçiyor; içerik yine belirlenemedi, kayıt başlık düzeyinde.",
      "kayitlar": [
       "116facc78c"
      ]
@@ -7533,7 +7585,7 @@
    "neden": "Ev sahibi ülke uygulamaları (t192) artık kapanış sonrası değerlendirme aşamasına geçti; aynı dönemde iklim örgütleri ve uzmanların X hesaplarının engellenmesi, konferans ev sahipliğiyle ifade kısıtlamasının kesiştiği bir kayıt kümesi oluşturuyor.",
    "acildi": "2026-11-23",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "e496734561",
     "c7f5fa45c3"
@@ -7551,6 +7603,13 @@
      "not": "BM Genel Sekreteri'nin konferansın uzlaşıya varamamasına ilişkin mesajı kayda girdi; engellenen iklim hesaplarına dair yeni veri yok. [551e974c09]",
      "kayitlar": [
       "551e974c09"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "Avrupa Parlamentosu'nun 26 Kasım günlük bülteninde, Türkiye'de yapılan ve anlaşmasız sona eren BM İklim Konferansı'nın saat 9.00'dan itibaren Komiser Hoekstra'nın katılımıyla genel kurulda ele alınacağı duyuruldu. Kayıt gündem düzeyinde; insan hakları boyutuna atıf yok.",
+     "kayitlar": [
+      "db64277205"
      ]
     }
    ]
@@ -7576,7 +7635,7 @@
    "neden": "Karar, KHK ile ihraç sonrası açlık grevindeki tutukluların sağlık bakımı ve tutulma koşullarını hem md. 2 hem md. 3 ve md. 5 açısından ayrı ayrı değerlendiriyor; icra aşamasında hangi gruba bağlanacağı izlenmeli.",
    "acildi": "2026-11-24",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-26",
    "kayitlar": [
     "001-253649"
    ],
@@ -7587,6 +7646,14 @@
      "kayitlar": [
       "001-253649",
       "25936154b0"
+     ]
+    },
+    {
+     "gun": "2026-11-26",
+     "not": "Kararın 24 Kasım'da tebliğ edilmesinin ertesi günü İstanbul 28. Ağır Ceza Mahkemesi, Gülmen'i ayrı bir dosyada 10 yıl hapse mahkûm edip tutukluluğun devamına karar verdi. SCF, Strazburg kararının henüz kesinleşmediğini belirtiyor; karar metnine göre üç aylık ödeme süresi md. 44/2 uyarınca kesinleşmeden işlemeye başlamıyor.",
+     "kayitlar": [
+      "0a35f9b878",
+      "001-253649"
      ]
     }
    ]
@@ -7683,8 +7750,47 @@
     "a83862c128"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t254",
+   "baslik": "Candar ve diğerleri v. Türkiye: 23 KHK ihracı başvurucusu, hükümete iletilen sorular ve beş hukukçunun 105 sayfalık görüşü",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Dosya, KHK ihraçlarının idari mi cezai mi sayılacağı ve md. 15 derogasyonunun 'durumun gerektirdiği ölçüde' ölçütü üzerine doğrudan bir karar üretebilir; merkezin KHK dosyalarının tamamını ilgilendirir.",
+   "acildi": "2026-11-26",
+   "durum": "açık",
+   "son_hareket": "2026-11-26",
+   "kayitlar": [
+    "6780375d65"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t255",
+   "baslik": "Nuriye Gülmen ve Yasemin Karadağ'ın yeniden yargılamada 10'ar yıl hapse mahkûm edilmesi ve tutukluluğun sürmesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden": "Yargıtay'ın bozma gerekçesi olan tanık dinleme eksikliğinin giderilip giderilmediği kayıtlarda belirsiz; karar, AİHM'in aynı kişilere ilişkin 24 Kasım tarihli kararının hemen ertesinde verildi.",
+   "acildi": "2026-11-26",
+   "durum": "açık",
+   "son_hareket": "2026-11-26",
+   "kayitlar": [
+    "0a35f9b878"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t256",
+   "baslik": "İhraç öğretmen Mustafa Tekinay'ın Sincan Cezaevi'ndeki ölümü ve ölüm nedeninin açıklanmaması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "neden": "Yeniden tutuklanmasının üzerinden yaklaşık iki ay geçmiş bir mahpusun ölümünde resmî açıklama ve soruşturma bilgisi yok; etkili soruşturma yükümlülüğü bakımından izlenmesi gerekir.",
+   "acildi": "2026-11-26",
+   "durum": "açık",
+   "son_hareket": "2026-11-26",
+   "kayitlar": [
+    "f12b3efe3c"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-25T10:55+00:00",
- "acik": 203
+ "guncelleme": "2026-11-26T10:29+00:00",
+ "acik": 205
 }
