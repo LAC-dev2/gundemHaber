@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-27",
- "olusturma": "2026-11-27T16:02+00:00",
+ "olusturma": "2026-11-27T19:45+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-27:Altı kuruluş Sözcü TV, Halk TV ve TELE1'deki kayyımların kal",
@@ -44,12 +44,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-27:46",
+   "id": "saglik:2026-11-27:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "46 kaynağın akışı hata veriyor",
+   "baslik": "12 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Adalet Bakanlığı İnsan Hakları Dairesi, CURIA / ABAD, European Database of Asylum Law, Fair Trials, Special Procedures Communications, INTERPOL Compliance and Review…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
