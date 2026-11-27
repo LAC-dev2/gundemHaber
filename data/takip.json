@@ -4170,12 +4170,14 @@
    "alan": "AİHM başvuruları ve kararların icrası",
    "neden": "Başvuru 22 Eylül 2026'da tebliğ edilmiş, 12 Ekim 2026'da yayımlanmıştır; Mahkeme iç mahkemelerin dengeleme denetimi yapıp yapmadığını sormaktadır. Cezaevi disiplin yaptırımlarının ifade özgürlüğü boyutu merkezin tutukluluk ve infaz dosyalarıyla kesişir.",
    "acildi": "2026-10-12",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-12",
    "kayitlar": [
     "001-253138"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-27",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t98",
@@ -4235,12 +4237,14 @@
    "alan": "İade, adli yardım ve iltica",
    "neden": "Karar, 2017'den bu yana sorun yaşanmamış olmasını risk değerlendirmesinde esas alıyor; aynı ölçütün başka dosyalarda tekrarlanıp tekrarlanmayacağı izlenmeli.",
    "acildi": "2026-10-12",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-12",
    "kayitlar": [
     "8f37aa29c0"
    ],
-   "gelismeler": []
+   "gelismeler": [],
+   "kapandi": "2026-11-27",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t101",
@@ -4476,7 +4480,7 @@
    "neden": "Kayyum atama, yayın durdurma, kolluk operasyonu ve toplu erişim engeli aynı gün birlikte uygulandı; hem basın özgürlüğü hem kayyum/malvarlığı dosyalarını ilgilendiriyor. Kayyum kararının dayanağı ve itiraz yolu kayıtlarda yok.",
    "acildi": "2026-10-15",
    "durum": "açık",
-   "son_hareket": "2026-11-11",
+   "son_hareket": "2026-11-27",
    "kayitlar": [
     "db2250c34a",
     "15e176aae1",
@@ -4562,6 +4566,13 @@
      "not": "İstanbul Başsavcılığı'nın Halk TV sahibi Cafer Mahiroğlu'na ilişkin rüşvet ve aklama soruşturmasında 10 Kasım'da yedi kişi gözaltına alındı; kayıt, kanala devlet eliyle el konulmasının üzerinden bir aydan az süre geçtiğini belirtiyor.",
      "kayitlar": [
       "f0392d29c2"
+     ]
+    },
+    {
+     "gun": "2026-11-27",
+     "not": "Halk TV, aynı ortak açıklamada Sözcü TV ve TELE1 ile birlikte kayyım atanmış üç yayın kuruluşundan biri olarak anılıyor. Kayyım kararlarının hukuki dayanağına ya da itiraz seyrine ilişkin yeni bilgi yok.",
+     "kayitlar": [
+      "a1fbb36e9e"
      ]
     }
    ]
@@ -5079,7 +5090,7 @@
    "neden": "Düzenleyici kurum eski yöneticisinin şikâyetinin tutuklamaya dönüşmesi, dezenformasyon maddesinin kurum eleştirisine uygulanmasına örnek oluşturuyor; iddianame ve ilk duruşma tarihi henüz bilinmiyor.",
    "acildi": "2026-10-22",
    "durum": "açık",
-   "son_hareket": "2026-11-23",
+   "son_hareket": "2026-11-27",
    "kayitlar": [
     "668c049906"
    ],
@@ -5097,6 +5108,13 @@
      "kayitlar": [
       "c7f5fa45c3",
       "3f18d277f7"
+     ]
+    },
+    {
+     "gun": "2026-11-27",
+     "not": "MLSA'nın 23 Kasım haftası bülteni, gazeteci İsmail Arı'nın 29 gün tutuklu kaldıktan sonra davasının ilk duruşmasında beraat ettiğini aktarıyor. Aynı kayıtta Arı'nın duruşmasına bazı gözlemcilerin salona alınmadığı belirtiliyor. Beraatin kesinleşip kesinleşmediği ya da istinaf başvurusu yapılıp yapılmadığı kayıtta yok.",
+     "kayitlar": [
+      "c24eb45d15"
      ]
     }
    ]
@@ -5824,7 +5842,7 @@
    "neden": "Kayıtta yalnızca başlık var; harç tutarlarındaki bir değişiklik iç hukuk yollarına erişim ve AİHM önündeki iç hukuk yolu tüketme tartışmalarını etkileyebileceği için içeriğin belirlenmesi gerekiyor.",
    "acildi": "2026-11-01",
    "durum": "açık",
-   "son_hareket": "2026-11-26",
+   "son_hareket": "2026-11-27",
    "kayitlar": [
     "673dd445f6",
     "9a1503b893"
@@ -5951,6 +5969,13 @@
      "kayitlar": [
       "673dd445f6",
       "b2f469302a"
+     ]
+    },
+    {
+     "gun": "2026-11-27",
+     "not": "Resmî Gazete akışında 'Yargı Harçları' başlıklı kayıt yeniden görüldü; içerik yine başlık düzeyinde, düzenlemenin kapsamı kayıttan belirlenemiyor.",
+     "kayitlar": [
+      "673dd445f6"
      ]
     }
    ]
@@ -7198,7 +7223,7 @@
    "neden": "Dört karar da Turan and Others/Baş çizgisini sürdürüyor ve 5.000 avro götürü tazminat ile 250 avro masraf hükümleri üç aylık ödeme süresine bağlanıyor; md. 5 gruplarındaki yerleri ve ödeme takvimi izlenmeli.",
    "acildi": "2026-11-18",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-27",
    "kayitlar": [
     "001-253529",
     "001-253530",
@@ -7254,6 +7279,14 @@
       "001-253529",
       "001-253530",
       "001-253531",
+      "001-253532"
+     ]
+    },
+    {
+     "gun": "2026-11-27",
+     "not": "Peksak (52433/21) kararına ilişkin ikincil kayıt, başvurucunun Balyoz davasına bakan heyette görev yapmış bir hâkim olduğunu, İstanbul 26. Ağır Ceza Mahkemesi'nce Ocak 2019'da 12 yıl hapse mahkûm edildiğini ve Bolu'da tutulduğunu bildiriyor. Aynı kayda göre Peksak'ın da aralarında olduğu 50 eski hâkim ve savcı hakkında Yargıtay'da süren davanın bir sonraki duruşması 12 Ocak 2027'de. Bulut, Akgül ve Bakırcı dosyalarında bu pencerede yeni kayıt yok.",
+     "kayitlar": [
+      "282c24f278",
       "001-253532"
      ]
     }
@@ -7490,7 +7523,7 @@
    "neden": "Halk TV dosyasıyla (t109) aynı kalıpta, bir muhalif yayın kuruluşunun yönetiminin ceza takibatı ve idari devralma yoluyla değiştirilmesi söz konusu; mülkiyet ve ifade boyutu birlikte yürüyor.",
    "acildi": "2026-11-21",
    "durum": "açık",
-   "son_hareket": "2026-11-24",
+   "son_hareket": "2026-11-27",
    "kayitlar": [
     "a4d5508952"
    ],
@@ -7500,6 +7533,13 @@
      "not": "Sözcü TV merkezine yapılan baskın ve kayyım atanmasının ardından İstanbul'da birkaç bin kişilik protesto yürüyüşü yapıldı.",
      "kayitlar": [
       "4e3f2a61b3"
+     ]
+    },
+    {
+     "gun": "2026-11-27",
+     "not": "Altı basın özgürlüğü ve insan hakları kuruluşu, Sözcü TV, Halk TV ve TELE1'deki devlet atamalı kayyımların kaldırılmasını isteyen ortak açıklama yayımladı; açıklamada medya sahipleri ve yöneticilerine yönelik ceza soruşturmalarının tüm yayın odalarının denetimini ele geçirmek için kullanıldığı ileri sürülüyor. Kayıtta kuruluşların adları ve açıklamanın tam metni yok.",
+     "kayitlar": [
+      "a1fbb36e9e"
      ]
     }
    ]
@@ -7731,11 +7771,20 @@
    "neden": "Amnesty'ye göre Mahkeme özet geri göndermede md. 3 korumasını 'açık kişisel kırılganlık' veya yakın risk gösterebilenlerle sınırladı; kararların tam metni ve başvuru numaraları henüz elimizde yok, non-refoulement argümanları açısından izlenmeli. [32fbaa85dc]",
    "acildi": "2026-11-25",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-27",
    "kayitlar": [
     "32fbaa85dc"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-27",
+     "not": "24 Kasım 2026 tarihli üç karar (HMM ve diğerleri v. Letonya, COCG ve diğerleri v. Litvanya, AR ve diğerleri v. Polonya) iki akademik analizin konusu oldu. Analizlerde kararların 17 yargıçla oybirliğiyle verildiği, Chişinău Bildirisi sonrası siyasi baskı ortamında okunması gerektiği ve kötü muameleye karşı mutlak korumaya görelilik unsuru girip girmediği tartışılıyor. Bunlar karar metni değil, yorum kayıtlarıdır.",
+     "kayitlar": [
+      "b5a07f16b3",
+      "e364a7a99a"
+     ]
+    }
+   ]
   },
   {
    "id": "t253",
@@ -7789,8 +7838,61 @@
     "f12b3efe3c"
    ],
    "gelismeler": []
+  },
+  {
+   "id": "t257",
+   "baslik": "Duruşma salonu kapasitesi gerekçesiyle gazeteci ve gözlemcilerin duruşmalara alınmaması pratiği",
+   "alan": "İfade ve basın özgürlüğü / adil yargılanma",
+   "neden": "MLSA bülteni aynı hafta içinde en az dört dosyada (Sevinç–Balcı, Arı, HDK, geniş salon talebinin reddi) aleniyetin fiilen kısıtlandığını bildiriyor. Aleniyet kısıtlamasının yinelenmesi, AİHS md. 6 kapsamında izlenmesi gereken bir örüntüye işaret edebilir.",
+   "acildi": "2026-11-27",
+   "durum": "açık",
+   "son_hareket": "2026-11-27",
+   "kayitlar": [
+    "c24eb45d15"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t258",
+   "baslik": "Tutuklu gazetecilerin 25 saatlik nakille Artvin'e sevk edilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kayıt, gazetecilerin kolluk nezaretinde 25 saat süren bir nakle tabi tutulduğunu bildiriyor; nakil koşulları md. 3 bakımından ayrıca izlenmesi gereken bir başlık. Nakledilen kişilerin kimlikleri ve gerekçe kayıtta yok.",
+   "acildi": "2026-11-27",
+   "durum": "açık",
+   "son_hareket": "2026-11-27",
+   "kayitlar": [
+    "c24eb45d15"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t259",
+   "baslik": "Kenya'da Tanzanyalı insan hakları savunucusunun gündüz vakti kaçırılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Sınıraşan baskı dosyalarında sığınılan ülkede fiilî kaçırma örneği; merkezin Türkiye dışı emsal derlemesi bakımından izlenebilir. Kayıt yalnızca özet düzeyinde, kişi adı ve tarih tam değil.",
+   "acildi": "2026-11-27",
+   "durum": "açık",
+   "son_hareket": "2026-11-27",
+   "kayitlar": [
+    "cce1a3d9c5"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t260",
+   "baslik": "26 Kasım 2026 tarihli Resmî Gazete'de yayımlanan AYM'nin 16/7/2026 tarihli kararının içeriği",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Kayıt yalnızca başlık düzeyinde; esas numarası ve iptal/ret sonucu belirlenemiyor. Norm denetimi kararlarının merkezin mevzuat izleme dosyalarıyla ilgisi ancak içerik görüldükten sonra değerlendirilebilir.",
+   "acildi": "2026-11-27",
+   "durum": "açık",
+   "son_hareket": "2026-11-27",
+   "kayitlar": [
+    "7827e24f63",
+    "b5ce977bc1"
+   ],
+   "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-26T10:29+00:00",
- "acik": 205
+ "guncelleme": "2026-11-27T10:34+00:00",
+ "acik": 207
 }

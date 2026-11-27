@@ -1,0 +1,2244 @@
+{
+ "sureklilik": [
+  {
+   "id": "t134",
+   "durum": "hareket var",
+   "not": "MLSA'nın 23 Kasım haftası bülteni, gazeteci İsmail Arı'nın 29 gün tutuklu kaldıktan sonra davasının ilk duruşmasında beraat ettiğini aktarıyor. Aynı kayıtta Arı'nın duruşmasına bazı gözlemcilerin salona alınmadığı belirtiliyor. Beraatin kesinleşip kesinleşmediği ya da istinaf başvurusu yapılıp yapılmadığı kayıtta yok.",
+   "kayitlar": [
+    "c24eb45d15"
+   ]
+  },
+  {
+   "id": "t227",
+   "durum": "hareket var",
+   "not": "Peksak (52433/21) kararına ilişkin ikincil kayıt, başvurucunun Balyoz davasına bakan heyette görev yapmış bir hâkim olduğunu, İstanbul 26. Ağır Ceza Mahkemesi'nce Ocak 2019'da 12 yıl hapse mahkûm edildiğini ve Bolu'da tutulduğunu bildiriyor. Aynı kayda göre Peksak'ın da aralarında olduğu 50 eski hâkim ve savcı hakkında Yargıtay'da süren davanın bir sonraki duruşması 12 Ocak 2027'de. Bulut, Akgül ve Bakırcı dosyalarında bu pencerede yeni kayıt yok.",
+   "kayitlar": [
+    "282c24f278",
+    "001-253532"
+   ]
+  },
+  {
+   "id": "t238",
+   "durum": "hareket var",
+   "not": "Altı basın özgürlüğü ve insan hakları kuruluşu, Sözcü TV, Halk TV ve TELE1'deki devlet atamalı kayyımların kaldırılmasını isteyen ortak açıklama yayımladı; açıklamada medya sahipleri ve yöneticilerine yönelik ceza soruşturmalarının tüm yayın odalarının denetimini ele geçirmek için kullanıldığı ileri sürülüyor. Kayıtta kuruluşların adları ve açıklamanın tam metni yok.",
+   "kayitlar": [
+    "a1fbb36e9e"
+   ]
+  },
+  {
+   "id": "t109",
+   "durum": "hareket var",
+   "not": "Halk TV, aynı ortak açıklamada Sözcü TV ve TELE1 ile birlikte kayyım atanmış üç yayın kuruluşundan biri olarak anılıyor. Kayyım kararlarının hukuki dayanağına ya da itiraz seyrine ilişkin yeni bilgi yok.",
+   "kayitlar": [
+    "a1fbb36e9e"
+   ]
+  },
+  {
+   "id": "t252",
+   "durum": "hareket var",
+   "not": "24 Kasım 2026 tarihli üç karar (HMM ve diğerleri v. Letonya, COCG ve diğerleri v. Litvanya, AR ve diğerleri v. Polonya) iki akademik analizin konusu oldu. Analizlerde kararların 17 yargıçla oybirliğiyle verildiği, Chişinău Bildirisi sonrası siyasi baskı ortamında okunması gerektiği ve kötü muameleye karşı mutlak korumaya görelilik unsuru girip girmediği tartışılıyor. Bunlar karar metni değil, yorum kayıtlarıdır.",
+   "kayitlar": [
+    "b5a07f16b3",
+    "e364a7a99a"
+   ]
+  },
+  {
+   "id": "t169",
+   "durum": "hareket var",
+   "not": "Resmî Gazete akışında 'Yargı Harçları' başlıklı kayıt yeniden görüldü; içerik yine başlık düzeyinde, düzenlemenin kapsamı kayıttan belirlenemiyor.",
+   "kayitlar": [
+    "673dd445f6"
+   ]
+  },
+  {
+   "id": "t95",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t233",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t246",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t226",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t254",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t255",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t256",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t250",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t253",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t242",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t145",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t3",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  },
+  {
+   "id": "t4",
+   "durum": "hareket yok",
+   "not": "",
+   "kayitlar": []
+  }
+ ],
+ "yeni_takip": [
+  {
+   "baslik": "Duruşma salonu kapasitesi gerekçesiyle gazeteci ve gözlemcilerin duruşmalara alınmaması pratiği",
+   "alan": "İfade ve basın özgürlüğü / adil yargılanma",
+   "neden": "MLSA bülteni aynı hafta içinde en az dört dosyada (Sevinç–Balcı, Arı, HDK, geniş salon talebinin reddi) aleniyetin fiilen kısıtlandığını bildiriyor. Aleniyet kısıtlamasının yinelenmesi, AİHS md. 6 kapsamında izlenmesi gereken bir örüntüye işaret edebilir.",
+   "kayitlar": [
+    "c24eb45d15"
+   ]
+  },
+  {
+   "baslik": "Tutuklu gazetecilerin 25 saatlik nakille Artvin'e sevk edilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden": "Kayıt, gazetecilerin kolluk nezaretinde 25 saat süren bir nakle tabi tutulduğunu bildiriyor; nakil koşulları md. 3 bakımından ayrıca izlenmesi gereken bir başlık. Nakledilen kişilerin kimlikleri ve gerekçe kayıtta yok.",
+   "kayitlar": [
+    "c24eb45d15"
+   ]
+  },
+  {
+   "baslik": "Kenya'da Tanzanyalı insan hakları savunucusunun gündüz vakti kaçırılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Sınıraşan baskı dosyalarında sığınılan ülkede fiilî kaçırma örneği; merkezin Türkiye dışı emsal derlemesi bakımından izlenebilir. Kayıt yalnızca özet düzeyinde, kişi adı ve tarih tam değil.",
+   "kayitlar": [
+    "cce1a3d9c5"
+   ]
+  },
+  {
+   "baslik": "26 Kasım 2026 tarihli Resmî Gazete'de yayımlanan AYM'nin 16/7/2026 tarihli kararının içeriği",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Kayıt yalnızca başlık düzeyinde; esas numarası ve iptal/ret sonucu belirlenemiyor. Norm denetimi kararlarının merkezin mevzuat izleme dosyalarıyla ilgisi ancak içerik görüldükten sonra değerlendirilebilir.",
+   "kayitlar": [
+    "7827e24f63",
+    "b5ce977bc1"
+   ]
+  }
+ ],
+ "birincil_notlar": [
+  {
+   "itemid": "001-253649",
+   "baslik": "Açlık grevindeki iki ihraç kamu görevlisinin tutukluluğu ve tutulma koşulları",
+   "maddeler": [
+    "2",
+    "2-1",
+    "3",
+    "5-1",
+    "5-3",
+    "15",
+    "35",
+    "41"
+   ],
+   "ne_dedi": "Mahkeme, her iki başvurucuya tutukluluk sırasında yeterli tıbbi yardım ve bakım sağlandığı gerekçesiyle md. 2 bakımından ihlal bulmadı. İkinci başvurucu yönünden 24 Mayıs–26 Eylül 2017 arasında Sincan Cezaevi ve cezaevi hastanesindeki, 26 Eylül–1 Aralık 2017 arasında Numune Hastanesi yoğun bakım ünitesi ve mahkûm koğuşundaki maddi tutulma koşulları bakımından md. 3 ihlali saptandı; ikinci dönem için md. 2'nin ayrıca incelenmesine gerek görülmedi. Her iki başvurucu bakımından md. 5/1 ve 5/3 ihlali kuruldu. Karar, birinci başvurucuya 12.500 avro, ikinci başvurucuya 16.300 avro manevi tazminat ödenmesine, ödemenin kararın kesinleşmesinden itibaren üç ay içinde yapılmasına hükmetti.",
+   "merkez_icin": "md. 3 ihlalinin iki ayrı tutulma dönemi için ayrı ayrı kurulması, cezaevi hastanesi ve sivil hastane yoğun bakım koşullarının bağımsız biçimde denetlenebildiğini gösteriyor; mahpus sağlığı dosyalarında doğrudan kullanılabilir. Ödeme süresi kararın md. 44/2 uyarınca kesinleşmesine bağlı olduğundan icra takvimi henüz başlamadı.",
+   "haberle_fark": "Haber kaydı kararı 'Gülmen'in hastanedeki tutulma koşullarının insanlık dışı muamele oluşturduğu' biçiminde aktarıyor; karar metni bunu doğruluyor, ancak haberde md. 2 bakımından ihlal bulunmadığı ve md. 3 ihlalinin iki ayrı döneme ilişkin kurulduğu belirtilmiyor."
+  },
+  {
+   "itemid": "001-253529",
+   "baslik": "Tutuklamada makul şüphe yokluğu nedeniyle md. 5/1 ihlali",
+   "maddeler": [
+    "5",
+    "5-1",
+    "5-1-c"
+   ],
+   "ne_dedi": "İkinci Bölüm Komitesi, başvurucunun ilk tutukluluğu sırasında suç işlediğine dair makul şüphe bulunmaması nedeniyle md. 5/1 ihlali saptadı. Md. 5'in kalan şikâyetlerinin kabul edilebilirliği ve esası, Turan ve diğerleri kararındaki değerlendirme uyarınca incelenmedi. Başvurucunun 144.000 avro manevi, 44.465 avro maddi tazminat ve 2.000 avro masraf talebi karşısında Mahkeme maddi tazminat taleplerini reddetti ve manevi tazminat ile masrafları kapsayan 5.000 avro toplu tutara hükmetti.",
+   "merkez_icin": "Turan ve diğerleri çizgisinin sürdüğünü ve bu grupta giderimin 5.000 avroluk tek kalemde toplandığını gösteriyor; md. 5 grubu icra dosyalarında ödeme tutarı karşılaştırması için dayanak.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-253530",
+   "baslik": "Hâkim statüsündeki başvurucunun ilk tutukluluğunun hukuka aykırılığı",
+   "maddeler": [
+    "5",
+    "5-1"
+   ],
+   "ne_dedi": "Mahkeme, 2802 sayılı Kanun'un sağladığı güvencelerden yoksun bırakılma nedeniyle tutukluluğun kanunla öngörülmüş usule uygun olmadığını ve md. 5/1'in ihlal edildiğini saptadı. Hükümetin md. 15 derogasyonuna ilişkin talebi karşısında, tedbirin durumun gerektirdiği ölçüde kesin olarak zorunlu sayılamayacağı belirtildi (Baş ve Turan ve diğerleri atıfları). Başvurucu süresinde adil tazmin talebi sunmadığından herhangi bir tutara hükmedilmedi.",
+   "merkez_icin": "Aynı ihlalin saptandığı dosyalarda usul kuralına uyulmaması nedeniyle hiç tazminat ödenmemesi, giderimin usule bağlılığını gösteriyor; icra denetiminde 'ihlal var, ödeme yok' kategorisinin örneği.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-253531",
+   "baslik": "Üç başvurunun birleştirildiği makul şüphe yokluğu dosyası",
+   "maddeler": [
+    "5",
+    "5-1",
+    "5-1-c"
+   ],
+   "ne_dedi": "Mahkeme 15133/20, 49485/20 ve 9797/21 sayılı başvuruları birleştirdi ve ilk tutukluluk sırasında makul şüphe bulunmaması nedeniyle md. 5/1 ihlali saptadı. Kalan md. 5 şikâyetleri incelenmedi. Maddi tazminat talepleri Turan ve diğerleri gerekçesiyle reddedildi; her bir başvurucuya manevi tazminat ile masrafları kapsayan 5.000 avro ödenmesine, ödemenin üç ay içinde yapılmasına hükmedildi.",
+   "merkez_icin": "Ek tabloda başvurucular Recep Bakırcı (Samsun), Nalan Can (Denizli) ve Mecit Özgül (İzmit) olarak görünüyor; md. 5 grubundaki birleştirilmiş dosyalarda kişi başına 5.000 avro uygulamasını teyit ediyor.",
+   "haberle_fark": ""
+  },
+  {
+   "itemid": "001-253532",
+   "baslik": "Cezaevinde başvurucuya gelen mektubun denetlenmesi nedeniyle md. 8 ihlali",
+   "maddeler": [
+    "8",
+    "8-1"
+   ],
+   "ne_dedi": "Mahkeme başvuruyu kendisine gönderilen birinci mektup bakımından kabul edilebilir, ikinci mektup bakımından kabul edilemez buldu. Yazışmanın denetlenmesi ve ele geçirilmesinin kötüye kullanıma karşı gerekli güvencelerle çevrelenmediği, dolayısıyla müdahalenin md. 8/2 anlamında 'demokratik bir toplumda gerekli' olmadığı saptanarak md. 8 ihlaline hükmedildi (Eylem Kaya atfı). Manevi tazminat bakımından ihlal tespitinin başlı başına yeterli giderim sayıldığı belirtildi; masraflar için 250 avroya hükmedildi; başvurucunun 50.000 avro manevi tazminat ve 1.000 avro masraf talebinin kalanı reddedildi.",
+   "merkez_icin": "Cezaevi yazışma denetiminde ihlal saptanmasına rağmen parasal giderimin yalnızca 250 avro masrafla sınırlı kalması, bu grupta bireysel giderimin zayıf, genel tedbir boyutunun belirleyici olduğunu gösteriyor. İkincil kayıt başvurucunun Balyoz heyetinde görev yapmış, Gülen bağlantısı isnadıyla 12 yıl hapis cezası almış bir hâkim olduğunu ve Bolu'da tutulduğunu ekliyor.",
+   "haberle_fark": "Haber kaydı ihlali 'avukatından gelen mektubun açılması' olarak sunuyor; karar metninin verilen bölümünde mektubun avukat mektubu olduğu ibaresi geçmiyor, yalnızca 'başvurucuya gönderilen birinci mektup' deniyor. Haber ayrıca ikinci mektup bakımından kabul edilemezliği ve 250 avroluk masraf hükmünü aktarmıyor."
+  },
+  {
+   "itemid": "001-253534",
+   "baslik": "Milletvekili seçilen avukatın AYM kararlarına rağmen tutulmaya devam edilmesi",
+   "maddeler": [
+    "5-1",
+    "5-1-a",
+    "5-4",
+    "P1-3",
+    "18",
+    "46",
+    "41"
+   ],
+   "ne_dedi": "HUDOC sonuç alanına göre Mahkeme md. 5/1 (5/1-a), md. 5/4 ve 1 No'lu Protokol md. 3 ihlali saptadı; başvurucunun seçilmesinin ve AYM'nin lehine kararlarının ardından Yargıtay'ın tahliye etmemesi sonucu tutulmanın 'hukuki' ve 'kanunla öngörülmüş usule uygun' olmadığı belirtildi. AYM kararlarının uygulanmaması nedeniyle tutulmanın hukukiliğine ilişkin denetim sağlanmadığı saptandı; Mahkeme bu dosyada bireysel başvurunun md. 5/4 anlamında denetim sağlamadığı yönündeki bulgusunu somut koşullarla sınırladı. Metne eklenen ayrık görüşten, çoğunluğun md. 18 bakımından da ihlal bulduğu (§ 158) ve md. 46 kapsamında tespitler yaptığı, bir yargıcın bu iki noktada karşı oy kullandığı anlaşılıyor.",
+   "merkez_icin": "AYM kararlarının uygulanmamasının hem md. 5/4 hem md. 18 düzeyinde sonuç doğurması, merkezin AYM ihlal kararlarının infazına ilişkin dosyalarında (gerekçeli karar ihlalleri, yeniden yargılama talepleri) doğrudan dayanak oluşturur.",
+   "haberle_fark": ""
+  }
+ ],
+ "baslik": "29 gün tutuklu kalan gazeteci İsmail Arı ilk duruşmada beraat etti",
+ "brifing": "Pencerenin merkez alanlarına giren kayıt sayısı sınırlı; gelenlerin çoğu AB ajanslarının etkinlik duyuruları ve mali düzenleme başlıkları. Çekirdek alanlarda iki somut gelişme var: MLSA'nın haftalık bülteni, 29 gün tutuklu kalan gazeteci İsmail Arı'nın ilk duruşmada beraat ettiğini ve aynı hafta 15 gazetecinin yedi duruşmada yargılandığını bildiriyor; altı kuruluş kayyım atanan üç yayın kuruluşunda devlet denetiminin sona erdirilmesini istiyor. AİHM tarafında yeni karar yok; 17 Kasım tarihli Peksak kararının başvurucusunun Balyoz davasına bakan heyette görev yapmış, Gülen isnadıyla 12 yıl hapse mahkûm edilmiş bir hâkim olduğu ikincil kayıtla açıklığa kavuştu. 24 Kasım tarihli Belarus sınırı kararları bu pencerede iki akademik analize konu oldu; bunlar karar metni değil yorumdur.",
+ "one_cikanlar": [
+  {
+   "baslik": "İsmail Arı 29 günlük tutukluluğun ardından ilk duruşmada beraat etti",
+   "alan": "İfade ve basın özgürlüğü",
+   "neden_onemli": "Dezenformasyon isnadıyla tutuklanan gazetecinin ilk duruşmada beraat etmesi, tutuklamanın esas bakımından dayanaksız kaldığına ilişkin bir gösterge sayılabilir ve merkezin md. 5 ile md. 10 dosyalarında tutukluluğun gerekçelendirilmesi tartışmasına veri sağlar. Aynı bülten, haftanın yedi duruşmasında 15 gazeteci dahil 18 kişinin yargılandığını ve birkaç duruşmada salon kapasitesi gerekçesiyle gazeteci ve gözlemcilerin içeri alınmadığını bildiriyor.",
+   "yenilik": "İlk kez: t134 dosyasında 22 Ekim'den bu yana ilk esasa ilişkin sonuç, beraat kararı kayda geçti.",
+   "ayrintilar": [
+    "İsmail Arı 29 gün tutuklu kaldıktan sonra ilk duruşmada beraat etti",
+    "Hafta boyunca yedi duruşmada 15 gazeteci dahil 18 kişi yargılandı",
+    "Şaban Sevinç ve Mustafa Balcı duruşmasına salon küçüklüğü gerekçesiyle gazeteci ve gözlemciler alınmadı",
+    "HDK dosyasında avukatların daha büyük salon talebi reddedildi",
+    "Hilmi Hacaloğlu–Gökmen Karadağ ve Aslı Aydemir duruşmaları ertelendi",
+    "Gazeteciler kolluk nezaretinde 25 saat süren bir nakille Artvin'e götürüldü"
+   ],
+   "mekanizma": "AİHS md. 6 aleniyet; md. 10",
+   "karsi_okuma": "Beraatin kesinleştiği ya da savcılığın istinafa gitmediği kayıttan çıkarılamaz; tutukluluğun hukuka aykırılığına ilişkin bir yargı tespiti de bulunmuyor. Nakil ve salon kısıtlamalarına ilişkin bilgiler tek kaynağın haftalık derlemesine dayanıyor.",
+   "kayitlar": [
+    "c24eb45d15"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Peksak kararının başvurucusu Balyoz heyetinde görev yapmış hâkim; Yargıtay'daki dava 12 Ocak 2027'de sürüyor",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "neden_onemli": "17 Kasım tarihli md. 8 kararının başvurucusunun kimliği ve ceza dosyası ilk kez açıklığa kavuşuyor: Balyoz davasında mahkûmiyet veren heyette görev yapmış, Gülen bağlantısı isnadıyla Ocak 2019'da 12 yıl hapse mahkûm edilmiş ve Bolu'da tutulan bir hâkim. Aynı kişi, 50 eski hâkim ve savcı hakkında Haziran 2019'da açılan ve Yargıtay'da süren davada ağırlaştırılmış müebbet istemiyle yargılanıyor. Bu, cezaevi yazışma denetimine ilişkin md. 8 ihlalini yargı mensuplarına yönelik takibat dosyasıyla bağlıyor.",
+   "yenilik": "Karar metni 23 Kasım'da değerlendirilmişti; bugün eklenen, başvurucunun kimliği, 12 yıllık mahkûmiyeti ve 12 Ocak 2027 tarihli duruşma bilgisi.",
+   "ayrintilar": [
+    "Başvuru no. 52433/21, karar 17 Kasım 2026, md. 8 ihlali",
+    "İhlal tespiti manevi tazminat yerine geçti; yalnızca 250 avro masraf ödenmesine hükmedildi",
+    "İstanbul 26. Ağır Ceza Mahkemesi Ocak 2019'da 12 yıl hapis cezası verdi",
+    "Haziran 2019'da 50 eski hâkim ve savcı hakkında iddianame; üç hâkim için ağırlaştırılmış müebbet istendi",
+    "Mart 2021'de Yargıtay'da başlayan davanın bir sonraki duruşması 12 Ocak 2027"
+   ],
+   "mekanizma": "AİHS md. 8 – yazışma denetimi",
+   "karsi_okuma": "Karar metni mektubun avukat mektubu olduğunu verilen bölümde söylemiyor; bu niteleme haber kaydına ait. Devam eden ceza davasının AİHM kararıyla hukuki bağlantısı kurulmuş değildir.",
+   "kayitlar": [
+    "282c24f278",
+    "001-253532"
+   ],
+   "guven": "yüksek"
+  },
+  {
+   "baslik": "Altı kuruluş Sözcü TV, Halk TV ve TELE1'deki kayyımların kaldırılmasını istedi",
+   "alan": "İfade ve basın özgürlüğü / yaptırım ve malvarlığı tedbirleri",
+   "neden_onemli": "Çağrı, üç ayrı kuruluşa ilişkin kayyım kararlarını tek bir örüntü olarak tanımlıyor ve medya sahibi ile yöneticilere yönelik ceza soruşturmalarının yayın odalarının denetimini ele geçirmek için kullanıldığını ileri sürüyor. Merkezin el koyma/kayyım dosyalarında (t109, t238) bireysel vakaların birleştirilerek sunulması bakımından anlamlı.",
+   "yenilik": "24 Kasım'da Sözcü dosyasında mali direktöre ev hapsi kaydedilmişti; bugün yeni olan, üç kuruluşu birlikte ele alan ortak kuruluş açıklaması.",
+   "ayrintilar": [
+    "Altı basın özgürlüğü ve insan hakları kuruluşunun ortak açıklaması, 25 Kasım",
+    "Kapsam: Sözcü TV, Halk TV, TELE1",
+    "Aynı gelişmeyi iki kaynak verdi"
+   ],
+   "mekanizma": "Kayyım atama / TMSF–mahkeme kararı",
+   "karsi_okuma": "Kuruluşların adları, açıklamanın tam metni ve kayyım kararlarının hukuki dayanakları kayıtta yok; çağrının muhataplarınca yanıtlandığına dair bilgi de bulunmuyor.",
+   "kayitlar": [
+    "a1fbb36e9e"
+   ],
+   "guven": "orta"
+  },
+  {
+   "baslik": "Belarus sınırı 'araçsallaştırma' kararları: 17 yargıçlı oybirliği ve md. 3'ün mutlaklığı tartışması",
+   "alan": "İade, adli yardım ve iltica",
+   "neden_onemli": "24 Kasım tarihli üç karar (HMM ve diğerleri v. Letonya, COCG ve diğerleri v. Litvanya, AR ve diğerleri v. Polonya) bu pencerede iki ayrı akademik analizin konusu oldu. Analizler, kararların Chişinău Bildirisi sonrası siyasi baskı ortamında verildiğini, üç dosyada da 17 yargıcın oybirliğiyle karar verdiğini ve kötü muameleye karşı mutlak korumaya görelilik unsuru girip girmediğinin tartışmalı olduğunu ileri sürüyor. Merkezin geri göndermeme argümanlarında md. 3 eşiğinin nasıl kurulduğu doğrudan ilgili.",
+   "yenilik": "25 Kasım'da kararlar haber düzeyinde geçmişti; bugün eklenen, üç dosyanın adları, 17 yargıçlı oybirliği bilgisi ve iki ayrı akademik değerlendirme.",
+   "ayrintilar": [
+    "Kararlar 24 Kasım 2026 tarihli",
+    "Dosyalar: HMM ve diğerleri v. Letonya, COCG ve diğerleri v. Litvanya, AR ve diğerleri v. Polonya",
+    "Analize göre üç dosyada da 17 yargıç oybirliğiyle karar verdi",
+    "Analizlerde Chişinău Bildirisi'nin 37-40. paragraflarında araçsallaştırmaya ayrı bölüm ayrıldığı belirtiliyor"
+   ],
+   "mekanizma": "AİHS md. 3; kolektif sınır dışı yasağı",
+   "karsi_okuma": "Elimizde karar metni değil, iki blog analizi var; ihlal bulunup bulunmadığı, hangi maddeler bakımından sonuç çıktığı ve tazminat bu kayıtlardan doğrulanamaz.",
+   "kayitlar": [
+    "b5a07f16b3",
+    "e364a7a99a"
+   ],
+   "guven": "düşük"
+  }
+ ],
+ "alan_notlari": [
+  {
+   "alan": "İfade ve basın özgürlüğü",
+   "durum": "hareketli",
+   "not": "MLSA'nın haftalık bülteni duruşma takvimi, beraat ve aleniyet kısıtlamalarına dair somut veri getiriyor; ayrıca altı kuruluş kayyım atanan üç yayın kuruluşu için ortak çağrı yaptı.",
+   "kayitlar": [
+    "c24eb45d15",
+    "a1fbb36e9e"
+   ]
+  },
+  {
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "durum": "olağan",
+   "not": "Bu pencerede yeni AİHM kararı yok. 17 ve 24 Kasım tarihli kararların metinleri bağlam olarak yeniden verildi; tek yeni bilgi Peksak dosyasındaki başvurucu kimliği ve devam eden Yargıtay yargılamasıdır.",
+   "kayitlar": [
+    "282c24f278",
+    "001-253532"
+   ]
+  },
+  {
+   "alan": "İade, adli yardım ve iltica",
+   "durum": "olağan",
+   "not": "Araçsallaştırma kararlarına ilişkin iki akademik analiz dışında yeni içtihat kaydı yok; FRA'nın ulusal izleme mekanizmaları ve vesayet el kitabı duyuruları etkinlik düzeyinde. Hollanda kaynaklı tek kayıt ([c29d01b85a]) ceza hukukuna ilişkin olup iltica dosyalarıyla ilgisi yok.",
+   "kayitlar": [
+    "b5a07f16b3",
+    "e364a7a99a",
+    "c2bb6a2343",
+    "193a404275",
+    "c29d01b85a"
+   ]
+  },
+  {
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "durum": "olağan",
+   "not": "Peksak dosyası dışında yeni kayıt yok; ProtectDefenders, Kenya'da sığınmış bir Tanzanyalı savunucunun kaçırıldığını bildiriyor, kayıt özet düzeyinde.",
+   "kayitlar": [
+    "282c24f278",
+    "cce1a3d9c5"
+   ]
+  },
+  {
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "durum": "olağan",
+   "not": "Resmî Gazete akışında 'Yargı Harçları', AYM'nin 16/7/2026 tarihli bir kararı ve numarasıyla verilen bir PDF kaydı görüldü; üçünün de içeriği başlık düzeyinde kaldı.",
+   "kayitlar": [
+    "673dd445f6",
+    "7827e24f63",
+    "b5ce977bc1"
+   ]
+  },
+  {
+   "alan": "Belçika ve AB mevzuatı",
+   "durum": "olağan",
+   "not": "FRA kayıtlarının tamamı etkinlik ve yayın duyurusu niteliğinde; Avrupa Parlamentosu Eritre, Gürcistan ve Makao'ya ilişkin üç karar kabul etti, Türkiye'ye dair kayıt yok. Belçika Merkez Bankası, 18 Aralık 2025 tarihli kanunla İrtibat Merkezi (CPC) rejiminde öngörülen değişiklikleri duyurdu.",
+   "kayitlar": [
+    "2364ab0a07",
+    "f4f29dd8df",
+    "45411c5405",
+    "df1a219ec7"
+   ]
+  },
+  {
+   "alan": "BM insan hakları mekanizmaları",
+   "durum": "sessiz",
+   "not": "Pencereye giren BM kayıtları bütçe ve usul belgeleriyle sınırlı; merkezin dosyalarına değen yeni bir mekanizma adımı yok.",
+   "kayitlar": [
+    "63a5887828"
+   ]
+  }
+ ],
+ "dosya_derinlesmesi": [
+  {
+   "baslik": "17 Kasım tarihli md. 5 kararlarında giderimin üç farklı sonuca ayrılması (Bulut, Akgül, Bakırcı ve diğerleri)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "elimizde": "Üç kararın tam metni elimizde. Bulut (24161/18) ve Bakırcı ve diğerleri (15133/20, 49485/20, 9797/21) dosyalarında md. 5/1-c kapsamında makul şüphe yokluğundan ihlal saptandı ve her başvurucuya manevi tazminat ile masrafları kapsayan 5.000 avro toplu tutara hükmedildi; maddi tazminat talepleri Turan ve diğerleri (§§ 102-07) gerekçesiyle reddedildi. Akgül (46378/18) dosyasında ihlal 2802 sayılı Kanun güvencelerinden yoksunluk üzerinden kuruldu, md. 15 derogasyon savunması kabul edilmedi, ancak başvurucu süresinde adil tazmin talebi sunmadığı için hiçbir tutara hükmedilmedi. Üç kararda da kalan md. 5 şikâyetleri Turan ve diğerleri § 98 uyarınca incelenmedi.",
+   "eksik": "Başvurucuların bugün tutuklu olup olmadığı, iç hukukta CMK 311 uyarınca yeniden yargılama talebi sunup sunmadıkları ve ödemelerin yapılıp yapılmadığı kayıtlarda yok. Akgül kararında adil tazmin talebinin neden süresinde sunulmadığına ilişkin bilgi de bulunmuyor; yalnızca Samsun'da tutulduğu yazıyor.",
+   "izlenecek_adim": "Üç karar da 'final but subject to editorial revision' ibaresiyle verildiği için üç aylık ödeme süresi 17 Şubat 2027 civarında doluyor; Bakanlar Komitesi'nin md. 5 grubundaki ödeme bildirimleri bu tarihten sonra izlenebilir.",
+   "dayanak": "Aynı ihlal tipinde giderimin usul kuralına bağlı olarak tamamen ortadan kalkabilmesi, merkezin 'ihlal tespitinin tek başına giderim sağlamadığı' yönündeki icra argümanı için somut karşılaştırma sunar.",
+   "kayitlar": [
+    "001-253529",
+    "001-253530",
+    "001-253531"
+   ]
+  }
+ ],
+ "kronoloji": [
+  {
+   "tarih": "2019-01",
+   "adim": "İstanbul 26. Ağır Ceza Mahkemesi, Ali Efendi Peksak'ı Gülen hareketiyle bağlantı isnadıyla silahlı terör örgütü üyeliğinden 12 yıl hapse mahkûm etti.",
+   "kayitlar": [
+    "282c24f278"
+   ]
+  },
+  {
+   "tarih": "2019-06",
+   "adim": "Savcılık, Balyoz soruşturma ve yargılamasındaki rolleri nedeniyle 50 eski hâkim ve savcı hakkında iddianame düzenledi; Peksak dahil üç hâkim için ağırlaştırılmış müebbet istendi.",
+   "kayitlar": [
+    "282c24f278"
+   ]
+  },
+  {
+   "tarih": "2021-03",
+   "adim": "Bu dava Yargıtay'da görülmeye başlandı.",
+   "kayitlar": [
+    "282c24f278"
+   ]
+  },
+  {
+   "tarih": "2021-10-13",
+   "adim": "Peksak, cezaevinde kendisine gelen mektupların denetlenmesine ilişkin şikâyetle AİHM'e başvurdu (52433/21).",
+   "kayitlar": [
+    "001-253532"
+   ]
+  },
+  {
+   "tarih": "2026-11-17",
+   "adim": "AİHM, birinci mektup bakımından md. 8 ihlali saptadı; ihlal tespitini manevi tazminat yerine saydı ve 250 avro masraf ödenmesine hükmetti, ikinci mektuba ilişkin şikâyeti kabul edilemez buldu.",
+   "kayitlar": [
+    "001-253532"
+   ]
+  },
+  {
+   "tarih": "2026-11-26",
+   "adim": "İkincil kaynak, başvurucunun Balyoz heyetinde görev yapmış hâkim olduğunu, Bolu'da tutulduğunu ve Yargıtay'daki davanın bir sonraki duruşmasının 12 Ocak 2027'de olduğunu bildirdi.",
+   "kayitlar": [
+    "282c24f278"
+   ]
+  }
+ ],
+ "izlenecekler": [
+  "İsmail Arı beraatine karşı savcılık istinaf başvurusu yapılıp yapılmayacağı",
+  "Sözcü TV, Halk TV ve TELE1'deki kayyım kararlarına ilişkin itiraz ve yanıtların seyri",
+  "24 Kasım tarihli Letonya, Litvanya ve Polonya kararlarının tam metinlerinin HUDOC'a düşmesi ve md. 3 eşiğinin karar metninden doğrulanması",
+  "17 Kasım tarihli md. 5 kararlarında üç aylık ödeme süresinin dolması ve Bakanlar Komitesi denetimine girişi",
+  "26 Kasım tarihli Resmî Gazete'de yayımlanan AYM kararının ve 'Yargı Harçları' kaydının içeriğinin belirlenmesi",
+  "Peksak'ın da sanık olduğu 50 eski hâkim/savcı davasında 12 Ocak 2027 duruşması"
+ ],
+ "gun": "2026-11-27",
+ "olusturma": "2026-11-27T10:34+00:00",
+ "model": "claude-opus-5",
+ "kayit_sayisi": 45,
+ "kullanilan_kayitlar": [
+  "282c24f278",
+  "6780375d65",
+  "0a35f9b878",
+  "f12b3efe3c",
+  "673dd445f6",
+  "7827e24f63",
+  "b5ce977bc1",
+  "b5a07f16b3",
+  "45411c5405",
+  "193a404275",
+  "c2bb6a2343",
+  "df1a219ec7",
+  "2364ab0a07",
+  "c8885644d7",
+  "233e5d18fd",
+  "c24eb45d15",
+  "a1fbb36e9e",
+  "e149eea357",
+  "b2f469302a",
+  "db779b7e59",
+  "b993f2cf57",
+  "c29d01b85a",
+  "d2985e4579",
+  "53c92b7520",
+  "c00f4fb356",
+  "30a89f1837",
+  "f92995dba5",
+  "675fe362fe",
+  "759d9c56db",
+  "78d9919b00",
+  "ea71386184",
+  "cce1a3d9c5",
+  "f4f29dd8df",
+  "e364a7a99a",
+  "a35ee2c3d9",
+  "63a5887828",
+  "a17c382ca0",
+  "82233b68eb",
+  "e10d1042e9",
+  "08a5b74b4b",
+  "430193fe1d",
+  "610b21eb5e",
+  "458cfaad4b",
+  "db64277205",
+  "83aea1af14"
+ ],
+ "maliyet_usd": 0.848,
+ "girdi_token": 56006,
+ "cikti_token": 18716,
+ "arka_uc": "api",
+ "uyari": "Bu değerlendirme, taranan kaynakların kendi başlık ve özetlerine dayanarak yapay zekâ ile üretilmiştir; hukuki tavsiye değildir ve birincil kaynakta doğrulanmadan dosyaya esas alınamaz.",
+ "denetim": {
+  "kontroller": [
+   {
+    "id": "brifing",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one1",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "one4",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir1",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir2",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir3",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir4",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir5",
+    "hukum": "dayanaklı",
+    "not": ""
+   },
+   {
+    "id": "bir6",
+    "hukum": "dayanaklı",
+    "not": ""
+   }
+  ],
+  "genel": "Tüm iddialar gösterilen birincil ve ikincil kayıtlarla olgusal olarak örtüşmektedir.",
+  "model": "claude-sonnet-5",
+  "girdi_token": 45907,
+  "cikti_token": 828,
+  "maliyet_usd": 0.1001,
+  "iddia_sayisi": 11
+ },
+ "takip_acik": [
+  {
+   "id": "t1",
+   "baslik": "\"Ailem Güvende\" operasyonunda tutuklu sayısı, iki derneğe yönelik kapatma davası ve erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 16
+  },
+  {
+   "id": "t2",
+   "baslik": "Ankara Başsavcılığı'nın \"evlilik ayarlama\" iddiasına dayanan Gülen soruşturmasında kalan yakalama kararları",
+   "alan": "Gülen hareketi/KHK dosyaları",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t3",
+   "baslik": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçınkaya grubu dosyaları",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 19
+  },
+  {
+   "id": "t4",
+   "baslik": "KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor verileri",
+   "alan": "Gülen hareketi/KHK dosyaları",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 10
+  },
+  {
+   "id": "t6",
+   "baslik": "Anayasa Mahkemesi'nin darbe/ihraç bağlantılı dosyalarda ihlal kararları (Serdar Uzel; yayın el koyma kararları)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 12
+  },
+  {
+   "id": "t7",
+   "baslik": "Anti-LGBTİ+ operasyonunda gazetecilerin yargılanması (Tuğba Tekerek) ve Adalet Bakanlığı genelgesinin savcılara talimat niteliği",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-17",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 9
+  },
+  {
+   "id": "t11",
+   "baslik": "Siyasetçi ve gazetecilere yönelik hakaret/eleştiri davaları: Kaftancıoğlu dosyası ve dört kez reddedilen iddianameyle açılan MHP davası",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-18",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t12",
+   "baslik": "Avrupa Konseyi'nin AİHM sınır dışı/giriş içtihadına ilişkin tematik belgesi ve EUAA 2026 yarı yıl iltica verileri",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-09-18",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 8
+  },
+  {
+   "id": "t15",
+   "baslik": "Rechtbank Zeeland-West-Brabant'ın 10 Eylül 2026 tarihli birleşik iltica kararları (BRE 22/4792 ve diğer yedi dosya)",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-09-18",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t16",
+   "baslik": "Bakanlar Komitesi'nin Demirtaş ve Yüksekdağ dosyasındaki icra denetimi ve yeni yasanın başvuruculara uygulanabilirliği",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-19",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t17",
+   "baslik": "İzmir'de insani yardım isnadıyla yürütülen Gülen soruşturmasında gözaltındakilerin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-09-19",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t19",
+   "baslik": "Süleymanlılar soruşturması: 23 şirkete atanan kayyımların dayanağı ve gözaltına alınan 29 kişinin akıbeti",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-09-20",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t21",
+   "baslik": "PKK/KCK'ya ilişkin özel yasa iddiası ve Bakanlar Komitesi'nin Demirtaş dosyasında sorduğu düzenlemeyle ilişkisi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-20",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t23",
+   "baslik": "Katılımevim Tasarruf Finansman AŞ üzerinden yürütülen fon soruşturmasında gözaltı ve yakalama kararlarının seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-09-21",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t24",
+   "baslik": "Kavala dosyasında Avrupa Konseyi'nin Türkiye'den 'somut adım' talebi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-21",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 8
+  },
+  {
+   "id": "t25",
+   "baslik": "BM Genel Kurulu 81. dönem yüksek düzeyli haftası (22-28 Eylül 2026) ve insan hakları mekanizmalarına yönelik tartışmalar",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-09-21",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 8
+  },
+  {
+   "id": "t30",
+   "baslik": "Stichting Justice Square raporundaki el koyma verileri ve Şubat 2025 tarihli TMSF kayyım yasasının uygulanması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-09-22",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t31",
+   "baslik": "Avukatların mesleki faaliyet ve beyanları nedeniyle hapis cezasına çarptırılması: Belarus'ta Dmitri Laevski, Hong Kong'da Chow Hang-tung",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-22",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 19
+  },
+  {
+   "id": "t32",
+   "baslik": "EDPB'nin idari para cezası yetkisine ilişkin kılavuzu ve DSA-GDPR etkileşimi kılavuzunun nihai hali",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-09-22",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t33",
+   "baslik": "5651 sayılı Kanun'un 8/A maddesiyle ekonomi ve finans içerikli X hesaplarına toplu erişim engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-23",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 28
+  },
+  {
+   "id": "t34",
+   "baslik": "'Müstehcenlik' soruşturmalarının LGBTİ+ dosyası dışına taşması: Türkiye Psikiyatri Derneği hesabının engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-23",
+   "son_hareket": "2026-10-23",
+   "hareket_sayisi": 6
+  },
+  {
+   "id": "t37",
+   "baslik": "Resmî Gazete'de yayımlanan 7595 sayılı Millî Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun'un kapsamı",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-24",
+   "son_hareket": "2026-10-15",
+   "hareket_sayisi": 14
+  },
+  {
+   "id": "t40",
+   "baslik": "ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan yaptırımlara karşı açılan davada 38 STK'nın amicus dilekçesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-09-24",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 8
+  },
+  {
+   "id": "t42",
+   "baslik": "'Fon krizi' haberlerine millî güvenlik ve kamu düzeni gerekçesiyle uygulanan erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-25",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 19
+  },
+  {
+   "id": "t43",
+   "baslik": "Rechtbank Den Haag'ın 23 Eylül 2026 tarihli NL26.19608 sayılı kararı ('kruisjesformulier' gerekçeli kabul)",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-09-25",
+   "son_hareket": "2026-10-31",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t46",
+   "baslik": "TCK 217/A 'halkı yanıltıcı bilgiyi alenen yayma' soruşturmasının erişim engeli gerekçesi olarak kullanılması (Ali Tarakçı dosyası)",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-27",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 8
+  },
+  {
+   "id": "t47",
+   "baslik": "Engellenen X hesaplarının X tarafından Türkiye'den 'görünmez kılınma' pratiğinin zamanlaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-27",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 20
+  },
+  {
+   "id": "t53",
+   "baslik": "Avukat Sezin Uçar davası: iddianameye giren itirafçı beyanının duruşmada reddedilmesi ve 19 Ocak 2027 tarihli oturum",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-09-29",
+   "son_hareket": "2026-10-15",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t56",
+   "baslik": "29 Eylül 2026 tarihli üç ByLock kararının icrası: 947 başvurucunun CMK 311/1(f) uyarınca yeniden yargılama talepleri ve Bakanlar Komitesi denetimi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-09-30",
+   "son_hareket": "2026-10-31",
+   "hareket_sayisi": 9
+  },
+  {
+   "id": "t60",
+   "baslik": "T24 sitesinin ve X hesabının İstanbul 1. Sulh Ceza Hâkimliği'nin 2026/8894 sayılı kararıyla erişime engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-01",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 6
+  },
+  {
+   "id": "t62",
+   "baslik": "Geçerli ikamet izni bulunan Uygur Akide İsmail'in geri gönderme merkezine konulması ve Çin'e sınır dışı riski",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-01",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t66",
+   "baslik": "Tommy Olsen ve Panayote Dimitras'ın 6 Ekim 2026'da Rodos'ta görülecek göçmen kaçakçılığı yargılaması",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-02",
+   "son_hareket": "2026-10-20",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t69",
+   "baslik": "Norveç temyiz mahkemesinin EAW reddine rağmen Yunanistan'ın Tommy Olsen hakkındaki yakalama kararlarını sürdürmesi",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-03",
+   "son_hareket": "2026-10-20",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t71",
+   "baslik": "29 Eylül 2026 tarihli üç ByLock kararında başvuru sayılarının karar metinlerinden doğrulanması (591 + 345 + 11) ve ihlal maddelerinin dosyadan dosyaya farklılaşması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-04",
+   "son_hareket": "2026-10-19",
+   "hareket_sayisi": 6
+  },
+  {
+   "id": "t72",
+   "baslik": "16 ilde DEAŞ isnadıyla yürütülen operasyonda yakalanan 51 şüphelinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-04",
+   "son_hareket": "2026-10-17",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t74",
+   "baslik": "Engelleme kararlarını belgeleyen kuruluşların hesaplarının engellenmesi: İFÖD hesabına beş günde dördüncü karar",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-05",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t75",
+   "baslik": "AİHM'in kurumsal kapasitesi: görev süresi dolan dört yargıç, bütçe bağımlılığı ve Lebedeva sonrası md. 37/2 yeniden kayıt formu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-05",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t78",
+   "baslik": "Müyesser Uğur v. Türkiye (45738/22) kararının icrası: üç aylık ödeme süresi ve gazeteci tutukluluklarında md. 10 gerekçelendirmesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-06",
+   "son_hareket": "2026-10-19",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t83",
+   "baslik": "CİSST'in Ekim 2026 verisi: 304.184 kapasiteli 402 hapishanede 434.337 mahpus",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-07",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t86",
+   "baslik": "Bakırköy 7. Sulh Ceza Hâkimliği'nin 2026/9064 sayılı kararıyla engellenen on hesabın (EngelliWeb, bianet ve sekiz gazeteci) itiraz süreci",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-08",
+   "son_hareket": "2026-10-13",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t87",
+   "baslik": "CPT'nin Türkiye'ye ilişkin iki raporu: dayak ve elektrik şoku iddiaları, uzun süreli tecrit ve sağlık erişimi",
+   "alan": "BM ve Avrupa insan hakları mekanizmaları",
+   "acildi": "2026-10-09",
+   "son_hareket": "2026-11-05",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t90",
+   "baslik": "Sosyal medya paylaşımı nedeniyle gözaltı pratiğinin siyasi yorum alanına yayılması (Berna Laçin dosyası)",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-09",
+   "son_hareket": "2026-10-17",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t92",
+   "baslik": "Mart 2024 yerel seçimlerinden bu yana 40 CHP'li belediye başkanının tutuklanması ve bazı belediyelere kayyım atanması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-10",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 11
+  },
+  {
+   "id": "t94",
+   "baslik": "AB Komisyonu'nun Türkiye'ye ilişkin genişleme değerlendirmesi ve Komiser Kos'un 'demokratik standartlar' açıklaması",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-10-10",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t95",
+   "baslik": "Resmî Gazete'nin 6 Ekim 2026 sayısına ait sekiz belgenin (20261006-6 ila -14) içeriğinin belirlenmesi",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-10-11",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 6
+  },
+  {
+   "id": "t96",
+   "baslik": "10 Ekim 2026 tarihli Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-11",
+   "son_hareket": "2026-11-03",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t98",
+   "baslik": "HRW, ARTICLE 19, İFÖD ve 18 kuruluşun platform sorumluluğu çağrısına X'in ve Türk makamlarının yanıtı",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-12",
+   "son_hareket": "2026-10-13",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t99",
+   "baslik": "BM İnsan Hakları Konseyi'nin 12 Ekim 2026 seçimi: rekabetsiz bölgesel listeler ve Burundi'nin yeniden seçimi",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-10-12",
+   "son_hareket": "2026-11-11",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t101",
+   "baslik": "Türkiye'nin Yunanistan'dan Gülen bağlantılı kişilerin iadesini talep etmesi ve 2016'da Dedeağaç'a kaçan sekiz askerin dosyası",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-13",
+   "son_hareket": "2026-10-14",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t102",
+   "baslik": "Beraat kararına savcılık itirazı üzerine yeniden tutuklama: Taner Nakıboğlu (Gaziantep) dosyası",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-13",
+   "son_hareket": "2026-10-21",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t103",
+   "baslik": "Ocak ve diğerleri (54358/19 ve 25 başvuru) ile Kaya (17010/21) kararlarının icrası: üç aylık ödeme süreleri ve md. 5 gruplarındaki yeri",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-13",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t104",
+   "baslik": "BM Çocuk Hakları Komitesi'nin Jas.K.B. ve diğerleri v. Çekya (193/2022) kararı: çocukların göç kaynaklı idari gözetimi",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-10-13",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t105",
+   "baslik": "Mouelhi v. Belçika: Rule 39 geçici tedbir taleplerinde yanıltıcı beyanın md. 35/3(a) 'başvuru hakkının kötüye kullanılması' sayılması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-14",
+   "son_hareket": "2026-10-14",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t106",
+   "baslik": "HRW'nin COP31 öncesi raporu: Akbelen ve Perşembe Yaylası protestolarında soruşturma, gözaltı ve kötü muamele iddiaları",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-14",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 7
+  },
+  {
+   "id": "t107",
+   "baslik": "AYM'nin avukatın sosyal medya paylaşımları nedeniyle ev hapsini hukuka aykırı bulan 18 Mayıs tarihli kararı ve Adalet Bakanlığı izni koşulu",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-14",
+   "son_hareket": "2026-10-14",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t108",
+   "baslik": "Fransa'nın Taliban yönetimiyle zorla geri gönderme konusunda açtığı 'teknik diyalog'",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-14",
+   "son_hareket": "2026-10-14",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t109",
+   "baslik": "Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi hakkındaki yakalama kararı ve altı platformdaki hesaplara uygulanan 8/A engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-15",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 11
+  },
+  {
+   "id": "t110",
+   "baslik": "Abdi Cengiz dosyası: Sincan Cezaevi'nde aile görüşmelerinin bir yıl kaydedilmesine ilişkin md. 8 ihlali ve 1.500 avro tazminatın icrası",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-15",
+   "son_hareket": "2026-10-15",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t111",
+   "baslik": "Eskişehir ve İzmir savcılıklarının üç soruşturmasında gözaltına alınanların akıbeti ve ABD merkezli şirket üzerinden ödeme isnadı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-15",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t112",
+   "baslik": "BM uzmanlarının Türkiye'de LGBTİ+ örgütlerine yönelik baskıya ilişkin 13 Ekim açıklaması ve izleyen mekanizma adımları",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-10-15",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t113",
+   "baslik": "Gazeteci Bahadır Özgür'ün gözaltısı ve 163 bin takipçili X hesabının 'soruşturmanın gizliliğini ihlal' gerekçesiyle engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-17",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t114",
+   "baslik": "Ankara 8. mahkemesinin Mahir Çayan derlemesine el koyma kararı ve editör hakkındaki terör propagandası yargılaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t115",
+   "baslik": "FRA'nın zorla geri gönderme izleme raporu: izleme bulgularını yayımlamayan üye devletler ve kısıtlama tedbirlerinin sistematik kullanımı",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-11-10",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t116",
+   "baslik": "Norveç Devlet Emeklilik Fonu'nun etik çerçevesinde Gjedrem Komitesi önerileri: Etik Konsey'in dışlama yetkisinin kaldırılması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-16",
+   "son_hareket": "2026-10-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t117",
+   "baslik": "Belçika parlamentosunda belirli yabancı uyrukluların konutlarına polis 'ev ziyareti' yetkisi veren yasa taslağının ilerlemesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-10-17",
+   "son_hareket": "2026-11-05",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t118",
+   "baslik": "'European Emergency Response Framework' adı altında iltica erişiminin geçici olarak askıya alınması önerisi",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-17",
+   "son_hareket": "2026-10-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t119",
+   "baslik": "RTÜK'ün fon skandalı yayınları nedeniyle Sözcü TV ve Koza TV'ye verdiği para cezaları",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-17",
+   "son_hareket": "2026-11-03",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t120",
+   "baslik": "Murat Ağırel'in ev hapsinin ardından ikinci soruşturmada yeniden gözaltına alınması ve Sarıgül yakınlarının aklama soruşturması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-17",
+   "son_hareket": "2026-11-07",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t121",
+   "baslik": "İçişleri Bakanlığı'nın 'Terörsüz Türkiye' çerçevesini bölge valileri düzeyinde idari bir programa dönüştürmesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı / terörle mücadele politikası",
+   "acildi": "2026-10-18",
+   "son_hareket": "2026-11-22",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t123",
+   "baslik": "Rechtbank Den Haag'ın iç koruma alternatifi (ülke içinde başka yere yerleşme) gerekçelendirmesine ilişkin denetim ölçütü",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-19",
+   "son_hareket": "2026-10-19",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t124",
+   "baslik": "Murat Arslan'ın on yıllık cezasının tamamını çektikten sonra tahliyesi ve dosyasının AİHM/Avrupa Konseyi düzeyindeki akıbeti",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-20",
+   "son_hareket": "2026-10-20",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t125",
+   "baslik": "BM özel raportörlerinin Morteza Amiri dosyasındaki 20 Ağustos 2026 tarihli ortak mektubu ve Türkiye'nin yanıtı",
+   "alan": "BM insan hakları mekanizmaları / İade, adli yardım ve iltica",
+   "acildi": "2026-10-20",
+   "son_hareket": "2026-10-20",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t126",
+   "baslik": "Erdoğan'ın yurt dışındaki Gülen bağlantılı okullara yönelik kampanya beyanı ve TMV devralmalarının ülke/okul dökümü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-20",
+   "son_hareket": "2026-10-26",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t127",
+   "baslik": "Bakırköy'ün Adalet Bakanı Akın Gürlek'in mal varlığına ilişkin 10 habere erişim engeli kararı ve itiraz süreci",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-20",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t128",
+   "baslik": "Bakırköy 7. Ağır Ceza Mahkemesi'nde 22 eski hâkim ve savcı hakkında 50 yıla kadar hapis istemiyle açılan dava",
+   "alan": "Gülen hareketi/KHK dosyaları",
+   "acildi": "2026-10-21",
+   "son_hareket": "2026-10-21",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t129",
+   "baslik": "Mehmet Daylak dosyası: ileri evre kanser tedavisi görmüş hükümlünün tahliyeden 13 gün sonra yeniden tutuklanması ve PET taramasına erişememesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-21",
+   "son_hareket": "2026-10-21",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t130",
+   "baslik": "Güray Gür v. Türkiye (33372/19) kararının icrası: adil tazmin talebi sunulmamış bir md. 6/1 ihlalinde giderimin CMK 311 yeniden yargılamasına bağlanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-21",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t131",
+   "baslik": "İçişleri Bakanı Çiftçi'nin Belçika'dan 'terörle mücadelede somut adımlar' beklediği açıklaması",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-10-21",
+   "son_hareket": "2026-10-22",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t132",
+   "baslik": "Türkiye–Belçika bakanlar görüşmesi: iade talepleri, 'iltica koruması iadeyi engellememeli' argümanı ve 2027-2028 polis işbirliği planı",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "acildi": "2026-10-22",
+   "son_hareket": "2026-10-22",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t133",
+   "baslik": "Freedom on the Net 2026 raporunun Türkiye bölümü ve puanı",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-22",
+   "son_hareket": "2026-10-23",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t134",
+   "baslik": "İsmail Arı dosyası: eski RTÜK başkanının şikâyeti üzerine gazetecinin dezenformasyon isnadıyla tutuklanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-22",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t135",
+   "baslik": "Beraat eden öğrencinin tutuklu geçen 55 gününün devamsızlık sayılarak üniversite kaydının reddedilmesi (Nuda Kartal)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-22",
+   "son_hareket": "2026-10-22",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t136",
+   "baslik": "Köse v. Türkiye (54253/22) kararının icrası: ek tablodaki tazminat tutarı, üç aylık ödeme süresi ve HSK kararlarına karşı yargı yolu genel tedbiri",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-23",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t137",
+   "baslik": "Üretken yapay zekâ ile ölçeklenen dijital sınıraşan baskı: Citizen Lab–ICIJ bulguları ve diaspora aktivistlerinin hedeflenmesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-23",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t138",
+   "baslik": "Almanya'dan Tacikistan'a sınır dışı edilenlerin dönüşte mahkûm edilmesi ve non-refoulement itirazlarının akıbeti",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-23",
+   "son_hareket": "2026-11-11",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t139",
+   "baslik": "7 Ekim 2026 tarihli iki kapatma kararı: Ayvaz ve Deryan gruplarında genel tedbir denetiminin sürmesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-23",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t140",
+   "baslik": "Hacettepe Üniversitesi öğrencisi Hasan Basri Usta'nın polis olduğunu söylediği kişilerce kaçırılma, işkence ve muhbirliğe zorlanma beyanı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-24",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t141",
+   "baslik": "Siber Güvenlik Başkanlığı'nın 23 Ekim 2026 tarihli kararıyla WordPress/Jetpack CDN alt alan adı i0.wp.com'un engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-24",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t142",
+   "baslik": "FRA'nın Avrupa Tutuklama Müzekkeresi ve temel haklar konulu AİHM–ABAD içtihat ortak bilgi notu",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-24",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t143",
+   "baslik": "Çukurova Belediyesi soruşturmasında tutuklanan 34 kişinin ve serbest bırakılan 15 kişinin dosya seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-24",
+   "son_hareket": "2026-10-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t144",
+   "baslik": "AB sınır dışı sisteminin dijitalleştirilmesine ilişkin yaklaşan Komisyon önerisi ve buna dayanak yapılan 'bütüncül, dijitalleştirilmiş göç yönetimi' çalışması",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "acildi": "2026-10-25",
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t145",
+   "baslik": "24 Ekim 2026'da İstanbul ve Ankara'da yapılan basın özgürlüğü yürüyüşleri ve TGS'nin 'son iki ayda 11 gazeteci tutuklandı' sayımı",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-26",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t146",
+   "baslik": "Fon soruşturmasında ev hapsi kararlarına savcılık itirazı üzerine yeniden tutuklama pratiği (Ertan Aydın, Gürol Sami Özer)",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-26",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t147",
+   "baslik": "Cross Border Jurists'in haftalık Türkiye hak ve adalet bülteni (Issue 5, 19-25 Ekim 2026) içeriğinin dökümü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-26",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t148",
+   "baslik": "7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun'un kapsamı ve uygulaması",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-10-27",
+   "son_hareket": "2026-10-27",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t149",
+   "baslik": "1 Kasım 2026'da yürürlüğe girecek 5651 sayılı Kanun'un oyun platformlarına ilişkin hükümleri ve Google'ın Türkiye temsilciliği kaydı",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-27",
+   "son_hareket": "2026-11-03",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t150",
+   "baslik": "Milli Eğitim Bakanı'nın istifasını isteyen pankart nedeniyle iki üniversite öğrencisinin tutuklanması (Nehir Dizdar, Nevin Tekin)",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-27",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t151",
+   "baslik": "Memorial İnsan Hakları Merkezi'nden Anna Karetnikova hakkında sürgünde 'aşırıcılık' ve 'yabancı ajan yükümlülüğünden kaçınma' soruşturması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-27",
+   "son_hareket": "2026-10-27",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t152",
+   "baslik": "Özgür Özel'in CHP genel başkanlığından uzaklaştırılmasına karşı New Party'nin hazırladığı AİHM başvurusu ve iç hukuk yollarının tüketilmesi sorunu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t153",
+   "baslik": "Türk polisinin Norveç, Finlandiya ve Danimarka'daki gösterilere katılanları profilleyip bilgileri yurt içi ceza dosyalarına aktarması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t154",
+   "baslik": "İstanbul Barosu seçiminde yargıçlara yönelik eleştiri nedeniyle avukat ve anayasa hukuku profesörü hakkında başlatılan ceza soruşturması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t155",
+   "baslik": "Adana Bölge Adliye Mahkemesi'nin 22 Ekim 2026 kararıyla 2015 barış mitingi çağrısı yürüyüşü nedeniyle 10 sendikacı ve aktivistin hapis cezasının onanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-28",
+   "son_hareket": "2026-10-28",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t156",
+   "baslik": "Frontex mandasının genişletilmesi önerisi: 30.000 personel, üçüncü ülkeler arasında zorla geri gönderme yetkisi ve 'return hub' tartışması",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t157",
+   "baslik": "Hollanda idari yargısında AB İltica ve Göç Paktı'nın 12 Haziran 2026'da yürürlüğe girmesinin dava açma süresinin kaçırılmasını mazur kılmayacağı yönündeki yaklaşım",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-10-29",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t158",
+   "baslik": "Alparslan Kuytul dosyası: cezaevi ziyaret gününe ilişkin kararın altı gün içinde önce bozulup sonra onanması",
+   "alan": "AİHM başvuruları ve kararların icrası / Gülen hareketi–KHK dosyaları",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-11-13",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t159",
+   "baslik": "'Vulnerable Behind Bars' raporu: bebekleriyle cezaevinde tutulan annelerin sağlık randevularına refakat edememesi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-29",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t160",
+   "baslik": "Almanya'da yaşayan Kürt ziyaretçilere Türkiye'de yurt dışına çıkış yasağı konulduğu iddiası ve Almanya'dan istenen diplomatik müdahale",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t161",
+   "baslik": "Kalp krizi geçiren 56 yaşındaki Kürt mahpusun infazının ertelenmesi talebinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-11-18",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t162",
+   "baslik": "Hakkari Ağır Ceza Mahkemesi'nin 2025 Newroz kutlaması nedeniyle 11 kişiye verdiği 10'ar aylık propaganda cezasının kesinleşme seyri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t163",
+   "baslik": "İspanya'nın AB İltica ve Göç Paktı uyum mevzuatı: İçişleri Bakanlığı'nın 11 Haziran 2026 talimatları ile iltica kanunu ve 4/2000 sayılı Organik Kanun ön taslakları",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-30",
+   "son_hareket": "2026-10-30",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t164",
+   "baslik": "Tekin Ağacık dosyası: Estonya'nın iltica reddi ve geri gönderme sonrası Türkiye'de 18 ayrı dosya üzerinden sorgulama",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-10-31",
+   "son_hareket": "2026-10-31",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t165",
+   "baslik": "30 Ekim 2026 Gülen operasyonu: İstanbul, Aydın ve İzmir'de 10 gözaltı ve 12,85 milyon TL değerinde el koyma",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-10-31",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t166",
+   "baslik": "Belçika CCE'nin 9bis uyarınca ikamet izni verilmiş kişinin 9ter reddine karşı başvurusunda menfaat yokluğu kararı",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-10-31",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t167",
+   "baslik": "Resmî Gazete'de yayımlanan HSK terfi listesinin içeriği",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-10-31",
+   "son_hareket": "2026-11-10",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t168",
+   "baslik": "Yeni Yaşam Gazetesi'nin ardışık alan adlarına uygulanan erişim engelleri ve 2026/11556 sayılı karara itiraz",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-01",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t169",
+   "baslik": "1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenlemesinin içeriği",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-11-01",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 18
+  },
+  {
+   "id": "t170",
+   "baslik": "Yargıtay'ın Fransa'nın uyuşturucu ve aklama isnadıyla iadesini istediği Cezayir asıllı kişi hakkındaki iade kararını bozması",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-02",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t171",
+   "baslik": "İçerik üreticisi Özlem Altınok Öz'ün YouTube ve Instagram hesaplarına Aile ve Sosyal Hizmetler Bakanlığı başvurusu üzerine getirilen 5651 engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-02",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t172",
+   "baslik": "İmamoğlu'nun kitabından alıntı paylaşan @milletsahidim X hesabına uygulanan erişim engeli",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-02",
+   "son_hareket": "2026-11-02",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t173",
+   "baslik": "Kuzey Kıbrıs'ta yayımlanan Havadis gazetesinin sitesine Türkiye'deki iki sulh ceza hâkimliği kararıyla erişim engeli getirilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-03",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t174",
+   "baslik": "Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatistikleri (720.338 kişi hakkında işlem, 127.000'den fazla mahkûmiyet, 10.485 tutuklu/hükümlü, 83.404 derdest dosya)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-03",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 9
+  },
+  {
+   "id": "t175",
+   "baslik": "RTÜK'ün, tutuklu bir gazetecinin gazetecilik nedeniyle tutuklandığını ima eden yayına 'yeterli delil yok' gerekçesiyle ceza vermesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-03",
+   "son_hareket": "2026-11-03",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t176",
+   "baslik": "AB ve Birleşik Krallık kolluğunun İsrail menşeli telefon kırma teknolojisine yaptığı harcamalar ve temel hak güvenceleri",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-03",
+   "son_hareket": "2026-11-10",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t177",
+   "baslik": "Ankara Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürüttüğü iki soruşturmada kalan dört yakalama kararı ve gözaltındakilerin sevk sonucu",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-04",
+   "son_hareket": "2026-11-18",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t178",
+   "baslik": "COP31 öncesi Antalya'da iki sendika yöneticisi ve bir avukatın gözaltısı",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-04",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t179",
+   "baslik": "Tutuklu akademisyen Nuriye Gülmen'in babasının cenazesine izin talebinin Adalet Bakanlığı'nca yanıtsız bırakılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-04",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t180",
+   "baslik": "Rule 39 geçici tedbir rejiminin daralması tartışması: 'dokuzlar mektubu' ve Chişinău Bildirisi sonrası kurumsal yanıtlar",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-04",
+   "son_hareket": "2026-11-04",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t181",
+   "baslik": "Süleyman Kul ve İlhan Akıllı kararı: uzun süreli tecritte md. 3 ihlalinin icrası ve cezaevi idaresi kararıyla tek kişilik hücre uygulamasının genel tedbir boyutu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-05",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t182",
+   "baslik": "İmamoğlu başvurusunda HRW–TLSP–ICJ üçüncü taraf müdahalesi ve AİHM'in hükümete yönelttiği makul şüphe soruları",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-05",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t183",
+   "baslik": "Fon skandalı haberciliği nedeniyle dört gazeteci hakkında 19 yıla kadar hapis istemli iddianameler",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-05",
+   "son_hareket": "2026-11-07",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t184",
+   "baslik": "Rechtbank Den Haag NL26.50232: iltica başvurusunda karar süresinin 21 ay aşılması nedeniyle kabul edilen süresinde karar vermeme davası",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-05",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 5
+  },
+  {
+   "id": "t185",
+   "baslik": "Lahey Rechtbank'ın 2 Kasım 2026 kararı: Hollanda'nın Aralık 2023 tarihli Gülen iltica politikası ile Mart 2026 Danıştay onamasının seyri",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t186",
+   "baslik": "İsviçre'den Türkiye'ye geri gönderme dosyaları: gazeteci Mehmet Kılıç ailesi ve dönüşte tutuklanan önceki başvurucular",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t187",
+   "baslik": "Birleşik Krallık Küresel İnsan Hakları Yaptırım Rejimi'nin savaş suçları ve UİH ihlallerini kapsayacak biçimde genişletilmesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-06",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t188",
+   "baslik": "Ekim 2026'da kabul edilen AB Geri Dönüş Tüzüğü ve ECRE'nin yorum belgesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-11-06",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t189",
+   "baslik": "AYM'nin 30 Nisan 2026 tarihli kararı sonrası Mersin 4. Ağır Ceza Mahkemesi'nde yeniden yargılamanın açılıp açılmayacağı (Buluş, Parlak, Karaaslan)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-07",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t190",
+   "baslik": "Mezopotamya Ajansı muhabiri Haşim Abak'ın Nusaybin'de gözaltına alınması ve akıbeti",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-07",
+   "son_hareket": "2026-11-07",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t191",
+   "baslik": "Birleşik Krallık'ın 4 Kasım'da duyurduğu, şirketlerin küresel tedarik zincirindeki insan hakları etkilerini düzenleyen yasa önerisi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-07",
+   "son_hareket": "2026-11-07",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t192",
+   "baslik": "COP31'in Antalya'da açılışı sırasında konferansa ilişkin insan hakları açıklamalarının seyri ve ev sahibi ülke uygulamaları",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-11-08",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 7
+  },
+  {
+   "id": "t193",
+   "baslik": "Fon soruşturmasının BDDK üst yönetimine uzanması: Erişen, Soysal, Taş ve Yönaç dosyalarının seyri",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t194",
+   "baslik": "KHK TV editörü Ahmet Erkan ve KHK Platformları sözcüsü Münir Korkmaz hakkındaki gözaltı işlemi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t195",
+   "baslik": "Rechtbank Den Haag NL26.51724: Gülen atfının inandırıcılığı reddedilen dosyanın 'kennelijk ongegrond' olarak sonuçlandırılması",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-09",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t196",
+   "baslik": "Eskişehir ve Erzincan sulh ceza hâkimliklerinin yerel habere ve gazetecilere yönelik erişim engelleri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-09",
+   "son_hareket": "2026-11-16",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t197",
+   "baslik": "İzmir'de iki terör soruşturması kapsamında 23 sol örgüt üyesinin gözaltına alınması ve İstanbul'daki eşzamanlı baskınlar",
+   "alan": "İfade ve örgütlenme özgürlüğü",
+   "acildi": "2026-11-10",
+   "son_hareket": "2026-11-10",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t198",
+   "baslik": "Gazeteci İdris Yılmaz'ın Van'daki sosyal yardım vakfı yolsuzluğu haberi nedeniyle Erciş'te polisçe sorgulanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-10",
+   "son_hareket": "2026-11-10",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t199",
+   "baslik": "Statewatch'ın Frontex geri gönderme bulguları: belgesiz çıkarmalar, bütçe aşımı ve gazetecilerle veri paylaşımının durdurulması talebi",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-10",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t200",
+   "baslik": "Kızılay çadır satışı protestosu nedeniyle muhalefet partisi yöneticisi Kemal Koç'un bir aylık hapis cezasının istinafta onanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-10",
+   "son_hareket": "2026-11-10",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t201",
+   "baslik": "İnfaz kurullarının 2026'nın ilk on ayında en az 116 mahpusun koşullu tahliyesini ertelemesi ve kararlarda siyasi görüş etkisi iddiası",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-11",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t202",
+   "baslik": "UPR mekanizmasıyla işbirliğini sürdürmeme: ABD'nin ikinci kez katılmaması ve İnsan Hakları Konseyi'ndeki taslak karar",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-11-11",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t203",
+   "baslik": "Rojin Kabaiş dosyasında ailenin davadan vazgeçmesi için maskeli kişilerce tehdit ve saldırı",
+   "alan": "İfade ve basın özgürlüğü / etkili soruşturma",
+   "acildi": "2026-11-11",
+   "son_hareket": "2026-11-11",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t204",
+   "baslik": "Muhalefet milletvekili Ahmet Şık'ın eşinin casusluk soruşturması kapsamında gözaltına alınması ve aynı gün serbest bırakılması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-11",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t205",
+   "baslik": "Osmaniye Başsavcılığı'nın mahpus ailelerine mali yardım isnadıyla yürüttüğü soruşturmada beş gözaltının akıbeti ve 'yurt dışından dijital ödeme platformu' delil anlatımı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-12",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t206",
+   "baslik": "Rûdaw TV muhabirlerinin İstanbul'da maç sonrası 40 dakikaya kadar alıkonulması ve röportajın engellenmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-12",
+   "son_hareket": "2026-11-12",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t207",
+   "baslik": "EDPB'nin Güney Kore yeterlilik kararı incelemesine ilişkin beyanı, BCR-P tavsiyelerinin nihai hali ve 2027 koordineli uygulama eylemi konusu",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-11-12",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t208",
+   "baslik": "ÇHD-3 davasında altı avukat hakkındaki suçlamaların esastan karara bağlanmadan zamanaşımıyla düşürülmesi ve dört avukatın tutukluluğunun sürmesi",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "acildi": "2026-11-13",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t209",
+   "baslik": "Kırklareli Babaeski'de yurt dışına çıkmaya hazırlandıkları iddiasıyla gözaltına alınan dört ihraç emniyet/asker mensubunun akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-13",
+   "son_hareket": "2026-11-13",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t210",
+   "baslik": "AYM'nin 21 Temmuz tarihli kararı: Kırklareli'nde 2020 HDP kampanyası sırasındaki genel gösteri yasağının toplantı hakkı ihlali sayılması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-13",
+   "son_hareket": "2026-11-13",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t211",
+   "baslik": "FRA'nın dış sınırlarda tarama (screening) işleminin temel haklara uygunluğuna ilişkin belgesi",
+   "alan": "Belçika ve AB mevzuatı",
+   "acildi": "2026-11-13",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t212",
+   "baslik": "İzmir Başsavcılığı koordinasyonunda 14 ilde 'kadınlara yönelik eğitim ağı' isnadıyla gözaltına alınan 29 kişinin akıbeti",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-14",
+   "son_hareket": "2026-11-18",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t213",
+   "baslik": "MAZLUMDER üyeleri dahil üç kişinin Aliyev'e hakaret isnadıyla gözaltısı ve yabancı devlet başkanına hakaret soruşturmalarının seyri",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-14",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t214",
+   "baslik": "Jesus Pinhal v. Portekiz Büyük Daire kararı: 7 No'lu Protokol md. 4 ne bis in idem testinin yeniden kurgulanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-14",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t215",
+   "baslik": "7597 sayılı Mekke Ortak Savunma Anlaşması'nın onaylanmasının uygun bulunmasına dair kanun ve 14 Kasım 2026 tarihli Resmî Gazete'deki 17 maddenin içeriği",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-11-14",
+   "son_hareket": "2026-11-14",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t216",
+   "baslik": "Hollanda'nın 2026 üçüncü çeyrek iltica başvuru verileri ve Türkiye kaynaklı dosyaların bu veri içindeki yeri",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-15",
+   "son_hareket": "2026-11-15",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t217",
+   "baslik": "Kavala dosyasında iç hukuk yolunun tükenmesi sonrası izlenecek usul adımı (itirazın reddi sonrası başvuru seçenekleri)",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-15",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t218",
+   "baslik": "Ankara Başsavcılığı'nın 12 Kasım tarihli iki kararıyla engellenen X hesapları: sayı farkı (21 ve 32) ve hesapların kimliği",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-16",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t219",
+   "baslik": "Manşet Haber TV'nin X ve Instagram hesaplarına 14 Kasım'da uygulanan engelin dayanağının açıklanmaması ve kuruluşun duyurduğu başvuru yolları",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-16",
+   "son_hareket": "2026-11-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t220",
+   "baslik": "ABD terör izleme listesi davasında CAIR müvekkillerinin Türkiye seyahatleri ve oradaki temasları üzerinden sorgulanması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-16",
+   "son_hareket": "2026-11-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t221",
+   "baslik": "İsviçre'de banka gizliliği yasası uyarınca bir gazetecinin ilk kez yargılanması ve AB Komisyonu'nun yorum yapmaması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-16",
+   "son_hareket": "2026-11-16",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t222",
+   "baslik": "Beş AB üyesinin Ruanda'da 'return hub' kurulmasına ilişkin ortaklık çerçevesi ve 2027'de öngörülen ilk aktarım",
+   "alan": "İade, adli yardım ve iltica / Belçika ve AB mevzuatı",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t223",
+   "baslik": "Milletvekili Ömer Faruk Gergerlioğlu'nun parlamentodaki 2016 darbe anlatısına ilişkin sözleri nedeniyle Savunma Bakanı'na 150.000 lira tazminata mahkûm edilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t224",
+   "baslik": "Gazeteci Rabia Önver'e Hakkari 2. Ağır Ceza Mahkemesi'nce sosyal medya paylaşımları nedeniyle verilen 18 aylık ertelenmiş hapis cezası",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t225",
+   "baslik": "AYM'nin 2019'daki askerî operasyonda öldürülen kişiye ilişkin yeni soruşturma kararı ve kararın yerel savcılıkta uygulanması",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-17",
+   "son_hareket": "2026-11-17",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t226",
+   "baslik": "Şerafettin Can Atalay v. Türkiye (11503/24) kararının icrası: tahliye, md. 46 tedbirleri ve AYM kararlarının uygulanmasına ilişkin genel tedbir",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-18",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t227",
+   "baslik": "17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bakırcı ve diğerleri (md. 5) ile Peksak (md. 8) ve üç aylık ödeme süreleri",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-18",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 6
+  },
+  {
+   "id": "t228",
+   "baslik": "Ağır hasta mahpuslar için Adalet Bakanlığı önünde başlatılan günlük protesto ve Tuncer Sağlam'ın 7 Kasım'daki ölümü",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-11-18",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t229",
+   "baslik": "Raad van State'in 10 Kasım 2026 tarihli BRS.26.005847 sayılı kararı: iltica başvurusunun incelenmeye alınmaması kararına karşı başvuru",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-18",
+   "son_hareket": "2026-11-18",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t230",
+   "baslik": "17 Kasım 2026 sabahı İzmir merkezli operasyonlarda gözaltına alınan avukatların (Veysi Çetin ve diğerleri) akıbeti",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-22",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t231",
+   "baslik": "TMSF'nin Boydak ailesinden el konulan Form Sünger'i üçüncü kez ihaleye çıkarması ve 5 Ocak 2027 ihalesi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-19",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t232",
+   "baslik": "Cumhurbaşkanlığı İletişim Başkanlığı'nın 'üç ayda 1.072 hesap' sayısı ile İFÖD'ün 2.137 hesap sayımı arasındaki fark",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t233",
+   "baslik": "19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un kapsamı",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-11-19",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 4
+  },
+  {
+   "id": "t234",
+   "baslik": "BM özel raportörlerinin PKK 'barış yasası'na ilişkin altı sayfalık yazısı ve Türkiye'nin yanıtı",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-11-20",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t235",
+   "baslik": "Adalet Bakanı hakkındaki video nedeniyle gazeteci ve medya çalışanlarının sorgulanması",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-20",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t236",
+   "baslik": "Rechtbank Den Haag NL25.57048 (19 Kasım 2026): sonraki iltica başvurusu ve usul masrafları kararının gerekçesi",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-20",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t237",
+   "baslik": "ICJ'nin Al-Haq direktörü Shawan Jabarin'e konulan seyahat yasağı ve ABD yaptırımının Schengen vizesine etkisi",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-20",
+   "son_hareket": "2026-11-20",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t238",
+   "baslik": "Sözcü medya grubunun televizyon ve haber sitesine devlet el koyması sonrası mali direktöre ev hapsi, üç kişiye adli kontrol",
+   "alan": "İfade ve basın özgürlüğü / Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-21",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t239",
+   "baslik": "İçişleri Bakanlığı'na dayandırılan 10 günlük operasyon bilançosu: 28 ilde 83 gözaltı, 47 tutuklama, 22 adli kontrol, 14 derdest işlem",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-21",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t240",
+   "baslik": "Mustafa Özönder dosyası: 73 yaşındaki hükümlünün Marmara Cezaevi'nde 34 aydır tutulması ve CMK 109 uyarınca ev hapsi talebi",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-11-21",
+   "son_hareket": "2026-11-22",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t241",
+   "baslik": "AYM'nin ihlal kararları nedeniyle ödenen tazminatlarda 2026'nın ilk on ayındaki %465 artış ve rakamların kaynağı",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-21",
+   "son_hareket": "2026-11-21",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t242",
+   "baslik": "INTERPOL kırmızı bültenle aranan M.O.'nun Büyükçekmece'de yakalanması ve bunu izleyecek iade usulü",
+   "alan": "INTERPOL bildirimleri ve kırmızı bülten",
+   "acildi": "2026-11-22",
+   "son_hareket": "2026-11-22",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t243",
+   "baslik": "Solidarity with OTHERS'ın ağır hasta mahpus serisinde Evin Zapsu dosyasının açılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-11-23",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t244",
+   "baslik": "COP31'in Antalya'da kapanış kararı kabul edilmeden sona ermesi ve konferans boyunca iklim hesaplarına uygulanan engeller",
+   "alan": "BM insan hakları mekanizmaları / İfade ve basın özgürlüğü",
+   "acildi": "2026-11-23",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 3
+  },
+  {
+   "id": "t245",
+   "baslik": "Birleşik Krallık İçişleri Bakanlığı'nın Manş geçişlerine yönelik kıyı sensörü ve İHA gözetim alımları",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-23",
+   "son_hareket": "2026-11-23",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t246",
+   "baslik": "Özakça ve Gülmen v. Türkiye (45940/17, 46171/17) kararının icrası: 12.500 ve 16.300 avro tazminatın üç aylık ödeme süresi ve hastane/yoğun bakım koşullarına ilişkin md. 3 bulgusu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-24",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 2
+  },
+  {
+   "id": "t247",
+   "baslik": "AYM'nin gerekçeli karar hakkı ihlali tespitleri üzerine infazın durdurulup yeniden yargılama açılması pratiği (Gülten Sayın, Mehmet Parlak)",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-24",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t248",
+   "baslik": "İçişleri Bakanlığı'nın 71 ilde 455 şüpheliye yönelik eşzamanlı 'mali suç örgütleri' operasyonu ve el koyma/kayyım sonuçları",
+   "alan": "Yaptırım listeleri ve malvarlığı dondurma",
+   "acildi": "2026-11-24",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t249",
+   "baslik": "Silvan'daki mağarada bulunan kalıntılara ilişkin İHD, Diyarbakır Barosu ve ÖHD'nin savcılığa başvurusu",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-24",
+   "son_hareket": "2026-11-24",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t250",
+   "baslik": "BM Keyfî Tutuklama Çalışma Grubu'nun 3 Eylül 2026 tarihli Selçuk Kozağaçlı görüşü: serbest bırakma, tazminat ve bağımsız soruşturma çağrılarına Türkiye'nin yanıtı",
+   "alan": "BM insan hakları mekanizmaları",
+   "acildi": "2026-11-25",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t251",
+   "baslik": "'Albatros' kod adlı gizli tanık beyanının Adalet Bakanlığı alımları soruşturmasında ve OHAL Komisyonu kararlarında kullanımı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-25",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t252",
+   "baslik": "AİHM'in Letonya, Litvanya ve Polonya–Belarus sınırındaki 'göçün araçsallaştırılması' kararları ve md. 3 eşiği",
+   "alan": "İade, adli yardım ve iltica",
+   "acildi": "2026-11-25",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 1
+  },
+  {
+   "id": "t253",
+   "baslik": "Brüksel Hukuk Merkezi–Solidarity with Others ortak raporu (2013–2026, 87 sayfa, 20 bölüm) ve iltica/iade dosyalarında kullanımı",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-25",
+   "son_hareket": "2026-11-25",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t254",
+   "baslik": "Candar ve diğerleri v. Türkiye: 23 KHK ihracı başvurucusu, hükümete iletilen sorular ve beş hukukçunun 105 sayfalık görüşü",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-26",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t255",
+   "baslik": "Nuriye Gülmen ve Yasemin Karadağ'ın yeniden yargılamada 10'ar yıl hapse mahkûm edilmesi ve tutukluluğun sürmesi",
+   "alan": "AİHM başvuruları ve kararların icrası",
+   "acildi": "2026-11-26",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t256",
+   "baslik": "İhraç öğretmen Mustafa Tekinay'ın Sincan Cezaevi'ndeki ölümü ve ölüm nedeninin açıklanmaması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı (mahpus sağlığı)",
+   "acildi": "2026-11-26",
+   "son_hareket": "2026-11-26",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t257",
+   "baslik": "Duruşma salonu kapasitesi gerekçesiyle gazeteci ve gözlemcilerin duruşmalara alınmaması pratiği",
+   "alan": "İfade ve basın özgürlüğü / adil yargılanma",
+   "acildi": "2026-11-27",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t258",
+   "baslik": "Tutuklu gazetecilerin 25 saatlik nakille Artvin'e sevk edilmesi",
+   "alan": "İfade ve basın özgürlüğü",
+   "acildi": "2026-11-27",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t259",
+   "baslik": "Kenya'da Tanzanyalı insan hakları savunucusunun gündüz vakti kaçırılması",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "acildi": "2026-11-27",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 0
+  },
+  {
+   "id": "t260",
+   "baslik": "26 Kasım 2026 tarihli Resmî Gazete'de yayımlanan AYM'nin 16/7/2026 tarihli kararının içeriği",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "acildi": "2026-11-27",
+   "son_hareket": "2026-11-27",
+   "hareket_sayisi": 0
+  }
+ ]
+}

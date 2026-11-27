@@ -1,43 +1,55 @@
 {
- "gun": "2026-11-26",
- "olusturma": "2026-11-26T19:56+00:00",
+ "gun": "2026-11-27",
+ "olusturma": "2026-11-27T10:34+00:00",
  "uyarilar": [
+  {
+   "id": "alan:2026-11-27:Altı kuruluş Sözcü TV, Halk TV ve TELE1'deki kayyımların kal",
+   "tur": "öncelikli alan",
+   "duzey": "orta",
+   "baslik": "Altı kuruluş Sözcü TV, Halk TV ve TELE1'deki kayyımların kaldırılmasını istedi",
+   "alan": "İfade ve basın özgürlüğü / yaptırım ve malvarlığı tedbirleri",
+   "not": "Çağrı, üç ayrı kuruluşa ilişkin kayyım kararlarını tek bir örüntü olarak tanımlıyor ve medya sahibi ile yöneticilere yönelik ceza soruşturmalarının yayın odalarının denetimini ele geçirmek için kullanıldığını ileri sürüyor. Merkezin el koyma/kayyım dosyalarında (t109, t238) bireysel vakaların birleştirilerek sunulması bakımından anlamlı.",
+   "kayitlar": [
+    "a1fbb36e9e"
+   ],
+   "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
+  },
   {
    "id": "karar:001-253649",
    "tur": "yeni karar metni",
    "duzey": "yüksek",
-   "baslik": "Açlık grevindeki iki ihraç eğitimcinin 2017'deki tutukluluğu ve tutulma koşulları",
-   "alan": "md. 2, 2-1, 3, 5, 5-1, 5-3, 15, 15-1, 35, 35-2-b, 35-3-a, 41",
-   "not": "Mahkeme her iki başvurucu bakımından md. 5/1 ve 5/3 ihlali saptadı. İkinci başvurucu (Gülmen) yönünden md. 3 ihlali iki ayrı dönem için kuruldu: 24 Mayıs–26 Eylül 2017 arası Sincan cezaevi ve cezaevi hastanesi koşulları ile 26 Eylül–1 Aralık 2017 arası Numune Hastanesi yoğun bakım ve mahpus koğuşu koşulları; ikinci dönem bakımından md. 2'nin ayrıca incelenmesine gerek görülmedi. Birinci başvurucuya 12.500, ikinci başvurucuya 16.300 avro manevi tazminat hükmedildi; ödeme süresi md. 44/2 uyarınca kararın kesinleşmesinden itibaren üç ay.",
+   "baslik": "Açlık grevindeki iki ihraç kamu görevlisinin tutukluluğu ve tutulma koşulları",
+   "alan": "md. 2, 2-1, 3, 5-1, 5-3, 15, 35, 41",
+   "not": "Mahkeme, her iki başvurucuya tutukluluk sırasında yeterli tıbbi yardım ve bakım sağlandığı gerekçesiyle md. 2 bakımından ihlal bulmadı. İkinci başvurucu yönünden 24 Mayıs–26 Eylül 2017 arasında Sincan Cezaevi ve cezaevi hastanesindeki, 26 Eylül–1 Aralık 2017 arasında Numune Hastanesi yoğun bakım ünitesi ve mahkûm koğuşundaki maddi tutulma koşulları bakımından md. 3 ihlali saptandı; ikinci dönem için md. 2'nin ayrıca incelenmesine gerek görülmedi. Her iki başvurucu bakımından md. 5/1 ve 5/3 ihlali kuruldu. Karar, birinci başvurucuya 12.500 avro, ikinci başvurucuya 16.300 avro manevi tazminat ödenmesine, ödemenin kararın kesinleşmesinden itibaren üç ay içinde yapılmasına hükmetti.",
    "kayitlar": [],
    "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
   },
   {
-   "id": "takip:2026-11-26:toplu:9",
+   "id": "takip:2026-11-27:toplu:6",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "9 takip dosyasında hareket var",
+   "baslik": "6 takip dosyasında hareket var",
    "alan": "",
-   "not": "AİHM'deki Türkiye kaynaklı derdest başvuru birikiminin seyri ve Yalçın; KHK ile ihraç edilenlerin istihdam ve mali durumuna ilişkin yeni rapor; ABD'de 14203 sayılı Başkanlık Kararnamesi uyarınca ICC'ye uygulanan ya; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle; Tutuklu akademisyen Nuriye Gülmen'in babasının cenazesine izin talebin; Ağır hasta mahpuslar için Adalet Bakanlığı önünde başlatılan günlük pr; 19 Kasım 2026 tarihli Resmî Gazete'de yayımlanan 7531 sayılı Kanun'un ; COP31'in Antalya'da kapanış kararı kabul edilmeden sona ermesi ve konf; Özakça ve Gülmen v. Türkiye (45940/17, 46171/17) kararının icrası: 12.",
+   "not": "İsmail Arı dosyası: eski RTÜK başkanının şikâyeti üzerine gazetecinin ; 17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bak; Sözcü medya grubunun televizyon ve haber sitesine devlet el koyması so; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; AİHM'in Letonya, Litvanya ve Polonya–Belarus sınırındaki 'göçün araçsa; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle",
    "kayitlar": [
-    "6780375d65",
-    "6780375d65",
-    "3ba6ce721f",
-    "673dd445f6",
-    "b2f469302a",
-    "0a35f9b878",
-    "f12b3efe3c",
-    "116facc78c"
+    "c24eb45d15",
+    "282c24f278",
+    "001-253532",
+    "a1fbb36e9e",
+    "a1fbb36e9e",
+    "b5a07f16b3",
+    "e364a7a99a",
+    "673dd445f6"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-26:11",
+   "id": "saglik:2026-11-27:13",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "11 kaynağın akışı hata veriyor",
+   "baslik": "13 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk, Alomaliye, Turkey Tribunal…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: Human Rights Watch - Türkiye, FIDH - Türkiye, Opinio Juris, ENNHRI, European Center for Not-for-Profit Law - ECNL, Scholars at Risk…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
