@@ -1,6 +1,6 @@
 {
  "gun": "2026-11-28",
- "olusturma": "2026-11-28T09:49+00:00",
+ "olusturma": "2026-11-28T11:14+00:00",
  "uyarilar": [
   {
    "id": "alan:2026-11-28:İsviçre'de 18 kuruluş Türkiye'ye geri göndermelerin durdurul",
@@ -30,12 +30,12 @@
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-28:12",
+   "id": "saglik:2026-11-28:21",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
-   "baslik": "12 kaynağın akışı hata veriyor",
+   "baslik": "21 kaynağın akışı hata veriyor",
    "alan": "kaynak sağlığı",
-   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: FIDH - Türkiye, ENNHRI, European Center for Not-for-Profit Law - ECNL, Anadolu Ajansı, Scholars at Risk, Alomaliye…",
+   "not": "Sessizleşen kaynak, çoğu zaman kırılmış bir akıştır: EUAA, EU Sanctions Map, UN Special Procedures, UN Security Council Consolidated List, FIDH - Türkiye, ENNHRI…",
    "kayitlar": [],
    "neden": "Çok sayıda kaynağın akışı hata veriyor; izlemenin kendisi aksıyor."
   }
