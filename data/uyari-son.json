@@ -1,50 +1,36 @@
 {
- "gun": "2026-11-27",
- "olusturma": "2026-11-27T19:45+00:00",
+ "gun": "2026-11-28",
+ "olusturma": "2026-11-28T09:49+00:00",
  "uyarilar": [
   {
-   "id": "alan:2026-11-27:Altı kuruluş Sözcü TV, Halk TV ve TELE1'deki kayyımların kal",
+   "id": "alan:2026-11-28:İsviçre'de 18 kuruluş Türkiye'ye geri göndermelerin durdurul",
    "tur": "öncelikli alan",
    "duzey": "orta",
-   "baslik": "Altı kuruluş Sözcü TV, Halk TV ve TELE1'deki kayyımların kaldırılmasını istedi",
-   "alan": "İfade ve basın özgürlüğü / yaptırım ve malvarlığı tedbirleri",
-   "not": "Çağrı, üç ayrı kuruluşa ilişkin kayyım kararlarını tek bir örüntü olarak tanımlıyor ve medya sahibi ile yöneticilere yönelik ceza soruşturmalarının yayın odalarının denetimini ele geçirmek için kullanıldığını ileri sürüyor. Merkezin el koyma/kayyım dosyalarında (t109, t238) bireysel vakaların birleştirilerek sunulması bakımından anlamlı.",
+   "baslik": "İsviçre'de 18 kuruluş Türkiye'ye geri göndermelerin durdurulmasını istedi",
+   "alan": "İade, adli yardım ve iltica",
+   "not": "Çağrı, İsviçre makamlarının siyasi zulüm riskini eksik değerlendirdiğini ve geri gönderilenlerin dönüşten kısa süre sonra hapsedildiğini ileri sürüyor; bu, merkezin non-refoulement itirazlarında dayandığı 'dönüşte tutuklama' örüntüsüne ilişkin bir iddia. Dosya 6 Kasım'daki gazeteci Mehmet Kılıç ailesi kaydından bu yana ilk kez hareketleniyor.",
    "kayitlar": [
-    "a1fbb36e9e"
+    "c433ae9abe"
    ],
    "neden": "INTERPOL, iade/adli yardım ya da yaptırım alanında bir gelişme var; bu alanlarda kayıt seyrek geldiği için tek gelişme bile izlenir."
   },
   {
-   "id": "karar:001-253649",
-   "tur": "yeni karar metni",
-   "duzey": "yüksek",
-   "baslik": "Açlık grevindeki iki ihraç kamu görevlisinin tutukluluğu ve tutulma koşulları",
-   "alan": "md. 2, 2-1, 3, 5-1, 5-3, 15, 35, 41",
-   "not": "Mahkeme, her iki başvurucuya tutukluluk sırasında yeterli tıbbi yardım ve bakım sağlandığı gerekçesiyle md. 2 bakımından ihlal bulmadı. İkinci başvurucu yönünden 24 Mayıs–26 Eylül 2017 arasında Sincan Cezaevi ve cezaevi hastanesindeki, 26 Eylül–1 Aralık 2017 arasında Numune Hastanesi yoğun bakım ünitesi ve mahkûm koğuşundaki maddi tutulma koşulları bakımından md. 3 ihlali saptandı; ikinci dönem için md. 2'nin ayrıca incelenmesine gerek görülmedi. Her iki başvurucu bakımından md. 5/1 ve 5/3 ihlali kuruldu. Karar, birinci başvurucuya 12.500 avro, ikinci başvurucuya 16.300 avro manevi tazminat ödenmesine, ödemenin kararın kesinleşmesinden itibaren üç ay içinde yapılmasına hükmetti.",
-   "kayitlar": [],
-   "neden": "AİHM'in Türkiye'ye ilişkin yeni bir karar metni indirildi."
-  },
-  {
-   "id": "takip:2026-11-27:toplu:6",
+   "id": "takip:2026-11-28:toplu:4",
    "tur": "izlenen dosyada hareket",
    "duzey": "orta",
-   "baslik": "6 takip dosyasında hareket var",
+   "baslik": "4 takip dosyasında hareket var",
    "alan": "",
-   "not": "İsmail Arı dosyası: eski RTÜK başkanının şikâyeti üzerine gazetecinin ; 17 Kasım 2026 tarihli dört Türkiye kararının icrası: Bulut, Akgül, Bak; Sözcü medya grubunun televizyon ve haber sitesine devlet el koyması so; Halk TV'ye kayyum atanması, yayının durdurulması, sahibi ve 16 kişi ha; AİHM'in Letonya, Litvanya ve Polonya–Belarus sınırındaki 'göçün araçsa; 1 Kasım 2026 tarihli Resmî Gazete'de yayımlanan yargı harçları düzenle",
+   "not": "İsviçre'den Türkiye'ye geri gönderme dosyaları: gazeteci Mehmet Kılıç ; Adalet Bakanlığı'nın Gülen soruşturmalarına ilişkin kümülatif istatist; 16 ilde DEAŞ isnadıyla yürütülen operasyonda yakalanan 51 şüphelinin a; 26 Kasım 2026 tarihli Resmî Gazete'de yayımlanan AYM'nin 16/7/2026 tar",
    "kayitlar": [
-    "c24eb45d15",
-    "282c24f278",
-    "001-253532",
-    "a1fbb36e9e",
-    "a1fbb36e9e",
-    "b5a07f16b3",
-    "e364a7a99a",
-    "673dd445f6"
+    "c433ae9abe",
+    "1718ea8110",
+    "500e4340f7",
+    "7827e24f63"
    ],
    "neden": "Takip listesindeki dosyalarda bugün hareket var."
   },
   {
-   "id": "saglik:2026-11-27:12",
+   "id": "saglik:2026-11-28:12",
    "tur": "kaynak akışı bozuk",
    "duzey": "yüksek",
    "baslik": "12 kaynağın akışı hata veriyor",

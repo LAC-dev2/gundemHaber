@@ -3394,7 +3394,7 @@
    "neden": "İçişleri Bakanlığı duyurusu yalnızca yakalama sayısını veriyor; tutuklama/serbest bırakma oranı ve isnadın dayanağı izlenmeden değerlendirme yapılamaz.",
    "acildi": "2026-10-04",
    "durum": "açık",
-   "son_hareket": "2026-10-17",
+   "son_hareket": "2026-11-28",
    "kayitlar": [
     "35a1abcc0e"
    ],
@@ -3404,6 +3404,13 @@
      "not": "İçişleri Bakanlığı 22 ilde DEAŞ isnadıyla düzenlenen operasyonlarda 59 şüphelinin yakalandığını duyurdu. Bu, 4 Ekim'de 16 ilde 51 şüpheliyle duyurulan operasyondan ayrı yeni bir duyuru; önceki 51 kişinin akıbetine dair bilgi kayıtlarda yok.",
      "kayitlar": [
       "3131c032b0"
+     ]
+    },
+    {
+     "gun": "2026-11-28",
+     "not": "İçişleri Bakanlığı 29 ilde DEAŞ isnadıyla yürütülen operasyonlarda 84 şüphelinin yakalandığını duyurdu [500e4340f7]. Ekim'deki 16 il/51 şüpheli bilançosuna göre hem il hem şüpheli sayısı artmış görünüyor; kayıt başlık düzeyinde, gözaltıların sevk sonucu bilinmiyor.",
+     "kayitlar": [
+      "500e4340f7"
      ]
     }
    ]
@@ -3737,7 +3744,7 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Tek kararla hem bir izleme kuruluşu hem bir haber ajansı hem de sekiz gazetecinin hesabı engellendi ve içeriklerin kaldırılmasına hükmedildi; aynı hesapların daha önce de engellenmiş olması tekrarlanan tedbir pratiğini gösteriyor.",
    "acildi": "2026-10-08",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-13",
    "kayitlar": [
     "93f427a47f"
@@ -3757,7 +3764,9 @@
       "d6133750ae"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-28",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t87",
@@ -4185,7 +4194,7 @@
    "alan": "İfade ve basın özgürlüğü",
    "neden": "Açıklama ilk kez aylık toplu veri (en az 1.270 hesap, 35 milyon takipçi, en az yüzde 90 uyum) ortaya koyuyor ve doğrudan platforma yöneltilmiş bir talep içeriyor; yanıt verilip verilmeyeceği izlenmeli.",
    "acildi": "2026-10-12",
-   "durum": "açık",
+   "durum": "kapandı",
    "son_hareket": "2026-10-13",
    "kayitlar": [
     "0742bf2c17",
@@ -4200,7 +4209,9 @@
       "d6133750ae"
      ]
     }
-   ]
+   ],
+   "kapandi": "2026-11-28",
+   "kapanma_nedeni": "45 gündür hareket yok"
   },
   {
    "id": "t99",
@@ -6049,7 +6060,7 @@
    "neden": "Resmî kaynaklı bu sayılar, AİHM'deki Yalçınkaya grubu başvuru hacminin ve yeniden yargılama taleplerinin ölçeğini değerlendirmede referans oluşturuyor; dönemsel güncellemeleri izlenmeli.",
    "acildi": "2026-11-03",
    "durum": "açık",
-   "son_hareket": "2026-11-25",
+   "son_hareket": "2026-11-28",
    "kayitlar": [
     "9552dc6f13"
    ],
@@ -6118,6 +6129,13 @@
      "not": "Ankara Başsavcılığı'nın Adalet Bakanlığı alımlarına ilişkin soruşturmasında üç ilde 20 kişi gözaltına alındı; dayanak 'Albatros' kod adlı gizli tanığın beyanı. Aynı tanığın 2018'den beri yaklaşık 6.000 kamu görevlisini kategorize eden bir liste verdiği, OHAL Komisyonu kararlarında da kullanıldığı aktarılıyor. [610dd7b356]",
      "kayitlar": [
       "610dd7b356"
+     ]
+    },
+    {
+     "gun": "2026-11-28",
+     "not": "Alman hükümetinin din özgürlüğü raporuna ilişkin aktarım, Adalet Bakanı Gürlek'in Temmuz 2026 rakamlarını yineliyor: 720.338 kişi hakkında işlem, 127.000'den fazla mahkûmiyet, 83.404 kişi hakkında derdest soruşturma/dava, 10.485 kişi cezaevinde [1718ea8110]. Rakamlar önceki brifinglerdeki düzeyle aynı; yeni bir resmî güncelleme yok.",
+     "kayitlar": [
+      "1718ea8110"
      ]
     }
    ]
@@ -6408,11 +6426,19 @@
    "neden": "Federal İdare Mahkemesi reddi onadı; aynı kaynak, İsviçre'den gönderilen en az iki kişinin Türkiye'ye varışta tutuklandığını aktarıyor. Non-refoulement değerlendirmesinin sonradan doğrulanması açısından izlenmeli.",
    "acildi": "2026-11-06",
    "durum": "açık",
-   "son_hareket": "2026-11-06",
+   "son_hareket": "2026-11-28",
    "kayitlar": [
     "fefaf247d9"
    ],
-   "gelismeler": []
+   "gelismeler": [
+    {
+     "gun": "2026-11-28",
+     "not": "İsviçre'de 18 kuruluştan oluşan bir koalisyon, Türkiye'ye sınır dışı etmelerin durdurulmasını istedi; gerekçe olarak İsviçre makamlarının siyasi zulüm riskini eksik değerlendirmesi ve geri gönderilenlerin dönüşten kısa süre sonra tutuklandığı vakalar gösteriliyor [c433ae9abe]. 6 Kasım'daki Mehmet Kılıç ailesi kaydından bu yana bu dosyadaki ilk hareket.",
+     "kayitlar": [
+      "c433ae9abe"
+     ]
+    }
+   ]
   },
   {
    "id": "t187",
@@ -7885,14 +7911,74 @@
    "neden": "Kayıt yalnızca başlık düzeyinde; esas numarası ve iptal/ret sonucu belirlenemiyor. Norm denetimi kararlarının merkezin mevzuat izleme dosyalarıyla ilgisi ancak içerik görüldükten sonra değerlendirilebilir.",
    "acildi": "2026-11-27",
    "durum": "açık",
-   "son_hareket": "2026-11-27",
+   "son_hareket": "2026-11-28",
    "kayitlar": [
     "7827e24f63",
     "b5ce977bc1"
    ],
+   "gelismeler": [
+    {
+     "gun": "2026-11-28",
+     "not": "Resmî Gazete akışında AYM'nin 16/7/2026 tarihli kararına ilişkin kayıt yeniden görünüyor; içerik hâlâ başlık düzeyinde, esas ve karar numarası ile iptal/ret sonucu belirlenemiyor [7827e24f63].",
+     "kayitlar": [
+      "7827e24f63"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t261",
+   "baslik": "Alman hükümetinin 2023-2025 dönemini kapsayan din özgürlüğü raporunda Gülen hareketi mensuplarına ilişkin kaçırma, kötü muamele ve işkence bulguları",
+   "alan": "Gülen hareketi/KHK dosyaları ve sınıraşan baskı",
+   "neden": "Rapor 18 Kasım'da Alman kabinesince onaylanmış bir hükümet belgesi; iltica ve iade dosyalarında menşe ülke bilgisi olarak kullanılabilecek nitelikte. Raporun tam metninin ve Türkiye bölümünün dökümünün izlenmesi gerekir.",
+   "acildi": "2026-11-28",
+   "durum": "açık",
+   "son_hareket": "2026-11-28",
+   "kayitlar": [
+    "1718ea8110"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t262",
+   "baslik": "Avukat İlker Atamer'in yargıya yönelik eleştirileri nedeniyle 20 Kasım 2026'da İstanbul 4. Sulh Ceza Hâkimliği kararıyla tutuklanması",
+   "alan": "İfade ve basın özgürlüğü / avukat hakları",
+   "neden": "İzmir'deki avukat tutuklamaları ve ÇHD-3 dosyasıyla aynı dönemde, mesleki beyan nedeniyle tutuklama örüntüsünü genişletiyor. İtiraz süreci ve isnadın hukuki dayanağı izlenmeli.",
+   "acildi": "2026-11-28",
+   "durum": "açık",
+   "son_hareket": "2026-11-28",
+   "kayitlar": [
+    "b8ad261e37"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t263",
+   "baslik": "M.V. ve diğerleri v. Belçika: karşılama krizinde md. 3 ihlali ve Camara'dan farklı kabul edilebilirlik yaklaşımı",
+   "alan": "Belçika ve AB mevzuatı / İade, adli yardım ve iltica",
+   "neden": "Karar, iç mahkeme kararlarının uygulanmamasını md. 6/1 ve md. 34 sorunu olarak sürdürürken yalnız erkek sığınmacıların uzun süreli yoksunluğunu md. 3 kapsamına alıyor; Belçika'daki dosyalar için doğrudan ilgili. Kararın tam metni ve Camara içtihadıyla ilişkisi netleşmeli.",
+   "acildi": "2026-11-28",
+   "durum": "açık",
+   "son_hareket": "2026-11-28",
+   "kayitlar": [
+    "e5009cb017"
+   ],
+   "gelismeler": []
+  },
+  {
+   "id": "t264",
+   "baslik": "28 Kasım 2026 tarihli Resmî Gazete (sayı 33444) ve 7598 sayılı Türk Kızılay Kanunu'nun kapsamı",
+   "alan": "Mevzuat izleme (çok alanlı)",
+   "neden": "Yeni bir kanun ile 22 madde yayımlandı; içerikler henüz başlık düzeyinde. Dernek/vakıf statüsü ve kamu denetimi bakımından etkisi belirlenmeli.",
+   "acildi": "2026-11-28",
+   "durum": "açık",
+   "son_hareket": "2026-11-28",
+   "kayitlar": [
+    "7cb2c2bbe4"
+   ],
    "gelismeler": []
   }
  ],
- "guncelleme": "2026-11-27T10:34+00:00",
- "acik": 207
+ "guncelleme": "2026-11-28T09:49+00:00",
+ "acik": 209
 }
